@@ -1,5 +1,7 @@
 # Objects Directory
 
+- objects in otherfaces,other lives are transcripts in md
+
 The CollectionBuilder-CSV template includes this objects folder with demo objects. 
 These can deleted when starting a new project. 
 
