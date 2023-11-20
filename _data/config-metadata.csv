@@ -4,6 +4,9 @@ creator,Creator,,,DCTERMS.creator,creator
 archival date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
+interviewee,Interviewee,,,,
+interviewer,Interviewer,true,,,
+transcriber,,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
@@ -13,4 +16,3 @@ findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
-rightsstatement,,,,DCTERMS.rights,license
