@@ -18,9 +18,9 @@ Originally produced in 1991, the Hispanic Oral History Project consists of 22 in
 
 Materials in this collection may contain images, language, or other content that may be offensive or disturbing. These materials are a product of a time and place in history and should be viewed within their historical context. To maintain historical accuracy, the materials appear as they were originally created to serve as historical evidence of the social mindsets, occurrences, behaviors, and norms of their time. They do not reflect the current views of the University of Idaho. For more information about how we treat materials with offensive or disturbing content, please see the University of Idaho Library, Special Collections and Archives [Offensive Content Policy](https://www.lib.uidaho.edu/special-collections/policies.html#offensive-material-in-archival-collections).
 
-{% include feature/image.html objectid="hohp013" %}
+{% include feature/image.html objectid="hohp012" %}
 
-{% include feature/audio.html objectid="hohp014" %}
+{% include feature/audio.html objectid="hohp037" %}
 
 {% include feature/image.html objectid="hohp049" %}
 
