@@ -1,9 +1,11 @@
 display_name,stub,dropdown_parent
 Home,/,
-Browse,/browse.html,
 Subjects,/subjects.html,
 Locations,/locations.html,
 Map,/map.html,
 Timeline,/timeline.html,
-Data,/data.html,
-About,/about.html,
+People,/people/index.html,
+About,,
+New Introduction,/about.html,About
+Original Foreword,/about-foreword.html,About
+About the Digital Collection,/about-collection.html,About

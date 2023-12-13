@@ -25,14 +25,14 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+subjects-fields: subject # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+locations-fields: location;residence # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
@@ -63,7 +63,7 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # comma delimited list, reference url is automatic
 metadata-export-fields: "objectid,parentid,title,name,birth_year,residence,origin,occupation,date,description,duration,interviewer,subjects,locations,interview_count,image_filename,image_large,map_center,map_markers,person_link,interview_link,display_template,object_location,image_small,image_thumb"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "birth_year,residence,,occupation,interviewer,subject,format"
+metadata-facets-fields: "birth_year,residence,occupation,interviewer,subject,format"
 
 ##########
 # Compound Objects 
