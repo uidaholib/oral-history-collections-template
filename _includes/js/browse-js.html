@@ -26,27 +26,15 @@ function makeCard(obj) {
     // placeholder image for lazyload
     var placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
     // find item link
-    var itemHref = `{{ '/items/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`; 
+    var itemHref = `{{ '/people/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`; 
     // find image
     var imgSrc, thumbIcon;
     // if there is a thumb in the csv display it
     if(obj.img) {
         imgSrc = obj.img;
-    // else add an icon based on display_template or format
-    } else {
-        thumbIcon = getIcon(obj.template,obj.format,"thumb");
-    }
+    } 
     var imgAlt = obj.alt ? obj.alt : obj.title;
     
-    // add blur feature for sensitive objects
-    if(obj.sensitive){
-        var blur = 'blur';
-        var warning = '<p class="text-danger small">Warning: This image is of a graphic nature.</p>';
-    } else {
-        var blur = '';
-        var warning = '';
-    }
-
     // start card
     var card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
     // top image for items with image
@@ -54,11 +42,7 @@ function makeCard(obj) {
         card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
     }
     // title
-    card += '<div class="card-body text-center"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
-    // icon thumb for item without image
-    if(thumbIcon){
-        card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';
-    }
+    card += '<div class="card-body"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
     // other fields
     card += '<p class="card-text">';
     {% for f in fields %}{% unless f.hidden == 'true' %}
@@ -68,7 +52,7 @@ function makeCard(obj) {
     var btns = obj[{{ f.field | jsonify }}].split(";");
     for (var i = 0, len = btns.length; i < len; i++) {
         if(btns[i] != "") {
-        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+        card += '<a class="m-1 text-wrap" href="{{ '/index.html' | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
         }
     }
     {% else %}
@@ -78,14 +62,8 @@ function makeCard(obj) {
     }
     {% endunless %}{% endfor %}
     card += '</p>';
-    // media type
-    if(obj.template && obj.template != "") {
-        mediaIcon = getIcon(obj.template,obj.format,"hidden");
-        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(obj.template) + '">' + 
-        obj.template.toUpperCase() + ' ' + mediaIcon + '</a></small></p>';
-    }
     // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
+    card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View ${ obj.parent ? 'Interview Information' : 'Person' }</a>`;
     // close divs
     card += '</div></div></div>';
     // send back big string

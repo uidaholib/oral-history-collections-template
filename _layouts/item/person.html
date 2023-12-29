@@ -41,7 +41,7 @@ gallery: true
             {% for child in children %}
             <div class="card mb-3">
                 <div class="card-body">
-                    <h4><a href="{{ child.object_location | relative_url }}">{{ child.title }}</a></h4>
+                    <h4 id="{{ child.objectid }}"><a href="{{ child.object_location | relative_url }}">{{ child.title }}</a></h4>
                     {%- assign fields = site.data.config-interview-metadata | where_exp: 'item', 'item.display_name != nil' -%}
                     <div class="ps-3">
                         <dl>
