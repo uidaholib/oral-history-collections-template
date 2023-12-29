@@ -8,6 +8,8 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
+{% include feature/nav-menu.html sections="About the Digital Collection;Credits;Migration" %}
+
 ## About the Digital Collection
 
 The Latah County Oral HIstory Collections consists of audio interview recordings and transcriptions for over 300 interviews conducted during the mid-1970s. This collection is a digital representation of the [Latah County Oral History Collection (MG 415)](http://nwda.orbiscascade.org/ark:/80444/xv27761/), which is held by the University of Idaho Library's Special Collections & Archives.
@@ -28,4 +30,7 @@ Digital Production Managers: Kevin Dobbins and Erin Passehl-Stoddart
 
 Student Assistants and Interns: Nate Sirdofsky, Elisabeth (Izzy) Martin, Elizabeth Biancosino, and Katrina Burch
 
-*The original site was migrated in Dec 2023.*
+## Migration
+
+In December 2023, due to changing repository platforms and new development processes, the original LCOH site was migrated.
+This version of the site is a transition that updates the data and web markup, and will be enhanced in the near future with new features to better support this unique oral history content.
