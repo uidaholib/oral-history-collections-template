@@ -1,5 +1,6 @@
 field,display_name
-title,Title
-date,Date
-description,Description
-subject,Subjects
+name,Person
+birth_year,Birth Year
+residence,Residence
+origin,Family Origins
+occupation,Occupation(s)
