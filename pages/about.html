@@ -1,0 +1,44 @@
+---
+title: New Introduction
+layout: page
+permalink: /about.html
+---
+
+<div class="row justify-content-center narrow-page">
+    <div class="col-md-8">
+        <h2>What You Have Here:<br>
+        Introduction to the Online Latah County Oral History Collection</h2>
+
+        <p>by Sam Schrager</p>
+
+        <p>Welcome! You have at your fingertips the stories of over 200 Idahoans, a collection of nearly 600 hours of oral history depicting life in the inland Northwest from the end of the 19th through the early 20th century. Loggers and farmers, teachers and homemakers, business owners and townsfolk: these narrators span a multitude of occupations, ethnicities, and family points of origin in the U.S. and abroad. Most resided in Latah County; some, in nearby spots like Elk River and Lewiston. Many of the conversations stretched over a series of visits; others were single sessions, yet equally rich in detail. The recordings were done by a handful of interviewers; most, by a young man who was new to north Idaho in the 1970s—me.</p>
+
+        <p>When I hear the testimonies now, I wince at dumb questions I posed, and at hints and directions that I failed to heed. I chalk up some of the missteps to callowness in my life at that age. Still, these elders were remarkably generous. There's no mistaking the pleasure they take in recounting their memories, their curiosity as they think back on the past, their care about recalling things truthfully, and their sense of humor about human deeds and foibles, including their own. And when they talked candidly to us young folks then, they were also casting their voices across generations all the way to you.</p>
+
+        <p>Four decades on, I appreciate the wisdom of these men and women more than ever. What strikes me most is their knack for balancing independence and community. They are strong individuals, with a firm grasp of their own aspirations, choices, setbacks and successes. They also have regard for the well-being of others—a concern not just for their family and neighbors, but for the prospering of the community at large, that extends, often, to the region and America as a whole. Tricky as it may look to us to square the interests of self and others, this first post-frontier generation prized both. A century later, when many of the challenges they faced persist (albeit in different forms), we can learn a lot from them.</p>
+
+        <p>Visitors to the site: I hope you can take the time to listen to someone's narrative. And to relax as you do, so you can savor the words, catch inflections in the speaking, and slip into that person's distinctive ways of describing his or her lived experience. If you enjoy it, I hope you'll return for more of this person's stories, or to hear others' stories, and to note events and values that speakers have in common, or about which they differ. And that you'll dig wherever interest and imagination lead you.</p>
+
+        <p>It's a marvel of the digital age that this oral history is now accessible to the public. Kudos to the University of Idaho Library for taking such good care of the collection: first, by transferring the original recordings from cassettes to archival tape in the late 1970s; and now, by opening the accounts to the eyes and ears of all who are drawn to people's stories of this place. Congrats, too, to the Latah County Historical Society for its steadfast support of the project. This website honors the memory of these Northwesterners and a great many others whose lives they recall.</p>
+
+        <p class="text-end">Olympia, WA <br>March 2015</p>
+
+        <hr>
+
+        <p class="my-5">Sam Schrager grew up in Troy, N.Y., came west to go to Reed College in Portland, and in 1972 drifted to Troy, Idaho with his wife Laura. The oral history project inspired him to study folklore at the University of Pennsylvania. After that, he did a study of trial lawyers for the Smithsonian, which resulted in a book, The Trial Lawyer's Art. He's been a faculty member at The Evergreen State College since 1988, teaching American studies and ethnography, always with a good dose of oral history interviewing. He and Laura have three grown children and live on Eld Inlet, near Olympia, WA.</p>
+
+    </div>
+    <div class="col-md-3 ps-5">
+
+        <h3 class="mt-5">Interviewees</h3>
+
+        {% assign interviews = "adair_ione;anderson_ernest;anderson_helen;benscoter_walter" | split: ";" %}
+        {% for i in interviews %}
+        {% include feature/interview-thumb.html objectid=i %}
+        {% endfor %}
+
+        <a class="mt-3 btn btn-outline-pride-gold" href="{{ '/people/index.html' | relative_url }}">More Interviews &raquo;</a>
+
+    </div>
+
+</div>
