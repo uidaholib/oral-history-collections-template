@@ -1,0 +1,78 @@
+---
+# basic layout intended for metadata only type item, designed for linking to external source
+layout: default
+# item-meta adds rich meta markup to the page on production build
+item-meta: true
+gallery: true
+---
+<div class="container py-3">
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/people/index.html' | relative_url }}">People</a></li>
+        <li class="breadcrumb-item active text-dark" aria-current="page">{{ page.person_name }}</li>
+    </ol>
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-4 order-md-2">
+            {% if page.object_location %}
+            <div class="card mb-4 text-center">
+                <a class="spotlight gallery-img" data-download="true" title="{{ page.title | escape }}" href="{{ page.object_location | relative_url }}">
+                    <img src="{{ page.image_small | relative_url }}" alt="{{ page.image_alt_text | default: page.description | default: page.title | escape }}" class="img-fluid {% if page.sensitive %}blur{% endif %}">
+                    <div><small class="text-dark">Click to view full screen</small></div>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="col-md-7">
+
+            <h2 class="mb-3">{{ page.title }}</h2>
+            <p>
+                {% if page.residence %}<strong>Residence:</strong> {{ page.residence }}<br>{% endif %}
+                {% if page.occupation %}<strong>Occupation(s):</strong> {{ page.occupation }}<br>{% endif %}
+                {% if page.origin %}<strong>Family Origin:</strong> {{ page.origin }}{% endif %}
+            </p>
+
+            <h3 class="mb-4">Interviews</h3>
+
+            {% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+            {% for child in children %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4><a href="{{ child.object_location | relative_url }}">{{ child.title }}</a></h4>
+                    {%- assign fields = site.data.config-interview-metadata | where_exp: 'item', 'item.display_name != nil' -%}
+                    <div class="ps-3">
+                        <dl>
+                            {% for f in fields %}{% if child[f.field] %}
+                            <dt class="field">{{ f.display_name }}:</dt>
+                            <dd class="field-value">
+                                {% if f.browse_link == "true" %}
+                                {% assign topics = child[f.field] | split: ";" %}
+                                {% for t in topics %}
+                                <a class="me-3" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
+                                {% endfor %}
+                                {% elsif f.external_link == "true" %}
+                                <a href="{{ child[f.field] }}" target="_blank" rel="noopener">{{ child[f.field] }}</a>
+                                {% else %}
+                                {{ child[f.field] | replace: '""','"' }}{% endif %}
+                            </dd>
+                            {% endif %}{% endfor %}
+                        </dl>
+                        <a href="{{ child.object_location | relative_url }}" class="btn btn-outline-pride-gold">View Interview</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% include item/citation-box.html %}
+            {% include item/contact-btn.html %}
+
+        </div>
+        
+    </div>
+
+    {% include item/browse-buttons.html %}
+    
+</div>
