@@ -60,7 +60,9 @@ gallery: true
                             </dd>
                             {% endif %}{% endfor %}
                         </dl>
-                        <a href="{{ child.object_location | relative_url }}" class="btn btn-outline-pride-gold">View Interview</a>
+                        <a href="{{ child.object_location | relative_url }}" class="btn btn-outline-pride-gold m-1">View Full Interview (audio and transcript)</a><br>
+                        {% if child.audio_location %}<a href="{{ child.audio_location }}" class="btn btn-outline-secondary m-1">Download MP3</a>{% endif %}
+                        {% if child.transcript_pdf %}<a href="{{ child.transcript_pdf }}" class="btn btn-outline-secondary m-1">Original Transcript</a>{% endif %}
                     </div>
                 </div>
             </div>
