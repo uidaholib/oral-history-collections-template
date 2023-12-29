@@ -1,5 +1,5 @@
 field,display_name
-name,Person
+person_name,Person
 birth_year,Birth Year
 residence,Residence
 origin,Family Origins
