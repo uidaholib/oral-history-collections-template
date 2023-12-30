@@ -58,9 +58,9 @@ Sam Schrager <br>August 1977
 </div>
 <div class="col-md-3 ps-5">
 <div class="card my-4 text-center">
-    <img class="card-img-top" src="https://www.lib.uidaho.edu/digital/lcoh/page1.jpg" alt="book cover showing Latah county on Idaho map">
+    <img class="card-img-top" src="https://objects.lib.uidaho.edu/lcoh/page1.jpg" alt="book cover showing Latah county on Idaho map">
     <div class="card-body">
-        <a class="stretched-link" href="https://www.lib.uidaho.edu/digital/lcoh/GuidetoLatahCountyOralHistoryProject.pdf">the original Guide to the Latah County, Idaho Oral History Collection</a>
+        <a class="stretched-link" href="https://objects.lib.uidaho.edu/lcoh/GuidetoLatahCountyOralHistoryProject.pdf">the original Guide to the Latah County, Idaho Oral History Collection</a>
     </div>
 </div>
 <h3 class="mt-5">Interviewees</h3>

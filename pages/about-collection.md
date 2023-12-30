@@ -20,7 +20,7 @@ In the course of preparing this collection, hundreds of cassette tapes were conv
 
 For more information on the OHMS plug-in, see ["OHMS: Enhancing Access to Oral History for Free"](http://ohr.oxfordjournals.org/content/early/2013/03/20/ohr.oht031) by Doug Boyd.
 
-{% include feature/image.html objectid="https://www.lib.uidaho.edu/digital/lcoh/map.jpg" alt="hand drawn map depicting Latah county showing towns and main roads" caption="We transfered a number of different original items into digital surrogates, inlcuding the map above, and over 300 audio cassette tapes, which took over a year to digitize." %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/lcoh/map.jpg" alt="hand drawn map depicting Latah county showing towns and main roads" caption="We transferred a number of different original items into digital surrogates, inlcuding the map above, and over 300 audio cassette tapes, which took over a year to digitize." %}
 
 ## Credits
 
