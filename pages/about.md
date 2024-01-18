@@ -14,9 +14,9 @@ credits: true
 
 ## About the Collection
 
-The *Other Faces, Other Lives: Asian Americans in Idaho* video project includes interviews of eight Asian-American families, specifically Chinese, Japanese, and Filipino, on their lives and experiences in Idaho. 
+The *Other Faces, Other Lives: Asian Americans in Idaho* video project includes interviews of eight Asian American families, specifically Chinese, Japanese, and Filipino, on their lives and experiences in Idaho. The written materials detail the production of the work, such as <a href="/digital/otherfaces/items/otherfaces051.html">interview questions</a>, <a href="/digital/otherfaces/items/otherfaces049.html">outlines</a> and <a href="/digital/otherfaces/items/otherfaces042.html">press releases</a>, and the video elements are excerpts of the full documentary, which is embedded on the <a href="/digital/otherfaces/#maincontent">home page</a>. 
 
-The project was sponsored by the Palouse Asian American Association of Moscow/Pullman and a grant from the Ethnic Heritage Committee of the Idaho Centennial Commission. The interviews cover how their families moved to Idaho, their experiences of being Asian-Americans in Idaho, if they faced discrimination or prejudice, questions regarding their cultural identities, and changes they see to the Asian-American experience in Idaho. The project resulted in the publication and release of the film *Other Faces, Other Lives: Asian Americans in Idaho" on VHS and local broadcasting programs. 
+The project was sponsored by the Palouse Asian American Association of Moscow/Pullman and a grant from the Ethnic Heritage Committee of the Idaho Centennial Commission. The interviews cover how their families moved to Idaho, their experiences of being Asian Americans in Idaho, if they faced discrimination or prejudice, questions regarding their cultural identities, and changes they see to the Asian American experience in Idaho. The project resulted in the publication and release of the film *Other Faces, Other Lives: Asian Americans in Idaho" on VHS and local broadcasting programs. 
 
 {% include feature/image.html objectid="otherfaces045" %}
 
@@ -32,7 +32,7 @@ We chose three archival collections that contained audio or video recordings of 
 
 - [Rural Women's History Project](https://www.lib.uidaho.edu/digital/rwhp/): Interviews with rural women in Latah, Benewah, Clearwater, Nez Perce, and Shoshone counties, Idaho, concerning the changing roles of rural women.
 - [Other Faces, Other Lives](https://www.lib.uidaho.edu/digital/otherfaces/): Interviews from the video project, *Other Faces, Other Lives: Asian Americans in Idaho* of eight 
-Asian-American families about their experiences living, working, and raising a family in Idaho.
+Asian American families about their experiences living, working, and raising a family in Idaho.
 - [Hispanic Oral History Project Interviews](https://www.lib.uidaho.edu/digital/hohp/): 22 interviews of Hispanic immigrants and descendants who lived in Idaho.
 
 These interviews offer a unique and important perspective on the experiences of minority communities living in a predominantly white and rural state throughout the 20th century. This digitization project will allow these voices to speak to us again. Included are 201 hours of first-hand oral history interviews, conducted between 1975 and 1990, that document the experiences of Chinese Americans, Filipino Americans, Hispanic Americans, Japanese Americans, and rural women living in Idaho in the 20th century. 
