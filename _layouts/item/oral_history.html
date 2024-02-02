@@ -55,7 +55,8 @@ custom-foot: js/modal-hash-js.html
 </div>
 
 <div class="mb-4 ">
-    
+    {% if children %}{% assign image_items = children | where_exp: 'item','item.format == "image/jpeg" ' %}{% endif %}
+    {% if image_items %}
     {% include item/child/oh-item-gallery.html %}
-
+    {% endif %}
 </div>
