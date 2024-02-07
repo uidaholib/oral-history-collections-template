@@ -23,10 +23,10 @@ digital-assets: https://www.lib.uidaho.edu/assets
 # title of site appears in banner
 title: Hispanic Oral History Project Interviews
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Hispanic immigrants and their descendants tell their stories of living and working in Idaho.
+tagline: Hispanic immigrants and their descendants tell their stories of living and working in Idaho
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Interviews with Hispanic immigrants and their descendants living in Idaho from the Idaho Hispanic Oral History Project. The interviews resulted in the book, <em>Voces Hispanas: Hispanic Voices of Idaho</em>."
+description: "The Idaho Hispanic Oral History Project interviewed Hispanic immigrants and their descendants living in Idaho in 1991. This collection provides access to the interviews, related materials, and the resulting book, <em>Voces Hispanas: Hispanic Voices of Idaho</em>."
 
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho; history; oral histories; hispanic americans
