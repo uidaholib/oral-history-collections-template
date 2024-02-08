@@ -13,7 +13,7 @@ location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-finding_aid,Finding Aid,
+finding_aid,Finding Aid,,true
 language,Language,,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
