@@ -6,12 +6,14 @@ date,Date Created (ISO Standard),DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 interviewee,Interviewee,,,,
 interviewer,Interviewer,true,,
+duration,Duration,
 transcriber,Transcriber,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
+finding_aid,Finding Aid,
 language,Language,,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
