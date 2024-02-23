@@ -29,11 +29,14 @@ custom-foot: js/modal-hash-js.html
         {% if page.object_location %}<a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="btn btn-outline-primary m-1">
             {% if page.display_template == 'video' and page.object_location contains 'vimeo' %}View on Vimeo{% elsif page.display_template == 'video' and page.object_location contains 'youtu' %}View on YouTube{% elsif page.display_template == 'record'%}Link to Object{% else %}Download {{ page.format | split: '/' | last | default: page.display_template | upcase }}{% endif %}
         </a>{% endif %}
-        {% if children %}{% assign pdf_item = children | where_exp: 'item','item.format == "application/pdf" ' | first %}{% endif %}
-        {% if pdf_item %}
-        <a target="_blank" rel="noopener" href="{{ pdf_item.object_location | relative_url }}" class="btn btn-outline-primary">
-        Download Interview Summary PDF
+        {% if children %}{% assign pdf_items = children | where_exp: 'item','item.format == "application/pdf" ' %}{% endif %}
+        {% if pdf_items %}
+        {% for pdf in pdf_items %}
+        <br>
+        <a target="_blank" rel="noopener" href="{{ pdf.object_location | relative_url }}" class="btn btn-outline-primary m-1">
+        Download {{ pdf.title }} (PDF)
         </a>
+        {% endfor %}
         {% endif %}
         {% if audio_item.object_transcript or page.object_transcript %}
         <div class="collapse mt-3" id="collapseTranscript">
