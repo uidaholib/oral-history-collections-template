@@ -22,7 +22,8 @@ Over 100 interviews were conducted between 1975 and 1980 and included women from
 
 The project identified changes in rural women's roles and how those changes affected their families and communities. Multiple presentations were given about the project in over 20 communities in Latah, Benewah, Clearwater, Nezperce, and Shoshone counties in Northern Idaho. 
 
----
+------
+{:.about-narrowed-content}
 
 Materials in this collection may contain images, language, or other content that may be offensive or disturbing. These materials are a product of a time and place in history and should be viewed within their historical context. To maintain historical accuracy, the materials appear as they were originally created to serve as historical evidence of the social mindsets, occurrences, behaviors, and norms of their time. They do not reflect the current views of the University of Idaho. For more information about how we treat materials with offensive or disturbing content, please see the University of Idaho Library, Special Collections and Archives [Offensive Content Policy](https://www.lib.uidaho.edu/special-collections/policies.html#offensive-material-in-archival-collections).
 
