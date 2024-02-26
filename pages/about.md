@@ -16,17 +16,13 @@ credits: true
 
 The Rural Women's History Project was a project sponsored by the [University of Idaho Women's Center](https://www.uidaho.edu/diversity/edu/womens-center) designed to give insight on the experiences of women in rural communities in Northern Idaho. The project was funded by a grant from the Association for the Humanities in Idaho in the Fall of 1974. This collection is only a selection of the full project records, which is housed at [University of Idaho, Special Collections and Archives](https://archiveswest.orbiscascade.org/ark:/80444/xv42414/).
 
-Over 100 interviews were conducted between 1975 and 1980 and included women from multiple age groups. Each woman was asked a variety of questions ranging from their upbringing, family life, marriage, citizen participation, and had their photograph taken. 
+{% include feature/image.html objectid="rwhp257;rwhp040" %}
 
-{% include feature/image.html objectid="rwhp419" %}
+Over 100 interviews were conducted between 1975 and 1980 and included women from multiple age groups. Each woman was asked a variety of questions ranging from their upbringing, family life, marriage, citizen participation, and had their photograph taken. 
 
 The project identified changes in rural women's roles and how those changes affected their families and communities. Multiple presentations were given about the project in over 20 communities in Latah, Benewah, Clearwater, Nezperce, and Shoshone counties in Northern Idaho. 
 
-{% include feature/image.html objectid="rwhp257" %}
-
-{% include feature/audio.html objectid="rwhp424" %}
-
-{% include feature/image.html objectid="rwhp284" %}
+---
 
 Materials in this collection may contain images, language, or other content that may be offensive or disturbing. These materials are a product of a time and place in history and should be viewed within their historical context. To maintain historical accuracy, the materials appear as they were originally created to serve as historical evidence of the social mindsets, occurrences, behaviors, and norms of their time. They do not reflect the current views of the University of Idaho. For more information about how we treat materials with offensive or disturbing content, please see the University of Idaho Library, Special Collections and Archives [Offensive Content Policy](https://www.lib.uidaho.edu/special-collections/policies.html#offensive-material-in-archival-collections).
 
