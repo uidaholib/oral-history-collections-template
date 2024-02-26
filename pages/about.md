@@ -14,13 +14,13 @@ credits: true
 
 ## About the Collection
 
-The Rural Women's History Project was a project sponsored by the University of Idaho Women's Center designed to give insight on the experiences of women in rural communities in Northern Idaho. The project was funded by a grant from the Association for the Humanities in Idaho in the Fall of 1974. 
+The Rural Women's History Project was a project sponsored by the [University of Idaho Women's Center](https://www.uidaho.edu/diversity/edu/womens-center) designed to give insight on the experiences of women in rural communities in Northern Idaho. The project was funded by a grant from the Association for the Humanities in Idaho in the Fall of 1974. This collection is only a selection of the full project records, which is housed at [University of Idaho, Special Collections and Archives](https://archiveswest.orbiscascade.org/ark:/80444/xv42414/).
 
-Over 100 interviews were conducted between 1975 and 1980 and included women from multiple age groups. Each woman was asked a variety of questions ranging from their upbringing, family life, marriage, citizen participation, and more. 
+Over 100 interviews were conducted between 1975 and 1980 and included women from multiple age groups. Each woman was asked a variety of questions ranging from their upbringing, family life, marriage, citizen participation, and had their photograph taken. 
 
 {% include feature/image.html objectid="rwhp419" %}
 
-In addition to their interview, each woman was photographed. The project identified changes in rural women's roles and how those changes affected their families and communities. Multiple presentations were given about the project in over 20 communities in Latah, Benewah, Clearwater, Nezperce, and Shoshone counties in Northern Idaho. 
+The project identified changes in rural women's roles and how those changes affected their families and communities. Multiple presentations were given about the project in over 20 communities in Latah, Benewah, Clearwater, Nezperce, and Shoshone counties in Northern Idaho. 
 
 {% include feature/image.html objectid="rwhp257" %}
 
@@ -33,7 +33,7 @@ Materials in this collection may contain images, language, or other content that
 
 ## About the Project
 
-Support for this digitization project was provided by the Council on Library and Information Resources (CLIR) through the Recordings at Risk program. The University of Idaho Library Special Collections and Archives received a grant through this program to support the project *Unheard Voices: Digitizing the Oral Histories of Underrepresented Communities in Idaho.* 
+Support for this digitization project was provided by the Council on Library and Information Resources (CLIR) through the [Recordings at Risk](https://www.clir.org/recordings-at-risk/) program. The University of Idaho Library Special Collections and Archives received a grant through this program to support the project *Unheard Voices: Digitizing the Oral Histories of Underrepresented Communities in Idaho.* 
 
 We chose three archival collections that contained audio or video recordings of oral history interviews: [MG 68 Rural Women's History Project](https://archiveswest.orbiscascade.org/ark:/80444/xv42414/), [MG 390 Lily Wai Committee Papers](https://archiveswest.orbiscascade.org/ark:/80444/xv54043/), and [MG 491 Hispanic Oral History Project Interviews](https://archiveswest.orbiscascade.org/ark:/80444/xv327325/). The digitized materials from these collections can be found in the corresponding digital collections: 
 
