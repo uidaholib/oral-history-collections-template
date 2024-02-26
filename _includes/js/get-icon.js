@@ -21,6 +21,9 @@ function getIcon(objectTemplate,objectFormat,svgType) {
     } else if (iconTemplate.includes("video")) {
         iconId = "icon-video";
         iconTitle = "video file icon";
+    } else if (iconTemplate.includes("oral")) {
+        iconId = "icon-audio";
+        iconTitle = "audio file icon";
     } else if (iconTemplate.includes("audio")) {
         iconId = "icon-audio";
         iconTitle = "audio file icon";
