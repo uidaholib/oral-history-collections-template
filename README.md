@@ -1,3 +1,7 @@
+# rwhp notes
+
+- deleted-items.csv lists a set of photograph items that do not currently have an audio element / oral history (as of March 2024). These items are digitally preserved in the Spec partition of the Archive Drive.
+
 # oral-history-collections-template
 
 digital collection base enhanced with OHD features
