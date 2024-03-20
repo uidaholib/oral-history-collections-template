@@ -14,13 +14,13 @@ credits: true
 
 ## About the Collection
 
-The Rural Women's History Project was a project sponsored by the [University of Idaho Women's Center](https://www.uidaho.edu/diversity/edu/womens-center) designed to give insight on the experiences of women in rural communities in Northern Idaho. The project was funded by a grant from the Association for the Humanities in Idaho in the Fall of 1974. This collection is only a selection of the full project records, which is housed at [University of Idaho, Special Collections and Archives](https://archiveswest.orbiscascade.org/ark:/80444/xv42414/).
+The Rural Women’s History Project was designed and carried out by the [University of Idaho Women's Center](https://www.uidaho.edu/diversity/edu/womens-center) with the intention of bringing attention to the experiences of women in rural communities in North Idaho. The project was funded through a grant from the Association for the Humanities in Idaho in 1974. A representative sample of interviews from this project were digitized in 2023 to increase awareness of and access to the collection. To find a full catalogue of project records, view the Special Collections and Archives [finding aid](https://archiveswest.orbiscascade.org/ark:/80444/xv42414/).
 
 {% include feature/image.html objectid="rwhp257;rwhp040" %}
 
-Over 100 interviews were conducted between 1975 and 1980 and included women from multiple age groups. Each woman was asked a variety of questions ranging from their upbringing, family life, marriage, citizen participation, and had their photograph taken. 
+Over 100 interviews were conducted between 1975 and 1980, with women from multiple age groups participating. Interviews covered a variety of topics, including things like a woman's upbringing, family life, marriage, and civic participation. Each interviewee also had their picture taken. 
 
-The project identified changes in rural women's roles and how those changes affected their families and communities. Multiple presentations were given about the project in over 20 communities in Latah, Benewah, Clearwater, Nezperce, and Shoshone counties in Northern Idaho. 
+The project explored the changing roles that rural women played in their families and communities. Multiple presentations were given about the project in over 20 communities in Latah, Benewah, Clearwater, Nez Perce, and Shoshone counties in North Idaho. 
 
 ------
 {:.about-narrowed-content}
