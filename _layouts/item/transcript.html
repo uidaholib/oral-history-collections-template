@@ -1,0 +1,66 @@
+---
+# generic fallback item page layout
+# displays image or icon depending on "image_thumb"
+layout: item/item-page-base
+custom-foot: transcript/js/transcript-js.html;/transcript/js/docready-js.html
+---
+{% assign items = site.data.transcripts[page.objectid] %}
+{%- comment -%} find all words used in the subject metadata {%- endcomment -%}
+{%- assign min-count = 1 -%}
+{%- assign raw-subjects = items | map: "tags" | compact | join: ";" | split: ";" -%}
+{%- capture subjects -%}{% for s in raw-subjects %}{% if s != "" %}{{- s | strip | downcase -}};{% endif %}{%- endfor
+-%}{%-
+endcapture -%}
+{%- assign subjects = subjects | split: ";" -%}
+{%- assign uniqueSubjects = subjects | uniq | sort -%}
+
+{% if page.object_location contains 'vimeo' %}
+{% assign av = "vimeo" %}
+{% assign vimeo_id = page.object_location | split: '/' | last %}
+{%- elsif page.object_location contains 'youtu' -%}
+{% assign av = "youtube" %}
+{% assign youtube_id = page.object_location | split: '/' | last %}
+{% if youtube_id contains 'v=' %}{% assign youtube_id = youtube_id | split: 'v=' | last | split: '&' | first %}
+{% elsif youtube_id contains '?' %}{% assign youtube_id = youtube_id | split: '?' | first %}{% endif %}
+{%- elsif page.object_location contains 'mp3' -%}
+{% assign av = "mp3" %}
+{%- elsif page.object_location contains 'soundcloud' -%}
+{% assign av = "soundcloud" %}
+{% assign soundcloud_id = page.object_location | split: '.com/' | last %}
+{%endif%}
+
+
+{% include transcript/style/filter-style.html %}
+{% if av %}
+<div class="interview-object mt-3 px-0">
+  {% include
+  transcript/player/{{av}}.html %}
+</div>{% endif %}
+<div id="object-meta">
+  <div class="my-2 row px-3 mt-4">
+    <div class="col">
+      <p class="meta"><span class="me-3">
+        {%if page.bio and site.data.theme.transcript-fields contains 'bio'%}<b>Bio:</b>  <span class="me-3">{{page.bio}}</span> <br/>{%endif%}
+        {%if page.description and site.data.theme.transcript-fields contains 'description'%}<b>Description:</b>  <span class="me-3">{{page.description}}</span>{%endif%}{%if
+        page.date and site.data.theme.transcript-fields contains 'date'%}<br><b>Date:</b> <span class="me-3">{{page.date | date: "%B %d, %Y" }}</span>{%endif%} {%if
+          page.location and site.data.theme.transcript-fields contains 'location' %}<b>Location:</b> {{page.location }}{%endif%}
+        {%if page.interviewer and site.data.theme.transcript-fields contains 'interviewer' %} <br><b>Interviewer:</b> {{page.interviewer}}{%endif%}
+        {%if page.interviewer and site.data.theme.transcript-fields contains 'interviewee' %} <br><b>Interviewee:</b> {{page.interviewee}}{%endif%}
+       </p>
+      {% include transcript/item/download-buttons.html %}
+      {% include transcript/item/metadata-modal.html %}
+
+    </div>
+    {% if site.data.theme.transcript-fields contains 'image'  %}
+    {% if page.image_small or page.image_thumb %}
+    <div class="col-md-3 meta{% if av == 'vimeo' or av == 'youtube'%} d-none d-md-block{% endif %}">
+      <img class="img-thumbnail timeline-thumb" src="{{page.image_small | default: page.image_thumb | relative_url }}" alt="{{page.title}}"> 
+
+    </div>
+    {% endif %}
+    {% endif %}
+  </div>
+
+  {% include transcript/item/transcript.html %}
+  
+ 
