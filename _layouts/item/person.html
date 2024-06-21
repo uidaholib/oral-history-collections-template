@@ -1,0 +1,183 @@
+---
+# basic layout intended for metadata only type item, designed for linking to external source
+layout: default
+# item-meta adds rich meta markup to the page on production build
+item-meta: true
+gallery: true
+---
+<div class="container py-3">
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/people/index.html' | relative_url }}">People</a></li>
+        <li class="breadcrumb-item active text-dark" aria-current="page">{{ page.person_name }}</li>
+    </ol>
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-4 order-md-2">
+            {% if page.object_location %}
+            <div class="card mb-4 text-center">
+                <a class="spotlight gallery-img" data-download="true" title="{{ page.title | escape }}" href="{{ page.object_location | relative_url }}">
+                    <img src="{{ page.image_small | relative_url }}" alt="{{ page.image_alt_text | default: page.description | default: page.title | escape }}" class="img-fluid {% if page.sensitive %}blur{% endif %}">
+                    <div><small class="text-dark">Click to view full screen</small></div>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="col-md-7">
+
+            <h2 class="mb-3">{{ page.title }}</h2>
+            <p>
+                {% if page.residence %}<strong>Residence:</strong> {{ page.residence }}<br>{% endif %}
+                {% if page.occupation %}<strong>Occupation(s):</strong> {{ page.occupation }}<br>{% endif %}
+                {% if page.origin %}<strong>Family Origin:</strong> {{ page.origin }}{% endif %}
+            </p>
+
+            <h3 class="mb-4">Interviews</h3>
+
+            {% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid-old == page.objectid' %}
+            {% for child in children %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 id="{{ child.objectid }}"><a href="{{ child.object_location | relative_url }}">{{ child.title }}</a></h4>
+                    {%- assign fields = site.data.config-interview-metadata | where_exp: 'item', 'item.display_name != nil' -%}
+                    <div class="ps-3">
+                        <dl>
+                            {% for f in fields %}{% if child[f.field] %}
+                            <dt class="field">{{ f.display_name }}:</dt>
+                            <dd class="field-value">
+                                {% if f.browse_link == "true" %}
+                                {% assign topics = child[f.field] | split: ";" %}
+                                {% for t in topics %}
+                                <a class="me-3" href="{{ t | strip | url_param_escape | prepend: '/index.html#' | relative_url }}">{{ t | strip }}</a>
+                                {% endfor %}
+                                {% elsif f.external_link == "true" %}
+                                <a href="{{ child[f.field] }}" target="_blank" rel="noopener">{{ child[f.field] }}</a>
+                                {% else %}
+                                {{ child[f.field] | replace: '""','"' }}{% endif %}
+                            </dd>
+                            {% endif %}{% endfor %}
+                        </dl>
+                        <a href="{{ child.object_location | relative_url }}" class="btn btn-outline-pride-gold m-1">View Full Interview (audio and transcript)</a><br>
+                        {% if child.audio_location %}<a href="{{ child.audio_location }}" class="btn btn-outline-secondary m-1">Download MP3</a>{% endif %}
+                        {% if child.transcript_pdf %}<a href="{{ child.transcript_pdf }}" class="btn btn-outline-secondary m-1">Original Transcript</a>{% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% include item/citation-box.html %}
+
+            <div class="card mt-3">
+                <div class="card-header">Rights</div>
+                <div class="card-body">
+                    <dl>
+                        <dt>Rights:</dt>
+                        <dd>In Copyright - Educational Use Permitted. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.</dd>
+                    </dl>
+                </div>
+            </div>
+
+            {% include item/contact-btn.html %}
+
+        </div>
+        
+    </div>
+
+    <div class="text-center">
+        <a class="btn btn-secondary" href="{{ page.previous_item | relative_url }}" id="prev-page-button">&laquo; Previous</a>
+        <a class="btn btn-secondary" href="{{ '/people/index.html' | relative_url }}">Browse People</a>
+        <a class="btn btn-secondary" href="{{ page.next_item | relative_url }}" id="next-page-button">Next &raquo;</a>
+      </div>
+      <div id="item-nav">
+        <div class="d-none d-md-block">
+          <a class="previous btn btn-lg btn-secondary" href="{{ page.previous_item | relative_url }}">&laquo;</a>
+          <a class="next btn btn-lg btn-secondary" href="{{ page.next_item | relative_url }}">&raquo;</a>
+        </div>
+      </div>
+      <script>
+        function leftArrowPressed() {
+          location.href = document.getElementById("prev-page-button").href;
+        };
+      
+        function rightArrowPressed() {
+          location.href = document.getElementById("next-page-button").href;
+        };
+      
+        function leftModalArrowPressed() {
+          // Get the modal element.
+          var modalshow = document.querySelector(".modal.show");
+          // If the modal exists, get the prev button element.
+          if (modalshow) {
+            const prevButton = modalshow.querySelector(".prev-child-button");
+            // If the prev button exists, click it.
+            if (prevButton) {
+              prevButton.click();
+            }
+          }
+        };
+      
+        function rightModalArrowPressed() {
+          // Get the modal element.
+          var modalshow = document.querySelector(".modal.show");
+          // If the modal exists, get the prev button element.
+          if (modalshow) {
+            const nextButton = modalshow.querySelector(".next-child-button");
+            // If the prev button exists, click it.
+            if (nextButton) {
+              nextButton.click();
+            }
+          }
+        };
+      
+        function isModalShown() {
+          // Get the modal element.
+          const modal = document.querySelector(".modal.show");
+      
+          // Check if the modal has the "show" class.
+          return modal && modal.classList.contains("show");
+        };
+      
+        function isSpotlightModalShown() {
+          // Get the modal element.
+          const spotlight = document.getElementById("spotlight");
+          // Check if the modal has the "show" class.
+          return spotlight && spotlight.classList.contains("show");
+        };
+      
+      
+        document.onkeydown = function (evt) {
+          if (isSpotlightModalShown()) {
+      
+      
+          } else if (isModalShown()) {
+            // The modal is shown.
+            evt = evt || window.event;
+            switch (evt.keyCode) {
+              case 37:
+                leftModalArrowPressed();
+                  break;
+              case 39:
+                rightModalArrowPressed();
+                  break;
+            }
+          }
+          else {
+            // The modal is not shown.
+            evt = evt || window.event;
+            switch (evt.keyCode) {
+              case 37:
+                leftArrowPressed();
+                  break;
+              case 39:
+                rightArrowPressed();
+                  break;
+            }
+          }
+      
+        };
+      </script>
+
+</div>

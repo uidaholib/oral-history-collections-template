@@ -24,13 +24,13 @@ item-meta: true
 
         </div>
 
-        <div class="col-12 col-md-10" id="metadata">
+       {% unless page.display_template == 'transcript' %} <div class="col-12 col-md-10" id="metadata">
 
             {% include item/metadata.html %}
 
             {% include item/contact-btn.html %}
 
-        </div>
+        </div>{% endunless %}
 
         <div class="col-md-5 py-4">
             {% include item/citation-box.html %}
