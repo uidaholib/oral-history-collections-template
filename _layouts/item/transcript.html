@@ -2,9 +2,17 @@
 # generic fallback item page layout
 # displays image or icon depending on "image_thumb"
 layout: item/item-page-base
-custom-foot: transcript/js/transcript-js.html;/transcript/js/docready-js.html
+custom-foot: transcript/js/transcript-js.html
 ---
+{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+{% if page.object-transcript contains ".csv"%}
+{% assign transcript = page.object-transcript | remove: ".csv" %}
+{% assign items = site.data.transcripts[transcript] %}
+{% elsif page.object-transcript %}
+{% assign items = site.data.transcripts[page.object-transcript] %}
+{% else %}
 {% assign items = site.data.transcripts[page.objectid] %}
+{% endif %}
 {%- comment -%} find all words used in the subject metadata {%- endcomment -%}
 {%- assign min-count = 1 -%}
 {%- assign raw-subjects = items | map: "tags" | compact | join: ";" | split: ";" -%}
