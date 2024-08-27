@@ -1,6 +1,8 @@
 <script>
 const url = new URL(window.location);
 const params = url.searchParams;
+let urlCodeFilter = url.searchParams.get('filter');
+let urlPeepFilter = url.searchParams.get('id');
 
 function codeFilter(x) {
     document.querySelectorAll("rect").forEach(rect => {
@@ -50,11 +52,14 @@ function codeFilter(x) {
         rect.closest('section.vizdiv')?.setAttribute('aria-hidden', 'false');
     });
     params.set('filter', x);
-    console.log(params.toString());
     var p = params.toString();
+    if (!urlPeepFilter){
+        params.delete('id');
+    }
     window.history.replaceState({}, '', location.pathname + '?' + p);
-}
 
+}
+/*
 function vizFilter(x) {
     document.querySelectorAll("rect").forEach(rect => {
       rect.classList.remove(...Array.from(rect.classList).filter(c => c.startsWith("primary-")));
@@ -73,7 +78,7 @@ function vizFilter(x) {
     document.querySelectorAll("rect:not(.dark)").forEach(rect => {
         rect.closest('section.vizdiv')?.classList.remove("hidden");
     });
-}
+}*/
 
 function interviewFilter(x) {
     document.querySelectorAll("table, svg").forEach(el => {
@@ -131,12 +136,24 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Additional code to initialize tooltips if needed
-document.addEventListener('DOMContentLoaded', function() {
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    tooltipTriggerList.map(function(tooltipTriggerEl) {
-        return new Tooltip(tooltipTriggerEl);
-    });
-});
+(function(){
+    // init bootstrap tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+ if(urlCodeFilter && urlPeepFilter) { 
+     // code to be executed if a filter is contained in the url
+     codeFilter(urlCodeFilter);
+     interviewFilter(urlPeepFilter);
+ }
+ else if (urlCodeFilter){
+    codeFilter(urlCodeFilter);
+}
+ else if (urlPeepFilter){
+    interviewFilter(urlPeepFilter);
+ };
+})();
   
 </script>

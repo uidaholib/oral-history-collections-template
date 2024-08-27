@@ -1,6 +1,8 @@
 <script type="text/javascript">
   let url = new URL(window.location);
   let params = url.searchParams;
+  const filtersSearch = document.getElementById('filters-search');
+  const filterTab = document.getElementById('filter-tab');
 
   function vizFilter(x) {
     var rects = document.getElementsByTagName('rect');
@@ -141,21 +143,22 @@
     }
   }
 
+  
   function scrollToLine(x) {
     var targetElement = document.getElementById(x);
     if (targetElement) {
-      if (!targetElement.classList.contains("featured")){
-        targetElement.classList.add("border-featured")
+        targetElement.classList.add("border-featured");
       }
-      
       // Smoothly scroll to the element
       targetElement.scrollIntoView({
         behavior: 'smooth',  // Enables smooth scrolling
         block: 'start'       // Aligns to the top of the viewport
       });
-      document.getElementById('filter-tab').click();
+      setTimeout(function() {
+        filtersSearch.classList.add("retracted");
+}, 300);
+        
     }
-  }
 
 
 
@@ -189,7 +192,11 @@
 
 
   (function () {
-
+ // init bootstrap tooltips
+ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    })
 
     var dataFilter = url.searchParams.get('q');
     var codeFilter = url.searchParams.get('filter');
@@ -222,20 +229,57 @@
     else if (lineFilter) {
       params.delete('q');
       params.delete('filter');
-      var targetElement = document.getElementById(lineFilter);
-      if (targetElement) {
-        targetElement.classList.add('featured');
-        // Smoothly scroll to the element
-        targetElement.scrollIntoView({
-          behavior: 'smooth',  // Enables smooth scrolling
-          block: 'start'       // Aligns to the top of the viewport
-        });
-      }
+      scrollToLine(lineFilter);  
     }
     else {
 
     };
   })();
 
+  
+//filters tab javascript + scroll-to-top retraction of filters
+document.addEventListener('DOMContentLoaded', function() { 
+      filterTab.addEventListener('click', function() {
+        filtersSearch.classList.toggle('retracted');
+      });
+      document.getElementById('scroll-to-top').addEventListener('click', function() {
+    if (filtersSearch.classList.contains("retracted")) {
+          filtersSearch.classList.remove("retracted");
+          }});
+    });
+
+    function checkStickyAndUpdate() {
+        // Get the element to check for stickiness
+        const stickyElement = document.getElementById('filters-search');
+        const filterTabElement = document.getElementById('filter-tab');
+        // Ensure both elements are present
+        if (!stickyElement || !filterTabElement) {
+            console.warn('Required elements are not found in the DOM.');
+            return;
+        }
+    
+        // Get the bounding rectangle of the sticky element
+        const stickyRect = stickyElement.getBoundingClientRect();
+    
+        // Determine if the sticky element is in its sticky state
+        const isSticky = stickyRect.top <= 0;
+    
+        // Update the class of the filter tab element based on stickiness
+        if (isSticky) {
+            filterTabElement.classList.remove('d-none');
+            {% if site.data.theme.media-scroll == true %}document.getElementById("upper-content").classList.add("media-scroll-wrapper");{% endif %}
+        } else {
+            filterTabElement.classList.add('d-none');
+            if (filtersSearch.classList.contains("retracted")) {
+          filtersSearch.classList.remove("retracted");
+          console.log("removing retracted");
+          };
+          {% if site.data.theme.media-scroll == true %}document.getElementById("upper-content").classList.remove("media-scroll-wrapper");{% endif %}
+        }
+    }
+    
+    // Attach event listeners
+    window.addEventListener('scroll', checkStickyAndUpdate);
+    window.addEventListener('load', checkStickyAndUpdate);
 
 </script>
