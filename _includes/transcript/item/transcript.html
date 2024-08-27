@@ -1,0 +1,20 @@
+{% include transcript/item/filters.html %}
+
+<div id="contents-container" class="pe-5 pb-5 mb-5 border-bottom">
+  {% for item in items %}
+  {% assign prev_index = forloop.index0 | times: 1 | minus: 1 %}
+  {% assign prev_speaker = items[prev_index].speaker %}
+  {% assign mod = forloop.index0 | plus: 1 | modulo: 5 %}
+  <div id="{{page.objectid}}{{ forloop.index0 }}" class="{%- assign tags = item.tags | split: " ;" | compact |
+    where_exp: 'item' , 'item != " "' %}{% for tag in tags %}{{tag | slugify }} {% endfor %}row line py-1">
+    <p class="words col-md-10 col-lg-8 col-print-12 pr-0">
+      {% unless item.speaker == prev_speaker %}{%if item.speaker %}<span class="fw-bold pe-3 pb-3">{{item.speaker |
+        remove: ":"}}: </span>{% endif %}{% endunless %}{{item.words}}
+    </p>
+    <div class="col-12 col-md-2 timestamp mb-3 small text-center">{%if item.timestamp%}{% if av %}{% capture avlink
+      %}transcript/timestamp/{{av | downcase }}.html{% endcapture %}<a
+        href="{% include {{avlink}} %}">{{item.timestamp}}</a>{% else %}{{item.timestamp}}{% endif %}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
