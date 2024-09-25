@@ -34,3 +34,7 @@ These XML files have to be on the Reclaim server.
 
 The viewer interviews XML contain a download link for PDF transcripts.
 The viewer JS contains a map to add download link for MP3s.
+
+## Map function note
+
+The map was removed from the nav bar in 2024 as map data doesn't work with current map function. Lat/long location data could be added in the future to make a useable map.
