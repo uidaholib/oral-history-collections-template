@@ -31,3 +31,4 @@ We chose three archival collections that contained audio or video recordings of 
 - [Hispanic Oral History Project Interviews](https://www.lib.uidaho.edu/digital/hohp/): interviews of Hispanic immigrants and descendants who lived in Idaho.
 
 These interviews offer a unique and important perspective on the experiences of minority communities living in a predominantly white and rural state throughout the 20th century. This digitization project will allow these voices to speak to us again. Included are 201 hours of first-hand oral history interviews, conducted between 1975 and 1990, that document the experiences of Chinese Americans, Filipino Americans, Hispanic Americans, Japanese Americans, and rural women living in Idaho in the 20th century. 
+
