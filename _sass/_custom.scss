@@ -22,3 +22,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+// tweak active color
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #5E48FF;
+}
