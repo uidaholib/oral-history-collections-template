@@ -1,5 +1,7 @@
 {% comment %}
 
+    Customized for podcast transcripts from csv
+
     Adds Item page button links, styled as a Bootstrap btn-group. 
     Features: 
     - View Transcript -- if the item has the field "object_transcript", this button is added along with a Bootstrap collapse containing the transcript content. If the value of "object_transcript" starts with objects/ it will look for the matching transcript file in the objects fold, otherwise it will use the value directly. Both will be rendered in Markdown. 
@@ -22,17 +24,56 @@
 <div class="collapse mt-3" id="collapseTranscript">
     <div class="card card-body text-start">
         {% assign transcript_id = page.object_transcript | split: '/' | last | replace: '.csv','' %}
-        {{ transcript_id }}
         {% assign transcript = site.data.transcripts[transcript_id] %}
         <div class="row">
-        {% for t in transcript %}
+        {% for t in transcript %}{% unless t.speaker == null and t.words == null %}
         <div class="col-md-10"><p><strong>{{ t.speaker }}:</strong> {{ t.words }}</p></div>
         <div class="col-md-2 mb-3 p-2">
-            <a href=""><small>{{ t.timestamp }}</small></a><br>
+            <a href="#media-content" onclick="playTimeStamp('{{ t.timestamp | remove: '[' | remove: ']' }}')"><small>{{ t.timestamp }}</small></a><br>
             <small>{{ t.tags | split: ';' | join: '; ' }}</small>
         </div>
-        {% endfor %}
+        {% endunless %}{% endfor %}
         </div>
     </div>
 </div>
+
+<script>
+
+    function timestampToSeconds(timestamp) {
+        // convert timestamps that look like 00:00:00:00 into seconds
+        const parts = timestamp.split(':');
+        if (parts.length !== 4) {
+            return null; // Invalid format
+        }
+
+        const hours = parseInt(parts[0], 10);
+        const minutes = parseInt(parts[1], 10);
+        const seconds = parseInt(parts[2], 10);
+        const milliseconds = parseInt(parts[3], 10);
+
+        if (isNaN(hours) || isNaN(minutes) || isNaN(seconds) || isNaN(milliseconds)) {
+            return null; // Invalid number
+        }
+
+        return hours * 3600 + minutes * 60 + seconds + milliseconds / 100;
+    }
+
+    function playTimeStamp(timestamp) {
+
+        var timeSeconds = timestampToSeconds(timestamp);
+
+        {% if page.format == 'video/mp4' %}
+        const mediaElement = document.querySelector("#youtube-player");
+        const message = JSON.stringify({ event: 'command', func: 'seekTo', args: [parseInt(timeSeconds), true] });
+        mediaElement.contentWindow.postMessage(message, '*');
+        {% else %}
+        const mediaElement = document.querySelector("#audio-player");
+        mediaElement.currentTime = timeSeconds;
+        mediaElement.play();
+        {% endif %}
+
+    };
+
+
+</script>
 {% endif %} 

@@ -6,9 +6,12 @@ layout: item/item-page-base
 
 
 <div class="card mb-4 text-center">
-    <div class="card-body">
+    <div id="media-content" class="card-body">
     {% if page.format == 'audio/mp3' %}
-        {% include item/audio-player.html %}
+        <audio id="audio-player" controls class="w-100">
+            <source src="{{ page.object_location | relative_url }}">
+            Your browser does not support the audio element. Please <a href="{{ page.object_location | relative_url }}">download the audio file</a>.
+        </audio>
         <div class="mt-2">
 
             {% include item/item-thumb.html %}
@@ -16,11 +19,12 @@ layout: item/item-page-base
         </div>
     {% else %}
 
-        {% if page.object_location contains 'vimeo' or page.object_location contains 'youtu' %}
-        {% include item/video-embed.html %}
-        {% else %}
-        {% include item/video-player.html %}
-        {% endif %}
+        {% assign youtube_id = page.object_location | split: '/' | last %}
+        {% if youtube_id contains 'v=' %}{% assign youtube_id = youtube_id | split: 'v=' | last | split: '&' | first %}
+        {% elsif youtube_id contains '?' %}{% assign youtube_id = youtube_id | split: '?' | first %}{% endif %}
+        <div class="ratio ratio-16x9">
+            <iframe id="youtube-player" title="video embed {{ page.title | escape }}" src="https://www.youtube-nocookie.com/embed/{{ youtube_id }}?rel=0&modestbranding=1&enablejsapi=1" allowfullscreen></iframe>
+        </div>
 
     {% endif %}
         
