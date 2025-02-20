@@ -1,0 +1,34 @@
+---
+# basic custom layout supporting video or audio podcast episodes
+# plus transcript csv in _data/transcripts
+layout: item/item-page-base
+---
+
+
+<div class="card mb-4 text-center">
+    <div class="card-body">
+    {% if page.format == 'audio/mp3' %}
+        {% include item/audio-player.html %}
+        <div class="mt-2">
+
+            {% include item/item-thumb.html %}
+        
+        </div>
+    {% else %}
+
+        {% if page.object_location contains 'vimeo' or page.object_location contains 'youtu' %}
+        {% include item/video-embed.html %}
+        {% else %}
+        {% include item/video-player.html %}
+        {% endif %}
+
+    {% endif %}
+        
+        <div class="mt-2">
+
+            {% include item/podcast-download-buttons.html %}
+
+        </div>
+
+    </div>
+</div>
