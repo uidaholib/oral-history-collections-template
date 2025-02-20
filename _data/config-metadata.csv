@@ -1,14 +1,17 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+guest,Guest,
+host,Host,
+creator,Creator,,,DCTERMS.creator,creator
 description,Description,,,DCTERMS.description,description
+duration,Duration,
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
+original_url,Original Link,
 findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
