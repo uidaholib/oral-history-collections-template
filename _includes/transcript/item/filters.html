@@ -1,19 +1,21 @@
 <!-- cb: _includes/transcript/item/filters.html -->
 {% if site.data.theme.search-and-filters == false %}
 <div style="height:1px; width:1px;opacity:0;">
-<div class="row my-3 sticky-top bg-white border-bottom border-left border-right d-print-none py-3 w-md-75" id="filters-search" style="height:1px; width:1px;opacity:0;">
-  <div id="filter-tab" class="d-none filter-tab col-4 col-lg-2 text-center justify-content-end bg-primary text-white small px-1 py-1" style="height:1px; width:1px;opacity:0;"></div>
-</div></div>
+  <div class="row my-3 sticky-top bg-white border-bottom border-left border-right d-print-none py-3 w-md-75" id="filters-search" style="height:1px; width:1px;opacity:0;">
+    <div id="filter-tab" class="d-none filter-tab col-4 col-lg-2 text-center justify-content-end bg-primary text-white small px-1 py-1"></div>
+  </div>
+</div>
 {% else %}
-<div class="row my-3 {% unless site.data.theme.search-and-filters-sticky == false %}sticky-top {% endunless %}bg-white border-bottom border-left border-right d-print-none py-3 w-md-75" id="filters-search">
+<div class="row my-3 {% unless site.data.theme.search-and-filters-sticky == false %}sticky-top {% endunless %} bg-white border-bottom border-left border-right d-print-none py-3 w-md-75" id="filters-search">
   <div class="col {% unless site.data.filters %}d-none{% endunless %}">
     <select id="filters" title="Filter by Topic" aria-label="Topic filtering dropdown select option" class="filters py-1 form-select border border-primary" onchange="filterLines(this.value)">
       <option value="all" class="reset" selected="selected reset">Filter by Topic</option>
       {% assign filters = site.data.filters %}
       {% for filter in filters %}
       {% assign tag = filter.tag | slugify %}
-      {%if uniqueSubjects contains tag %}<option value="{{ tag }}">{{filter.description | capitalize}}
-        ({{filter.tag}})</option>{%endif%}
+      {% if uniqueSubjects contains tag %}
+      <option value="{{ tag }}">{{ filter.description | capitalize }} ({{ filter.tag }})</option>
+      {% endif %}
       {% endfor %}
     </select>
   </div>
@@ -25,27 +27,74 @@
             <input type="text" class="form-control border border-primary py-1" placeholder="Search..." aria-label="Search"
               aria-describedby="goButton" id="quicksearch">
             <div class="input-group-append">
-              <button class=" rounded-right border border-primary btn btn-primary p-1" type="submit"
+              <button class="rounded-right border border-primary btn btn-primary p-1" type="submit"
                 title="Search" alt="Search" id="goButton"
                 onclick="var searchval = document.getElementById('quicksearch').value; searchLines(searchval);">Go</button>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <button class="reset btn btn-sm btn-primary input-group-text float-end float-md-none mt-2 mt-md-0" onclick="{% if site.data.filters %}vizFilter('all');{% else %}resetVals();{% endif %}">Reset Filters</button>
+          <button class="reset btn btn-sm btn-primary input-group-text float-end float-md-none mt-2 mt-md-0"
+            onclick="{% if site.data.filters %}vizFilter('all');{% else %}resetVals();{% endif %}">Reset Filters</button>
         </div>
       </div>
     </div>
   </div>
   <div id="filtersearch-dropdown" class="col-12 d-none mt-3">
     <h5 id="linecount" class="d-none small ms-3"><span id="numberof"></span></h5>
-
-    <select class="w-100 col-md-8 mb-2 form-select p-2 border border-primary" id="searchResults" onchange="scrollToLine(this.value);">
-
-    </select>
+    <select class="w-100 col-md-8 mb-2 form-select p-2 border border-primary" id="searchResults" onchange="scrollToLine(this.value);"></select>
   </div>
-  <div id="filter-tab" class="d-none filter-tab col-4 col-lg-2 text-center justify-content-end bg-primary text-white small px-1 py-1">
+  <!-- Filter Toggle Button -->
+  <div id="filter-tab" class="filter-tab col-4 col-lg-2 text-center justify-content-end bg-primary text-white small px-1 py-1">
     <span id="hide-filters-text">Hide Filters &#9650;</span>
-    <span id="show-filters-text">Show Filters &#9660;</span>
+    <span id="show-filters-text" class="d-none">Show Filters &#9660;</span>
   </div>
-</div>{% endif %}
+</div>
+<!-- Non-sticky Show Filters Button -->
+<div id="show-filters-top" class="d-none text-center bg-primary text-white small py-1">
+  <span>Show Filters &#9660;</span>
+</div>
+{% endif %}
+
+<!-- JavaScript for Toggle Functionality -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const filterTab = document.getElementById("filter-tab");
+    const filtersSearch = document.getElementById("filters-search");
+    const hideText = document.getElementById("hide-filters-text");
+    const showText = document.getElementById("show-filters-text");
+    const showFiltersTop = document.getElementById("show-filters-top");
+
+    if (filterTab && filtersSearch) {
+        // Ensure the button is visible
+        filterTab.classList.remove("d-none");
+
+        // Set initial state: Filters are shown by default
+        hideText.classList.remove("d-none");
+        showText.classList.add("d-none");
+
+        filterTab.addEventListener("click", function () {
+            filtersSearch.classList.toggle("d-none");
+
+            if (filtersSearch.classList.contains("d-none")) {
+                // Filters are now hidden
+                hideText.classList.add("d-none");
+                showText.classList.remove("d-none");
+                showFiltersTop.classList.remove("d-none");
+            } else {
+                // Filters are now visible
+                hideText.classList.remove("d-none");
+                showText.classList.add("d-none");
+                showFiltersTop.classList.add("d-none");
+            }
+        });
+
+        showFiltersTop.addEventListener("click", function () {
+            filtersSearch.classList.remove("d-none");
+            hideText.classList.remove("d-none");
+            showText.classList.add("d-none");
+            showFiltersTop.classList.add("d-none");
+        });
+    }
+});
+</script>
