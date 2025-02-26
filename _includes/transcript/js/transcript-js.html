@@ -12,7 +12,7 @@
       params.set('filter', x);
       var p = params.toString();
       window.history.replaceState({}, '', location.pathname + '?' + p);
-      {% unless site.data.theme.search-and-filters == false %} 
+      {% unless site.data.theme.search-and-filters == false %}
       document.getElementById('filters').value = x;
       {% endunless %}
     }
@@ -74,7 +74,10 @@
       {% if site.data.filters %}
       document.getElementById("filters").selectedIndex = 0;
       {% endif %}
+      // Add screen reader announcement
       let numberofint = document.querySelectorAll('.featured').length;
+      let statusMessage = numberofint + " lines match your query: " + x;
+      document.getElementById("search-status-announcer").textContent = statusMessage;
       document.getElementById("numberof").innerHTML = numberofint + " lines match your query --><i> " + x + "</i>";
       document.getElementById("searchResults").innerHTML = searchResults;
       document.getElementById("linecount").classList.remove("d-none");
@@ -83,7 +86,7 @@
     }
   }
 
-  {% if site.data.filters %} 
+  {% if site.data.filters %}
   function filterLines(x) {
     resetVals();
     var itemcontainer = document.getElementById("contents-container");
@@ -128,7 +131,7 @@
     document.getElementById("linecount").classList.remove("d-none");
     document.getElementById("filtersearch-dropdown").classList.remove("d-none");
     countforFilter(filterClass);
-    if (filtersSearch.classList.contains("retracted")) 
+    if (filtersSearch.classList.contains("retracted"))
     { setTimeout(function () { filtersSearch.classList.add("retracted"); }, 300); }
   }
 
@@ -155,12 +158,15 @@
 
 
   function scrollToLine(x) {
-    {% if site.data.theme.media-scroll == true %} 
-    upperElement.classList.add("media-scroll-wrapper"); 
+    {% if site.data.theme.media-scroll == true %}
+    upperElement.classList.add("media-scroll-wrapper");
     {% endif %}
-    
+
     var targetElement = document.getElementById(x);
     if (targetElement) {
+      // Announce to screen readers which line we're jumping to
+      let lineNum = x.replace(/[^0-9]/g, '');
+      document.getElementById("search-status-announcer").textContent = "Navigated to line " + lineNum;
       targetElement.classList.add("border-featured");
       // Set tabindex to make element focusable
       targetElement.setAttribute('tabindex', '0');
@@ -172,10 +178,10 @@
       // Focus on the element after scroll
       targetElement.focus();
     }
-  
+
     // if filters are not retracted, wait 300ms then retract them after scrolling function activated
-    if (!filtersSearch.classList.contains("retracted")) { 
-      setTimeout(function () { filtersSearch.classList.add("retracted"); }, 300); 
+    if (!filtersSearch.classList.contains("retracted")) {
+      setTimeout(function () { filtersSearch.classList.add("retracted"); }, 300);
     }
   }
 
@@ -200,7 +206,7 @@
         words[i].getElementsByClassName('text-danger')[0].classList.remove('text-danger');
       }
     }
-    {% if site.data.filters %} 
+    {% if site.data.filters %}
     var svgContainer = document.getElementById("colorViz");
     var rects = svgContainer.getElementsByTagName('rect');
     for (i = 0; i < rects.length; i++) {
@@ -253,18 +259,18 @@
     };
   })();
 
-  
+
   //filters tab javascript + scroll-to-top retraction of filters
   document.addEventListener('DOMContentLoaded', function () {
       // check height of upper element containing av + metadata and viz
       var upperHeight =  upperElement.offsetHeight;
-      // make the first sections minimum height equal to this height so that when the AV section moves down the page, the page height stays the same. First checks to see if the heigh is less than 300px and makes min-height 350px in that instance, which happens on mobile when going down to specific line. 
+      // make the first sections minimum height equal to this height so that when the AV section moves down the page, the page height stays the same. First checks to see if the heigh is less than 300px and makes min-height 350px in that instance, which happens on mobile when going down to specific line.
           if (upperHeight < 300) {
           step0.style.minHeight = "350px";
         } else {
           step0.style.minHeight = upperHeight + "px";
         }
-      
+
       {% unless site.data.theme.search-and-filters == false %}
         // add event listener so that when tab is clicked, filters element retracts up the page
         filterTab.addEventListener('click', function () {
@@ -275,14 +281,14 @@
     document.getElementById('scroll-to-top').addEventListener('click', function () {
       {% unless site.data.theme.search-and-filters == false %}
         // if scroll-to-top button clicked and filters are retracted, un retract them
-        if (filtersSearch.classList.contains("retracted")) { 
+        if (filtersSearch.classList.contains("retracted")) {
             filtersSearch.classList.remove("retracted"); }
       {% endunless %}
       {% if site.data.theme.media-scroll == true %}
           // if the AV section is classed as moving down the page, remove it after 200 ms upon the scroll-to-top button being pushed
-        if (upperElement.classList.contains("media-scroll-wrapper")) { 
-            setTimeout(function () { upperElement.classList.remove("media-scroll-wrapper"); }, 200); 
-             } 
+        if (upperElement.classList.contains("media-scroll-wrapper")) {
+            setTimeout(function () { upperElement.classList.remove("media-scroll-wrapper"); }, 200);
+             }
       {% endif %}
       });// end scroll to top listener
     }); // end content loaded listener function
@@ -292,10 +298,10 @@
   function throttle(mainFunction, delay) {
     let timerFlag = null; // Variable to keep track of the timer
 
-    // Returning a throttled version 
+    // Returning a throttled version
     return (...args) => {
       if (timerFlag === null) { // If there is no timer currently running
-        mainFunction(...args); // Execute the main function 
+        mainFunction(...args); // Execute the main function
         timerFlag = setTimeout(() => { // Set a timer to clear the timerFlag after the specified delay
           timerFlag = null; // Clear the timerFlag to allow the main function to be executed again
         }, delay);
