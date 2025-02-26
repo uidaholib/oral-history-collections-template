@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/nav-menu.html sections="About Context;Idaho Humanities Council;About the Collection" %}
+{% include feature/nav-menu.html sections="About Context;Idaho Humanities Council;About the Collection;Cover Image Attribution" %}
 
 ## About Context 
 
@@ -49,3 +49,7 @@ The first two years of the program it was coordinated by a program officer at th
 We are all fellow travelers on this journey through humanity/the human experience. The humanities deepen our understanding of what it means to be human by exploring history, politics, literature and more to help us navigate the world around us. Join IHC staff as we talk with scholars, experts, and keepers of knowledge across Idaho’s communities to share what they are thinking, writing, and talking about. *Context* will be your guide as you explore the humanities.
 
 Presented by the Idaho Humanities Council, Context is our way of connecting you to experts, scholars, and ideas. Our goal is to help provide context on topics, both fun and serious, which shape the world we live in. We hope to strike the spark on your sense of exploration and discovery as you listen. Get involved at www.idahohumanities.org" speaker="Idaho Humanities Council" %}
+
+## Cover Image Attribution
+
+Photograph courtesy Roger Peterson of the US Forest Service under CC 2.0 license. ["Along the Nez Perce National Historic Trail Lolo Motorway, central Idaho, August 13th 2015."](https://www.flickr.com/photos/fsnorthernregion/20521907423/){:target="_blank" rel="noopener"} 
