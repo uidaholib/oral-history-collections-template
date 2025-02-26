@@ -30,10 +30,10 @@ central-search:
 # title of site appears in banner
 title: Context Podcast Digital Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Copy Pending
+tagline: Exploring Idaho through the Humanities
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Copy Pending"
+description: "The Context digital collection preserves over 100 recorded conversations with humanities scholars, capturing their research, reflections, and ideas from 2020 to 2024. Originally launched by the Idaho Humanities Council as Connected Conversations during the COVID-19 pandemic, this program evolved into a podcast series that engaged Idahoans with discussions on history, philosophy, literature, politics, and more. Through these recordings, the Idaho Humanities Council provides a lasting resource that explores the human experience, fostering curiosity, dialogue, and deeper understanding of the world around us."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho; history; boise 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
