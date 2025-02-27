@@ -7,11 +7,11 @@ custom-foot: transcript/js/visualization-js.html
 {% assign items = site.data[site.metadata] %}
 
 <!-- Sort transcripts by title instead of objectid -->
-{% assign sorted_transcripts = items | sort: "title" %}
+{% assign sorted_transcripts = items | sort: "interviewee" %}
 
 <div class="container p-4 p-md-5">{% unless site.data.theme.as-data == false %}{% include transcript/filters-data-download-modal.html %}{% endunless %}
-  <h2 id="visualize-by-subject">Searching Transcript by Tags</h2>
-  <p>Click a colored circle/tag to see where they are discussed in recordings. Results are sorted alphabetically by recording title.</p>
+  <h2 id="visualize-by-subject">Searching Transcripts by Tag</h2>
+  <p>Select a colored circle/tag to see where they are discussed in recordings. Results are sorted alphabetically by interviewee.</p>
 
   <div class="row" role="group" aria-labelledby="filterGroupLabel">
     <div id="filterGroupLabel" class="visually-hidden d-none">Filter transcripts by subject</div>
