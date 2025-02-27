@@ -63,7 +63,7 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # comma delimited list, reference url is automatic
 metadata-export-fields: "title,date,creator,description,subject,guest,host,duration,source,format,type,language,rights,rightsstatement,original_url,original_media_url"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "guest,host,subject,creator,format"
+metadata-facets-fields: "interviewee,interviewer,subject,creator,format"
 
 ##########
 # Compound Objects 
@@ -81,7 +81,7 @@ search-child-objects: true # true / false - if true, child objects will appear o
 ##########
 # Transcripts / Oral History as Data Options 
 # 
-transcript-fields: "description,date,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
+transcript-fields: "interviewee,interviewer,description,date,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
 # list the fields you'd like displayed, separated by comma
 media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
 search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
