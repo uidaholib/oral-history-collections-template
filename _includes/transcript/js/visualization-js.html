@@ -84,7 +84,8 @@
             statusElement.textContent = statusMessage;
         }
     
-        // Move focus to first result for keyboard users
+        // Remove the focus movement code
+        /*
         setTimeout(() => {
             const firstVisibleRow = document.querySelector('tr:not(.hidden)');
             if (firstVisibleRow) {
@@ -105,6 +106,7 @@
                 }
             }
         }, 100);
+        */
     }
     /*
     function vizFilter(x) {
@@ -236,4 +238,3 @@
     })();
     
     </script>
-    
