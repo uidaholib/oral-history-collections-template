@@ -1,8 +1,8 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
-guest,Guest,
-host,Host,
+interviewee,Interviewee,
+interviewer,Interviewer,
 creator,Creator,,,DCTERMS.creator,creator
 description,Description,,,DCTERMS.description,description
 duration,Duration,
@@ -12,6 +12,7 @@ latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
 original_url,Original Link,
+original_media_url,Original Media Link,
 findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,

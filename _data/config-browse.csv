@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-guest,Guest,
-host,Host,
+interviewee,Guest,
+interviewer,Host,
 subject,,true
 location,,true
 identifier,,,true,Identifier

@@ -8,6 +8,7 @@ layout: page
   <div class="col-md-8">
 
     {% include index/description.html %}
+    {% include feature/alert.html text="Note: Recording descriptions are adapted from original text." color="light" align="right" %}
     {% include index/carousel.html title="Sample Items" %}
     
   </div>
@@ -17,7 +18,7 @@ layout: page
 
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="clearwater" %}
     
-    {% include index/objects.html %}
+    {% include index/objects.html object_field="format" %}
 
   </div>
   <div class="col-md-12">

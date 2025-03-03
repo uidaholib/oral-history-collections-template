@@ -8,11 +8,11 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: context_110
+featured-image: https://objects.lib.uidaho.edu/context/context_111.jpg
 # optional: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: 8em # the margin from the top your title portion will appear.
+home-title-y-padding: 10em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: top # Default is top
+home-banner-image-position: center # Default is top
 # optional: add content alert on the home page to indicate offensive material is present in the collection
 content-alert: false # true / false
 
@@ -61,9 +61,9 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,date,creator,description,subject,guest,host,duration,source,format,type,language,rights,rightsstatement,original_url,original_media_url"
+metadata-export-fields: "title,date,creator,description,subject,interviewee,interviewer,duration,source,format,type,language,rights,rightsstatement,original_url,original_media_url"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "guest,host,subject,creator,format"
+metadata-facets-fields: "interviewee,interviewer,subject,creator,format"
 
 ##########
 # Compound Objects 
@@ -77,6 +77,21 @@ data-child-objects: false # true / false - if true, child objects will appear li
 carousel-child-objects: false # true / false - if true, child objects will appear on homepage carousel
 browse-child-objects: false # true / false - if true, child objects will appear on browse page and child objects' metadata will populate cloud pages like Subjects page and Locations page, as well as featured terms boxes on the home page
 search-child-objects: true # true / false - if true, child objects will appear on on search page along with parent objects
+
+##########
+# Transcripts / Oral History as Data Options 
+# 
+transcript-fields: "interviewee,interviewer,description,date,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
+# list the fields you'd like displayed, separated by comma
+media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
+search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
+search-and-filters-sticky: true ## true/false --> determines if the search and filter options are sticky to the top of the page as a user scrolls down a transcript
+
+##########
+# Visualization page / Oral History as Data Options 
+# 
+as-data: true ## true/false --> determines if the "As Data" button and modal that pops up if you click it will appear at the top right of the visualization page
+transcript-contents: true ## true/false --> determines if the contents of the individual interviews will appear and be filtered at the bottom of the visualization page (below the color coded portion)
 
 
 ##########
