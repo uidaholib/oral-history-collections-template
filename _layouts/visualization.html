@@ -13,10 +13,10 @@ custom-foot: transcript/js/visualization-js.html
   <h2 id="visualize-by-subject">Searching Transcripts by Tag</h2>
   <p><b>Subjects</b> apply to entire recordings using standardized language for searching across digital collections, while <b>tags</b> are themes that are applied to specific sections of dialogue and are unique to this collection. Select a colored circle/tag to see where they are discussed in recordings. Results are sorted alphabetically by interviewee.</p>
 
-  <div class="row" role="group" aria-labelledby="filterGroupLabel">
-    <div id="filterGroupLabel" class="visually-hidden d-none">Filter transcripts by subject</div>
+  <h3 id="filterGroupLabel" class="visually-hidden">Filter transcripts by subject</h3>
+  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4" role="group" aria-labelledby="filterGroupLabel">
     {% for n in site.data.filters %}
-    <div class="col-md-3 col-4">
+    <div class="col">
         <svg class="legend" width="100%" height="25px" data-id="{{ n.tag | slugify }}"
              aria-labelledby="legendTitle{{ forloop.index }}" role="button"
              aria-label="Filter by {{ n.tag }}" tabindex="0" style="cursor:pointer;"
