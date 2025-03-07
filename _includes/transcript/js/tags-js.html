@@ -1,0 +1,74 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const transcripts = document.querySelectorAll(".contentsdiv");
+  const filterButtons = document.querySelectorAll("svg.legend");
+  const resetButton = document.getElementById("reset");
+  const filterStatus = document.getElementById("filter-status");
+  let selectedTags = new Set();
+
+  // Initially hide all transcript sections
+  function hideAllTranscripts() {
+      transcripts.forEach(section => section.style.display = "none");
+  }
+  hideAllTranscripts();
+
+  function filterTranscripts() {
+      let anyVisible = false;
+
+      transcripts.forEach(section => {
+          const transcriptId = section.classList[1]; // Assuming transcript class is 2nd in list
+          const rows = document.querySelectorAll(`.${transcriptId} tr`);
+          let hasMatchingTag = false;
+
+          rows.forEach(row => {
+              const rowTags = row.className.split(" ");
+              if (rowTags.some(tag => selectedTags.has(tag))) {
+                  hasMatchingTag = true;
+              }
+          });
+
+          if (hasMatchingTag || selectedTags.size === 0) {
+              section.style.display = "block";
+              anyVisible = true;
+          } else {
+              section.style.display = "none";
+          }
+      });
+
+      updateFilterStatus(anyVisible);
+  }
+
+  function updateFilterStatus(anyVisible) {
+      if (selectedTags.size === 0) {
+          filterStatus.textContent = "No filters currently applied.";
+      } else if (!anyVisible) {
+          filterStatus.textContent = "No matching transcripts found.";
+      } else {
+          filterStatus.textContent = `Filtering by: ${[...selectedTags].join(", ")}`;
+      }
+  }
+
+  // Handle tag selection for filtering
+  filterButtons.forEach(legend => {
+      legend.addEventListener("click", function () {
+          const tag = this.getAttribute("data-id");
+
+          if (selectedTags.has(tag)) {
+              selectedTags.delete(tag);
+              this.setAttribute("aria-pressed", "false");
+          } else {
+              selectedTags.add(tag);
+              this.setAttribute("aria-pressed", "true");
+          }
+
+          filterTranscripts();
+      });
+  });
+
+  // Reset button logic
+  resetButton.addEventListener("click", function () {
+      selectedTags.clear();
+      filterButtons.forEach(legend => legend.setAttribute("aria-pressed", "false"));
+      hideAllTranscripts();
+      updateFilterStatus(false);
+  });
+});
