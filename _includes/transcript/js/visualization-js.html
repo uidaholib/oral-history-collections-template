@@ -115,7 +115,7 @@ async function updateTooltipsFromJson() {
       const segment = data.segments[segmentIndex];
       if (!segment) return;
       
-      // Format the tooltip text
+      // Set the tooltip text
       let tooltipText = segment.words;
       if (segment.tags && segment.tags.length > 0) {
         tooltipText += ` (Subjects: ${segment.tags.join(', ')})`;
@@ -126,8 +126,10 @@ async function updateTooltipsFromJson() {
       
       // Make sure aria-label is properly set on the parent link
       const parentLink = rect.closest('a');
-      if (parentLink) {
+      if (parentLink && segment.words) {
         parentLink.setAttribute('aria-label', `Jump to this line (starting with '${segment.words.substring(0, 20)}...') in the webpage for this transcript`);
+      } else if (parentLink) {
+        parentLink.setAttribute('aria-label', `Jump to this segment in the webpage for this transcript`);
       }
     });
   });
@@ -160,8 +162,8 @@ async function populateTranscriptContent() {
     if (!data || !data.segments) continue;
     
     html += `
-      <section class="contentsdiv">
-        <h3 class="my-4 ${transcriptId}"><a href="/items/${transcriptId}.html">${data.interviewee || data.title}</a></h3>
+      <section class="contentsdiv" id="content-${transcriptId}">
+        <h3 class="my-4 ${transcriptId}"><a href="/items/${transcriptId}.html">${data.title || data.interviewee}</a></h3>
         <table class="my-4 p-2 border bg-light  ${transcriptId}">
     `;
     
@@ -322,20 +324,31 @@ function codeFilter(filterClass) {
  * Filter by interview
  */
 function interviewFilter(interviewId) {
-  // Show all tables and SVGs initially
-  document.querySelectorAll("table, svg").forEach(el => {
-    el.classList.remove("hidden");
-    el.removeAttribute("aria-hidden");
+  // Hide all visualization divs and content divs first
+  document.querySelectorAll("section.vizdiv, section.contentsdiv").forEach(section => {
+    section.classList.add("hidden");
   });
   
-  // Hide non-matching elements
-  document.querySelectorAll('table:not(.' + interviewId + '), svg.chart:not(.' + interviewId + '), h3:not(.' + interviewId + ')').forEach(el => {
-    el.classList.toggle("hidden");
-    el.removeAttribute("aria-hidden");
-  });
+  // Show only the selected interview sections
+  const vizDiv = document.getElementById(`vizdiv-${interviewId}`);
+  if (vizDiv) {
+    vizDiv.classList.remove("hidden");
+  }
+  
+  const contentDiv = document.getElementById(`content-${interviewId}`);
+  if (contentDiv) {
+    contentDiv.classList.remove("hidden");
+  }
   
   // Update URL
   updateUrlParams(params, 'id', interviewId);
+  
+  // Announce for screen readers
+  const statusElement = getElement('filter-status');
+  if (statusElement) {
+    const title = document.getElementById(`header${interviewId}visualization`)?.textContent || interviewId;
+    statusElement.textContent = `Filtered to show only: ${title}`;
+  }
 }
 
 /**
@@ -429,8 +442,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Set up interview filter handlers
-  document.querySelectorAll("h3.toggle_int").forEach(h3 => {
-    h3.addEventListener('click', async function() {
+  document.querySelectorAll(".toggle_int").forEach(element => {
+    element.addEventListener('click', async function() {
       const intFilter = this.getAttribute("data-id");
       
       // If data isn't loaded yet, load it first
