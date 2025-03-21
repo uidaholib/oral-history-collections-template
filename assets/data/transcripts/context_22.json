@@ -1,0 +1,7635 @@
+{
+  "title": "The Blue Humanities",
+  "interviewee": "Dr. T.S. McMillin",
+  "interviewer": "Johanna Bringhurst",
+  "date": "2023-10-16",
+  "subjects": [
+    "humanities",
+    "rivers",
+    "literature",
+    "humanities",
+    "hope",
+    "education"
+  ],
+  "segments": [
+    {
+      "id": "context_22_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_22_1",
+      "index": 1,
+      "speaker": "Johanna Bringhurst",
+      "words": "Hello everyone, and welcome to context. This program is brought to you by the Idaho Humanities Council with funding from the National Endowment for the Humanities. The views expressed here today do not necessarily represent those of the IHC or the NIH. My name is Joanna Bringhurst. And joining us today is T. S> McMillin. Doctor McMillin is a professor of English and literary scholar at Oberlin College.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_22_2",
+      "index": 2,
+      "speaker": "Johanna Bringhurst",
+      "words": "He received a Distinguished Teaching Award from Oberlin College for 2020, and was named Thomas J. Klutz Neck Fellow in the Humanities for 2021. He is the author of a number of articles on literature and the environmental humanities. His books include Our Preposterous Use of Literature: Emerson and the Nature of Reading, The Meaning of Rivers: Flow and Reflection in American Literature, and an open access digital book on the Los Angeles River called Strange Waters.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:34:04]"
+    },
+    {
+      "id": "context_22_3",
+      "index": 3,
+      "speaker": "Johanna Bringhurst",
+      "words": "In 2016, he was a participating member in an initiative of the United Nations titled Harmony with nature. This is a special episode of context specifically for teachers. Doctor McMillin was a favorite scholar at the recent Teacher Institute by the IHC, called an environment of Hope that focused on the environmental humanities. Doctor McMillin will be presenting an audio and video format.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:05:21]"
+    },
+    {
+      "id": "context_22_4",
+      "index": 4,
+      "speaker": "Johanna Bringhurst",
+      "words": "If you were listening through our podcast, you can view his complete presentation on YouTube. Doctor McMillin, thank you for joining me today to teach us about the Blue Humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:32:13]"
+    },
+    {
+      "id": "context_22_5",
+      "index": 5,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "For having me, Joanna, it's great to see you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:43:02]"
+    },
+    {
+      "id": "context_22_6",
+      "index": 6,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Again and to be working with you. And I see.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:45:00]"
+    },
+    {
+      "id": "context_22_7",
+      "index": 7,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I'm going to share my screen.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:48:14]"
+    },
+    {
+      "id": "context_22_8",
+      "index": 8,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Now as we get started.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:49:16]"
+    },
+    {
+      "id": "context_22_9",
+      "index": 9,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I'm hoping with this presentation on the Blue Humanities to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:57:16]"
+    },
+    {
+      "id": "context_22_10",
+      "index": 10,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Contribute to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:01:23]"
+    },
+    {
+      "id": "context_22_11",
+      "index": 11,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Your.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:03:11]"
+    },
+    {
+      "id": "context_22_12",
+      "index": 12,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Work by giving you another way of thinking about what you do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:03:25]"
+    },
+    {
+      "id": "context_22_13",
+      "index": 13,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "As educators. I'm conscious of,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:09:10]"
+    },
+    {
+      "id": "context_22_14",
+      "index": 14,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Very.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:13:02]"
+    },
+    {
+      "id": "context_22_15",
+      "index": 15,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Conscious of the pressures that are already upon you as a teacher. one of my favorite writers, William James, wrote quite a while ago that our.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:02:13:19]"
+    },
+    {
+      "id": "context_22_16",
+      "index": 16,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Teachers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:23:21]"
+    },
+    {
+      "id": "context_22_17",
+      "index": 17,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Are.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:24:22]"
+    },
+    {
+      "id": "context_22_18",
+      "index": 18,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Overworked.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:25:09]"
+    },
+    {
+      "id": "context_22_19",
+      "index": 19,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Already. Everyone who adds a jot.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:26:04]"
+    },
+    {
+      "id": "context_22_20",
+      "index": 20,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Or tittle of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:29:10]"
+    },
+    {
+      "id": "context_22_21",
+      "index": 21,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Unnecessary weight.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:30:19]"
+    },
+    {
+      "id": "context_22_22",
+      "index": 22,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To their burden.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:31:26]"
+    },
+    {
+      "id": "context_22_23",
+      "index": 23,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is a foe of education.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:02:33:10]"
+    },
+    {
+      "id": "context_22_24",
+      "index": 24,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I do not mean for this presentation to be a foe of education.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:02:36:09]"
+    },
+    {
+      "id": "context_22_25",
+      "index": 25,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I'm hoping to not add a.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:41:23]"
+    },
+    {
+      "id": "context_22_26",
+      "index": 26,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Jot or a tittle of burden to the work that you do. In fact, I'm hoping to perhaps lessen it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:43:22]"
+    },
+    {
+      "id": "context_22_27",
+      "index": 27,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "By giving you a different perspective, for thinking about what it is that you do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:49:26]"
+    },
+    {
+      "id": "context_22_28",
+      "index": 28,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "As an educator. You probably know that education is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:58:20]"
+    },
+    {
+      "id": "context_22_29",
+      "index": 29,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One of those areas.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:01:22]"
+    },
+    {
+      "id": "context_22_30",
+      "index": 30,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Where hope.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:03:05]"
+    },
+    {
+      "id": "context_22_31",
+      "index": 31,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Begins.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:05:08]"
+    },
+    {
+      "id": "context_22_32",
+      "index": 32,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Education can actually change. One's being through changing the ways one lives in the world.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:06:22]"
+    },
+    {
+      "id": "context_22_33",
+      "index": 33,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "William James again.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:14:23]"
+    },
+    {
+      "id": "context_22_34",
+      "index": 34,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Wrote that education consists.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:16:21]"
+    },
+    {
+      "id": "context_22_35",
+      "index": 35,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In the organizing of resources in the human being, of powers of conduct which shall fit human beings to their social and physical world.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:18:29]"
+    },
+    {
+      "id": "context_22_36",
+      "index": 36,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Education can change.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:30:13]"
+    },
+    {
+      "id": "context_22_37",
+      "index": 37,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Human beings.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:32:10]"
+    },
+    {
+      "id": "context_22_38",
+      "index": 38,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "By adjusting the ways in which.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:33:18]"
+    },
+    {
+      "id": "context_22_39",
+      "index": 39,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We behave.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:35:29]"
+    },
+    {
+      "id": "context_22_40",
+      "index": 40,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The ways in which we behave.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:38:00]"
+    },
+    {
+      "id": "context_22_41",
+      "index": 41,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In various.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:39:04]"
+    },
+    {
+      "id": "context_22_42",
+      "index": 42,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Spheres. And it does this by changing our habits.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:39:23]"
+    },
+    {
+      "id": "context_22_43",
+      "index": 43,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "As James put it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:43:17]"
+    },
+    {
+      "id": "context_22_44",
+      "index": 44,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Education is for behavior, and habits are the stuff.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:44:19]"
+    },
+    {
+      "id": "context_22_45",
+      "index": 45,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of which behavior consists.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:50:10]"
+    },
+    {
+      "id": "context_22_46",
+      "index": 46,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You can see in a passage.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:53:15]"
+    },
+    {
+      "id": "context_22_47",
+      "index": 47,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "From James's 19th century late 19th century book Talks to teachers, that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:54:24]"
+    },
+    {
+      "id": "context_22_48",
+      "index": 48,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "He's he's pretty serious about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:00:13]"
+    },
+    {
+      "id": "context_22_49",
+      "index": 49,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "This habit business.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:01:29]"
+    },
+    {
+      "id": "context_22_50",
+      "index": 50,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "He says. That's what we're made of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:02:28]"
+    },
+    {
+      "id": "context_22_51",
+      "index": 51,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Our lives as humans is made of habits. And these.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:04:25]"
+    },
+    {
+      "id": "context_22_52",
+      "index": 52,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Habits, taken together, push us forward, drag us forward into wherever it is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:08:11]"
+    },
+    {
+      "id": "context_22_53",
+      "index": 53,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We may be going.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:14:29]"
+    },
+    {
+      "id": "context_22_54",
+      "index": 54,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "With that in mind, you might consider education then.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:16:27]"
+    },
+    {
+      "id": "context_22_55",
+      "index": 55,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "As something like gardening, as.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:20:24]"
+    },
+    {
+      "id": "context_22_56",
+      "index": 56,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Pruning some habits, nourishing others.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:23:20]"
+    },
+    {
+      "id": "context_22_57",
+      "index": 57,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then the question becomes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:26:29]"
+    },
+    {
+      "id": "context_22_58",
+      "index": 58,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "What habits.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:28:21]"
+    },
+    {
+      "id": "context_22_59",
+      "index": 59,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Do we want to cultivate in our.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:29:29]"
+    },
+    {
+      "id": "context_22_60",
+      "index": 60,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Students? That question was on my.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:32:01]"
+    },
+    {
+      "id": "context_22_61",
+      "index": 61,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Mind as I designed this presentation. And I'm going to give you a brief map now of the things that I'd like to cover today.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:34:25]"
+    },
+    {
+      "id": "context_22_62",
+      "index": 62,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We'll start off thinking about why I teach the blue humanities, but why teach.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:44:15]"
+    },
+    {
+      "id": "context_22_63",
+      "index": 63,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Looking at underlying principles and goals of teaching in general? I'll be thinking a lot about connectivity and connection here. the whys and wherefores of education are made up of this kind of connectivity. I think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:50:05]"
+    },
+    {
+      "id": "context_22_64",
+      "index": 64,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And the question a way to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:02:17]"
+    },
+    {
+      "id": "context_22_65",
+      "index": 65,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Put this question would be, why do you want.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:03:23]"
+    },
+    {
+      "id": "context_22_66",
+      "index": 66,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:06:06]"
+    },
+    {
+      "id": "context_22_67",
+      "index": 67,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Cultivate, certain habits in other people?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:06:18]"
+    },
+    {
+      "id": "context_22_68",
+      "index": 68,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You know, how is it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:11:05]"
+    },
+    {
+      "id": "context_22_69",
+      "index": 69,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That you can contribute to the way people.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:12:09]"
+    },
+    {
+      "id": "context_22_70",
+      "index": 70,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And change.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:14:28]"
+    },
+    {
+      "id": "context_22_71",
+      "index": 71,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Through working on their habits? Why do you want to do that?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:15:23]"
+    },
+    {
+      "id": "context_22_72",
+      "index": 72,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then the second part.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:18:27]"
+    },
+    {
+      "id": "context_22_73",
+      "index": 73,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of the presentation, be thinking about what you might teach.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:19:28]"
+    },
+    {
+      "id": "context_22_74",
+      "index": 74,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In teaching the blue humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:23:21]"
+    },
+    {
+      "id": "context_22_75",
+      "index": 75,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A little bit more about what the humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:25:24]"
+    },
+    {
+      "id": "context_22_76",
+      "index": 76,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Are thinking with.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:27:25]"
+    },
+    {
+      "id": "context_22_77",
+      "index": 77,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You about curricular questions and using water and flow to inform education. Here it's asking again, what habits do you want to cultivate in people?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:29:15]"
+    },
+    {
+      "id": "context_22_78",
+      "index": 78,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then finally, we'll conclude with how.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:42:06]"
+    },
+    {
+      "id": "context_22_79",
+      "index": 79,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To teach blue Humanities. Some thoughts on approaches to and methods of teaching.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:44:02]"
+    },
+    {
+      "id": "context_22_80",
+      "index": 80,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "How to change students.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:48:29]"
+    },
+    {
+      "id": "context_22_81",
+      "index": 81,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Habits. I'll be emphasizing provocation here in education as well as reflection. And all of this is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:51:05]"
+    },
+    {
+      "id": "context_22_82",
+      "index": 82,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is really about the blue.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:57:14]"
+    },
+    {
+      "id": "context_22_83",
+      "index": 83,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Humanities, which have to do with water. That's the blue part. environmental humanities is a larger field of which blue humanities is a subset.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:58:14]"
+    },
+    {
+      "id": "context_22_84",
+      "index": 84,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Water.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:07:29]"
+    },
+    {
+      "id": "context_22_85",
+      "index": 85,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Really important. It connects with just about everything that we do. It's ubiquitous except where it isn't. And that can be a real problem. it's very familiar where we know water well and yet do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:08:29]"
+    },
+    {
+      "id": "context_22_86",
+      "index": 86,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Things about it that we don't.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:20:21]"
+    },
+    {
+      "id": "context_22_87",
+      "index": 87,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Know that we are quite unfamiliar with.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:22:11]"
+    },
+    {
+      "id": "context_22_88",
+      "index": 88,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So water has a lot to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:24:13]"
+    },
+    {
+      "id": "context_22_89",
+      "index": 89,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Offer us as teachers in thinking about how to get students interested in the work that we have for them. the humanities are in general about connections, and the blue humanities use water to help us think about those connections.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:26:08]"
+    },
+    {
+      "id": "context_22_90",
+      "index": 90,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So why teach blue humanities?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:47:01]"
+    },
+    {
+      "id": "context_22_91",
+      "index": 91,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Connections are important to me.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:52:29]"
+    },
+    {
+      "id": "context_22_92",
+      "index": 92,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I'm interested in as a teacher. I've been interested in connecting what goes on in the classroom to life more generally. I had experiences as a student,",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:06:54:23]"
+    },
+    {
+      "id": "context_22_93",
+      "index": 93,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In which I felt that the teachers weren't really.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:05:22]"
+    },
+    {
+      "id": "context_22_94",
+      "index": 94,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interested in connecting education to life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:08:00]"
+    },
+    {
+      "id": "context_22_95",
+      "index": 95,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "They were covering particular.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:10:18]"
+    },
+    {
+      "id": "context_22_96",
+      "index": 96,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Things that they had to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:11:23]"
+    },
+    {
+      "id": "context_22_97",
+      "index": 97,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Cover that were important.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:12:19]"
+    },
+    {
+      "id": "context_22_98",
+      "index": 98,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "that they were charged with covering that sort of thing by their duties.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:14:20]"
+    },
+    {
+      "id": "context_22_99",
+      "index": 99,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "But it wasn't always clear.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:19:14]"
+    },
+    {
+      "id": "context_22_100",
+      "index": 100,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To me as a student.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:07:20:23]"
+    },
+    {
+      "id": "context_22_101",
+      "index": 101,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "How.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:21:25]"
+    },
+    {
+      "id": "context_22_102",
+      "index": 102,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "This connected.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:22:03]"
+    },
+    {
+      "id": "context_22_103",
+      "index": 103,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "With living, with being a better person, with learning, with changing my.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:07:22:24]"
+    },
+    {
+      "id": "context_22_104",
+      "index": 104,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Habits, as it were.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:26:18]"
+    },
+    {
+      "id": "context_22_105",
+      "index": 105,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So connections are important, and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:28:02]"
+    },
+    {
+      "id": "context_22_106",
+      "index": 106,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Humanities are really about connections.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:29:19]"
+    },
+    {
+      "id": "context_22_107",
+      "index": 107,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Especially literature.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:07:31:15]"
+    },
+    {
+      "id": "context_22_108",
+      "index": 108,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "My main area of teaching.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:32:21]"
+    },
+    {
+      "id": "context_22_109",
+      "index": 109,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "that literature involves.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:07:35:03]"
+    },
+    {
+      "id": "context_22_110",
+      "index": 110,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Making connections, connecting the readers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:36:25]"
+    },
+    {
+      "id": "context_22_111",
+      "index": 111,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "World to the writer's world, helping us think in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:39:07]"
+    },
+    {
+      "id": "context_22_112",
+      "index": 112,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Unaccustomed ways.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:42:28]"
+    },
+    {
+      "id": "context_22_113",
+      "index": 113,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Cultivating empathy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:44:03]"
+    },
+    {
+      "id": "context_22_114",
+      "index": 114,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "which is a special kind of, connection with other beings.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:46:02]"
+    },
+    {
+      "id": "context_22_115",
+      "index": 115,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Connecting the past.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:50:02]"
+    },
+    {
+      "id": "context_22_116",
+      "index": 116,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And the present, connecting the future.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:51:06]"
+    },
+    {
+      "id": "context_22_117",
+      "index": 117,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And the present.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:53:13]"
+    },
+    {
+      "id": "context_22_118",
+      "index": 118,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Connecting different parts of the present to one another.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:54:07]"
+    },
+    {
+      "id": "context_22_119",
+      "index": 119,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Certain ways of thinking about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:58:20]"
+    },
+    {
+      "id": "context_22_120",
+      "index": 120,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Connections.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:00:10]"
+    },
+    {
+      "id": "context_22_121",
+      "index": 121,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Can better equip us to deal.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:01:07]"
+    },
+    {
+      "id": "context_22_122",
+      "index": 122,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "With the myriad problems we face. Ginny O'Dell, in a recent book of hers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:03:12]"
+    },
+    {
+      "id": "context_22_123",
+      "index": 123,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Wrote that given that all of the issues that face us demand.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:08:29]"
+    },
+    {
+      "id": "context_22_124",
+      "index": 124,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "An.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:13:02]"
+    },
+    {
+      "id": "context_22_125",
+      "index": 125,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Understanding.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:13:09]"
+    },
+    {
+      "id": "context_22_126",
+      "index": 126,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:14:05]"
+    },
+    {
+      "id": "context_22_127",
+      "index": 127,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Complexity, interrelationship, and nuance, the ability to see and understand context is nothing less.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:14:09]"
+    },
+    {
+      "id": "context_22_128",
+      "index": 128,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Than a collective survival skill. It was nice of Ginny O'Dell to mention the title of this show in her passage, but the.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:08:23:08]"
+    },
+    {
+      "id": "context_22_129",
+      "index": 129,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Important things there are thinking in context.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:31:02]"
+    },
+    {
+      "id": "context_22_130",
+      "index": 130,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Humanities are built upon complexity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:34:25]"
+    },
+    {
+      "id": "context_22_131",
+      "index": 131,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "They are built.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:37:10]"
+    },
+    {
+      "id": "context_22_132",
+      "index": 132,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Upon interrelationship and nuance, and as such, they might constitute a collective survival skill in helping us think about context where we are.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:08:37:24]"
+    },
+    {
+      "id": "context_22_133",
+      "index": 133,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then, as Marilynne Robinson.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:50:04]"
+    },
+    {
+      "id": "context_22_134",
+      "index": 134,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Asks, once we know where we.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:51:19]"
+    },
+    {
+      "id": "context_22_135",
+      "index": 135,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Are, what are we doing here? Why are.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:54:11]"
+    },
+    {
+      "id": "context_22_136",
+      "index": 136,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We here? You might think about it in that light. Marilynne Robinson is a novelist, is an is a novelist, an essayist, a Pulitzer Prize winner, national humanities medalist, and a native of Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:56:29]"
+    },
+    {
+      "id": "context_22_137",
+      "index": 137,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "When she visited my.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:10:28]"
+    },
+    {
+      "id": "context_22_138",
+      "index": 138,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "School to talk about education, she referred to the importance.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:09:11:27]"
+    },
+    {
+      "id": "context_22_139",
+      "index": 139,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of teaching the great.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:15:19]"
+    },
+    {
+      "id": "context_22_140",
+      "index": 140,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "American writers teaching literature. Chief among whom she listed Emerson and Thoreau, which I like very much, having written about them quite a bit in my career.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:09:16:25]"
+    },
+    {
+      "id": "context_22_141",
+      "index": 141,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "She gave special attention in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:26:02]"
+    },
+    {
+      "id": "context_22_142",
+      "index": 142,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Her talk to another, talk to Ralph Waldo Emerson Divinity School address, in which he is connecting education to action and religion to reform teaching and learning to change in that divinity school address. Emerson was talking to the graduates of his alma mater, Harvard University, and he really stirred things up, so much so that he wasn't invited back to talk at Harvard for another 30 years.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:09:27:13]"
+    },
+    {
+      "id": "context_22_143",
+      "index": 143,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And I'll talk a little bit more about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:56:15]"
+    },
+    {
+      "id": "context_22_144",
+      "index": 144,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That in a minute. But when I think about what I want to think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:57:27]"
+    },
+    {
+      "id": "context_22_145",
+      "index": 145,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "About here, is this.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:00:09]"
+    },
+    {
+      "id": "context_22_146",
+      "index": 146,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Changing business? Our capacity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:01:06]"
+    },
+    {
+      "id": "context_22_147",
+      "index": 147,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "For change.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:03:25]"
+    },
+    {
+      "id": "context_22_148",
+      "index": 148,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Makes us what we are. Marilynne Robinson says, why?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:05:10]"
+    },
+    {
+      "id": "context_22_149",
+      "index": 149,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Why do we teach to change habits? Why are we doing that? Why do we want to change habits?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:11:03]"
+    },
+    {
+      "id": "context_22_150",
+      "index": 150,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Because there are some habits that can cause all kinds of problems for individuals and society and the world that we inhabit.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:16:18]"
+    },
+    {
+      "id": "context_22_151",
+      "index": 151,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "What we are doing here, why we are doing what we're doing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:24:19]"
+    },
+    {
+      "id": "context_22_152",
+      "index": 152,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Here, our questions that are.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:28:06]"
+    },
+    {
+      "id": "context_22_153",
+      "index": 153,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Really.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:29:21]"
+    },
+    {
+      "id": "context_22_154",
+      "index": 154,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Useful to ask on a very basic level as we go about our day to day business. Humanities is the area of studies in which it's quite common to ask, what are we doing here?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:30:00]"
+    },
+    {
+      "id": "context_22_155",
+      "index": 155,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "How have.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:41:22]"
+    },
+    {
+      "id": "context_22_156",
+      "index": 156,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We changed? How can we change?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:42:07]"
+    },
+    {
+      "id": "context_22_157",
+      "index": 157,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "How might we.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:44:17]"
+    },
+    {
+      "id": "context_22_158",
+      "index": 158,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Change for the future? And asking these basic questions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:45:04]"
+    },
+    {
+      "id": "context_22_159",
+      "index": 159,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Deliberating. Deliberating on ways of responding, imagining alternatives. These are all forms of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:49:14]"
+    },
+    {
+      "id": "context_22_160",
+      "index": 160,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Making connections.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:55:06]"
+    },
+    {
+      "id": "context_22_161",
+      "index": 161,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "With.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:56:13]"
+    },
+    {
+      "id": "context_22_162",
+      "index": 162,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The past and the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:57:01]"
+    },
+    {
+      "id": "context_22_163",
+      "index": 163,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Present, with.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:57:22]"
+    },
+    {
+      "id": "context_22_164",
+      "index": 164,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The present and the future.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:58:28]"
+    },
+    {
+      "id": "context_22_165",
+      "index": 165,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Teaching literature, for.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:11:01:16]"
+    },
+    {
+      "id": "context_22_166",
+      "index": 166,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Me, is a way of addressing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:02:15]"
+    },
+    {
+      "id": "context_22_167",
+      "index": 167,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Despair.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:04:04]"
+    },
+    {
+      "id": "context_22_168",
+      "index": 168,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "By fostering hope and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:05:21]"
+    },
+    {
+      "id": "context_22_169",
+      "index": 169,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Perhaps pursuing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:07:20]"
+    },
+    {
+      "id": "context_22_170",
+      "index": 170,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Wisdom. So that's why I teach. That's one of the reasons why I teach. I see a lot of despair. I want to try to do something about that. I want to have more hope and more wisdom, which are, I believe, antidotes to despair. Study after study tells us that despair.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:11:08:23]"
+    },
+    {
+      "id": "context_22_171",
+      "index": 171,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is increasing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:24:14]"
+    },
+    {
+      "id": "context_22_172",
+      "index": 172,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In the US especially and especially among our.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:25:21]"
+    },
+    {
+      "id": "context_22_173",
+      "index": 173,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Students.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:28:19]"
+    },
+    {
+      "id": "context_22_174",
+      "index": 174,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Hope and wisdom, if they are.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:29:26]"
+    },
+    {
+      "id": "context_22_175",
+      "index": 175,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Antidotes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:31:20]"
+    },
+    {
+      "id": "context_22_176",
+      "index": 176,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To despair.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:32:13]"
+    },
+    {
+      "id": "context_22_177",
+      "index": 177,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Are something we should be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:33:14]"
+    },
+    {
+      "id": "context_22_178",
+      "index": 178,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Cultivating and thinking. Particular ways of thinking is a means by which we might cultivate hope and pursue wisdom.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:35:01]"
+    },
+    {
+      "id": "context_22_179",
+      "index": 179,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thoreau, whom.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:45:11]"
+    },
+    {
+      "id": "context_22_180",
+      "index": 180,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Robinson.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:46:28]"
+    },
+    {
+      "id": "context_22_181",
+      "index": 181,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Mentioned.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:47:16]"
+    },
+    {
+      "id": "context_22_182",
+      "index": 182,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Wrote about quiet desperation, a famous passage from Walden, and he uses different cognates of that word in the passage. He uses desperation, desperate despair, and he concludes by saying.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:48:20]"
+    },
+    {
+      "id": "context_22_183",
+      "index": 183,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It is a characteristic of wisdom not to do desperate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:02:15]"
+    },
+    {
+      "id": "context_22_184",
+      "index": 184,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:07:06]"
+    },
+    {
+      "id": "context_22_185",
+      "index": 185,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Desperate desperation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:08:22]"
+    },
+    {
+      "id": "context_22_186",
+      "index": 186,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Despair. Thoreau gets us thinking about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:11:00]"
+    },
+    {
+      "id": "context_22_187",
+      "index": 187,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Different.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:14:27]"
+    },
+    {
+      "id": "context_22_188",
+      "index": 188,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Modes of that one thing. Desperation is recklessness or violence.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:15:11]"
+    },
+    {
+      "id": "context_22_189",
+      "index": 189,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That is due to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:20:12]"
+    },
+    {
+      "id": "context_22_190",
+      "index": 190,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Despair. It means suffering, unbearable.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:21:06]"
+    },
+    {
+      "id": "context_22_191",
+      "index": 191,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Need or.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:24:10]"
+    },
+    {
+      "id": "context_22_192",
+      "index": 192,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Anxiety and despair.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:25:02]"
+    },
+    {
+      "id": "context_22_193",
+      "index": 193,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Utter lack of hope. So we might think of what we could do, why we.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:27:11]"
+    },
+    {
+      "id": "context_22_194",
+      "index": 194,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Do what we do, as the opportunity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:32:26]"
+    },
+    {
+      "id": "context_22_195",
+      "index": 195,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "For substituting habits of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:35:00]"
+    },
+    {
+      "id": "context_22_196",
+      "index": 196,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Hope, for habits of desperation and despair.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:36:25]"
+    },
+    {
+      "id": "context_22_197",
+      "index": 197,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Through.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:41:10]"
+    },
+    {
+      "id": "context_22_198",
+      "index": 198,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Fostering hope with literature. For example. Emerson, in his essay circles, asks us to consider the nature of hope.",
+      "tags": [
+        "literature",
+        "environment"
+      ],
+      "timestamp": "[00:12:42:06]"
+    },
+    {
+      "id": "context_22_199",
+      "index": 199,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It's more than just optimism. Hope isn't just expectation coupled with desire.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:49:10]"
+    },
+    {
+      "id": "context_22_200",
+      "index": 200,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "As some dictionaries put it. That definition and definitions such as that is too.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:55:01]"
+    },
+    {
+      "id": "context_22_201",
+      "index": 201,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Passive in my definition. Hope is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:00:08]"
+    },
+    {
+      "id": "context_22_202",
+      "index": 202,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Something active. It's a.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:02:28]"
+    },
+    {
+      "id": "context_22_203",
+      "index": 203,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Sense of or.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:04:24]"
+    },
+    {
+      "id": "context_22_204",
+      "index": 204,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Belief in the possibility for a situation to change. Generally for the better, and the openness.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:06:12]"
+    },
+    {
+      "id": "context_22_205",
+      "index": 205,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:14:22]"
+    },
+    {
+      "id": "context_22_206",
+      "index": 206,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Participating in fostering change. And I think that's the kind of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:14:27]"
+    },
+    {
+      "id": "context_22_207",
+      "index": 207,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Hope.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:19:02]"
+    },
+    {
+      "id": "context_22_208",
+      "index": 208,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That Emerson is writing about in his essay circles. In that essay, he defines literature and talks about the uses of literature as unsettling as a kind of unsettling of people. and that, he proposes, is a necessary condition for hope. Literature is something outside of our day to day experiences, our day to day circle, our.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:13:19:24]"
+    },
+    {
+      "id": "context_22_209",
+      "index": 209,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Habits of living.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:43:20]"
+    },
+    {
+      "id": "context_22_210",
+      "index": 210,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Our habitual worldview. So if literature is something outside of that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:44:28]"
+    },
+    {
+      "id": "context_22_211",
+      "index": 211,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That gives it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:50:12]"
+    },
+    {
+      "id": "context_22_212",
+      "index": 212,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Properties that may enable.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:51:10]"
+    },
+    {
+      "id": "context_22_213",
+      "index": 213,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Literature to change.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:54:12]"
+    },
+    {
+      "id": "context_22_214",
+      "index": 214,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Our habits. And Emerson says that the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:56:13]"
+    },
+    {
+      "id": "context_22_215",
+      "index": 215,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Use of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:58:08]"
+    },
+    {
+      "id": "context_22_216",
+      "index": 216,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Literature is to afford us a platform whence we may command a view of our present life and.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:13:58:19]"
+    },
+    {
+      "id": "context_22_217",
+      "index": 217,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:05:18]"
+    },
+    {
+      "id": "context_22_218",
+      "index": 218,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Purchase by which we may move it. Different ways of standing, getting a perspective, standing, looking over something, getting a height to see what's going on.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:05:22]"
+    },
+    {
+      "id": "context_22_219",
+      "index": 219,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Around you and then.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:15:12]"
+    },
+    {
+      "id": "context_22_220",
+      "index": 220,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A stance, a purchase, a strong stance from which you can change things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:17:02]"
+    },
+    {
+      "id": "context_22_221",
+      "index": 221,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "He writes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:22:13]"
+    },
+    {
+      "id": "context_22_222",
+      "index": 222,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In that essay that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:22:28]"
+    },
+    {
+      "id": "context_22_223",
+      "index": 223,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "People wish.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:23:22]"
+    },
+    {
+      "id": "context_22_224",
+      "index": 224,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To be settled only as far as they are unsettled.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:24:13]"
+    },
+    {
+      "id": "context_22_225",
+      "index": 225,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is there any hope for them? We wish to be settled. We like.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:28:04]"
+    },
+    {
+      "id": "context_22_226",
+      "index": 226,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Our habits.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:32:11]"
+    },
+    {
+      "id": "context_22_227",
+      "index": 227,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We be where we habitually.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:33:00]"
+    },
+    {
+      "id": "context_22_228",
+      "index": 228,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Like our habits.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:34:21]"
+    },
+    {
+      "id": "context_22_229",
+      "index": 229,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We're accustomed to them, used to them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:35:17]"
+    },
+    {
+      "id": "context_22_230",
+      "index": 230,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It's familiar.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:37:03]"
+    },
+    {
+      "id": "context_22_231",
+      "index": 231,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Literature, teaching our ways of unsettling those habits.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:14:39:03]"
+    },
+    {
+      "id": "context_22_232",
+      "index": 232,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And that is a necessary condition, at least according to Emerson. For hope then to go forward.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:44:04]"
+    },
+    {
+      "id": "context_22_233",
+      "index": 233,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It's not just.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:51:29]"
+    },
+    {
+      "id": "context_22_234",
+      "index": 234,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Unsettling.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:52:17]"
+    },
+    {
+      "id": "context_22_235",
+      "index": 235,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It's not just.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:53:18]"
+    },
+    {
+      "id": "context_22_236",
+      "index": 236,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Shaking people up. He certainly did that in that particular talk, which is why he wasn't invited back.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:54:07]"
+    },
+    {
+      "id": "context_22_237",
+      "index": 237,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "But it's also.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:59:11]"
+    },
+    {
+      "id": "context_22_238",
+      "index": 238,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Connecting, unsettling as a way of connecting or reconnecting, making connections belonging to the world, participating in the world.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:15:00:15]"
+    },
+    {
+      "id": "context_22_239",
+      "index": 239,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Unsettling is also a way of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:09:11]"
+    },
+    {
+      "id": "context_22_240",
+      "index": 240,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Flowing, of getting the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:10:24]"
+    },
+    {
+      "id": "context_22_241",
+      "index": 241,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Flow.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:11:27]"
+    },
+    {
+      "id": "context_22_242",
+      "index": 242,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Going, of moving connected and connected with the change in adapting to life as it changes around us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:12:08]"
+    },
+    {
+      "id": "context_22_243",
+      "index": 243,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then settling also involves a kind of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:20:24]"
+    },
+    {
+      "id": "context_22_244",
+      "index": 244,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Reflecting or reviewing or receiving a rethinking of the world that we inhabit. Teaching, then, is bringing hope into the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:22:13]"
+    },
+    {
+      "id": "context_22_245",
+      "index": 245,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Classroom.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:15:31:08]"
+    },
+    {
+      "id": "context_22_246",
+      "index": 246,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So students can carry it with them beyond. In another essay, Emerson writes about teachers and scholars being bringers of hope in order to strengthen the people we teach.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:32:22]"
+    },
+    {
+      "id": "context_22_247",
+      "index": 247,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And the blue.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:48:00]"
+    },
+    {
+      "id": "context_22_248",
+      "index": 248,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Humanities are a way of promoting an effective kind of this learning made from connection, flow, and reflection, connecting literature and nature. For example, the literary, the humanities with the environmental part, connecting words and place, connecting meaning and being.",
+      "tags": [
+        "education",
+        "literature",
+        "environment"
+      ],
+      "timestamp": "[00:15:48:14]"
+    },
+    {
+      "id": "context_22_249",
+      "index": 249,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then there's flowing, moving.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:07:18]"
+    },
+    {
+      "id": "context_22_250",
+      "index": 250,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Between disciplines within the humanities, flowing together in the classroom, flowing between the classroom and the world beyond it. What people call real life.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:16:09:06]"
+    },
+    {
+      "id": "context_22_251",
+      "index": 251,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then there's reflecting.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:19:21]"
+    },
+    {
+      "id": "context_22_252",
+      "index": 252,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "On what we are learning and why it might matter. All those things are very important to the humanities, which is why the humanities.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:16:20:27]"
+    },
+    {
+      "id": "context_22_253",
+      "index": 253,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Could be important to the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:26:06]"
+    },
+    {
+      "id": "context_22_254",
+      "index": 254,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Changing of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:28:09]"
+    },
+    {
+      "id": "context_22_255",
+      "index": 255,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Hearts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:28:24]"
+    },
+    {
+      "id": "context_22_256",
+      "index": 256,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The humanities can improve our thinking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:32:05]"
+    },
+    {
+      "id": "context_22_257",
+      "index": 257,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And by nourishing connections. Science writer Annie Murphy Paul, in her recent book, wrote about our minds being like magpies and that our minds, when we think are doing things like magpies do, when they're making nests and the like, they're finding things from all over the place and weaving them together. and Annie Murphy's Annie Murphy.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:16:34:19]"
+    },
+    {
+      "id": "context_22_258",
+      "index": 258,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Paul's point.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:01:24]"
+    },
+    {
+      "id": "context_22_259",
+      "index": 259,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In this is that our.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:02:18]"
+    },
+    {
+      "id": "context_22_260",
+      "index": 260,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Minds do not just operate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:03:29]"
+    },
+    {
+      "id": "context_22_261",
+      "index": 261,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In a vacuum, detached from everything.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:05:28]"
+    },
+    {
+      "id": "context_22_262",
+      "index": 262,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Sitting.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:08:20]"
+    },
+    {
+      "id": "context_22_263",
+      "index": 263,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Around thinking great thoughts. Our minds are actually connected to all kinds of things. The mind doesn't think on its own. It thinks always connected to a body, always connected to places where that body and mind are and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:09:02]"
+    },
+    {
+      "id": "context_22_264",
+      "index": 264,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Always connected to other.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:24:20]"
+    },
+    {
+      "id": "context_22_265",
+      "index": 265,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Beings, even when they aren't, easily recognized as being present.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:25:25]"
+    },
+    {
+      "id": "context_22_266",
+      "index": 266,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So, Annie Murphy, Paul suggests that we can learn to think better.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:31:27]"
+    },
+    {
+      "id": "context_22_267",
+      "index": 267,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "By attending to those connections. And teaching.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:34:12]"
+    },
+    {
+      "id": "context_22_268",
+      "index": 268,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Literature.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:37:00]"
+    },
+    {
+      "id": "context_22_269",
+      "index": 269,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Has been a way for me to make those connections happen and bring them to students attention. Helping students, connect with a text and helping them connect that text to context, helping them connect the text to their lives.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:37:14]"
+    },
+    {
+      "id": "context_22_270",
+      "index": 270,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "This is why.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:53:21]"
+    },
+    {
+      "id": "context_22_271",
+      "index": 271,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One of the main reasons why I've.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:54:22]"
+    },
+    {
+      "id": "context_22_272",
+      "index": 272,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Taught courses.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:56:27]"
+    },
+    {
+      "id": "context_22_273",
+      "index": 273,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That bring literature and nature together. when I when I first started thinking about nature in the classroom and how to do more with, how that works. My, I was a, I was much younger, and I had a very young son and his he had this ritual. When I took him in at night, he would tell me a secret and, on one occasion getting things already.",
+      "tags": [
+        "literature",
+        "environment",
+        "education",
+        "religion"
+      ],
+      "timestamp": "[00:17:58:10]"
+    },
+    {
+      "id": "context_22_274",
+      "index": 274,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And he would. He whispers, whispers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:25:01]"
+    },
+    {
+      "id": "context_22_275",
+      "index": 275,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Dad, dad, I've got a secret.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:27:06]"
+    },
+    {
+      "id": "context_22_276",
+      "index": 276,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So I get there close and ask him what it is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:29:22]"
+    },
+    {
+      "id": "context_22_277",
+      "index": 277,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And he says, dad, nature is everything. And I thought, yes, you are right. Check. Nature is everything. So if you want to teach a course that is connecting students,",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:18:31:25]"
+    },
+    {
+      "id": "context_22_278",
+      "index": 278,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Helping students connect literature in nature.",
+      "tags": [
+        "literature",
+        "environment"
+      ],
+      "timestamp": "[00:18:47:05]"
+    },
+    {
+      "id": "context_22_279",
+      "index": 279,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You're basically.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:49:25]"
+    },
+    {
+      "id": "context_22_280",
+      "index": 280,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Trying to help them connect with everything.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:50:29]"
+    },
+    {
+      "id": "context_22_281",
+      "index": 281,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Which is a good place to start, but also a challenging place to start because everything is a lot. There's a lot going on with everything.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:53:15]"
+    },
+    {
+      "id": "context_22_282",
+      "index": 282,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It includes so many different things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:02:11]"
+    },
+    {
+      "id": "context_22_283",
+      "index": 283,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So you have to help.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:05:07]"
+    },
+    {
+      "id": "context_22_284",
+      "index": 284,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Students think about nature. And that's one of the places where, water comes in and teaching the humanities. nature is a big idea and it's hard to get one's head around it.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:19:06:27]"
+    },
+    {
+      "id": "context_22_285",
+      "index": 285,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Water, especially rivers, is.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:19:19:13]"
+    },
+    {
+      "id": "context_22_286",
+      "index": 286,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A way of grounding a big idea like that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:21:20]"
+    },
+    {
+      "id": "context_22_287",
+      "index": 287,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Making a big idea like that a little closer, a little realer.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:24:00]"
+    },
+    {
+      "id": "context_22_288",
+      "index": 288,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Perhaps bringing it to life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:27:25]"
+    },
+    {
+      "id": "context_22_289",
+      "index": 289,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It's easy to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:29:10]"
+    },
+    {
+      "id": "context_22_290",
+      "index": 290,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Objectify, have an abstract nature, and have it just out there as this everything, this big idea.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:19:30:09]"
+    },
+    {
+      "id": "context_22_291",
+      "index": 291,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Water is a way of bringing it a little closer to home. There is a passage.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:36:11]"
+    },
+    {
+      "id": "context_22_292",
+      "index": 292,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "From, Another Book of Thrones, his first book.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:42:05]"
+    },
+    {
+      "id": "context_22_293",
+      "index": 293,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In which he he writes about what.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:46:00]"
+    },
+    {
+      "id": "context_22_294",
+      "index": 294,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We might call as the danger of dry thinking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:48:10]"
+    },
+    {
+      "id": "context_22_295",
+      "index": 295,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "this is actually a really.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:52:11]"
+    },
+    {
+      "id": "context_22_296",
+      "index": 296,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Funny passage, and one of the things that readers of these days often forget is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:53:24]"
+    },
+    {
+      "id": "context_22_297",
+      "index": 297,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "He was a jokester.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:58:07]"
+    },
+    {
+      "id": "context_22_298",
+      "index": 298,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "and here he's being purposefully funny.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:00:04]"
+    },
+    {
+      "id": "context_22_299",
+      "index": 299,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Playing with words, using words like, methinks. I mean, even in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:03:02]"
+    },
+    {
+      "id": "context_22_300",
+      "index": 300,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thoreau's day, people didn't walk around saying, methinks this or me thinks that, so.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:06:26]"
+    },
+    {
+      "id": "context_22_301",
+      "index": 301,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "He's he's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:12:00]"
+    },
+    {
+      "id": "context_22_302",
+      "index": 302,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Messing around with his prose, and he's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:12:11]"
+    },
+    {
+      "id": "context_22_303",
+      "index": 303,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Trying to get people to think about their.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:14:12]"
+    },
+    {
+      "id": "context_22_304",
+      "index": 304,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Worldviews,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:16:10]"
+    },
+    {
+      "id": "context_22_305",
+      "index": 305,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Which can often be are are schemes of the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:17:27]"
+    },
+    {
+      "id": "context_22_306",
+      "index": 306,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Universe, as he puts it, our.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:20:11]"
+    },
+    {
+      "id": "context_22_307",
+      "index": 307,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Worldviews, our habitual way of seeing the world, can often be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:21:24]"
+    },
+    {
+      "id": "context_22_308",
+      "index": 308,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Really cut and dried as the roses.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:25:21]"
+    },
+    {
+      "id": "context_22_309",
+      "index": 309,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Cut into rigid lines, put in their particular places, and everything has to fall into those places.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:28:27]"
+    },
+    {
+      "id": "context_22_310",
+      "index": 310,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "All the new stuff that we meet.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:32:29]"
+    },
+    {
+      "id": "context_22_311",
+      "index": 311,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That's a habitual way of thinking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:34:07]"
+    },
+    {
+      "id": "context_22_312",
+      "index": 312,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "There. so that's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:35:28]"
+    },
+    {
+      "id": "context_22_313",
+      "index": 313,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One one of the meanings.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:37:10]"
+    },
+    {
+      "id": "context_22_314",
+      "index": 314,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That he's playing with regarding, the dryness in these games.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:39:01]"
+    },
+    {
+      "id": "context_22_315",
+      "index": 315,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "But then he also talks about how if you start to tell.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:42:09]"
+    },
+    {
+      "id": "context_22_316",
+      "index": 316,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Somebody else your scheme of the universe, your.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:44:23]"
+    },
+    {
+      "id": "context_22_317",
+      "index": 317,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Worldview, it can come across as really, really dry.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:47:07]"
+    },
+    {
+      "id": "context_22_318",
+      "index": 318,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And both of these qualities of dryness.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:51:00]"
+    },
+    {
+      "id": "context_22_319",
+      "index": 319,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Or sorrow suggest ways.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:53:17]"
+    },
+    {
+      "id": "context_22_320",
+      "index": 320,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In which our worldviews and our discussion of them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:56:24]"
+    },
+    {
+      "id": "context_22_321",
+      "index": 321,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Are disconnected.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:59:29]"
+    },
+    {
+      "id": "context_22_322",
+      "index": 322,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "From life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:01:06]"
+    },
+    {
+      "id": "context_22_323",
+      "index": 323,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Are dried up.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:01:25]"
+    },
+    {
+      "id": "context_22_324",
+      "index": 324,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Not living anymore.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:03:11]"
+    },
+    {
+      "id": "context_22_325",
+      "index": 325,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So he's trying to, in his literary works, water.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:04:24]"
+    },
+    {
+      "id": "context_22_326",
+      "index": 326,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Our ways of thinking, make our our.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:08:02]"
+    },
+    {
+      "id": "context_22_327",
+      "index": 327,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thinking more fluid. And that is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:10:13]"
+    },
+    {
+      "id": "context_22_328",
+      "index": 328,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A way of watering hope. At least for Thoreau. And that's one of the things I've tried to do with my teaching, is to try to enliven things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:12:15]"
+    },
+    {
+      "id": "context_22_329",
+      "index": 329,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Joke around a little, but also.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:20:08]"
+    },
+    {
+      "id": "context_22_330",
+      "index": 330,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To help students make connections with things that they're learning to the world that they're living in.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:21:22:01]"
+    },
+    {
+      "id": "context_22_331",
+      "index": 331,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And I'd like you to take a minute to pause this presentation now.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:28:09]"
+    },
+    {
+      "id": "context_22_332",
+      "index": 332,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:33:15]"
+    },
+    {
+      "id": "context_22_333",
+      "index": 333,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Just jot down.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:34:02]"
+    },
+    {
+      "id": "context_22_334",
+      "index": 334,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Some ideas about why you teach what you teach. I think it's, I think it's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:35:03]"
+    },
+    {
+      "id": "context_22_335",
+      "index": 335,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Worthwhile to just step back for a moment.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:40:26]"
+    },
+    {
+      "id": "context_22_336",
+      "index": 336,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:44:07]"
+    },
+    {
+      "id": "context_22_337",
+      "index": 337,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Consider your own.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:44:15]"
+    },
+    {
+      "id": "context_22_338",
+      "index": 338,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Reasons, your own rationale for doing these sorts of things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:46:04]"
+    },
+    {
+      "id": "context_22_339",
+      "index": 339,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "that I teach because I want to change habits.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:50:03]"
+    },
+    {
+      "id": "context_22_340",
+      "index": 340,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I teach because I want to overcome despair. I teach that I want to because I want to substitute hope and wisdom for despair. I teach to help students make connections and so on.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:53:09]"
+    },
+    {
+      "id": "context_22_341",
+      "index": 341,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Why do you teach?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:03:12]"
+    },
+    {
+      "id": "context_22_342",
+      "index": 342,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Just take a moment, and while you're doing that, I'll move on to the second part of the presentation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:04:16]"
+    },
+    {
+      "id": "context_22_343",
+      "index": 343,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Okay. Welcome back. I hope that you've took some time to write a few things down. What to teach when you teach the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:19:10]"
+    },
+    {
+      "id": "context_22_344",
+      "index": 344,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:25:23]"
+    },
+    {
+      "id": "context_22_345",
+      "index": 345,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A lot of different ways to do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:27:23]"
+    },
+    {
+      "id": "context_22_346",
+      "index": 346,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It. I'm going to discuss a few of them in this section of the course. Begin by thinking about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:28:28]"
+    },
+    {
+      "id": "context_22_347",
+      "index": 347,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Some of the characteristics.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:34:10]"
+    },
+    {
+      "id": "context_22_348",
+      "index": 348,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of this kind of teaching, flow and interpretation being really important parts of it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:35:26]"
+    },
+    {
+      "id": "context_22_349",
+      "index": 349,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then I'm going to give you a couple different types of courses or units that you might include in your teaching. And throughout, I'm hoping that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:40:17]"
+    },
+    {
+      "id": "context_22_350",
+      "index": 350,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You will be imagining a model that might work for you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:48:22]"
+    },
+    {
+      "id": "context_22_351",
+      "index": 351,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Let's say you had.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:52:17]"
+    },
+    {
+      "id": "context_22_352",
+      "index": 352,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To teach something involving the blue humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:53:21]"
+    },
+    {
+      "id": "context_22_353",
+      "index": 353,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "How would you do it? What would you want to do with it? So be thinking about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:57:02]"
+    },
+    {
+      "id": "context_22_354",
+      "index": 354,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That, jotting down some notes. And at the end of this section I'll give you a I encourage you to take a pause and write down a few more things. So flow is one of those things that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:00:06]"
+    },
+    {
+      "id": "context_22_355",
+      "index": 355,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "First comes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:10:24]"
+    },
+    {
+      "id": "context_22_356",
+      "index": 356,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To mind. And thinking about rivers. It's the.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:23:11:15]"
+    },
+    {
+      "id": "context_22_357",
+      "index": 357,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Major, one of the major.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:13:27]"
+    },
+    {
+      "id": "context_22_358",
+      "index": 358,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Defining attributes of rivers. occasionally defend itself through flows absence. So where we're thinking we're drought is in play or it's a very slow flowing river, it becomes almost lake like in some cases. Sometimes flow is too much. Think of flooding and think of the overabundance of flowing waters overwhelming us.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:23:15:10]"
+    },
+    {
+      "id": "context_22_359",
+      "index": 359,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "But here we're thinking about connection.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:38:08]"
+    },
+    {
+      "id": "context_22_360",
+      "index": 360,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And flow with water and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:40:00]"
+    },
+    {
+      "id": "context_22_361",
+      "index": 361,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thinking through literature.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:23:43:08]"
+    },
+    {
+      "id": "context_22_362",
+      "index": 362,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And if you think about flow, it's really this really important quality, an important component of the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:45:12]"
+    },
+    {
+      "id": "context_22_363",
+      "index": 363,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Whole Earth's hydrologic.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:51:19]"
+    },
+    {
+      "id": "context_22_364",
+      "index": 364,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Cycle. Without the flow of rivers, we wouldn't have the same kind of, hydrologic cycle that we have.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:23:53:19]"
+    },
+    {
+      "id": "context_22_365",
+      "index": 365,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Flow is also something useful for.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:59:20]"
+    },
+    {
+      "id": "context_22_366",
+      "index": 366,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Our thinking to make our our thinking less dry. We might say, if you, in studying rivers, one of the things that I found from the very beginning was if when someone, when I taught somebody what it is that I do, they would say, well, you can't step in the same river twice.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:24:01:29]"
+    },
+    {
+      "id": "context_22_367",
+      "index": 367,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "People really like that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:17:01]"
+    },
+    {
+      "id": "context_22_368",
+      "index": 368,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It's it's one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:18:09]"
+    },
+    {
+      "id": "context_22_369",
+      "index": 369,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of those.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:19:06]"
+    },
+    {
+      "id": "context_22_370",
+      "index": 370,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Catchphrases that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:19:14]"
+    },
+    {
+      "id": "context_22_371",
+      "index": 371,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Sticks.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:20:28]"
+    },
+    {
+      "id": "context_22_372",
+      "index": 372,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "With our, let us say, cut and dried schemes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:21:18]"
+    },
+    {
+      "id": "context_22_373",
+      "index": 373,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of the universe. And so I've had to think about it probably more times.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:24:08]"
+    },
+    {
+      "id": "context_22_374",
+      "index": 374,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Than I wanted to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:28:12]"
+    },
+    {
+      "id": "context_22_375",
+      "index": 375,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "But it's actually a useful way of thinking about paradox.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:29:07]"
+    },
+    {
+      "id": "context_22_376",
+      "index": 376,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "the way that rivers change and don't change, change and unchanging ness of our very selves, and what flow can teach us regarding those things.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:24:33:14]"
+    },
+    {
+      "id": "context_22_377",
+      "index": 377,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Flow and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:42:25]"
+    },
+    {
+      "id": "context_22_378",
+      "index": 378,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Movement are themselves that kind of change, flow and change.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:43:15]"
+    },
+    {
+      "id": "context_22_379",
+      "index": 379,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In meaning, making.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:46:22]"
+    },
+    {
+      "id": "context_22_380",
+      "index": 380,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Our,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:48:06]"
+    },
+    {
+      "id": "context_22_381",
+      "index": 381,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Ways in which, well, they're they're.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:49:00]"
+    },
+    {
+      "id": "context_22_382",
+      "index": 382,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Involved in interpretation, in our making sense of things and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:50:17]"
+    },
+    {
+      "id": "context_22_383",
+      "index": 383,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To interpret a text or to interpret a body.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:55:16]"
+    },
+    {
+      "id": "context_22_384",
+      "index": 384,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of knowledge that we've been given.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:59:05]"
+    },
+    {
+      "id": "context_22_385",
+      "index": 385,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One of the things we have to do is consider how we might participate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:01:02]"
+    },
+    {
+      "id": "context_22_386",
+      "index": 386,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In the flow of meaning.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:04:09]"
+    },
+    {
+      "id": "context_22_387",
+      "index": 387,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In relation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:06:16]"
+    },
+    {
+      "id": "context_22_388",
+      "index": 388,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To that particular subject, that particular text or thing that we're trying to understand.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:07:07]"
+    },
+    {
+      "id": "context_22_389",
+      "index": 389,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And the humanities literature, especially.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:25:13:00]"
+    },
+    {
+      "id": "context_22_390",
+      "index": 390,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "and and and it's like are.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:16:25]"
+    },
+    {
+      "id": "context_22_391",
+      "index": 391,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Really concerned with.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:20:26]"
+    },
+    {
+      "id": "context_22_392",
+      "index": 392,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interpretation as much as anything else. And it's because.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:22:15]"
+    },
+    {
+      "id": "context_22_393",
+      "index": 393,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of that concern with.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:25:22]"
+    },
+    {
+      "id": "context_22_394",
+      "index": 394,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interpretation that makes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:26:13]"
+    },
+    {
+      "id": "context_22_395",
+      "index": 395,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Literature to me, the heart.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:27:19]"
+    },
+    {
+      "id": "context_22_396",
+      "index": 396,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of humanities and nexus of the multiplicity of connections that make up the field of humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:28:21]"
+    },
+    {
+      "id": "context_22_397",
+      "index": 397,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I want to say very strongly that literature, at least.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:25:36:03]"
+    },
+    {
+      "id": "context_22_398",
+      "index": 398,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To me, is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:39:26]"
+    },
+    {
+      "id": "context_22_399",
+      "index": 399,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Not.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:40:18]"
+    },
+    {
+      "id": "context_22_400",
+      "index": 400,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Fancy writing. It's not, something that we should approach on tiptoe, whispering reverently, in its presence and receiving the truth unquestioningly, on bended knee from some author. Literature is writing that raises questions, writing that provokes thought.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:25:41:20]"
+    },
+    {
+      "id": "context_22_401",
+      "index": 401,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Writing that merits continuing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:02:08]"
+    },
+    {
+      "id": "context_22_402",
+      "index": 402,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interpretation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:04:26]"
+    },
+    {
+      "id": "context_22_403",
+      "index": 403,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interpretation is the special sort of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:07:10]"
+    },
+    {
+      "id": "context_22_404",
+      "index": 404,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thinking that and interpretation that is central to the humanities. And the blue humanities are largely concerned with.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:09:14]"
+    },
+    {
+      "id": "context_22_405",
+      "index": 405,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interpreting interpreting.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:16:09]"
+    },
+    {
+      "id": "context_22_406",
+      "index": 406,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Texts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:17:21]"
+    },
+    {
+      "id": "context_22_407",
+      "index": 407,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And have something.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:18:11]"
+    },
+    {
+      "id": "context_22_408",
+      "index": 408,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To do with water.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:18:29]"
+    },
+    {
+      "id": "context_22_409",
+      "index": 409,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Using literature to think about nature. Rivers, let's.",
+      "tags": [
+        "literature",
+        "environment"
+      ],
+      "timestamp": "[00:26:20:06]"
+    },
+    {
+      "id": "context_22_410",
+      "index": 410,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Say, and using rivers or water.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:26:23:00]"
+    },
+    {
+      "id": "context_22_411",
+      "index": 411,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To think about literature.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:26:25:01]"
+    },
+    {
+      "id": "context_22_412",
+      "index": 412,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And life, using the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:26:16]"
+    },
+    {
+      "id": "context_22_413",
+      "index": 413,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Flow of rivers, the flow of.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:26:27:27]"
+    },
+    {
+      "id": "context_22_414",
+      "index": 414,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Time to organize a unit, and of course, or something like that. There are, different types of courses that I want to talk to about briefly. And again, I'd like you to be imagining one that might best fit your situation and and encourage you to write some notes about this.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:29:27]"
+    },
+    {
+      "id": "context_22_415",
+      "index": 415,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The first of these.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:52:08]"
+    },
+    {
+      "id": "context_22_416",
+      "index": 416,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Two courses, and they're.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:53:01]"
+    },
+    {
+      "id": "context_22_417",
+      "index": 417,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Both based.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:53:28]"
+    },
+    {
+      "id": "context_22_418",
+      "index": 418,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "On, my book that appeared in 2011, The meaning of Rivers. And I'm going.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:26:54:23]"
+    },
+    {
+      "id": "context_22_419",
+      "index": 419,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To give you two different types of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:00:17]"
+    },
+    {
+      "id": "context_22_420",
+      "index": 420,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Courses that use that book. one of them has to do with the, a concept based approach, and the other has to do with, a watershed based.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:02:15]"
+    },
+    {
+      "id": "context_22_421",
+      "index": 421,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Approach. The book.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:14:25]"
+    },
+    {
+      "id": "context_22_422",
+      "index": 422,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "is in this book, I ask the question, what do rivers mean? And what have rivers meant? And use literature to bring out some of those meanings. And it was intended to be a primer, a kind of introduction to.",
+      "tags": [
+        "environment",
+        "literature"
+      ],
+      "timestamp": "[00:27:17:02]"
+    },
+    {
+      "id": "context_22_423",
+      "index": 423,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "People who are interested in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:28:02]"
+    },
+    {
+      "id": "context_22_424",
+      "index": 424,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Rivers, but hadn't thought much about.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:27:29:08]"
+    },
+    {
+      "id": "context_22_425",
+      "index": 425,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Literature.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:27:30:23]"
+    },
+    {
+      "id": "context_22_426",
+      "index": 426,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Or interested in literature, and hadn't thought much about rivers. and it's largely because I was writing it while I was developing a course about it. It's largely meant to be for, teachers and students and helping them think about these connections between rivers and literature. The concept based.",
+      "tags": [
+        "literature",
+        "environment"
+      ],
+      "timestamp": "[00:27:31:19]"
+    },
+    {
+      "id": "context_22_427",
+      "index": 427,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Course.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:49:05]"
+    },
+    {
+      "id": "context_22_428",
+      "index": 428,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is, in a field that I laughingly call textual bottom ology, a term that I made up. I just liked the highfalutin aspect of it. and it's, it's I wanted it to suggest the connection between the literary and the river. So we do throughout to in this concept based course, I follow the breakdowns of, the different ways of experiencing the flow of the river that I used in the book, itself.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:50:11]"
+    },
+    {
+      "id": "context_22_429",
+      "index": 429,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "those involve, as you can see on the screen overlooking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:21:07]"
+    },
+    {
+      "id": "context_22_430",
+      "index": 430,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The river.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:23:25]"
+    },
+    {
+      "id": "context_22_431",
+      "index": 431,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Being right down close by the river. So overlooking the river can be neglecting it, not paying attention to it, but also way up above it and looking down on it, looking out over a large part of the river. By the river, you're up close. You're right alongside it. You're in it. but usually, staying still as the river flows around you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:24:17]"
+    },
+    {
+      "id": "context_22_432",
+      "index": 432,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And down the river or up the river. Texts the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:46:17]"
+    },
+    {
+      "id": "context_22_433",
+      "index": 433,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Writer or main characters either.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:28:49:16]"
+    },
+    {
+      "id": "context_22_434",
+      "index": 434,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Do one or the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:51:27]"
+    },
+    {
+      "id": "context_22_435",
+      "index": 435,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Other, and you can as.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:53:05]"
+    },
+    {
+      "id": "context_22_436",
+      "index": 436,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You as you can tell, going down the river is going to give you different.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:54:20]"
+    },
+    {
+      "id": "context_22_437",
+      "index": 437,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Experiences than going up the river will. And these differences are reflected in their text and bring up different kinds of questions regarding our connections to life. Crossing the river is going from one side to the other, and you can do that in different ways. you can go once, and once and for all. Like Washington crossing the Delaware.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:58:13]"
+    },
+    {
+      "id": "context_22_438",
+      "index": 438,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "or you can do it repeatedly.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:17:15]"
+    },
+    {
+      "id": "context_22_439",
+      "index": 439,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Like commuters, going back and forth across the border.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:29:19:13]"
+    },
+    {
+      "id": "context_22_440",
+      "index": 440,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Up and down.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:25:02]"
+    },
+    {
+      "id": "context_22_441",
+      "index": 441,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is the most complex. It's when you go out and come back by the same route, and that double way of experiencing the flow of a river, or other or more than one river can bring out different sorts of things, as you might imagine, because of the very complexity, the course that I've taught, in, in this concept based approach, was again developed while I was writing the book and uses those categories.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:25:22]"
+    },
+    {
+      "id": "context_22_442",
+      "index": 442,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And I've tried different ways of using the book in the class itself, sometimes giving parts of it to students to read as introductions to works. We were going to be studying in a given week, sometimes assigning parts of the book after we had studied a particular text, helping students wrap up and round out some of the discussions that we've had and then sometimes not assigning the book at all, just using the materials as part of my, lecture, helping students understand the context of particular works that we were studying.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:53:19]"
+    },
+    {
+      "id": "context_22_443",
+      "index": 443,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Very literary, very.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:23:11]"
+    },
+    {
+      "id": "context_22_444",
+      "index": 444,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Concept based, using the parts of the book, one after the other.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:24:23]"
+    },
+    {
+      "id": "context_22_445",
+      "index": 445,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The other approach, the watershed.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:30:28]"
+    },
+    {
+      "id": "context_22_446",
+      "index": 446,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Based course,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:33:08]"
+    },
+    {
+      "id": "context_22_447",
+      "index": 447,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One was.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:34:26]"
+    },
+    {
+      "id": "context_22_448",
+      "index": 448,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That I'm familiar with. It's taught by a colleague of mine, a scientist, biologist, Mary Garvin. And she.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:35:16]"
+    },
+    {
+      "id": "context_22_449",
+      "index": 449,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Used the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:45:02]"
+    },
+    {
+      "id": "context_22_450",
+      "index": 450,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Meaning of rivers, my.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:30:45:28]"
+    },
+    {
+      "id": "context_22_451",
+      "index": 451,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Book.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:46:24]"
+    },
+    {
+      "id": "context_22_452",
+      "index": 452,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "to inform students experiences in the field, combining the work of a humanist humanist with that of the naturalist. She's incorporating blue humanities into a science based course.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:47:25]"
+    },
+    {
+      "id": "context_22_453",
+      "index": 453,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "This can be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:01:05]"
+    },
+    {
+      "id": "context_22_454",
+      "index": 454,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Taught, as Mary Garvin found out, sometimes teaching it in conjunction with the humanist, and folding things together in that class, or typed solo by Mary herself, using the meaning of rivers to guide intensive study of a local stream, the Vermilion River. She followed the order of chapters in the book and use the intro to develop themes and plan activities.",
+      "tags": [
+        "environment",
+        "education"
+      ],
+      "timestamp": "[00:31:01:26]"
+    },
+    {
+      "id": "context_22_455",
+      "index": 455,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "They would read a chapter from my.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:26:03]"
+    },
+    {
+      "id": "context_22_456",
+      "index": 456,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Book go to the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:28:00]"
+    },
+    {
+      "id": "context_22_457",
+      "index": 457,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Field, and then write a reflection based on a particular way of experiencing the flow of the river, for example. And after they read by the river, they study the geology of the vermilion River watershed, followed by by the river experiences at two particular locations. they read the chapter crossing and then use that to think about aquatic invertebrates.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:31:28:27]"
+    },
+    {
+      "id": "context_22_458",
+      "index": 458,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Freshwater mussels of the Vermilion River, crossing the river at a particular place, where there's a confluence, and thinking about what the nature of that crossing, revealed regarding their interest in the Vermilion River in a section on up the river.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:31:51:23]"
+    },
+    {
+      "id": "context_22_459",
+      "index": 459,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "They read that chapter.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:08:05]"
+    },
+    {
+      "id": "context_22_460",
+      "index": 460,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then walked up a section of the river for about an.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:09:10]"
+    },
+    {
+      "id": "context_22_461",
+      "index": 461,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Hour.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:11:16]"
+    },
+    {
+      "id": "context_22_462",
+      "index": 462,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "they sat.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:12:17]"
+    },
+    {
+      "id": "context_22_463",
+      "index": 463,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And observed the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:13:05]"
+    },
+    {
+      "id": "context_22_464",
+      "index": 464,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "River and wrote in their journal for 20 minutes or so, and then discussed.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:14:12]"
+    },
+    {
+      "id": "context_22_465",
+      "index": 465,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Professor Garvin.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:19:13]"
+    },
+    {
+      "id": "context_22_466",
+      "index": 466,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Says that walking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:20:01]"
+    },
+    {
+      "id": "context_22_467",
+      "index": 467,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Trips were key here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:20:27]"
+    },
+    {
+      "id": "context_22_468",
+      "index": 468,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "They give you more time to think, feel, and connect with what's beneath your feet, as she put it, in her syllabus here, these weekly field trips.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:21:29]"
+    },
+    {
+      "id": "context_22_469",
+      "index": 469,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That are helping.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:32:29]"
+    },
+    {
+      "id": "context_22_470",
+      "index": 470,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Students make connections between.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:33:17]"
+    },
+    {
+      "id": "context_22_471",
+      "index": 471,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Different.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:35:20]"
+    },
+    {
+      "id": "context_22_472",
+      "index": 472,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Aspects of flow. The field work here is key.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:36:09]"
+    },
+    {
+      "id": "context_22_473",
+      "index": 473,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Sitting alone, going slowly, no cell phones.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:40:12]"
+    },
+    {
+      "id": "context_22_474",
+      "index": 474,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Etc. emphasizing observation, experiential observation, of particular parts of the river.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:44:11]"
+    },
+    {
+      "id": "context_22_475",
+      "index": 475,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The field work for Professor.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:52:19]"
+    },
+    {
+      "id": "context_22_476",
+      "index": 476,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Garvin's class was based on conditions, like the fall semester was warm enough to actually get into the water, and not always the case. In the spring semesters here in Ohio. it was also, based on processes that are going on in the, in the seasons, like when we're certain plants leafing out, when we're clams available things along that line.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:54:05]"
+    },
+    {
+      "id": "context_22_477",
+      "index": 477,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then she would adjust that to, with chapters of the book.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:14:09]"
+    },
+    {
+      "id": "context_22_478",
+      "index": 478,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "She included trips.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:18:03]"
+    },
+    {
+      "id": "context_22_479",
+      "index": 479,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To the Natural History Museum, to the Art Museum to observe.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:19:03]"
+    },
+    {
+      "id": "context_22_480",
+      "index": 480,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "For.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:23:10]"
+    },
+    {
+      "id": "context_22_481",
+      "index": 481,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Example, how Thomas Cole's paintings reflect some of the things they were thinking about in their courses, in their course, they visited many sites.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:23:18]"
+    },
+    {
+      "id": "context_22_482",
+      "index": 482,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In their field.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:32:17]"
+    },
+    {
+      "id": "context_22_483",
+      "index": 483,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Trips, and for a longer assignment, students.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:33:02]"
+    },
+    {
+      "id": "context_22_484",
+      "index": 484,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Picked one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:36:04]"
+    },
+    {
+      "id": "context_22_485",
+      "index": 485,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Site and returned to it periodically throughout the semester and charted changes that they noticed in their experiences. Professor Garvin says that field trips are always worth the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:36:27]"
+    },
+    {
+      "id": "context_22_486",
+      "index": 486,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Effort unless there's a cock up, which.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:47:25]"
+    },
+    {
+      "id": "context_22_487",
+      "index": 487,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Things can happen, when you're when you're taking people around. I found the same thing. I wasn't always able to teach a course that allowed for field trips, but I always have benefited from doing that. The concept based course is a little cleaner in that regard.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:50:05]"
+    },
+    {
+      "id": "context_22_488",
+      "index": 488,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "But perhaps, maybe.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:05:22]"
+    },
+    {
+      "id": "context_22_489",
+      "index": 489,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Even a little bit drier because of that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:07:05]"
+    },
+    {
+      "id": "context_22_490",
+      "index": 490,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A couple other,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:10:07]"
+    },
+    {
+      "id": "context_22_491",
+      "index": 491,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Place based models for courses in the blue humanities, from left to right, one on the Mississippi, one on London and one on Los Angeles.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:12:21]"
+    },
+    {
+      "id": "context_22_492",
+      "index": 492,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The one on the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:22:04]"
+    },
+    {
+      "id": "context_22_493",
+      "index": 493,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Left, Ben Gross, former student of mine teaches, has taught a history course at Tulane University called The Old South. Included a series of lectures that were inspired by meaning of rivers, focused on the Mississippi. So going up the river, down the river and across the river. And it's been great for the students. Also read.",
+      "tags": [
+        "education",
+        "environment"
+      ],
+      "timestamp": "[00:34:22:21]"
+    },
+    {
+      "id": "context_22_494",
+      "index": 494,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "River of Dark Dreams.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:42:12]"
+    },
+    {
+      "id": "context_22_495",
+      "index": 495,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Slavery and Empire in the Cotton Kingdom by Walter Johnson.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:44:01]"
+    },
+    {
+      "id": "context_22_496",
+      "index": 496,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The middle one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:48:21]"
+    },
+    {
+      "id": "context_22_497",
+      "index": 497,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I did, of course. Our college has a program in which we take Oberlin students to London for a semester, and I did a course there on Words Written on Water.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:49:28]"
+    },
+    {
+      "id": "context_22_498",
+      "index": 498,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "This is a London based.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:00:21]"
+    },
+    {
+      "id": "context_22_499",
+      "index": 499,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And you're looking at multiple forms of water, not just rivers. And it was divided into three main parts and interpretation, fieldwork and writing.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:35:01:25]"
+    },
+    {
+      "id": "context_22_500",
+      "index": 500,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The interpretation of literary.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:12:19]"
+    },
+    {
+      "id": "context_22_501",
+      "index": 501,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Treatments of water in British literature was a big part of it. We read fiction, nonfiction and poetry.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:35:14:01]"
+    },
+    {
+      "id": "context_22_502",
+      "index": 502,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We read graphic novels.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:20:09]"
+    },
+    {
+      "id": "context_22_503",
+      "index": 503,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Histories of underground rivers, short stories, poetry, novel, memoirs, essays on wild swimming.",
+      "tags": [
+        "environment",
+        "literature"
+      ],
+      "timestamp": "[00:35:21:23]"
+    },
+    {
+      "id": "context_22_504",
+      "index": 504,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The field of observation took place regarding different.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:29:25]"
+    },
+    {
+      "id": "context_22_505",
+      "index": 505,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Kinds of water, different manifestations of water. In British culture. There was an emphasis.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:33:08]"
+    },
+    {
+      "id": "context_22_506",
+      "index": 506,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "On London in the River Thames, but we also went to the fountains and ponds of Hyde Park.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:38:04]"
+    },
+    {
+      "id": "context_22_507",
+      "index": 507,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "along the course of a now hidden Tyburn River and underground river. We walked.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:43:20]"
+    },
+    {
+      "id": "context_22_508",
+      "index": 508,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Through the busy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:48:19]"
+    },
+    {
+      "id": "context_22_509",
+      "index": 509,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "City, on the sidewalks along the course of this ancient river Tyburn. We went to the Hampstead.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:49:13]"
+    },
+    {
+      "id": "context_22_510",
+      "index": 510,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Heath pools.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:56:23]"
+    },
+    {
+      "id": "context_22_511",
+      "index": 511,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:57:17]"
+    },
+    {
+      "id": "context_22_512",
+      "index": 512,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Asked.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:57:21]"
+    },
+    {
+      "id": "context_22_513",
+      "index": 513,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:58:22]"
+    },
+    {
+      "id": "context_22_514",
+      "index": 514,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Swimmers there why they were swimming in 30 degree weather.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:58:25]"
+    },
+    {
+      "id": "context_22_515",
+      "index": 515,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "we took a float down the Regents Canal and thought about how canals work. We explored wetlands.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:36:04:01]"
+    },
+    {
+      "id": "context_22_516",
+      "index": 516,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then the third.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:09:24]"
+    },
+    {
+      "id": "context_22_517",
+      "index": 517,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Part of it was writing, and we explore different ways of writing effectively about water in the 21st century. What do we have to do now in writing about these things? To bring out the meaning of water for people?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:10:28]"
+    },
+    {
+      "id": "context_22_518",
+      "index": 518,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In this case.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:23:17]"
+    },
+    {
+      "id": "context_22_519",
+      "index": 519,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "we we tried different kinds of writing. We wrote a glossary.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:24:26]"
+    },
+    {
+      "id": "context_22_520",
+      "index": 520,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of key words. We wrote a catalog poem.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:28:04]"
+    },
+    {
+      "id": "context_22_521",
+      "index": 521,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We wrote what's called a high bun or a short reflective post.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:30:23]"
+    },
+    {
+      "id": "context_22_522",
+      "index": 522,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Prose paragraph.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:34:14]"
+    },
+    {
+      "id": "context_22_523",
+      "index": 523,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Followed by a haiku.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:35:20]"
+    },
+    {
+      "id": "context_22_524",
+      "index": 524,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We did sound maps.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:37:26]"
+    },
+    {
+      "id": "context_22_525",
+      "index": 525,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We wrote essays.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:39:11]"
+    },
+    {
+      "id": "context_22_526",
+      "index": 526,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I was thinking that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:40:25]"
+    },
+    {
+      "id": "context_22_527",
+      "index": 527,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "What's this London based course? An Idaho based version might include springs.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:41:21]"
+    },
+    {
+      "id": "context_22_528",
+      "index": 528,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Hot springs, groundwater, drought, different usages, sections of a river, water treatment plants.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:36:46:26]"
+    },
+    {
+      "id": "context_22_529",
+      "index": 529,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "There are many different ways of approaching water and helping students think about those differences can can add to a lot of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:53:28]"
+    },
+    {
+      "id": "context_22_530",
+      "index": 530,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Clearer understand of life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:01:12]"
+    },
+    {
+      "id": "context_22_531",
+      "index": 531,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And finally, the LA River.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:03:13]"
+    },
+    {
+      "id": "context_22_532",
+      "index": 532,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Unit that you see in the far right of the screen, based on my research on la River, this is what I've been working on most recently, I divided, I've got a book and that that URL at the bottom, it's an open access digital book free to everyone who wants to use it, something that you could potentially use in teaching where you so inclined.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:37:05:20]"
+    },
+    {
+      "id": "context_22_533",
+      "index": 533,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In this case.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:29:15]"
+    },
+    {
+      "id": "context_22_534",
+      "index": 534,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "there are three sections to the book. One is on nonfiction, and that's connected with the middle of the river and with the concept of mapping.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:37:30:25]"
+    },
+    {
+      "id": "context_22_535",
+      "index": 535,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The second.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:40:18]"
+    },
+    {
+      "id": "context_22_536",
+      "index": 536,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Section is on fiction, and that's connected with.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:37:41:05]"
+    },
+    {
+      "id": "context_22_537",
+      "index": 537,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The mouth of the river.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:43:28]"
+    },
+    {
+      "id": "context_22_538",
+      "index": 538,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And paradoxes like when is a river not a river?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:45:06]"
+    },
+    {
+      "id": "context_22_539",
+      "index": 539,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then the third.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:51:04]"
+    },
+    {
+      "id": "context_22_540",
+      "index": 540,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Section is on poetry and is based in the headwaters. And thinking about the idea of home. Here again, the Idaho version, you might choose a particular place, choose a key concept, find associated text, make a digital presentation or a post or something like that on a particular aspect.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:37:52:13]"
+    },
+    {
+      "id": "context_22_541",
+      "index": 541,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of a of a particular.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:10:10]"
+    },
+    {
+      "id": "context_22_542",
+      "index": 542,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "River or a particular, another manifestation of water.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:11:15]"
+    },
+    {
+      "id": "context_22_543",
+      "index": 543,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "If you would. I would encourage you to take another minute or two to reflect on these things, look over and add to your notes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:17:01]"
+    },
+    {
+      "id": "context_22_544",
+      "index": 544,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And, for a possible.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:24:01]"
+    },
+    {
+      "id": "context_22_545",
+      "index": 545,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Course or unit using using.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:26:06]"
+    },
+    {
+      "id": "context_22_546",
+      "index": 546,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The blue humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:29:03]"
+    },
+    {
+      "id": "context_22_547",
+      "index": 547,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then we'll move on to the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:30:18]"
+    },
+    {
+      "id": "context_22_548",
+      "index": 548,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Last section of the presentation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:31:28]"
+    },
+    {
+      "id": "context_22_549",
+      "index": 549,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "How to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:43:18]"
+    },
+    {
+      "id": "context_22_550",
+      "index": 550,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Teach blue Humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:44:02]"
+    },
+    {
+      "id": "context_22_551",
+      "index": 551,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I've used rivers in literature.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:46:28]"
+    },
+    {
+      "id": "context_22_552",
+      "index": 552,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:50:05]"
+    },
+    {
+      "id": "context_22_553",
+      "index": 553,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "All of my courses, even those that aren't river based.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:50:24]"
+    },
+    {
+      "id": "context_22_554",
+      "index": 554,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I teach nature in many of the courses.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:55:02]"
+    },
+    {
+      "id": "context_22_555",
+      "index": 555,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That I work.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:59:04]"
+    },
+    {
+      "id": "context_22_556",
+      "index": 556,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "On.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:59:24]"
+    },
+    {
+      "id": "context_22_557",
+      "index": 557,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And all of those courses emphasizing questions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:01:00]"
+    },
+    {
+      "id": "context_22_558",
+      "index": 558,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I found to be really important.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:05:02]"
+    },
+    {
+      "id": "context_22_559",
+      "index": 559,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "emphasizing questions for further.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:08:14]"
+    },
+    {
+      "id": "context_22_560",
+      "index": 560,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thinking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:10:25]"
+    },
+    {
+      "id": "context_22_561",
+      "index": 561,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And here provocation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:12:07]"
+    },
+    {
+      "id": "context_22_562",
+      "index": 562,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Plays an important role in that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:14:08]"
+    },
+    {
+      "id": "context_22_563",
+      "index": 563,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Further thinking. Interpretation is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:16:10]"
+    },
+    {
+      "id": "context_22_564",
+      "index": 564,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is a crucial aspect of teaching blue humanities and reflection is also an important way to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:18:15]"
+    },
+    {
+      "id": "context_22_565",
+      "index": 565,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Put things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:26:13]"
+    },
+    {
+      "id": "context_22_566",
+      "index": 566,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Together. in a particular course or unit.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:27:01]"
+    },
+    {
+      "id": "context_22_567",
+      "index": 567,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Questions are a way of modeling further.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:31:18]"
+    },
+    {
+      "id": "context_22_568",
+      "index": 568,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thinking, as I'm sure you've found.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:34:20]"
+    },
+    {
+      "id": "context_22_569",
+      "index": 569,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Out.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:36:14]"
+    },
+    {
+      "id": "context_22_570",
+      "index": 570,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "How you teach is what you teach. Think about,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:37:03]"
+    },
+    {
+      "id": "context_22_571",
+      "index": 571,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The things that you probably already know.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:41:22]"
+    },
+    {
+      "id": "context_22_572",
+      "index": 572,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And I've.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:44:02]"
+    },
+    {
+      "id": "context_22_573",
+      "index": 573,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Found.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:44:25]"
+    },
+    {
+      "id": "context_22_574",
+      "index": 574,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It useful to remind myself periodically of basic precepts and practices. And that's aided by thinking about the why of teaching. But in this case, thinking about how to teach.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:45:08]"
+    },
+    {
+      "id": "context_22_575",
+      "index": 575,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I know I.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:57:01]"
+    },
+    {
+      "id": "context_22_576",
+      "index": 576,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Have learned that complacency.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:57:22]"
+    },
+    {
+      "id": "context_22_577",
+      "index": 577,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And passivity and cliché are the enemies of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:59:26]"
+    },
+    {
+      "id": "context_22_578",
+      "index": 578,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Successful teaching. I have run aground on various river expeditions on those rocks.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:03:05]"
+    },
+    {
+      "id": "context_22_579",
+      "index": 579,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And you just have to remember.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:10:12]"
+    },
+    {
+      "id": "context_22_580",
+      "index": 580,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That from time to time and think about what's going on. When you fall into habits such as that, good teaching should encourage and exemplify good thinking, good thinking practices. As William James put.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:13:05]"
+    },
+    {
+      "id": "context_22_581",
+      "index": 581,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It, the teacher who meets with the most success is the teacher whose own ways are the most.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:40:26:15]"
+    },
+    {
+      "id": "context_22_582",
+      "index": 582,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Immutable. Questions are a way of modeling that kind of thinking. I think I.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:33:08]"
+    },
+    {
+      "id": "context_22_583",
+      "index": 583,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I think it's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:39:15]"
+    },
+    {
+      "id": "context_22_584",
+      "index": 584,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Important to ask many questions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:39:26]"
+    },
+    {
+      "id": "context_22_585",
+      "index": 585,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To allow for response, to foster response.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:41:26]"
+    },
+    {
+      "id": "context_22_586",
+      "index": 586,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To connect responses to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:44:26]"
+    },
+    {
+      "id": "context_22_587",
+      "index": 587,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One another.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:46:10]"
+    },
+    {
+      "id": "context_22_588",
+      "index": 588,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "to one from one response to another, from the response to a particular lesson that you're trying to get at on a given day. This is the importance of action of anti passivity, as it were, of active learning. As James put it, no.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:48:14]"
+    },
+    {
+      "id": "context_22_589",
+      "index": 589,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Reception.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:04:00]"
+    },
+    {
+      "id": "context_22_590",
+      "index": 590,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Without reaction.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:04:23]"
+    },
+    {
+      "id": "context_22_591",
+      "index": 591,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "No impression.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:05:24]"
+    },
+    {
+      "id": "context_22_592",
+      "index": 592,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Without correlative expression that need to express what you're learning. That opportunity to express the kinds of questions that you've been raising and thoughts on how to respond to those questions.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:41:07:01]"
+    },
+    {
+      "id": "context_22_593",
+      "index": 593,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is is crucial to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:20:18]"
+    },
+    {
+      "id": "context_22_594",
+      "index": 594,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The actual getting of those things in the first place. Good questions help keep students involved.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:22:04]"
+    },
+    {
+      "id": "context_22_595",
+      "index": 595,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Time to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:28:18]"
+    },
+    {
+      "id": "context_22_596",
+      "index": 596,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Think about questions and opportunity for.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:28:29]"
+    },
+    {
+      "id": "context_22_597",
+      "index": 597,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Sharing. Thinking keeps the process active.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:30:27]"
+    },
+    {
+      "id": "context_22_598",
+      "index": 598,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Provocation here is is a key. And again, and it was in the Divinity School address that Emerson brought up this idea forward of provoking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:35:04]"
+    },
+    {
+      "id": "context_22_599",
+      "index": 599,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "provoking your students.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:44:11]"
+    },
+    {
+      "id": "context_22_600",
+      "index": 600,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "He said that,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:46:00]"
+    },
+    {
+      "id": "context_22_601",
+      "index": 601,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "He distinguishes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:47:01]"
+    },
+    {
+      "id": "context_22_602",
+      "index": 602,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Between.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:48:17]"
+    },
+    {
+      "id": "context_22_603",
+      "index": 603,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Provocation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:49:17]"
+    },
+    {
+      "id": "context_22_604",
+      "index": 604,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And instruction.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:50:24]"
+    },
+    {
+      "id": "context_22_605",
+      "index": 605,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "and here he's thinking about the roots.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:53:16]"
+    },
+    {
+      "id": "context_22_606",
+      "index": 606,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of the word provocation. So it's not.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:57:12]"
+    },
+    {
+      "id": "context_22_607",
+      "index": 607,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Just stirring.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:59:16]"
+    },
+    {
+      "id": "context_22_608",
+      "index": 608,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Something up or bothering somebody.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:00:22]"
+    },
+    {
+      "id": "context_22_609",
+      "index": 609,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Provocation comes from provocation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:04:12]"
+    },
+    {
+      "id": "context_22_610",
+      "index": 610,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Which means calling forth in the Latin. Instruction involves putting something in students, usually information, adding something to something.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:06:19]"
+    },
+    {
+      "id": "context_22_611",
+      "index": 611,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Provocation is calling forth, getting.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:17:04]"
+    },
+    {
+      "id": "context_22_612",
+      "index": 612,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Students to think, bringing out their thoughts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:19:26]"
+    },
+    {
+      "id": "context_22_613",
+      "index": 613,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Maybe even calling forth wisdom, not.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:23:20]"
+    },
+    {
+      "id": "context_22_614",
+      "index": 614,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Really trying to put anything in. And Emerson again proposed that teachers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:26:28]"
+    },
+    {
+      "id": "context_22_615",
+      "index": 615,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Concern themselves more.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:33:05]"
+    },
+    {
+      "id": "context_22_616",
+      "index": 616,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "With provocation than they had been.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:34:27]"
+    },
+    {
+      "id": "context_22_617",
+      "index": 617,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Too much.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:38:04]"
+    },
+    {
+      "id": "context_22_618",
+      "index": 618,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Instruction in a way, interpretation is a way of fostering provocation, I think, and I've come up with a formula that I've used.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:38:21]"
+    },
+    {
+      "id": "context_22_619",
+      "index": 619,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Through the years.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:49:13]"
+    },
+    {
+      "id": "context_22_620",
+      "index": 620,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In which I say that interpretation is,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:50:28]"
+    },
+    {
+      "id": "context_22_621",
+      "index": 621,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Examination, times.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:55:14]"
+    },
+    {
+      "id": "context_22_622",
+      "index": 622,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Explication, times extrapolation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:56:29]"
+    },
+    {
+      "id": "context_22_623",
+      "index": 623,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Plus.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:59:26]"
+    },
+    {
+      "id": "context_22_624",
+      "index": 624,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Revision or reflection. And I want to explain that briefly.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:01:10]"
+    },
+    {
+      "id": "context_22_625",
+      "index": 625,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "this this kind of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:06:04]"
+    },
+    {
+      "id": "context_22_626",
+      "index": 626,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interpretation is a sort of hands on activity in which you are living out provocation of a kind.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:07:05]"
+    },
+    {
+      "id": "context_22_627",
+      "index": 627,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The examination and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:14:08]"
+    },
+    {
+      "id": "context_22_628",
+      "index": 628,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Explication and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:15:14]"
+    },
+    {
+      "id": "context_22_629",
+      "index": 629,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Extrapolation are multiplied together.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:16:05]"
+    },
+    {
+      "id": "context_22_630",
+      "index": 630,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To signify that they don't happen in a clean series. It's not that you sit down and examine.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:18:19]"
+    },
+    {
+      "id": "context_22_631",
+      "index": 631,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The text.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:23:14]"
+    },
+    {
+      "id": "context_22_632",
+      "index": 632,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Pay attention to its details, and then you begin to explicate and explain certain parts of it, and then you start to infer larger meanings. It's more.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:24:08]"
+    },
+    {
+      "id": "context_22_633",
+      "index": 633,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The case that those things are.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:34:23]"
+    },
+    {
+      "id": "context_22_634",
+      "index": 634,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Always going on, and sometimes we get more excited about one than.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:36:02]"
+    },
+    {
+      "id": "context_22_635",
+      "index": 635,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The other. Sometimes we are in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:39:15]"
+    },
+    {
+      "id": "context_22_636",
+      "index": 636,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Forget to do one of them. And when we.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:41:00]"
+    },
+    {
+      "id": "context_22_637",
+      "index": 637,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Do that, we are undercutting what a full.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:43:14]"
+    },
+    {
+      "id": "context_22_638",
+      "index": 638,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Interpretation can do with a text. So I help students remember what goes on interpretation, and we practice this over and over and over again.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:46:06]"
+    },
+    {
+      "id": "context_22_639",
+      "index": 639,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "having them think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:57:00]"
+    },
+    {
+      "id": "context_22_640",
+      "index": 640,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "About these different modes and practicing them in different ways. So with examining, again you're paying careful attention to the text itself. You're looking at those different sorts of qualities like, when does this take place? what's going on in it? Who are the main characters? What are some central themes? That kind of thing. And one of the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:58:04]"
+    },
+    {
+      "id": "context_22_641",
+      "index": 641,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Things you can.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:16:25]"
+    },
+    {
+      "id": "context_22_642",
+      "index": 642,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Do to cultivate examination is ask students to provide a kind of descriptive overview of the thing as a whole. What are all the details when you put them together and organize them? that tell us something about this particular text.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:17:11]"
+    },
+    {
+      "id": "context_22_643",
+      "index": 643,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In explicating you are explaining particular parts in here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:31:14]"
+    },
+    {
+      "id": "context_22_644",
+      "index": 644,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I found it useful.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:35:00]"
+    },
+    {
+      "id": "context_22_645",
+      "index": 645,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To look at key passages.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:35:26]"
+    },
+    {
+      "id": "context_22_646",
+      "index": 646,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In a text and really.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:37:24]"
+    },
+    {
+      "id": "context_22_647",
+      "index": 647,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Spend.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:39:17]"
+    },
+    {
+      "id": "context_22_648",
+      "index": 648,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Time unfolding the meanings of that passage, and that includes connecting it to where it is in the original, because things mean different things in different places. these words mean something in particular at this place, and they would have meant something different in another place. So connecting.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:39:27]"
+    },
+    {
+      "id": "context_22_649",
+      "index": 649,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The passage to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:56:03]"
+    },
+    {
+      "id": "context_22_650",
+      "index": 650,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Its original context and then connecting that to the whole of the text, taken, taken whole or.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:57:04]"
+    },
+    {
+      "id": "context_22_651",
+      "index": 651,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Largely and then extrapolation, this inferring of larger meanings, actually this is, this.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:04:08]"
+    },
+    {
+      "id": "context_22_652",
+      "index": 652,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Can move well beyond the text. It's, it's asking questions that come out of your interpretation of a text and thinking about what the text can tell you about something like home or, flow or what have you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:09:01]"
+    },
+    {
+      "id": "context_22_653",
+      "index": 653,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Again, these don't just.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:20:24]"
+    },
+    {
+      "id": "context_22_654",
+      "index": 654,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Happen in a, in a succession.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:21:21]"
+    },
+    {
+      "id": "context_22_655",
+      "index": 655,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "before you begin examining a text, you've already started to infer larger meanings about it. Like teacher.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:24:04]"
+    },
+    {
+      "id": "context_22_656",
+      "index": 656,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Assign this so it must be important or I'm going to hate this because teacher assigned it or whatever.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:30:12]"
+    },
+    {
+      "id": "context_22_657",
+      "index": 657,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "But those these things are always happening.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:36:09]"
+    },
+    {
+      "id": "context_22_658",
+      "index": 658,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "At once in different ways, at different times. And it's good to sort through them and allow students to not only.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:38:11]"
+    },
+    {
+      "id": "context_22_659",
+      "index": 659,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Think about each particular.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:43:20]"
+    },
+    {
+      "id": "context_22_660",
+      "index": 660,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Aspect, but then to connect them and remember that they're informing one another all the time. And that's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:45:09]"
+    },
+    {
+      "id": "context_22_661",
+      "index": 661,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One of the things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:50:25]"
+    },
+    {
+      "id": "context_22_662",
+      "index": 662,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You can do in revision. That's why that is added on at the end there, that reviewing or rethinking, you go back over and think about how all of this works.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:51:12]"
+    },
+    {
+      "id": "context_22_663",
+      "index": 663,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Do you need to examine more?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:00:07]"
+    },
+    {
+      "id": "context_22_664",
+      "index": 664,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Are there other details you might consider? how would you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:01:21]"
+    },
+    {
+      "id": "context_22_665",
+      "index": 665,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Explain this particular.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:04:08]"
+    },
+    {
+      "id": "context_22_666",
+      "index": 666,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Passage that otherwise doesn't make sense to you? and so.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:05:11]"
+    },
+    {
+      "id": "context_22_667",
+      "index": 667,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Forth, going over.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:08:28]"
+    },
+    {
+      "id": "context_22_668",
+      "index": 668,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Again, seeing, seeing differently, new rethinking, revising.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:10:27]"
+    },
+    {
+      "id": "context_22_669",
+      "index": 669,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Can also.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:16:11]"
+    },
+    {
+      "id": "context_22_670",
+      "index": 670,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Think of that. that revision as returning, retracing, remembering, going over previously covered ground and removing, removing through the same place from a different direction, going back into the past, bringing the past into the present or what have you asking again.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:16:24]"
+    },
+    {
+      "id": "context_22_671",
+      "index": 671,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "What are we doing here? Reflecting revision. This is a key.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:32:18]"
+    },
+    {
+      "id": "context_22_672",
+      "index": 672,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Aspect of interpretation, the kind of thinking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:36:09]"
+    },
+    {
+      "id": "context_22_673",
+      "index": 673,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So with that formula you can tackle a particular set of works or just a single work. And one example.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:40:02]"
+    },
+    {
+      "id": "context_22_674",
+      "index": 674,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "That I thought might be useful to you, how you might put this together.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:47:22]"
+    },
+    {
+      "id": "context_22_675",
+      "index": 675,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Is to say take a theme.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:51:21]"
+    },
+    {
+      "id": "context_22_676",
+      "index": 676,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Such as.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:53:04]"
+    },
+    {
+      "id": "context_22_677",
+      "index": 677,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Home.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:54:05]"
+    },
+    {
+      "id": "context_22_678",
+      "index": 678,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Being at home is an important it's important to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:55:27]"
+    },
+    {
+      "id": "context_22_679",
+      "index": 679,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "All of us in some way or another.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:59:24]"
+    },
+    {
+      "id": "context_22_680",
+      "index": 680,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Home traditionally means the place where one dwells, or the place.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:01:23]"
+    },
+    {
+      "id": "context_22_681",
+      "index": 681,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Where.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:06:13]"
+    },
+    {
+      "id": "context_22_682",
+      "index": 682,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "One belongs, or the place where one is from another. Meaning of home.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:06:22]"
+    },
+    {
+      "id": "context_22_683",
+      "index": 683,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Though, is the place.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:11:23]"
+    },
+    {
+      "id": "context_22_684",
+      "index": 684,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "From which we are estranged, the place where we no longer belong, whether through.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:13:08]"
+    },
+    {
+      "id": "context_22_685",
+      "index": 685,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Exile or immigration or alienation.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:47:19:06]"
+    },
+    {
+      "id": "context_22_686",
+      "index": 686,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "When we think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:22:27]"
+    },
+    {
+      "id": "context_22_687",
+      "index": 687,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of the city as separate from nature, for example, we accept a certain kind of alienation as part of.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:47:23:10]"
+    },
+    {
+      "id": "context_22_688",
+      "index": 688,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "A particular version of human history. We were part.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:30:18]"
+    },
+    {
+      "id": "context_22_689",
+      "index": 689,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of nature a long, long time ago. we belong there in nature. It was our home. But as we became more quote unquote civilized, we increasingly moved away from nature and threw our lot in with culture. And those things are separate. That is it. One way of looking at.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:47:34:06]"
+    },
+    {
+      "id": "context_22_690",
+      "index": 690,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Home or.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:53:10]"
+    },
+    {
+      "id": "context_22_691",
+      "index": 691,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Using home.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:54:07]"
+    },
+    {
+      "id": "context_22_692",
+      "index": 692,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "To think about where.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:54:27]"
+    },
+    {
+      "id": "context_22_693",
+      "index": 693,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "We are and what we are doing here?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:56:11]"
+    },
+    {
+      "id": "context_22_694",
+      "index": 694,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You can provoke students to think wholly.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:58:21]"
+    },
+    {
+      "id": "context_22_695",
+      "index": 695,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "By practicing different modes of interpretation. and you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:01:20]"
+    },
+    {
+      "id": "context_22_696",
+      "index": 696,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Don't always.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:05:10]"
+    },
+    {
+      "id": "context_22_697",
+      "index": 697,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Have to do everything all at once with a given text. I think shorter texts work best here. Thinking with a given text.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:05:27]"
+    },
+    {
+      "id": "context_22_698",
+      "index": 698,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "what do what do you think home means.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:14:07]"
+    },
+    {
+      "id": "context_22_699",
+      "index": 699,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In this text? How does a given literary work divine define home?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:16:04]"
+    },
+    {
+      "id": "context_22_700",
+      "index": 700,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Go slowly.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:22:12]"
+    },
+    {
+      "id": "context_22_701",
+      "index": 701,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Allow yourself, time.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:23:13]"
+    },
+    {
+      "id": "context_22_702",
+      "index": 702,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And give your students.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:25:10]"
+    },
+    {
+      "id": "context_22_703",
+      "index": 703,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Responsibility for interpreting texts. So, for example, you could practice examination.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:26:18]"
+    },
+    {
+      "id": "context_22_704",
+      "index": 704,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Only.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:32:28]"
+    },
+    {
+      "id": "context_22_705",
+      "index": 705,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "With a with a particular work. And one of the things I did at the presentation at the Institute this summer is ask.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:33:24]"
+    },
+    {
+      "id": "context_22_706",
+      "index": 706,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Participants to examine the title.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:41:12]"
+    },
+    {
+      "id": "context_22_707",
+      "index": 707,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of the Langston Hughes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:44:15]"
+    },
+    {
+      "id": "context_22_708",
+      "index": 708,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Poem, The Negro Speaks of Rivers. Think about each of those words.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:45:25]"
+    },
+    {
+      "id": "context_22_709",
+      "index": 709,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "What details do you notice in that title, and how would you describe that to other people? Then? in practicing explication, we looked at a sentence from an essay by Kathleen Dean Moore called The Willamette, and we looked at this one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:50:15]"
+    },
+    {
+      "id": "context_22_710",
+      "index": 710,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Particular passage that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:06:27]"
+    },
+    {
+      "id": "context_22_711",
+      "index": 711,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Comes near the end of the essay, and we thought about it a very short one, and we thought about what the key.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:08:00]"
+    },
+    {
+      "id": "context_22_712",
+      "index": 712,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Words were in that passage. We thought about those key words further. How do you describe the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:13:26]"
+    },
+    {
+      "id": "context_22_713",
+      "index": 713,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Denotation of a key word as opposed to the connotation of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:20:10]"
+    },
+    {
+      "id": "context_22_714",
+      "index": 714,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Home?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:24:29]"
+    },
+    {
+      "id": "context_22_715",
+      "index": 715,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "For example, the denotation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:25:08]"
+    },
+    {
+      "id": "context_22_716",
+      "index": 716,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Would be the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:27:04]"
+    },
+    {
+      "id": "context_22_717",
+      "index": 717,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Dictionary definition, but the connotation could be all kinds of things. And each text is going to offer different kinds of connotations for a key term, such as that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:27:21]"
+    },
+    {
+      "id": "context_22_718",
+      "index": 718,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:37:06]"
+    },
+    {
+      "id": "context_22_719",
+      "index": 719,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Connect the denotation and the connotations to one another. You connect the passage to its original context. Where is it and what does it mean in that particular place connected to the whole?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:37:21]"
+    },
+    {
+      "id": "context_22_720",
+      "index": 720,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And then, very importantly, explain the passage to.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:48:04]"
+    },
+    {
+      "id": "context_22_721",
+      "index": 721,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Somebody who's unfamiliar with the text that helps students.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:51:11]"
+    },
+    {
+      "id": "context_22_722",
+      "index": 722,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Really think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:54:26]"
+    },
+    {
+      "id": "context_22_723",
+      "index": 723,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Deeply about the nature of a particular kind of text.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:55:27]"
+    },
+    {
+      "id": "context_22_724",
+      "index": 724,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "And we practiced.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:59:25]"
+    },
+    {
+      "id": "context_22_725",
+      "index": 725,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Extrapolation by.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:01:04]"
+    },
+    {
+      "id": "context_22_726",
+      "index": 726,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thinking about, River Runs Through it. The Norman McLean novella, and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:02:10]"
+    },
+    {
+      "id": "context_22_727",
+      "index": 727,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Taking meanings from that story and going well beyond the story thinking.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:07:10]"
+    },
+    {
+      "id": "context_22_728",
+      "index": 728,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So what? I just read that story. Why does it matter?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:11:22]"
+    },
+    {
+      "id": "context_22_729",
+      "index": 729,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "What does it tell.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:14:23]"
+    },
+    {
+      "id": "context_22_730",
+      "index": 730,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Me about home and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:15:11]"
+    },
+    {
+      "id": "context_22_731",
+      "index": 731,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Rivers? And when you're in this section, when you're in this aspect of interpretation, you may not even need the title.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:50:16:16]"
+    },
+    {
+      "id": "context_22_732",
+      "index": 732,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of the text or specifics of the text.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:24:25]"
+    },
+    {
+      "id": "context_22_733",
+      "index": 733,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "You're moving to these larger.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:26:19]"
+    },
+    {
+      "id": "context_22_734",
+      "index": 734,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Larger questions and making this matter on a different level beyond.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:28:21]"
+    },
+    {
+      "id": "context_22_735",
+      "index": 735,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The text and sometimes even.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:33:25]"
+    },
+    {
+      "id": "context_22_736",
+      "index": 736,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Beyond the classroom.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:35:11]"
+    },
+    {
+      "id": "context_22_737",
+      "index": 737,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "So that's about it. Reflection is a key part of all of this connection flow. They all.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:40:21]"
+    },
+    {
+      "id": "context_22_738",
+      "index": 738,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Go together.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:46:02]"
+    },
+    {
+      "id": "context_22_739",
+      "index": 739,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "The reflection sends us back to why and what.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:46:23]"
+    },
+    {
+      "id": "context_22_740",
+      "index": 740,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "we think of the how as being connected with the why and the what and how did these different things go together? How might they go together?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:51:14]"
+    },
+    {
+      "id": "context_22_741",
+      "index": 741,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "if you think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:01:01]"
+    },
+    {
+      "id": "context_22_742",
+      "index": 742,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In terms.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:01:24]"
+    },
+    {
+      "id": "context_22_743",
+      "index": 743,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:02:15]"
+    },
+    {
+      "id": "context_22_744",
+      "index": 744,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "the process of, of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:03:18]"
+    },
+    {
+      "id": "context_22_745",
+      "index": 745,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "habitually waiting someone or recapitulating someone very tricky business, what habits do you want to get? What habits do you want to cultivate?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:06:02]"
+    },
+    {
+      "id": "context_22_746",
+      "index": 746,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "What habits do you want students to have?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:14:21]"
+    },
+    {
+      "id": "context_22_747",
+      "index": 747,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "These are habits of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:16:25]"
+    },
+    {
+      "id": "context_22_748",
+      "index": 748,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thinking, habits of behaving.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:17:18]"
+    },
+    {
+      "id": "context_22_749",
+      "index": 749,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "ways of being.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:20:00]"
+    },
+    {
+      "id": "context_22_750",
+      "index": 750,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "In the world, education.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:21:25]"
+    },
+    {
+      "id": "context_22_751",
+      "index": 751,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "All about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:24:04]"
+    },
+    {
+      "id": "context_22_752",
+      "index": 752,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Those habits.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:25:03]"
+    },
+    {
+      "id": "context_22_753",
+      "index": 753,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Changing them. Help others.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:26:10]"
+    },
+    {
+      "id": "context_22_754",
+      "index": 754,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Making the best of our time on the planet.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:28:08]"
+    },
+    {
+      "id": "context_22_755",
+      "index": 755,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "Thank you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:32:03]"
+    },
+    {
+      "id": "context_22_756",
+      "index": 756,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "I hope that's of some use to you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:33:14]"
+    },
+    {
+      "id": "context_22_757",
+      "index": 757,
+      "speaker": "Johanna Bringhurst",
+      "words": "Thank you so much, Doctor McMillin. We really appreciate you being with us today.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:38:14]"
+    },
+    {
+      "id": "context_22_758",
+      "index": 758,
+      "speaker": "Dr. T.S. McMillin",
+      "words": "It was my pleasure. Johanna. All the best wishes to you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:44:06]"
+    },
+    {
+      "id": "context_22_759",
+      "index": 759,
+      "speaker": "Johanna Bringhurst",
+      "words": "Thank you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:48:04]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 760,
+    "description": "Dr. McMillin shares his presentation on the Blue Humanities, which he gave at the IHC Summer Teacher Institute, An Environment of Hope , with our listeners. In this session, participants will be introduced to the “blue humanities,” with particular focus on rivers and literature. There are three main parts: Why Teach Blue Humanities, What to Teach If You Teach Blue Humanities, and How to Teach Blue Humanities. Part one (Why) centers around hope, and the ways that literature fosters hope through “Connecting” (making connections, belonging to the world, participating), “Flowing” (moving connectedly and connectively, changing, adapting), and “Reflecting” (re-viewing, re-seeing, re-thinking). In part two (What), we will explore different ways of using Blue Humanities in the classroom, including examples of semester-long courses (from both scientific and literary perspectives) and shorter units. The final section (How) involves looking at several literary works and thinking about their different approaches to rivers and the concept of “home.”",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

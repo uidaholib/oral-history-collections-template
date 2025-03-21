@@ -1,355 +1,432 @@
-<script type="text/javascript">
-  let url = new URL(window.location);
-  let params = url.searchParams;
-  const filtersSearch = document.getElementById('filters-search');
-  const filterTab = document.getElementById('filter-tab');
-  const upperElement = document.getElementById('upper-content');
-  const step0 = document.getElementById('step0');
+<script>
+// Utility functions for transcript pages
+const getUrlParams = () => {
+  const url = new URL(window.location);
+  return url.searchParams;
+};
 
-  function vizFilter(x) {
-    var rects = document.getElementsByTagName('rect');
-    if (x != "hilite") {
-      params.set('filter', x);
-      var p = params.toString();
-      window.history.replaceState({}, '', location.pathname + '?' + p);
-      {% unless site.data.theme.search-and-filters == false %}
-      document.getElementById('filters').value = x;
-      {% endunless %}
-    }
-    for (i = 0; i < rects.length; i++) {
-      var classString = rects[i].classList;
-      classString.add('dark');
-      classString.forEach(item => {
-        if (item.startsWith('primary')) {
-          classString.remove(item);
-        }
-      });
-      if (x == "all") {
-        classString.remove('dark');
-        resetVals();
-      } else if (classString.contains(x)) {
-        classString.remove('dark');
-        classString.add("primary-" + x);
-      } else if (x == "darkforall") { }
+const updateUrlParams = (params, key, value) => {
+  if (value) {
+    params.set(key, value);
+  } else {
+    params.delete(key);
+  }
+  const paramString = params.toString();
+  window.history.replaceState({}, '', 
+    paramString ? `${location.pathname}?${paramString}` : location.pathname
+  );
+  return params;
+};
+
+const getElement = (id, fallback = null) => {
+  const element = document.getElementById(id);
+  return element || fallback;
+};
+
+const announceToScreenReader = (message, elementId = 'search-status-announcer') => {
+  const announcer = document.getElementById(elementId);
+  if (announcer) {
+    announcer.textContent = message;
+  }
+};
+
+// Initialize state
+const params = getUrlParams();
+const filtersSearch = getElement('filters-search');
+const filterTab = getElement('filter-tab');
+const upperElement = getElement('upper-content');
+const step0 = getElement('step0');
+
+/**
+ * Filters visualization by highlighting specific rectangles
+ */
+function vizFilter(filterClass) {
+  // Skip URL update if just highlighting
+  if (filterClass !== "hilite") {
+    updateUrlParams(params, 'filter', filterClass);
+    
+    // Update filters dropdown if it exists
+    if (getElement('filters')) {
+      getElement('filters').value = filterClass;
     }
   }
 
-
-  function searchLines(x) {
-    resetVals();
-    var itemcontainer = document.getElementById("contents-container");
-    var lines = itemcontainer.getElementsByClassName("line");
-    // the line below seems superflous but without it, things break
-    var input, filter, p, span, i;
-    // get the value and pass it to the parameter for url
-    var input = x;
-    let params = url.searchParams;
-    params.set('q', input);
-    var p = params.toString();
-    window.history.replaceState({}, '', location.pathname + '?' + p);
-    var filter = input.toUpperCase();
-    // get the lines array
-    //start the dropdown search box html
-    var searchResults = '<option>Select and scroll to a matching line</option>';
-    for (i = 0; i < lines.length; i++) {
-      // get the text in the p element in each line
-      itemcontents = lines[i].getElementsByClassName("words")[0];
-      var index = itemcontents.innerHTML.indexOf(input);
-      // if there is text, make it upper case and search it with indexOf to see if it contains the query
-      if (itemcontents) {
-        if (itemcontents.innerHTML.toUpperCase().indexOf(filter) > -1) {
-          // if the text does have the query, add a 'featured class'
-          lines[i].classList.add("featured");
-          // and built out an option for the drop down scroll-to-line feature
-          searchResults += '<option class=text-truncate" style="max-width: 250px;" value="{{page.objectid}}' + i + '">Line ' + i + ' -- ' + itemcontents.innerHTML.substring(0, 125) + '...</option>';
-          // replace the matching query with red text of the query in the text
-          itemcontents.innerHTML = itemcontents.innerHTML.replace(input, "<span class='text-danger'>" + input + "</span>");
-          {% if site.data.filters %}var rectal = "rect" + i;
-          document.getElementById(rectal).classList.add("hilite");
-          vizFilter('hilite');{% endif %}
-        } else {
-          itemcontents.classList.add("small", "text-muted");
-        }
+  // Process all rectangles
+  const rects = document.getElementsByTagName('rect');
+  Array.from(rects).forEach(rect => {
+    const classString = rect.classList;
+    
+    // First add dark class to all rectangles
+    classString.add('dark');
+    
+    // Remove any existing primary classes
+    Array.from(classString).forEach(item => {
+      if (item.startsWith('primary')) {
+        classString.remove(item);
       }
-      {% if site.data.filters %}
-      document.getElementById("filters").selectedIndex = 0;
-      {% endif %}
-      // Add screen reader announcement
-      let numberofint = document.querySelectorAll('.featured').length;
-      let statusMessage = numberofint + " lines match your query: " + x;
-      document.getElementById("search-status-announcer").textContent = statusMessage;
-      document.getElementById("numberof").innerHTML = numberofint + " lines match your query --><i> " + x + "</i>";
-      document.getElementById("searchResults").innerHTML = searchResults;
-      document.getElementById("linecount").classList.remove("d-none");
-      document.getElementById("filtersearch-dropdown").classList.remove("d-none");
-      if (filtersSearch.classList.contains("retracted")) { setTimeout(function () { filtersSearch.classList.add("retracted"); }, 300); }
-    }
-  }
+    });
 
-  {% if site.data.filters %}
-  function filterLines(x) {
-    resetVals();
-    var itemcontainer = document.getElementById("contents-container");
-    var lines = itemcontainer.getElementsByClassName("line");
-    var filterClass = x;
-    vizFilter(filterClass);
-    params.set('filter', filterClass);
-    var p = params.toString();
-    window.history.replaceState({}, '', location.pathname + '?' + p);
-    var searchResults = '<option>Select and scroll to a matching line</option>';
-    for (i = 0; i < lines.length; i++) {
-      // itemcontents is used to get part of the text for the dropdown
-      itemcontents = lines[i].getElementsByClassName("words")[0];
-      if (itemcontents) {
-        if (lines[i].classList.contains(filterClass)) {
-          // if the line has the class add featured class
-          lines[i].classList.add("featured");
-          //get index numbers for previous and next lines
-          var prevLine = i - 1;
-          var nextLine = i + 1;
-          // create the sections to link to via the dropdown
-          if (!lines[prevLine].classList.contains(filterClass)) {
-            searchResults += '<option class="text-truncate" style="max-width: 250px;" value="{{page.objectid}}' + i + '">Line ' + i;
-            var startLine = itemcontents.innerHTML.substring(0, 125);
-            var startNumber = i;
-          }
-          else if (lines[nextLine].classList.contains(filterClass) && lines[prevLine].classList.contains(filterClass)) {
-            searchResults += '';
-          }
-          else if (!lines[nextLine].classList.contains(filterClass)) {
-            var lineTotal = i - startNumber + 1;
-            searchResults += ' to Line ' + i + ' (' + lineTotal + ' lines total) -- ' + startLine + '...</option>';
-          }
+    // Apply filtering logic
+    if (filterClass === "all") {
+      classString.remove('dark');
+      resetVals();
+    } else if (classString.contains(filterClass)) {
+      classString.remove('dark');
+      classString.add(`primary-${filterClass}`);
+    }
+  });
+}
+
+/**
+ * Search transcript lines for matching text
+ */
+function searchLines(searchQuery) {
+  resetVals();
+  
+  const itemcontainer = getElement("contents-container");
+  if (!itemcontainer) return;
+  
+  const lines = itemcontainer.getElementsByClassName("line");
+  
+  // Update URL parameters with search query
+  updateUrlParams(params, 'q', searchQuery);
+  
+  const filter = searchQuery.toUpperCase();
+  let searchResults = '<option>Select and scroll to a matching line</option>';
+  let matchCount = 0;
+  
+  // Process each line
+  for (let i = 0; i < lines.length; i++) {
+    const wordsElement = lines[i].getElementsByClassName("words")[0];
+    
+    if (wordsElement) {
+      if (wordsElement.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        // Add featured class to matching line
+        lines[i].classList.add("featured");
+        matchCount++;
+        
+        // Add line to dropdown options
+        const truncatedText = wordsElement.innerHTML.substring(0, 125);
+        searchResults += '<option class="text-truncate" style="max-width: 250px;" value="{{page.objectid}}' + i + '">Line ' + i + ' -- ' + truncatedText + '...</option>';
+        
+        // Highlight matching text
+        wordsElement.innerHTML = wordsElement.innerHTML.replace(
+          searchQuery, 
+          "<span class='text-danger'>" + searchQuery + "</span>"
+        );
+        
+        // Highlight corresponding rectangle in visualization if filters exist
+        const rectal = "rect" + i;
+        const rectElement = getElement(rectal);
+        if (rectElement) {
+          rectElement.classList.add("hilite");
+          vizFilter('hilite');
         }
-        else {
-          itemcontents.classList.add("small", "text-muted");
-        }
+      } else {
+        wordsElement.classList.add("small", "text-muted");
       }
     }
-    document.getElementById("quicksearch").value = "";
-    document.getElementById("searchResults").innerHTML = searchResults;
-    document.getElementById("linecount").classList.remove("d-none");
-    document.getElementById("filtersearch-dropdown").classList.remove("d-none");
-    countforFilter(filterClass);
-    if (filtersSearch.classList.contains("retracted"))
-    { setTimeout(function () { filtersSearch.classList.add("retracted"); }, 300); }
   }
-
-  function countforFilter(x) {
-    var numberofint = document.querySelectorAll('.' + x).length;
-    var sectnumber = document.getElementsByClassName('text-truncate').length;
-    if (sectnumber == 1) {
-      var sectnumber = sectnumber + " section "
-    } else {
-      var sectnumber = sectnumber + " sections "
-    }
-    document.getElementById("numberof").innerHTML = sectnumber + "(" + numberofint + " lines) are tagged as related to " + x;
+  
+  // Reset filters dropdown if it exists
+  if (getElement("filters")) {
+    getElement("filters").selectedIndex = 0;
   }
-  {% endif %}
+  
+  // Update UI with results
+  const statusMessage = matchCount + " lines match your query: " + searchQuery;
+  announceToScreenReader(statusMessage);
+  
+  if (getElement("numberof")) {
+    getElement("numberof").innerHTML = matchCount + " lines match your query --><i> " + searchQuery + "</i>";
+  }
+  
+  if (getElement("searchResults")) {
+    getElement("searchResults").innerHTML = searchResults;
+  }
+  
+  if (getElement("linecount")) {
+    getElement("linecount").classList.remove("d-none");
+  }
+  
+  if (getElement("filtersearch-dropdown")) {
+    getElement("filtersearch-dropdown").classList.remove("d-none");
+  }
+  
+  // Handle filter retraction animation timing
+  if (filtersSearch && filtersSearch.classList.contains("retracted")) {
+    setTimeout(function() { filtersSearch.classList.add("retracted"); }, 300);
+  }
+}
 
-  {% unless site.data.theme.search-and-filters == false %}
-  var elem = document.getElementById("quicksearch");
-  elem.onkeyup = function (e) {
-    if (e.keyCode == 13) {
-      var searchval = document.getElementById('quicksearch').value;
-      searchLines(searchval);
+/**
+ * Filter transcript lines by a specific tag
+ */
+function filterLines(filterClass) {
+  resetVals();
+  
+  const itemcontainer = getElement("contents-container");
+  if (!itemcontainer) return;
+  
+  const lines = itemcontainer.getElementsByClassName("line");
+  
+  // Update visualization and URL
+  vizFilter(filterClass);
+  updateUrlParams(params, 'filter', filterClass);
+  
+  let searchResults = '<option>Select and scroll to a matching line</option>';
+  let startLine = '';
+  let startNumber = 0;
+  
+  // Process each line
+  for (let i = 0; i < lines.length; i++) {
+    const wordsElement = lines[i].getElementsByClassName("words")[0];
+    
+    if (wordsElement) {
+      if (lines[i].classList.contains(filterClass)) {
+        // Mark line as featured
+        lines[i].classList.add("featured");
+        
+        // Get previous and next line indices
+        const prevLine = i - 1;
+        const nextLine = i + 1;
+        
+        // Create sections for dropdown navigation
+        if (prevLine >= 0 && !lines[prevLine].classList.contains(filterClass)) {
+          searchResults += '<option class="text-truncate" style="max-width: 250px;" value="{{page.objectid}}' + i + '">Line ' + i;
+          startLine = wordsElement.innerHTML.substring(0, 125);
+          startNumber = i;
+        } else if (
+          nextLine < lines.length && lines[nextLine].classList.contains(filterClass) && 
+          prevLine >= 0 && lines[prevLine].classList.contains(filterClass)
+        ) {
+          // Middle of a sequence - don't add to dropdown
+        } else if (nextLine < lines.length && !lines[nextLine].classList.contains(filterClass)) {
+          // End of a sequence - complete the dropdown entry
+          const lineTotal = i - startNumber + 1;
+          searchResults += ' to Line ' + i + ' (' + lineTotal + ' lines total) -- ' + startLine + '...</option>';
+        }
+      } else {
+        wordsElement.classList.add("small", "text-muted");
+      }
     }
-  }{% endunless %}
+  }
+  
+  // Update UI
+  if (getElement("quicksearch")) {
+    getElement("quicksearch").value = "";
+  }
+  
+  if (getElement("searchResults")) {
+    getElement("searchResults").innerHTML = searchResults;
+  }
+  
+  if (getElement("linecount")) {
+    getElement("linecount").classList.remove("d-none");
+  }
+  
+  if (getElement("filtersearch-dropdown")) {
+    getElement("filtersearch-dropdown").classList.remove("d-none");
+  }
+  
+  countforFilter(filterClass);
+  
+  // Handle filter retraction animation timing
+  if (filtersSearch && filtersSearch.classList.contains("retracted")) {
+    setTimeout(function() { filtersSearch.classList.add("retracted"); }, 300);
+  }
+}
 
+/**
+ * Count and display the number of items matching a filter
+ */
+function countforFilter(filterClass) {
+  const matchCount = document.querySelectorAll('.' + filterClass).length;
+  const sectionCount = document.getElementsByClassName('text-truncate').length;
+  
+  let sectionText = sectionCount == 1 
+    ? sectionCount + " section "
+    : sectionCount + " sections ";
+  
+  if (getElement("numberof")) {
+    getElement("numberof").innerHTML = sectionText + "(" + matchCount + " lines) are tagged as related to " + filterClass;
+  }
+}
 
-  function scrollToLine(x) {
-    {% if site.data.theme.media-scroll == true %}
+/**
+ * Scroll to a specific line in the transcript
+ */
+function scrollToLine(lineId) {
+  // Add media scroll wrapper if enabled
+  if (upperElement && window.site && window.site.data && window.site.data.theme && window.site.data.theme.mediaScroll) {
     upperElement.classList.add("media-scroll-wrapper");
-    {% endif %}
+  }
+  
+  const targetElement = getElement(lineId);
+  if (targetElement) {
+    // Announce to screen readers
+    const lineNum = lineId.replace(/[^0-9]/g, '');
+    announceToScreenReader("Navigated to line " + lineNum);
+    
+    // Highlight and make focusable
+    targetElement.classList.add("border-featured");
+    targetElement.setAttribute('tabindex', '0');
+    
+    // Smooth scroll to element
+    targetElement.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center'
+    });
+    
+    // Focus the element
+    targetElement.focus();
+  }
+  
+  // Retract filters after scrolling if they're not already retracted
+  if (filtersSearch && !filtersSearch.classList.contains("retracted")) {
+    setTimeout(function() { filtersSearch.classList.add("retracted"); }, 300);
+  }
+}
 
-    var targetElement = document.getElementById(x);
-    if (targetElement) {
-      // Announce to screen readers which line we're jumping to
-      let lineNum = x.replace(/[^0-9]/g, '');
-      document.getElementById("search-status-announcer").textContent = "Navigated to line " + lineNum;
-      targetElement.classList.add("border-featured");
-      // Set tabindex to make element focusable
-      targetElement.setAttribute('tabindex', '0');
-      // Smoothly scroll to the element
-      targetElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center' // Changed from 'start' to 'center'
-      });
-      // Focus on the element after scroll
-      targetElement.focus();
-    }
-
-    // if filters are not retracted, wait 300ms then retract them after scrolling function activated
-    if (!filtersSearch.classList.contains("retracted")) {
-      setTimeout(function () { filtersSearch.classList.add("retracted"); }, 300);
+/**
+ * Reset all filters and search states
+ */
+function resetVals() {
+  // Clear URL parameters
+  updateUrlParams(params, 'q', null);
+  updateUrlParams(params, 'filter', null);
+  updateUrlParams(params, 'line', null);
+  
+  // Reset UI elements if they exist
+  if (getElement("linecount")) {
+    getElement("linecount").classList.add("d-none");
+  }
+  
+  if (getElement("filtersearch-dropdown")) {
+    getElement("filtersearch-dropdown").classList.add("d-none");
+  }
+  
+  if (getElement("quicksearch")) {
+    getElement("quicksearch").value = "";
+  }
+  
+  if (getElement("filters")) {
+    getElement("filters").selectedIndex = 0;
+  }
+  
+  // Reset all word and line elements
+  const words = document.querySelectorAll("p.words");
+  const lines = document.querySelectorAll(".line");
+  
+  for (let i = 0; i < words.length; i++) {
+    words[i].classList.remove('text-muted', 'featured', 'border-featured', 'small');
+    if (words[i].querySelector(".text-danger")) {
+      words[i].querySelector(".text-danger").classList.remove('text-danger');
     }
   }
+  
+  for (let i = 0; i < lines.length; i++) {
+    lines[i].classList.remove('text-muted', 'featured', 'border-featured', 'small');
+  }
+  
+  // Reset visualization elements if they exist
+  const svgContainer = getElement("colorViz");
+  if (svgContainer) {
+    const rects = svgContainer.getElementsByTagName('rect');
+    for (let i = 0; i < rects.length; i++) {
+      rects[i].classList.remove('dark', 'hilite', 'primary-hilite');
+    }
+  }
+}
 
-
-  function resetVals() {
-    params.delete('q');
-    params.delete('filter');
-    params.delete('line');
-    window.history.replaceState({}, '', location.pathname);
-    {% unless site.data.theme.search-and-filters == false %}
-    document.getElementById("linecount").classList.add("d-none");
-    document.getElementById("filtersearch-dropdown").classList.add("d-none");
-    document.getElementById("quicksearch").value = "";
-    document.getElementById("filters").selectedIndex = 0;
-    {% endunless %}
-    var words = document.querySelectorAll("p.words")
-    var lines = document.querySelectorAll(".line")
-    for (i = 0; i < words.length; i++) {
-      words[i].classList.remove('text-muted', 'featured', 'border-featured', 'small');
-      lines[i].classList.remove('text-muted', 'featured', 'border-featured', 'small');
-      if (words[i].querySelector(".text-danger")) {
-        words[i].getElementsByClassName('text-danger')[0].classList.remove('text-danger');
+/**
+ * Initialize the page
+ */
+function init() {
+  // Set up search input handler
+  const searchInput = getElement("quicksearch");
+  if (searchInput) {
+    searchInput.addEventListener('keyup', function(e) {
+      if (e.key === 'Enter' || e.keyCode === 13) {
+        const searchVal = searchInput.value;
+        searchLines(searchVal);
       }
-    }
-    {% if site.data.filters %}
-    var svgContainer = document.getElementById("colorViz");
-    var rects = svgContainer.getElementsByTagName('rect');
-    for (i = 0; i < rects.length; i++) {
-      rects[i].classList.remove('dark');
-      rects[i].classList.remove('hilite');
-      rects[i].classList.remove('primary-hilite');
-    }{% endif %}
+    });
   }
-
-
-  (function () {
-    // init bootstrap tooltips
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  
+  // Initialize from URL parameters
+  const dataFilter = params.get('q');
+  const codeFilter = params.get('filter');
+  const lineFilter = params.get('line');
+  const hashFilter = decodeURIComponent(location.hash.substr(1));
+  
+  if (dataFilter) {
+    // Handle search query parameter
+    if (searchInput) searchInput.value = dataFilter;
+    if (getElement('goButton')) getElement('goButton').click();
+    updateUrlParams(params, 'filter', null);
+    if (searchInput) searchInput.scrollIntoView();
+  } else if (codeFilter) {
+    // Handle filter parameter
+    filterLines(codeFilter);
+    if (getElement('colorViz')) getElement('colorViz').scrollIntoView();
+    updateUrlParams(params, 'q', null);
+    if (getElement('filters')) getElement('filters').value = codeFilter;
+  } else if (hashFilter) {
+    // Handle hash in URL
+    if (getElement(hashFilter)) getElement(hashFilter).classList.add('featured');
+    updateUrlParams(params, 'q', null);
+    updateUrlParams(params, 'filter', null);
+  } else if (lineFilter) {
+    // Handle line parameter
+    updateUrlParams(params, 'q', null);
+    updateUrlParams(params, 'filter', null);
+    scrollToLine(lineFilter);
+  }
+  
+  // Init tooltips
+  if (window.bootstrap && typeof bootstrap.Tooltip === 'function') {
+    var tooltipTriggerList = Array.from(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl);
-    })
-
-    var dataFilter = url.searchParams.get('q');
-    var codeFilter = url.searchParams.get('filter');
-    var lineFilter = url.searchParams.get('line');
-    var hashfilter = decodeURIComponent(location.hash.substr(1));//.replace(/%20/g, " ");
-
-    if (dataFilter) {
-      // code to be executed if a hash is contained in the url
-      document.getElementById('quicksearch').value = dataFilter;
-      document.getElementById('goButton').click();
-      params.delete('filter');
-      document.getElementById('quicksearch').scrollIntoView();
-
-      //$(hashfilterclass).addClass('active');
-    }
-    else if (codeFilter) {
-      // code to be executed if a filter is contained in the url search parameters
-      filterLines(codeFilter);
-      document.getElementById('colorViz').scrollIntoView();
-      params.delete('q');
-      document.getElementById('filters').value = codeFilter;
-    }
-    else if (hashfilter) {
-      // code to be executed if an anchor (#) is contained in the url
-      document.getElementById(hashfilter).classList.add('featured');
-      params.delete('q'); params.delete('filter');
-    }
-    else if (lineFilter) {
-      params.delete('q');
-      params.delete('filter');
-      scrollToLine(lineFilter);
-    }
-    else {
-    };
-  })();
-
-
-  //filters tab javascript + scroll-to-top retraction of filters
-  document.addEventListener('DOMContentLoaded', function () {
-      // check height of upper element containing av + metadata and viz
-      var upperHeight =  upperElement.offsetHeight;
-      // make the first sections minimum height equal to this height so that when the AV section moves down the page, the page height stays the same. First checks to see if the heigh is less than 300px and makes min-height 350px in that instance, which happens on mobile when going down to specific line.
-          if (upperHeight < 300) {
-          step0.style.minHeight = "350px";
-        } else {
-          step0.style.minHeight = upperHeight + "px";
-        }
-
-      {% unless site.data.theme.search-and-filters == false %}
-        // add event listener so that when tab is clicked, filters element retracts up the page
-        filterTab.addEventListener('click', function () {
-        filtersSearch.classList.toggle('retracted');
-          });
-      {% endunless %}
-    // listener for the scroll to top button clickc
-    document.getElementById('scroll-to-top').addEventListener('click', function () {
-      {% unless site.data.theme.search-and-filters == false %}
-        // if scroll-to-top button clicked and filters are retracted, un retract them
-        if (filtersSearch.classList.contains("retracted")) {
-            filtersSearch.classList.remove("retracted"); }
-      {% endunless %}
-      {% if site.data.theme.media-scroll == true %}
-          // if the AV section is classed as moving down the page, remove it after 200 ms upon the scroll-to-top button being pushed
-        if (upperElement.classList.contains("media-scroll-wrapper")) {
-            setTimeout(function () { upperElement.classList.remove("media-scroll-wrapper"); }, 200);
-             }
-      {% endif %}
-      });// end scroll to top listener
-    }); // end content loaded listener function
-
-
-    /*
-  function throttle(mainFunction, delay) {
-    let timerFlag = null; // Variable to keep track of the timer
-
-    // Returning a throttled version
-    return (...args) => {
-      if (timerFlag === null) { // If there is no timer currently running
-        mainFunction(...args); // Execute the main function
-        timerFlag = setTimeout(() => { // Set a timer to clear the timerFlag after the specified delay
-          timerFlag = null; // Clear the timerFlag to allow the main function to be executed again
-        }, delay);
-      }
-    };
+    });
   }
+}
 
-  function checkStickyAndUpdate() {
-    // Get the element to check for stickiness
-    const stickyElement = document.getElementById('filters-search');
-    const filterTabElement = document.getElementById('filter-tab');
-    // Ensure both elements are present
-    if (!filtersSearch || !filterTab) {
-      console.warn('Required elements are not found in the DOM.');
-      return;
-    }
+ //filters tab javascript + scroll-to-top retraction of filters
+ document.addEventListener('DOMContentLoaded', function () {
+          // check height of upper element containing av + metadata and viz
+          var upperHeight =  upperElement.offsetHeight;
+          // make the first sections minimum height equal to this height so that when the AV section moves down the page, the page height stays the same. First checks to see if the heigh is less than 300px and makes min-height 350px in that instance, which happens on mobile when going down to specific line.
+              if (upperHeight < 300) {
+              step0.style.minHeight = "350px";
+            } else {
+              step0.style.minHeight = upperHeight + "px";
+            }
 
-    // Get the bounding rectangle of the sticky element
-    const stickyRect = filtersSearch.getBoundingClientRect();
-
-    // Determine if the sticky element is in its sticky state
-    const isSticky = stickyRect.top <= 0;
-
-    // Toggle display: none class based on status of is Sticky
-    filterTab.classList.toggle('d-none', !isSticky);
-
-    // Update the class of the filter tab element based on stickiness
-    if (isSticky) {
-      {% if site.data.theme.media-scroll == true %}
-      if (!upperElement.classList.contains("media-scroll-wrapper")) {
-        upperElement.classList.add("media-scroll-wrapper");
-      } {% endif %}
-
-    } else {
-      if (filtersSearch.classList.contains("retracted")) {
-        filtersSearch.classList.remove("retracted");
-        console.log("removing retracted");
-      };
-      {% if site.data.theme.media-scroll == true %} upperElement.classList.remove("media-scroll-wrapper"); {% endif %}
-    }
-  }
-
-  // Attach event listeners
-  // Throttle the checkStickyAndUpdate function with a delay of 200 ms
-  const throttleScrollCheck = throttle(checkStickyAndUpdate, 200);
-
-  // Add an event listener to the window scroll event that calls the throttleScrollCheck function
-  window.addEventListener("scroll", throttleScrollCheck);
-  window.addEventListener('load', checkStickyAndUpdate);
-*/
+          {% unless site.data.theme.search-and-filters == false %}
+            // add event listener so that when tab is clicked, filters element retracts up the page
+            filterTab.addEventListener('click', function () {
+            filtersSearch.classList.toggle('retracted');
+              });
+          {% endunless %}
+        // listener for the scroll to top button clickc
+        document.getElementById('scroll-to-top').addEventListener('click', function () {
+          {% unless site.data.theme.search-and-filters == false %}
+            // if scroll-to-top button clicked and filters are retracted, un retract them
+            if (filtersSearch.classList.contains("retracted")) {
+                filtersSearch.classList.remove("retracted"); }
+          {% endunless %}
+          {% if site.data.theme.media-scroll == true %}
+              // if the AV section is classed as moving down the page, remove it after 200 ms upon the scroll-to-top button being pushed
+            if (upperElement.classList.contains("media-scroll-wrapper")) {
+                setTimeout(function () { upperElement.classList.remove("media-scroll-wrapper"); }, 200);
+                 }
+          {% endif %}
+          });// end scroll to top listener
+         // end content loaded listener function
+  
+  // Initialize the page
+  init();
+});
 </script>

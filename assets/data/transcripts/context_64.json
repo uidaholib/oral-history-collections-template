@@ -1,0 +1,1323 @@
+{
+  "title": "S3E5 The Role of the Judiciary in Idaho to form a More Perfect Union",
+  "interviewee": "Dr. Joseph Meier; Dr. Randy Smith; Dr. Steve Kenyon",
+  "interviewer": "Doug Exton",
+  "date": "2022-04-20",
+  "subjects": [
+    "law (discipline)",
+    "freedom",
+    "justice (philosophical concept)",
+    "justices (people in law)",
+    "protection (sociological concept)"
+  ],
+  "segments": [
+    {
+      "id": "context_64_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_64_1",
+      "index": 1,
+      "speaker": "Doug Exton",
+      "words": "This program is funded through a more perfect.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_64_2",
+      "index": 2,
+      "speaker": "Doug Exton",
+      "words": "Union initiative of the National Endowment for the Humanities. With me today are the honorable Joseph Meier, the honorable Randy Smith, Bennett Briggs, and acting as today's moderator, Steven Kenyon. We would also like to express our appreciation for the generous support from the Ninth District Court for community Grant to support this year's Teacher Institute, focusing on a more perfect union in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:06:21]"
+    },
+    {
+      "id": "context_64_3",
+      "index": 3,
+      "speaker": "Doug Exton",
+      "words": "And Steve, I.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:31:08]"
+    },
+    {
+      "id": "context_64_4",
+      "index": 4,
+      "speaker": "Doug Exton",
+      "words": "Turn it over to you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:31:17]"
+    },
+    {
+      "id": "context_64_5",
+      "index": 5,
+      "speaker": "Steve Kenyon",
+      "words": "Thanks, Doug. Hi. My name is Steve Kenyon. I'm the clerk of the courts for the United States District and bankruptcy courts for the District of Idaho. We're excited to be here today with with all of you. I'm going to introduce our presenters today. First we'll hear from Bennett Briggs, who's a career law clerk for the chief judge, David Nye of the U.S. District Court.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:34:14]"
+    },
+    {
+      "id": "context_64_6",
+      "index": 6,
+      "speaker": "Steve Kenyon",
+      "words": "Bennett's been with, Judge Nye for a little over six years. And, and then we'll hear next from, Chief Judge Joe Meier from the United States bankruptcy court. He's the chief judge of the United States Bankruptcy Court for the District of Idaho. He was appointed to the bench in 2018. And, and then we'll hear from Judge Smith, judge Randy Smith from the Ninth Circuit Court of Appeals, who was appointed by President George Bush in 2007 to that that position.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:53:19]"
+    },
+    {
+      "id": "context_64_7",
+      "index": 7,
+      "speaker": "Steve Kenyon",
+      "words": "So we'll take it in that order. So, Bennett, go ahead.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:21:15]"
+    },
+    {
+      "id": "context_64_8",
+      "index": 8,
+      "speaker": "Bennett Briggs",
+      "words": "Well, thank you. Everyone, I'm grateful excited to be here with you today. As Steve mentioned, my name is Bennett Briggs, and I currently work for our chief judge. Chief district judge I here in the District of Idaho. I am a licensed attorney. I went to law school. I took the bar, passed the bar. And, the easiest way to think of my job is that I assist Judge Nye, in his duties as a judge in preparing for hearings and in researching and analyzing legal matters.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:25:05]"
+    },
+    {
+      "id": "context_64_9",
+      "index": 9,
+      "speaker": "Bennett Briggs",
+      "words": "What I've been asked to talk about today, is kind of just who we are as a federal district court. And I'll, I'll start with a disclaimer, which is that I've condensed what is what is about two semesters worth of law school classes into ten minutes. So so please don't feel, You probably won't be prepared to go out and pass the bar after my portion of the presentation today, but hopefully it gives you an overview of, of us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:51:18]"
+    },
+    {
+      "id": "context_64_10",
+      "index": 10,
+      "speaker": "Bennett Briggs",
+      "words": "So one of the questions that I get frequently asked by family and friends, is, hey, did you hear about such and such a case, or is that in front of your court? Or. Hey, I got called in for jury duty. I guess I'll see you soon. More often than not, what people are referring to, are actually state court matters.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:18:13]"
+    },
+    {
+      "id": "context_64_11",
+      "index": 11,
+      "speaker": "Bennett Briggs",
+      "words": "In the in Idaho, every county has a state that has a courthouse. And many of you have likely been called into jury duty before. Or maybe you've had, legal matters that you've had to take care of. And so most people are frequently more familiar with state court in Idaho, as you can see on this first slide.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:39:08]"
+    },
+    {
+      "id": "context_64_12",
+      "index": 12,
+      "speaker": "Bennett Briggs",
+      "words": "There are three federal courthouses. The top left of the screen is the Boise Courthouse. The top right is our beautiful courthouse up in Coeur d'Alene, Idaho. And the bottom left is the courthouse in Pocatello. And at these three courthouses, you know, this is where federal legal work, federal court matters happen. And so, again, a lot of the times when I'm talking to people, they've mostly been involved in state court proceedings, whereas with, federal court matters, you're going to end up in one of these three buildings in the criminal context.",
+      "tags": [
+        "boise",
+        "pocatello"
+      ],
+      "timestamp": "[00:02:57:04]"
+    },
+    {
+      "id": "context_64_13",
+      "index": 13,
+      "speaker": "Bennett Briggs",
+      "words": "So I, I guess I should start by saying most of what we deal with in court falls into generally two buckets. One would be criminal law matters and the other is civil law matters. On the criminal side, the easiest way to think about it is did you break a federal law? A lot of the crimes that probably come to mind, murder, rape, assault, battery, arson, those types of things are actually all state law crimes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:29:15]"
+    },
+    {
+      "id": "context_64_14",
+      "index": 14,
+      "speaker": "Bennett Briggs",
+      "words": "And so if convicted or charged with one of those matters, you're looking towards, again, those state court proceedings, with with one exception that I'll explain here in a second. The bulk of what we see in federal court having to deal with criminal law are drug cases. You think of your schedule one and schedule two controlled substances, and obviously, possessing, importing, shipping transaction, you know, dealing with those substances is a violation of federal law.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:52:16]"
+    },
+    {
+      "id": "context_64_15",
+      "index": 15,
+      "speaker": "Bennett Briggs",
+      "words": "And so those are the types of drug cases we see. We also you'll see my second category here. I just kind of broadly say guns. It is a federal law, by law, to possess a firearm. If you've been previously convicted of certain crimes. And so we see a lot of those types of cases. Also immigration cases, we deal with a lot of that, white collar crimes.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:04:22:20]"
+    },
+    {
+      "id": "context_64_16",
+      "index": 16,
+      "speaker": "Bennett Briggs",
+      "words": "You know, embezzlement, fraud, those types of matters are a lot of what we deal with in federal court. Unfortunately, child pornography is something that we, deal with. And then, I mentioned that there was a caveat to my earlier statement that most of the crimes you think of are state crimes. The exception to that are crimes that occur on Indian reservations.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:47:01]"
+    },
+    {
+      "id": "context_64_17",
+      "index": 17,
+      "speaker": "Bennett Briggs",
+      "words": "Because that is federal land. The federal government has jurisdiction over those. And so those crimes I previously mentioned murder, rape, assault, battery. That would typically fall within kind of the state's purview if they take place on an Indian reservation. And there are, quite a few in Idaho. Then that becomes something that the federal court, deals with.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:05:07:19]"
+    },
+    {
+      "id": "context_64_18",
+      "index": 18,
+      "speaker": "Bennett Briggs",
+      "words": "The last thing that I'll mention, which is kind of interesting that some of you may actually have, experience with, are called Central Violations Bureau, matters. You know, you may not think or deal with a lot of these other things, but actually, I've had numerous friends and family call me and say, hey, I got this ticket, but it says it's a federal ticket.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:29:07]"
+    },
+    {
+      "id": "context_64_19",
+      "index": 19,
+      "speaker": "Bennett Briggs",
+      "words": "It's not just like a speeding ticket or something. What do I do? This is probably a Central Violations Bureau incident, which, could be something that takes place on the forest Service ground. But let's say that you take your ATV off of the, off of the prescribed trail, or maybe, something that happens in a national park.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:51:16]"
+    },
+    {
+      "id": "context_64_20",
+      "index": 20,
+      "speaker": "Bennett Briggs",
+      "words": "Or maybe even as simple as maybe a, fire where wild or where, fire burning isn't allowed. Some of those types of things again, because they take place on federal land. They, they, they come up to us here in federal court. So that's kind of the nitty gritty of the criminal side that we deal with.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:11:19]"
+    },
+    {
+      "id": "context_64_21",
+      "index": 21,
+      "speaker": "Bennett Briggs",
+      "words": "And I will say that as a law clerk, again, I work for judge Meier. I help him prepare for hearings and things and do legal analysis for him. A lot of the time that we spend in court, that is to say, literally in the courtroom. You know, kind of battling it out or listening to attorneys battle it out is on the criminal side because they have, again, many of you know, the rights that criminal defendants are afforded under the fourth, fifth and Sixth Amendment.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:06:29:03]"
+    },
+    {
+      "id": "context_64_22",
+      "index": 22,
+      "speaker": "Bennett Briggs",
+      "words": "And a lot of those have to take place in person. And so a lot of our in court, in-person time is spent on criminal matters. I'm going to go next to civil, disputes. So this is converse. You know, our opposite of what I just said. This is the bulk of what we spend kind of in our office is doing, researching and writing on civil cases.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:54:05]"
+    },
+    {
+      "id": "context_64_23",
+      "index": 23,
+      "speaker": "Bennett Briggs",
+      "words": "And as the name suggests, these matters that come before the court don't result in jail time. These are civil disputes between parties. The first thing that I'll mention is that, you know, we this is kind of hard to explain. And again, I'm apologize. I'm condensing a lot here. There are certain cases that could be filed and adjudicated in state court or federal court.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:17:04]"
+    },
+    {
+      "id": "context_64_24",
+      "index": 24,
+      "speaker": "Bennett Briggs",
+      "words": "We have jurisdiction over some things. State courts have jurisdiction over some things, and there is an overlap there. And so sometimes and I will say even back on the criminal matter, some of you may be well familiar with that. A lot of drug cases are prosecuted in state court. The difference at least there usually has to do with quantity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:44:08]"
+    },
+    {
+      "id": "context_64_25",
+      "index": 25,
+      "speaker": "Bennett Briggs",
+      "words": "The sheer just volume of, of drugs involved. On the civil side, in kind of a like manner. If the amount and controversy, that is to say, the amount at issue in the dispute is less than $75,000 and the parties are all from Idaho. That could be heard in, you know, Idaho state court. If in fact, the amount of controversy, let's say it's a contract or a dispute or the damages that a person wants, is is anything more than $75,000.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:03:16]"
+    },
+    {
+      "id": "context_64_26",
+      "index": 26,
+      "speaker": "Bennett Briggs",
+      "words": "So that's why I have here $75,000.01 and the parties are, diverse. That is to say, maybe they're from different jurisdictions, once from Idaho and once from Oregon. Then that's a case that we could hear in federal court. The other thing that we have, what's called original jurisdiction or exclusive jurisdiction over our federal questions. These are the types of cases that I know you see a lot in the, where somebody is maybe challenging a federal statute or some of the kind of the more hot button issues dealing with same sex marriage, abortion, gun rights, anything that has to do with equal protection amongst or due process of a person's civil",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:33:16]"
+    },
+    {
+      "id": "context_64_27",
+      "index": 27,
+      "speaker": "Bennett Briggs",
+      "words": "rights and liberties. Those things are all going to be federal, issues because they deal with the federal constitution. The one thing that I also want to mention that I think is really interesting as part of this job is that it's it's so diverse, you know, the things that I've just summarized in a few minutes. They really hit every spectrum of the legal world.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:13:17]"
+    },
+    {
+      "id": "context_64_28",
+      "index": 28,
+      "speaker": "Bennett Briggs",
+      "words": "It's not uncommon for me to come in to work and deal with a criminal matter in the morning. Then transition to working on maybe a civil contract dispute between two large organizations in the afternoon, and then by the evening, maybe be working on a judicial challenge, to an Idaho statute that's recently been enacted. And so that's why I think it's a fascinating job.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:36:06]"
+    },
+    {
+      "id": "context_64_29",
+      "index": 29,
+      "speaker": "Bennett Briggs",
+      "words": "But also just a fascinating profession. And here in the federal courts, we get to see a lot of that. The other thing that we, do in federal court, which, which is my segue here, is, the federal courts deal with all of the bankruptcy proceedings that happen, in the state. And so with that, I'm going to transition to Judge Meier.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:09:57:21]"
+    },
+    {
+      "id": "context_64_30",
+      "index": 30,
+      "speaker": "Bennett Briggs",
+      "words": "And if you have questions, now or later about some of the kind of the overview that I've given you, we'll take those up. But, Judge Meier, it's all yours. All right. First of all, thank you for inviting me to this program this afternoon. I, my pleasure to be here. So why is, bankruptcy in federal court?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:17:09]"
+    },
+    {
+      "id": "context_64_31",
+      "index": 31,
+      "speaker": "Joseph Meier",
+      "words": " All right. First of all, thank you for inviting me to this program this afternoon. I, my pleasure to be here. So why is, bankruptcy in federal court?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:27:00]"
+    },
+    {
+      "id": "context_64_32",
+      "index": 32,
+      "speaker": "Joseph Meier",
+      "words": "Why am I why do I my courthouse in the federal courthouse? It's because the United States Constitution, the Founding Fathers, thought it was important that with respect to bankruptcies, that, it be, it be a uniform law, a federal law, and, you will find it in article one. Chapter eight, or section eight is, where Congress, back when the Constitution was formulated, said that, that, that there will be a bankruptcy court in, in and will be controlled by federal law.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:39:17]"
+    },
+    {
+      "id": "context_64_33",
+      "index": 33,
+      "speaker": "Joseph Meier",
+      "words": "So what's a bankruptcy and what's going on in a bankruptcy, basically, bankruptcy, can be made up of, of, of, really two things going on in any bankruptcy case. One is rights to property. The, the debtor, the person that filed bankruptcies, rights to property and then creditors rights to property. The second thing that's going on in a bankruptcy is, is debts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:13:14]"
+    },
+    {
+      "id": "context_64_34",
+      "index": 34,
+      "speaker": "Joseph Meier",
+      "words": "The, whether the debts kind of survive or not. And we call that a discharge. Date and who's not? And so bankruptcy courts deal with those two things, and once again, the Constitution comes into play because as many of you know that have studied the Constitution a little bit. Congress, in or I should say that the Founding Fathers have this, what they call the Takings Clause.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:40:17]"
+    },
+    {
+      "id": "context_64_35",
+      "index": 35,
+      "speaker": "Joseph Meier",
+      "words": "You can't take somebody property without, compensation. And then there's the the Commerce Clause or contracts closet and basically and, and bankruptcy court, we're doing and altering contracts all the time. In other words, a good example is that the, the borrower is signed a promissory note that says, I'll pay that, debt that I borrowed from you.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:12:07:02]"
+    },
+    {
+      "id": "context_64_36",
+      "index": 36,
+      "speaker": "Joseph Meier",
+      "words": "And for within, within a certain amount of time that in bankruptcy court. A lot of times that that time period is altered, the terms are altered. Maybe the interest rate is altered. All with the idea that we're going to facilitate, payment. I said there are different types of bankruptcy in the state of Idaho. Basically, you're going to run into three types.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:31:10]"
+    },
+    {
+      "id": "context_64_37",
+      "index": 37,
+      "speaker": "Joseph Meier",
+      "words": "One is what most people think about a bankruptcy. It's called a liquidation. Chapter seven. And what's going on in that is that the individual that files bankruptcy takes all of the property, hands it over to a person called a chapter seven trustee, and then that trustee liquidates that property turns it into cash and pays as much as he or she could to the creditors who filed claims in the case.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:54:22]"
+    },
+    {
+      "id": "context_64_38",
+      "index": 38,
+      "speaker": "Joseph Meier",
+      "words": "And these are by and far the largest number of cases that are, filed in the District of Idaho. The next types of cases are what are known as wage earner reorganization plans, or in chapter 13. In essence, the way these works are, person files bankruptcy and they take what they could be putting in their savings account each and every month, and they make a payment to their creditors with the hope that within, 3 to 5 years, they can pay some or all of the debts that they've incurred back.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:13:23:10]"
+    },
+    {
+      "id": "context_64_39",
+      "index": 39,
+      "speaker": "Joseph Meier",
+      "words": "If they get some pressure taken off of them and they're making short term debts, long term debts, and they're facilitating, payment by utilities utilizing what we call their disposable income. And then the third type of reorganization is, is the business reorganization. Chapter 11. In essence, the 11 works the same way as a 13. The the bankruptcy case is filed, the creditor is, the creditors that are chasing the business are held off, stopped from taking action, and the debtor is given the opportunity to formulate a plan as to how that, debtor is going to get out of the mess that it's found itself in.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:13:57:10]"
+    },
+    {
+      "id": "context_64_40",
+      "index": 40,
+      "speaker": "Joseph Meier",
+      "words": "These are called reorganization cases. And the the theory behind them is that we're going to, we're going to keep these businesses alive. They're going to continue to keep the employees they had, or maybe at some reduced amount. And again, the operations of that business, maybe as changed, will facilitate enough income not only to pay their ongoing obligations, but also to to address the debts that the the company had when it filed bankruptcy.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:14:42:01]"
+    },
+    {
+      "id": "context_64_41",
+      "index": 41,
+      "speaker": "Joseph Meier",
+      "words": "And a sub part of that reorganization or what are known as chapter 12 or family farmers. And of course, in a rural, agricultural state like Idaho, we see a lot of those. These are designed to give farmers the opportunity to keep their farm and to deal with their indebtedness. Some chapter 11, some companies that have filed chapter 11 and are still around United Airlines, American Airlines, are two, big examples of companies that filed a chapter 11 bankruptcy and are still operating today.",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[00:15:13:03]"
+    },
+    {
+      "id": "context_64_42",
+      "index": 42,
+      "speaker": "Joseph Meier",
+      "words": "Texaco is another example of a big company that filed a bankruptcy and is still operating today. So some are successful, in, in, in staying alive and continuing to have a business after they exit the bankruptcy case, I said that, bankruptcy cases consist of, basically two things going on property. Let me talk a little bit about property.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:48:24]"
+    },
+    {
+      "id": "context_64_43",
+      "index": 43,
+      "speaker": "Joseph Meier",
+      "words": "Here, I will tell you that the theory behind bankruptcy, or at least my my view of it is that, of course, in America, we live in a, in a, capitalist society. And so, individuals are encouraged to take risks, and, and financial risks and, and, the, the gang to that is that is that we have the bankruptcy code to facilitate, addressing, the, the.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:18:00]"
+    },
+    {
+      "id": "context_64_44",
+      "index": 44,
+      "speaker": "Joseph Meier",
+      "words": "Risk and and rather than having debtors prisons, we're going to have this process called bankruptcy that not only may provide some relief to the individual that incurred the debts, but also may provide a forum for creditors that are chasing this, this debtor, to obtain some relief without being the first to the courthouse. In other words, it's going to facilitate liquidation of property so that all creditors will share in a in a pro-rata basis.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:52:14]"
+    },
+    {
+      "id": "context_64_45",
+      "index": 45,
+      "speaker": "Joseph Meier",
+      "words": "And each will get the same, slice of the pie if you would, rather than first come, first serve. Many of you may ask. Well, I know, I know neighbors, I know friends who have filed for bankruptcy and still are living in a home or still or driving a car and doesn't look like anything affected them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:23:15]"
+    },
+    {
+      "id": "context_64_46",
+      "index": 46,
+      "speaker": "Joseph Meier",
+      "words": "In bankruptcy. We have what are known as exemptions for individuals, and they basically break down into three categories. These are this is property that the actually the Idaho Legislature said we want people to keep, no matter how much trouble they've gotten themselves into. In other words, creditors can't trustees can't take this property away. And they fall into three categories.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:44:17]"
+    },
+    {
+      "id": "context_64_47",
+      "index": 47,
+      "speaker": "Joseph Meier",
+      "words": "These exemptions, the first and the biggest one is, is, retirement plan. So Social Security, 401 K's, IRAs, anything that's in a plan, that's a retirement plan will be exempt from creditors. In other words, a debtor can file bankruptcy and would get to keep the retirement plan as long as it is a retirement plan. Why? Well, we want them not to become a ward of the state.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:18:09:16]"
+    },
+    {
+      "id": "context_64_48",
+      "index": 48,
+      "speaker": "Joseph Meier",
+      "words": "We want them to, to have a retirement in the future. The next, exemption is what's known as the homestead. Everybody living in the state of Idaho, as long as they're living in a in a place that they call their principal residence, get $175,000 of equity. And in other words, if your house is worth $175,000 or less, they're not going to sell your house out from under you.",
+      "tags": [
+        "economy",
+        "agriculture"
+      ],
+      "timestamp": "[00:18:35:09]"
+    },
+    {
+      "id": "context_64_49",
+      "index": 49,
+      "speaker": "Joseph Meier",
+      "words": "You get to keep this house by virtue of this exemption. Most people, if not, I don't know what the statistics are, but I would get 98% of the people don't own their house outright. They have a mortgage. Right. And so oftentimes we may have a house that's worth $400,000. They have a mortgage that's $250,000. And so that the individual that lives in that house can keep it by making that mortgage payment, and, and then that $175,000 is protected.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:19:02:07]"
+    },
+    {
+      "id": "context_64_50",
+      "index": 50,
+      "speaker": "Joseph Meier",
+      "words": "And then finally there's a bunch of of smaller exemptions. For example, each debtor gets a car worth $10,000, and each better gets a gun worth, $1,000 each. Household goods are usually exempt, meaning they're not going to sell your stuff. The couches, the beds, the bureaus, that type of thing, etc.. And so, this, this bunch of stuff, allows a debtor to file bankruptcy, the property rights as the debtor keeps these things that are called exemptions, and they're put over here in the debtors pile and everything else.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:35:01]"
+    },
+    {
+      "id": "context_64_51",
+      "index": 51,
+      "speaker": "Joseph Meier",
+      "words": "That's not exempt is liquidated by this trustee, who again, takes the money. The second half of a bankruptcy case is what is known as the the debt side. And here we have concepts in bankruptcy, including what are known as priority. That is the Congress has said these debts get paid before any other debts. And the biggest priority is child support and, and spousal support.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:20:10:14]"
+    },
+    {
+      "id": "context_64_52",
+      "index": 52,
+      "speaker": "Joseph Meier",
+      "words": "Those get paid first before anybody else gets paid. Then guess what? The taxes, the federal and state government gets their, taxes paid before anyone else and then, and then secured creditors. I talked about property rights a person that you gave a lean to. In other words, you gave him a lien on your car, you gave him a lien on the house, you gave him a lean on a horse.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:36:21]"
+    },
+    {
+      "id": "context_64_53",
+      "index": 53,
+      "speaker": "Joseph Meier",
+      "words": "Then those secured creditors get the value of that security. In other words, they can't just take that property right away. That's again, violates the Takings Clause of the Constitution. It must be addressed in some way, either by paying that creditor off what it's owed, or by giving that asset back to the creditor or paying that creditor. Over time with interest.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:01:12]"
+    },
+    {
+      "id": "context_64_54",
+      "index": 54,
+      "speaker": "Joseph Meier",
+      "words": "On on that asset, the balance of the debts, usually what are known as general unsecured creditors go into a pot and they share, share and share like the money that this trustee generates from liquidating the nonexempt assets. And hopefully, if you're lucky. And this is unusual, but if you're lucky, there's enough money there that the trustee generates from the sale of assets, maybe some liquid, some litigation, maybe some tax refunds.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:26:04]"
+    },
+    {
+      "id": "context_64_55",
+      "index": 55,
+      "speaker": "Joseph Meier",
+      "words": "Hopefully there's, there's a finite number of creditors and you're getting 100 cents on the dollar. That's rare. Normally creditors get less than that, but in order to participate in the bankruptcy, they have to file a thing called a claim. What a what a debtor. What an individual's interested in is, is getting this this document called a discharge order.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:56:10]"
+    },
+    {
+      "id": "context_64_56",
+      "index": 56,
+      "speaker": "Joseph Meier",
+      "words": "A discharge order is an order entered by the bankruptcy court that says all those debts that are listed by you, with certain exceptions, are discharge, meaning that creditors can never chase you again. On those on those debts. And again, Congress has carved out certain debts which will survive, discharge. And and the biggies there are child support will survive a discharge.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:20:08]"
+    },
+    {
+      "id": "context_64_57",
+      "index": 57,
+      "speaker": "Joseph Meier",
+      "words": "Criminal sanctions such as, monetary penalties, restitution will survive a discharge. Taxes all survive a discharge. And and again, those are the biggies. Those of you that are reading the newspapers may see that, the discussion that's going on in Congress and has been for some time, student loans, can be discharged if a individual comes in to the bankruptcy court and asks, the bankruptcy court to determine, that the, that, that forcing the debtor to pay that student loans would, would be an undue hardship on the debtor.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:22:50:10]"
+    },
+    {
+      "id": "context_64_58",
+      "index": 58,
+      "speaker": "Joseph Meier",
+      "words": "This is normally an impossible task for the debtor to prove, meaning that that, student loans will survive. Congress talks about forgiving student loans or maybe changing the analysis in the bankruptcy courts to enable some debtors who could never pay the student loan off, to pay them off. But in general, those of those students of yours that are funding their higher education through student loans, they can expect that those loans will survive and they will not be able to eliminate them, at least in a federal, bankruptcy court proceeding.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:23:33:06]"
+    },
+    {
+      "id": "context_64_59",
+      "index": 59,
+      "speaker": "Joseph Meier",
+      "words": "And, that's that's a very quick, summary of the way the bankruptcy court works. Once a case is filed, any case that's pending, in other words, in state court or in federal court must come to the bankruptcy court. There can't be litigation that's that's ongoing against the, the debtor. That's all stopped. We call that the automatic stay.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:13:17]"
+    },
+    {
+      "id": "context_64_60",
+      "index": 60,
+      "speaker": "Joseph Meier",
+      "words": "And every and every dispute must mount was now come to the bankruptcy court to be, adjudicated. And with that, that's, in a 15 minutes or less is a, as a description of what I've been doing for the last four and a half years as a judge and and for the last 35 years as a, as an attorney and the in the District of Idaho, and so I'll turn it back to the moderator.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:39:13]"
+    },
+    {
+      "id": "context_64_61",
+      "index": 61,
+      "speaker": "Joseph Meier",
+      "words": "Unless, unless now is the time for questions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:09:03]"
+    },
+    {
+      "id": "context_64_62",
+      "index": 62,
+      "speaker": "Steve Kenyon",
+      "words": "And we'll hold the questions till the end. And so we'll now go to hear from judge Randy Smith.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:12:19]"
+    },
+    {
+      "id": "context_64_63",
+      "index": 63,
+      "speaker": "Randy Smith",
+      "words": "Thank you very much. Bennett. Judge Meier. Steve. Doug. They save the, the old man till the end here. And, I am supposed to determine if you will give you some idea about the role of the judiciary in forming a more perfect union, since that is the topic of forming a more perfect union that you are trying to address.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:25:20:21]"
+    },
+    {
+      "id": "context_64_64",
+      "index": 64,
+      "speaker": "Randy Smith",
+      "words": "And I want to do that by, stepping back a little bit with each of you and, letting you know how we see ourselves in forming that more perfect union in using the district court that Bennett has explained, has explained to you, or and using the district court that Judge Meier has explained to you. But what we're really talking about is what does the judiciary do to help form this more perfect union?",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:25:53:21]"
+    },
+    {
+      "id": "context_64_65",
+      "index": 65,
+      "speaker": "Randy Smith",
+      "words": "Now, a central tenant of the Madison in Democracy, or any of the words, a central tenant that Madison used in forming the Constitution is that the concentration of power poses a threat to individual autonomy and freedom, and therefore we should not concentrate power in in any one part of the government or any one government. So with this central tenant, then the cost to tuition was formed.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:26:07]"
+    },
+    {
+      "id": "context_64_66",
+      "index": 66,
+      "speaker": "Randy Smith",
+      "words": "And when the Constitution was formed, it put in it this, if you will, this idea that there should not be any concentration of power either in the States or in the federal government, there shouldn't be any concentration of power in either the legislative, executive or judicial branch. Now, the separation of powers between the national government and the state government is a matter of, well, you're not supposed to have all government in any one of those.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:06:18]"
+    },
+    {
+      "id": "context_64_67",
+      "index": 67,
+      "speaker": "Randy Smith",
+      "words": "And so, as has already been explained by Judge Meier in article one, section eight, it outlines the type of powers that the federal government has in the amendment ten. It suggests that if the federal government doesn't have the power, and if the US Constitution doesn't forbid the states from having the power, then the states can take the power of the people.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:47:04]"
+    },
+    {
+      "id": "context_64_68",
+      "index": 68,
+      "speaker": "Randy Smith",
+      "words": "We'll give it to them. So the first way that we divide power is between the state and the federal government. You have here today three federal, federal employees, two judges, one clerk representing the district court. Those are the federal government's ideas. Now, the state government also has a court system that works in a similar way to this federal system.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:18:03]"
+    },
+    {
+      "id": "context_64_69",
+      "index": 69,
+      "speaker": "Randy Smith",
+      "words": "But again, it is the first division of power between the state and the federal government, the second division of power, the next second division of power is going to be a separation of power between legislative, executive and judicial. Now, why do I say that? Because, well, when you were in school, you were in government class. You were asked, what are the three branches of government?",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:28:47:12]"
+    },
+    {
+      "id": "context_64_70",
+      "index": 70,
+      "speaker": "Randy Smith",
+      "words": "There are legislative, executive and judicial. Well, the legislative has certain power, the executive has certain power and judicial has certain power. And if we're going to divide those powers, then at that point we are going to be able to make it so that we can have no threat to individual autonomy or freedom. So what does the legislature do?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:18:09]"
+    },
+    {
+      "id": "context_64_71",
+      "index": 71,
+      "speaker": "Randy Smith",
+      "words": "This is the legislative checks and checks and balances. They make the laws. They establish the courts. They set out our power. They have the power of impeachment. They raise the revenue, meaning that they set the salaries of the judges. They do trials of impeachment in the Senate. They override the veto. If the if the executive wants to veto their laws, they have the power to approve the judges and they have the power to approve the treaties.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:44:19]"
+    },
+    {
+      "id": "context_64_72",
+      "index": 72,
+      "speaker": "Randy Smith",
+      "words": "So let's move to the to the executive. The executive check is if the legislature makes the laws, then they have the power to veto and they have the power to appoint the judges, meaning that they have a check on the judges. And they also have the power to make the treaties. So if you see this, you see the executive appointing the judges, the legislature approving the judges, the legislature setting the salary of the judges.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:30:19:19]"
+    },
+    {
+      "id": "context_64_73",
+      "index": 73,
+      "speaker": "Randy Smith",
+      "words": "And then we get to the judicial check. The judicial check that was set in the Constitution is that judges cannot just go out and do whatever they want to do, argue, sure, whatever their opinions are, or argue what they think the government ought to do, that's not their role to do. Judicial check is only in hearing cases or controversies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:54:05]"
+    },
+    {
+      "id": "context_64_74",
+      "index": 74,
+      "speaker": "Randy Smith",
+      "words": "And that's the thing that man it talk to you about what cases or controversies can they hear. That's also what Judge Meier talked to you about. They can hear bankruptcy cases, but they can only hear these cases if they come to the court. In other words, they can't go make up a case like we have laws that are passed now.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:24:23]"
+    },
+    {
+      "id": "context_64_75",
+      "index": 75,
+      "speaker": "Randy Smith",
+      "words": "And every so often their laws that are passed and people get aggravated about what those laws are, the Congress has passed them. The president signed them. Why not just go over to the court, say, do you approve or disapprove? That isn't the way it works. The court cannot do that. Our only check is for an individual or individuals to file a case suggesting that those laws are somehow bad, or those laws are somehow misinterpreted, pretend those laws are somehow unconstitutional.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:50:10]"
+    },
+    {
+      "id": "context_64_76",
+      "index": 76,
+      "speaker": "Randy Smith",
+      "words": "That's the only way that the judiciary gets involved, and therefore their only check is by having the people bring a case or controversy to the judges. Now, the judges were hit with a case, right? Not far down the line in constitutional, history, a case called Marbury versus Madison. In that case, there were some, judges who'd been appointed in Washington, D.C., and they'd been appointed by President Adams.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:25:14]"
+    },
+    {
+      "id": "context_64_77",
+      "index": 77,
+      "speaker": "Randy Smith",
+      "words": "But President Jefferson didn't want to set them in as judges because they were all a part of a different party than President Jefferson. And so he says, even though you've been appointed by the president, even though the Senate has approved you, I'm not going to give you the papers to be a judge, and therefore, I'm not going to put you in as a judge in Washington, D.C. so Marbury was one of those people wanting to be the judge sued Madison, who was the secretary of state, in order to get Madison to give them the papers so they could be judges.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:03:14]"
+    },
+    {
+      "id": "context_64_78",
+      "index": 78,
+      "speaker": "Randy Smith",
+      "words": "Well, the the Supreme Court took that case and worked through it, went through, tried to decide what to do, and in fact, made a separate constitutional check for the judiciary. And this is the check to interpret the Constitution. The duty of the judiciary is to say what the law is. Only an act of Congress can correct. And and, it can correct an erroneous interpretation of the law by the judiciary.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:48:02]"
+    },
+    {
+      "id": "context_64_79",
+      "index": 79,
+      "speaker": "Randy Smith",
+      "words": "But only a constitutional amendment couldn't correct an erroneous interpretation of the Constitution by the judges. So what it did in Marbury versus Madison is it said, not only does the judiciary have a check in only having cases and controversies, but guess what? They are the final check in interpreting the Constitution. That's being said in the United States versus Nixon.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:27:11]"
+    },
+    {
+      "id": "context_64_80",
+      "index": 80,
+      "speaker": "Randy Smith",
+      "words": "And all of you will remember when President Nixon had some papers he didn't want to turn over to the Congress. In that case. The Supreme Court said the judicial power of the United States cannot be shared by the executive, any more than the executive can share its power to veto with the judiciary. So the judiciary under our system in order to form a more perfect union and be this check, if you will, on the power of the executive and the legislative has become then the interpreter of the Constitution, now being the last interpreter of the Constitution, is an and is an extremely powerful power that the judiciary gave to themselves.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:34:58:07]"
+    },
+    {
+      "id": "context_64_81",
+      "index": 81,
+      "speaker": "Randy Smith",
+      "words": "Did Marbury versus Madison? Nobody gave it to them. President Jefferson didn't fight it because he got what he wanted. The judges said, hey, the law that's been enacted has been enacted. Wrong. And therefore, Marbury, you cannot get your permission. You've got to start your case in the original case of jurisdiction. And so therefore, we can't give you what you want.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:52:16]"
+    },
+    {
+      "id": "context_64_82",
+      "index": 82,
+      "speaker": "Randy Smith",
+      "words": "So President Jefferson got he wanted what he wanted and did not fight the fact that the judges had the power to interpret the Constitution. And so therefore, in forming this more perfect union, they have become the interpreters. Why? Because after Marbury versus Madison, there had been case after case, including the one I shared with you, United States versus Nixon, which suggests they do have that power.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:36:22:18]"
+    },
+    {
+      "id": "context_64_83",
+      "index": 83,
+      "speaker": "Randy Smith",
+      "words": "And it's become precedent. And therefore, that has been a check that the judiciary has used over time since Marbury. So what limits are there? Well, the limits are that we can only start talking about the Constitution if we have a case or controversy, and therefore the case or controversy has to be brought by one of you, a member of the public, or many of you members of the public.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:53:20]"
+    },
+    {
+      "id": "context_64_84",
+      "index": 84,
+      "speaker": "Randy Smith",
+      "words": "And you then bring this case. Now, where does the case begin? As was the case with Marbury versus Madison and was, as was the case, as I told you about legislative checks, it's the power of the Congress to determine what courts have these cases. It's the power of the Congress to tell what power each one of those courts have.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:26:18]"
+    },
+    {
+      "id": "context_64_85",
+      "index": 85,
+      "speaker": "Randy Smith",
+      "words": "And that's how the bankruptcy court was fine. I was started, and that's why Judge Meier has the power of the bankruptcy court, because Congress set it up. That's the same thing they've done in the district court. And that's why Bennett has a job as he worked for a district judge. Nine because they set up the district court and they are the court of original jurisdiction.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:55:24]"
+    },
+    {
+      "id": "context_64_86",
+      "index": 86,
+      "speaker": "Randy Smith",
+      "words": "What does that mean? That means they hear the case to begin with. That means they're the ones who hear the first part of the case. And though I'm on appeal, and though I am an appellate judge, when the case comes to me, I can't just start that case over again. I can only undo what's done in those lower courts and the district court and in the bankruptcy court.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:22:21]"
+    },
+    {
+      "id": "context_64_87",
+      "index": 87,
+      "speaker": "Randy Smith",
+      "words": "If they've made a bad legal decision, if they have misinterpreted the law or they have misapplied that law, very seldom can I do anything about the facts. Very seldom can I do anything about the jury verdict. All of those are I've given great deference into the lower courts, and instead the, the, appellate courts only get a chance to review to see that they've done the case law correctly.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:51:02]"
+    },
+    {
+      "id": "context_64_88",
+      "index": 88,
+      "speaker": "Randy Smith",
+      "words": "Now, that's a limitation on appellate courts and a big, if you will, a big power that the courts of original jurisdiction have, like the bankruptcy court and the district court. Now, as Bennett has suggested to you, the district court only takes cases of federal law cases arising out of the under the Constitution, cases arising out of the laws and treaties of the United States, cases affecting ambassadors, consuls of ministers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:26:04]"
+    },
+    {
+      "id": "context_64_89",
+      "index": 89,
+      "speaker": "Randy Smith",
+      "words": "Cases that are on admiralty or maritime. Those in which the United States is a party for those in which the state is a party, those are federal jurisdiction cases. And then, as Bennett also told you, they can also have move diversity jurisdiction. And those are cases where you have citizens from different states who when the cases are over 75,000.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:40:05:10]"
+    },
+    {
+      "id": "context_64_90",
+      "index": 90,
+      "speaker": "Randy Smith",
+      "words": "Now, the 11th amendment also prohibits actions against a state in federal court unless the state will consent to it. That also is in the Constitution. So as you can tell, though, the judiciary has a check in that they can interpret the Constitution. It's not all easy because Congress allotted to itself the right to say when the judiciary can act, what the judiciary can do, and then, of course, what pay the judiciary will have now the judiciary, knowing that they had problems and knowing that assuming constitutional power was going to be a very, very enormous power to take, has also put together things that limit their ability to decide.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:36:06]"
+    },
+    {
+      "id": "context_64_91",
+      "index": 91,
+      "speaker": "Randy Smith",
+      "words": "These constitute cases. For instance, they will not decide a constitutional issue unless there's no other way to decide the case, unless no other way to decide the case, unless it be a constitutional issue. In other words, if people can get together and put a case before the court system that does not need to establish a constitutional issue, the court will not decide the case.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:34:18]"
+    },
+    {
+      "id": "context_64_92",
+      "index": 92,
+      "speaker": "Randy Smith",
+      "words": "The court decides who may litigate an issue. In other words, unless you're injured, you cannot come to court. You can't come to court to litigate another's injury. You can't come to court to litigate any kind of an injury for other people. But you litigate your own issue. And that's what we call standing who may litigate the issue. Another thing, if the case has already been decided, someone else someplace else, or the case has already been settled between the parties, the court can't hear that case because the case is moot, and therefore that limits the right of the court to decide the issue.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:07:14]"
+    },
+    {
+      "id": "context_64_93",
+      "index": 93,
+      "speaker": "Randy Smith",
+      "words": "You can't come to court with a premature case. In other words, you can't go down to the judge and say, judge, if I run that stop sign, what will be my fine? The judge will say, run the sign and we'll be glad to give you the fine. You can't come in and say, well, what am I going to do in this situation?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:59:03]"
+    },
+    {
+      "id": "context_64_94",
+      "index": 94,
+      "speaker": "Randy Smith",
+      "words": "Can I do this, judge? No, we have to have a case or a controversy. It cannot be premature. It cannot be abstract. Then the last thing we do is we limit ourselves to only questions involving law. You cannot come to the court and say, can we go over and fight the Vietnam War? Can we go over and fight in the war?",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:43:24:09]"
+    },
+    {
+      "id": "context_64_95",
+      "index": 95,
+      "speaker": "Randy Smith",
+      "words": "In any war? Can we do this kind of a political thing or that kind of those are not cases which the court can hear and not cases in which the court can be involved. If there's a law involved and the law is an injury to you, and the case is not already moot, and it's a case that is right there and not premature, then you may bring the case and the court will hear it.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:43:54:08]"
+    },
+    {
+      "id": "context_64_96",
+      "index": 96,
+      "speaker": "Randy Smith",
+      "words": "And if we can decide it and not decide a constitutional issue, then we will decide the case. So what is our role in forming a more perfect union? Our role in forming this more perfect union is to do what the Constitution suggests we should do. In other words, we only hear a case and controversy. We only interpret the Constitution when we're allowed to interpret the Constitution.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:44:27:03]"
+    },
+    {
+      "id": "context_64_97",
+      "index": 97,
+      "speaker": "Randy Smith",
+      "words": "And at that point, we can help to form this more perfect union. We don't get out in front on political issues. We don't go advise as to what the government ought to do. We sit back and say, if you have a case or controversy, you bring it to us and we will decide if the law is correctly interpreted, if the law is correctly applied and at best, and the last issue, if the Constitution is being followed.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:45:06:05]"
+    },
+    {
+      "id": "context_64_98",
+      "index": 98,
+      "speaker": "Randy Smith",
+      "words": "And at that point we will exercise our jurisdiction or our power, and that's how we become important in forming a more perfect union. And that's how we do what we're supposed to do to make sure we're not a threat to the individual autonomy or freedom.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:45:41:16]"
+    },
+    {
+      "id": "context_64_99",
+      "index": 99,
+      "speaker": "Randy Smith",
+      "words": "Thank you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:07:07]"
+    },
+    {
+      "id": "context_64_100",
+      "index": 100,
+      "speaker": "Steve Kenyon",
+      "words": "Thank you very much, Judge Smith. Thanks for that. That was great. We've got several questions that have come in, during this this time. And so I'm just going to fire away first. Here's here's one. I'm just going to read this off the screen here. Have the district courts ever served on a case together example Oregon and Idaho courts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:11:12]"
+    },
+    {
+      "id": "context_64_101",
+      "index": 101,
+      "speaker": "Steve Kenyon",
+      "words": "Can they ever rule together?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:31:23]"
+    },
+    {
+      "id": "context_64_102",
+      "index": 102,
+      "speaker": "Randy Smith",
+      "words": "Well, frankly, what happens if there's a case that will include both the district courts, an issue, both an Idaho issue and an Oregon issue, and cases are filed in both of those courts, in those different jurisdictions, one can unite those cases in one case and set it in a in a district court that can hear all of the cases about that particular issue in all of the district courts in those different states.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:36:09]"
+    },
+    {
+      "id": "context_64_103",
+      "index": 103,
+      "speaker": "Randy Smith",
+      "words": "That happens often. And we set up a, if you will, a specially appointed judge, district court judge, and sometimes even a circuit judge to do those kind of issues.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:12:12]"
+    },
+    {
+      "id": "context_64_104",
+      "index": 104,
+      "speaker": "Steve Kenyon",
+      "words": "Okay. Perfect. Thank you. A quick bankruptcy question. Judge Meier, if I file a bankruptcy, how long does that does that process take?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:28:20]"
+    },
+    {
+      "id": "context_64_105",
+      "index": 105,
+      "speaker": "Joseph Meier",
+      "words": "Well, I'm going to give you a lawyer's answer to that. It depends. The fastest you can get out of a case. No asset cases, roughly, 90 to 120 days start to finish. Cases that have assets, where, trustees are chasing and trying to sell things will normally take, up to a year to a year and a half.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:40:20]"
+    },
+    {
+      "id": "context_64_106",
+      "index": 106,
+      "speaker": "Joseph Meier",
+      "words": "So the easy cases are done and basically for months, the harder cases can last 2 to 3 years. Okay.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:02:21]"
+    },
+    {
+      "id": "context_64_107",
+      "index": 107,
+      "speaker": "Steve Kenyon",
+      "words": "Another question that came in. Have you ever had to make a ruling that you disagreed with personally, but felt the law was clear?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:12:23]"
+    },
+    {
+      "id": "context_64_108",
+      "index": 108,
+      "speaker": "Randy Smith",
+      "words": "Yes. I'm sure that Judge Meier would have to say yes too. we are not here to to put our own biases, our own feelings involved in the situation. And there are many times when we have cases in front of us where the constitutional issue is clear, where the case has been decided once before by another court, the precedent is clear.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:21:02]"
+    },
+    {
+      "id": "context_64_109",
+      "index": 109,
+      "speaker": "Randy Smith",
+      "words": "Or where, the, if you will, the legislative history, if we have to get to the legislative history is clear and our job is to promote the constitutional issue that is there and interpret the Constitution that has been as it has been interpreted previously. And that precedent will make it such that that's what we'll do, whether we agree to it or not.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:52:02]"
+    },
+    {
+      "id": "context_64_110",
+      "index": 110,
+      "speaker": "Randy Smith",
+      "words": "For instance, there was a case when I was an Idaho district judge where I had been one of those who had been proponent for term limits. And they, one of those who had been term limited out, fought that and came in front of me as a judge. And, I had to say that the term limits law that I'd been in excited about putting together was unconstitutional.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:22:05]"
+    },
+    {
+      "id": "context_64_111",
+      "index": 111,
+      "speaker": "Randy Smith",
+      "words": "And I had to strike it down because I couldn't find anything in the Idaho Constitution, which would suggest that one should not be able to run for office just because one had been in for a long time. So you don't you don't do it on what you think. In fact, that's what you do as part of the judiciary.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:49:05]"
+    },
+    {
+      "id": "context_64_112",
+      "index": 112,
+      "speaker": "Randy Smith",
+      "words": "You give up all of your political motives. You give up all of your religious motives. You give up those motives, and you interpret it based on the precedent that's in front of you.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[00:50:10:03]"
+    },
+    {
+      "id": "context_64_113",
+      "index": 113,
+      "speaker": "Joseph Meier",
+      "words": "Yeah. And I would add, that's exactly right. There's I can think of 2 or 3 instances where it's just hard for me to, to reach the ruling that the law suggests. I don't personally believe it, but that's the oath that I swore. And and that's why, you know, when you read the newspaper and you see folks like, Chief Justice Roberts of the US Supreme Court, where he says judges are not Republicans, they're not Democrats, they're judges.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:22:24]"
+    },
+    {
+      "id": "context_64_114",
+      "index": 114,
+      "speaker": "Joseph Meier",
+      "words": "And and I know some, members of the public don't believe it, but if we're our we swear that we're going to uphold the Constitution. We don't swear that we're going to uphold any political bias. So, and it's something I know all of my colleagues hold near and dear to their hearts, and it's, And it does happen, with frequency that you're asked to decide an issue that you may not necessarily agree with the outcome personally, but the law is the law.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:49:23]"
+    },
+    {
+      "id": "context_64_115",
+      "index": 115,
+      "speaker": "Steve Kenyon",
+      "words": "Right. Can we have one more question here? For Judge Meier and Judge Smith, how did you each become a federal judge?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:23:17]"
+    },
+    {
+      "id": "context_64_116",
+      "index": 116,
+      "speaker": "Joseph Meier",
+      "words": "Well, from from my standpoint, bankruptcy judges are appointed by the, the Ninth Circuit Court of Appeals. And so how I, how I became a judge was that I as I indicated earlier, I practiced law in this area for 30 plus years and had obviously an interest in it. And then, I, applied it's, it's not a political appointment.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:32:17]"
+    },
+    {
+      "id": "context_64_117",
+      "index": 117,
+      "speaker": "Joseph Meier",
+      "words": "It's, it's, one you apply for and, and and they vet you and, and ultimately I was appointed by the Ninth Circuit Court of Appeals.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:56:22]"
+    },
+    {
+      "id": "context_64_118",
+      "index": 118,
+      "speaker": "Randy Smith",
+      "words": "Being on the Ninth Circuit, I'll tell you that the Ninth Circuit takes pride in the fact that we appoint the bankruptcy judges in all of the district. So the Ninth Circuit selects a group of five of us who get together, and we have applicants come and then we go search through those applications, and we get the, the potential applicants to come and talk to us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:08:07]"
+    },
+    {
+      "id": "context_64_119",
+      "index": 119,
+      "speaker": "Randy Smith",
+      "words": "And then we select those bankruptcy judges. And Judge Meier was selected, on my watch. And I'm very happy that he was selected. And, that's the way we select the bankruptcy judge now, a a district judge or a, court of appeals judge are selected by the president of the United States and approved by the Senate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:37:14]"
+    },
+    {
+      "id": "context_64_120",
+      "index": 120,
+      "speaker": "Randy Smith",
+      "words": "Now, at this point, it's just a majority of the Senate who approves those judges. And, that's the way the Supreme Court judges are selected as well. How does the president get the names? Well, it depends. I suspect that the senators from the different states are the ones who would suggest the names of the district judges in each state, and I suggest the senators probably selected the judge.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:06:07]"
+    },
+    {
+      "id": "context_64_121",
+      "index": 121,
+      "speaker": "Randy Smith",
+      "words": "Nye for whom Bennett works. On the other hand, the court of appeals judges, the senators, of each state in the court of appeals. So those who are in the Ninth Circuit, those senators would be have a chance to, to suggest to the president the names that he might suggest might pick. And I suspect, also, he has friends and associates right there in Washington, D.C. you give him names, and he all probably has also friends in the different areas who give him names.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:37:08]"
+    },
+    {
+      "id": "context_64_122",
+      "index": 122,
+      "speaker": "Randy Smith",
+      "words": "And then he selects the person, and and the Senate approves that person.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:12:00]"
+    },
+    {
+      "id": "context_64_123",
+      "index": 123,
+      "speaker": "Steve Kenyon",
+      "words": "All right. Well, we have one minute left. And, Bennett, I want to bounce one off of you real quick. That came in, and that was, I thought sovereign. I thought Indian reservations were sovereign. So how can a crime be charged by the, in the federal courts if it's a sovereign nation? The softball. Well, yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:19:16]"
+    },
+    {
+      "id": "context_64_124",
+      "index": 124,
+      "speaker": "Bennett Briggs",
+      "words": "Yeah. Well, I, the short version, the short answer is yes. Indian reservations are, considered, considered sovereign nations. And they do have tribal courts. The phrase we use is concurrent jurisdiction. So by statute, the, the Congress has authorized federal courts to have, concurrent jurisdiction there. So we do have jurisdiction over certain matters, again, criminal matters that are, violations of federal law.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:39:00]"
+    },
+    {
+      "id": "context_64_125",
+      "index": 125,
+      "speaker": "Bennett Briggs",
+      "words": "Again, whether you're on a state, whether you're on an Indian reservation, whether it happens, Judge Smith mentioned, you know, maritime, there's even things that happen out on the open sea that we deal with. But, so, yes, Indian reservations are sovereign nations. They do have tribal courts who have authority. But then we have concurrent jurisdiction over most of the criminal matters that take place that would occur there.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:55:06:24]"
+    },
+    {
+      "id": "context_64_126",
+      "index": 126,
+      "speaker": "Randy Smith",
+      "words": "Jurisdiction, meaning power. Yeah. Power. Joint power. The Indians will have power in their courts. But also the federal government is given joint power over that land on the Indian reservation.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:55:31:14]"
+    },
+    {
+      "id": "context_64_127",
+      "index": 127,
+      "speaker": "Steve Kenyon",
+      "words": "Yeah. All right, well, thank you very much, everyone. We're out of time here. Hopefully this was, it was fascinating to me. I hope it was, as interesting to all of you. Doug, we'll turn the time back over to you. ",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:48:03]"
+    },
+    {
+      "id": "context_64_128",
+      "index": 128,
+      "speaker": "Doug Exton",
+      "words": "Yeah. I just want to say thank you again for all four of you, for, you know, sharing all the information, the wealth of knowledge that you all have.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:03:00]"
+    },
+    {
+      "id": "context_64_129",
+      "index": 129,
+      "speaker": "Doug Exton",
+      "words": "Thank.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:11:02]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 130,
+    "description": "This conversation will explore the role of the judiciary in the history of American’s struggle to form a more perfect union.  A Ninth Circuit Court of Appeals Judge, a United States Bankruptcy Judge and a law clerk for the District of Idaho will discuss the role that the judiciary has played in history in either serving this effort or preventing it with a specific focus on cases in Idaho that have impacted our efforts as a nation to secure liberty, justice, and equal protection of the law for all citizens.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

@@ -1,0 +1,2738 @@
+{
+  "title": "S3E11 Why Do We See Media As Polarizing?",
+  "interviewee": "Bill Manny; Maria Hinojosa; Mark Trehant",
+  "interviewer": "Monique Michel",
+  "date": "2022-06-07",
+  "subjects": [
+    "journalism",
+    "democracies",
+    "television journalists"
+  ],
+  "segments": [
+    {
+      "id": "context_57_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_57_1",
+      "index": 1,
+      "speaker": "Monique Michel",
+      "words": "Good evening. My name is Monique Michel, a board member of the Idaho Humanities Council and owner and director of the Ballet Folklorico Mexico Lindo from southwest Idaho. I'm also the diversity, equity and inclusion director and junior high Spanish teacher at Foothills School of Arts and Sciences in downtown Boise, Idaho. It is my pleasure to welcome you to tonight to tonight's discussion on why do we see media as polarizing with Pulitzer Prize winning journalist Maria Hinojosa and award winning journalist Mark Trahan.",
+      "tags": [
+        "culture",
+        "education",
+        "boise"
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_57_2",
+      "index": 2,
+      "speaker": "Monique Michel",
+      "words": "Tonight's discussion will be moderated by my fellow IHC board member Bill Manny. Tonight's presentation is part of the democracy and the Informed Citizen Initiative, funded by the Federation of State Humanities Councils, through a grant from the Andrew Mellon Foundation. We are incredibly appreciative for their support. Before I introduce tonight's guests, I would like to remind you that you can submit questions for our panelists via the Q&A feature located at the bottom of your screen.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:00:38:07]"
+    },
+    {
+      "id": "context_57_3",
+      "index": 3,
+      "speaker": "Monique Michel",
+      "words": "It is now my pleasure to introduce tonight's special guests. Maria Hinojosa dreamt of a space where she could create independent multimedia journalism that explores and gives a critical voice to the diverse American experience. She made that dream a reality in 2010 when she created Futuro Media, an independent nonprofit newsroom based in Harlem, New York City, with the mission to create multimedia content from a POC perspective.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:11:01]"
+    },
+    {
+      "id": "context_57_4",
+      "index": 4,
+      "speaker": "Monique Michel",
+      "words": "As anchor and executive producer of the Peabody Award winning show Latino USA. Distributed by PR and co-host of Futuro Media's award winning political podcast In the Thick. You know, Rosa has informed millions about the changing cultural and political landscape in America and abroad. In 2022, Futuro Media and PRX received the Pulitzer Prize for Audio Recording. Mark Trahan is editor at large for Indian Country Today and leads the Indigenous Economics Project, a comprehensive look at indigenous economics, including the economic impact of climate change.",
+      "tags": [
+        "cinema",
+        "indigenous",
+        "environment"
+      ],
+      "timestamp": "[00:01:41:13]"
+    },
+    {
+      "id": "context_57_5",
+      "index": 5,
+      "speaker": "Monique Michel",
+      "words": "He was hired to revive ICT after it went out of business in 2017. The success has been phenomenal. The digital site now reaches 700,000 people a month, and the broadcast is carried on two dozen public television stations. Strahan is a member of the American Academy of Arts and Sciences, and has held endowed chairs at the University of North Dakota and University of Alaska Anchorage.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:23:07]"
+    },
+    {
+      "id": "context_57_6",
+      "index": 6,
+      "speaker": "Monique Michel",
+      "words": "He is a citizen of the Shoshone-Bannock Tribe. Moderating tonight's discussion is Bill Manny, my fellow IHC board member. He is a producer at Idaho Public Television and has been a reporter and editor at newspapers in Oregon, Idaho, and Washington, D.C., including 18 years at the Idaho Statesman. Bill. I turn it over to you.",
+      "tags": [
+        "indigenous",
+        "cinema"
+      ],
+      "timestamp": "[00:02:51:15]"
+    },
+    {
+      "id": "context_57_7",
+      "index": 7,
+      "speaker": "Bill Manny",
+      "words": "Thank you, Monique, and thank you to everybody who's joining us for tonight's discussion from around Idaho. And I think from around the country, we have people, zooming in from around the country tonight. I want to remind people that if they have questions for our panelists, there's a Q&A tab at the bottom of your zoom screen. So you can, ask those questions and they'll be forwarded to me, and we'll get to as many of those questions as we can this evening.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:16:19]"
+    },
+    {
+      "id": "context_57_8",
+      "index": 8,
+      "speaker": "Bill Manny",
+      "words": "So I think, Mark and Maria, we can't have a conversation about, you know, American media and polarization in this country without talking about what has been dominating the headlines and the TV screens and the radio broadcasts for the past two weeks. And that is, you know, the just the, the tragic violence we've seen across the country, including in Buffalo, New York and and Texas.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:44:03]"
+    },
+    {
+      "id": "context_57_9",
+      "index": 9,
+      "speaker": "Bill Manny",
+      "words": "So I guess I just wanted to start with, with that question for you. And let's start with Maria. How do you think how do you think the coverage has been? What have you noticed as you've watched that coverage? And what's been your reaction to how the media has handled, this, these events and this issue?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:12:24]"
+    },
+    {
+      "id": "context_57_10",
+      "index": 10,
+      "speaker": "Maria Hinojosa",
+      "words": "So, first of all, it's great to be here with you, and it's great to be here with my esteemed colleague, Mark, who I just admire so much. And thank you for all of your work in Idaho as well. We appreciate that. So I have to be very honest with you because I'm a journalist, so I deal in the truth.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:34:24]"
+    },
+    {
+      "id": "context_57_11",
+      "index": 11,
+      "speaker": "Maria Hinojosa",
+      "words": "Last week was my daughter's graduation week. It's been two years in the making. You know, she wasn't able to have her graduation two years later. We were all getting together, and. And so we had to. I had to kind of make a decision, like, I'm going to be with my family, or I'm going to be kind of consuming what's going on?",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:04:55:10]"
+    },
+    {
+      "id": "context_57_12",
+      "index": 12,
+      "speaker": "Maria Hinojosa",
+      "words": "I think all of us are feeling it very deeply. I think the country is in a state of shock and trauma, and we have to kind of recognize that. So I can't say, oh my God, the news has been this or the news has been that because I haven't been watching. I know what we are doing, the coverage that we are doing, which is, going to drop next week.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:18:06]"
+    },
+    {
+      "id": "context_57_13",
+      "index": 13,
+      "speaker": "Maria Hinojosa",
+      "words": "And what we're in, what we're seeing and hearing about the city of Valdez. I don't know how much of it's been talked about. But it's a city that is defined by much more than this tragedy. It's a place where there was one of the longest student walkouts in American history. So we're we're going to well, the a virtually.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:05:42:06]"
+    },
+    {
+      "id": "context_57_14",
+      "index": 14,
+      "speaker": "Maria Hinojosa",
+      "words": "I'm not there. I think you had it not been for my daughter's graduation, I would have been there. So. We know what we're adding. We're trying to give context and historical perspective because something like this does doesn't just happen just like that. And so that's kind of I'm, I guess I'm in a way, I'm very blessed that I can say I didn't have to be watching all of it all of the time and reporting on it because I was able to make the decision to be with my family.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:06:04:02]"
+    },
+    {
+      "id": "context_57_15",
+      "index": 15,
+      "speaker": "Maria Hinojosa",
+      "words": "And yet we've we're all, again, very deeply impacted by it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:34:23]"
+    },
+    {
+      "id": "context_57_16",
+      "index": 16,
+      "speaker": "Bill Manny",
+      "words": "All right. Mark. Did you have a reaction to what you've been watching and seeing and a kind of a judgment on the the job that the media have done?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:38:17]"
+    },
+    {
+      "id": "context_57_17",
+      "index": 17,
+      "speaker": "Mark Trahant",
+      "words": "Sure. Let me first start. Also, I do want to thank Maria and thank the, Humanities Council for inviting me and I when I first saw it, I was hoping it was a trip to Idaho, because that's always at the top of the list. But, I'd like to take this apart a little differently. And, we really have to look at the media story on how media has reported violence since the beginning of this country.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:50:04]"
+    },
+    {
+      "id": "context_57_18",
+      "index": 18,
+      "speaker": "Mark Trahant",
+      "words": "The very first ordinance, involving guns was a 1640 statute in Virginia. And it basically said that free mulattos, Negroes and Indians shall appear without arms. I mean, the whole idea of it being an area of division. And the next step was to make sure that families across Virginia and later the West, were armed so that they could protect themselves against Indians.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:07:15:15]"
+    },
+    {
+      "id": "context_57_19",
+      "index": 19,
+      "speaker": "Mark Trahant",
+      "words": "So the idea of where this violence come from, I think, is really important. It's also a media story because the early media celebrated the violent American West even when it wasn't true. There were more lawyers in the West than gunfighters. And yet, if you read the Pulp Fiction or later, the Westerns, that's not the image you get the other fun story is that gun control really began in the American West, because there were so many towns where you could not enter a city without giving up your guns to the local sheriff as part of the entry price.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:07:44:13]"
+    },
+    {
+      "id": "context_57_20",
+      "index": 20,
+      "speaker": "Mark Trahant",
+      "words": "In fact, there were tokens made that actually recorded whose weapons weren't where. And so the idea of this, all encompassing Second Amendment is really new. It's not something that was part of this country's history, but the violence and the stories about violence were very much a part in terms of the coverage of this particular event. I think media is starting to change a little bit, and I would compare it a bit to how we approach climate change.",
+      "tags": [
+        "conflict",
+        "environment"
+      ],
+      "timestamp": "[00:08:22:09]"
+    },
+    {
+      "id": "context_57_21",
+      "index": 21,
+      "speaker": "Mark Trahant",
+      "words": "Early on, climate change was a 5050 story. You get people on both sides and you try to weigh it out. And over the last decade, it's evolved to recognition that 85% of scientists are saying one thing and less than 15%, and that's being generous, are saying the other, and to not treat it as an equal story. And I think you're starting to see the same thing with the proposition of any gun, any age, without restriction, with the same sort of weight.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:08:49:19]"
+    },
+    {
+      "id": "context_57_22",
+      "index": 22,
+      "speaker": "Mark Trahant",
+      "words": "On how a journalist covers the story.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:21:09]"
+    },
+    {
+      "id": "context_57_23",
+      "index": 23,
+      "speaker": "Maria Hinojosa",
+      "words": "I think the one thing let me let me just say go ahead. I do think a couple of things happened in terms of the coverage. So one in relationship to Buffalo, I think that there was a lot of critique as to why why mainstream media was not calling this a racist white supremacist attack, why they were saying, you know, maybe racially motivated.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:24:20]"
+    },
+    {
+      "id": "context_57_24",
+      "index": 24,
+      "speaker": "Maria Hinojosa",
+      "words": "No, it was a racist attack. So I think that that was, as Mark says, there's a there's a change that's happening slowly. But it's happening. You can perceive it. And I think the other big, big story about, Uvalde is the fact that, you know, journalists are often we're going to believe, we're told to believe what law enforcement tells us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:44:14]"
+    },
+    {
+      "id": "context_57_25",
+      "index": 25,
+      "speaker": "Maria Hinojosa",
+      "words": "Right. What is the official narrative of this story? Well, that's not playing out in Uvalde. There's there's a going to be a federal investigation as to exactly what happened.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:10:10:02]"
+    },
+    {
+      "id": "context_57_26",
+      "index": 26,
+      "speaker": "Bill Manny",
+      "words": "Right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:24:09]"
+    },
+    {
+      "id": "context_57_27",
+      "index": 27,
+      "speaker": "Maria Hinojosa",
+      "words": "So it's hard to imagine that a situation, a story like the Uvalde massacre could get worse. But in fact, it is getting worse. And at the center of that ugliness is what is happening in one of the most highly policed and highly armed towns, cities is that with all of the guns, it was not enough. And I think that that and and journalists understanding that we have to question law enforcement, we cannot take what Border Patrol says as truth or the sheriffs or the police.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:10:24:24]"
+    },
+    {
+      "id": "context_57_28",
+      "index": 28,
+      "speaker": "Maria Hinojosa",
+      "words": "We have got to do our jobs and question until we find the truth.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:03:02]"
+    },
+    {
+      "id": "context_57_29",
+      "index": 29,
+      "speaker": "Bill Manny",
+      "words": "Yeah. The account of that shooting change very quickly and very dramatically. And I think that is a real startling, development for people to see how quickly the, the narrative of the narrative changed. You both have unique perspectives, in covering minority communities, with unique media. How do you use do you see a difference in the way that cases of violence, are reported when it's largely white victims?",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:11:07:16]"
+    },
+    {
+      "id": "context_57_30",
+      "index": 30,
+      "speaker": "Bill Manny",
+      "words": "And when it comes to the victims in the minority community? Have you noticed a difference? Does that stand out to you? Mark.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:38:10]"
+    },
+    {
+      "id": "context_57_31",
+      "index": 31,
+      "speaker": "Mark Trahant",
+      "words": "Well, certainly. I mean, you could look at just the issue of police violence. I mean, even in the national media, when they started picking up after George Floyd and reporting about, the way police interact, often interact with the African-American community, everyone in every other community knows this is a long story. It's not something that just happened recently.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:47:22]"
+    },
+    {
+      "id": "context_57_32",
+      "index": 32,
+      "speaker": "Mark Trahant",
+      "words": "Native Americans have had interactions with the police. I mean, it's so ironic that to this day, we have folks that were not prosecuted involving, militia groups. And yet, at standing Rock people, peaceful protesters were prosecuted. So that that divide is really deep and one that is reflected a lot both in media and in, day to day conversation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:10:10]"
+    },
+    {
+      "id": "context_57_33",
+      "index": 33,
+      "speaker": "Bill Manny",
+      "words": "Maria.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:38:12]"
+    },
+    {
+      "id": "context_57_34",
+      "index": 34,
+      "speaker": "Maria Hinojosa",
+      "words": "Yeah, I think that I think part of the frustration that journalists like Mark and I have a is that we have been trying to give this kind of context and, and our colleagues in the mainstream don't quite get it because it's something that is this kind of violence is, in fact, foreign to them. I'm thinking, for example, of something that is a very New York urban.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:39:14]"
+    },
+    {
+      "id": "context_57_35",
+      "index": 35,
+      "speaker": "Maria Hinojosa",
+      "words": "I'm in New York City now. I'm in Harlem, which I feel very safe, by the way, and it was at one point was perceived to be such a dangerous community because so many black people lived here. Well, this is one of the safest communities that that I've experienced. But I remember when I told my colleagues at NPR, this was in the 1990s that I had called 911 in here in New York City, and I had gotten a recording and they didn't believe it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:06:07]"
+    },
+    {
+      "id": "context_57_36",
+      "index": 36,
+      "speaker": "Maria Hinojosa",
+      "words": "They were like, that's not true, Bria. You know, it's like, no, this happened. So part of what we've been saying is that there is a structural problem here, and we have to understand that that yeah, it is in fact complex and in particular in the question of, of Uvalde, you know, the amount of violence, in this particular region of Texas is not new.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:33:08]"
+    },
+    {
+      "id": "context_57_37",
+      "index": 37,
+      "speaker": "Maria Hinojosa",
+      "words": "And violence specifically against Mexicans, Mexican-Americans, people who spoke Spanish Latinos is also not new.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:03:04]"
+    },
+    {
+      "id": "context_57_38",
+      "index": 38,
+      "speaker": "Bill Manny",
+      "words": "So, one more question on this topic and then we'll move on. But one of the things that I've noticed, and it's a really polarizing question that we're seeing in the national press right now, is this notion of showing more photos of the victims of violence. And it strikes me as unusual that we're now hearing that conversation when this victims are brown and black people.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:12:23]"
+    },
+    {
+      "id": "context_57_39",
+      "index": 39,
+      "speaker": "Bill Manny",
+      "words": "And you may not have heard a conversation about showing photos of victims when they were when they were primarily white victims. What do you think about this, this debate or this discussion? And, Maria, let's start with you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:35:09]"
+    },
+    {
+      "id": "context_57_40",
+      "index": 40,
+      "speaker": "Maria Hinojosa",
+      "words": "So, I'm reporting this story right now as we speak, Latino USA is is preparing an hour long special. And I spoke today with Melba marquez green, who lost her daughter on a race, in Sandy hook a decade ago. And she just said, you know, you are asking of the victims so much you want us to be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:50:13]"
+    },
+    {
+      "id": "context_57_41",
+      "index": 41,
+      "speaker": "Maria Hinojosa",
+      "words": "She was like, you want me to be considering that that question now, just like, what matters to me now is that as a nation and we are thinking about what do we do to respond to the families, what do we do, what is appropriate? What is right? What what should journalists be doing? So I'm just saying what she said.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:18:10]"
+    },
+    {
+      "id": "context_57_42",
+      "index": 42,
+      "speaker": "Maria Hinojosa",
+      "words": "She was just like, that's not that's not a question that we can even when you're in that state. And she said, look, I could barely stand up. So I think we you're right. I think that's a very that's very observant of you to say, look, it's at this point, right, when, when the victims are not white, that the question is being posed.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:40:19]"
+    },
+    {
+      "id": "context_57_43",
+      "index": 43,
+      "speaker": "Maria Hinojosa",
+      "words": "Now, I have to I have to be honest with you. You know, and I, I would love to hear what Mark has to say about this, because I do think that A1I don't think we should be asking this of the families right now. Certainly not. That is not the conversation to be having. But, there's something that I lived through as a young person, which was the Vietnam War, and this was the first televised war.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:16:03:19]"
+    },
+    {
+      "id": "context_57_44",
+      "index": 44,
+      "speaker": "Maria Hinojosa",
+      "words": "And so for journalists, we had incredible access. You remember this? You know, journalists were on the front lines. We were journalists were covering the body bags, arriving on a daily basis. They were being seen coming off the planes. We all saw this. I remember, you know, I guess Morley Safer and Dan Rather with, you know, helmets right there in the front and seeing soldiers, you know, bloodied and and there was a reality to that war that I think had everything to do with people saying it has to stop seeing it.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:16:29:13]"
+    },
+    {
+      "id": "context_57_45",
+      "index": 45,
+      "speaker": "Bill Manny",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:00:21]"
+    },
+    {
+      "id": "context_57_46",
+      "index": 46,
+      "speaker": "Maria Hinojosa",
+      "words": "And in Iraq, as you know, that was not we were the images of body bags censored. We could not see the planes arriving with the injured, etc., etc.. And there is a horror that is upon this country, and it is rooted in a kind of violence that we still have a problem recognizing. And certainly Mark knows all about the kind of violence that has been exacted upon, you know, and from our so-called founding fathers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:01:12]"
+    },
+    {
+      "id": "context_57_47",
+      "index": 47,
+      "speaker": "Bill Manny",
+      "words": "Well, and we have a history of, you know, kind of displaying the bodies of Indians that were killed back in the day. So, Mark, what are your thoughts on this kind of debate that's going on right now?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:28:01]"
+    },
+    {
+      "id": "context_57_48",
+      "index": 48,
+      "speaker": "Mark Trahant",
+      "words": "Well, and I agree with, Maria, I, I think we always have to be really careful about being accurate and truthful and at the same time not making grief. Public entertainment. And, I think that's really important to talk through. I think the families have an issue of sovereignty over their own story. And sometimes we just have to back off and let it play out.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:38:19]"
+    },
+    {
+      "id": "context_57_49",
+      "index": 49,
+      "speaker": "Mark Trahant",
+      "words": "And really, when you think about it, the rush and the ten minute media world, first of all, this story shows how even with all our fantasy technology, a picture is still one of the most compelling things there is. And, still image direct your eyes in a way that video can't. And, so it's really a powerful medium, and we have to be cognizant of that as we tell the story.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:05:13]"
+    },
+    {
+      "id": "context_57_50",
+      "index": 50,
+      "speaker": "Mark Trahant",
+      "words": "I think the lessons here, and I do think there is a moment where folks are so outraged, and this also happened with George Floyd. So it's building on one thing or another that is saying we just can't keep doing it this way, and there's gotta be a better route. And that's starting to get into areas of conversation that I don't think we're taking place.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:30:24]"
+    },
+    {
+      "id": "context_57_51",
+      "index": 51,
+      "speaker": "Mark Trahant",
+      "words": "Two years ago, when George Floyd was killed, murdered.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:52:18]"
+    },
+    {
+      "id": "context_57_52",
+      "index": 52,
+      "speaker": "Bill Manny",
+      "words": "Interesting. So the you know, the topic of tonight's conversation is, you know, why the public views the media as polarizing. So I guess I would, you know, ask you as our panelists, do you think that the public does view the press as polarizing and if it's deserved or not? And why don't we start with you, Mark?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:57:13]"
+    },
+    {
+      "id": "context_57_53",
+      "index": 53,
+      "speaker": "Mark Trahant",
+      "words": "Well, it's I'd start by saying what what public we've been looking at, in 1947. And I always go backwards. In 1947, distinguished commission looked at freedom of the press and, that one of their questions was if we can't cover constituent groups. And by that they meant race in a really thoughtful, comprehensive, intelligent way. Democracy itself would be at risk.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:18:01]"
+    },
+    {
+      "id": "context_57_54",
+      "index": 54,
+      "speaker": "Mark Trahant",
+      "words": "And since 1947, you're really seeing the phrase of that. So much of the media missed out on its opportunity to diversify and bring people in, and that includes readership. If, I mean, one of the great lessons I hear from our reporters all the time is I love working at a place where I don't have to tell my editors why it's a story.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:42:10]"
+    },
+    {
+      "id": "context_57_55",
+      "index": 55,
+      "speaker": "Mark Trahant",
+      "words": "And, that's just something that's missing from mainstream media, because they did not do it really, when they had the opportunity to do it. And I think that played out then with readers and it played out with, basically their social license to operate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:02:05]"
+    },
+    {
+      "id": "context_57_56",
+      "index": 56,
+      "speaker": "Bill Manny",
+      "words": "You know, the other thing that occurs to me, and I think you mentioned this when we spoke earlier, is the reaction you said, what public are we talking about? You could also say, what media are we talking about? I think your your point and I think Maria would would agree with this is your readership has a different relationship with your with your feed, with your services, with your, with your news than CBS or NPR or Fox News.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:18:00]"
+    },
+    {
+      "id": "context_57_57",
+      "index": 57,
+      "speaker": "Bill Manny",
+      "words": "Right?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:43:08]"
+    },
+    {
+      "id": "context_57_58",
+      "index": 58,
+      "speaker": "Mark Trahant",
+      "words": "Oh, absolutely. I don't have a day go by where somebody doesn't thank me for what I do and that it's really heartfelt. My favorite is when someone is for a nonprofit news organization like Maria, and my favorite is when you get a money order from Pine Ridge, South Dakota for $35. And not only is the amount of money, but it's that somebody took the time to stand in line in the post office.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:44:13]"
+    },
+    {
+      "id": "context_57_59",
+      "index": 59,
+      "speaker": "Mark Trahant",
+      "words": "And I think that connection with readers shows how deep our relationship is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:08:10]"
+    },
+    {
+      "id": "context_57_60",
+      "index": 60,
+      "speaker": "Bill Manny",
+      "words": "Well, I think we're going to be talking about kind of, alternative media in the future. So I think we'll return to this topic. But I want to ask you, Maria, the same question. You know, are the media polarizing and is that is that deserved?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:13:14]"
+    },
+    {
+      "id": "context_57_61",
+      "index": 61,
+      "speaker": "Maria Hinojosa",
+      "words": "It's hard to make a generalization because, you know, I consider my founding father in the media, Frederick Douglass, and he was probably considered a polarizing figure at that time because he was telling the truth of what it was to be a formerly enslaved black man in the United States. I believe what he was doing was he was capturing the honesty of what this country looks like.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:30:03]"
+    },
+    {
+      "id": "context_57_62",
+      "index": 62,
+      "speaker": "Maria Hinojosa",
+      "words": "But part of what Marc and I have been talking about for the entirety of our careers has been representation in our newsrooms. And the reason why we talk about that is not just because it's fun. It's actually because. If you are not at this point, this is what this is the way I approach it. Bill. And I know that this makes my colleagues, it makes their hair stand up on end.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:59:20]"
+    },
+    {
+      "id": "context_57_63",
+      "index": 63,
+      "speaker": "Maria Hinojosa",
+      "words": "But this is why I do it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:28:22]"
+    },
+    {
+      "id": "context_57_64",
+      "index": 64,
+      "speaker": "Bill Manny",
+      "words": "Some people say, you're sweet.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:30:02]"
+    },
+    {
+      "id": "context_57_65",
+      "index": 65,
+      "speaker": "Maria Hinojosa",
+      "words": "I like to say if you're newsroom is not at all representative does not even come close to representative, then there's no way that you're able to practice excellence in journalism in the United States of America. So we're not at the same level. My newsroom is more representative than your newsroom is. I'm already practicing excellence in journalism. You've got to reach up.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:33:15]"
+    },
+    {
+      "id": "context_57_66",
+      "index": 66,
+      "speaker": "Maria Hinojosa",
+      "words": "You've got to come to where I'm at to begin to have a conversation about excellence in journalism. And we need to recognize that's a very complex question that we could talk about the entire hour. Right. Which is why? Well, because if you're controlling the message, you're controlling the narrative. And so, you know, on the one hand, like I think of Walter Cronkite, who is also like one of the fathers of American journalism who I love, I'll critique Walter Cronkite.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:22:56:06]"
+    },
+    {
+      "id": "context_57_67",
+      "index": 67,
+      "speaker": "Maria Hinojosa",
+      "words": "I worked for Walter Cronkite, I wrote for Walter Cronkite, and he read what I wrote for him without pause. And yet, you know, of course, he was allowed to show his emotions without critique. And and I've always said what we all can't see the world through Walter Cronkite eyes, nor should we. So part of what's happened, I think, and it's, in Spanish, I would say it's intensified over the last, well, since the since 2015, I would say with the the candidacy of Donald Trump is that, you know, this like the both sides of things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:23:14]"
+    },
+    {
+      "id": "context_57_68",
+      "index": 68,
+      "speaker": "Maria Hinojosa",
+      "words": "A you had mainstream media that had no problem repeating over and over and over and over again, hate speech towards Mexicans writ large, Latinos and Latinas, immigrants, a and and didn't and didn't categorize it as such. So so you have people who begin to question what is happening in terms of our mainstream media, who why are they doing this?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:09:01]"
+    },
+    {
+      "id": "context_57_69",
+      "index": 69,
+      "speaker": "Maria Hinojosa",
+      "words": "Because there is deep damage that is done. So I don't want to throw the baby out with the bathwater because Mark like I like you, Bill, we are committed to saving American journalism, right? We have to. So I'm not going to throw the baby out with the bathwater. We do need to be having these kinds of conversations on a national level that are pushing our colleagues, frankly, to do better, and that may mean that they're not going to be in power all the time.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:44:22]"
+    },
+    {
+      "id": "context_57_70",
+      "index": 70,
+      "speaker": "Maria Hinojosa",
+      "words": "And that's part of our reality, right, is that the United States is changing. And how do we deal with really deep power shift? A and and part of that comes I'll just say this and I'll let you know in our newsroom in Futuro Media, you will never hear the word minority ever to describe what the Latino and Latina community is, or the black community is or the indigenous community.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:25:11:15]"
+    },
+    {
+      "id": "context_57_71",
+      "index": 71,
+      "speaker": "Maria Hinojosa",
+      "words": "We do not use the term minority. And think about the fact that, you know, later the if we had data that showed, in fact, much of, white America was it wasn't an economic argument. They were concerned about losing their place and becoming a minority and treated like one. And that this fear, which Donald Trump was stoking and is stoking is what led to to his election and the media's relationship to how to cover that person, I think is very problematic, because if we are, our democracy is in peril.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:36:18]"
+    },
+    {
+      "id": "context_57_72",
+      "index": 72,
+      "speaker": "Maria Hinojosa",
+      "words": "And we were in a state of authoritarianism, and, and the media or our colleagues were, you know, having a hard time kind of recognizing the severity of it still do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:15:15]"
+    },
+    {
+      "id": "context_57_73",
+      "index": 73,
+      "speaker": "Bill Manny",
+      "words": "You're talking about when the media reported you know, that statement that Mexicans are criminals and rapists and they're and they're invading into the country? That's the that's from the beginning of that campaign. That's what you're talking about. And that's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:28:16]"
+    },
+    {
+      "id": "context_57_74",
+      "index": 74,
+      "speaker": "Maria Hinojosa",
+      "words": "Correct.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:42:06]"
+    },
+    {
+      "id": "context_57_75",
+      "index": 75,
+      "speaker": "Bill Manny",
+      "words": "It and covered.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:42:22]"
+    },
+    {
+      "id": "context_57_76",
+      "index": 76,
+      "speaker": "Maria Hinojosa",
+      "words": "Correct. Because it's, right. Because it's also untrue. I mean, we it's just it's it's it's a, it's a, it's a lie. In fact, we know this if you want to just look at it statistically. So you, I hate to do this because I don't we don't want to get into oppression Olympics, you know? But what would happen if you replace, Mexicans with any other, group and with, with the mainstream media have been so easy to repeat it right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:45:03]"
+    },
+    {
+      "id": "context_57_77",
+      "index": 77,
+      "speaker": "Bill Manny",
+      "words": "So while we're sort of on this theme, there's a question that has come in from a viewer who said, do you think that white journalists are inhibited in Uvalde reporting because law enforcement is led by Hispanics and the shooter had a Hispanic name? And should those reporters step aside so that so that they aren't conflicted about how to report, from Texas?",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:27:17:19]"
+    },
+    {
+      "id": "context_57_78",
+      "index": 78,
+      "speaker": "Maria Hinojosa",
+      "words": "No, I, I, I think that I think that I don't want journalists to be stepping aside. I need them to step up. We need them to step up. We need them to be responsible. We need them to be well-trained. We need them to have sensitivity, to understand context, to understand where they are in a place like, well, or in Buffalo, to to have an awareness.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:40:12]"
+    },
+    {
+      "id": "context_57_79",
+      "index": 79,
+      "speaker": "Maria Hinojosa",
+      "words": "That's what we want. I don't, I don't want journalists. I mean, if they're belligerent and lying, then they're not journalists. So I would want them to step to step back. But no, we need people who are, who are bringing their full selves into reporting this story. Frankly.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:02:24]"
+    },
+    {
+      "id": "context_57_80",
+      "index": 80,
+      "speaker": "Bill Manny",
+      "words": "Mark, any additional thoughts on that question?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:23:09]"
+    },
+    {
+      "id": "context_57_81",
+      "index": 81,
+      "speaker": "Mark Trahant",
+      "words": "I completely agree with that. It takes a lot of voices to make a strong choir.",
+      "tags": [
+        "music"
+      ],
+      "timestamp": "[00:28:25:18]"
+    },
+    {
+      "id": "context_57_82",
+      "index": 82,
+      "speaker": "Bill Manny",
+      "words": "Well said. And I like your I like that ten minute media, the ten minute media world. I'm going to remember that one too, that, you have both you've both worked for mainstream media, Mark. You've worked for newspapers in Seattle, in fact, here in Idaho. And Maria, you've worked for CNN and CBS. You wrote for Walter Cronkite and, NPR.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:30:21]"
+    },
+    {
+      "id": "context_57_83",
+      "index": 83,
+      "speaker": "Bill Manny",
+      "words": "And, so you both, you both started out your career in the traditional media world, and now you're not there. You've gone, you've gone to a different place. So can you talk about how you ended up leaving that world and why? And let's start with you, Mark.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:51:06]"
+    },
+    {
+      "id": "context_57_84",
+      "index": 84,
+      "speaker": "Mark Trahant",
+      "words": "Well, my case, it was pretty easy. The Seattle Post-Intelligencer disappeared. I do think and I think I'm and a lot of folks were really diligent, starting in about 1970, trying to work at coming up with strategies for making the media more diverse. And we worked really hard at it. I can't tell you how many committees I was on, and we just generally fail.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:08:16]"
+    },
+    {
+      "id": "context_57_85",
+      "index": 85,
+      "speaker": "Mark Trahant",
+      "words": "And as the newspaper industry and then later television started to collapse economically, it just got worse. And, I think the biggest mistake in the media, frankly, is to forget that growth matters. And one of the things that is probably our strongest suit as an independent nonprofit is that we're always growing and looking for ways to build our audience and to find new people, and that's just a lesson that really didn't happen with the media.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:35:00]"
+    },
+    {
+      "id": "context_57_86",
+      "index": 86,
+      "speaker": "Mark Trahant",
+      "words": "The people who are running companies decided the easiest way to be profitable was to cut budgets and cut numbers of people and to shrink. And I think shrink is a terrible metaphor for media.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:30:03:19]"
+    },
+    {
+      "id": "context_57_87",
+      "index": 87,
+      "speaker": "Maria Hinojosa",
+      "words": "First of all, I just have to thank you, Bill, for bringing me and Mark together because I just just, you know, Mark and I could not be more different. And yet we are like brother and sister from, you know, from Frederick Douglass and, and descendants of so many storytellers and, and documentaries. So, yeah, I forgot the question.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:18:15]"
+    },
+    {
+      "id": "context_57_88",
+      "index": 88,
+      "speaker": "Maria Hinojosa",
+      "words": "I hear.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:40:05]"
+    },
+    {
+      "id": "context_57_89",
+      "index": 89,
+      "speaker": "Bill Manny",
+      "words": "So, so why you why you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:41:05]"
+    },
+    {
+      "id": "context_57_90",
+      "index": 90,
+      "speaker": "Maria Hinojosa",
+      "words": "Oh, why did I do that?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:43:23]"
+    },
+    {
+      "id": "context_57_91",
+      "index": 91,
+      "speaker": "Bill Manny",
+      "words": "So kind of traditional media ended up where you are. Yeah. And. No. Why?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:44:19]"
+    },
+    {
+      "id": "context_57_92",
+      "index": 92,
+      "speaker": "Maria Hinojosa",
+      "words": "Well, it's, I like telling this story. It's in my book. Once I was you, you know, I now on PBS, the favorite place where I worked on television doing documentary, 60 minutes style, work is shut down in 2010. Barack Obama was elected, and it was kind of felt like, well, you know, we don't have to challenge the government anymore.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:30:49:16]"
+    },
+    {
+      "id": "context_57_93",
+      "index": 93,
+      "speaker": "Maria Hinojosa",
+      "words": "And so. Yeah, so, so now on PBS went away and I, at that point, I was only the anchor of Latino USA. It was not, a full time job. And, and I was hoping to get a job with 60 minutes, and I went to have an interview with them, and I was it was like my, my, just the thought that I could get hired, just having an interview with them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:17:22]"
+    },
+    {
+      "id": "context_57_94",
+      "index": 94,
+      "speaker": "Maria Hinojosa",
+      "words": "I didn't get the hint that the interview took place at a Starbucks. So I should have kind of like, read the room a little bit more. And, and, you know, this very senior person says, I'm like, I, you know, you're perfect for us. You have all the qualifications. It's just it. Can you wait until one of these old white guys gets sick or dies?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:41:10]"
+    },
+    {
+      "id": "context_57_95",
+      "index": 95,
+      "speaker": "Maria Hinojosa",
+      "words": "And I was like, is this a joke? Am I laughing? Are you. Is this serious? What are you telling me? Like what? And, And then I got in the subway, and I cried all the way home to 125th Street, and and I couldn't the thought of calling me papa, and telling him that I had to go on unemployment, you know, I just very Mexican of me.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:59:10]"
+    },
+    {
+      "id": "context_57_96",
+      "index": 96,
+      "speaker": "Maria Hinojosa",
+      "words": "Very immigrant of me. I could not, could not think of that. And I, you know, I was a woman now who had several decades of being a journalist, and I think I was known for having a kind of perspective, a kind of journalism. And as Mark says, I didn't want to have to go back into other newsrooms and explain myself and ask for permission to do stories that I knew were valuable.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:22:11]"
+    },
+    {
+      "id": "context_57_97",
+      "index": 97,
+      "speaker": "Maria Hinojosa",
+      "words": "And so I just jumped off the deep end. It was just like, you know, Mark was forced because, you know, the paper cut we shut down. And my program, my television show was shut down and and I'm so glad I did because I really I had no idea what I was doing. I'm a journalist. I'm not I wasn't, at that point, a media entrepreneur now.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:47:00]"
+    },
+    {
+      "id": "context_57_98",
+      "index": 98,
+      "speaker": "Maria Hinojosa",
+      "words": "Absolutely. I'm a media entrepreneur. I'm a journalist. I'm not. And Mark is exactly right. What Mark and I continue to see is there is so much hunger for our work. And so we are all about growth right now. Futuro media, you know, we're having to manage to not grow too fast because we don't want that problem, right? We don't want that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:08:17]"
+    },
+    {
+      "id": "context_57_99",
+      "index": 99,
+      "speaker": "Maria Hinojosa",
+      "words": "But we are all about seizing this opportunity and building on that growth. And that's our audience is just coming to us. And you're right, Mark, not a day goes by when we don't get thanked for the work that we do. What I mean, that's such a beautiful thing that we have that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:34:12]"
+    },
+    {
+      "id": "context_57_100",
+      "index": 100,
+      "speaker": "Bill Manny",
+      "words": "So you you both ended up go ahead Mark. Well, I.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:53:06]"
+    },
+    {
+      "id": "context_57_101",
+      "index": 101,
+      "speaker": "Mark Trahant",
+      "words": "Just wanted to build on that a bit. One of the things that Brian, I both have heard all our careers is we can't find anybody. We would hire somebody. But. And, what I really love about my job now is being able to put that on its head forever. Because, when we have resources, we hire people. It's not that complicated.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:55:17]"
+    },
+    {
+      "id": "context_57_102",
+      "index": 102,
+      "speaker": "Mark Trahant",
+      "words": "And we've gone from three employees to 30 in less than three years. And our plan now is to double again, to 60 employees. And that opportunity building opportunity is what's really this is all about. The other thing I want to mention, I also know this is true with Maria's. Our organization is our demographics. Our, top leadership group is 25 to 34.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:15:17]"
+    },
+    {
+      "id": "context_57_103",
+      "index": 103,
+      "speaker": "Mark Trahant",
+      "words": "And that's just not something you see in the media. I mean, not only are we reaching readers in greater numbers, but we're reaching young people. And I think that's really, probably the most important thing we do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:38:15]"
+    },
+    {
+      "id": "context_57_104",
+      "index": 104,
+      "speaker": "Bill Manny",
+      "words": "So let's talk a little bit about kind of, you know, the the necessity or the opportunity of being media entrepreneurs, whether it's desperation and survival or opportunity. Mark, when you went to Indian Country today, you basically and reinvented that, that, medium talk about what you did and how you did it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:50:17]"
+    },
+    {
+      "id": "context_57_105",
+      "index": 105,
+      "speaker": "Mark Trahant",
+      "words": "Sure. I should start by saying, after the Seattle P-i died, I thought I was going to, stay in, in academic circles for a while. I'd gone to the University of Anchorage, Alaska, and then university in North Dakota, and teaching was fun. I enjoyed it Indian Country today when it went out of business and they asked me to take it back, was just such a great opportunity, because I knew that it had a national audience that was unparalleled.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:13:13]"
+    },
+    {
+      "id": "context_57_106",
+      "index": 106,
+      "speaker": "Mark Trahant",
+      "words": "And, one of the first things we did is you think about where people consume media. And so in a newspaper world, everyone's trying to protect newspapers. Instead of asking the question, how do you reach people with content that matters, with news stories? And so if you answer that question, the only answer is the mobile phone. So we entirely built everything based on the mobile phone.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:39:14]"
+    },
+    {
+      "id": "context_57_107",
+      "index": 107,
+      "speaker": "Mark Trahant",
+      "words": "And today 85% of our readership every single day is on a mobile device. And I think that shows where the audience is. In fact, there was a stat I love from a demographic study and it said millennials will look at their phone before they say good morning to their partner. And if you can't build a business on that, you have no no savvy at all.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:36:02:24]"
+    },
+    {
+      "id": "context_57_108",
+      "index": 108,
+      "speaker": "Bill Manny",
+      "words": "So maybe you should add marriage counseling to your suite of offerings. Mark.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:23:20]"
+    },
+    {
+      "id": "context_57_109",
+      "index": 109,
+      "speaker": "Mark Trahant",
+      "words": "Right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:28:11]"
+    },
+    {
+      "id": "context_57_110",
+      "index": 110,
+      "speaker": "Bill Manny",
+      "words": "But you you do you publish you publish a print edition anymore.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:29:19]"
+    },
+    {
+      "id": "context_57_111",
+      "index": 111,
+      "speaker": "Mark Trahant",
+      "words": "Now we, we'll do special issue books, but they're all print on demand, so we don't even sell the book until somebody buys it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:35:12]"
+    },
+    {
+      "id": "context_57_112",
+      "index": 112,
+      "speaker": "Bill Manny",
+      "words": "And you essentially created a, a TV broadcast as well. Right? Tell us about that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:42:21]"
+    },
+    {
+      "id": "context_57_113",
+      "index": 113,
+      "speaker": "Mark Trahant",
+      "words": "Yeah, that was a real surprise. I certainly didn't expect to be in the television business. In 2018, we knew there was going to be an extraordinary election. I had been blogging before I went to Indian Country today about politics and I knew that it was the first election where more women and men were running from Indian country, and there were more than 115 candidates, and that we were going to elect the first Native American woman to Congress, in the entire history of the country.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:49:13]"
+    },
+    {
+      "id": "context_57_114",
+      "index": 114,
+      "speaker": "Mark Trahant",
+      "words": "And so we wanted to do a broadcast to that effect. And five weeks before the election. So we did a lot of planning. We started calling around and, a station in Southern California, Phoenix, which is a cable, PBS, cable station said, why don't you come and do a, broadcast election night? And we did, and we did five hours of programing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:16:17]"
+    },
+    {
+      "id": "context_57_115",
+      "index": 115,
+      "speaker": "Mark Trahant",
+      "words": "It was fabulous. We learned a lot. Next morning, the entire staff that we put together said, can we do this again? And, I just happened to have a meeting at Arizona State that week and said we'd like to do a daily TV show. And the dean said, you know, I don't think you can afford a daily, but why don't you come here and do a weekly?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:39:09]"
+    },
+    {
+      "id": "context_57_116",
+      "index": 116,
+      "speaker": "Mark Trahant",
+      "words": "So we started planning for a weekly, and we were going to do a magazine. And then the pandemic hit. And the great I mean, I don't want to make light of the pandemic, but it afforded an opportunity to do things in a different way. We started a newscast out of somebody's living room on zoom, and every day we started doing it, and then we started to think about how to improve the production.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:59:13]"
+    },
+    {
+      "id": "context_57_117",
+      "index": 117,
+      "speaker": "Mark Trahant",
+      "words": "And now, three years later, the production looks really good. We're in a studio. We're doing things that we need to do. You mentioned the PBS system just in July, we are going to be on the PBS world channel, which is 80% of the PBS network. So it really gives us a national presence there. And, one of the reasons I have such an odd title as editor at large is I really wanted this platform to be built for the long term.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:22:05]"
+    },
+    {
+      "id": "context_57_118",
+      "index": 118,
+      "speaker": "Mark Trahant",
+      "words": "So I decided this year to turn over the editor job to a younger person and the anchor job to a younger person, and really to think about how are we going to make this something that lasts. And, that's been we've been very deliberate about that as well.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:48:11]"
+    },
+    {
+      "id": "context_57_119",
+      "index": 119,
+      "speaker": "Bill Manny",
+      "words": "So you went into this hoping to kind of save a dinosaur. Instead, you rebirth the whole new creature. It's completely different.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:03:18]"
+    },
+    {
+      "id": "context_57_120",
+      "index": 120,
+      "speaker": "Mark Trahant",
+      "words": "Yeah. Our first budget when I took over was 300,000. And this year, our budget is 5.4 million.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:11:23]"
+    },
+    {
+      "id": "context_57_121",
+      "index": 121,
+      "speaker": "Maria Hinojosa",
+      "words": "Wow.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:18:14]"
+    },
+    {
+      "id": "context_57_122",
+      "index": 122,
+      "speaker": "Mark Trahant",
+      "words": "So it's really amazing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:19:14]"
+    },
+    {
+      "id": "context_57_123",
+      "index": 123,
+      "speaker": "Bill Manny",
+      "words": "So, Maria, you, you you had to create an entire company from scratch. And, have you thought about offering marriage counseling as part of your suite of products?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:21:21]"
+    },
+    {
+      "id": "context_57_124",
+      "index": 124,
+      "speaker": "Maria Hinojosa",
+      "words": "No, let me just tell you that, the first person that I physically thanked when I won the Pulitzer was to walk next door to my husband's studio. He's the artist and thank him, because you know this, to be a partner of somebody who does this work is not easy. And so I don't do marriage counseling, but I do write about it a lot in my book.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:34:03]"
+    },
+    {
+      "id": "context_57_125",
+      "index": 125,
+      "speaker": "Bill Manny",
+      "words": "I think people who've read your book, get a deep appreciation for your husband.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:58:16]"
+    },
+    {
+      "id": "context_57_126",
+      "index": 126,
+      "speaker": "Maria Hinojosa",
+      "words": "Yeah. He's a pretty extraordinary human being.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:04:03]"
+    },
+    {
+      "id": "context_57_127",
+      "index": 127,
+      "speaker": "Bill Manny",
+      "words": "Are you glad that you you had to start a media company from scratch?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:07:20]"
+    },
+    {
+      "id": "context_57_128",
+      "index": 128,
+      "speaker": "Maria Hinojosa",
+      "words": "Yeah. And here's an important message. I really didn't think I could do it or knew exactly what I was doing. I of course, I ended up working with people. So I just want to encourage people. Yeah, because I said it about myself. I was like, I could never I could never have my own company. I could never do that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:13:03]"
+    },
+    {
+      "id": "context_57_129",
+      "index": 129,
+      "speaker": "Maria Hinojosa",
+      "words": "I could never run. And actually, we are more capable of things than we imagined. And I think that that Mark and I have that like, that's why we love hiring people to come and work with us, because we're able to see what they're not able to see right there. They may not believe in what they can do, but we're able to be.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:40:34:17]"
+    },
+    {
+      "id": "context_57_130",
+      "index": 130,
+      "speaker": "Maria Hinojosa",
+      "words": "I know you got this. We got this. So futuro right now, which is, you know, is a little bit of a darling, in the media world. And I would say the same with Mark. Right. A with ICT is that it is we continue to just do the work that's very important. Like for us it's to stay focused on doing the work of journalism.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:53:09]"
+    },
+    {
+      "id": "context_57_131",
+      "index": 131,
+      "speaker": "Maria Hinojosa",
+      "words": "And that is and I think that again with Mark and with myself, like we, we I mean, right now futuro is 12 years old. We're getting all this recognition. We win the Pulitzer, we win the there were many years where we were just kind of toiling and having to fight. We still fight for everything, but, Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:25:05]"
+    },
+    {
+      "id": "context_57_132",
+      "index": 132,
+      "speaker": "Maria Hinojosa",
+      "words": "So I want young journalists in particular and not young journalists either. All journalists, to kind of understand the the profoundness of the mission that we have. And the conversation here is how how do we, in fact, move beyond being polarizing? How do we learn, how do we have these conversations? And I think that's why winning the Pulitzer for suave, where the the central relationship between a journalist and a source was really laid bare, like, this is what it looks like, and that the Pulitzers would say, we want to recognize that work.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:44:03]"
+    },
+    {
+      "id": "context_57_133",
+      "index": 133,
+      "speaker": "Maria Hinojosa",
+      "words": "I think that's an interesting moment in kind of journalism history, in this moment where we're able to have these conversations, these dialogs, because Mark and I, we're doing this work, you know, 15 years ago, 25 years ago. So it's it's a very dynamic conversation that we're able to be a part of. And, and frankly, as Mark says, also, it's about you, the person who's watching this and how you engage with us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:20:21]"
+    },
+    {
+      "id": "context_57_134",
+      "index": 134,
+      "speaker": "Maria Hinojosa",
+      "words": "That's deeply important to us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:46:09]"
+    },
+    {
+      "id": "context_57_135",
+      "index": 135,
+      "speaker": "Bill Manny",
+      "words": "You know, one of the things you ended up doing with your media company is launching that podcast that is that has just in May, one new the the Pulitzer. So, we can't let this moment pass by without at least talking about that. And, tell us what it was like to find out that news. I think if people who don't follow you on Twitter might not know exactly how you reacted.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:49:05]"
+    },
+    {
+      "id": "context_57_136",
+      "index": 136,
+      "speaker": "Bill Manny",
+      "words": "But how was that? What was that like, learning and receiving that news?",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:43:11:20]"
+    },
+    {
+      "id": "context_57_137",
+      "index": 137,
+      "speaker": "Maria Hinojosa",
+      "words": "Well, here's the thing. I, I didn't I didn't even know that we had submitted for a Pulitzer. I know people are like, how did you not know? And I'm like, well, I got a lot of stuff going on, you know, I knew I knew that we were not nominated for a Peabody. And I was like, okay, but we want an International Documentary Association award.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:43:16:02]"
+    },
+    {
+      "id": "context_57_138",
+      "index": 138,
+      "speaker": "Maria Hinojosa",
+      "words": "I was good, so I wasn't even thinking about the Pulitzers and many of our colleagues are watching the live feed for the Pulitzer announcements. The nominee, they're like, watching this. And I was busy doing work. So, yeah, I found out because my phone started blowing up in a way that I had never seen it before. And, and then, yeah, you're right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:35:22]"
+    },
+    {
+      "id": "context_57_139",
+      "index": 139,
+      "speaker": "Maria Hinojosa",
+      "words": "If you saw me on Twitter or on Instagram, it was, you know, a heartfelt reaction. A lot of people kind of went a little viral. And it's just kind of extraordinary because. So people understand. I met Swaby in 1993. That's when we began a source journalist relationship that included also sending in Christmas cards every year because, as I said, I knew what his address was.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:56:10]"
+    },
+    {
+      "id": "context_57_140",
+      "index": 140,
+      "speaker": "Maria Hinojosa",
+      "words": "I knew where he was going to be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:23:16]"
+    },
+    {
+      "id": "context_57_141",
+      "index": 141,
+      "speaker": "Bill Manny",
+      "words": "Where he was in prison. Like we haven't told our every year.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:25:15]"
+    },
+    {
+      "id": "context_57_142",
+      "index": 142,
+      "speaker": "Maria Hinojosa",
+      "words": "Oh my God, he was in prison.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:28:00]"
+    },
+    {
+      "id": "context_57_143",
+      "index": 143,
+      "speaker": "Bill Manny",
+      "words": "He was in prison for life as a as a juvenile. And you met him by happenstance and developed a friendship with him that turned into this, confessional. Almost.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:29:13]"
+    },
+    {
+      "id": "context_57_144",
+      "index": 144,
+      "speaker": "Maria Hinojosa",
+      "words": "Yeah. Well, we were recording conversations for about 25 years. And now, now we're it was just announced yesterday. We did get funding, actually, from the Mellon Foundation. So Bravo to the Mellon Foundation. They just funded us for season two of Swaby. And, and we're actually taking it to the next level because Swaby, who the story is about his life 31 years behind bars, then gets released, learns how to read right, gets his GED and his college degree.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:44:42:09]"
+    },
+    {
+      "id": "context_57_145",
+      "index": 145,
+      "speaker": "Maria Hinojosa",
+      "words": "And now he's actually one of our producers. So he is one of the producers of the season two. He will not just be a subject, but he's saying, here's the story that I think we should be focused on. So it's a very exciting moment for us and for the conversation of journalism and how we do things differently when we're run in a different way.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:15:08]"
+    },
+    {
+      "id": "context_57_146",
+      "index": 146,
+      "speaker": "Bill Manny",
+      "words": "You know, one of the things that one of the things that some people find polarizing about media are when opinions are injected into what would be traditional news coverage. But both of you, have experienced with opinion in your reporting, Maria, you talk about, you know, leading with your heart and making your humanity part of your reportage. And, Mark, you've been writing editorials and columns for years and years.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:36:19]"
+    },
+    {
+      "id": "context_57_147",
+      "index": 147,
+      "speaker": "Bill Manny",
+      "words": "Talk about talk about the role of opinion versus straight journalism and why you choose to do the journalism. You do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:03:21]"
+    },
+    {
+      "id": "context_57_148",
+      "index": 148,
+      "speaker": "Mark Trahant",
+      "words": "Well, not to be trite, but I think objective journalism is a great idea, and we should try it sometime. Everybody has opinions that they bring into it, if I may, meeting. Let's just take a meeting, for example. Was objective a five hour meeting would be a five hour report. We're always choosing what to put into a story.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:13:02]"
+    },
+    {
+      "id": "context_57_149",
+      "index": 149,
+      "speaker": "Mark Trahant",
+      "words": "We're always choosing, what is important and the best we can do. And this is something that I hope shows up, whether it's an opinion column or a news story is to be fair. And I think that's a higher standard and one that's worth really working hard to try to reach at. And I also think, so often the objective journalism that we were raised with, misses on context.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:34:20]"
+    },
+    {
+      "id": "context_57_150",
+      "index": 150,
+      "speaker": "Mark Trahant",
+      "words": "And if you're out of sorts on context, the story is not accurate nor fair. And I think those are two standards we should get to. I have a lesson from Idaho. When I was, a teenager and I was editing the show Bad News, I wrote a column about somebody, a story that involved, Power County. And one of the commissioners was really mad.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:47:02:07]"
+    },
+    {
+      "id": "context_57_151",
+      "index": 151,
+      "speaker": "Mark Trahant",
+      "words": "And he came down the next morning, and I remember making him coffee, and we had a great conversation. And I was that one of the standards of journalism ought to be have a cup of coffee with the person you're writing about and be able to explain yourself in a way that makes some sense, and to hear their side of it to the story doesn't have to be over.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:24:11]"
+    },
+    {
+      "id": "context_57_152",
+      "index": 152,
+      "speaker": "Mark Trahant",
+      "words": "Just because you've written it. It continues on. It can evolve and it can still get better, and it can still get more fair.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:44:02]"
+    },
+    {
+      "id": "context_57_153",
+      "index": 153,
+      "speaker": "Bill Manny",
+      "words": "I think one of the lessons, that I've certainly learned is you it's hard to demonize and objectify somebody, you know, as a person, somebody you have coffee with and appreciate as a person. Maria, you you talked about, you know, humanity is one of the tools that you have that we have in our tool belt as journalists talk about why you believe that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:51:01]"
+    },
+    {
+      "id": "context_57_154",
+      "index": 154,
+      "speaker": "Maria Hinojosa",
+      "words": "I, I love well, first of all, again, I was raised watching a generation, mostly CBS, actually, CBS news, greatly impacted by someone like Ed Bradley, you know, the first black correspondent on 60 minutes. And you could tell that Ed had heart. Ed had heart like heart, but he also had street heart. And I remember that he would bring that they allowed they allowed him to kind of show that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:13:18]"
+    },
+    {
+      "id": "context_57_155",
+      "index": 155,
+      "speaker": "Maria Hinojosa",
+      "words": "And, you know, I remember Walter Cronkite, right? Crying, tearing up, also his his rage around the Vietnam War. And then I worked with Scott Simon, you know, one of the premier journalists of NPR. And I saw how Scott was. Yeah, you would get physically close, touch people. He would touch people. He still does. I mean, appropriately, and I just said, wait a second, you know, I, I too can do this.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:48:45:19]"
+    },
+    {
+      "id": "context_57_156",
+      "index": 156,
+      "speaker": "Maria Hinojosa",
+      "words": "And also, I think in Latin America, the Mexican tradition of journalism, that's also something that you see. And so, I mean, in the case of suave EJ, it just won the Pulitzer. You know, I had people who I knew who were close to me, family members who had been behind bars. So people behind bars were not just a number or a horrible story was I had been to prisons in Latin America.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:49:16:17]"
+    },
+    {
+      "id": "context_57_157",
+      "index": 157,
+      "speaker": "Maria Hinojosa",
+      "words": "This was and I wanted to I wanted to humanize this. Now, you know, I mean, I've, I've been attempting to do this even when I was interviewing white supremacists in the early 1990s for NPR, and it was something that I would like, I think being the other in this country always, allowed me to want to understand the other.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:40:17]"
+    },
+    {
+      "id": "context_57_158",
+      "index": 158,
+      "speaker": "Maria Hinojosa",
+      "words": "And I'm not saying that you can do this at all times, but I am saying it is a tool that we have, and we have to learn how to use that tool appropriately, as opposed to being so removed where nothing touches us. Then then I think that's dangerous.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:07:15]"
+    },
+    {
+      "id": "context_57_159",
+      "index": 159,
+      "speaker": "Bill Manny",
+      "words": "So, we have a viewer who asked this question, as a semi-retired public radio producer and new podcaster who has worked on cultural humanities projects with the Idaho tribes for more than 30 years, how do you confront the insanity around what Idahoans and others are calling critical race theory? This person says it's simply institutional racism to me.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:50:28:07]"
+    },
+    {
+      "id": "context_57_160",
+      "index": 160,
+      "speaker": "Bill Manny",
+      "words": "But I mean, you both are having to confront race, you know, front and center in the work you do. So maybe you can talk about that as well as this kind of larger debate we're having over critical race theory. And, Mark, why don't we go with you first?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:51:06]"
+    },
+    {
+      "id": "context_57_161",
+      "index": 161,
+      "speaker": "Maria Hinojosa",
+      "words": "Okay.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:06:11]"
+    },
+    {
+      "id": "context_57_162",
+      "index": 162,
+      "speaker": "Bill Manny",
+      "words": "Just the easy way.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:07:24]"
+    },
+    {
+      "id": "context_57_163",
+      "index": 163,
+      "speaker": "Mark Trahant",
+      "words": "It's pretty hard to argue with a slogan. If you can start to break it down. And what do you mean by critical race theory? What specifically? And then start to look at the history. And I think so much of this is documented ability. You can show what happened when it happened, why it happened. And these forces that are out there that are really important to understand and put that in a I mean, it's interesting that in some of the states that are really hardest on what they consider critical race theory, are the states losing teachers the fastest?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:09:24]"
+    },
+    {
+      "id": "context_57_164",
+      "index": 164,
+      "speaker": "Mark Trahant",
+      "words": "And that ought to be a clue about states competitiveness, the states ability to be in the marketplace of ideas. Both of those are at risk because of a slogan.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:40:20]"
+    },
+    {
+      "id": "context_57_165",
+      "index": 165,
+      "speaker": "Bill Manny",
+      "words": "I do want to remind our viewers that, they can ask questions by punch in the Q and A button at the bottom of the zoom screen there. Maria, same question to you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:52:03]"
+    },
+    {
+      "id": "context_57_166",
+      "index": 166,
+      "speaker": "Maria Hinojosa",
+      "words": "So I, I remember being asked when I was a correspondent at NPR in the 1990s to do a mini documentary to understand what was considered the threat of multiculturalism. I remember that when everybody was like, oh my God, multiculturalism. Oh my God, it's going to destroy America. You know, they're taking over. They want to they want to talk about.",
+      "tags": [
+        "cinema",
+        "culture"
+      ],
+      "timestamp": "[00:52:05:12]"
+    },
+    {
+      "id": "context_57_167",
+      "index": 167,
+      "speaker": "Maria Hinojosa",
+      "words": "I just remember in an at NPR, I had to fight with editors because they thought that I had a boom in the business because I was Mexican. I was an immigrant. And how could I be objective? And just how many people's hair was on fire over something called multiculturalism, which is now is such an archaic term. It's like what?",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:52:34:06]"
+    },
+    {
+      "id": "context_57_168",
+      "index": 168,
+      "speaker": "Maria Hinojosa",
+      "words": "So you're right. A the question is, what are we talking about? To me, and Mark actually is our greatest teacher, right? Because our founding fathers and founding mothers of this land really are our first peoples, our indigenous people. They are our founding fathers and founding mothers. The fact that we can say something which is factual, right? If the original sin was slavery, the first sin was genocide.",
+      "tags": [
+        "education",
+        "indigenous",
+        "conflict"
+      ],
+      "timestamp": "[00:52:55:06]"
+    },
+    {
+      "id": "context_57_169",
+      "index": 169,
+      "speaker": "Maria Hinojosa",
+      "words": "That is, that is part of our our countries history, that the first laws to exclude people are not laws that that recognize people's half humanity, but laws that excluded people by law. We know this. It was the so-called page act to exclude Asian Chinese women first, and then the Chinese Exclusion Act. This is this is who we are, that that in the 1930s there was what the history books called the Great Repatriation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:32:05]"
+    },
+    {
+      "id": "context_57_170",
+      "index": 170,
+      "speaker": "Maria Hinojosa",
+      "words": "Getty. So it was when the great Massive deportation of Mexicans and American citizens of Mexican descent in the 1930s, or something that is called the Japanese internment. It's like, why do we even call it that? That's so inappropriate. They were not Japanese. They were American citizens of Japanese descent, and they were not interned. What is that? They were imprisoned, held a frankly, against their will.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:54:08:10]"
+    },
+    {
+      "id": "context_57_171",
+      "index": 171,
+      "speaker": "Maria Hinojosa",
+      "words": "And so the fact that people should be, upset that we want to speak these truths, a what does that say about who we are? Because again, it's I agree with Mark. It's hard to argue with the, you know, this term because it's like, what are you talking about? To me, it's like, can we just talk about the empirical reality of this country and understand that the history books that have been written have been written with a perspective and, yes, with calling themselves objective when they are not?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:41:23]"
+    },
+    {
+      "id": "context_57_172",
+      "index": 172,
+      "speaker": "Mark Trahant",
+      "words": "Right. I would just add one thing to that, and that it's really important to remember that the history in North America is at least 20,000 years, and to think about the last 250 as the defining moment is missing part of the point. One of the fun stories that I just love is when the pueblos invented the internet. And, if you go back a thousand years, the ancient pueblos in the southwest had these road systems that were precise and accurate, and they could communicate village to village.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:14:19]"
+    },
+    {
+      "id": "context_57_173",
+      "index": 173,
+      "speaker": "Mark Trahant",
+      "words": "And the way they did that was light on light off one common zero. So some of these techniques have been around forever. It's just that because we are so focused on a 250 year history, we miss the breadth of the experience.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:49:01]"
+    },
+    {
+      "id": "context_57_174",
+      "index": 174,
+      "speaker": "Bill Manny",
+      "words": "Maria, I know, you had mentioned, your reaction to this, the replacement theory that, has been out there now as, an issue. And I think you said you're not interested in replacing anybody. So talk about that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:04:09]"
+    },
+    {
+      "id": "context_57_175",
+      "index": 175,
+      "speaker": "Maria Hinojosa",
+      "words": "It makes me it makes me so sad. And I think it goes to the heart of our conversation around the media. Right. Samuel Huntington from Harvard wrote a book called, what is it called? Who are we? And he basically was saying, you know, these immigrants, these Mexican immigrants, they're coming, they want to take over and they want to make everybody speak Spanish.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:24:22]"
+    },
+    {
+      "id": "context_57_176",
+      "index": 176,
+      "speaker": "Maria Hinojosa",
+      "words": "They want to destroy American culture. And when I interviewed him, Samuel Huntington, and I asked him, Professor Huntington, how many immigrants do you know? And he was like, what it's like, well, how many do you hang out with? He was like, what? You know, I'm like, because I'm with immigrants every day. And I've never heard any immigrant ever say, we're coming here to replace you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:48:24]"
+    },
+    {
+      "id": "context_57_177",
+      "index": 177,
+      "speaker": "Maria Hinojosa",
+      "words": "We're coming here to take over. We're coming here to change you. And frankly, Samuel Huntington had to basically, I had to say. So you've never actually heard any immigrant ever say that? And he said, it's true. I haven't. So I like to say, no, we don't want to come to replace you. We want to hang out with you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:15:14]"
+    },
+    {
+      "id": "context_57_178",
+      "index": 178,
+      "speaker": "Maria Hinojosa",
+      "words": "We want to party with you. We want to break bread with you. We want to make love with you. We want to have families with you. We want to employ you. We want to work with you. We want to go to school with you, replace you guys so that just that thought doesn't enter into my mind. And and I like Mark.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:57:38:13]"
+    },
+    {
+      "id": "context_57_179",
+      "index": 179,
+      "speaker": "Maria Hinojosa",
+      "words": "When I got this invitation, I was like, oh my God, I get to go to know, I get to go back to Idaho. My God, one of my favorite states. Right. Because I, I've been to all I know, not all of them are my favorite, but Idaho is up there and, you know, Idaho's fastest growing demographic is Latino and Latina.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:58:11]"
+    },
+    {
+      "id": "context_57_180",
+      "index": 180,
+      "speaker": "Maria Hinojosa",
+      "words": "And the people of Idaho that I've met, you know, the ones who are just like, hey, what's up? Hey, how are you doing? You know, waving at everybody every morning like, you know, in Coeur d'Alene, just like, hey, how are you doing? Nice to see you. Good morning. Those are the people that need to understand that there's no replacement happening, that Idaho and the United States is big enough for all of us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:16:17]"
+    },
+    {
+      "id": "context_57_181",
+      "index": 181,
+      "speaker": "Maria Hinojosa",
+      "words": "And frankly, as Mark says, we've been here since the beginning to we've been here since the beginning. And one day I can't wait to be back in Idaho. What day?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:37:07]"
+    },
+    {
+      "id": "context_57_182",
+      "index": 182,
+      "speaker": "Bill Manny",
+      "words": "It was. Maybe we'll I'll do this in person next time we gather together. So. So what is happening with, our our media when, you have to create special mediums in order to cover these issues and not, you know, for lack of a better term, area minority communities, communities that are not served by traditional media. What does that tell us about the functioning and success of of of the media today, Mark?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:49:12]"
+    },
+    {
+      "id": "context_57_183",
+      "index": 183,
+      "speaker": "Mark Trahant",
+      "words": "Well, I mean, the media is in a tough shape and is partly its own doing. I think the laid out new hearts probably, saved some newspapers by partnering with Wall Street, but he's also seeing the demise of a lot of newspapers because of partnering with Wall Street and the demand for capital. When a families own newspapers, it was fine to have a 10 or 12% profit margin, and for a long time newspapers were 50, 60, 70% profit margins.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:24:09]"
+    },
+    {
+      "id": "context_57_184",
+      "index": 184,
+      "speaker": "Mark Trahant",
+      "words": "They got purchased by large capital funds that want that again. And it's just not going to happen. I think that's one of the stories that's true. Both of Futura media and ours is the rise of nonprofits and the reason the news as a nonprofit makes so much sense is because we can be about service. We're not interested in making money.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:56:19]"
+    },
+    {
+      "id": "context_57_185",
+      "index": 185,
+      "speaker": "Mark Trahant",
+      "words": "We're interested in serving people with really good journalism and giving that back to the community. When we raise more money, for example, that ICT, we just hire more people. I mean, it really is a circular thing rather than about, entities. I also think that, part of the problem is the media is a very conservative entity. And by that I mean, innovation kind of got lost.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:16:18]"
+    },
+    {
+      "id": "context_57_186",
+      "index": 186,
+      "speaker": "Mark Trahant",
+      "words": "If you look at William Randolph Hearst and when he was a publisher in San Francisco, he was a total innovator. He took wires, he took things. He wanted newspapers to have several editions a day. He was willing to experiment. And if it didn't work, he moved on to something else. Somewhere along the line, news organizations became very staid and didn't want to do any of that.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:44:12]"
+    },
+    {
+      "id": "context_57_187",
+      "index": 187,
+      "speaker": "Mark Trahant",
+      "words": "They wanted to keep doing it the way they've always done it. And the problem is, readership changes. People's tastes change. People want information differently. The internet should have been the greatest advantage ever. Instead, folks ran away from it and didn't know how to deal with it, rather than using it as a tool of innovation.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:06:03]"
+    },
+    {
+      "id": "context_57_188",
+      "index": 188,
+      "speaker": "Bill Manny",
+      "words": "Maria, we've talked a little around this, but is there is there something that happened that forced folks like you to have to create your own media in order to serve your readers? Well, you know, where did where did the traditional media fail?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:24:14]"
+    },
+    {
+      "id": "context_57_189",
+      "index": 189,
+      "speaker": "Maria Hinojosa",
+      "words": "Well, you know, I I've always said, you know, you're you my editor there is going to say that this is a Latino story. It's like, it's not a Latino story. It's an American story. And I think that's part of the failure is that there's this understanding that somehow, you know, if it didn't touch us, it didn't matter to us.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:42:12]"
+    },
+    {
+      "id": "context_57_190",
+      "index": 190,
+      "speaker": "Maria Hinojosa",
+      "words": "Then it wasn't, a story. And I think this is this is part of what's, you know, what's been wrong. Right? Is that when you don't have a representative media. You're you're having to. I mean, look, all journalists were incredibly competitive, right? And we're going to want to do the best stories possible, but to have to come into a newsroom and basically have to be fighting, fighting, to be taken seriously, I think is is exhausting.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:02:05:05]"
+    },
+    {
+      "id": "context_57_191",
+      "index": 191,
+      "speaker": "Maria Hinojosa",
+      "words": "And as Mark said, your readership is changing. I mean, to me, I think that people may have seen me as, you know, a bit of a nudge or she's always complaining, but actually, as Mark, you know, I would say Mark and I are just actually really savvy business people and media entrepreneurs because we were just looking at the, in terms of Latinos and Latinas, it is a demographic group that has been growing steadily since the 1980s.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:02:37:23]"
+    },
+    {
+      "id": "context_57_192",
+      "index": 192,
+      "speaker": "Maria Hinojosa",
+      "words": "So when I left CNN, right, I was telling them because I left essentially because they were like, well, between you and Lou Dobbs, we like Lou Dobbs. And I kept saying to them, you're choosing Lou Dobbs, but look at the demographics, right? That's not with the fact that Lou Dobbs is not going to be the future demographic that you want.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:03:07:16]"
+    },
+    {
+      "id": "context_57_193",
+      "index": 193,
+      "speaker": "Maria Hinojosa",
+      "words": "It's going to be this demographic. And if you look at CNN right now, you know, they're suffering. And I think in part it's because, like all cable news networks, by the way, they are not representative. They're not doing a good enough job. So ultimately you need to kind of again, read the room, see who is there, consuming media and specifically Latinos and Latinas who are so digitally connected.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:03:26:06]"
+    },
+    {
+      "id": "context_57_194",
+      "index": 194,
+      "speaker": "Maria Hinojosa",
+      "words": "The fact that you would let that audience go, it's a disservice to, to journalism. I mean, I, I call myself a democracy junkie. And if you think about the Latino Latina population growth and what, you know, half total, half of the total population growth in the last census came from Latinos and Latinos born here, not immigrants.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:03:50:20]"
+    },
+    {
+      "id": "context_57_195",
+      "index": 195,
+      "speaker": "Maria Hinojosa",
+      "words": "The medium age of Latinos and Latinas is about 11 now. They're the second largest voting cohort group. We don't vote as a bloc, but white folks, Latinos, African-Americans. So the future of democracy really is in the hands of Latinos and Latinas as voters. And yet you don't see them being talked about in any national mainstream kind of consistently as like, wow, this powerful group of voters.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:04:16:14]"
+    },
+    {
+      "id": "context_57_196",
+      "index": 196,
+      "speaker": "Maria Hinojosa",
+      "words": "Now we need to make sure that they understand that they're being talked about, that they're being talked to, that the issues that matter to them actually matter to us. And so, you know, my hair goes on fire because a I'm just thinking about democracy. And that I think with both Marc and I also it's the mission of journalism.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:04:47:01]"
+    },
+    {
+      "id": "context_57_197",
+      "index": 197,
+      "speaker": "Maria Hinojosa",
+      "words": "But also like we're we're deeply committed to democracy and to our role as journalists in, in, in pushing democracy. And I don't think that's an agenda necessarily.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:05:04:16]"
+    },
+    {
+      "id": "context_57_198",
+      "index": 198,
+      "speaker": "Bill Manny",
+      "words": "I've heard, but you, Maria, specifically talk about the view that Latinos are not monolithic. And I'm sure the same you would mark you would say the same about, you know, indigenous people. So how do you so how do you balance the my this group is not monolithic. And yet I have to serve them all. And let's start with you, Maria.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[01:05:18:12]"
+    },
+    {
+      "id": "context_57_199",
+      "index": 199,
+      "speaker": "Bill Manny",
+      "words": "You know, when we say Latinos are not monolithic, that's sort of a truism. But then you have to figure out how to serve, a diverse audience that is not necessarily going to be agree with you or your coverage.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:05:43:04]"
+    },
+    {
+      "id": "context_57_200",
+      "index": 200,
+      "speaker": "Maria Hinojosa",
+      "words": "Yeah. Look, I think as journalists, we're always going to be pushing for more. So, I'm deeply satisfied with the work that Latino USA has done over the last 30 years to capture the complexity of the Latino Latina population in the United States. But I think we have to do and I've told my team we have to do better in terms of understanding, the the rise of conservatism among Latinos and Latinos.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:05:57:04]"
+    },
+    {
+      "id": "context_57_201",
+      "index": 201,
+      "speaker": "Maria Hinojosa",
+      "words": "This is very real. And it has been something that we've been covering. But, you know, the evangelical church, the growth of the evangelical church, how how this happened, the receptiveness, of these communities, you know, the whole conversation around disinformation very specifically targeted at Latinos and Latinas in Spanish. So, to me, we we need to understand this complexity and report on it, on a daily because.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[01:06:29:14]"
+    },
+    {
+      "id": "context_57_202",
+      "index": 202,
+      "speaker": "Maria Hinojosa",
+      "words": "No, it's not a block at all. Right. But, am I surprised by the amount of support that Donald Trump got as a candidate or as a president from Latinos and Latinas? Not terribly surprised. And and here's the thing, that can grow that, that that is where the, the particularities of the Latino Latina voter. And we again, I'm asking my team that we have to do better.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:07:11:12]"
+    },
+    {
+      "id": "context_57_203",
+      "index": 203,
+      "speaker": "Maria Hinojosa",
+      "words": "I'll just give you an example. One thing that was surprising to me in the election of Donald Trump was, how Latinos and Latinos vote on the issue of, anti-abortion. It's a much larger part of the, electoral conversation than that. I think, we were prepared to have. So that's just an example.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:07:43:13]"
+    },
+    {
+      "id": "context_57_204",
+      "index": 204,
+      "speaker": "Bill Manny",
+      "words": "So it's recognizing the nuances and not stereotyping, which is something we should be doing as journalists anyway. And it seems that we kind of forget that when we start talking about, these communities. And we need to remember that. And I assume, Mark, how do you do you have the same experience as with with your readership, with your audience that, Maria just discussed?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:08:05:15]"
+    },
+    {
+      "id": "context_57_205",
+      "index": 205,
+      "speaker": "Mark Trahant",
+      "words": "Sure. I well, first of all, I treasure complexity. So I'm glad it keeps using that word because I think it's really important that, we have to be able to understand really complex issues and groups and how they see those. I'll just use an example. Climate change. On one hand, we have folks that want to continue with energy.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[01:08:30:15]"
+    },
+    {
+      "id": "context_57_206",
+      "index": 206,
+      "speaker": "Mark Trahant",
+      "words": "And, as it's been practiced for the last 40 years, and in some tribes in Wyoming, for example, the, the tribal members get per capita. So there's a real distinct reason for continuing with that. I talked to the chairman at Wyoming, Arapaho just the other day, and he said, but even they recognize that the numbers are dwindling and things are changing.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:08:50:03]"
+    },
+    {
+      "id": "context_57_207",
+      "index": 207,
+      "speaker": "Mark Trahant",
+      "words": "On the other hand, then you have groups who understand the complexities of how do you get to a next economy with the government, which is or with the planet, and that's a whole different set of people. And then there's people that want to leave energy in the ground right now. And all those three groups have very different outcomes and processes to get to those outcomes.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:09:11:12]"
+    },
+    {
+      "id": "context_57_208",
+      "index": 208,
+      "speaker": "Mark Trahant",
+      "words": "Yet each one has something to contribute to it. So being able to pull it apart and ask and find out and explore each of those themes, I think is really important.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:09:31:15]"
+    },
+    {
+      "id": "context_57_209",
+      "index": 209,
+      "speaker": "Bill Manny",
+      "words": "It's almost something as basic as, you know, respecting the intelligence of your audience and not assuming that that you know more or that they that they don't care or aren't interested. We did have you mentioned, Mark, that, your audience is younger and so I, we have a question about, you know, how do you guys view the different generations using your media and are you seeing a difference and how, you know, how do you think about, serving a younger, younger audience or attracting a younger audience, or when we start with you, Mark.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:09:42:19]"
+    },
+    {
+      "id": "context_57_210",
+      "index": 210,
+      "speaker": "Mark Trahant",
+      "words": "I think one, I mean, we always look at what's new in the world and one way that social media is changed the world forever is that a young person today is going to meet people from all over the world and have them be their friend forever. And in my day when I was young, I might meet somebody at a conference.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:10:15:20]"
+    },
+    {
+      "id": "context_57_211",
+      "index": 211,
+      "speaker": "Mark Trahant",
+      "words": "We might drop the letter once a year to. We might pick up the phone and talk to each other. But these two young people are connected forever, and that's a really dramatic shift. And it means borders matter less. People are traveling all over the world, digitally every day. I have as much interest from readers in Greenland as I do.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:10:35:16]"
+    },
+    {
+      "id": "context_57_212",
+      "index": 212,
+      "speaker": "Mark Trahant",
+      "words": "What's going on? In Oklahoma. And I think that really is extraordinary. And it's something that's new to this generation and exciting.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:10:57:15]"
+    },
+    {
+      "id": "context_57_213",
+      "index": 213,
+      "speaker": "Bill Manny",
+      "words": "Is it is it young people who are consuming you on mobile, or is it across the generations?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:11:06:00]"
+    },
+    {
+      "id": "context_57_214",
+      "index": 214,
+      "speaker": "Mark Trahant",
+      "words": "It's across the generation. Surprisingly, our demographics hold up pretty much across the board. We go from 30, 25 to 34 first, 34, to 54 a second, and then, it drops down to the younger group, and then finally the 55 plus starts to pick up, what's really interesting to me, and since I've been writing about economics, I'm the only one on the staff where more people read me on a desktop than they do on a mobile.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:11:11:13]"
+    },
+    {
+      "id": "context_57_215",
+      "index": 215,
+      "speaker": "Mark Trahant",
+      "words": "And I don't know if I'm in great trouble because of that.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:11:38:23]"
+    },
+    {
+      "id": "context_57_216",
+      "index": 216,
+      "speaker": "Bill Manny",
+      "words": "Maybe it's that gray hair, you know? Right. Newspapers chased young readers for for decades and, didn't have much success. And sounds like you've you've maybe, maybe, cracked that nut a little bit.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:11:42:11]"
+    },
+    {
+      "id": "context_57_217",
+      "index": 217,
+      "speaker": "Mark Trahant",
+      "words": "As as Maria. I mean, her demographics are very similar.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:11:56:21]"
+    },
+    {
+      "id": "context_57_218",
+      "index": 218,
+      "speaker": "Bill Manny",
+      "words": "So, Maria, talk about that.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:12:00:03]"
+    },
+    {
+      "id": "context_57_219",
+      "index": 219,
+      "speaker": "Maria Hinojosa",
+      "words": "You know, one of the things that I would say in terms of Latino USA, for example, is that we've it's a very organic. It's a very organic show. It has not stayed the same. It has not been static. And I was talking about this with my team because some people freak out about it. It's like, no, well, what is it?",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[01:12:04:21]"
+    },
+    {
+      "id": "context_57_220",
+      "index": 220,
+      "speaker": "Maria Hinojosa",
+      "words": "You know, and it's like, actually, it's okay that it has been changing because the population of Latinos and Latinos in the United States over the 30 years that we've been on the air has been changing. And so, I, I always encourage. Right. The whole idea of our newsroom is bring your full self into the newsroom, bring those ideas into the newsroom.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:12:31:06]"
+    },
+    {
+      "id": "context_57_221",
+      "index": 221,
+      "speaker": "Maria Hinojosa",
+      "words": "So I'm just going to hold up, for example, one of our recent, pieces that is not serious. I mean, it is serious, but it's like in the world of seriousness, our two fellows. So not even staff members, right? They're fellows because we like to have fellows who are with us for a while who get a salary, a and they can work with us.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[01:12:54:18]"
+    },
+    {
+      "id": "context_57_222",
+      "index": 222,
+      "speaker": "Maria Hinojosa",
+      "words": "And so our two distinguished fellows ended up doing an hour long documentary about what we call chisme, which is essentially gossip. But it was a look that was a little bit more culturally historical understanding what is the essence of cheese men do Latinos and Latinas. You? How do we use cheese, man? Eat such a beautiful piece. Lighthearted. We had an academic who has studied the history of cheese men and women in Latin America.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[01:13:15:03]"
+    },
+    {
+      "id": "context_57_223",
+      "index": 223,
+      "speaker": "Maria Hinojosa",
+      "words": "I mean, beautiful in this was done by young people who, the word cheese may set off something that they understood that they had a cultural relationship. And we were like, go for it. So how do we keep the audience young is because we're actually listening to our producers, who, when they come in and they have what some people might say, well, that's a totally crazy idea.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:13:42:22]"
+    },
+    {
+      "id": "context_57_224",
+      "index": 224,
+      "speaker": "Maria Hinojosa",
+      "words": "How are you going to do that? I mean, come on, cheese means not serious. We're a serious show. And actually, that's what ends up happening is, and I think the other thing is that you do, in fact, have to trust your younger journalists. I think part of the the way that the world of journalism has been perceived is that, you know, you have a senior person and you kind of have to prove yourself.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:14:06:10]"
+    },
+    {
+      "id": "context_57_225",
+      "index": 225,
+      "speaker": "Maria Hinojosa",
+      "words": "And I think for us it's like, yeah, of course we have, you know, senior people, senior editorial. But we again, we believe in you probably more than you believe in yourself. So come in with that idea because we're probably going to let you run with it. You know, one of our younger producers, years ago when we started to Rejigger Latino USA and led to our success, was like, let's do 24 hours in a bodega in a New York City bodega.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:14:28:03]"
+    },
+    {
+      "id": "context_57_226",
+      "index": 226,
+      "speaker": "Maria Hinojosa",
+      "words": "And it's like, are you kidding? It was a great, great show. So I think that that's the way we've remade remained viable. Is that allowing this staff to organic change and be representative as opposed to it has to be done like this and it must be done like this, and it has to be told like this. And instead recognizing that our community is dynamic and changing and we have to reflect that in our reporting.",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[01:14:53:21]"
+    },
+    {
+      "id": "context_57_227",
+      "index": 227,
+      "speaker": "Bill Manny",
+      "words": "So here's a, a complete right turn from, one of our viewers who ask, should the awards given to reporters on the now debunked Russiagate story be taken away from those reporters? So Mark.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:15:20:01]"
+    },
+    {
+      "id": "context_57_228",
+      "index": 228,
+      "speaker": "Mark Trahant",
+      "words": "I don't know how. I mean, certainly, I mean, you look at overtime going back and re judging contests and it's paying enough to judge it the first time. But you go back and look at, that and there's a lot of things that can be taken back. I think of H.L. Mencken, for example. And certainly it's where somebody doing but I don't know that many of us have the time to do it.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[01:15:37:17]"
+    },
+    {
+      "id": "context_57_229",
+      "index": 229,
+      "speaker": "Mark Trahant",
+      "words": "We should always be judging, though. I think it's the kind of thing where the next year's contest out of frame, it is part of the discussion and saying, what have we learned from this? And can we do it better?",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[01:16:03:03]"
+    },
+    {
+      "id": "context_57_230",
+      "index": 230,
+      "speaker": "Bill Manny",
+      "words": "I think maybe it's a lesson in not being stampeded, you know, by by, you know, pack journalism and the story of the day. And these things sometimes take like take on lives of their own and kind of create this momentum that gets out of control. So maybe the larger question is, you know, what did we what did the media learn from getting carried away, with a story like that?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:16:14:03]"
+    },
+    {
+      "id": "context_57_231",
+      "index": 231,
+      "speaker": "Bill Manny",
+      "words": "Maria.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:16:38:03]"
+    },
+    {
+      "id": "context_57_232",
+      "index": 232,
+      "speaker": "Maria Hinojosa",
+      "words": "So, I'm just I can tell you I'm a little bit late to the game, but I did end up recently watching, a series. Don't ask me what channel it's on called impeachment, and it's the Monica Lewinsky Bill Clinton story. And, you know, I was a jerk. I did not cover the scandal, of what happened. But I was preferably peripherally, a journalist at the time, just not in Washington, DC.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:16:39:23]"
+    },
+    {
+      "id": "context_57_233",
+      "index": 233,
+      "speaker": "Maria Hinojosa",
+      "words": "And if you look at the framing of that story and how Monica Lewinsky was framed, I, you know, I followed her on Twitter and it's like, I still haven't done a public apology, but it's like, I want to publicly apologize because talk about getting swept up and how do we understand why some people have a problem with the media?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:17:07:03]"
+    },
+    {
+      "id": "context_57_234",
+      "index": 234,
+      "speaker": "Maria Hinojosa",
+      "words": "A that's a that's a really perfect example. And the term misogyny, it's a it's a very weighty term, but in fact, if you have media that is run over whelming by men in their 50s, the analysis and interpretation of what happened with the Monica Lewinsky story and how people saw Monica and and throwing Monica Lewinsky under the bus makes perfect sense.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:17:26:07]"
+    },
+    {
+      "id": "context_57_235",
+      "index": 235,
+      "speaker": "Maria Hinojosa",
+      "words": "But that story would be told very differently today. And so that's why it's like, again, context and historical context.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:17:51:03]"
+    },
+    {
+      "id": "context_57_236",
+      "index": 236,
+      "speaker": "Bill Manny",
+      "words": "You know, I'm, I don't want to defend, white men in their 50s, Lord knows. But, you know, this obsession with Johnny Depp and Amber heard is not being driven by old white guys. I mean, the people I know who are obsessed with that are young and female and so.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:17:59:13]"
+    },
+    {
+      "id": "context_57_237",
+      "index": 237,
+      "speaker": "Maria Hinojosa",
+      "words": "And that and that and that particular like what what happened in that case is really fascinating. I think, it's a super important story and coverage, but at the same time, you're talking to a lot of I've spoken to quite a bit of quite a few young women. I think they don't feel any safer because of it.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:18:16:18]"
+    },
+    {
+      "id": "context_57_238",
+      "index": 238,
+      "speaker": "Maria Hinojosa",
+      "words": "Right.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:18:37:24]"
+    },
+    {
+      "id": "context_57_239",
+      "index": 239,
+      "speaker": "Bill Manny",
+      "words": "Yeah. Another question from a of a viewer. It's, you know, who gets to decide what is false information and why not just allow all information and let the public debate? And I suppose this person might be talking about, you know, canceling people on Twitter or requiring social media to, you know, to truth police. But, you know, this larger question of who gets to decide what is truth and what information gets to the public is a is a large question that we all wrestle with.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:18:40:05]"
+    },
+    {
+      "id": "context_57_240",
+      "index": 240,
+      "speaker": "Bill Manny",
+      "words": "Mark, do you want to take that first?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:19:11:02]"
+    },
+    {
+      "id": "context_57_241",
+      "index": 241,
+      "speaker": "Mark Trahant",
+      "words": "Sure. And it's been a question since Socrates. So the trial of Socrates, there is no good answer. I mean, all you can do as a media projector is to try to get the best possible version of the truth you have. I like breaking down journalism into a geometric formula, and that would be truth plus X equals news.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:19:12:19]"
+    },
+    {
+      "id": "context_57_242",
+      "index": 242,
+      "speaker": "Mark Trahant",
+      "words": "And you never know what X is going to be. Sometimes it could be a reporter having a bad day, sometimes it could be a failure to do your job. It could be, a missed phone call. And our job is to try to make that X as small as possible and to keep at it. As far as the public conveyors, I think that's a very different question.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:19:36:02]"
+    },
+    {
+      "id": "context_57_243",
+      "index": 243,
+      "speaker": "Mark Trahant",
+      "words": "Do we want to live in a society that allows real hate speech? And is it something that, we can somehow. Basically have a reaction to. And it's not as much of protection as it is common courtesy.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:19:58:10]"
+    },
+    {
+      "id": "context_57_244",
+      "index": 244,
+      "speaker": "Bill Manny",
+      "words": "Right? Right. Maria, who gets to, we've been joined by another member of the family I see.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:20:16:02]"
+    },
+    {
+      "id": "context_57_245",
+      "index": 245,
+      "speaker": "Maria Hinojosa",
+      "words": "This is Benito Juarez, named after the first indigenous president of Mexico. And he sometimes needs to be with his mom, so hopefully he'll be quiet. Yeah, I, I think you're right. It's been a conversation since Plato. The problem is, is that. And that's why I'm so thankful to be in this conversation with you, Bill and Mark, because we have to be having these dialogs.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[01:20:25:11]"
+    },
+    {
+      "id": "context_57_246",
+      "index": 246,
+      "speaker": "Maria Hinojosa",
+      "words": "We, in fact, have to be constantly questioning each other and asking ourselves to do better. You know, again, if we go back to what Donald Trump did when he launched his his campaign actually spreading lies, and why are we saying that? It's because, again, we have the data that we can look at. We have the numbers, we have.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:20:51:14]"
+    },
+    {
+      "id": "context_57_247",
+      "index": 247,
+      "speaker": "Maria Hinojosa",
+      "words": "So. If we're suddenly at a point where there's where no numbers are believed, we're in a very dangerous place. But my concern is that I feel like we we've it's not that the conversation is too late. It needs to happen, but I feel like I really wish that we would have been having these robust conversations about how do we get at the truth, how do you tell a story, if not objectively, but that you're attempting to understand all sides?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:21:26:01]"
+    },
+    {
+      "id": "context_57_248",
+      "index": 248,
+      "speaker": "Maria Hinojosa",
+      "words": "How do you not, damage our democracy and the reporting that you're doing? Look, when I was covering, violence in the Kenyan elections in the year 2007, when the media was. And this was after Rwanda, and Kenya is right next to Rwanda and and journalists media was accused of being part of the problem of sending people into their divisions.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:21:56:05]"
+    },
+    {
+      "id": "context_57_249",
+      "index": 249,
+      "speaker": "Maria Hinojosa",
+      "words": "And so journalists at a very senior level in in Kenya said, we have to learn how to practice peace journalism. And I said, what is that concept? And I was like, already, oh my God. If you come back to the United States and say you want to practice peace journalism, oh my God, what an agenda. But they said, we have to take responsibility, that what we are trying to do with whatever we put on the front page, the images that we are not inciting violence, right?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:22:23:07]"
+    },
+    {
+      "id": "context_57_250",
+      "index": 250,
+      "speaker": "Maria Hinojosa",
+      "words": "That we are thinking about taking care of the community and it's not about inciting violence. And I think it's a concept worth we're worth discussing. Because again, we have to evolve. And this notion that American media is 100% perfect, it's not we have to do better.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:22:53:12]"
+    },
+    {
+      "id": "context_57_251",
+      "index": 251,
+      "speaker": "Bill Manny",
+      "words": "Sort of where we started this conversation was, which is, you know, revictimized victims. And we need to remember to first do no harm. Right. Mark, you wanted to add something.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:23:13:15]"
+    },
+    {
+      "id": "context_57_252",
+      "index": 252,
+      "speaker": "Mark Trahant",
+      "words": "I was just going to add that around the turn of the 19th century, the Idaho Statesman ran editorials calling for a large feast to be held so they could give strychnine to every Indian in the state. So it wasn't that long ago that, the media was used particularly for the kinds of things we're trying to prevent. Now and again.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:23:23:19]"
+    },
+    {
+      "id": "context_57_253",
+      "index": 253,
+      "speaker": "Mark Trahant",
+      "words": "I think if we raise the standards for everybody, it's just better discourse. And that ought to be the goal.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:23:45:13]"
+    },
+    {
+      "id": "context_57_254",
+      "index": 254,
+      "speaker": "Bill Manny",
+      "words": "Well said. So we've reached the end of our our our conversation. I want to close by asking you if, when we talk about the future of, of our media, which is so important to, you know, our functioning democracy and, and polarization that is, plaguing our society, are you optimistic or are you pessimistic? And do you have something you want to advise viewers to learn or do, or something to make their experience, you know, consuming media smarter, better, healthier, less frustrating?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:23:54:06]"
+    },
+    {
+      "id": "context_57_255",
+      "index": 255,
+      "speaker": "Bill Manny",
+      "words": "And so why don't we start with you, Mark?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:24:30:17]"
+    },
+    {
+      "id": "context_57_256",
+      "index": 256,
+      "speaker": "Mark Trahant",
+      "words": "I am a serial optimist. And, I think the capacity for using media for good continues to amaze me. And I see it virtually every day. And, I guess to me, the one message that I would love people to know is particularly with college students, I want them to know that there's this great career ahead, and we're just beginning on a really amazing journey, and they should get excited about it and invest their future in it, because it's going to be a great ride.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[01:24:34:00]"
+    },
+    {
+      "id": "context_57_257",
+      "index": 257,
+      "speaker": "Bill Manny",
+      "words": "So your advice to people as young people is become a journalist and help be part of the solution.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:25:05:10]"
+    },
+    {
+      "id": "context_57_258",
+      "index": 258,
+      "speaker": "Mark Trahant",
+      "words": "That's really.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:25:11:22]"
+    },
+    {
+      "id": "context_57_259",
+      "index": 259,
+      "speaker": "Bill Manny",
+      "words": "Maria.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:25:13:22]"
+    },
+    {
+      "id": "context_57_260",
+      "index": 260,
+      "speaker": "Maria Hinojosa",
+      "words": "I wish I could say I'm a serial optimist. You know, it depends on the day. I mean, I'm optimistic for Futuro Media, right? Which I run, right? I'm very optimistic. And when I see the work of our journalists that care, for example, right now, you know, Latino USA is not a breaking news show.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:25:18:18]"
+    },
+    {
+      "id": "context_57_261",
+      "index": 261,
+      "speaker": "Maria Hinojosa",
+      "words": "And yet, because of Uvalde, we're, you know, changing things up, and we're doing a one hour documentary in a span of a week. And I'm watching The Producers and the kind of care and attention that they're giving and do no harm in our stories. In reporting. And I feel so invigorated by what they're doing. And they feel invigorated by watching me.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[01:25:41:13]"
+    },
+    {
+      "id": "context_57_262",
+      "index": 262,
+      "speaker": "Maria Hinojosa",
+      "words": "Yes. A seasoned journalist who's been through this a while and how I'm able to manage. So I feel like they're learning from me and I'm learning from them. And it's just like, and we're producing something that's going to be very profound. And this is what I feel incredibly optimistic. Or when Swaby wins a Pulitzer, I'm just like, this isn't this is incredible.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[01:26:02:10]"
+    },
+    {
+      "id": "context_57_263",
+      "index": 263,
+      "speaker": "Maria Hinojosa",
+      "words": "Or Jelani Cobb is named as the dean of the Columbia Journalism School. I mean, this is just like, wow. And then there are the days when I see with some of our colleagues, I mean, you know, I know Tucker Carlson. I mean, I'm not going to say I was a friend of Tucker Carlson's. We didn't hang up, but we worked at the same company I saw him.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[01:26:21:06]"
+    },
+    {
+      "id": "context_57_264",
+      "index": 264,
+      "speaker": "Maria Hinojosa",
+      "words": "What is this that he's doing? What is this horror when he knows my kids who are Latinos and speak Spanish, what are these threatened by them? So, you know, when I think of Fox as an entity, Fox News, I become incredibly depressed. So my message is get involved. I love what Mark says. Yes, become a journalist 100%. Do it.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:26:42:06]"
+    },
+    {
+      "id": "context_57_265",
+      "index": 265,
+      "speaker": "Maria Hinojosa",
+      "words": "If you feel it, do it. Don't doubt it. Is it easy? No, but nothing is easy. But for all of you who consume the media, you're part of this too. And we need you engaged at every moment. Whether it's supporting the work that Mark is doing or I'm doing, or your local public radio or local commercial radio or television, we need you there engaging, not just being in, bystander.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:27:07:10]"
+    },
+    {
+      "id": "context_57_266",
+      "index": 266,
+      "speaker": "Maria Hinojosa",
+      "words": "So after today, because it's Idaho, I'm feeling a little optimistic.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:27:34:05]"
+    },
+    {
+      "id": "context_57_267",
+      "index": 267,
+      "speaker": "Bill Manny",
+      "words": "Well, I want to thank you both for, for, the great conversation and, you know, the insights you've shared with us. I also want to thank, the IHC staff to put this together, so smoothly. And I want to thank the people who spent the time, with us. It's been a it's been a great conversation.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:27:41:13]"
+    },
+    {
+      "id": "context_57_268",
+      "index": 268,
+      "speaker": "Bill Manny",
+      "words": "June 14th, we're going to, talk to three Idaho editors about the future of media in Idaho and elsewhere. So please come back June 14th and join us for that conversation. And other than that, I think we're done. Thank you. Mark. Thank you for Maria and hope to see you in Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:27:59:14]"
+    },
+    {
+      "id": "context_57_269",
+      "index": 269,
+      "speaker": "Mark Trahant",
+      "words": "Sounds good.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:28:18:01]"
+    },
+    {
+      "id": "context_57_270",
+      "index": 270,
+      "speaker": "Maria Hinojosa",
+      "words": "Good night I can't wait. Bye.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:28:18:24]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 271,
+    "description": "Join IHC for a panel discussion with prominent journalists Maria Hinojosa and Mark Trahant. They discuss why we view media as so polarizing, and the role journalism plays in our democracy. This panel was moderated by Bill Manny of Idaho Public Television and the IHC Board of Directors, and introduced by Monique Michel of IHC’s Board of Directors and director of Ballet Folklorico Mexico Lindo . These panel discussions were made possible with funding from the Mellon Foundation and the Federation of State Humanities Councils.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

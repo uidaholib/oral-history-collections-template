@@ -1,0 +1,1919 @@
+{
+  "title": "S1E6 The Black Experience in Idaho",
+  "interviewee": "Terry Scraggins; Kam Diaz",
+  "interviewer": "Doug Exton",
+  "date": "2020-07-01",
+  "subjects": [
+    "african american",
+    "lgbtq+",
+    "gender expression",
+    "homosexuality",
+    "veterans",
+    "podcasts",
+    "nonprofit organizations"
+  ],
+  "segments": [
+    {
+      "id": "context_104_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_104_1",
+      "index": 1,
+      "speaker": "Doug Exton",
+      "words": "so welcome everyone that is attending to our connected conversation on the black experience in Idaho. Here with me, we have parents and cam. If you two just want to introduce yourself real quick.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_104_2",
+      "index": 2,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah. So, my name's Terry Scroggins. I'm from Boise, born and raised. I served in the Navy for about three and a half years. Just graduated from Boise State with my bachelor's in social work, and I'm working in child welfare. And I would just kind of say, I feel like I have a bleeding heart for social justice and social equity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:22:01]"
+    },
+    {
+      "id": "context_104_3",
+      "index": 3,
+      "speaker": "Terry Scraggins",
+      "words": "I've done a lot of advocating in work, advocating for LGBTQ plus youth, particularly foster youth and youth of color. So that's what little bit about me.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:45:21]"
+    },
+    {
+      "id": "context_104_4",
+      "index": 4,
+      "speaker": "Kam Diaz",
+      "words": "And my name is cam. I use they them pronouns and I lived in Boise for, oh, gosh, I think three years now. I have been going to Boise State University. But I'm from Indianapolis, so somewhere that's a lot more like diverse than Boise. And I moved here and it was like, oh my gosh. And finding community in Boise, especially like fellow LGBTQ and fellow black community, and navigating that is something that I'm really passionate about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:58:19]"
+    },
+    {
+      "id": "context_104_5",
+      "index": 5,
+      "speaker": "Kam Diaz",
+      "words": "Making sure that incoming, like, first year students and people who moved to Boise also have that same network. So I'm super excited to be here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:31:11]"
+    },
+    {
+      "id": "context_104_6",
+      "index": 6,
+      "speaker": "Doug Exton",
+      "words": "Awesome. You know, one thing I do just want to, talk about is if anyone has any questions throughout the presentation, just utilize the Q&A feature rather than the chat. That'd be greatly appreciated. I did receive a question before the started here, and we thought it would be a good opening. So when asked if either of you can help explain the difference between the term black and the term African-American.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:41:05]"
+    },
+    {
+      "id": "context_104_7",
+      "index": 7,
+      "speaker": "Terry Scraggins",
+      "words": "That's a good question. Can you guys okay, I think or do you need this? Like I can think of my feet.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:13:05]"
+    },
+    {
+      "id": "context_104_8",
+      "index": 8,
+      "speaker": "Kam Diaz",
+      "words": "I think the only thing that I can really think of is that like so it's like the analogy for a square. So like not all African or all African African Americans are black, but not all people that are black or African Americans. That's the only thing I can think of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:22:14]"
+    },
+    {
+      "id": "context_104_9",
+      "index": 9,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah. And I mean, I think that I can I think that I agree with that. Yeah, that I've like literally never had anyone asked that question ever before.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:45:08]"
+    },
+    {
+      "id": "context_104_10",
+      "index": 10,
+      "speaker": "Kam Diaz",
+      "words": "Yeah. Same.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:58:09]"
+    },
+    {
+      "id": "context_104_11",
+      "index": 11,
+      "speaker": "Terry Scraggins",
+      "words": "So I would say that, yeah, you did a great job of answering it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:59:17]"
+    },
+    {
+      "id": "context_104_12",
+      "index": 12,
+      "speaker": "Kam Diaz",
+      "words": "Yeah. I think also like.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:05:19]"
+    },
+    {
+      "id": "context_104_13",
+      "index": 13,
+      "speaker": "Doug Exton",
+      "words": "It looks like we might be having some technical difficulties at the moment while we wait for Kam to hop back on. Terrence, if you wanted to just talk about your own personal experience, in Idaho as part of the black experience.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:07:24]"
+    },
+    {
+      "id": "context_104_14",
+      "index": 14,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah. So. I was born and raised in Boise. Grew up here. And it's funny because a lot of people, I feel like that question comes up a lot. And I'm also super kind of, like, forthcoming in how I talk about my experience. But for the longest time growing up, like I was the only person of color.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:03:25:24]"
+    },
+    {
+      "id": "context_104_15",
+      "index": 15,
+      "speaker": "Terry Scraggins",
+      "words": "And so I have always for the longest time I thought that, like, I was maybe my thinking was skewed or I used to think that people would just, like, treat me differently. But I didn't know why. So like, it almost kind of made me feel like I was making things up. And then as I started doing research and getting more like educated, I guess, it helped me to kind of like, understand the disparities and like, social inequalities that people of color, of color experience.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:03:52:04]"
+    },
+    {
+      "id": "context_104_16",
+      "index": 16,
+      "speaker": "Terry Scraggins",
+      "words": "And so it actually wasn't until I got into the the social work program at Boise State that I started, like really understanding how serious it was, because I don't think that in Idaho. And, I mean, it may have changed a little bit since I was in elementary, junior high and high school. But, I think that it just isn't taught, like black history just isn't taught.",
+      "tags": [
+        "boise",
+        "education"
+      ],
+      "timestamp": "[00:04:28:20]"
+    },
+    {
+      "id": "context_104_17",
+      "index": 17,
+      "speaker": "Terry Scraggins",
+      "words": "And we have a tendency as the seat to kind of like skim over, the importance of slavery and the importance of, racial profiling and things of that nature kind of to make it seem like, oh, there's not a problem, but there is a problem. There just aren't enough black people in Idaho to, like, say something about it.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:04:53:17]"
+    },
+    {
+      "id": "context_104_18",
+      "index": 18,
+      "speaker": "Terry Scraggins",
+      "words": "Or if they are there. A lot of times I feel like they are stereotype of just being the loud black person. But it's just that the the capacity or the avenue, has it been out there to talk about it? Yeah. I don't yeah, I think that answers the question.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:20:07]"
+    },
+    {
+      "id": "context_104_19",
+      "index": 19,
+      "speaker": "Doug Exton",
+      "words": "That actually does feed into another question that I got before this presentation. And that is what role do you think that K-through-12 education on anti-racism plays in smaller communities, especially throughout rural Idaho, where the communities are, predominantly homogenous and white.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:41:16]"
+    },
+    {
+      "id": "context_104_20",
+      "index": 20,
+      "speaker": "Terry Scraggins",
+      "words": "Do you mean like the, like the lack of education or like, if anti-racism is, like, taught? I guess I don't understand the question.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:05:05]"
+    },
+    {
+      "id": "context_104_21",
+      "index": 21,
+      "speaker": "Doug Exton",
+      "words": "I would say more, the lack of education on anti-racism.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:17:16]"
+    },
+    {
+      "id": "context_104_22",
+      "index": 22,
+      "speaker": "Terry Scraggins",
+      "words": "Oh, I mean, I think that it's one. I think that it definitely plays into k-through-12 education. I mean, I from from my own personal experience as a person of color who grew up in Idaho, I myself struggled with my own racial identity and. Being told that I, like, wasn't acting black enough because I wasn't speaking in, like, stereotypical language or, being treated differently.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:24:21]"
+    },
+    {
+      "id": "context_104_23",
+      "index": 23,
+      "speaker": "Terry Scraggins",
+      "words": "Literally just because of the color of my skin. I think that by not having those. There's like education and like those measures in place to teach people and help them understand what's going on. And like the history of African-Americans is a huge a huge thing. Cam, what do you think?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:57:15]"
+    },
+    {
+      "id": "context_104_24",
+      "index": 24,
+      "speaker": "Kam Diaz",
+      "words": "Sorry I missed the first half of that question.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:19:02]"
+    },
+    {
+      "id": "context_104_25",
+      "index": 25,
+      "speaker": "Doug Exton",
+      "words": "So what role does K-through-12 education on anti-racism play in smaller communities, like the rural communities in Idaho, where the population is mostly homogenous and mostly white?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:22:08]"
+    },
+    {
+      "id": "context_104_26",
+      "index": 26,
+      "speaker": "Kam Diaz",
+      "words": "Oh, gosh, I think it's like like if students are are being taught that like. That like it's not appropriate to talk about race in school and then they go to any other place when they're older, like, and they're taught that, like, we're not supposed to talk about this, like we're like, we're not supposed to see color. Then it like it automatically subtracts them from like a really, really important conversation that needs to be had.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:07:37:11]"
+    },
+    {
+      "id": "context_104_27",
+      "index": 27,
+      "speaker": "Kam Diaz",
+      "words": "And like I so when I started at BSU, I was an education major and not anymore. Just because education is really hard. But like I took a diversity in the classroom, like a class about teaching diversity and like we would start talking about race and everyone in the class that wasn't a person of color would automatically like, try and divert the to like talking about gender or sexuality or, disability.",
+      "tags": [
+        "culture",
+        "education"
+      ],
+      "timestamp": "[00:08:06:11]"
+    },
+    {
+      "id": "context_104_28",
+      "index": 28,
+      "speaker": "Kam Diaz",
+      "words": "And I'm like, all of these things are important and you're going to have students that, have disability, are queer, are, transgender, but you're still going to have students that are black. And so having those conversations is like really, really young is super important. And when kids don't get that, I feel like they miss out so much because like, you're also missing out on the culture when you don't teach race because, like, like coming here, it felt like I couldn't share my culture at all.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:33:02]"
+    },
+    {
+      "id": "context_104_29",
+      "index": 29,
+      "speaker": "Kam Diaz",
+      "words": "And it was like, well, like, I like I want to be able to share all the things that I learned when I was growing up and I couldn't because like, the things that I learned and that I was taught had to do with race, and that was considered taboo, you know?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:05:08]"
+    },
+    {
+      "id": "context_104_30",
+      "index": 30,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah, yeah. And I think to kind of add to that as well, Kam, you kind of like speaking that and talking about that. I feel like I definitely like my own personal self. I feel like I missed a lot. I missed out on a lot of heritage and cultural background, especially being raised by primarily white people, that it was I didn't really associate myself as black, until I would say probably like 5 or 7 years ago, and even more so, like since then, just because I didn't have that knowledge and there wasn't really like, I didn't have, I wasn't compelled to learn more, just because it wasn't readily available.",
+      "tags": [
+        "history"
+      ],
+      "timestamp": "[00:09:19:16]"
+    },
+    {
+      "id": "context_104_31",
+      "index": 31,
+      "speaker": "Terry Scraggins",
+      "words": "Not that like we should definitely do our own research and stuff, but like, there really nothing was taught. So I completely I completely agree with that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:08:13]"
+    },
+    {
+      "id": "context_104_32",
+      "index": 32,
+      "speaker": "Kam Diaz",
+      "words": "And like, especially because I am very privileged in the fact that I'm from a place where there are a lot of people of color in there, a lot of black people, and I'm also mixed. But, my mom is Mexican, so I never really had to like, I didn't have whiteness to interact with and navigate. And I think that I have a lot of privilege in that because I like I don't know a lot about, like, how white folks grow up.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:18:23]"
+    },
+    {
+      "id": "context_104_33",
+      "index": 33,
+      "speaker": "Kam Diaz",
+      "words": "But I know about, like, the way that I grew up in the way my friends grew up and we were invited to celebrate or like all our culture and our heritage. And it wasn't something that was so like that was so taboo. And like, I recognize that I have so much privilege in that because I have friends that are here that we're like, that are from Idaho, were adopted by white folks that like, they never got the chance to experience blackness and navigate blackness with other black folks, especially because like if you're from rural Idaho, it's like, if you're black, you're probably the only one.",
+      "tags": [
+        "history"
+      ],
+      "timestamp": "[00:10:49:01]"
+    },
+    {
+      "id": "context_104_34",
+      "index": 34,
+      "speaker": "Kam Diaz",
+      "words": "Which sucks. But like, that's kind of Idaho's reality.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:25:16]"
+    },
+    {
+      "id": "context_104_35",
+      "index": 35,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah, absolutely.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:29:16]"
+    },
+    {
+      "id": "context_104_36",
+      "index": 36,
+      "speaker": "Doug Exton",
+      "words": "And, Kam, a quick question for you is do you mind talking about your own, black experience in Idaho, especially since yours will be different than Terence's, especially as an outsider to Idaho moving here?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:32:04]"
+    },
+    {
+      "id": "context_104_37",
+      "index": 37,
+      "speaker": "Kam Diaz",
+      "words": "Yeah. So me and my friends that are not from here, we love to say that Boise State got us. They definitely tricked us with their marketing because they, like, you see, like black people in their marketing. Like, I'm going to go to Boise State. And that's what I did. And I was like, well, oh, like, especially like I started living with white people when I was in the dorm.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:11:45:20]"
+    },
+    {
+      "id": "context_104_38",
+      "index": 38,
+      "speaker": "Kam Diaz",
+      "words": "And I was like, y'all don't even like they didn't wash their chicken before. They, like, cooked it and like it was little things that like that, that I grew up doing and it it was such a culture shock coming here and like pretty much having to like code switch, even when I'm in my own living space and like, it's so funny because I'll, like, get on the phone with my friends from back home and it's like a complete 180 switch.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:08:09]"
+    },
+    {
+      "id": "context_104_39",
+      "index": 39,
+      "speaker": "Kam Diaz",
+      "words": "Like I'm like, it doesn't even feel like I'm the same person. And my friends will be like, are you talking like that? I'm like, oh, like.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:36:02]"
+    },
+    {
+      "id": "context_104_40",
+      "index": 40,
+      "speaker": "Doug Exton",
+      "words": "Like.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:44:19]"
+    },
+    {
+      "id": "context_104_41",
+      "index": 41,
+      "speaker": "Kam Diaz",
+      "words": "And it I think that it's been difficult, but like the support systems that I do have, like have absolutely changed my life. Like, I was a sad, alone freshman living in the dorms, staying in my dorm, like all the time. And finally, so I was in trio and my mentor was like, well, why don't you come to this event with me?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:45:24]"
+    },
+    {
+      "id": "context_104_42",
+      "index": 42,
+      "speaker": "Kam Diaz",
+      "words": "And it was Taco Tuesday at Boise State's campus. And I went and I was like, wait a minute, look at all these people of color. Where like, where have they been hiding? Like, and, so I was sitting down, I was like, so scared to even, like, open my mouth. And, at the end, someone came up to me and her name was Sierra, and she was the president of, what is now the Black Student Association.",
+      "tags": [
+        "boise",
+        "education"
+      ],
+      "timestamp": "[00:13:08:09]"
+    },
+    {
+      "id": "context_104_43",
+      "index": 43,
+      "speaker": "Kam Diaz",
+      "words": "And, like, she just, like, started having the conversation, and she was like, you had to come. And it was like, oh, my gosh. Like, there there are more people like me. There are more people who like, also like, there's nothing wrong with having white friends, but like having black friends that you can relate to on a cultural, spiritual like emotional level that something that, like a white person just can never understand was it was like bliss.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:33:23]"
+    },
+    {
+      "id": "context_104_44",
+      "index": 44,
+      "speaker": "Kam Diaz",
+      "words": "And it's gotten a lot better. But also like, especially now, like Idaho is like it's not always going to be the safest place. And even now, there's supposed to be a protest tonight and there are people talking about going in like Nazi gear to counter protests. And it's like, at those times I don't feel safe being black in Idaho, but I think that I have the support system that, like, is always going to back me up.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:01:01]"
+    },
+    {
+      "id": "context_104_45",
+      "index": 45,
+      "speaker": "Kam Diaz",
+      "words": "If I do want to go to those things, you know.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:30:02]"
+    },
+    {
+      "id": "context_104_46",
+      "index": 46,
+      "speaker": "Doug Exton",
+      "words": "No. And that's really good that you do have that support system in, support systems like that do exist in Idaho. Would either of you say that events like pride, help representation in Idaho or Boise?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:34:23]"
+    },
+    {
+      "id": "context_104_47",
+      "index": 47,
+      "speaker": "Kam Diaz",
+      "words": "Do you mean like black representation or queer representation?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:53:22]"
+    },
+    {
+      "id": "context_104_48",
+      "index": 48,
+      "speaker": "Doug Exton",
+      "words": "People actually.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:58:09]"
+    },
+    {
+      "id": "context_104_49",
+      "index": 49,
+      "speaker": "Kam Diaz",
+      "words": "I, I think that not really, because when you go to pride, it's like it's kind of just as white as everything else, but also, like, I have a lot of homes with the pride that we know it today because, like the like, oh, what's the word I'm looking for? Like the, the highlight on like, fetish community is that there makes it a very unsafe environment for young queer people and, asexual queer people who are like sex repulsed.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:05:10]"
+    },
+    {
+      "id": "context_104_50",
+      "index": 50,
+      "speaker": "Kam Diaz",
+      "words": "So I have my own, like I have my own home pride. But also I think that like the community aspect could be really positive if it weren't so much a party and like community gathering, you know? But also, I love a good party now and then. But like, I think doing that grassroots work that pride was intended to be and what like, like our queer role models intended it to be is something that like I'd want also be focused on like during Pride month.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:15:36:06]"
+    },
+    {
+      "id": "context_104_51",
+      "index": 51,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah, I would agree. In that sense of like. No matter where you go in Idaho, like, there's not going to be a lot of people of color. Okay? So like in the sense of is it representing people of color, like queer people of color, I would say yes, a little bit. I don't think that it's it's necessarily meant for that, even though if you look at like historically the LGBTQ plus community and the trans, individuals that have been killed in like kind of how everything started, I would say it's a good place for like just the community.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:11:22]"
+    },
+    {
+      "id": "context_104_52",
+      "index": 52,
+      "speaker": "Terry Scraggins",
+      "words": "But I agree with Kam in that it doesn't really it really is focused on like the party aspect and maybe not so much the importance of the event itself.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:58:05]"
+    },
+    {
+      "id": "context_104_53",
+      "index": 53,
+      "speaker": "Doug Exton",
+      "words": "Either. Have you experienced any racial profiling in Idaho?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:14:04]"
+    },
+    {
+      "id": "context_104_54",
+      "index": 54,
+      "speaker": "Kam Diaz",
+      "words": "Always the oh, the time I get fall, I, I could tell every time I go into target, I don't know what the guy's name is because I don't want to look at his name tag because I will find him on Facebook. But I every time I go to target, I see him and I'm like, well, can't like might as well, I can't put my hands in my pockets.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:19:20]"
+    },
+    {
+      "id": "context_104_55",
+      "index": 55,
+      "speaker": "Kam Diaz",
+      "words": "I like if I have a cart, my hands can't be like in the car. I can't take my person to target. It's like, but it's so weird because I'm used to it, you know, like the fact that I can. I know his face, and I, like, look for him. I'm like, where is he hiding this time? Like, because I've never stolen from target.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:41:05]"
+    },
+    {
+      "id": "context_104_56",
+      "index": 56,
+      "speaker": "Kam Diaz",
+      "words": "I don't think I'm the only thing I've ever stolen in my life. Was $0.25 from my grandma. And like, so, like to know that, like, they're, they're, it's kind of like when I'm in it, they even do it when I'm with my white friends and I'm like, whoa, a twist. Like. And it's so funny because, like, I'll go and my white friends don't notice it, but I do because I'm like, I know what you look like, bro, I see you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:00:12]"
+    },
+    {
+      "id": "context_104_57",
+      "index": 57,
+      "speaker": "Kam Diaz",
+      "words": "Oh, it's every time I'm here I see you so absolutely.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:25:21]"
+    },
+    {
+      "id": "context_104_58",
+      "index": 58,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah, it it's like we're answering the same questions, cam. Like the exact same way because same. I totally I've definitely been racially profiled in stores where I've been followed around, but, like, people don't think that I realize that they're following me around. But, like, you can tell when you're like, oh, I just saw you. And then I have been pulled over a couple of times where I wasn't speeding because I kind of drive just barely above the speed limit.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:31:07]"
+    },
+    {
+      "id": "context_104_59",
+      "index": 59,
+      "speaker": "Terry Scraggins",
+      "words": "But it's also, I mean, it's also an interesting thing. I was chatting with someone about kind of like racial profiling and like the experience of a person of color and just how they think and you don't even like in the current climate that we're in as a country, with all of the things going on with, Black Lives Matter and things like that, I mean, just socially and like racial equality.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:19:00:12]"
+    },
+    {
+      "id": "context_104_60",
+      "index": 60,
+      "speaker": "Terry Scraggins",
+      "words": "I was telling someone we were having a discussion. I was telling them, like, it's really hard in Idaho, specifically, but just in general, but very much in Idaho to not see just, like a stereotypical, like, white person. And then you say that, like, very loosely, and not think that they have some sort of, like, preconceived notions about you being black.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:27:18]"
+    },
+    {
+      "id": "context_104_61",
+      "index": 61,
+      "speaker": "Terry Scraggins",
+      "words": "And when I said that and she herself is, a white person, and she was saying to me like, you know, what's crazy about that is you shouldn't have to have that double consciousness. She's like, I don't have to think about that. I don't have to, like, check my thinking and, like, making a stereotype about them. And so I super random like, rabbit hole thing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:53:06]"
+    },
+    {
+      "id": "context_104_62",
+      "index": 62,
+      "speaker": "Terry Scraggins",
+      "words": "But I just wanted to share because I'm sitting here kind of like thinking about how when I see someone on the street, I assume maybe sometime assume that they have like certain thoughts or, thoughts about the African-American or black or just POC community. But then I have to, like, check myself. And I don't think or I know, at least based off of her experience, that she's like, I had never even have to think about that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:17:08]"
+    },
+    {
+      "id": "context_104_63",
+      "index": 63,
+      "speaker": "Terry Scraggins",
+      "words": "But yeah, definitely been racially profiled. But I'll get back to like the topic on topic, but yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:47:15]"
+    },
+    {
+      "id": "context_104_64",
+      "index": 64,
+      "speaker": "Doug Exton",
+      "words": "I have a question for cam. Have you ever tried to point out the person at target to your white friends?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:54:18]"
+    },
+    {
+      "id": "context_104_65",
+      "index": 65,
+      "speaker": "Kam Diaz",
+      "words": "Oh, all the time. This is every time I'm like, if I'm met with a different white person at target, like if I see him, I'm like, oh, hey, he follows me around. Every time that I'm here, I'm they're like, oh, no. Like, you're probably just being dramatic and like. And then they like, I'm like, there he is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:02:06]"
+    },
+    {
+      "id": "context_104_66",
+      "index": 66,
+      "speaker": "Kam Diaz",
+      "words": "Like, I'll point them out and they're like, wait, does he do this every time you're here? I'm like, yes. Like, I can't even imagine what he does around someone that's darker than me. Like. And it's like, I always try and, like point things out, especially like, because I, I know you probably feel this like when you're just anywhere and there's the white person that's like, is that really a black person in Idaho?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:18:06]"
+    },
+    {
+      "id": "context_104_67",
+      "index": 67,
+      "speaker": "Kam Diaz",
+      "words": "Like just just looking and you're like, I'm here. I'm real. Like like I point out things like that to the dude. I'm like.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:42:20]"
+    },
+    {
+      "id": "context_104_68",
+      "index": 68,
+      "speaker": "Terry Scraggins",
+      "words": "Especially in the more rural part because like, I though, like, I went up to Coeur d'Alene. Oh my gosh, that was so.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:52:14]"
+    },
+    {
+      "id": "context_104_69",
+      "index": 69,
+      "speaker": "Kam Diaz",
+      "words": "Yeah, I see, I like, I go to like my I have family in Ontario and I'll go like see them and I like stop somewhere in Ontario. And people like there are a lot more people of color in Ontario, but there are not that many like black folks. And so I'll go to like the gas station and people like, turn their heads because Ontario is also a really small town.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:01:23]"
+    },
+    {
+      "id": "context_104_70",
+      "index": 70,
+      "speaker": "Kam Diaz",
+      "words": "So like you're used to seeing the same people and it's like a different person and they're black. What is going on? You know?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:25:11]"
+    },
+    {
+      "id": "context_104_71",
+      "index": 71,
+      "speaker": "Doug Exton",
+      "words": "Terence, how did your experience in the military expand your knowledge of, black issues after coming from Idaho?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:36:04]"
+    },
+    {
+      "id": "context_104_72",
+      "index": 72,
+      "speaker": "Terry Scraggins",
+      "words": "I can say that I, I realized that there were a lot more black people, I can also say that I, I think at least based on, like, what I experience and like, how I saw other people, kind of, like, function in the military, that racism is just as rampant in the military as it is in general society.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:22:48:17]"
+    },
+    {
+      "id": "context_104_73",
+      "index": 73,
+      "speaker": "Terry Scraggins",
+      "words": "I saw a lot of people do of color doing a lot of work and not get recognized for it. And I'm not even just talking about like, black or African American people. But I mean, it also, I think that it also helped me to understand, like, there were a lot of people of color that I met, and I had relationships that I wouldn't have had otherwise.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:16:08]"
+    },
+    {
+      "id": "context_104_74",
+      "index": 74,
+      "speaker": "Terry Scraggins",
+      "words": "And so I, I'm thankful for that. But I would say that just based off my own personal experience serving the Navy, there's the same the same problems that we have as a country. We are just as intense, if not maybe more compounded, in the military based off of my own experience. But, yeah, I tend to look on the positive side.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:23:44:19]"
+    },
+    {
+      "id": "context_104_75",
+      "index": 75,
+      "speaker": "Terry Scraggins",
+      "words": "So I think overall I had a good experience, but I definitely experience like, my own personal, kind of like biases be like toward people and their biases towards me, serving. Even though I felt like I constantly worked the hardest that I possibly could have, but didn't get a whole lot of recognition. Not that I'm looking for that, but yeah, so it's about the same,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:10:16]"
+    },
+    {
+      "id": "context_104_76",
+      "index": 76,
+      "speaker": "Doug Exton",
+      "words": "Kam, did, was there anything that the locals of Boise, did to make you feel welcome when you actually moved to Boise after realizing that what Boise as a city is not as diverse as you initially thought?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:39:06]"
+    },
+    {
+      "id": "context_104_77",
+      "index": 77,
+      "speaker": "Kam Diaz",
+      "words": "I don't think Boise as a whole did, and I don't really think that Boise State did. I think that it was those communities who have had those same experiences and like, want to help people have the best time possible, have the most successful career at Boise State that did like, I saw like when we started one of my mentors from trio on a it's like in the in this meeting, but like if it weren't for her, I would not have gone out of my shell as much as I did.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:24:57:15]"
+    },
+    {
+      "id": "context_104_78",
+      "index": 78,
+      "speaker": "Kam Diaz",
+      "words": "And as, like a fellow Latina person, she, like, did the work for me to be involved in so many things and so did my other mentor, Adriana. Like they did that work so that I like because after my first semester, I was like, I can't do this anymore. Like I have to get out of here. And my mom was like, listen, we at least have to do a full year.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:30:12]"
+    },
+    {
+      "id": "context_104_79",
+      "index": 79,
+      "speaker": "Kam Diaz",
+      "words": "And I was like, okay. And when I came back, like, they were such a big support system. But I don't think that like, Boise as a whole has been because they're like, Boise has so much learning to do. From what, even from when I've been here, there has been growth, but like Boise State has been like been on track to become, a Latina serving institution.",
+      "tags": [
+        "boise",
+        "education"
+      ],
+      "timestamp": "[00:25:50:13]"
+    },
+    {
+      "id": "context_104_80",
+      "index": 80,
+      "speaker": "Kam Diaz",
+      "words": "And I don't think that Boise State does enough for their students. And does enough for especially for their, like, students that speak for only Spanish to actually have that title, because you can have the numbers, but are you actually providing the resources that are needed for those students? And like, wholeheartedly, I can't say that Boise State does. They've done a lot of work, but I don't think that they're there yet.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:26:14:13]"
+    },
+    {
+      "id": "context_104_81",
+      "index": 81,
+      "speaker": "Doug Exton",
+      "words": "Speaking of resources, what do both of you think could help in Idaho to further diversity education? And then also kind of a two part question what explore your experiences with teachers throughout your K through 12 education. I know Cancri will be different. Were you adequately supported by your teachers and counselors with diversity?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:42:21]"
+    },
+    {
+      "id": "context_104_82",
+      "index": 82,
+      "speaker": "Terry Scraggins",
+      "words": "So in terms of I totally missed like the very last part of the question, but I got the first part. So you can just let me know, in terms of like K through 12 and my experience. I definitely felt like I was treated differently when I was younger, like kindergarten, first grade, just based on, like the way that I was reprimanded or like, disciplined in comparison to, like, my peers.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:27:19:01]"
+    },
+    {
+      "id": "context_104_83",
+      "index": 83,
+      "speaker": "Terry Scraggins",
+      "words": "I also have my own I have lots of intersectionality. If I had, like, my own stuff going on with my family and stuff too.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:55:15]"
+    },
+    {
+      "id": "context_104_84",
+      "index": 84,
+      "speaker": "Terry Scraggins",
+      "words": "But overall, I think that I had a pretty good experience. I did have one experience in sixth grade, where I could never, like, put it out openly, but I definitely felt like I was discriminated against. And I had a teacher that actually threatened to, like, fail me, based off of, like, handwriting. And I'm like, I feel like that sucks.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:28:05:10]"
+    },
+    {
+      "id": "context_104_85",
+      "index": 85,
+      "speaker": "Terry Scraggins",
+      "words": "Like, I don't know, I forget what the other question was in terms,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:29:05]"
+    },
+    {
+      "id": "context_104_86",
+      "index": 86,
+      "speaker": "Doug Exton",
+      "words": "Oh, how to further diversity education and do you have any recommendations or.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:36:21]"
+    },
+    {
+      "id": "context_104_87",
+      "index": 87,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah. So it's like I think they to a diverse education, like some of the best things that we could do as a community is. If they're willing kind of like recruit or more people of color. I know there's not a lot Idaho, but as people of color, like more people of color, if they're interested in, like, their own, experiences and like being stakeholders.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:43:08]"
+    },
+    {
+      "id": "context_104_88",
+      "index": 88,
+      "speaker": "Terry Scraggins",
+      "words": "And also, I think that we just need to amp up the education, honestly, for just teachers and just people in general, I, I really don't think that a lot. I truly, from the bottom of my heart, don't think that a lot of people are inherently racism, inherently racist. There are a few, there are some people, but I truly think that it's it's what a lot of people think, the way that they think and their processes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:12:21]"
+    },
+    {
+      "id": "context_104_89",
+      "index": 89,
+      "speaker": "Terry Scraggins",
+      "words": "I think. They have a like they're thinking a certain way for a reason. And so I think if we can educate and like provide more resources as to like a historical background, that we could move mountains. But I don't think that there's the support. I don't think that there's the funding. Not to mention to you is to get paid enough as it is, like in this current day and age.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:29:39:13]"
+    },
+    {
+      "id": "context_104_90",
+      "index": 90,
+      "speaker": "Terry Scraggins",
+      "words": "And we just are facing another huge budget cut. So I guess I don't really have a legitimate answer, but those would be like dream answers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:05:21]"
+    },
+    {
+      "id": "context_104_91",
+      "index": 91,
+      "speaker": "Kam Diaz",
+      "words": "Yeah. And I think mine was like super different because like one of the first teachers that I had was a black woman in like, she like I was always a big goody goody two shoes because I was terrified of, like, because teachers can punish me all they want, but nothing is more scary than, like, disappointing my mom and not even like, it's not like, oh, like I'm going to have, like, physical repercussions, but like, just knowing that my mom's going to be disappointed is like all but like my first like, my first teachers were black and they like, they had gone like, they know what it's like to be black and like, going into, like,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:17:21]"
+    },
+    {
+      "id": "context_104_92",
+      "index": 92,
+      "speaker": "Kam Diaz",
+      "words": "elementary school. I didn't really have the like a lot of the teachers at my school were black as well. Except like, I distinctly remember one of the teachers that I had, like, I think that she just needed, like a break because she would just, like, scream at all the black kids and like, it was like it was scary and it was hard to, like, deal with, but, like, then going in, like the next year, the teacher I had, he was the first male teacher I had, but not the first black teacher I had.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:31:06:18]"
+    },
+    {
+      "id": "context_104_93",
+      "index": 93,
+      "speaker": "Kam Diaz",
+      "words": "And I remember, like, telling my mom was like, he's going to be me. And like, I'm going to have a boy teacher and I don't want it. And this is fourth grade and I heard from him the other day like he was probably one of the biggest positive impacts in my life, like education wise. And just like seeing how much he cared about students like and how much effort that he put in, that's one of the reasons I wanted to be an educator.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:31:40:21]"
+    },
+    {
+      "id": "context_104_94",
+      "index": 94,
+      "speaker": "Kam Diaz",
+      "words": "And like even going in high school, like we so my high school had four different principals, and two of the four principals that we had were black. And that like, there were always black folks in leadership, black teachers that I had, that were supportive and like my, I can't remember her name for the life of me, but my counselor in middle school is one of the reasons that, like me and my mom have such like a healthy relationship, talking about like, depression and anxiety and all those positive influences that I had, like, made me so confident in myself, in my blackness that when I came to Boise State, I was like, I",
+      "tags": [
+        "education",
+        "boise"
+      ],
+      "timestamp": "[00:32:08:18]"
+    },
+    {
+      "id": "context_104_95",
+      "index": 95,
+      "speaker": "Kam Diaz",
+      "words": "can do this. Like like nothing is going to diminish my blackness because at the end of the day, people are going to look at me and say, that person is black, and that's never going to change. And I don't want that to change, because I love who I am. I love that I have been given the opportunities that I have, but at the same time, like, like my experiences from terror are going to be completely different because like where I'm from is predominantly people of color and also like I like, I can't even imagine what it's like doing school here because I like, did service learning and K in like K through 12.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:32:50:22]"
+    },
+    {
+      "id": "context_104_96",
+      "index": 96,
+      "speaker": "Kam Diaz",
+      "words": "And it was like it was terrifying. I was like, oh my gosh, I gotta get out of here. Like it's it's scary to be in such a different place that has so much less funding than what I grew up with. Like seeing the difference and seeing like how like how students are treated like it. As much as I want to like, be in that system to make a difference, like I like, I guess so, so, so much credit to educators and counselors and social workers because it's such hard work to be a child support system.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:31:14]"
+    },
+    {
+      "id": "context_104_97",
+      "index": 97,
+      "speaker": "Kam Diaz",
+      "words": "And then like you have to send send them home. You don't know what happens. Like, I can't even begin to imagine how difficult that is. And like, especially like going back and talking to the teachers that I have and like knowing like the impact that they have on me, but also like hearing the impact that I had on them is like like I didn't realize that even when I was little, I had this much power, you know?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:05:15]"
+    },
+    {
+      "id": "context_104_98",
+      "index": 98,
+      "speaker": "Kam Diaz",
+      "words": "And I wish that it's something that, like, every kid learns that you can have so, so much power and ability to to change the world. And I know that sounds like cliche and corny, but like every kid does, and they just need to be steered in that right direction to know that they that they can do so much and like it starts when you're in school and when you're like in those formative years of getting love and support and education, like how much can change, like the way you grew up.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:34:31:15]"
+    },
+    {
+      "id": "context_104_99",
+      "index": 99,
+      "speaker": "Kam Diaz",
+      "words": "And, you know, I kind of just went on a tangent, but education is something that I'm like, really, really passionate about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:01:04]"
+    },
+    {
+      "id": "context_104_100",
+      "index": 100,
+      "speaker": "Terry Scraggins",
+      "words": "You still stayed on topic. You didn't grow up. You during my time.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:07:15]"
+    },
+    {
+      "id": "context_104_101",
+      "index": 101,
+      "speaker": "Doug Exton",
+      "words": "That's really I think that does ring true for a lot of people. You just said can, do either of you have any examples of a white person or someone who is like identifying and attempting to be an ally, doing more harm than good?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:15:04]"
+    },
+    {
+      "id": "context_104_102",
+      "index": 102,
+      "speaker": "Kam Diaz",
+      "words": "So actually, recently there was someone that was involved in, like the Black Lives Matter protests and like they were like, I don't want to say any names because it like, I don't want to, like, get anybody in trouble because I had a conversation with this person. But like, they were trying to measure the way that people of color show up for Black Lives Matter events and like for me, I like it's very hard for me to look at as someone who is black and queer and like, I have a black family and a black nephew knowing that, like, I don't want to watch one of those videos one day and it be like someone",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:38:18]"
+    },
+    {
+      "id": "context_104_103",
+      "index": 103,
+      "speaker": "Kam Diaz",
+      "words": "that I care about and just knowing that, like every time you see one of those videos that someone that someone cares about in, like they were sharing videos of like black people being killed by police and like black people being beat up by police and like talking about the way that people of color, show up for these events, not realizing the harm and the safety levels.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:21:15]"
+    },
+    {
+      "id": "context_104_104",
+      "index": 104,
+      "speaker": "Kam Diaz",
+      "words": "Like in Boise, it's not as safe to come to these events as much as like people want to, but like, people are getting arrested for walking down the street. And it's not just black people. And so, like trying to police the way that black folks can show up right now, what? And the capacity that black folks have, like, it's really a person to person basis because I know black folks that are like, yeah, let's do this.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:36:42:10]"
+    },
+    {
+      "id": "context_104_105",
+      "index": 105,
+      "speaker": "Kam Diaz",
+      "words": "Like let's burn stuff down. And I'm like, I like, I don't have the emotional energy for this. And it's like, And Terry might be like, yeah, let's go. Or Terry might be like, maybe sometimes, but it's not. It really just depends because on top of like all this stuff happening, we still have to deal with like microaggressions on a daily basis, like still trying to navigate black identity because it's something that is forever evolving and like continually having to like, think about how you're going to show up and how you're going to support your community, but also like taking care of yourself, because that's not something that black people are taught to do, like self-care",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:09:02]"
+    },
+    {
+      "id": "context_104_106",
+      "index": 106,
+      "speaker": "Kam Diaz",
+      "words": "is such, such, such a big part of activism that gets overlooked because like, we like you, I mean, like I was too busy fighting. Yeah. And like, I did it, I was doing I was doing research and I saw that like something like 50% of, residents that are going to be doctors. And I think it was like 2017 didn't think that black people could feel pain.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:37:48:18]"
+    },
+    {
+      "id": "context_104_107",
+      "index": 107,
+      "speaker": "Kam Diaz",
+      "words": "Like, think about how many people feel that not just doctors, but like just people in general. Like because we're feeling it every day. Because that person in those videos could be your brother, your sister, your cousin, like someone that you know and you're still expected to show up and also grieve and do self-care. And it just becomes a juggling act that white people have expectations of when it's not the same grieving and pain that black folks are experiencing when stuff like this happens.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:18:06]"
+    },
+    {
+      "id": "context_104_108",
+      "index": 108,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah, I agree. I mean, I think to add to that, and to answer your question, cam, I totally I'm like on the fence. It depends on the day because I 100% agree. Sometimes when like this, I have to I'm like held by a standard as a social worker like code of ethics and what I believe and the social work kind of like expectation is to advocate for those within marginalized and disenfranchized communities.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:38:52:19]"
+    },
+    {
+      "id": "context_104_109",
+      "index": 109,
+      "speaker": "Terry Scraggins",
+      "words": "But on that same note, I'm like, I also have to be careful with what I say and what I do because I need to keep my job. So it's kind of like that double edged sword. And then to kind of answer the question, if I've experienced like a person, like a white person, do more harm than like good, I think is I don't think it was ever intentional.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:22:23]"
+    },
+    {
+      "id": "context_104_110",
+      "index": 110,
+      "speaker": "Terry Scraggins",
+      "words": "But I've had many close friends that and I think it's a microaggression. I don't think it's something that's like intentional, but, just not speaking up in instances where I feel like I could use a little bit of help. With things being said, whether it's jokingly or serious. So in that sense, I think that I could speak to that, but I completely agree with like, the going to protest.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:52:02]"
+    },
+    {
+      "id": "context_104_111",
+      "index": 111,
+      "speaker": "Terry Scraggins",
+      "words": "And so people are like, well, there's no in here that or not that many people here of color where you're like, okay, but like the current day that we live in and the current situation in the climate, it doesn't feel good. You just like you were saying, you have to worry about self-care. You have to worry about hearing names recited and people that have lost their lives.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:40:20:04]"
+    },
+    {
+      "id": "context_104_112",
+      "index": 112,
+      "speaker": "Terry Scraggins",
+      "words": "You have people posting stuff on Facebook and every other like social media platform about the the trauma that our people are going through and it's not it's just a lot to take in. And then on top of that, microaggressions and the list just keeps going on. So yeah, I like I appreciate that you pointed that out.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:40:16]"
+    },
+    {
+      "id": "context_104_113",
+      "index": 113,
+      "speaker": "Kam Diaz",
+      "words": "And also like I like and on top of like all that stuff, people are expecting you to like educate them. And I'm like, I'm tired. I need to go to bed. Like I just got off work and know it's like people are expecting you to continuously do free labor without like considering like anything else that's going on in your life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:01:19]"
+    },
+    {
+      "id": "context_104_114",
+      "index": 114,
+      "speaker": "Kam Diaz",
+      "words": "And I'm like, no, like, someone asked me to tell them why dreads on people who aren't black is a bad thing. And I'm like, here's my Venmo. If you're not going to send me thing, I don't have the energy to have this conversation because like at the end of the day, like if you're going to pay for a textbook, if you're going to pay for to like, go to see a Ted talk, like, why is my time and effort and energy any less worth any of that?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:22:16]"
+    },
+    {
+      "id": "context_104_115",
+      "index": 115,
+      "speaker": "Kam Diaz",
+      "words": "Because if it's because I don't have a bachelor's degree, then that's like classism. Like, let's unpack that. But like, there's so many levels to, like well-meaning white people that it's like.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:41:47:17]"
+    },
+    {
+      "id": "context_104_116",
+      "index": 116,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah, and even white people even like people saying, hey, I like when the riots and protests started and they were like, ruined. Hence so many people reached out to me and were like, are you okay? How are you feeling? And I'm like, even that's exhausting you. I have to take the time to respond to every single person with like, are you okay?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:59:08]"
+    },
+    {
+      "id": "context_104_117",
+      "index": 117,
+      "speaker": "Terry Scraggins",
+      "words": "How are you feeling? So yes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:18:04]"
+    },
+    {
+      "id": "context_104_118",
+      "index": 118,
+      "speaker": "Kam Diaz",
+      "words": "And like, so I worked at the Gender Equity Center for the last two years and literally like, I love the staff. There's so much because they reached out to me when all this stuff happened, not trying to assuage their white guilt, but to like, like, say like, hey, if you need me, I'm here for you. Like, don't feel like I'm like, you have to respond to me, but know that, like, I'm here for you and I see you and I and I care about you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:21:06]"
+    },
+    {
+      "id": "context_104_119",
+      "index": 119,
+      "speaker": "Kam Diaz",
+      "words": "And that like, that means so much to have people that are like, hey, I just want to make sure you're good. And like, I even had white people that I know, they didn't even reach out to me. They just sent me money. And I was like, you just like bought me dinner. And I'm not like and like it made me think, no, that like, you're thinking about me.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:47:19]"
+    },
+    {
+      "id": "context_104_120",
+      "index": 120,
+      "speaker": "Kam Diaz",
+      "words": "And that's something that like like it's the little things that like white people do not to just assuage their guilt, but to actually let you know that they're there and they appreciate you, and they don't want you to continue to do free labor for them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:06:21]"
+    },
+    {
+      "id": "context_104_121",
+      "index": 121,
+      "speaker": "Doug Exton",
+      "words": "Yeah. I think that ties back to our conversation last week where Gaby mentioned about LGBTQ idea, education and how often we're going to these members of the community asking these questions, expecting a response for for you, where there is that emotional toll that it does take, especially when it's question after question. Now talking about intersectionality, which would you have to say is harder for each of you being a person of color or being part of the LGBTQ community within Boise?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:21:23]"
+    },
+    {
+      "id": "context_104_122",
+      "index": 122,
+      "speaker": "Kam Diaz",
+      "words": "I think it's like I had to choose. I would say being black is harder, but I don't get to exist one without the other. And like, both are like both can be really difficult, but both are parts about myself that I love. And like I'm going to continue loving and like, I think that even this question like, it can be like like we shouldn't be asking, which is harder.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:05:11]"
+    },
+    {
+      "id": "context_104_123",
+      "index": 123,
+      "speaker": "Kam Diaz",
+      "words": "We should be asking what's difficult about both of them together? Because, like, I don't get to like. I don't get to exist one without, one without the other. Like, I.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:34:10]"
+    },
+    {
+      "id": "context_104_124",
+      "index": 124,
+      "speaker": "Doug Exton",
+      "words": "Can't turn one off.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:46:13]"
+    },
+    {
+      "id": "context_104_125",
+      "index": 125,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah. And they. I definitely agree, but I think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:49:23]"
+    },
+    {
+      "id": "context_104_126",
+      "index": 126,
+      "speaker": "Terry Scraggins",
+      "words": "I don't know, that's a really hard question to answer. Yeah, I definitely think that they kind of like, are one of the same. But then I throw in like, I was just talking with someone I had like, a chat with them earlier, talking about the different intersections of people, and they work for an organization that kind of like promote social justice and like immigration and LGBTQ and like people of color.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:45:05:10]"
+    },
+    {
+      "id": "context_104_127",
+      "index": 127,
+      "speaker": "Terry Scraggins",
+      "words": "And I guess for me, I don't know if I could even really answer that question, because I would say it was more difficult being a person that grew up in severe poverty first, before I could even associate or identify with being black or being gay. So but to actually answer the question wholeheartedly, if I had to pick one or the other, I would say definitely being a person of color is more difficult.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:33:22]"
+    },
+    {
+      "id": "context_104_128",
+      "index": 128,
+      "speaker": "Terry Scraggins",
+      "words": "Because I think there is a culture where becoming a little bit more progressive in terms of like LGBTQ, there is still so far to go, but, I would say I'm more uncomfortable if I'm like in the story of being a person of color versus being gay because I can't hide my skin color. Not that I'm saying I ever try to hide that I'm gay anymore.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:01:16]"
+    },
+    {
+      "id": "context_104_129",
+      "index": 129,
+      "speaker": "Terry Scraggins",
+      "words": "I used to, but don't anymore. But you can't. You literally can't hide this characteristic of a person, so I probably would have to go with that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:26:16]"
+    },
+    {
+      "id": "context_104_130",
+      "index": 130,
+      "speaker": "Kam Diaz",
+      "words": "And like, also, it's so, like, weird to see, like how other parts of my identity intersect, like, because I also grew up, like, in poverty, but because my, my mother and, my stepfather art both magazine people don't attribute my like, poverty level to them because they're not black and also like, even like going through school. When I started to have like white teachers, they would like assume that I was not doing work or I wasn't doing things because I was lazy, because I'm black.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:46:37:08]"
+    },
+    {
+      "id": "context_104_131",
+      "index": 131,
+      "speaker": "Kam Diaz",
+      "words": "Like, that's a very common stereotype, that black folks are lazy. But it was because I had undiagnosed and ADHD and anxiety and depression that just made me not want to do things. And it's so interesting to see, like all those intersections of different parts of my identity, aside from like being black and being queer.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:14:19]"
+    },
+    {
+      "id": "context_104_132",
+      "index": 132,
+      "speaker": "Doug Exton",
+      "words": "To so there is a movement about taking many. How do you both personally, since it is hard to make a blanket statement about people of color and their opinions, how do you feel about white people taking the knee? Does it come across to you as support or something else.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:41:07]"
+    },
+    {
+      "id": "context_104_133",
+      "index": 133,
+      "speaker": "Terry Scraggins",
+      "words": "After you ask questions about it? Before either of us answer this, are we talking taking a knee for like the national anthem, or are we talking taking, taking a knee as in like reference to George Floyd?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:04:03]"
+    },
+    {
+      "id": "context_104_134",
+      "index": 134,
+      "speaker": "Doug Exton",
+      "words": "That I don't know. So I will give the person a chance to clarify that. If you don't mind sending that clarification in the chat, that would be lovely. We'll circle back to that. Oh, the national anthem.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:19:07]"
+    },
+    {
+      "id": "context_104_135",
+      "index": 135,
+      "speaker": "Kam Diaz",
+      "words": "For me, like, there are layers to it because like, there was, folks in I think I think it was like the House of Representatives or the Senate or something. Did they, like, took a knee while wearing, like, tinted cloth? And I was like, oh my gosh, like, this is so performative. But like, if you're doing it in the way that, like Colin Kaepernick did in talking to veterans and like seeing the best way to like, do it, and he did it in a way that was peacefully protesting it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:39:00]"
+    },
+    {
+      "id": "context_104_136",
+      "index": 136,
+      "speaker": "Kam Diaz",
+      "words": "It's very different. I think that, like if you're taking a knee and putting your fist up and you're like, that's it. My activism is done for the year. Like, like, let's, let's investigate that and see, like, what better ways you can use your privilege to actually like support people like and that that's like that's how I felt about like the Blackout Tuesday thing where like people who had never seen the words Black Lives Matter posted the little black square and then continued to, like, partake in capitalism, partake in like things that continued, like going outside without their masks on, things that continue and like, hurt people of color disproportionately.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:13:05]"
+    },
+    {
+      "id": "context_104_137",
+      "index": 137,
+      "speaker": "Kam Diaz",
+      "words": "It's like, okay, like I can like it's gotten pretty easy to like, I don't want to say see through because like, again, there are people who mean well, but like, I don't get to be surface. I like like they can't have like surface level activism. But the surface that people see on me is black. And so that never changes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:54:13]"
+    },
+    {
+      "id": "context_104_138",
+      "index": 138,
+      "speaker": "Terry Scraggins",
+      "words": "And I think as, it's funny that someone asked this question because I can't tell you how many times I have seen it show up on my feed somewhere. Especially like serving in the Navy. I have had so many people that feel different on different end. But I would say more often than, like, not even people that I've served with that have been like that have seen that, or it's come up in discussion.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:19:03]"
+    },
+    {
+      "id": "context_104_139",
+      "index": 139,
+      "speaker": "Terry Scraggins",
+      "words": "They're like, I don't care. Like, like that in the sense of like. This is America. We're supposed to be a free country. So if you don't want like people are signing the dotted line to serve our country and they don't care about whether or not someone is standing or kneeling, because that's their right. But, I mean, I've also gotten into, like, a lot of,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:46:11]"
+    },
+    {
+      "id": "context_104_140",
+      "index": 140,
+      "speaker": "Terry Scraggins",
+      "words": "Dialog in conversation with people about the way that they feel about it. So from like that aspect, I personally don't care, but from like a person like of color aspect, like wearing multiple hats. I also think that it is a way to kind of like speak out, but then, I still don't have like, I'm not against it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:18:11]"
+    },
+    {
+      "id": "context_104_141",
+      "index": 141,
+      "speaker": "Terry Scraggins",
+      "words": "I think that it's I personally think that it's fine if someone chooses to move on to the national anthem, but I also agree with the Kam and that that shouldn't be all that people are doing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:44:13]"
+    },
+    {
+      "id": "context_104_142",
+      "index": 142,
+      "speaker": "Doug Exton",
+      "words": "What would you recommend? We have an attendee that would like to diversify their social media and also diversify their reading. So do you either do you have go to resources on how to broaden their perspective on social media, such as who they should be following on Instagram specifically, and then also authors that they might not have heard of but can help inform?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:03:10]"
+    },
+    {
+      "id": "context_104_143",
+      "index": 143,
+      "speaker": "Doug Exton",
+      "words": "Understandably so. Specifically.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:33:24]"
+    },
+    {
+      "id": "context_104_144",
+      "index": 144,
+      "speaker": "Terry Scraggins",
+      "words": "Don't follow Candace Owens. That's what I can say.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:38:13]"
+    },
+    {
+      "id": "context_104_145",
+      "index": 145,
+      "speaker": "Doug Exton",
+      "words": "Yeah, it's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:42:11]"
+    },
+    {
+      "id": "context_104_146",
+      "index": 146,
+      "speaker": "Terry Scraggins",
+      "words": "Like y'all are welcome to do you. But like I'm telling you right now for my, like for my personal opinion, she has, like, she's very intelligent. But that's like, I would say that the doubt in terms of, like, things do come to you. And so.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:43:17]"
+    },
+    {
+      "id": "context_104_147",
+      "index": 147,
+      "speaker": "Kam Diaz",
+      "words": "I think, okay, this is very like base level, but follow also because to see someone who is plus size and black doing their thing and shutting down people who are like, well, you're fat, so you're not healthy. And then like, people literally watching her do like these dance moves that they could you do in a thousand years.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:04:12]"
+    },
+    {
+      "id": "context_104_148",
+      "index": 148,
+      "speaker": "Kam Diaz",
+      "words": "Like, I love Lizzo and I love her so much. But even not just like black folks, Verjee Tovar is amazing. I, I also like, she writes like, articles. I don't I don't know if she's written a book, but if she did, I would read it. Oh, gosh. It's one that I get. Sorry. Go ahead.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:24:13]"
+    },
+    {
+      "id": "context_104_149",
+      "index": 149,
+      "speaker": "Terry Scraggins",
+      "words": "So I was just going to throw one in because I actually had to read it for one of my social work classes, the Jim Crow Era super good book. It is. It comes from like a different perspective, but that's super informational. Keep going.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:47:20]"
+    },
+    {
+      "id": "context_104_150",
+      "index": 150,
+      "speaker": "Kam Diaz",
+      "words": "If you're trying to get like young adult to like, get in, The Hate You Give is a great book. It's a lot better than the movie. I oh, I can't think of her name. Angela Davis. Ijeoma Oluo wrote so you want to talk about race? I been reading a book called us. Why",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:02:10]"
+    },
+    {
+      "id": "context_104_151",
+      "index": 151,
+      "speaker": "Kam Diaz",
+      "words": "I'm no longer talking to white people about race. Reclaiming our our Space by Feminista Jones. Oh, gosh, there are so many. I don't I never use Instagram because, like I said, it's just like performative activism. A black person getting murdered. And like, that's kind of what my feed is right now. But yeah. Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:24:21]"
+    },
+    {
+      "id": "context_104_152",
+      "index": 152,
+      "speaker": "Terry Scraggins",
+      "words": "And I mean, you can definitely follow BLM Boise. No Black Lives Matter Boise has a page, inclusive Idaho recently was started and also, I'm like BuzzFeed if anyone is ever really interested in like kind of checking their privilege, whether it be white or just privilege in general, BuzzFeed has a really awesome, privilege test. It's like 100 questions and then it like, let you know your experience based on how you answer those questions and like, what level of privilege you have.",
+      "tags": [
+        "boise",
+        "education"
+      ],
+      "timestamp": "[00:54:51:09]"
+    },
+    {
+      "id": "context_104_153",
+      "index": 153,
+      "speaker": "Terry Scraggins",
+      "words": "I took that, and I learned some things too, about my own self. So.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:26:10]"
+    },
+    {
+      "id": "context_104_154",
+      "index": 154,
+      "speaker": "Doug Exton",
+      "words": "What? Oh, sorry. Go ahead. Go for it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:35:07]"
+    },
+    {
+      "id": "context_104_155",
+      "index": 155,
+      "speaker": "Kam Diaz",
+      "words": "Can't I can't think of what it's like. There's something. There's a number. There's something. Frame of color. Colorblind racism. I can't think of who wrote it either, but, also, like, if you're just starting out and you want to know, like, how is a white person to come into these spaces, read Robin D'Angelo her like I read White Fragility and I like, skim through, what does it mean to be white?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:37:10]"
+    },
+    {
+      "id": "context_104_156",
+      "index": 156,
+      "speaker": "Kam Diaz",
+      "words": "Because I was doing a program through the Gender Equity center, where we were talking about white privilege and it like, it has some really good keys that I wish that like, white folks coming into POC spaces would read and, like, understand before coming in with like so much privilege. And I really like her writing style. Even though Robin D'Angelo's isn't a person of color.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:04:22]"
+    },
+    {
+      "id": "context_104_157",
+      "index": 157,
+      "speaker": "Doug Exton",
+      "words": "No. Thank you for all those resources. Continuing resources. What advice would you give to a junior high or high school student who is currently experiencing racism at a school, but they don't want to tell anyone due to a fear of retaliation due to the lack of diversity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:30:18]"
+    },
+    {
+      "id": "context_104_158",
+      "index": 158,
+      "speaker": "Doug Exton",
+      "words": "That's a big one to unpack.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:54:18]"
+    },
+    {
+      "id": "context_104_159",
+      "index": 159,
+      "speaker": "Kam Diaz",
+      "words": "That's a really like layered question because one like, are you like, are you safe in the situation? Things like because from what I've learned from people who go to school here, like a lot of the schools that they go to are like a lot of people that went to school. And I know, like, oh, those schools are predominantly white.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:57:00:15]"
+    },
+    {
+      "id": "context_104_160",
+      "index": 160,
+      "speaker": "Kam Diaz",
+      "words": "And just like, like what support systems do you have?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:20:01]"
+    },
+    {
+      "id": "context_104_161",
+      "index": 161,
+      "speaker": "Terry Scraggins",
+      "words": "Like, yes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:23:19]"
+    },
+    {
+      "id": "context_104_162",
+      "index": 162,
+      "speaker": "Kam Diaz",
+      "words": "Like, listen, I've been seeing all these people on Twitter that are like, like if you're being racist, like in public that they're like, okay, well, let's talk to your employer. And I think that there are like like it it's just so like like it's so layered because one like it, it can't be like a healthy situation if you like, are going somewhere to receive an education and you're being discriminated against.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:25:01]"
+    },
+    {
+      "id": "context_104_163",
+      "index": 163,
+      "speaker": "Kam Diaz",
+      "words": "But also like my main thing is like, are you safe? Like, how can we get you out of that situation?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:54:09]"
+    },
+    {
+      "id": "context_104_164",
+      "index": 164,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah, that's the first place that my mind went to was, do you feel safe even though I mean, then there's a difference between like physically safe and, like emotionally safe for sure. But like, do you feel physically safe? What kind of support system do you have? Do you have someone that you can like, speak to? And I mean, I know that we've come a long ways as well in terms of like counseling and mental health, but especially as like being someone I grew up in and like feeling like I experienced things and maybe a different my, it's not bad to like, even if it's not like a licensed professional, but just having someone that",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:00:12]"
+    },
+    {
+      "id": "context_104_165",
+      "index": 165,
+      "speaker": "Terry Scraggins",
+      "words": "you can talk to about and unpack those experiences because I completely understand and agree that it's important to have, strong support systems and there's only so much that we can do. And that sounds awful because it shouldn't be that way. But sometimes you have to internally build up, that wall, I guess, of safety if you're not getting it from other avenues.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:44:02]"
+    },
+    {
+      "id": "context_104_166",
+      "index": 166,
+      "speaker": "Terry Scraggins",
+      "words": "So having, like, someone you can talk to and support them if you don't feel safe, then I think by all means that it should be reported. But if you don't feel comfortable having someone that can be an ear for you or help provide some sort of advice or guidance.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:15:20]"
+    },
+    {
+      "id": "context_104_167",
+      "index": 167,
+      "speaker": "Kam Diaz",
+      "words": "Yeah, and like I have a lot of time on my hands right now. So like if you need some support, like I think a lot of the posts that we put out have my Instagram on them and I check my DMs pretty regularly just in case. And if like you need someone to, like, reach out to your school, I like, I like I said, I have a lot of times on my hand and like, I like I definitely have time to like reach out because especially like in school, like school is the one place that you deserve to feel safe.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:59:32:05]"
+    },
+    {
+      "id": "context_104_168",
+      "index": 168,
+      "speaker": "Kam Diaz",
+      "words": "Like you have to be there for so long and for so many hours every day. Like and especially like if it's a student that needs to be like learning better or teachers that that's getting paid and that is and is then not providing equal, or equitable support and education to their students. Like, that's definitely something that needs to be addressed on a higher level.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[01:00:04:05]"
+    },
+    {
+      "id": "context_104_169",
+      "index": 169,
+      "speaker": "Doug Exton",
+      "words": "And unfortunately, we are running low on time. So I will be able to ask one more question. But, I will make sure Cam's contact info is on our website. That way people can reach out to you as well as Terri. Going back to the beginning with Idaho being, predominantly white, some people do believe, and I know that racism isn't a problem within the state.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:31:20]"
+    },
+    {
+      "id": "context_104_170",
+      "index": 170,
+      "speaker": "Doug Exton",
+      "words": "How do you believe, Christine, that, is an issue and how that experience within Idaho would be different then, such as the South or the East Coast, where there are larger proportions of people of color.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:59:11]"
+    },
+    {
+      "id": "context_104_171",
+      "index": 171,
+      "speaker": "Kam Diaz",
+      "words": "That's like.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:19:01]"
+    },
+    {
+      "id": "context_104_172",
+      "index": 172,
+      "speaker": "Doug Exton",
+      "words": "I know that's another thing to end.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:20:04]"
+    },
+    {
+      "id": "context_104_173",
+      "index": 173,
+      "speaker": "Kam Diaz",
+      "words": "I totally.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:22:14]"
+    },
+    {
+      "id": "context_104_174",
+      "index": 174,
+      "speaker": "Terry Scraggins",
+      "words": "Answer.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:23:08]"
+    },
+    {
+      "id": "context_104_175",
+      "index": 175,
+      "speaker": "Kam Diaz",
+      "words": "Okay, go ahead there.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:24:18]"
+    },
+    {
+      "id": "context_104_176",
+      "index": 176,
+      "speaker": "Terry Scraggins",
+      "words": "Because about a year ago, I actually posted an experience that I had, at WinCo. Some I experienced racism. I'll leave it at that for short on time. And I posted it in this Boise page. Boise bench dwellers like, like kind of like explaining my experience and just saying, hey, everyone needs to speak up. There were a lot of people that said race.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[01:01:25:19]"
+    },
+    {
+      "id": "context_104_177",
+      "index": 177,
+      "speaker": "Terry Scraggins",
+      "words": "It didn't used to be like this. I'm sorry you experienced that. And I said, you know, more than anything, I assure you it has been here. And, and.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:48:02]"
+    },
+    {
+      "id": "context_104_178",
+      "index": 178,
+      "speaker": "Terry Scraggins",
+      "words": "A lot of people back to you. What I can say is that I, I truly think that people that don't think there's a problem with racism are people that don't think that it's an issue. They are in circles in which they are not exposed to it. But I can tell you that people of color, it is definitely a real problem.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:02:01:19]"
+    },
+    {
+      "id": "context_104_179",
+      "index": 179,
+      "speaker": "Terry Scraggins",
+      "words": "And it is certainly a problem today, especially considering the time that we're in. And I just encourage those people that don't think racism is a thing in Idaho to do a little bit more research and get more educated, because it is, and I will say that time blue in the face. But there's my $0.02. That's all you can.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[01:02:22:21]"
+    },
+    {
+      "id": "context_104_180",
+      "index": 180,
+      "speaker": "Kam Diaz",
+      "words": "Yeah, I definitely agree. Like it if one I've like, met people of color who are like, oh, I don't experience racism. And then they do like research and education because they haven't had to do that before. And they're like, wait, these people were like being racist towards me. And I didn't realize it because I've had to block it out for so long.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[01:02:45:11]"
+    },
+    {
+      "id": "context_104_181",
+      "index": 181,
+      "speaker": "Kam Diaz",
+      "words": "And like, just like knowing that like Idaho is somewhere that where from what I've learned and from what people have told me, is that it's a place where people feel like they have to assimilate just to feel safe and just to feel welcome. And it continues that idea that, like black people are so ghetto and and that we are just so other and just like taking a second to realize that like as, like as much as people hate to hear this, all white people aren't racist and you have to do the work to undo that.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:03:06:12]"
+    },
+    {
+      "id": "context_104_182",
+      "index": 182,
+      "speaker": "Kam Diaz",
+      "words": "Whether you're like overtly racist or you have racist biases, like you have to work through that. And it sucks at first and it's uncomfortable. But I promise you, it's 1,000% more uncomfortable and unsafe being a black person in Idaho. And it just takes reading and education, watching Ted talks to actually unpack all of that in, and then actually be able to provide equitable services at your job, equitably hire equitably, equitably, provide housing and like it all starts with individual.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:03:38:04]"
+    },
+    {
+      "id": "context_104_183",
+      "index": 183,
+      "speaker": "Kam Diaz",
+      "words": "And you can take that to your team, to your supervisor. And you like using your privilege, your white privilege or straight privilege or says privilege. You're able bodied. Privilege is something that everyone needs to do, to make sure that everyone in the room is heard, not just black folks and also guys that we like. No matter where you are on Idaho, you are on indigenous land.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[01:04:14:12]"
+    },
+    {
+      "id": "context_104_184",
+      "index": 184,
+      "speaker": "Kam Diaz",
+      "words": "Like I, I like it doesn't matter if you're in Coeur d'Alene or in Idaho Falls. We're all on indigenous land and recognizing that there are people who are still being left out of the conversation.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[01:04:37:00]"
+    },
+    {
+      "id": "context_104_185",
+      "index": 185,
+      "speaker": "Terry Scraggins",
+      "words": "Yeah. Two seconds do, and then I'll be done. To kind of echo what you said him in terms of, like, all white people are racist. I will tell you right now, even myself growing up in Idaho, I didn't even know as black until I was four. And I have had my own internalized racism that I've had to deal with.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:04:47:20]"
+    },
+    {
+      "id": "context_104_186",
+      "index": 186,
+      "speaker": "Terry Scraggins",
+      "words": "So keep that. Like just for everyone watching. Like, keep that in mind too. Like if when you were speaking with people of color because it's not it isn't just white people. Like, I feel like our culture has done such a good job overall to kind of like glamorize people, POC like struggles and challenges that it's it's so much more than that.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:05:07:17]"
+    },
+    {
+      "id": "context_104_187",
+      "index": 187,
+      "speaker": "Terry Scraggins",
+      "words": "But.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:05:31:23]"
+    },
+    {
+      "id": "context_104_188",
+      "index": 188,
+      "speaker": "Doug Exton",
+      "words": "Well, I want to say thank you to both of you for a very informative and a very timely conversation. And thank you to everyone who stuck it out until the end.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:05:34:11]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 189,
+    "description": "Terry and Kam will discuss the contemporary Black experience in Idaho. Ranging from growing up and living in Idaho, gender, queerness, and other life experiences, they both will highlight how all these play into the intersectionality that is not only the Black experience but also the human experience. United States Navy Veteran, Graduate School of Social Work at Boise State Alum Terrence (Terry) Scraggins (He/Him), LSW is from Boise, ID. He recently graduated from Boise State University with a BA in Social Work with a minor in Family Studies. Terry is an Idaho foster alumnus as well as US Navy Veteran. Upon graduation, he joined the mere 3% of foster alumni who have the privilege to graduate with a postsecondary degree. He is also the first individual in his family to graduate with a degree. Terry successfully completed an internship with Family and Children Services and is employed with a governmental agency. Terry sits on the Board of Directors for a local non-profit organization in the Boise area. He continues to help advocate for the LGBTQ+ community by successfully publishing a policy report that was addressed to Congress in Washington D.C. with Senator Wyden [OR] and the Senate Finance Committee throughout the summer of 2018. Terry also presented on how to support and empower LGBTQ+ foster youth in February 2020 for the University of Oklahoma. He is currently in the process of creating a podcast focused on social justice matters. Aspiring to return to D.C. one day, Terry has plans to obtain his Master’s degree either in Social Work or Public Policy (or both,) and continue to advocate for social justice matters. Kam Diaz (They/Them) is a GLAAD campus ambassador and recipient of the Boise State Inclusive Excellence award.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

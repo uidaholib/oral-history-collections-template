@@ -1,0 +1,709 @@
+[
+  {
+    "id": "context_01",
+    "title": "The Horror Film from Obama to Trump",
+    "interviewee": "Dr. Russell Meeuf",
+    "date": "2024-06-01",
+    "url": "/assets/data/transcripts/context_01.json"
+  },
+  {
+    "id": "context_02",
+    "title": "The Legacy of Cecil D. Andrus",
+    "interviewee": "Dr. Emily Wakild",
+    "date": "2024-05-13",
+    "url": "/assets/data/transcripts/context_02.json"
+  },
+  {
+    "id": "context_03",
+    "title": "War. What is it good for?",
+    "interviewee": "Kim Madsen Dill",
+    "date": "2024-05-01",
+    "url": "/assets/data/transcripts/context_03.json"
+  },
+  {
+    "id": "context_04",
+    "title": "Sociology of a Pop Star: Taylor Swift",
+    "interviewee": "Dr. Sharon Paterson",
+    "date": "2024-04-15",
+    "url": "/assets/data/transcripts/context_04.json"
+  },
+  {
+    "id": "context_05",
+    "title": "The Big Give",
+    "interviewee": "Bruce Michael Miller; Heather Platts",
+    "date": "2024-04-04",
+    "url": "/assets/data/transcripts/context_05.json"
+  },
+  {
+    "id": "context_06",
+    "title": "The 51 Tunnels That Saved Twin Falls",
+    "interviewee": "Dr. Jim Gentry",
+    "date": "2024-03-27",
+    "url": "/assets/data/transcripts/context_06.json"
+  },
+  {
+    "id": "context_07",
+    "title": "Cultivating the Spirit of the Masses: How the Buenos Aires Zoo Shaped Society in Argentina",
+    "interviewee": "Dr. Ashley Kerr",
+    "date": "2024-03-14",
+    "url": "/assets/data/transcripts/context_07.json"
+  },
+  {
+    "id": "context_08",
+    "title": "It’s Her Story: Sacajawea",
+    "interviewee": "Randy’L Teton",
+    "date": "2024-03-13",
+    "url": "/assets/data/transcripts/context_08.json"
+  },
+  {
+    "id": "context_09",
+    "title": "Our High School Newspaper and Yearbook Matters in History",
+    "interviewee": "Dr. Caitlin Cieslik-Miskimen",
+    "date": "2024-03-13",
+    "url": "/assets/data/transcripts/context_09.json"
+  },
+  {
+    "id": "context_10",
+    "title": "Honor and Integrity on the Playing Field and in Life",
+    "interviewee": "Dr. Sharon Stoll",
+    "date": "2024-02-07",
+    "url": "/assets/data/transcripts/context_10.json"
+  },
+  {
+    "id": "context_100",
+    "title": "S1E10 Minidoka: An American Concentration Camp",
+    "interviewee": "Hanako Wakatsuki",
+    "date": "2020-08-04",
+    "url": "/assets/data/transcripts/context_100.json"
+  },
+  {
+    "id": "context_101",
+    "title": "S1E9 How INL is Changing the Future of Nuclear Energy",
+    "interviewee": "Ryan Weeks",
+    "date": "2020-07-28",
+    "url": "/assets/data/transcripts/context_101.json"
+  },
+  {
+    "id": "context_102",
+    "title": "S1E8 Idaho's Most Controversial Politician: Glen H. Taylor",
+    "interviewee": "Marc Johnson",
+    "date": "2020-07-14",
+    "url": "/assets/data/transcripts/context_102.json"
+  },
+  {
+    "id": "context_103",
+    "title": "S1E7 The Idaho Anne Frank Human Rights Memorial",
+    "interviewee": "Dr. Dan Prinzing",
+    "date": "2020-07-08",
+    "url": "/assets/data/transcripts/context_103.json"
+  },
+  {
+    "id": "context_104",
+    "title": "S1E6 The Black Experience in Idaho",
+    "interviewee": "Terry Scraggins; Kam Diaz",
+    "date": "2020-07-01",
+    "url": "/assets/data/transcripts/context_104.json"
+  },
+  {
+    "id": "context_105",
+    "title": "S1E5 LGBTQIA+ History in Boise",
+    "interviewee": "Cheryl Oestreicher; Gabrielle Davis",
+    "date": "2020-06-24",
+    "url": "/assets/data/transcripts/context_105.json"
+  },
+  {
+    "id": "context_106",
+    "title": "S1E4 Semester in the Wild at U of I",
+    "interviewee": "Scott Slovic",
+    "date": "2020-06-13",
+    "url": "/assets/data/transcripts/context_106.json"
+  },
+  {
+    "id": "context_107",
+    "title": "S1E3 History of the Frank Church-River of No Return Wilderness",
+    "interviewee": "Larry LaRocco",
+    "date": "2020-06-12",
+    "url": "/assets/data/transcripts/context_107.json"
+  },
+  {
+    "id": "context_108",
+    "title": "S1E2 History of Idaho Falls Baseball - 80th Season of Professional Baseball in Idaho Falls",
+    "interviewee": "Jen Holley; Kevin Greene; Chris Hall",
+    "date": "2020-06-09",
+    "url": "/assets/data/transcripts/context_108.json"
+  },
+  {
+    "id": "context_109",
+    "title": "S1E1 - Boise’s Industrial Past",
+    "interviewee": "Dr.  Jennifer Stevens",
+    "date": "2020-06-03",
+    "url": "/assets/data/transcripts/context_109.json"
+  },
+  {
+    "id": "context_11",
+    "title": "How to Teach the Holocaust",
+    "interviewee": "John Poole",
+    "date": "2024-02-07",
+    "url": "/assets/data/transcripts/context_11.json"
+  },
+  {
+    "id": "context_110",
+    "title": "Welcome to Context!",
+    "interviewee": "Unknown Speakers",
+    "date": "2020-06-01",
+    "url": "/assets/data/transcripts/context_110.json"
+  },
+  {
+    "id": "context_12",
+    "title": "The Surprising History of Women’s Rights in Post War",
+    "interviewee": "Dr. Alexandria Ruble",
+    "date": "2024-02-07",
+    "url": "/assets/data/transcripts/context_12.json"
+  },
+  {
+    "id": "context_13",
+    "title": "The Continuum of Comics: Calvin & Hobbes, Maus, and Everything in Between",
+    "interviewee": "Dr. Matthew Levay",
+    "date": "2023-12-21",
+    "url": "/assets/data/transcripts/context_13.json"
+  },
+  {
+    "id": "context_14",
+    "title": "Iceland’s Christmas Book Flood",
+    "interviewee": "Kári Tulinius",
+    "date": "2023-12-21",
+    "url": "/assets/data/transcripts/context_14.json"
+  },
+  {
+    "id": "context_15",
+    "title": "We Heart French Fries",
+    "interviewee": "Blake Lingle",
+    "date": "2023-12-07",
+    "url": "/assets/data/transcripts/context_15.json"
+  },
+  {
+    "id": "context_16",
+    "title": "Morrison Knudson & the Battle for Wake Island",
+    "interviewee": "Dr. Rebecca Schwartz",
+    "date": "2023-12-07",
+    "url": "/assets/data/transcripts/context_16.json"
+  },
+  {
+    "id": "context_17",
+    "title": "Christmas Movies and the Religious Dimensions of Story Structure",
+    "interviewee": "Dr. Russell P. Johnson",
+    "date": "2023-12-05",
+    "url": "/assets/data/transcripts/context_17.json"
+  },
+  {
+    "id": "context_18",
+    "title": "The Essential Hitchcock",
+    "interviewee": "Dr. Douglas Cunningham",
+    "date": "2023-12-04",
+    "url": "/assets/data/transcripts/context_18.json"
+  },
+  {
+    "id": "context_19",
+    "title": "Bringing War Home",
+    "interviewee": "Dr. Susan Grayzel",
+    "date": "2023-11-08",
+    "url": "/assets/data/transcripts/context_19.json"
+  },
+  {
+    "id": "context_20",
+    "title": "Understanding the Public Lands: Federal Land Management Agencies and the Lands They Manage",
+    "interviewee": "Dr. Sara Dant",
+    "date": "2023-10-19",
+    "url": "/assets/data/transcripts/context_20.json"
+  },
+  {
+    "id": "context_21",
+    "title": "Re-storying Idaho with the Healing Power of Hope",
+    "interviewee": "CMarie Fuhrman",
+    "date": "2023-10-16",
+    "url": "/assets/data/transcripts/context_21.json"
+  },
+  {
+    "id": "context_22",
+    "title": "The Blue Humanities",
+    "interviewee": "Dr. T.S. McMillin",
+    "date": "2023-10-16",
+    "url": "/assets/data/transcripts/context_22.json"
+  },
+  {
+    "id": "context_23",
+    "title": "Vampires are Cool Again",
+    "interviewee": "Rachel Stewart",
+    "date": "2023-10-11",
+    "url": "/assets/data/transcripts/context_23.json"
+  },
+  {
+    "id": "context_24",
+    "title": "The History and Future of Public Schools",
+    "interviewee": "Dr. Johann Neem",
+    "date": "2023-10-11",
+    "url": "/assets/data/transcripts/context_24.json"
+  },
+  {
+    "id": "context_25",
+    "title": "The Black History Research Lab at the University of Idaho",
+    "interviewee": "Dr. Sydney Freeman, Jr.",
+    "date": "2023-10-11",
+    "url": "/assets/data/transcripts/context_25.json"
+  },
+  {
+    "id": "context_26",
+    "title": "Idaho Storyteller Arlie Sommer",
+    "interviewee": "Arlie Sommer",
+    "date": "2023-09-29",
+    "url": "/assets/data/transcripts/context_26.json"
+  },
+  {
+    "id": "context_27",
+    "title": "Intro to Global Jewish History",
+    "interviewee": "Dr. Nick Underwood",
+    "date": "2023-09-01",
+    "url": "/assets/data/transcripts/context_27.json"
+  },
+  {
+    "id": "context_28",
+    "title": "Humanities and Cultural Studies at BSU",
+    "interviewee": "Dr. Gautam Basu Thakur",
+    "date": "2023-08-23",
+    "url": "/assets/data/transcripts/context_28.json"
+  },
+  {
+    "id": "context_29",
+    "title": "Our Jane Austen Obsession",
+    "interviewee": "Dr. Ann Campbell",
+    "date": "2023-08-23",
+    "url": "/assets/data/transcripts/context_29.json"
+  },
+  {
+    "id": "context_30",
+    "title": "Pioneering the History of Iranian Dance",
+    "interviewee": "Dr. Ida Meftah",
+    "date": "2023-07-05",
+    "url": "/assets/data/transcripts/context_30.json"
+  },
+  {
+    "id": "context_32",
+    "title": "Rethinking the History of Abolition in the U.S. PT 1",
+    "interviewee": "Marie Stango",
+    "date": "2023-03-17",
+    "url": "/assets/data/transcripts/context_32.json"
+  },
+  {
+    "id": "context_34",
+    "title": "African Americans in Gold Rush California PT 1",
+    "interviewee": "Susan Anderson",
+    "date": "2023-02-17",
+    "url": "/assets/data/transcripts/context_34.json"
+  },
+  {
+    "id": "context_35",
+    "title": "Making History: An Idaho Story",
+    "interviewee": "Dr. Becca Scofield",
+    "date": "2022-12-09",
+    "url": "/assets/data/transcripts/context_35.json"
+  },
+  {
+    "id": "context_36",
+    "title": "Making History",
+    "interviewee": "Dr. Becca Scofield",
+    "date": "2022-12-02",
+    "url": "/assets/data/transcripts/context_36.json"
+  },
+  {
+    "id": "context_38",
+    "title": "Pushed Out PT 1",
+    "interviewee": "Dr. Ryanne Pilgeram",
+    "date": "2022-11-18",
+    "url": "/assets/data/transcripts/context_38.json"
+  },
+  {
+    "id": "context_39",
+    "title": "Third Parties",
+    "interviewee": "Dr. Markie McBrayer",
+    "date": "2022-11-11",
+    "url": "/assets/data/transcripts/context_39.json"
+  },
+  {
+    "id": "context_40",
+    "title": "Political Parties",
+    "interviewee": "Dr. Markie McBrayer",
+    "date": "2022-11-04",
+    "url": "/assets/data/transcripts/context_40.json"
+  },
+  {
+    "id": "context_42",
+    "title": "The American Dream PT 1",
+    "interviewee": "Raffi Andonian",
+    "date": "2022-10-21",
+    "url": "/assets/data/transcripts/context_42.json"
+  },
+  {
+    "id": "context_44",
+    "title": "An Afro-Indigenous History of the United States PT 1",
+    "interviewee": "Kyle T. Mays",
+    "date": "2022-10-07",
+    "url": "/assets/data/transcripts/context_44.json"
+  },
+  {
+    "id": "context_46",
+    "title": "The American Landscape PT 1",
+    "interviewee": "Adam Sowards",
+    "date": "2022-09-23",
+    "url": "/assets/data/transcripts/context_46.json"
+  },
+  {
+    "id": "context_48",
+    "title": "S3E19 Myths & Heroes: Challenging the Narratives of Native American History Part 3",
+    "interviewee": "Dr. Liz Redd",
+    "date": "2022-09-10",
+    "url": "/assets/data/transcripts/context_48.json"
+  },
+  {
+    "id": "context_49",
+    "title": "S3E18 Myths & Heroes: Challenging the Narratives of Native American History Part 2",
+    "interviewee": "Dr. Liz Redd",
+    "date": "2022-09-09",
+    "url": "/assets/data/transcripts/context_49.json"
+  },
+  {
+    "id": "context_50",
+    "title": "S3E17 Myths & Heroes: Challenging the Narratives of Native American History Part 1",
+    "interviewee": "Dr. Liz Redd",
+    "date": "2022-09-08",
+    "url": "/assets/data/transcripts/context_50.json"
+  },
+  {
+    "id": "context_51",
+    "title": "S3E16 80 Years of Reckoning: Minidoka Survivors and Descendants Panel Discussion",
+    "interviewee": "Paul Tomita; Mary Abo; Karen Hirai Olen; Wendy Tokuda; Stephen Kitajo",
+    "date": "2022-08-29",
+    "url": "/assets/data/transcripts/context_51.json"
+  },
+  {
+    "id": "context_52",
+    "title": "S3E15 80 Year of Reckoning: Multigenerational Trauma ofJapanese American Incarceration",
+    "interviewee": "Dr. Donna Nagata",
+    "date": "2022-08-17",
+    "url": "/assets/data/transcripts/context_52.json"
+  },
+  {
+    "id": "context_53",
+    "title": "S3E14 80 Years of Reckoning: Minidoka National Historic Site",
+    "interviewee": "Kurt Ikeda",
+    "date": "2022-08-10",
+    "url": "/assets/data/transcripts/context_53.json"
+  },
+  {
+    "id": "context_55",
+    "title": "S3E12 Changing Face of Media in Idaho",
+    "interviewee": "Don Day; Clint Schroeder; Christina Lords; Bill Manny",
+    "date": "2022-06-15",
+    "url": "/assets/data/transcripts/context_55.json"
+  },
+  {
+    "id": "context_56",
+    "title": "S3E12 La cara cambiante de los medios en Idaho",
+    "interviewee": "Don Day; Clint Schroeder; Christina Lords; Bill Manny",
+    "date": "2022-06-15",
+    "url": "/assets/data/transcripts/context_56.json"
+  },
+  {
+    "id": "context_57",
+    "title": "S3E11 Why Do We See Media As Polarizing?",
+    "interviewee": "Bill Manny; Maria Hinojosa; Mark Trehant",
+    "date": "2022-06-07",
+    "url": "/assets/data/transcripts/context_57.json"
+  },
+  {
+    "id": "context_58",
+    "title": "S3E11 ¿Son los medios polarizantes?",
+    "interviewee": "Bill Manny; Maria Hinojosa; Mark Trehant",
+    "date": "2022-06-07",
+    "url": "/assets/data/transcripts/context_58.json"
+  },
+  {
+    "id": "context_59",
+    "title": "S3E10 Voting in the 21st Century",
+    "interviewee": "Dr. Caroline Heldman; Dr. David Gray Alder; Dr. Lara Brown",
+    "date": "2022-06-01",
+    "url": "/assets/data/transcripts/context_59.json"
+  },
+  {
+    "id": "context_60",
+    "title": "S3E9 The Electoral College",
+    "interviewee": "Dr. David Alder; Dr. Lori Cox Han",
+    "date": "2022-05-23",
+    "url": "/assets/data/transcripts/context_60.json"
+  },
+  {
+    "id": "context_61",
+    "title": "S3E8 Voter Apathy & Disenfranchisement",
+    "interviewee": "Dr. Caroline Heldman; Dr. David Gray Alder",
+    "date": "2022-05-14",
+    "url": "/assets/data/transcripts/context_61.json"
+  },
+  {
+    "id": "context_62",
+    "title": "S3E7 Voting Issues in the Gem State",
+    "interviewee": "Dr. Jaclyn Kettler; Dr. Jeff Lyons; Dr. Steve Utych",
+    "date": "2022-05-05",
+    "url": "/assets/data/transcripts/context_62.json"
+  },
+  {
+    "id": "context_63",
+    "title": "S3E6 What does it mean to be a citizen?",
+    "interviewee": "Dr. Caroline Heldman; Dr. David Gray Alder; Dr. Lara Brown",
+    "date": "2022-04-26",
+    "url": "/assets/data/transcripts/context_63.json"
+  },
+  {
+    "id": "context_64",
+    "title": "S3E5 The Role of the Judiciary in Idaho to form a More Perfect Union",
+    "interviewee": "Dr. Joseph Meier; Dr. Randy Smith; Dr. Steve Kenyon",
+    "date": "2022-04-20",
+    "url": "/assets/data/transcripts/context_64.json"
+  },
+  {
+    "id": "context_66",
+    "title": "S3E4 How to Hide an Empire: Telling the Story of the Greater United States",
+    "interviewee": "Daniel Immerwahr",
+    "date": "2022-03-23",
+    "url": "/assets/data/transcripts/context_66.json"
+  },
+  {
+    "id": "context_67",
+    "title": "S3E3 The Atlas of Drowned Towns: Recovering the Histories of Places Lost To Dam Construction",
+    "interviewee": "Bob H. Reinhardt",
+    "date": "2022-03-09",
+    "url": "/assets/data/transcripts/context_67.json"
+  },
+  {
+    "id": "context_68",
+    "title": "S3E2 Images of Sacajawea: The Lewis & Clark Expedition, Suffragettes, and Modern-day Representations",
+    "interviewee": "Suzy Avery; Mike Crosby",
+    "date": "2022-02-08",
+    "url": "/assets/data/transcripts/context_68.json"
+  },
+  {
+    "id": "context_69",
+    "title": "S3E1 Restoring the Wetxuuwíitin’ Collection",
+    "interviewee": "Nakia Williamson-Cloud; Trevor Bond",
+    "date": "2022-01-25",
+    "url": "/assets/data/transcripts/context_69.json"
+  },
+  {
+    "id": "context_70",
+    "title": "S2E16 The End of the Cold War and American Culture",
+    "interviewee": "Dr. Sarah Robey",
+    "date": "2021-10-19",
+    "url": "/assets/data/transcripts/context_70.json"
+  },
+  {
+    "id": "context_71",
+    "title": "S2E15 Reflecting on Rosa Parks + Producing Scholarship & Art in the 21st Century",
+    "interviewee": "David Langhorst; Riché Richardson",
+    "date": "2021-10-05",
+    "url": "/assets/data/transcripts/context_71.json"
+  },
+  {
+    "id": "context_72",
+    "title": "S2E14 The Life of John Denver",
+    "interviewee": "Robert Santelli",
+    "date": "2021-09-27",
+    "url": "/assets/data/transcripts/context_72.json"
+  },
+  {
+    "id": "context_73",
+    "title": "S2E13 The Battle of the Alamo in Mexican, Texan, and United States History",
+    "interviewee": "Jesús F. “Frank” de la Teja",
+    "date": "2021-08-24",
+    "url": "/assets/data/transcripts/context_73.json"
+  },
+  {
+    "id": "context_74",
+    "title": "S2E12 Gilles, Giants, and Dragons, Oh My!: The Reinvention of Folkloric Festivals in Belgium",
+    "interviewee": "Dr. Erik Hadley",
+    "date": "2021-07-27",
+    "url": "/assets/data/transcripts/context_74.json"
+  },
+  {
+    "id": "context_75",
+    "title": "S2E11 Culture, Climate, and the Agricultural Transition in Northeastern Utah’s Uintah Basin: The Cub Creek Fremont in Dinosaur National Monument",
+    "interviewee": "Judson Finley",
+    "date": "2021-07-13",
+    "url": "/assets/data/transcripts/context_75.json"
+  },
+  {
+    "id": "context_76",
+    "title": "S2E10 Selling Things and Selling Sex: Archaeological Explorations of Sandpoint, Idaho",
+    "interviewee": "Dr. Mark Warner",
+    "date": "2021-06-29",
+    "url": "/assets/data/transcripts/context_76.json"
+  },
+  {
+    "id": "context_77",
+    "title": "S2E9 History of Stonewall",
+    "interviewee": "Park Ranger Anne Stanley",
+    "date": "2021-06-17",
+    "url": "/assets/data/transcripts/context_77.json"
+  },
+  {
+    "id": "context_78",
+    "title": "S2E8 Godzilla and the Imagination of Anxiety, from Hiroshima to COVID-19",
+    "interviewee": "Lisa M. Brady; Bill Tsutsui",
+    "date": "2021-05-18",
+    "url": "/assets/data/transcripts/context_78.json"
+  },
+  {
+    "id": "context_79",
+    "title": "S2E7 Working Together Before, During, and After the Progressive Era: The Legacy of Women’s Clubs in Idaho",
+    "interviewee": "HannaLore Hein",
+    "date": "2021-05-03",
+    "url": "/assets/data/transcripts/context_79.json"
+  },
+  {
+    "id": "context_80",
+    "title": "S2E6 History of Vaccines",
+    "interviewee": "Laura Jenski",
+    "date": "2021-04-20",
+    "url": "/assets/data/transcripts/context_80.json"
+  },
+  {
+    "id": "context_81",
+    "title": "S2E5 The Nazi Rise to Power and The Consolidation of Power, 1918-1938",
+    "interviewee": "Dr. Peter Black",
+    "date": "2021-04-06",
+    "url": "/assets/data/transcripts/context_81.json"
+  },
+  {
+    "id": "context_82",
+    "title": "S2E4 Rural Land in Idaho",
+    "interviewee": "Dr. Jodi Brandt;  Dr. Rebecca Som Castellano",
+    "date": "2021-03-23",
+    "url": "/assets/data/transcripts/context_82.json"
+  },
+  {
+    "id": "context_83",
+    "title": "S2E3 Basque History in the Western US",
+    "interviewee": "Annie Gavica",
+    "date": "2021-03-09",
+    "url": "/assets/data/transcripts/context_83.json"
+  },
+  {
+    "id": "context_84",
+    "title": "S2E2 From Alcatraz to Mauna Kea",
+    "interviewee": "Dr. Erik Hadley",
+    "date": "2021-02-23",
+    "url": "/assets/data/transcripts/context_84.json"
+  },
+  {
+    "id": "context_85",
+    "title": "S2E1 The History of Presidential Inaugurations",
+    "interviewee": "Matthew Miles",
+    "date": "2021-01-12",
+    "url": "/assets/data/transcripts/context_85.json"
+  },
+  {
+    "id": "context_86",
+    "title": "S1E24 The History of Wallace, Idaho",
+    "interviewee": "Shauna Hillman",
+    "date": "2020-12-01",
+    "url": "/assets/data/transcripts/context_86.json"
+  },
+  {
+    "id": "context_87",
+    "title": "S1E23 Archie Boyd Teater: Art, Architecture, Artifacts & Archives",
+    "interviewee": "Chelsee Boehm; Lester Taylor; Henry Whiting",
+    "date": "2020-11-17",
+    "url": "/assets/data/transcripts/context_87.json"
+  },
+  {
+    "id": "context_88",
+    "title": "S1E22 Women in Art during the Renaissance and Reformation",
+    "interviewee": "Lisa McClain",
+    "date": "2020-11-10",
+    "url": "/assets/data/transcripts/context_88.json"
+  },
+  {
+    "id": "context_89",
+    "title": "S1E21 Discovering Vardis Fisher’s Boise: Reexamining Idaho and the Federal Writers Project",
+    "interviewee": "Alex Meregaglia",
+    "date": "2020-10-27",
+    "url": "/assets/data/transcripts/context_89.json"
+  },
+  {
+    "id": "context_90",
+    "title": "S1E20 A Discussion on the Arts and the Humanities",
+    "interviewee": "Michael Faison",
+    "date": "2020-10-20",
+    "url": "/assets/data/transcripts/context_90.json"
+  },
+  {
+    "id": "context_91",
+    "title": "S1E19 Fire's American Century",
+    "interviewee": "Steve Pyne",
+    "date": "2020-10-15",
+    "url": "/assets/data/transcripts/context_91.json"
+  },
+  {
+    "id": "context_92",
+    "title": "S1E18 A Dialogue on Independent Film led by Carole Skinner, co-owner of Boise’s Independent theater, The Flicks",
+    "interviewee": "Carole Skinner",
+    "date": "2020-10-13",
+    "url": "/assets/data/transcripts/context_92.json"
+  },
+  {
+    "id": "context_93",
+    "title": "S1E17 Victory and Triumph in Ancient Rome",
+    "interviewee": "Dr. Alyson Roy",
+    "date": "2020-10-06",
+    "url": "/assets/data/transcripts/context_93.json"
+  },
+  {
+    "id": "context_94",
+    "title": "S1E16 Approaching the US Constitution: Sacred Covenant or Plaything For Lawyers and Judges",
+    "interviewee": "Dr. Kerry Hunter",
+    "date": "2020-09-22",
+    "url": "/assets/data/transcripts/context_94.json"
+  },
+  {
+    "id": "context_95",
+    "title": "S1E15 Beyond Fake News: News Literacy and the Informed Citizen",
+    "interviewee": "Dr. Seth Ashley",
+    "date": "2020-09-15",
+    "url": "/assets/data/transcripts/context_95.json"
+  },
+  {
+    "id": "context_96",
+    "title": "S1E14 Seeking Suffrage: The Idaho Story",
+    "interviewee": "Katherine G. Aiken",
+    "date": "2020-09-01",
+    "url": "/assets/data/transcripts/context_96.json"
+  },
+  {
+    "id": "context_97",
+    "title": "S1E13 The Refugee Experience and Boise",
+    "interviewee": "Salome Mwangi",
+    "date": "2020-08-25",
+    "url": "/assets/data/transcripts/context_97.json"
+  },
+  {
+    "id": "context_98",
+    "title": "S1E12 The History of Idaho State Parks",
+    "interviewee": "Rick Just",
+    "date": "2020-08-18",
+    "url": "/assets/data/transcripts/context_98.json"
+  },
+  {
+    "id": "context_99",
+    "title": "S1E11 Native Women Writers and Colonial Domesticity at the Federal Indian Boarding Schools",
+    "interviewee": "Dr. Amanda Zink",
+    "date": "2020-08-11",
+    "url": "/assets/data/transcripts/context_99.json"
+  }
+]

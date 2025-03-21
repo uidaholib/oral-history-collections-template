@@ -1,0 +1,1795 @@
+{
+  "title": "S1E9 How INL is Changing the Future of Nuclear Energy",
+  "interviewee": "Ryan Weeks",
+  "interviewer": "Doug Exton",
+  "date": "2020-07-28",
+  "subjects": [
+    "nuclear physics",
+    "nuclear reactors",
+    "educational functions",
+    "laboratories (buildings)"
+  ],
+  "segments": [
+    {
+      "id": "context_101_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_101_1",
+      "index": 1,
+      "speaker": "Doug Exton",
+      "words": "All righty. Thank you so much for joining us for tonight's Connected Conversation. A program conducted by the Idaho Humanities Council. If you're not familiar with our organization, I encourage you to check out our website, Idaho humanities.org. Like to remind you all that you may submit any questions using the Q&A feature located at the bottom of the screen. With me tonight is Ryan Weeks from the Idaho National Lab.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_101_2",
+      "index": 2,
+      "speaker": "Doug Exton",
+      "words": "It's an honor to have you with us tonight. And I turn it over to you, Ryan.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:30:06]"
+    },
+    {
+      "id": "context_101_3",
+      "index": 3,
+      "speaker": "Ryan Weeks",
+      "words": "Awesome. Thanks, Doug. Thanks for inviting me in. Giving me an opportunity to share a few minutes with you, tonight. I will, give you a little, precursor. So, I'm representing Idaho, National Laboratory, tonight, but my degree is in communications. When people think of National Laboratory, they think of engineers and, scientist.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:00:38:07]"
+    },
+    {
+      "id": "context_101_4",
+      "index": 4,
+      "speaker": "Ryan Weeks",
+      "words": "So my degree is in communications. So I'm going to give you, a brief overview of you things. And my role with, Idaho National Laboratory is usually giving tours. So what we do with tours is we will bring groups, of people out to the laboratory, put you in a bus and take you out to these facilities, usually take 6 or 7 hours.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:05:15]"
+    },
+    {
+      "id": "context_101_5",
+      "index": 5,
+      "speaker": "Ryan Weeks",
+      "words": "And that is an appropriate amount of time to really tell our story. But, tonight I've got about 30 or so minutes to share that with you. So I'm just going to cram a whole bunch of information into that 30 minutes. And then, at the end, we're going to have some time, for questions and things like that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:26:12]"
+    },
+    {
+      "id": "context_101_6",
+      "index": 6,
+      "speaker": "Ryan Weeks",
+      "words": "So but, when I, when I start talking about nuclear energy and things like that, remember, I'm a communications guy. So. All right, so let's go ahead and get started here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:45:01]"
+    },
+    {
+      "id": "context_101_7",
+      "index": 7,
+      "speaker": "Ryan Weeks",
+      "words": "All right. So, a presentation tonight, how, INL is changing the future of nuclear energy. So how Idaho National Laboratory is changing the future of nuclear energy. And for those of you that aren't, familiar with Idaho National Laboratory, I'm sure, quite a few of you on this, presentation have heard of, us. But, just to give you a little background, there are 17 national laboratories in the United States.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:07:01]"
+    },
+    {
+      "id": "context_101_8",
+      "index": 8,
+      "speaker": "Ryan Weeks",
+      "words": "So we're one of those 17 and we're what you call a multi-mission national laboratory. So what that means is that we have more than one focus, at our national lab. So if you look right next to us over here in Colorado, there's the National Renewable Energy Laboratory. That's all they do. All they do is renewable energy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:33:12]"
+    },
+    {
+      "id": "context_101_9",
+      "index": 9,
+      "speaker": "Ryan Weeks",
+      "words": "But we're a multi-mission. So what that means is we have different directorates and different areas where we do our research and our work. So the one that we're known most for is, nuclear energy. And that's what we'll talk about most tonight. But we also do a significant amount of work with national and homeland security, specifically in, in cybersecurity and wireless technologies there.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:02:52:06]"
+    },
+    {
+      "id": "context_101_10",
+      "index": 10,
+      "speaker": "Ryan Weeks",
+      "words": "And then we also, our third directorate is Energy and Environment, Science and Technology. So when we're talking about energy and environment, we're talking about, clean energy sources, batteries, electric vehicles, biomass, microgrids, that kind of work. So even though we're known for our nuclear background, we do a whole lot more, than just nuclear. So our mission, our vision, I'll share with you, just real quickly, every organization has one of these, but I, I love ours.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:15:04]"
+    },
+    {
+      "id": "context_101_11",
+      "index": 11,
+      "speaker": "Ryan Weeks",
+      "words": "We look at Imls vision, I know will change the world's energy future and secure our critical infrastructure. So securing our critical infrastructure, that's the work that we do with cybersecurity and homeland security, but changing the world's energy future. How do you do that? And our mission is to discover, demonstrate and secure innovative nuclear energy solutions, clean energy options and critical infrastructure.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:44:17]"
+    },
+    {
+      "id": "context_101_12",
+      "index": 12,
+      "speaker": "Ryan Weeks",
+      "words": "So demonstrating and securing innovative nuclear energy solutions. What does that mean? And that is that is what we'll talk about tonight. And how do we tie that in with other clean energies. And and also securing a critical infrastructure. So before we go into the future of AML and nuclear energy, I want to talk about the past, for just a few minutes in order to understand our future.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:09:06]"
+    },
+    {
+      "id": "context_101_13",
+      "index": 13,
+      "speaker": "Ryan Weeks",
+      "words": "It's it's good to get an idea of the past of I know, and this timeline that you're seeing on this slide, it really gives you, actually an 80 year history of not just nuclear energy, but nuclear research. In the United States. So you can see in 19, 42, the very first self-sustaining chain reaction, the very first reactor was a Chicago pile, number one.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:04:32:12]"
+    },
+    {
+      "id": "context_101_14",
+      "index": 14,
+      "speaker": "Ryan Weeks",
+      "words": "That's when they first, were able to to vision an atom and have that sustaining chain reaction. Now, in 1942, the focus and all through world War two, the focus was on weapons and explosives and devices and things like that. Their goal was to end the war. So there was a big focus on on weapons production, in the early days of nuclear.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:04:59:08]"
+    },
+    {
+      "id": "context_101_15",
+      "index": 15,
+      "speaker": "Ryan Weeks",
+      "words": "But after World War Two ended, about half of those scientists stuck with the nuclear program or, sorry, with the weapons program. The other half wanted to look, at more peaceful applications for this technology. What else can we do with nuclear? More specifically, they wanted to look at can we use this to produce electricity? And they had the ideas.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:05:21:23]"
+    },
+    {
+      "id": "context_101_16",
+      "index": 16,
+      "speaker": "Ryan Weeks",
+      "words": "They were pretty sure that they could. But what they wanted to do is build and demonstrate some test reactors to find out if the ideas that they had were actually something that were, there were plausible things that they could do. And a lot of these scientists, they were from bigger cities. Chicago was a big, player in the early days.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:05:44:00]"
+    },
+    {
+      "id": "context_101_17",
+      "index": 17,
+      "speaker": "Ryan Weeks",
+      "words": "And when they started talking about building a bunch of test reactors, they thought, well, you know what? Maybe the suburbs of Chicago are not the best, not the best place to do this. And so they formed what was called the Atomic Energy Commission, and it was their job to go out and find some place in the United States that had a whole lot of space, not a lot of people someplace where they could build and demonstrate these reactors.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:06:02:13]"
+    },
+    {
+      "id": "context_101_18",
+      "index": 18,
+      "speaker": "Ryan Weeks",
+      "words": "And that's where Idaho comes into the picture. They selected the Arco Desert in 1949 as the national reactor testing station. So that's important to know because Idaho National Laboratory has never been a weapons laboratory. We've always been focused on energy and peaceful applications, for this technology. But in 1949, as a national reactor testing station, it really was this idea that if you had some sort of concept, some idea, you could come out and you could build and you could test it out here.",
+      "tags": [
+        "conflict",
+        "education"
+      ],
+      "timestamp": "[00:06:22:02]"
+    },
+    {
+      "id": "context_101_19",
+      "index": 19,
+      "speaker": "Ryan Weeks",
+      "words": "So there were a lot of different organizations and groups and, and laboratories that were testing out here. So, the Navy for one, this is, this is where they built the first prototype for nuclear submarines and aircraft carriers. The Army was looking at mobile reactors that they could maybe put on the back of a truck and, you know, put in remote areas like Alaska to power bases and stations, in these remote areas, the Air Force was out here trying to build nuclear powered airplanes, the very first reactor that was built at Idaho National Laboratory.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:52:18]"
+    },
+    {
+      "id": "context_101_20",
+      "index": 20,
+      "speaker": "Ryan Weeks",
+      "words": "It was built by Argonne National Lab, because we weren't called INL back then, but it was the experimental Breeder Reactor one. And that happened, they built it in 1949, but in 1951, they produced enough electricity to light a string of four light bulbs. That was the first usable amount of electricity ever produced by a nuclear reactor.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:26:10]"
+    },
+    {
+      "id": "context_101_21",
+      "index": 21,
+      "speaker": "Ryan Weeks",
+      "words": "So this is where we first proved that you could use a reactor to produce electricity. And so they did that, the very next day they produced and of electricity light the entire building. And since then we've actually built 52 reactors. And in 71 years we've been here for 71 years. And in those 71 years, we built and demonstrated 51 or, sorry, 52 reactors.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:45:18]"
+    },
+    {
+      "id": "context_101_22",
+      "index": 22,
+      "speaker": "Ryan Weeks",
+      "words": "And. When we talk about why we built so many reactors, they're all test reactors. We only had a handful of them that ever produced electricity. But all of the safety standards that went into the nuclear industry in the United States, you know, a lot of those came from what we did at Idaho National Laboratory. So you can see from the pictures there were some, different tests that we did, but we wanted to find out what would actually happen if you had a steam explosion.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:08:10:17]"
+    },
+    {
+      "id": "context_101_23",
+      "index": 23,
+      "speaker": "Ryan Weeks",
+      "words": "What would happen if you melted down the core of your reactor? What would happen if your reactor lost its, lost its fluid? So in order to understand these things, they did these tests and you know that from those tests came all of the safety standards that went into, the nuclear industry.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:39:16]"
+    },
+    {
+      "id": "context_101_24",
+      "index": 24,
+      "speaker": "Ryan Weeks",
+      "words": "What that also did, is that created a nuclear energy test bed. So what we have today, we have the capabilities to use these reactors, to use our history, to test things. So the for some we have for operating reactors. Now, some of those 52 reactors, we have four that are still operating, and they're all test reactors, like the Transient Reactor Test Facility.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:09:01:00]"
+    },
+    {
+      "id": "context_101_25",
+      "index": 25,
+      "speaker": "Ryan Weeks",
+      "words": "We call that the treat reactor. That is, a transient, test reactor. What that means is if you want to design a new fuel, say it's an accident tolerant fuel, you want to design a new fuel that can withstand an accident. You have to be able to test that accident somehow. So what we do is we put it in that the fuel in the treat reactor, we hit it with a huge amount of energy and we try to destroy that fuel.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:24:20]"
+    },
+    {
+      "id": "context_101_26",
+      "index": 26,
+      "speaker": "Ryan Weeks",
+      "words": "So whether we're going to melt it, you know, vaporize it, basically destroy it. But if it survives, then we know we've got an accident on our fuel. So you have to be able to, create that accident environment. The advanced test reactor, largest test reactor in the world. That one is, it's really learning how to age materials in a short amount of time.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:51:22]"
+    },
+    {
+      "id": "context_101_27",
+      "index": 27,
+      "speaker": "Ryan Weeks",
+      "words": "So if you want to figure out what 50 years of irradiation is going to do to a certain material, you can put it in the advanced test reactor in just a couple of years. You can have, you know, 50 years worth of neutrons damaging that material. So to give you, a comparison, for those of you without a nuclear background, what that might mean, say, if you're in the auto industry and you have a new car, if you want to see what happens to that car when you slam it into a concrete wall, that would be like the treat reactor.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:14:23]"
+    },
+    {
+      "id": "context_101_28",
+      "index": 28,
+      "speaker": "Ryan Weeks",
+      "words": "That's an accident scenario. If you want to figure out what that car is going to do after driving at 300,000 miles, that would be like putting something in the advanced test reactor. You know, going through that aging process. But what we don't have it, I know, is a fast reactor. A fast reactor is a reactor, a test reactor that's going to be used for a lot of advanced reactor designs that we'll get into a little bit later.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:45:18]"
+    },
+    {
+      "id": "context_101_29",
+      "index": 29,
+      "speaker": "Ryan Weeks",
+      "words": "But we had that capability up until 1993 with the Experimental Breeder Reactor two. When that was shut down, we lost that capability in the United States, there's actually a plan to rebuild, what's called a versatile test reactor, which will be a fast reactor, which will be another way to test advanced, reactor designs and fuels. We don't know for sure that that's going to be built at Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:09:23]"
+    },
+    {
+      "id": "context_101_30",
+      "index": 30,
+      "speaker": "Ryan Weeks",
+      "words": "We kind of think that, you know, that's the direction that we're headed. But, it's not official yet. So that will be just another, opportunity for us to have this particular testbed to do, all of those different tests. So, with the history. So in 1949, it was the national reactor testing station. It's gone through, a couple different name changes over the years.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:33:11]"
+    },
+    {
+      "id": "context_101_31",
+      "index": 31,
+      "speaker": "Ryan Weeks",
+      "words": "Sorry about that. But in 2005, what we did is we took that almost 50 years of experience, and we put that all under the same umbrella with all these different laboratories and contractors. And, we created the Idaho National Laboratory. And at that point we decided what is the future of Idaho National Laboratory going to be? And it's going to be advancing nuclear energy, securing and modernizing critical infrastructure, and enabling clean energy systems.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:01:12]"
+    },
+    {
+      "id": "context_101_32",
+      "index": 32,
+      "speaker": "Ryan Weeks",
+      "words": "So that leads us to the title of the presentation today, The Future of Nuclear Energy. So recently, Congress designated Idaho National Laboratory as the National Reactor Innovation Center. So what does that mean? Well, for me, in my head, this is like National Reactor Testing Station part two, where if you have an idea, or concept, you can come here and you can you can get the help that you need to to prove that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:26:09]"
+    },
+    {
+      "id": "context_101_33",
+      "index": 33,
+      "speaker": "Ryan Weeks",
+      "words": "So there's three, technology levels. There's the first one, proof of concept. We got all these ideas, industry, universities, they can come in with ideas. We got to decide. Okay. Is that an idea? Good one. Is that actually feasible? Is that something that will work once you pass through that? Then the next, level would be the proof of performance.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:53:13]"
+    },
+    {
+      "id": "context_101_34",
+      "index": 34,
+      "speaker": "Ryan Weeks",
+      "words": "Let's do some modeling, some simulation. Let's start doing some test. Let's irradiate some materials. Let's validate some data. So is this actually a thing that could that could possibly work. And then the last level would be actually building it and demonstrating that reactor. So you can do all of the research that you want in the laboratories and on computers and modeling and simulation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:13:02]"
+    },
+    {
+      "id": "context_101_35",
+      "index": 35,
+      "speaker": "Ryan Weeks",
+      "words": "But until you actually build the reactor and you operate it, we don't know if it's it's if it's going to actually work the way that we planned. So that is, really our, our bread and butter there is building and demonstrating. And that's what we've been doing over our 70 year history. And so one of the ways that we are bringing these innovations into, to INL is through a program called Gain Gateway for Accelerated Innovation in Nuclear.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:32:18]"
+    },
+    {
+      "id": "context_101_36",
+      "index": 36,
+      "speaker": "Ryan Weeks",
+      "words": "And with this, this is really if you have an idea like an industry university, utilities, other partnerships. This is really giving them access to the national laboratory system so they can bring those ideas. And we can we can flush them out. We can test it out and see, you know, maybe if they need some extra funding, things like that, that, that we can actually move forward on some of these ideas and on advanced reactors, fuels and designs.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:14:01:12]"
+    },
+    {
+      "id": "context_101_37",
+      "index": 37,
+      "speaker": "Ryan Weeks",
+      "words": "So let's talk about advanced reactors. What does that even mean? So the future of nuclear reactors, what do they look like? Here's a picture of a control room. When we build these new reactors, are they going to have the old dials and toggle switches and, and things that they had the, the current reactors have that were built in the 50s, 60s and 70s and 80s, they're not.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:29:19]"
+    },
+    {
+      "id": "context_101_38",
+      "index": 38,
+      "speaker": "Ryan Weeks",
+      "words": "So, you know, how are we going to do that? This is a, version of a digital control room. So let's look at a digital control room. How does that going to work with a with a reactor? What are the cybersecurity concerns with the digital control? How reliable is that? So we've got to flush all those things out.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:51:00]"
+    },
+    {
+      "id": "context_101_39",
+      "index": 39,
+      "speaker": "Ryan Weeks",
+      "words": "And so we have you know, a team that's dedicated just to that, looking at advanced fuels. So this little fuel down here at the bottom of the screen that's called trace of fuel. And that thing is only about as big as the lead on your pencil. A little teeny tiny piece of fuel. So a little teeny tiny piece of uranium about the size of a poppy seed that's surrounded by a couple layers of cladding.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:08:00]"
+    },
+    {
+      "id": "context_101_40",
+      "index": 40,
+      "speaker": "Ryan Weeks",
+      "words": "So that and that makes it, you know, that's just a safer fuel design. You know, a lot of commercial reactors, they have these big fuel rods where if the if the cladding gets damaged, then you're exposing all that fuel. So having a little teeny tiny little poppy seed fuel or if that gets damaged that's, you know, less of a concern.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:30:09]"
+    },
+    {
+      "id": "context_101_41",
+      "index": 41,
+      "speaker": "Ryan Weeks",
+      "words": "Another one. This is a really cool story. It looks like, just a pile of yellow laundry detergent. But that is Halo. Halo stands for high AC, low enriched uranium. And it's a cool story because what we're doing is, this dome down here, that was the experimental breeder Reactor two. It operated for 30 years. Produce about a third of the electricity for, for the site, for those years when it was operating.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:49:08]"
+    },
+    {
+      "id": "context_101_42",
+      "index": 42,
+      "speaker": "Ryan Weeks",
+      "words": "But the fuel that was used, the debris had just been sitting basically in storage, waiting for, a place, a national repository where it would be, stored. So basically, it's spent fuel is considered waste. But what we've done is we've taken that a fuel and we have blended it down into this high, I say low enriched uranium.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:16:08]"
+    },
+    {
+      "id": "context_101_43",
+      "index": 43,
+      "speaker": "Ryan Weeks",
+      "words": "And that is now a feedstock for these advanced reactors, a feedstock that they can use for fuel designs and for, fuel fabrication and things like that. To really test out these, new fuel ideas. So what we've done is we've taken what was waste, and we've turned it into a fuel source that reactors can actually operate off of.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:36:13]"
+    },
+    {
+      "id": "context_101_44",
+      "index": 44,
+      "speaker": "Ryan Weeks",
+      "words": "And then another thing right here, this DB2 dome, it still exists. The reactor was shut down in 1993. It's gone long. Gone. It's just an empty dome. But we have that dome and other facilities, where we can actually build what are called micro reactors. Small reactors. Put them in there, put them in a secure area, test them out and demonstrate them in places like, this dome and a couple other facilities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:57:09]"
+    },
+    {
+      "id": "context_101_45",
+      "index": 45,
+      "speaker": "Ryan Weeks",
+      "words": "So I've mentioned micro reactors and advanced reactors a little bit. So let's talk about those because they're really cool. First let's talk about small modular reactors. So for years every nuclear power plant in the United States was built one at a time where somebody had a plan, they got that plan approved, and then they built it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:21:08]"
+    },
+    {
+      "id": "context_101_46",
+      "index": 46,
+      "speaker": "Ryan Weeks",
+      "words": "And so each one of them are unique and different and individualized. The problem with that is they're also very expensive. The late the last two nuclear power plants in the United States have started building, and then they've been stalled because of financial problems. So how do you cut down, you know, the financial problems and of building new reactors?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:42:02]"
+    },
+    {
+      "id": "context_101_47",
+      "index": 47,
+      "speaker": "Ryan Weeks",
+      "words": "So with small modular reactors, the way that they're designed is pretty cool. Is, is it's actually not just one big reactor, but it's a set of 12 little reactors. And so you can have the entire 12 pack, or you can just have 1 or 2 depending on how much energy you need to produce. So one of these reactors can produce about 60MW of power.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:03:20]"
+    },
+    {
+      "id": "context_101_48",
+      "index": 48,
+      "speaker": "Ryan Weeks",
+      "words": "So in the energy world we say a one megawatt is about 800 houses. So if you've got 60MW, I am from Idaho Falls, so I could power, you know, all of the houses in Idaho Falls with one of these little reactors. So maybe if you're a city that only needs 2 or 3 of these, that's all you build.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:23:19]"
+    },
+    {
+      "id": "context_101_49",
+      "index": 49,
+      "speaker": "Ryan Weeks",
+      "words": "But if you need it all 12, then you can get up to the point where you're producing 720MW of power. But the, the other idea is that they're all tested. They're all licensed the same, so that you can build these in a factory, you could put them on a truck, you can truck them to the site, and you can assemble them on site.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:45:15]"
+    },
+    {
+      "id": "context_101_50",
+      "index": 50,
+      "speaker": "Ryan Weeks",
+      "words": "And they're all the same. They're all work at the same. They all, they're already approved. And that's really going to cut down, the cost of building. And you, a new nuclear reactor, a new power plant. Another one is micro reactors. Micro reactors are really cool. These are anywhere from 2 to 20MW. So little itty bitty reactors.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:06:02]"
+    },
+    {
+      "id": "context_101_51",
+      "index": 51,
+      "speaker": "Ryan Weeks",
+      "words": "But, there's a couple different applications. As you can see, all the logos on this slide. There's a lot of companies, a lot of organizations that are interested in demonstrating micro reactors. There's some defense applications. You can see this one here in the truck. The Department of Defense is looking into micro reactors because they have their bases and their stations.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:27:18]"
+    },
+    {
+      "id": "context_101_52",
+      "index": 52,
+      "speaker": "Ryan Weeks",
+      "words": "Often these in these countries, and sometimes they have to move and go different places. But one of the the most dangerous parts about that is with these bases is that they are trucking in diesel and diesel convoys are a big target. You know, if you take out a diesel convoy, then that's awesome. So it's extremely dangerous to be trucking diesel and so the thought is if we could have this small modular reactor or sorry, not small modular, this micro reactor that you put on the back of a truck that can provide you with all of your power, and your energy needs, and you're not trucking in all that diesel.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:47:15]"
+    },
+    {
+      "id": "context_101_53",
+      "index": 53,
+      "speaker": "Ryan Weeks",
+      "words": "And then when you need to leave, you can just put it back on the truck and you can move it. So that is a big interest with the Department of Defense. But you look at the commercial applications of that over here. This first picture is an example of that. That is Oklo. Oklo is a company that is, looking at micro reactors.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:24:00]"
+    },
+    {
+      "id": "context_101_54",
+      "index": 54,
+      "speaker": "Ryan Weeks",
+      "words": "And the thought here is, how can you use these commercially? So the best example I have is you think about Alaska. There are fishing villages, there's little communities. There's all over, you know, those little villages and communities that need power. And what are they doing right now? They're flying in diesel and they're running off generator. So not only is that terrible for the environment, but it's also very expensive.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:41:19]"
+    },
+    {
+      "id": "context_101_55",
+      "index": 55,
+      "speaker": "Ryan Weeks",
+      "words": "So if you can, you know, station one of these micro reactors in those villages and you can provide power for that without having to, to fly and all that diesel that is just adding another, you know, carbon free source of electricity that's reliable for those for those villages. And, the cool design here, Oklo is, is one that actually would be using the halo fuel that I, that I mentioned earlier coming from Ev2.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:04:20]"
+    },
+    {
+      "id": "context_101_56",
+      "index": 56,
+      "speaker": "Ryan Weeks",
+      "words": "But their design, the very top of this A-frame, is actually a community center. So we've looked at safety standards, everything that needs to go into securing these micro reactors, and they figure that they could build a community center right on top of the reactor. That's how safe it would be. So it's a really cool concept. Both of these are, there are plans already in place, as well as the small modular reactors, to build those.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:28:15]"
+    },
+    {
+      "id": "context_101_57",
+      "index": 57,
+      "speaker": "Ryan Weeks",
+      "words": "I know.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:54:07]"
+    },
+    {
+      "id": "context_101_58",
+      "index": 58,
+      "speaker": "Ryan Weeks",
+      "words": "So micro reactors and small modular reactors are really talking about energy production. So how what can we do with reactors beyond just producing, electricity? So there's, a concept here that we have what's called hybrid energy systems. So hybrid energy systems are an energy system that we work with the grid, and we try and figure out how do we get, you know, renewables like wind and solar to play well with base loads like nuclear is when the wind starts blowing and the and the sun starts shining and you're getting all that electricity, it doesn't make a whole lot of sense.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:58:04]"
+    },
+    {
+      "id": "context_101_59",
+      "index": 59,
+      "speaker": "Ryan Weeks",
+      "words": "Just a turn off your reactor and then hurry and turn it back on when the wind stops blowing. That's not great for the reactor. It's not great for the materials and the fuels and things like that. So what can you do? How do you make those two play well together? So the thought with this hybrid energy system is when the wind starts blow and the sun starts shining, you get that electricity that's being put on the grid is you can divert the heat and the, energy, the heat and the electricity from that nuclear reactor to do different things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:33:19]"
+    },
+    {
+      "id": "context_101_60",
+      "index": 60,
+      "speaker": "Ryan Weeks",
+      "words": "So maybe it is creating hydrogen, maybe it's doing water desalination. So you're cleaning water, maybe you're using that heat for new chemical processes or, you know, chemical companies use a lot of heat with their processes. Maybe you're making ammonia. There are a lot of different uses for that. But getting those base loads, and those, you know, intermittent, those renewable sources that are going back and forth to kind of play well together.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:02:10]"
+    },
+    {
+      "id": "context_101_61",
+      "index": 61,
+      "speaker": "Ryan Weeks",
+      "words": "And what does that look like? This is a picture of the laboratory where we're working on that. And what we've got here is we've got a real time digital simulator where we're hooked up with the National Renewable Energy Laboratory in Colorado, and we're receiving their real time wind and solar data. And then we've got a thermal loop which simulates the heat from a nuclear reactor.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:29:04]"
+    },
+    {
+      "id": "context_101_62",
+      "index": 62,
+      "speaker": "Ryan Weeks",
+      "words": "And then we're producing hydrogen over here. So how do we get that to work. And the reason why we focus on hydrogen is, a lot of industries use hydrogen. So it's used in fertilizer or it's used in, plastics. It's used in like steel production, a lot of different uses for hydrogen. And right now 95% of hydrogen is produced using natural gas.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:50:04]"
+    },
+    {
+      "id": "context_101_63",
+      "index": 63,
+      "speaker": "Ryan Weeks",
+      "words": "So if you are looking for a clean source of hydrogen, then doing that would be great. But also what that does is that gives us another revenue stream for our current fleet of nuclear reactors. Some of those are nuclear reactors are struggling financially. One that we're working with is the Davis Bessey power plant, where it's, it's either in bankruptcy or close to bankruptcy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:14:08]"
+    },
+    {
+      "id": "context_101_64",
+      "index": 64,
+      "speaker": "Ryan Weeks",
+      "words": "But if, you can add another purpose for that, another revenue stream while it's creating hydrogen, then you can keep that online and you can keep it producing electricity as well, because the more reactors that we shut down, we have to figure out how to replace those. And if we're not going to replace them with wind and solar, we're going to replace them with something that's, you know, has carbon emissions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:35:07]"
+    },
+    {
+      "id": "context_101_65",
+      "index": 65,
+      "speaker": "Ryan Weeks",
+      "words": "And so if we're serious about reducing the carbon emissions and the carbon impact in this country, the nuclear has to be part of the conversation. And, there's other parts of this lab, too. As I mentioned before, we do a lot of battery testing, wireless charging for electric vehicles, a lot of work that we can do. You know, how do you get wireless chargers?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:58:08]"
+    },
+    {
+      "id": "context_101_66",
+      "index": 66,
+      "speaker": "Ryan Weeks",
+      "words": "You know, if if they're online and they're creating spikes in the grid, how do you even that out? So there's a lot of different work that we do. With this hybrid energy system that if we had a little bit more time, we could go into detail with. But, it's it's some pretty exciting stuff. Other applications beyond just, power production and beyond, I guess this planet, as we have our space applications, we have we assemble what are called RPGs, radioisotope thermoelectric generators.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:19:07]"
+    },
+    {
+      "id": "context_101_67",
+      "index": 67,
+      "speaker": "Ryan Weeks",
+      "words": "And right here in this picture, that white, contraption that they're holding, that's a radioisotope thermoelectric generator. And what that does is that can power those deep space missions for NASA. For example, New Horizons, the food that flew by Pluto a couple of years ago was powered by, an RTG that we assembled here, at Idaho National Laboratory.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:51:11]"
+    },
+    {
+      "id": "context_101_68",
+      "index": 68,
+      "speaker": "Ryan Weeks",
+      "words": "Also, this is a picture of curiosity, the Mars rover that is on, Mars right now. And you can see back here, there's the RTG. You know, we assembled that one. We also, assembled one for perseverance. Perseverance is the next Mars rover, and it's actually, down, ready to be launched. Its launch window officially opens on the 30th of July.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:11:16]"
+    },
+    {
+      "id": "context_101_69",
+      "index": 69,
+      "speaker": "Ryan Weeks",
+      "words": "So just in the next two days, and it goes through about the middle of August, so that could be launching, any time within the next month. You know, it could be launching in a couple of days. So that's pretty cool. Other applications is we're looking at nuclear propulsion. So once you get into space, can you use nuclear to propel things, back and forth and to go different places?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:34:21]"
+    },
+    {
+      "id": "context_101_70",
+      "index": 70,
+      "speaker": "Ryan Weeks",
+      "words": "A new project that we just announced a couple days ago would be surface fission Power Systems. So what that means is, you know, can we put a reactor on the moon and use it to produce electricity if we're going to build a state space station or something like that up there? And then the next step would be Mars.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:57:15]"
+    },
+    {
+      "id": "context_101_71",
+      "index": 71,
+      "speaker": "Ryan Weeks",
+      "words": "Can we have power generation at Mars? So we're already thinking about the next step. And how are we going to get electricity and power up on those different planets? So that's pretty cool. And then, of course, I want to throw in partnering with Idaho. A big part of what we do is, is because of our relationship and our partnerships with Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:17:09]"
+    },
+    {
+      "id": "context_101_72",
+      "index": 72,
+      "speaker": "Ryan Weeks",
+      "words": "These are three buildings in our Idaho Falls campus the center for Advanced Energy Studies, the Cyber Core facility, and the Collaborative Computing Center. These are all Idaho owned buildings, and they're all partnerships with the University of Idaho, Boise State, and Idaho State University. So center for Advanced Energy Studies, is looking at, you know, materials testing, you know, renewable sources, geothermal, all kinds of things there.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:27:39:12]"
+    },
+    {
+      "id": "context_101_73",
+      "index": 73,
+      "speaker": "Ryan Weeks",
+      "words": "The collaborative computing center and cyber core were recently built. They just came online in October. But, I talked about homeland security and cyber core. You know, if these guys and ladies are, if these, researchers were anywhere else in the world, you'd call them hackers. But since they work for AI and other cyber researchers, but they're really looking at securing critical infrastructure, transportation pipelines, utilities, power plants, including nuclear power plants.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:08:19]"
+    },
+    {
+      "id": "context_101_74",
+      "index": 74,
+      "speaker": "Ryan Weeks",
+      "words": "And really, you know, doing that work there, some very, very important work. And then the collaborative computing center, and we do a lot with our supercomputers there. But one of the things when it comes to nuclear that you're going to do is when you are designing new nuclear reactors, there's a lot of modeling and simulation that's going to go into that before you ever even do a physical test.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:28:35:22]"
+    },
+    {
+      "id": "context_101_75",
+      "index": 75,
+      "speaker": "Ryan Weeks",
+      "words": "So we, recently installed, just a couple months ago, a supercomputer. It's called Sawtooth. When it was installed, it was the 37th fastest supercomputer in the world. So a lot of work there. And the universities can use those supercomputers. So what we're doing is we're building a pipeline. We're working with universities and professors, one for the nuclear industry, but also for cybersecurity, for engineering, for supercomputing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:55:23]"
+    },
+    {
+      "id": "context_101_76",
+      "index": 76,
+      "speaker": "Ryan Weeks",
+      "words": "Just building that pipeline to feed into the future of of, energy and what that looks like. So what is the future of, nuclear at Idaho National Laboratory? I think it's bright. I think it's exciting. You can see here those 52 reactors, that we built, how many reactors we've had operating by year back in the 60s and 70s.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:21:06]"
+    },
+    {
+      "id": "context_101_77",
+      "index": 77,
+      "speaker": "Ryan Weeks",
+      "words": "It was really exciting. We had a bunch of reactors operating then during the early 90s through the 2000, we just had the three that were that we maintain and we operated. In 2017, we brought the Treat reactor, the one that does the accident testing online. And really, the future is exciting with the micro reactors, the, the small modular reactors, the other things that we're doing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:44:23]"
+    },
+    {
+      "id": "context_101_78",
+      "index": 78,
+      "speaker": "Ryan Weeks",
+      "words": "The future is really exciting, and we're hoping to build and demonstrate and get back to what we do best, building and demonstrating reactors and hopefully, you know, changing the energy future and and improving, you know, life on this planet. So anyway, that is the that is the future. If you have any questions, I guess right now would be the time that we, that we open up for that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:08:00]"
+    },
+    {
+      "id": "context_101_79",
+      "index": 79,
+      "speaker": "Ryan Weeks",
+      "words": "I'll turn it back to Doug for that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:32:09]"
+    },
+    {
+      "id": "context_101_80",
+      "index": 80,
+      "speaker": "Doug Exton",
+      "words": "Yeah. Thank you for a very informative presentation. I do not know anything that you're talking about. So I learned a lot. Now we have two questions. The first one is, are you as the angel involved in recycling batteries at all?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:35:07]"
+    },
+    {
+      "id": "context_101_81",
+      "index": 81,
+      "speaker": "Ryan Weeks",
+      "words": "We do, a little bit. But what our focus on when we talk about recycling, what we're looking at is rare earth metals. So right now we're getting the majority of our rare earth metals from China. The United States is. And so rare earth metals go in all kinds of things, like windmills. You know, they can go into jet pilots, you know, all kinds of stuff.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:30:53:23]"
+    },
+    {
+      "id": "context_101_82",
+      "index": 82,
+      "speaker": "Ryan Weeks",
+      "words": "So we're looking at different recycling technologies, not just for batteries, but for for rare earth metals. Now, if we could like electric vehicle batteries, if we could use them for grid storage, you know, we're looking at that, you know, maybe instead of recycling them, we just pile on into a shed next to, wind farm and use them for grid storage.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:31:14:04]"
+    },
+    {
+      "id": "context_101_83",
+      "index": 83,
+      "speaker": "Ryan Weeks",
+      "words": "So, yeah, there's there's some different applications there. It's not one of our major focuses, but we're definitely involved in that a little bit.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:33:23]"
+    },
+    {
+      "id": "context_101_84",
+      "index": 84,
+      "speaker": "Doug Exton",
+      "words": "Nice. And then, what is the situation with and fuels.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:40:16]"
+    },
+    {
+      "id": "context_101_85",
+      "index": 85,
+      "speaker": "Ryan Weeks",
+      "words": "Spent fuels. So that's, that's fun to talk about. Everybody wants to know that. So, it's really it's a political decision. We have proven since the early, you know, 60s and 70s that we can recycle fuel, but it turns out that that's not the most economical thing to do. And so a lot of a lot of, you know, we don't do it in the United States.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:46:21]"
+    },
+    {
+      "id": "context_101_86",
+      "index": 86,
+      "speaker": "Ryan Weeks",
+      "words": "France recycles fuel. So it's really a decision of the nation. Are we going to build a national repository somewhere? Right now, commercial fuel is being stored on site with the reactors, and it's fine there. It's been there for years. It could be there for more years. But until the nation decides if we're going to go the direction of recycling or if we're going to go the direction of actually having a national repository to store it.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:32:12:05]"
+    },
+    {
+      "id": "context_101_87",
+      "index": 87,
+      "speaker": "Ryan Weeks",
+      "words": "So we don't get involved in the policy, we just provide the science that says, yes, if you're going to recycle, you could do it this way. If you're going to store it, you should probably look into these things. So that's really, a political question of whether the nation's what direction the nation is going to decide to go.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:39:18]"
+    },
+    {
+      "id": "context_101_88",
+      "index": 88,
+      "speaker": "Doug Exton",
+      "words": "There, and then what is the life expectancy of a reactor?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:55:01]"
+    },
+    {
+      "id": "context_101_89",
+      "index": 89,
+      "speaker": "Ryan Weeks",
+      "words": "That's a good question. I mean, the current fleet right now, some of them have operated, 60 years and are working on extending to another 80 years. You know, these, micro reactors, some of those micro reactors and small modular reactors are looking at only having to refuel every five years. So, it's really. You know, there isn't really a life expectancy, per se, you know, as long as you continue to upgrade the and do the maintenance of, you know, the, the pumps, the valves, the systems, things like that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:03:03]"
+    },
+    {
+      "id": "context_101_90",
+      "index": 90,
+      "speaker": "Ryan Weeks",
+      "words": "I mean, some, some reactors have shut down, but some reactors we've only limited because we don't we've never it's a it's a new technology, I guess, is that we've never operated anything over 100 years. So we don't know. But we can stop and, you know, some of them were licensed for 40 years. And then they looked at that and said, okay, we can go another 20 years.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:39:05]"
+    },
+    {
+      "id": "context_101_91",
+      "index": 91,
+      "speaker": "Ryan Weeks",
+      "words": "And now they're looking at going another 20 years. Maybe in 20 years they'll look for another 20 years. So it all just kind of kind of depends on on the design and how much effort you want to keep putting into maintaining them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:59:03]"
+    },
+    {
+      "id": "context_101_92",
+      "index": 92,
+      "speaker": "Doug Exton",
+      "words": "You know, you Iraq. Really good point. Nuclear energy is still such a new concept. You know, it's not something that's been around forever. It's definitely, one of the modern energies. Right. And earlier you mentioned one of the reactors filing for bankruptcy or already in that process. So in that scenario, what would happen if a reactor actually did have to file for bankruptcy?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:10:02]"
+    },
+    {
+      "id": "context_101_93",
+      "index": 93,
+      "speaker": "Doug Exton",
+      "words": "Would they just shut down until someone bought them or they were repurposed?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:33:13]"
+    },
+    {
+      "id": "context_101_94",
+      "index": 94,
+      "speaker": "Ryan Weeks",
+      "words": "Yeah. Once you shut down a reactor, you're pretty much not going to bring it back up. It's it's pretty much done. So that is, a big part of our mission is maintaining maintaining the current fleet, because, as I mentioned earlier, if you take that reactor offline, then you've got to replace it with something. And if you can replace it with something wind and solar, carbon free.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:39:00]"
+    },
+    {
+      "id": "context_101_95",
+      "index": 95,
+      "speaker": "Ryan Weeks",
+      "words": "Awesome. But I don't know that we're always there yet, so, we do a lot of work in maintaining okay, how do we keep these up and going? How do we get them. So they're producing. And really you know there's a lot of that goes into that like carbon credits and things like that and that are kind of hurting the cost of nuclear energy that I probably shouldn't get into right now.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:02:09]"
+    },
+    {
+      "id": "context_101_96",
+      "index": 96,
+      "speaker": "Ryan Weeks",
+      "words": "But, but the goal for us is to keep as many of them running for as long as possible.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:27:24]"
+    },
+    {
+      "id": "context_101_97",
+      "index": 97,
+      "speaker": "Doug Exton",
+      "words": "Now, what is the Idaho National Lab doing to help, like the new graduates and the young people in Idaho to get ready for jobs offered? I know, because it seems like there is a large breadth of positions that you can work within the Idaho National Lab, outside of just being like an engineer.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:35:09]"
+    },
+    {
+      "id": "context_101_98",
+      "index": 98,
+      "speaker": "Ryan Weeks",
+      "words": "Yeah. So one thing that's, super important is we're helping develop, you know, courses. So we have all of the universities have offices and lab space. The Idaho University. So Idaho State, Boise State and University of Idaho have offices and lab space in our facilities. But we're also working with professors to develop the curriculum that we need to, you know, have them qualified to get jobs that I know.",
+      "tags": [
+        "boise",
+        "education"
+      ],
+      "timestamp": "[00:35:53:13]"
+    },
+    {
+      "id": "context_101_99",
+      "index": 99,
+      "speaker": "Ryan Weeks",
+      "words": "So so, for example, there's schools that are doing really good at cybersecurity and schools that do really good at engineering. But if you have a cyber engineering focus where maybe you're actually building a control system with cyber in mind, you know, crossing between the cyber engineering, you know, that is that is something that we're working to develop a workforce of people that we actually need and that the nation needs to actually build these hybrid energy systems to secure, the grid and things like that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:21:04]"
+    },
+    {
+      "id": "context_101_100",
+      "index": 100,
+      "speaker": "Ryan Weeks",
+      "words": "So we're definitely working with curriculum. We have about 350 interns every summer, that, that the universities can come and apply to. We have multiple positions, where the professors come and spend time at the lab or the laboratory, engineers and people go out and they teach classes at universities. So we work real close, at least with the Idaho universities.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:36:52:02]"
+    },
+    {
+      "id": "context_101_101",
+      "index": 101,
+      "speaker": "Ryan Weeks",
+      "words": "On doing some of that stuff.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:15:20]"
+    },
+    {
+      "id": "context_101_102",
+      "index": 102,
+      "speaker": "Doug Exton",
+      "words": "Nice. And, do you know what the mix is of nuclear research done by or done at the Idaho National Lab between companies? I don't know if a lot of itself and the universities, since they have all the office space there.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:17:22]"
+    },
+    {
+      "id": "context_101_103",
+      "index": 103,
+      "speaker": "Ryan Weeks",
+      "words": "So it's it's really a collaboration. Okay. So look at the at the center for Advanced Energy Studies. It's the Idaho universities, the University of Wyoming, and then I inl any project that goes into there has to have at least three of those partners on it. So if the three universities are working together, you know, they're doing it on their own, but mostly it's INL and a couple other universities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:33:00]"
+    },
+    {
+      "id": "context_101_104",
+      "index": 104,
+      "speaker": "Ryan Weeks",
+      "words": "So it's not a whole lot of independent stuff, but mostly we're all working together, collaborating on different things. I can give you a real quick example of that. We've got, microscopy and characterization, as we call it, the next week, where we've got about $9 million worth of microscopes in there. So Idaho State is really good at nuclear engineering.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:58:08]"
+    },
+    {
+      "id": "context_101_105",
+      "index": 105,
+      "speaker": "Ryan Weeks",
+      "words": "Boise State is really good at material science. AI and ML brings $9 million worth of microscopes. And we can collaborate the three of those together and start looking at some nuclear materials research on, you know, a microscopic level.",
+      "tags": [
+        "boise",
+        "education"
+      ],
+      "timestamp": "[00:38:19:08]"
+    },
+    {
+      "id": "context_101_106",
+      "index": 106,
+      "speaker": "Doug Exton",
+      "words": "Right?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:34:22]"
+    },
+    {
+      "id": "context_101_107",
+      "index": 107,
+      "speaker": "Ryan Weeks",
+      "words": "I don't know if that question, but.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:36:00]"
+    },
+    {
+      "id": "context_101_108",
+      "index": 108,
+      "speaker": "Doug Exton",
+      "words": "Oh, no, it definitely did. Not going to the, infrastructure reactor itself. Does the reactor produce electricity directly or does it end up producing electricity as, like a byproduct of, like, steam turning turbines and stuff like that?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:38:11]"
+    },
+    {
+      "id": "context_101_109",
+      "index": 109,
+      "speaker": "Ryan Weeks",
+      "words": "Yeah, it's steam. So you look at, power plants, you know, like whether you're burning coal, whether you're burning natural gas, you're trying to get heat to turn in the steam, to turn a turbine power generator. Right. So with a nuclear reactor, what you're doing is you're splitting an atom. When you split that atom, it releases a bunch of heat and energy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:55:08]"
+    },
+    {
+      "id": "context_101_110",
+      "index": 110,
+      "speaker": "Ryan Weeks",
+      "words": "So you basically just capture that heat, turn it into steam transferring, you know, power generators. So, it's basically, you know, the same concept of a power plant. We're just getting there in a different way.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:12:15]"
+    },
+    {
+      "id": "context_101_111",
+      "index": 111,
+      "speaker": "Doug Exton",
+      "words": "Yes. And then the city of Boise has the goal to have clean electricity by 2035. Is the city working with you guys and your nuclear reactors to reach that goal?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:25:13]"
+    },
+    {
+      "id": "context_101_112",
+      "index": 112,
+      "speaker": "Ryan Weeks",
+      "words": "And anyone? The.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:40:04]"
+    },
+    {
+      "id": "context_101_113",
+      "index": 113,
+      "speaker": "Doug Exton",
+      "words": "City at least.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:41:24]"
+    },
+    {
+      "id": "context_101_114",
+      "index": 114,
+      "speaker": "Ryan Weeks",
+      "words": "I'm not sure about Boise. So the the what we're working with, with the small modular reactors is, amps. So u amps is the Utah Associated Municipal power suppliers, and that includes, like Idaho Falls Power and several other, municipalities in Utah. No, I don't know about Boise, but the goal with that is they're going to use of that 12 pack is they're going to use that ten, ten of those reactors to produce electricity, as part of their carbon free, plan.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:39:44:11]"
+    },
+    {
+      "id": "context_101_115",
+      "index": 115,
+      "speaker": "Ryan Weeks",
+      "words": "And then the other two reactors are going to be for AI and elderly experiments with hybrid energy systems. Let our cyber guys throw rocks at them and see what happens. Just basically do some research on on what a small modular reactor does. And so we can play around with it, since this is the first time that it's ever been built.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:40:18:04]"
+    },
+    {
+      "id": "context_101_116",
+      "index": 116,
+      "speaker": "Ryan Weeks",
+      "words": "So, I should have known a little bit more about Boise, but I don't.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:40:34:03]"
+    },
+    {
+      "id": "context_101_117",
+      "index": 117,
+      "speaker": "Doug Exton",
+      "words": "And with, highlighting the safety processes, I'm just curious, has there actually been anything like bad that's happened while Idaho National Lab was doing these pilot tests with the nuclear reactors?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:42:24]"
+    },
+    {
+      "id": "context_101_118",
+      "index": 118,
+      "speaker": "Ryan Weeks",
+      "words": "Well, so, you know, one of the interesting tests, one of the most interesting tests was the loss of fluid test. The loss of fluid test is basically what happened at Three Mile Island. So when Three Mile Island happened, those guys were actually on the phone with the Idaho guys and saying, okay, what's going on here? So that was a real life application to what was going on.",
+      "tags": [
+        "education",
+        "economy"
+      ],
+      "timestamp": "[00:41:00:04]"
+    },
+    {
+      "id": "context_101_119",
+      "index": 119,
+      "speaker": "Ryan Weeks",
+      "words": "As far as bad things happening in, 1961, the Army was operating a reactor called SL1. There was a steam explosion there, which was not intentional. And it ended up, killing three operators. So, that wasn't necessarily a test. It was just there's there's a lot of interesting things that go into there. But we learned a lot about reactor designs from that accident and said, okay, let's not build them like this anymore.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:41:21:18]"
+    },
+    {
+      "id": "context_101_120",
+      "index": 120,
+      "speaker": "Ryan Weeks",
+      "words": "But as far as, like the ones that, we actually had steam explosions and meltdowns intentionally, we did that in a controlled environment so that it really didn't. It, it didn't hurt or, you know, we did it very carefully because that's what a national lab can do. Yeah. Yeah. So we did have one accident out here, the SL1, which is a fascinating, fascinating story.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:51:04]"
+    },
+    {
+      "id": "context_101_121",
+      "index": 121,
+      "speaker": "Ryan Weeks",
+      "words": "If we had more time, I'd go into it. But that happened.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:12:06]"
+    },
+    {
+      "id": "context_101_122",
+      "index": 122,
+      "speaker": "Doug Exton",
+      "words": "Now, since reactors, or at least the traditional reactors, are very large, how do you go about modernizing the very old ones that are still active and just essentially bringing them up to date from, like the old control rooms with the knobs and the dials for a modern one, if that is possible.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:15:18]"
+    },
+    {
+      "id": "context_101_123",
+      "index": 123,
+      "speaker": "Ryan Weeks",
+      "words": "It is, and that's one of the concerns the, the, the graphic that I showed you of the, the digital control room that was actually a, analog control room that had been digitalized. Okay. What we've done is we brought in, like, operators to work on that and say it's a it's part of a human factors lab.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:34:01]"
+    },
+    {
+      "id": "context_101_124",
+      "index": 124,
+      "speaker": "Ryan Weeks",
+      "words": "So say you got the nuclear reactor is going to shut down, for a couple of months to do maintenance or whatever. Let's bring in the operators and say, if we put this knob, if we replace it with this screen right here, how is that going to work with your reactor? Is that going to work? So we can do that all on a digital screen and we can move things around.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:42:53:01]"
+    },
+    {
+      "id": "context_101_125",
+      "index": 125,
+      "speaker": "Ryan Weeks",
+      "words": "That way when they get to, they're shut down, you know, where they actually have to cut through metal and rewire and do things like that. They can just do it right off, because we've already done all of the research and the and the human factor stuff for them. So we try to support them as much as they can there.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:43:13:20]"
+    },
+    {
+      "id": "context_101_126",
+      "index": 126,
+      "speaker": "Ryan Weeks",
+      "words": "That is a little bit tricky, because, I mean, some of those nuclear reactors, you know, some of them are buying parts on eBay because they don't make dials like that anymore. So, you know, it's it's a thing that you have to that we have to address is as these get older, we've got to update some of that older control room stuff.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:30:13]"
+    },
+    {
+      "id": "context_101_127",
+      "index": 127,
+      "speaker": "Ryan Weeks",
+      "words": "So we try to help them out. That.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:47:07]"
+    },
+    {
+      "id": "context_101_128",
+      "index": 128,
+      "speaker": "Doug Exton",
+      "words": "And from my understanding, it seems like the I know National Lab has probably like three main missions that you guys focus on is if it's like 100, oh you're good. Is it challenging to balance all three of those or does it actually like real world like carry out pretty smoothly to balance the three different missions that you guys have?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:50:21]"
+    },
+    {
+      "id": "context_101_129",
+      "index": 129,
+      "speaker": "Ryan Weeks",
+      "words": "Yeah, I think it, I think it's, I, from being in a communications office, I don't really know the intricacies of funding and programs and things like that, because you do have to consider all of the other national laboratories and what they're working on. And you don't want to do the same thing that the National lab is doing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:13:20]"
+    },
+    {
+      "id": "context_101_130",
+      "index": 130,
+      "speaker": "Ryan Weeks",
+      "words": "You know, you don't want to you're using tax money. So you don't want to be duplicating the efforts. But I think our focus is we want them to tie in with each other. So, you know, when we're looking at renewable energy, we want to figure out how does that tie into a hybrid energy system or how does, you know, securing critical infrastructure help with our own, you know, control systems, things like that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:33:21]"
+    },
+    {
+      "id": "context_101_131",
+      "index": 131,
+      "speaker": "Ryan Weeks",
+      "words": "So, I think that we intentionally get them to, you know, fit together like that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:55:00]"
+    },
+    {
+      "id": "context_101_132",
+      "index": 132,
+      "speaker": "Doug Exton",
+      "words": "And we do have another question from one of our attendees. Some of us have the impression that nuclear reactors are like the ones depicted in the China Syndrome. How many reactors are operating in the US today and how many of them are like the California China Syndrome reactor, and how many are built with newer technology or updated security technology?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:04:08]"
+    },
+    {
+      "id": "context_101_133",
+      "index": 133,
+      "speaker": "Ryan Weeks",
+      "words": "So this is unfortunate because I don't know what the China Syndrome is. But, let's see. So I believe there's 98 a couple of reactors have shut down recently, so there's either 96 or 98 reactors operating in the United States. And they are all light water reactors. So they are this base, this technology that was created in the 50s and 60s, and that's when we built them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:30:08]"
+    },
+    {
+      "id": "context_101_134",
+      "index": 134,
+      "speaker": "Ryan Weeks",
+      "words": "So as far as advanced small modular and micro, those kind of reactors, you know, that's the goal is we want to start building those instead. That's the future of the future of nuclear energy is getting smaller. So if the ones that are operating today, they are, you know, those ones that were built years ago.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:59:00]"
+    },
+    {
+      "id": "context_101_135",
+      "index": 135,
+      "speaker": "Doug Exton",
+      "words": "The quick Google search on China syndrome. But I also was not 100% sure. And it's the style of reactor where it's the giant concrete to kind of going up into the air, like curving inwards a little bit. That's okay.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:19:15]"
+    },
+    {
+      "id": "context_101_136",
+      "index": 136,
+      "speaker": "Ryan Weeks",
+      "words": "Yes. Yeah. So that is the current fleet, the 90, the 96 or so that are operating right now are, are of that of that style that were, you know, designed in the 50, 6070s. So I mentioned there were there were two projects that have that they wanted to build reactors, like that, but they have been stalled in the United States because of financial issues.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:33:15]"
+    },
+    {
+      "id": "context_101_137",
+      "index": 137,
+      "speaker": "Ryan Weeks",
+      "words": "And they've been it's been we don't know if they're going to get done or not. So that's the one said, okay, if the last two that we tried to build aren't going to work, then we obviously need to do something else. So what's the new what's the new solution? What's the advanced reactor? What does fuel look like? All that stuff.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:55:06]"
+    },
+    {
+      "id": "context_101_138",
+      "index": 138,
+      "speaker": "Ryan Weeks",
+      "words": "What do we need to do different to keep this energy source online?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:10:08]"
+    },
+    {
+      "id": "context_101_139",
+      "index": 139,
+      "speaker": "Doug Exton",
+      "words": "Now earlier in your presentation, you showed when you talk about, micro reactors, I believe there was the almost kind of a, like a park, that reactor where it had like the white roof. Is that or would something like that be able to output similar amounts of electricity to the older style, whereas the giant concrete kind of syndrome style?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:14:13]"
+    },
+    {
+      "id": "context_101_140",
+      "index": 140,
+      "speaker": "Doug Exton",
+      "words": "Or would you need multiple of that style to get the same amount as, like the older.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:38:02]"
+    },
+    {
+      "id": "context_101_141",
+      "index": 141,
+      "speaker": "Ryan Weeks",
+      "words": "Yeah. So with with a micro reactor, you're looking at maybe 2 to 20MW. So very, very small. So if you, you do the math that's like 1600 houses maybe. So that's not, you know, unless you're going to put multiple ones in a certain city. That's not really what the purpose is. There now a small modular reactor, if you're going, if you do all 12 of them, you can get up to 720MW, and then you're getting closer to what one of those big ones, would be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:44:11]"
+    },
+    {
+      "id": "context_101_142",
+      "index": 142,
+      "speaker": "Ryan Weeks",
+      "words": "But no, you would have to do multiple of the small ones to equal people to bigger ones.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:17:14]"
+    },
+    {
+      "id": "context_101_143",
+      "index": 143,
+      "speaker": "Doug Exton",
+      "words": "Okay. And another random question on my end, at least with the older reactors, is there a way that either you guys have or other national labs to make them, like, look less of an eyesore? Because I know some people would view that as an eyesore. So I was just wondering if there's any, like, research you guys have done as a way to combat that or that imagery and impression of the older reactors?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:22:06]"
+    },
+    {
+      "id": "context_101_144",
+      "index": 144,
+      "speaker": "Ryan Weeks",
+      "words": "You know, I don't know if anybody's looking into that. I don't know if we can just, you know, universally give them a new paint job or something. But I think I think what really what we need to work on there is education. Nuclear industry in general has done a terrible job of educating because, you know, you see these, these towers and all this stuff coming out of them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:54:13]"
+    },
+    {
+      "id": "context_101_145",
+      "index": 145,
+      "speaker": "Ryan Weeks",
+      "words": "But what we don't see is that steam, you know, that's water vapor. I mean, they're it's it's not like we're polluting. It's not, you know, carbon. It's it might look eyesore, but if you if you have the education to understand what's actually happening in a nuclear reactor, then, you know, they're actually pretty cool. So I think I think that would be our best way to combat it would be education versus like repainting everything, I don't know.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:17:14]"
+    },
+    {
+      "id": "context_101_146",
+      "index": 146,
+      "speaker": "Doug Exton",
+      "words": "Yeah. That was coming out of my urban studies classes from college. I'm just curious, like how that affect it. And I think just the impression from history of nuclear reactors is still so new. And when something bad happens with one, I feel like it is all over the media. Whereas no one highlights the benefits of it. So like, we all know Chernobyl, so we all kind of have that like, ooh, that's bad.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:41:10]"
+    },
+    {
+      "id": "context_101_147",
+      "index": 147,
+      "speaker": "Doug Exton",
+      "words": "I don't want to live near it. Yeah. And are any other countries installing the smaller modular reactors that the US is dabbling with?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:05:20]"
+    },
+    {
+      "id": "context_101_148",
+      "index": 148,
+      "speaker": "Ryan Weeks",
+      "words": "Other countries have other ideas. So I don't know that they're specifically like ours, but yeah, other countries that are looking at that. So China is actually, you know, building a bunch of the big reactors. Russia is always there, do a new idea is doing things like that. And that is really, you know, there was there was, and this gets into the education part again, is there was those years on that graph that I showed you were where you're just maintaining reactors.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:18:19]"
+    },
+    {
+      "id": "context_101_149",
+      "index": 149,
+      "speaker": "Ryan Weeks",
+      "words": "You know, this is a American technology. This is where it was invented. This is where it first happened. And we were the leaders for so many years. But then in the 90s, when we kind of just started saying, yeah, we're done with nuclear, we're not interested in that. Those other countries kept going. And so America has kind of lost its footing as a leader.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:46:21]"
+    },
+    {
+      "id": "context_101_150",
+      "index": 150,
+      "speaker": "Ryan Weeks",
+      "words": "And so we want to get back into that because we're thinking, you know, when there's other countries that are looking for leadership in this, do we want them going to the Russians and the Chinese and the other countries too, like that to get their nuclear knowledge? Or do we want them coming to America where things, you know, where we've looked at the safety aspects, we understand why it's important and we've regulated it very strongly versus what those other countries may or may not be doing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:07:13]"
+    },
+    {
+      "id": "context_101_151",
+      "index": 151,
+      "speaker": "Doug Exton",
+      "words": "Then Idaho Power run numbers that show that even with the highest possible carbon tax, nuclear is possibly not as cost effective. And it won't be included in the Idaho Power portfolio, in your opinion. And given your knowledge working for that on National Lab in the future, how realistic is nuclear energy as a long term widescale power source?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:35:22]"
+    },
+    {
+      "id": "context_101_152",
+      "index": 152,
+      "speaker": "Ryan Weeks",
+      "words": "I think it's very realistic. I think it has to be part of the conversation. I don't think I mean, there's a difference between base loads and, you know, like wind and solar, they're not baseload. So if we're going to cut out coal and natural gas and carbon emissions, what are we going to replace it with? So of course, small modular reactors right now they look expensive.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:00:21]"
+    },
+    {
+      "id": "context_101_153",
+      "index": 153,
+      "speaker": "Ryan Weeks",
+      "words": "This is a brand new technology. And until we actually build it, understand it, and then, you know, like to the point of small modular reactors where they're, you know, basically being built in a factory, we're not going to completely understand what the cost are associated with them. But, you know, we've got to do that research. We've got to build the first one.",
+      "tags": [
+        "labor",
+        "education"
+      ],
+      "timestamp": "[00:52:23:04]"
+    },
+    {
+      "id": "context_101_154",
+      "index": 154,
+      "speaker": "Ryan Weeks",
+      "words": "We've got to understand it. So maybe the first one is doesn't make financial sense at all. But 20 years down the road we're like, hey, yeah, this is good. We figured out we've we've worked out the kinks. We've got the bumps out. So so yeah, this this makes sense now, but we don't really know that until we do the research.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:52:43:02]"
+    },
+    {
+      "id": "context_101_155",
+      "index": 155,
+      "speaker": "Doug Exton",
+      "words": "Then with those small reactors, are they expensive. Just reduce. Or are they also expensive to maintain or is a combination of both?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:00:19]"
+    },
+    {
+      "id": "context_101_156",
+      "index": 156,
+      "speaker": "Ryan Weeks",
+      "words": "I hate to admit, but I am not an expert on the financial. But, but the goal with small and micro reactors is to cut down cost and make it, you know, easier to build and maintain and the than the big ones that they have. And, you know, maybe there's some different policies with that need to be put in place with, with renewables and, and carbon credits and whatever.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:09:22]"
+    },
+    {
+      "id": "context_101_157",
+      "index": 157,
+      "speaker": "Ryan Weeks",
+      "words": "You know, I don't really I'm not an expert on that. But that's the goal. The goal is to make them cheaper and better and safer and more efficient and less waste. All that stuff. Yeah, that's the goal.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:33:10]"
+    },
+    {
+      "id": "context_101_158",
+      "index": 158,
+      "speaker": "Doug Exton",
+      "words": "And with the smaller units, what do they do with the heat that they produce from functioning?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:45:09]"
+    },
+    {
+      "id": "context_101_159",
+      "index": 159,
+      "speaker": "Ryan Weeks",
+      "words": "So if it's just, regular reactor, they're going to put it on the grid and they're going to use it for electricity. If it's part of a hybrid energy system, they're going to when they're not producing electricity, they're going to be doing other things creating hydrogen, cleaning water. You know, all the other things that I mentioned.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:54:07]"
+    },
+    {
+      "id": "context_101_160",
+      "index": 160,
+      "speaker": "Ryan Weeks",
+      "words": "So, so yeah, it's just going to be another component. Put it on the grid, like with the, one, like I said, the ten reactors that are producing electricity, they're just going to, you know, give that to their to their ratepayers and everything like that. Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:13:14]"
+    },
+    {
+      "id": "context_101_161",
+      "index": 161,
+      "speaker": "Doug Exton",
+      "words": "And then earlier you mentioned with all at the national labs across the US, some of them still dabble in the, weapons aspect. Are there any that are solely weapons focused?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:29:20]"
+    },
+    {
+      "id": "context_101_162",
+      "index": 162,
+      "speaker": "Ryan Weeks",
+      "words": "I believe, yes. I can't speak intelligently to that, but I think, you know, Los Alamos, might be, but I don't really know for sure which ones are just weapons. But there are. We do have we do have weapons labs in the US.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:54:45:15]"
+    },
+    {
+      "id": "context_101_163",
+      "index": 163,
+      "speaker": "Doug Exton",
+      "words": "And then how familiar are you with, proposed reactor that Bill gates, I guess, is talking about. And if the INL has participated in the development of that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:04:17]"
+    },
+    {
+      "id": "context_101_164",
+      "index": 164,
+      "speaker": "Ryan Weeks",
+      "words": "Yeah, absolutely. So it's, his company is called Terrapower and we Bill gates has actually come out to INL and toward our facilities. Unfortunately, he came about six months before I got the job, so I missed out on Bill gates. But, but yeah, one of the technologies that we're using, that we're looking at with Terrapower is a different way to fabricate their fuel.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:16:17]"
+    },
+    {
+      "id": "context_101_165",
+      "index": 165,
+      "speaker": "Ryan Weeks",
+      "words": "So, it's different from the traditional way and never been done before. So we have a facility dedicated just to, to terrapower to fabricate the fuel in that certain way. And then we do all the examinations and the research and the tests like that. So that is another thing is, the kind he is, that reactor is one that would benefit from having a fast reactor like the versatile test reactor is right now, there are very few fast reactors.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:55:38:20]"
+    },
+    {
+      "id": "context_101_166",
+      "index": 166,
+      "speaker": "Ryan Weeks",
+      "words": "Like if we wanted to do a test on a fast reactor, we would have to take it internationally. And right now, there isn't a whole lot of nuclear tests that are lining up to go and and be put in a Russian reactor. That's probably something that's not going to happen right now. So his company would definitely benefit from the the virtual test reactor, but we're doing other things or our virtual test reactor.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:05:10]"
+    },
+    {
+      "id": "context_101_167",
+      "index": 167,
+      "speaker": "Ryan Weeks",
+      "words": "Versatile test reactor. But we are definitely working with them and and doing what we can with what we have now and then.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:33:02]"
+    },
+    {
+      "id": "context_101_168",
+      "index": 168,
+      "speaker": "Doug Exton",
+      "words": "This is more of a policy question. With the waste produced by the, small modular reactors, does the waste have to remain in Idaho in perpetuity? And then also, just because I'm curious, what do you guys at the I know do with the waste? Do you study it? Do you try to repurpose it?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:40:14]"
+    },
+    {
+      "id": "context_101_169",
+      "index": 169,
+      "speaker": "Ryan Weeks",
+      "words": "Okay. So, yes. So the small modular reactors right now would I would guess I would assume I don't know that all the details have been fleshed out, but under its commercial license, they would probably be just like any other commercial reactor where the waste is stored on site. Unless, and, you know, unless we designate a, national repository, which at some point was going to be Yucca mountain.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:01:18]"
+    },
+    {
+      "id": "context_101_170",
+      "index": 170,
+      "speaker": "Ryan Weeks",
+      "words": "But that, kind of that was shut down. So, and what do we do with, the waste? So, yes, we can look at the, the waste that we have. Right. The majority of it is just stored on site, but like I mentioned that every two waste, we we pulled that out and said, hey, we can still use this as fuel.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:28:02]"
+    },
+    {
+      "id": "context_101_171",
+      "index": 171,
+      "speaker": "Ryan Weeks",
+      "words": "So for years, and years, what we did is we took all of that spent nuclear fuel and we recycled it and we put it into new fuel. And that's what we did for years and years. And then until, I think in the 80s, we stopped reprocessing as a country. So from that point we basically just stored it and put it there.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:46:17]"
+    },
+    {
+      "id": "context_101_172",
+      "index": 172,
+      "speaker": "Ryan Weeks",
+      "words": "So, yeah. So it's just it is it is hanging out in Idaho now. There's another part of think, part that people like to talk about, and that is the Idaho Cleanup project. So for years we accepted the waste from, weapons reactors are not weapons reactors, but from weapons, laboratories. You know, they were under the Cold War pressures that said, hey, we got to build these weapons.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:58:07:14]"
+    },
+    {
+      "id": "context_101_173",
+      "index": 173,
+      "speaker": "Ryan Weeks",
+      "words": "We got to go, go, go. What do we do with the waste? Just put it in a barrel, in a box shipped to Idaho, and we'll deal with it later. So there's a there's an organization separate from Idaho National Laboratory called the Idaho Cleanup Project. And that's basically what they're doing is they are taking that weapons era waste.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:58:29:16]"
+    },
+    {
+      "id": "context_101_174",
+      "index": 174,
+      "speaker": "Ryan Weeks",
+      "words": "They are digging it up out of the ground, repackaging it and shipping it out of the state. So that work is definitely happening out on the same desert as we're doing. That is just a different organization that does it so the weapons waste is getting rid of. But as far as spent nuclear fuel, there isn't really a place to put that yet.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:58:47:21]"
+    },
+    {
+      "id": "context_101_175",
+      "index": 175,
+      "speaker": "Doug Exton",
+      "words": "And if the US starts to repurpose the fuel again in the future, is the current reservoir of spent fuel that you guys have right now, is that still viable to be repurposed into fuel, even though it's just a.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:08:06]"
+    },
+    {
+      "id": "context_101_176",
+      "index": 176,
+      "speaker": "Ryan Weeks",
+      "words": "It's it's like a gold mine sitting in a landfill. All we need is a.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:22:08]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 177,
+    "description": "The future of nuclear energy in the US is changing and Idaho National Laboratory, recently designated by Congress as the National Reactor Innovation Center,  is leading the way.  Coupled with cutting edge research the lab and its partners are moving forward with plans to build and demonstrate advanced reactor designs including small modular reactors and micro reactors. Ryan Weeks has over a decade of experience in providing engaging tours that bridge technical content with common language and interesting historical facts. Weeks has been with tours team at INL providing visitors with unique access to INL facilities and in-depth understanding the lab's capabilities.  He says the best part of his job is showing off the cool things INL does. He has been in his current role for five years, prior to joining INL he spent eight years in the tourism industry working with scenic railroads in Alaska and Colorado. Weeks is an Idaho native and graduate from Brigham Young University- Idaho with a degree in Communications. Ryan has a busy home in Teton with three energetic daughters.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

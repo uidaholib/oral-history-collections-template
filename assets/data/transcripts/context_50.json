@@ -1,0 +1,908 @@
+{
+  "title": "S3E17 Myths & Heroes: Challenging the Narratives of Native American History Part 1",
+  "interviewee": "Dr. Liz Redd",
+  "interviewer": null,
+  "date": "2022-09-08",
+  "subjects": [
+    "indigenous people",
+    "indigenous peoples (american culture)",
+    "native american",
+    "indian reservations (native american reservations)",
+    "indigenous protected areas",
+    "sovereignty",
+    "education",
+    "resistance (political activity)"
+  ],
+  "segments": [
+    {
+      "id": "context_50_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_50_1",
+      "index": 1,
+      "speaker": "Doug Exton",
+      "words": "This program is funded through a more Perfect Union initiative of the National Endowment for the Humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_50_2",
+      "index": 2,
+      "speaker": "Dr. Liz Redd",
+      "words": "Hi everyone. My name is Liz Redd. I'm director of American Indian Studies at Idaho State University. And, I was honored to be invited to present at the Idaho Humanities Council this past July of 2022. teaching Native American history. so I have a presentation that is adapted from a workshop, and it's titled Myths and Heroes: Challenging Narratives of Native American History.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:09:18]"
+    },
+    {
+      "id": "context_50_3",
+      "index": 3,
+      "speaker": "Dr. Liz Redd",
+      "words": "And that is an intentional, word play in the title. because both, the narratives themselves are challenging to think about. But also, we as educators need to be in the business of challenging some of those narratives. And so that's what I'm going to talk about today. So to get started, I first want to acknowledge, that Idaho State University is in the traditional, lands of the shown Bannock and Paiute peoples, collectively known as the Noah.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:00:37:11]"
+    },
+    {
+      "id": "context_50_4",
+      "index": 4,
+      "speaker": "Dr. Liz Redd",
+      "words": "so I'm going to read our official land acknowledgment in an effort to show respect and recognize their intrinsic ties to the land, we acknowledge that Idaho State University is located on the traditional territory of the Shoshone and Paiute peoples, collectively known as the Noah. As a public research university, it is our responsibility to disseminate accurate histories of the regional indigenous peoples and of our institutional relations with them.",
+      "tags": [
+        "indigenous",
+        "education"
+      ],
+      "timestamp": "[00:01:12:00]"
+    },
+    {
+      "id": "context_50_5",
+      "index": 5,
+      "speaker": "Dr. Liz Redd",
+      "words": "It is issues ongoing commitment to Shoshone, to the shamanic tribes and to our communities that we will collaborate on future educational discourse and activities. And as this presentation was originally given, or workshop was originally given at the the, College of Idaho. I, developed a land acknowledgment for the College of Idaho just to use for this presentation.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:01:41:14]"
+    },
+    {
+      "id": "context_50_6",
+      "index": 6,
+      "speaker": "Dr. Liz Redd",
+      "words": "so the College of Idaho is located in the traditional territory of the Shoshone and Bannock or knower peoples. to learn more about the Noah, please visit the Shoshone Bennett Tribes website, and websites of other Shoshone peoples. to learn more about Native American peoples in general, you can visit Native Knowledge 360 and to learn whose land your institution resides on, you can use an app here called Native Land.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:02:11:01]"
+    },
+    {
+      "id": "context_50_7",
+      "index": 7,
+      "speaker": "Dr. Liz Redd",
+      "words": "digital Interactive map, that I provided a link to here and will be in the resources provided at the end of this presentation. So one of the things that I always, talk about after I've given a land acknowledgment is, how land acknowledgments themselves are necessary, but not sufficient in terms of, establishing or rebuilding positive relationships with native nations.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:34:10]"
+    },
+    {
+      "id": "context_50_8",
+      "index": 8,
+      "speaker": "Dr. Liz Redd",
+      "words": "Universities need to do more than just have these, symbolic words. They are important, but they should be a first step. And what's needed is to follow those words with action. And so the kind of work that we're doing here, and the kind of work that the Idaho Humanities Council, was doing with their summer teacher Institute, is part of that putting action to those words.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:02:59:01]"
+    },
+    {
+      "id": "context_50_9",
+      "index": 9,
+      "speaker": "Dr. Liz Redd",
+      "words": "here we are reaching out to, teachers and, helping them navigate these, sometimes problematic waters and how to teach Native American history.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:24:12]"
+    },
+    {
+      "id": "context_50_10",
+      "index": 10,
+      "speaker": "Dr. Liz Redd",
+      "words": "So let's talk a little bit about terminology before we dive in. so a lot of people have this question of, you know, what? What do I call native peoples? because there are so many different terms, and you'll see here that the different terms are used in different contexts. So American Indian is used in primarily legal studies, American Indian studies and sometimes in education.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:39:03]"
+    },
+    {
+      "id": "context_50_11",
+      "index": 11,
+      "speaker": "Dr. Liz Redd",
+      "words": "the term Native American is used primarily in the social sciences and sometimes in education. the term First Nations is used, for native peoples living in Canada or original to Canada. And indigenous is a broader term for peoples residing within territory prior to colonization. And then we have these other terms. Tribes. Right.",
+      "tags": [
+        "indigenous",
+        "migration"
+      ],
+      "timestamp": "[00:04:02:18]"
+    },
+    {
+      "id": "context_50_12",
+      "index": 12,
+      "speaker": "Dr. Liz Redd",
+      "words": "So tribes is used to refer to a political structure. and it's used especially in legal studies when talking about things like tribal sovereignty, which we're going to talk about a little bit. And native nations is actually the preferred term for a lot of native people when talking about a native nation. So the shamanic tribes call themselves that because that's their official federally recognized name.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:25:20]"
+    },
+    {
+      "id": "context_50_13",
+      "index": 13,
+      "speaker": "Dr. Liz Redd",
+      "words": "But if I'm talking about them, I'm going to talk about them as a sovereign native nation, rather than as a tribe. And two other terms just, to throw out there because I'm, linguistic anthropologist and focus on Native American languages, these terms and name and xdnm are really, kind of important concepts. So an exam is a name that's given to a group by outsiders.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:04:50:15]"
+    },
+    {
+      "id": "context_50_14",
+      "index": 14,
+      "speaker": "Dr. Liz Redd",
+      "words": "An example of that is, Shoshone and, and and the name is the name that people call themselves, for example, the Noah, and it's always good practice to rather than use some generic term like American Indian or Native American or Native nation or First Nation, to instead, just use the name that people call themselves.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:05:16:12]"
+    },
+    {
+      "id": "context_50_15",
+      "index": 15,
+      "speaker": "Dr. Liz Redd",
+      "words": "That's the, the, the best practice is just call it people, what they call themselves, what they would prefer to be called. And some additional key concepts here. are, you know, these are anthropology concepts that we're looking at here. but they, they cut through the whole discussion. We're going to have to do, so we're going to talk about issues of representation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:40:02]"
+    },
+    {
+      "id": "context_50_16",
+      "index": 16,
+      "speaker": "Dr. Liz Redd",
+      "words": "you know, how people are portrayed in media, in discourse, in education. And within that we're going to talk about the concepts of stereotype essentialism. we're going to touch on romanticization, icon association and erasure as they come up. And then, some other major important concepts are, hegemony, which is, a structure, a political structure which concentrates power in the hands of a few, often through discourses, and narratives, the stories we tell, to justify that power structure, that hegemonic power structure.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:04:14]"
+    },
+    {
+      "id": "context_50_17",
+      "index": 17,
+      "speaker": "Dr. Liz Redd",
+      "words": "And that's how we get marginalized people to buy into the hegemonic structure is by through through the discourses and narratives, by telling these stories to justify the structure and marginalization. Is the process, a process of minimizing access and minimizing the contributions of a particular group? sovereignty is the inherent right to self-governance and the ability to do so.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:39:02]"
+    },
+    {
+      "id": "context_50_18",
+      "index": 18,
+      "speaker": "Dr. Liz Redd",
+      "words": "And reciprocity is, sharing. So and in many cases, that means, if we're talking about an institutional context, thinking about how a university is giving back to a native nation. So just some key concepts to keep in mind as we as we move forward. Okay. So this is this is the this is the agenda for what we're going to do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:06:02]"
+    },
+    {
+      "id": "context_50_19",
+      "index": 19,
+      "speaker": "Dr. Liz Redd",
+      "words": "in this presentation, it's going to have three parts. the first part we're going to talk about these narratives and this concept of representation. This is the part that focuses on myths and heroes and by myths and heroes here, I don't mean that we're going to talk about, origin stories or we're going to talk about, superheroes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:30:02]"
+    },
+    {
+      "id": "context_50_20",
+      "index": 20,
+      "speaker": "Dr. Liz Redd",
+      "words": "what I mean here is that we're talking about the stories that that, that are contained, the heroes, who we consider heroes. But by myths, I mean the falsehoods that we tell about native peoples in our in our respective cultures. Part two is going to focus on Native American history. Just a brief timeline. Notice I pluralized of here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:51:10]"
+    },
+    {
+      "id": "context_50_21",
+      "index": 21,
+      "speaker": "Dr. Liz Redd",
+      "words": "I'm going to talk about Native American history broadly. But the reason I pluralized history is here is to acknowledge that there is not one Native American history. Every native nation, every community, has their own history. And it's important to recognize that and to learn the histories of, the people with whom you interact, the people with whom you engage, and the people who are your neighbors.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:15:12]"
+    },
+    {
+      "id": "context_50_22",
+      "index": 22,
+      "speaker": "Dr. Liz Redd",
+      "words": "And then part three is, really going to be practical and focus on some approaches to teaching Native American histories when the teacher isn't native. That's really where we're headed with all of this. So starting with part one Myths and Heroes, narratives and representation.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:08:39:04]"
+    },
+    {
+      "id": "context_50_23",
+      "index": 23,
+      "speaker": "Dr. Liz Redd",
+      "words": "We oh, we have some guiding questions, that we, are using throughout, this presentation. We've got, some questions for part one, part two and part three, but you can tell that these questions are really focused on the stories that we tell. How do we learn them, whose perspectives they represent? what purposes do they serve?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:59:13]"
+    },
+    {
+      "id": "context_50_24",
+      "index": 24,
+      "speaker": "Dr. Liz Redd",
+      "words": "and comparing that to real native histories and kind of the themes and arcs and purposes of, what has happened in, native history in the US. and then moving on to, you know, these, these practical questions of how can we help students unlearn stereotypes of misinformation and how can we, as most of the non-Native teachers actually teach students, about native history with respect and with reciprocity?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:20:13]"
+    },
+    {
+      "id": "context_50_25",
+      "index": 25,
+      "speaker": "Dr. Liz Redd",
+      "words": "So let's go on to part one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:48:04]"
+    },
+    {
+      "id": "context_50_26",
+      "index": 26,
+      "speaker": "Dr. Liz Redd",
+      "words": "So at this point, if I'm running a workshop, I usually ask people to think about, what kinds of stories and heroes they're taught about in school. So, I'm going to ask, Doug, if you can think about what stories, you learned in school.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:09:52:10]"
+    },
+    {
+      "id": "context_50_27",
+      "index": 27,
+      "speaker": "Doug Exton",
+      "words": "Yeah. For me, in school, I think a lot of the stories kind of revolved more around, you know, native peoples were here when people were fleeing persecution in Europe and found this land and decided that, oh, this is perfect for us. These people are that are already here are less than us. Therefore they don't have a right to any of a.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:12:17]"
+    },
+    {
+      "id": "context_50_28",
+      "index": 28,
+      "speaker": "Doug Exton",
+      "words": "And indigenous people are always kind of like, you know, a background character in American history, you know, touched on when there's a little flare up, so to speak, of something. But they were never, you know, showcased. And it was always also an, a negative of, oh, yeah, they were all murdered or. Oh yeah, they just kind of died off because, you know, they couldn't live on the land that we gave them for free.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:37:08]"
+    },
+    {
+      "id": "context_50_29",
+      "index": 29,
+      "speaker": "Doug Exton",
+      "words": "You know, those kind of narratives of, you know, we're trying to help them. And it's not our fault that what we're doing is actually harmful.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:00:23]"
+    },
+    {
+      "id": "context_50_30",
+      "index": 30,
+      "speaker": "Dr. Liz Redd",
+      "words": "So you, did a great job of focusing on kind of the broad, overarching narrative that you get this big story that you get told, and how, much of our teaching of U.S. history centers, colonization, it centers the colonizer settler, rather than centering the people who were here, and frames, native peoples as lesser than and uses that as a way to justify westward expansion, this concept of manifest Destiny.",
+      "tags": [
+        "literature",
+        "migration"
+      ],
+      "timestamp": "[00:11:10:23]"
+    },
+    {
+      "id": "context_50_31",
+      "index": 31,
+      "speaker": "Dr. Liz Redd",
+      "words": "So you've, you've already, nailed exactly what we're going to talk about here. And one of the ways that we that we are taught this in our, in our schools, you know, we learn these messages in school. but one of the ways that we're taught these messages is through the specific, smaller stories that we're told, what gets focused on in our, history classes or our social studies classes.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:11:44:02]"
+    },
+    {
+      "id": "context_50_32",
+      "index": 32,
+      "speaker": "Dr. Liz Redd",
+      "words": "so, many times when you ask, teachers, or students what they've learned about in school, about native people, they'll talk about these stories the first Thanksgiving, and how, Sacajawea, actually helped Lewis and Clark. the, trail of Tears, which is, you know, about native removal from, initially the southeast and then, many parts of the East and then maybe the Indian wars.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:12:09:02]"
+    },
+    {
+      "id": "context_50_33",
+      "index": 33,
+      "speaker": "Dr. Liz Redd",
+      "words": "Right. And they're called Indian Wars, which is a framing device to, to kind of pit, or to to establish that there were two equally powerful groups with similar technologies who are fighting a justified battle when in time, when in reality, these were really, massacres and, a practice of genocide. So, so the stories that often get told in elementary school are like the first Thanksgiving and how Squanto, helped in the first Thanksgiving.",
+      "tags": [
+        "conflict",
+        "education"
+      ],
+      "timestamp": "[00:12:39:23]"
+    },
+    {
+      "id": "context_50_34",
+      "index": 34,
+      "speaker": "Dr. Liz Redd",
+      "words": "or, the stories of Sacajawea. and then when you move into middle school, you might learn a little bit about the Trail of Tears. And in history, you might learn about, native removal and, the Indian massacres, but you're not really learning much else. Right? So it's this it's this. Oh, at this point in U.S. history, this was a thing that happened.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:13:12:22]"
+    },
+    {
+      "id": "context_50_35",
+      "index": 35,
+      "speaker": "Dr. Liz Redd",
+      "words": "And it's about how native peoples relate to colonizers, settlers. So it's always centering native peoples. or I'm sorry, not native peoples. It's always centering colonizer settlers. Right. That history, the first Thanksgiving story, tells us about, the, you know, that natives welcomed settlers and, the Sacajawea a story, establishes this narrative that the natives were helping.",
+      "tags": [
+        "history",
+        "literature"
+      ],
+      "timestamp": "[00:13:34:06]"
+    },
+    {
+      "id": "context_50_36",
+      "index": 36,
+      "speaker": "Dr. Liz Redd",
+      "words": "So their native peoples are welcoming and helping and and they're to support the colonizer settlers. And, then we get this message from, the Trail of Tears narrative that, the native peoples have all left or have all died, or from the Indian wars, Indian massacres, battles, narratives, that native peoples were conquered. And all of these are means to justify this narrative that you were talking about, about, justifying westward expansion.",
+      "tags": [
+        "history",
+        "literature"
+      ],
+      "timestamp": "[00:14:07:05]"
+    },
+    {
+      "id": "context_50_37",
+      "index": 37,
+      "speaker": "Dr. Liz Redd",
+      "words": "But, we have this doctrine of discovery that, the colonizers and settlers were justified in occupying the land because the people, if they were considered people who were here before the colonizers, were not utilizing the lands, they weren't farming it the same way that Europeans had. So we've got all of these stories that help justify, the, usurpation of native lands by colonizers.",
+      "tags": [
+        "history",
+        "agriculture"
+      ],
+      "timestamp": "[00:14:44:20]"
+    },
+    {
+      "id": "context_50_38",
+      "index": 38,
+      "speaker": "Dr. Liz Redd",
+      "words": "And what gets left out in these stories is really the government's role in forcing this assimilation and genocide, a focus on how, policies, of removal and residential schools and broken treaties, have actually all been motivated by a goal of erasing native peoples, erasing them from their own histories, cultures and practices, but also from Native American history.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:15:16:13]"
+    },
+    {
+      "id": "context_50_39",
+      "index": 39,
+      "speaker": "Dr. Liz Redd",
+      "words": "Except when we can use those stories to justify, colonization and westward expansion. What's also left out is, a focus on how native peoples are revitalizing their communities and cultures and languages, how they have historically resisted, this assimilation and attempts of just genocide. what also gets left out is the native civil rights movement. so, I know a high school student right now who's taking a U.S. history course and that course, in the civil rights movement, units mentions not one word about the Red power movement, about the occupation of Alcatraz, about Wounded Knee.",
+      "tags": [
+        "migration",
+        "conflict",
+        "education"
+      ],
+      "timestamp": "[00:15:49:08]"
+    },
+    {
+      "id": "context_50_40",
+      "index": 40,
+      "speaker": "Dr. Liz Redd",
+      "words": "but doesn't mention any of that. it doesn't mention Leonard Peltier at all. what's also left out is, modern heroes. What's happening now? and that sends a message that native peoples are historical and not, alive and thriving and persisting to them. So another question that I have here is it's not just school, right?",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:16:34:18]"
+    },
+    {
+      "id": "context_50_41",
+      "index": 41,
+      "speaker": "Dr. Liz Redd",
+      "words": "It's not just school that we get our messages from. We also get it from the people around us, but also from the media. So, I'm going to ask that again to do the work of the audience here and think about one, mainstream movie or TV show focusing on US history or US culture, and then think about how natives are portrayed or represented, or if they're even portrayed.",
+      "tags": [
+        "education",
+        "cinema"
+      ],
+      "timestamp": "[00:16:57:14]"
+    },
+    {
+      "id": "context_50_42",
+      "index": 42,
+      "speaker": "Doug Exton",
+      "words": "I mean, the first one that comes to my mind is definitely Pocahontas. Like the Disney movie, which I think everyone can say is a horrific and false representation of not only that story, but also just native peoples as an entire group. Because I feel like for me, that was my first introduction essentially into native peoples. Just, you know, a little kid didn't really know that much.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:22:13]"
+    },
+    {
+      "id": "context_50_43",
+      "index": 43,
+      "speaker": "Doug Exton",
+      "words": "But I can definitely see like how that, especially as a young kid, shaped some of my perspectives, you know, through elementary school, you know, obviously, you know, how none of that is accurate. I mean, that was definitely one of the units for one of my U.S. history classes was watch that movie again, you know, write down everything that is literally wrong with that movie, outside of the fact that, you know, there's a magical tree that talks, you know.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:48:07]"
+    },
+    {
+      "id": "context_50_44",
+      "index": 44,
+      "speaker": "Dr. Liz Redd",
+      "words": "Yeah. that's a great example. and that's one that's, you know, a clear example of how, kids get indoctrinated into these ideas. and there were so many stereotypes that were portrayed in that film as well. you know, the, the, the affinity to nature through the grandmother Willow. but also the age of Pocahontas.",
+      "tags": [
+        "cinema",
+        "environment"
+      ],
+      "timestamp": "[00:18:14:07]"
+    },
+    {
+      "id": "context_50_45",
+      "index": 45,
+      "speaker": "Dr. Liz Redd",
+      "words": "you know, whether or not she was, volitional in, or had volition in what she was, eventually, and eventually what happened to her? but also the fact they leave out that she basically, you know, was, married off, taken to, England and, and died there of tuberculosis. I believe it was tuberculosis.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:36:14]"
+    },
+    {
+      "id": "context_50_46",
+      "index": 46,
+      "speaker": "Dr. Liz Redd",
+      "words": "I might be wrong on that point, but I know that she she did succumb to illness in England. so there are so many, films and, TV shows and, radio programing, that that actually uphold these stereotypes. the film that I think of always, that really subtle, centers settler colonialism is far and away with, Nicole Kidman and Tom cruise, the, two Irish immigrants, who, participate in the land rush in Indian Territory.",
+      "tags": [
+        "cinema",
+        "migration"
+      ],
+      "timestamp": "[00:18:57:22]"
+    },
+    {
+      "id": "context_50_47",
+      "index": 47,
+      "speaker": "Dr. Liz Redd",
+      "words": "And that whole film is about westward expansion. It's about claiming unsettled lands. no. Here. My air quotes there. unsettled lands, in Indian Territory. the I think they're native peoples in it for about three seconds. It's like just no native people in that film really. and then if we think about how native peoples are represented in terms of, the, the Hollywood Indian, as Mark points out, we think about how how the their speech is represented.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:19:32:19]"
+    },
+    {
+      "id": "context_50_48",
+      "index": 48,
+      "speaker": "Dr. Liz Redd",
+      "words": "It's, very, minimal. It's, broken if we hear those air quotes again, broken English. you know, so make points out in, in her article and Indian goes how that, it's really this, stereotyped, essentialist reduced idea and we, we often equate language with full humanity. So if someone doesn't have full language or we think that the, the how language represents what native languages were really like, or are really like, that just sends the wrong message.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:09:15]"
+    },
+    {
+      "id": "context_50_49",
+      "index": 49,
+      "speaker": "Dr. Liz Redd",
+      "words": "completely. It sends a message that, native peoples are less than human and they don't have full language and they don't have full culture. And so it's, it's really problematic, this representation that we get in the media now, of course, that is changing. There are some good examples of, collaboration with native communities where, linguists have been brought in and, the language is represented more fully.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:52:20]"
+    },
+    {
+      "id": "context_50_50",
+      "index": 50,
+      "speaker": "Dr. Liz Redd",
+      "words": "And I'm thinking, now of the, the recent movie prey, where the, there's a version in the Comanche language and, the, director of the Comanche language program was actually consulted in developing, the Comanche language version of that film. So their issues of representation are improving. But how many years have we had these stereotypes coming at us in the media, and how do we overcome that in our students?",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:21:20:14]"
+    },
+    {
+      "id": "context_50_51",
+      "index": 51,
+      "speaker": "Dr. Liz Redd",
+      "words": "It's, you know, it's not their fault if they have these these stereotyped ideas. They're getting bombarded with these messages constantly. But what can we do as teachers to help challenge these narratives and help challenge these myths and stereotypes? so that's where we're moving on. That's where we are with this. so let's think about what messages these ideas send about native peoples today.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:50:10]"
+    },
+    {
+      "id": "context_50_52",
+      "index": 52,
+      "speaker": "Dr. Liz Redd",
+      "words": "Right? So we've got some ideas that, you know, people are in the past instead of, living now and contributing now. what often gets left out is the value that native communities add to mainstream society, and that they're still surviving and that they're sovereign nations. So these messages that we get frame native peoples in a deficit model as if they are dependent and backward.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:22:15:19]"
+    },
+    {
+      "id": "context_50_53",
+      "index": 53,
+      "speaker": "Dr. Liz Redd",
+      "words": "We also get these ideas of inauthenticity that the only real Indians are those who, existed at the point of colonization and that now people are inauthentic. and instead, what I'd like to invite, viewers of this presentation to think about is how we can move in our teaching and, and how we represent native peoples in our teaching, away from this deficit model toward a model of resilience and how we can talk about native peoples not as relics of the past, but as modern, persistent, thriving communities.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:22:43:14]"
+    },
+    {
+      "id": "context_50_54",
+      "index": 54,
+      "speaker": "Dr. Liz Redd",
+      "words": "how we can highlight their sovereignty, how we can talk about the contributions that they make to mainstream modern society right now, and how we can think about native identities as fluid and evolving and adaptive to all kinds of situations, including the modern world. So as an example of how, native communities, contribute to, the mainstream society and how they are, native, so how they're so thriving today, how they are, sovereign native nations.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:21:24]"
+    },
+    {
+      "id": "context_50_55",
+      "index": 55,
+      "speaker": "Dr. Liz Redd",
+      "words": "I picked up three images, from the, social media website here. one is they're still, they are a nation and they have a nation to nation relationship with the United States through treaty agreements. they are still here and thriving, of course. they are participating. Just this past week, I participated, by going and, viewing and shopping at the 57th Annual Shoshone Indian Festival.",
+      "tags": [
+        "conflict",
+        "indigenous"
+      ],
+      "timestamp": "[00:23:58:08]"
+    },
+    {
+      "id": "context_50_56",
+      "index": 56,
+      "speaker": "Dr. Liz Redd",
+      "words": "And it was a wonderful event. and that's a, an event that they hold every year and is open to the public. and there's even, a feast day, at the end where they feed everybody. So, they are sharing with the, with the community, not just to learn about, their own native nation, but, in terms of, this practice of reciprocity, they're actually sharing a meal with the public.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:25:09]"
+    },
+    {
+      "id": "context_50_57",
+      "index": 57,
+      "speaker": "Dr. Liz Redd",
+      "words": "And then, the shamanic tribes contribute over $400 million annually to the local economy, just to southeastern Idaho. And that's not something to sneeze at. That's not inconsequential. Right. but most people in, in the Pocatello area, which are Idaho, southeastern Idaho, are not aware of these contributions. and when I ask my students, if they've ever gone to the mannequin, festival, if they've ever visited, Fort Hall, they say no, most of the non-Native students have not.",
+      "tags": [
+        "pocatello"
+      ],
+      "timestamp": "[00:24:50:12]"
+    },
+    {
+      "id": "context_50_58",
+      "index": 58,
+      "speaker": "Dr. Liz Redd",
+      "words": "And they have some of these stereotyped ideas that it's a scary place and it's a dangerous place. And so they they're really influenced by these stereotypes. And part of how we can challenge these stereotypes is by highlighting these economic contributions, these cultural contributions. and even though when you're talking about, what is the contribution to the mainstream society, you're centering the mainstream society a little bit.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:26:09]"
+    },
+    {
+      "id": "context_50_59",
+      "index": 59,
+      "speaker": "Dr. Liz Redd",
+      "words": "often that is a necessary evil toward getting your students to incrementally understand the situation, start from their position, and then move toward the native position, like so. Dunbar Arches 2016 identifies that, there are 20 common myths about Native Americans. and this is in her book titled All the Real in the Inside of and I've kind of, condensed and chosen a few here to focus on.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:58:17]"
+    },
+    {
+      "id": "context_50_60",
+      "index": 60,
+      "speaker": "Dr. Liz Redd",
+      "words": "So the myths that we often are faced with that the education system often upholds, are, are these that, are the real or authentic native peoples? died off and there's this idea that, in order to be, a real Native American person, that you have to be a full blooded. That's a whole topic for another conversation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:31:03]"
+    },
+    {
+      "id": "context_50_61",
+      "index": 61,
+      "speaker": "Dr. Liz Redd",
+      "words": "but there is this idea of authenticity. And so people are considered not real anymore, and that real Indians are, something from the past. this idea that Columbus discovered America. Columbus never set foot in North America. Not once. he, found the West Indies, of course, named so because he thought he was, getting to India.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:54:23]"
+    },
+    {
+      "id": "context_50_62",
+      "index": 62,
+      "speaker": "Dr. Liz Redd",
+      "words": "so, yes, Columbus didn't discover anything. One, he never set foot in North America. And so you can't discover something that's already there, native, this idea that native people should move on. This is part of the doctrine of discovery. They were conquered. They lost. Move on. Right. but this is not, this is not a valid way of thinking about things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:18:09]"
+    },
+    {
+      "id": "context_50_63",
+      "index": 63,
+      "speaker": "Dr. Liz Redd",
+      "words": "And this was established by the Supreme Court, as we'll talk about in a minute. And, native peoples, just just because somebody has, a better army doesn't mean that they have the right to a particular land. Right. this idea that natives welcomed the pilgrims and help the pilgrims. We talked about this a little bit before that relationship was, alternatively contentious and collegial, depending on, the context.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:41:20]"
+    },
+    {
+      "id": "context_50_64",
+      "index": 64,
+      "speaker": "Dr. Liz Redd",
+      "words": "But in general, no native peoples were not just saying, you know, here, come have this land. We're not using it. It's not how it was. also in is, this set of discourses that we're confronted with is this idea that natives were savage or warlike or backward or not utilizing the land effectively or somehow less than human, all of these ways to marginalize native peoples so that they, are not viewed as valid, inhabitants of the land and justify this, this taking of the land from them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:12:12]"
+    },
+    {
+      "id": "context_50_65",
+      "index": 65,
+      "speaker": "Dr. Liz Redd",
+      "words": "one that the Dunbar highlights a bit is this idea that the U.S. did not have a policy of genocide. We're going to look at that one in just a minute. also, people have ideas, that natives are wards of the state or that all natives are on welfare or casino rich. And I'm going to show you a video in a minute that that addresses that, in a very humorous way, that natives are unscientific.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:28:51:06]"
+    },
+    {
+      "id": "context_50_66",
+      "index": 66,
+      "speaker": "Dr. Liz Redd",
+      "words": "And then the other ideas that natives are victims, alcoholics or pitiful. This is about the deficit model, right? So these are all myths about native peoples. And in our teaching, we have the potential to unfortunately uphold these myths or challenge them. And so I'm inviting teachers who might be watching this to think about the ways that they can challenge these myths in their own teaching.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:17:04]"
+    },
+    {
+      "id": "context_50_67",
+      "index": 67,
+      "speaker": "Dr. Liz Redd",
+      "words": "And, that's what part three is going to focus on here. So, I'm going to show a quick video that really addresses these last three and perhaps, the first, one as well. all the real, native stuff. There's, a great video, called A Conversation on Natives with race and the New York Times.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:41:00]"
+    },
+    {
+      "id": "context_50_68",
+      "index": 68,
+      "speaker": "Dr. Liz Redd",
+      "words": "I'm not going to show you that video, but I do want people to know that they can find it on YouTube and that, it's about 6.5 minutes long and, it really presents, a native perspective. And I like to include videos in my classes, that are, by native people because, I should be representing native peoples voices rather than my own in this conversation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:04:11]"
+    },
+    {
+      "id": "context_50_69",
+      "index": 69,
+      "speaker": "Dr. Liz Redd",
+      "words": "So this is a video that I highly recommend, but this is the one that we're going to, actually show.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:27:07]"
+    },
+    {
+      "id": "context_50_70",
+      "index": 70,
+      "speaker": "Speaker 3",
+      "words": "Hi. My name is done. It really? I'm a Native American girl, and today you're about to get schooled.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:32:19]"
+    },
+    {
+      "id": "context_50_71",
+      "index": 71,
+      "speaker": "Speaker 3",
+      "words": "We've evolved. And, you know, not all of us lived in teepees. Teepees were made for only travel uses. Well, we own one, but we don't live in it. We just camp in it whenever we want to. We use them for things like ceremonies or camping and such, but we don't live in them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:43:10]"
+    },
+    {
+      "id": "context_50_72",
+      "index": 72,
+      "speaker": "Speaker 3",
+      "words": "I have to say to that, where is my check? We really don't get anything for free. Everything we everything we get, we have to work for it just like everybody else. If we had free health care, then the diabetes and heart disease rate would be very, very low. But at this point in time, it's very high. Our dad works to provide for us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:06:11]"
+    },
+    {
+      "id": "context_50_73",
+      "index": 73,
+      "speaker": "Speaker 3",
+      "words": "We we don't get the money or anything. We get schooling for free. That's not true either. We have to meet the same academic requirements as any other ethnicity. We start to apply for scholarships.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:31:26:06]"
+    },
+    {
+      "id": "context_50_74",
+      "index": 74,
+      "speaker": "Speaker 3",
+      "words": "If we were rich off of casinos, why would we need government money? I think we just mostly lose our money to casinos. We all gamble.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:41:19]"
+    },
+    {
+      "id": "context_50_75",
+      "index": 75,
+      "speaker": "Speaker 3",
+      "words": "Not all Native Americans wear headdresses in some tribes. They don't wear them at all. In my tribe, we don't wear headdresses and we never did. Women don't wear dresses and you have to earn them. It wasn't just given to them or handed down to them. You have to earn every feather that makes up that headdress. If you were to buy a headdress, there would be that would be disrespectful because there's no meaning behind it.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:31:54:04]"
+    },
+    {
+      "id": "context_50_76",
+      "index": 76,
+      "speaker": "Speaker 3",
+      "words": "You didn't do anything to earn it. All you did was pay for it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:18:15]"
+    },
+    {
+      "id": "context_50_77",
+      "index": 77,
+      "speaker": "Speaker 3",
+      "words": "That's racist. And a lot of people say that the Redskin term comes from the color of our skin. But if you look at me, I'm not red. Society is just played into it like the word Redskins is okay when it's not. The word Redskins came about from the scalping of Native Americans. Redskin means the blood that was drip from down on their faces.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:25:09]"
+    },
+    {
+      "id": "context_50_78",
+      "index": 78,
+      "speaker": "Speaker 3",
+      "words": "That's a major league sports team. And their their argument as their argument against changing the name would be just like me having a conversation with my mom and my mom ask me, why don't you like brussel sprouts? Because I don't. It's not like we.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:47:19]"
+    },
+    {
+      "id": "context_50_79",
+      "index": 79,
+      "speaker": "Dr. Liz Redd",
+      "words": "Have a mascot that's called white Man.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:03:02]"
+    },
+    {
+      "id": "context_50_80",
+      "index": 80,
+      "speaker": "Speaker 3",
+      "words": "It's in a way that's making fun of our culture and who we are. And we're human beings just like everybody else.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:08:07]"
+    },
+    {
+      "id": "context_50_81",
+      "index": 81,
+      "speaker": "Dr. Liz Redd",
+      "words": "All right, so one of the things that I really like about that video is, that it's young people talking to young people. And so I think that it's, potentially really engaging for, upper elementary, middle school students, and maybe even high school students to think about, and hear from, the words of native students, you know, kids their age talking about, these stereotypes in a, in a candid and humorous way.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:33:18:16]"
+    },
+    {
+      "id": "context_50_82",
+      "index": 82,
+      "speaker": "Dr. Liz Redd",
+      "words": "I love as you start, you're about to get schooled, so that's fantastic. so if we think about all of these myths and all of these stories that get focused on in school and, the messages that we get from the media and we think about if we put them all together, they they form a discourse, they support a grand narrative.",
+      "tags": [
+        "education",
+        "literature"
+      ],
+      "timestamp": "[00:33:50:13]"
+    },
+    {
+      "id": "context_50_83",
+      "index": 83,
+      "speaker": "Dr. Liz Redd",
+      "words": "So they tell a story and they support a bigger story. And, part of this is the story that native peoples weren't peoples. They were less than, they weren't using the land. It was to justify, as Doug was pointing out, the, the narrative supporting westward expansion, that the colonizers had a right to this land and the colonizers had a right to keep taking land and to keep marginalizing people.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:34:12:03]"
+    },
+    {
+      "id": "context_50_84",
+      "index": 84,
+      "speaker": "Dr. Liz Redd",
+      "words": "And so if we think about all these stories, you know, why are we telling the Thanksgiving story? Why are we telling the Sacajawea a story? Why are we focusing on those stories instead of, the, origin narratives of native peoples or, their internal histories? what would be appropriate to share? Right. There are certain things that would not be appropriate to share.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:42:21]"
+    },
+    {
+      "id": "context_50_85",
+      "index": 85,
+      "speaker": "Dr. Liz Redd",
+      "words": "and then if we're thinking about what stories we're telling in the classroom, who's telling the story, who's voices represented, whose ideas, and, how much of U.S. history are we, teaching in a way that erases the contributions, the experiences, and even the existence of native peoples? Why is it that we, are only talking about these particular stories?",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:35:08:00]"
+    },
+    {
+      "id": "context_50_86",
+      "index": 86,
+      "speaker": "Dr. Liz Redd",
+      "words": "And so I think when you're thinking about what you're teaching, think about, you know, what is the purpose here and what big story are we supporting here?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:34:12]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 87,
+    "description": "This three-part series presented by Dr. Liz Redd of Idaho State University will help listeners: 1) articulate pervasive myths and stereotypes of native American peoples often perpetuated in mainstream education/society 2) reframe discussions to dispel common misconceptions about Native American peoples, their histories, and their persistence & resistance 3) describe the unique sovereign political status of Native American Tribes in the United States as informed by history and policy 4) explore ways to incorporate diverse voices and perspectives throughout curriculum and programs Key concepts include representation, U.S. Native American Law & Policy, erasure, resistance, and sovereignty.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

@@ -1,0 +1,1663 @@
+{
+  "title": "War. What is it good for?",
+  "interviewee": "Kim Madsen Dill",
+  "interviewer": "Johanna Bringhurst",
+  "date": "2024-05-01",
+  "subjects": [
+    "veterans",
+    "literature",
+    "education",
+    "american english (language)",
+    "writing",
+    "refugees"
+  ],
+  "segments": [
+    {
+      "id": "context_03_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_03_1",
+      "index": 1,
+      "speaker": "Johanna Bringhurst",
+      "words": "Hello everyone, and welcome to. Context. This program is brought to you by the Idaho Humanities Council with funding from the National Endowment for the Humanities. The views expressed here today do not necessarily represent those of the. I work for the NIH. My name is Joanna Bringhurst. And joining us today is Kimberly Madsen Dill. Kim Madsen Dill has taught in the English department at the College of Southern Idaho since 2004, and she recently retired.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_03_2",
+      "index": 2,
+      "speaker": "Johanna Bringhurst",
+      "words": "She was the writing program administrator for the English department. She oversaw the writing program and was the faculty liaison for dual credit instructors. She also volunteered teaching English at the CSI Refugee Center. Kim, thank you so much for joining us today.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:32:16]"
+    },
+    {
+      "id": "context_03_3",
+      "index": 3,
+      "speaker": "Kim Madsen Dill",
+      "words": "Thank you for having me. I'm really happy to be here today.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:50:29]"
+    },
+    {
+      "id": "context_03_4",
+      "index": 4,
+      "speaker": "Johanna Bringhurst",
+      "words": "You have been teaching a general education course at the College of Southern Idaho called The War. What is it good for? Where you trace America's wars through the eyes of the men and women who fought them? How did you first become interested in veterans literature?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:55:03]"
+    },
+    {
+      "id": "context_03_5",
+      "index": 5,
+      "speaker": "Kim Madsen Dill",
+      "words": "Well, my father, he was a veteran who served from 1952 54 during the Korean War, as an airplane mechanic on a Navy ship. He became a professional pilot in the years after Korea. And then in July of 1964, he enlisted in the Army because of the Vietnam War. He served in Vietnam as a chief warrant officer from April of 65 to April of 66, and was discharged in July of 1967, having earned a Distinguished Flying Cross, a Bronze Star, an Air Medal with 21 clusters, Cross of Gallantry and a Purple Heart.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:01:13:21]"
+    },
+    {
+      "id": "context_03_6",
+      "index": 6,
+      "speaker": "Kim Madsen Dill",
+      "words": "His company, the 100 118th Assault Helicopter Company of the 145th Battalion also earned a Presidential Unit Citation for all the combat, assault, rescue, and relief operations they flew during the Battle for the Special Forces camp at Dong as why this is in Vietnam history a well known story and it was brought before the Senate and the story was retold there.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:02:05:20]"
+    },
+    {
+      "id": "context_03_7",
+      "index": 7,
+      "speaker": "Kim Madsen Dill",
+      "words": "at that time. And so my dad was always very proud of, the work that they did there. And I heard that story several times over the years. I was nine years old when he returned home and a senior in high school, the year that the Vietnam War ended. As I became a teenager, I looked up to him a lot.",
+      "tags": [
+        "education",
+        "conflict"
+      ],
+      "timestamp": "[00:02:40:08]"
+    },
+    {
+      "id": "context_03_8",
+      "index": 8,
+      "speaker": "Kim Madsen Dill",
+      "words": "I thought the fact that he was a pilot made him pretty darn cool, especially when I saw his sometimes good looking college students, look up to him and admire him. He taught basic airframe and mechanics at Sacramento City College, and in fact, he's the one that inspired my college teaching career. during the summers, he flew helicopters as a bush pilot in Canada.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:05:19]"
+    },
+    {
+      "id": "context_03_9",
+      "index": 9,
+      "speaker": "Kim Madsen Dill",
+      "words": "In Alaska. One summer, when I was about 13, he took all of us my mom, my sister, my brother, and I, with him up to the Yukon Territory. That trip had been made possible because the summer before, he had rescued his boss, who had crashed and gone missing. They couldn't locate him. And I don't remember how long he was missing, but I think it was several days, to thank my dad.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:32:25]"
+    },
+    {
+      "id": "context_03_10",
+      "index": 10,
+      "speaker": "Kim Madsen Dill",
+      "words": "His boss invited him to bring his family up the following summer. All expenses paid. So anyway, in the years following his return, my dad dealt with his memories of the war and the effect on him of his country's response to that service. At the same time, I began to develop political opinions that sometimes often conflicted with my dad's, especially about the Vietnam War.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:04:01:05]"
+    },
+    {
+      "id": "context_03_11",
+      "index": 11,
+      "speaker": "Kim Madsen Dill",
+      "words": "Add to this the typical teen angst and rebellion, and you can imagine the conflict. So my solution was to start reading some of the books that I knew my dad liked. We were a family of readers, so it was easy to find something I knew that he liked about sailing, adventure, stories, flying or war. one of the early books that I read, I can't say it was the first, but one of the early books that I read was about 21 by William C Anderson, and it was a story, The True Story of Air Force Colonel Ike Seal.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:04:30:01]"
+    },
+    {
+      "id": "context_03_12",
+      "index": 12,
+      "speaker": "Kim Madsen Dill",
+      "words": "I think I'm pronouncing that correctly, Gene Hamilton's real life rescue from behind enemy lines in Vietnam. At the time, it was the largest rescue operation in United States Air Force history. I believe that it was later made into a movie. And, and then I also would watch his favorite war films, and one of the ones that comes to mind is The Bridge Over the River Kwai, about, World War Two.",
+      "tags": [
+        "conflict",
+        "cinema"
+      ],
+      "timestamp": "[00:05:09:06]"
+    },
+    {
+      "id": "context_03_13",
+      "index": 13,
+      "speaker": "Kim Madsen Dill",
+      "words": "And he wrote a ton about World War Two as well. It wasn't just Vietnam that he was reading about. and before long, I was hooked. you know, I saw my dad struggle with PTSD. I didn't have a name for it in the early years, but later, especially as I read about war, I. I began to understand,",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:05:38:08]"
+    },
+    {
+      "id": "context_03_14",
+      "index": 14,
+      "speaker": "Kim Madsen Dill",
+      "words": "A little bit better about the demons that he faced. And as I listened to his stories, I understood even more. As I became an adult, he began to open up and tell me about some of his stories, too. During the Battle of Dan's, why, the one that I mentioned earlier, dad had been assigned the Bravo two position. I can't tell you exactly what that is, but he had been assigned the Bravo two position in a formation known as VS of three.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:06:03:04]"
+    },
+    {
+      "id": "context_03_15",
+      "index": 15,
+      "speaker": "Kim Madsen Dill",
+      "words": "So my guess is that it was formations of three ships in a V formation, and he was assigned the Bravo two position. But at the last minute he was told to switch aircraft with another pilot. His company, the 118th, led the assault and the formation was ambushed in the landing zone with mortar demolitions, automatic weapons and rifle fire.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:06:35:04]"
+    },
+    {
+      "id": "context_03_16",
+      "index": 16,
+      "speaker": "Kim Madsen Dill",
+      "words": "A mortar round exploded near the helicopter he had been switched out of and the aircraft veered out of control and burst into flames. I remember my dad talking about them coming in and landing. This was a plantation, and there were rice paddies and landing and literally the water buffalo just exploding. And the mayhem that that he saw.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:02:26]"
+    },
+    {
+      "id": "context_03_17",
+      "index": 17,
+      "speaker": "Kim Madsen Dill",
+      "words": "Dad told me of the guilt he felt that he this was fairly early after he had been in country, and I, as I recall, it was one of the first huge battles that he was in. and he just, you know, we hear about that, the survivor's guilt. And he felt it. And then there was another, story that he shared with me so often, and it was about his best friend, his fellow chief warrant officer Van Sherrell.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:31:12]"
+    },
+    {
+      "id": "context_03_18",
+      "index": 18,
+      "speaker": "Kim Madsen Dill",
+      "words": "I have, bookmarked that story, which is in this book, American Warrior, who is written it was written by Brigadier General John C Doc Benson, Jr, retired Army and Doc Benson was another friend or acquaintance of my father's. they were there in country together. And doc went on to become, a decorated hero multiple times over.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:05:19]"
+    },
+    {
+      "id": "context_03_19",
+      "index": 19,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, while he was there and Ben Wall, where my dad was stationed in southern Vietnam. my father, Ron Madsen, by the way, is his name and his friend, his best friend, Ben Sheryl. They were, Doc Manson's instructors. So, I'm sure he was a pilot. I don't know his full story, but I'm sure he was a pilot when he arrived.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:41:26]"
+    },
+    {
+      "id": "context_03_20",
+      "index": 20,
+      "speaker": "Kim Madsen Dill",
+      "words": "But they were making sure that he was getting, all of the instruction that he needed to be able to, man, that that helicopter and and to do the kind of flying that was in front of them. So he wrote this book. And in the book he recounts some of these stories. And he asked my dad Patel, his and van story about the day that van died.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:08:17]"
+    },
+    {
+      "id": "context_03_21",
+      "index": 21,
+      "speaker": "Kim Madsen Dill",
+      "words": "So let me read that. My dad recounts the loss of his good friend. Van and I were out on a standardization ride. It was really a pretty day. Not too hot. We had been doing auto rotations, having fun, taking turns to see who could get closest to the touchdown point. When we got a call from our operations saying they needed a medevac at a certain area, medevac is when they go in and they get a soldier who's in medical need from wounds or whatever, and they fly him to an aid station.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:09:39:04]"
+    },
+    {
+      "id": "context_03_22",
+      "index": 22,
+      "speaker": "Kim Madsen Dill",
+      "words": "They asked if we had the fuel to do it. We did. So we immediately headed in the direction given we got the ground forces frequency from the codebook and made contact. As we got close to its position, we asked if they were in a secure area. They said all was quiet. We asked them to pop a smoke grenade.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:15:01]"
+    },
+    {
+      "id": "context_03_23",
+      "index": 23,
+      "speaker": "Kim Madsen Dill",
+      "words": "We identified color and proceeded to land the usual landing procedure was to come in pretty high, then bottom the collective and make a fast descending spiral with the steep flare on the bottom to decelerate the touchdown. I believe the collective is the stick that they would fly with, kind of between their legs that they used to control the helicopter.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:36:07]"
+    },
+    {
+      "id": "context_03_24",
+      "index": 24,
+      "speaker": "Kim Madsen Dill",
+      "words": "we landed and picked up a wounded American soldier accompanied by a medic. Once they were secure, we flew to the hot spot at Saigon. An ambulance and a doctor met us and put the wounded soldier under good care. Right away. The medic stayed on board with us for a lift back to his unit. We were running low on fuel, necessitating a refueling stop before flying to the medics unit.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:11:02:19]"
+    },
+    {
+      "id": "context_03_25",
+      "index": 25,
+      "speaker": "Kim Madsen Dill",
+      "words": "When we landed to refuel, I asked van if he wanted to fly in the right seat for a while. He said after we dropped the medic off, we could go for lunch and he would change seats with me. Then, before we could get the medic home, we received another medevac. Medevac call. After having plenty of fuel and the medic on board, we headed for the location given once again, same routine area seemed secure.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:29:22]"
+    },
+    {
+      "id": "context_03_26",
+      "index": 26,
+      "speaker": "Kim Madsen Dill",
+      "words": "The soldiers on the ground pop smoke. We called color before making our final approach to the LC or the landing zone. Van was flying from the seat, doing an overhead spiral to land as he flared our our helicopter for landing, I had the impression of two men standing up to our left. It all happened so fast, the familiar crack as a bullet hit the helicopter.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:59:17]"
+    },
+    {
+      "id": "context_03_27",
+      "index": 27,
+      "speaker": "Kim Madsen Dill",
+      "words": "The helicopter pitched when van let loose of the cyclic and grabbed his neck. I grabbed the controls. Everything seemed to be moving in slow motion, then cocked his head toward me. He had a surprised look on his face. Blood was squirting through his fingers, spraying the instrument panel in me. It's a picture that will forever be etched in my memory.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:28:28]"
+    },
+    {
+      "id": "context_03_28",
+      "index": 28,
+      "speaker": "Kim Madsen Dill",
+      "words": "I was hollering for the medic as I drove to the right, trying to accelerate. Van started to slump. The medics stood behind him, applying a compressed bandage in an attempt to stop the bleeding. I started talking to van. Hang on, I told him. I'll have you at the hot spot in just a few minutes. Don't give up. Hang on, van, it was already too late.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:55:13]"
+    },
+    {
+      "id": "context_03_29",
+      "index": 29,
+      "speaker": "Kim Madsen Dill",
+      "words": "His leg started to clamp on the cyclic. I had to lean across him to pull them off the controls. The medics saw what I was trying to do and he used his left hand to help me. I still kept talking to van, encouraging him to hang on. I couldn't see the radio frequency to get psych out. Saigon because van's blood was splattered all over the console.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:21:13]"
+    },
+    {
+      "id": "context_03_30",
+      "index": 30,
+      "speaker": "Kim Madsen Dill",
+      "words": "But there's a switch you can throw together an emergency channel, and I threw it. It seemed like ages before we got to the hotspot, but it wasn't. I pulled 100% power all the way in an ambulance. Medics and a doctor were waiting for us at the landing pad. I had just touched down when a medic opened the door and the doctor stepped up and leaned into the cabin to check van for life side.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:47:04]"
+    },
+    {
+      "id": "context_03_31",
+      "index": 31,
+      "speaker": "Kim Madsen Dill",
+      "words": "The doctor shook his head at me. It was too late. I shut down and got out, walking around to the other side. It was like a bad dream, but you couldn't wake up. The bullet entered through the left door post and hit van in the right jugular vein. Standing there, the impact hit me. I started crying and wanted vengeance.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:14:21]"
+    },
+    {
+      "id": "context_03_32",
+      "index": 32,
+      "speaker": "Kim Madsen Dill",
+      "words": "The crew chief was where I to everyone thought a lot of van. I had the crew to get in the front seat and we returned to base. When someone in the company was killed the first day, everyone would talk about it until we knew what had happened. After that, it was never mentioned again, except weeks or maybe months later.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:14:40:03]"
+    },
+    {
+      "id": "context_03_33",
+      "index": 33,
+      "speaker": "Kim Madsen Dill",
+      "words": "There's a website I'm going to share with you at some point in our conversation. and, someone who knew the story and actually, summarized some of it from this book itself, share that story. And he mentions about van's body that they they had a very solemn procession where they wheel him back on to base to prepare him for what came next, which was sending his body home to his family.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:04:24]"
+    },
+    {
+      "id": "context_03_34",
+      "index": 34,
+      "speaker": "Kim Madsen Dill",
+      "words": "So it was stories like that that my dad told. And, as a friend of his, doc, let me see. Let me tell you his name too, because he deserves mentioning, he was the base commander. I think they called him doc. I'm not sure, but John Waters, captain John Waters, as as he explained.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:43:18]"
+    },
+    {
+      "id": "context_03_35",
+      "index": 35,
+      "speaker": "Kim Madsen Dill",
+      "words": "The stories like that were not the only thing. I mean, they they're terribly horrific and traumatic. And as you can see by those two stories of both the getting switched out of one helicopter and put into another only to have that helicopter crash and then not switching seats with van. And because of where Brian was sitting, he's the one that was hit by the helmet, by the bullet that my dad just had such an enormous amount of survivor's guilt.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:19:04]"
+    },
+    {
+      "id": "context_03_36",
+      "index": 36,
+      "speaker": "Kim Madsen Dill",
+      "words": "And he always believed that he needed to live up to what was left for him this life, and he needed to live a well. But Captain Waters says that these stories do not describe the tension of day to day operations, the dread of hot landing zones, of being a sitting target in the pilot's seat with no place to take cover, the noise and confusion of combat, the worry of letting down your fellow airmen that a moment of indecision or an inattention could result in the injury or death of your friends and troops, and or a failure of your mission.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:16:56:19]"
+    },
+    {
+      "id": "context_03_37",
+      "index": 37,
+      "speaker": "Kim Madsen Dill",
+      "words": "A heavily loaded helicopter in hot, humid air. Humid air must be coaxed, persuaded to stagger into the air. There is no margin for error. Split decisions must be made on whether to abort a takeoff or risk crashing into a barrier of trees or landing on boulders and stumps hidden in elephant grass. Air combat crews must often deal with these hazards to fly after prolonged flight operations and without adequate rest.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:17:42:13]"
+    },
+    {
+      "id": "context_03_38",
+      "index": 38,
+      "speaker": "Kim Madsen Dill",
+      "words": "Mind numbing tiredness bordering on total exhaustion is often the norm, not the exception, the threat and nine fear of a mid-air collision information or in a landing zone is never far away. Ron has seen this happen. He was writing about my dad. Ron has seen this happen when a heavily loaded helicopter had to abort a takeoff from a dusty road.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:18:03]"
+    },
+    {
+      "id": "context_03_39",
+      "index": 39,
+      "speaker": "Kim Madsen Dill",
+      "words": "He serves more, but it's pretty brutal and I think I'll spare our audience. So it was stories like that so that my dad began to share with me as I got older. When I was little, I remember after he came home coming across a collection of photographs that he had that, of course, were put away and not allowed for our consumption.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:49:23]"
+    },
+    {
+      "id": "context_03_40",
+      "index": 40,
+      "speaker": "Kim Madsen Dill",
+      "words": "but he brought them home with them. And I think, as I recall, our family stories, I think that my mom eventually convinced him that it was best just to get rid of them. But they were all part and parcel of the memories that he carried. And, you know, he always worried about other soldiers who, the infantry who didn't.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:17:05]"
+    },
+    {
+      "id": "context_03_41",
+      "index": 41,
+      "speaker": "Kim Madsen Dill",
+      "words": "Who came home to the same kind of reception that he felt that he received and, didn't have the, the family that he had or whatever, he worried about them not being able to tell their stories. And, so he was my inspiration for this, this class. Certainly. I designed this class. to meet the outcomes required, mandated by the college, but also kind of as an honor to my dad and to all the veterans who didn't have a chance to tell their stories.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:46:12]"
+    },
+    {
+      "id": "context_03_42",
+      "index": 42,
+      "speaker": "Johanna Bringhurst",
+      "words": "I really appreciate you addressing, the really poor reception that a lot of service members received when they came home from the Vietnam War, and the you know, the reasons are complicated, but it's almost unimaginable to think what that must have felt like, it been like for your dad and for his, colleagues.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:29:23]"
+    },
+    {
+      "id": "context_03_43",
+      "index": 43,
+      "speaker": "Kim Madsen Dill",
+      "words": "It was very hard. And,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:59:01]"
+    },
+    {
+      "id": "context_03_44",
+      "index": 44,
+      "speaker": "Kim Madsen Dill",
+      "words": "I have a vague recollection of an incident when we were at a post office, and my dad had his uniform on, and he had an encounter with somebody that disrespected him. And, it was hard. He restrained himself, probably because I was present, but, and maybe my mom, too. I don't recall. Like I said, I was pretty young when he came home, but, it was very hard, you know, fast forwarding just a little bit to, this class, one of the films that we watch is a film about Vietnam, and I believe that or not, I believe I know the director and producer, Ken Rogers and his wife, Betty Rogers.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:21:05:01]"
+    },
+    {
+      "id": "context_03_45",
+      "index": 45,
+      "speaker": "Kim Madsen Dill",
+      "words": "I believe that it's a documentary, and I believe that they received support from the Idaho Humanities Council to, create this film. And it's a documentary about the battle of case on and, at the very beginning of the film, the narrator, just a voiceover, says, this is not an anti-war film. This is not a pro-war film.",
+      "tags": [
+        "cinema",
+        "conflict"
+      ],
+      "timestamp": "[00:21:59:22]"
+    },
+    {
+      "id": "context_03_46",
+      "index": 46,
+      "speaker": "Kim Madsen Dill",
+      "words": "And then I forget exactly what came next. But it's basically, this isn't the story of what happened. And sometimes, you know, like with some of these books that I read with my students or other books that I'm just researching, you know, I, I go to, the number one website for buying anything online. I want to know them and, search for my books and you can find in there, you know, there's reviews and sometimes they go on quite long with books like some of these or a film like that.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:22:35:20]"
+    },
+    {
+      "id": "context_03_47",
+      "index": 47,
+      "speaker": "Kim Madsen Dill",
+      "words": "books that tell some of the harsh realities of war. People will go on there and rant because they think, oh, this is just anti-war and fill in the blank, And I think if you were to ask my dad, are you anti-war, you probably would have said yes. I bet if you asked just about any veteran, you know, are you pro-war or are you anti-war?",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:23:19:01]"
+    },
+    {
+      "id": "context_03_48",
+      "index": 48,
+      "speaker": "Kim Madsen Dill",
+      "words": "I betcha they tell you I'm anti-war. That has nothing to do with politics. It has to do with the cold, hard reality. veterans who go to where the war is because they have. The sense of obligation that this is my country, for better or worse. My job is to to go there and to stand in the gap for my country and for my family and for my fellow citizens.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:23:48:24]"
+    },
+    {
+      "id": "context_03_49",
+      "index": 49,
+      "speaker": "Kim Madsen Dill",
+      "words": "It's a sense of honor. And, You know, like I alluded to earlier, as a teenager, you know, the Vietnam War was going on and all these protests. And I remember the Kent State shootings, they had a profound impact on me. I was devastated and,",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:24:26:12]"
+    },
+    {
+      "id": "context_03_50",
+      "index": 50,
+      "speaker": "Kim Madsen Dill",
+      "words": "I mean, my dad and I weren't in a pitched battle, but we had long conversations, sometimes very intense and, I always respected him, but I was deeply concerned and and probably a bit young to be out there as a protester of the war. But I might have been if I had found the opportunity. And, because that I'm very much against war and what I'm against is what it does to the soldiers.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:24:52:14]"
+    },
+    {
+      "id": "context_03_51",
+      "index": 51,
+      "speaker": "Kim Madsen Dill",
+      "words": "But I have the utmost respect for them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:33:28]"
+    },
+    {
+      "id": "context_03_52",
+      "index": 52,
+      "speaker": "Johanna Bringhurst",
+      "words": "You so given, you're given your history with your family and the complicated nature of veteran's experiences, how did you go about building a class at KCI? truly showcase and share what veterans have written and published about their experiences?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:37:08]"
+    },
+    {
+      "id": "context_03_53",
+      "index": 53,
+      "speaker": "Kim Madsen Dill",
+      "words": "of course, you know, so the the title of the course is Introduction to General Education. And,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:04:14]"
+    },
+    {
+      "id": "context_03_54",
+      "index": 54,
+      "speaker": "Kim Madsen Dill",
+      "words": "Maybe what I should do is read the course description to you. That might give a good starting place. Excuse me. War. What is it good for? War. The anthem song of the 60s, countercultural revolution, argues that war is good for absolutely nothing. But is it? In this class, we will trace America's wars through the eyes of the men and women who have fought them from the Civil War, the First and Second World Wars, Vietnam and the Iraq and Afghanistan wars?",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:26:17:27]"
+    },
+    {
+      "id": "context_03_55",
+      "index": 55,
+      "speaker": "Kim Madsen Dill",
+      "words": "In novels, memoirs, film, music, poetry and essays. Using discussion, interviews and writing. We will attempt to answer this question. War. What is it good for? obviously, the guiding principle for me as I built this class was to meet the college's mandated outcomes for my students using the readings and the work of this class to help me, to help my students, and to remind me, to remind us of the sacrifices made by our fellow citizens, soldiers.",
+      "tags": [
+        "cinema",
+        "music",
+        "literature",
+        "conflict"
+      ],
+      "timestamp": "[00:26:55:28]"
+    },
+    {
+      "id": "context_03_56",
+      "index": 56,
+      "speaker": "Kim Madsen Dill",
+      "words": "one of the readings I use that term broadly, as you can tell from that course description. But one of the readings that we now use that was actually, shared with me by one of my former students, is a Ted talk. And, this in this Ted talk, doctor Mike Haney is his name. He reminds us that after the Vietnam War, we went away from, a conscripted army, and it became, you know, citizens enlisting of their own free will.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:27:39:05]"
+    },
+    {
+      "id": "context_03_57",
+      "index": 57,
+      "speaker": "Kim Madsen Dill",
+      "words": "And he argues. I don't know, honestly, if he would argue for a return of the draft. but he does argue that by virtue of this kind of army, that what has happened is that Americans have become disconnected with the reality that our our sons and daughters, we can feel that connection. But our neighbors, the kid down the street, you know, the the they are paying the price of whatever the war is that America is involved in.",
+      "tags": [
+        "literature",
+        "conflict"
+      ],
+      "timestamp": "[00:28:26:06]"
+    },
+    {
+      "id": "context_03_58",
+      "index": 58,
+      "speaker": "Kim Madsen Dill",
+      "words": "And in fact, I don't recall the statistics, but Doctor Haney says that once we went away from a draft conscripted service army, that the number of conflicts that American soldiers were sent into markedly increased. And I think and I think it's part of his argument that it's easier for that to happen when the whole country isn't.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:29:12:07]"
+    },
+    {
+      "id": "context_03_59",
+      "index": 59,
+      "speaker": "Kim Madsen Dill",
+      "words": "Completely emotionally invested in the fact that we have fellow citizens there in more. And it makes a difference. And because of it. Especially in most recent times, there's been a huge increase. suicide rates and, big increase of mental health issues. some of the statistics, the, the generation of veterans who are alive right now, many of them quite young, 20% commit suicide compared to veterans representing only 10% of our our country.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:54:01]"
+    },
+    {
+      "id": "context_03_60",
+      "index": 60,
+      "speaker": "Kim Madsen Dill",
+      "words": "So the numbers don't add up. And he also says that over 30% of them have, or around 30% have disabilities of various kinds that affect their ability to find jobs. And he he says so much more there. And I'm I want to share that, the name of that podcast and his name with you, in fact, is I was going to offer and I don't know if it's doable.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:51:15]"
+    },
+    {
+      "id": "context_03_61",
+      "index": 61,
+      "speaker": "Kim Madsen Dill",
+      "words": "with where you publish your podcast, but I want to offer to maybe, give like a bibliography of some of the sources that I mentioned so that others can look them up and, and check them out for themselves.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:23:15]"
+    },
+    {
+      "id": "context_03_62",
+      "index": 62,
+      "speaker": "Johanna Bringhurst",
+      "words": "Absolutely. We can share that in the notes for our great, great.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:38:02]"
+    },
+    {
+      "id": "context_03_63",
+      "index": 63,
+      "speaker": "Kim Madsen Dill",
+      "words": "So I wanted to give veterans a voice. And my students, like I said, you know, we meet the outcomes. it's interesting, this introduction to general education. I'm not the only one teaching that they're not all war lit classes. They are on every topic under the sun. But we all are working with our students to help them achieve certain outcomes.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:31:44:06]"
+    },
+    {
+      "id": "context_03_64",
+      "index": 64,
+      "speaker": "Kim Madsen Dill",
+      "words": "And I'm not going to read all of them, but one of them is, the value of a general education, understanding different viewpoints or perspectives and learning how to, access different ways of knowing, like math and social science and, history and things like that.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:32:14:16]"
+    },
+    {
+      "id": "context_03_65",
+      "index": 65,
+      "speaker": "Kim Madsen Dill",
+      "words": "To get information integrity is one of them, and it's a huge one. And it plays a major role. And in what we do in this class engagement, teaching students to use all kinds of strategies to find information for themselves and teaching students. At the end of the course, students will be able to explain the impact of community on engaged learning.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:32:42:29]"
+    },
+    {
+      "id": "context_03_66",
+      "index": 66,
+      "speaker": "Kim Madsen Dill",
+      "words": "And I would say also the impact of community upon the lives of veterans. And so, in the class that I created, we that's what we're doing. We're working towards those outcomes. But I took that course description and it was like my guiding, my guiding light. Actually, that's probably not quite true. I would say it defined what I wanted to do, but my guiding light was following my dad.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:10:09]"
+    },
+    {
+      "id": "context_03_67",
+      "index": 67,
+      "speaker": "Kim Madsen Dill",
+      "words": "He had already passed by the time I created this course, and so many times that I have wished that he could have been around for it, and we probably would have argued over some of the things I say and do. Well, of course, of course. But, it would have been so rich and,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:43:14]"
+    },
+    {
+      "id": "context_03_68",
+      "index": 68,
+      "speaker": "Kim Madsen Dill",
+      "words": "He he was a firm believer in the fact that veterans need that opportunity to share their stories. And, I think he would have supported it, especially because one of the things that I built into the class is an oral history project, and it comes at the end of the course, after my students have been through different units on the wars that I mentioned.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:07:08]"
+    },
+    {
+      "id": "context_03_69",
+      "index": 69,
+      "speaker": "Kim Madsen Dill",
+      "words": "We start with the Civil War, then we go to World War One, and then we go to World War Two and then the Vietnam War and then, Iraq and Afghanistan and about the time that we're moving into Iraq and Afghanistan, you know, my students have watched like that film that I mentioned earlier. it's called, let me see.",
+      "tags": [
+        "conflict",
+        "cinema"
+      ],
+      "timestamp": "[00:34:36:11]"
+    },
+    {
+      "id": "context_03_70",
+      "index": 70,
+      "speaker": "Kim Madsen Dill",
+      "words": "I've got it listed here. I just want to mention that while it's on my mind. Bravo. Common men, uncommon valor, I can and Betty Rogers, they directed the documentary, and, Ken Rogers himself was a soldier in that battle of caisson, which is what the film is about. But. They've listened to Ken and his fellow soldiers.",
+      "tags": [
+        "cinema",
+        "conflict"
+      ],
+      "timestamp": "[00:35:06:17]"
+    },
+    {
+      "id": "context_03_71",
+      "index": 71,
+      "speaker": "Kim Madsen Dill",
+      "words": "I think there's 14 of them that he interviews. They've listened to them tell their stories in so many different ways. We watch Band of Brothers not. I don't require that they watch the whole series. I assign, I think, three different episodes, and almost inevitably they end up wanting to watch the whole thing. we, we read, the Things they carried by Tim O'Brien.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:35:23]"
+    },
+    {
+      "id": "context_03_72",
+      "index": 72,
+      "speaker": "Kim Madsen Dill",
+      "words": "We, we read books that are storytelling or films or, we get to hear a soldier's stories and, the, what is it? Smithsonian Institute A has an oral history project for veterans. And, they have all kinds of support documents to, help people conduct an oral history project. So they tell them how to how to make contact and to schedule an interview, then how to prepare for the interview.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:02:14]"
+    },
+    {
+      "id": "context_03_73",
+      "index": 73,
+      "speaker": "Kim Madsen Dill",
+      "words": "They they even suggest questions. They suggest some questions that maybe shouldn't be asked. Like, how many people did you kill? There's a really sad one. but, you know, they they help people, students, whoever is interested in doing this prepare the questions and then they do a recorded interview. And my students, I ask them to do that. And so every semester at the end of the term, I listen to every one of those recordings.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:45:12]"
+    },
+    {
+      "id": "context_03_74",
+      "index": 74,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, my husband always knows when it's the end of the term because I'm usually sitting in a recliner in our living room with my headphones on, on my laptop in front of me, and I'm listening to these interviews, and so many times I just have tears streaming down my faces. Listen. And occasionally I have a student that can't, identify a veteran.",
+      "tags": [
+        "education",
+        "conflict"
+      ],
+      "timestamp": "[00:37:24:25]"
+    },
+    {
+      "id": "context_03_75",
+      "index": 75,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, so I help them. I try and help them get in contact with or with someone, or they have a family member that is a veteran or who wasn't in combat. And I tell them, still, that's important. They made that choice to enlist, and they had reasons. And so that's worth listening to their stories. And so, you know, like I said earlier, this isn't a glorification of war for any stretch of the imagination.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:37:51:22]"
+    },
+    {
+      "id": "context_03_76",
+      "index": 76,
+      "speaker": "Kim Madsen Dill",
+      "words": "It is an opportunity to teach my students how to research and how to think. I never tell them what to think about what they're reading. I let them form their own opinions. I ask them to support their opinions and,",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:38:22:12]"
+    },
+    {
+      "id": "context_03_77",
+      "index": 77,
+      "speaker": "Kim Madsen Dill",
+      "words": "I want my students to actually come into contact with veterans and, to to have that conversation. And I can tell you that over and over again, I've had students come to me and just say, this has just been life changing. I had one student come to me. She worked. I don't know where it was, but it was maybe kind of, factory possibly food production and, she wanted to do an oral history project for that company because it meant so much to her to do that.",
+      "tags": [
+        "education",
+        "labor"
+      ],
+      "timestamp": "[00:38:42:18]"
+    },
+    {
+      "id": "context_03_78",
+      "index": 78,
+      "speaker": "Kim Madsen Dill",
+      "words": "And she had opportunities to have conversation with coworkers who were veterans, and she realized the importance of doing it. I don't know if she was ever able to to do it, but what matters to me is that desire that was in her heart that was planted there by hearing veterans stories. Absolutely powerful, pretty powerful. Oh, I kind of lost track of the the course as well.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:23:18]"
+    },
+    {
+      "id": "context_03_79",
+      "index": 79,
+      "speaker": "Johanna Bringhurst",
+      "words": "So I'm wondering if for our listeners who can't take your class but want to read more and experience more veterans literature, could we go through, the different conflicts and units in your class, and could you recommend maybe 1 or 2 of your favorite readings? And, by readings, of course, you mean films, podcasts, poetry and all of that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:55:15]"
+    },
+    {
+      "id": "context_03_80",
+      "index": 80,
+      "speaker": "Johanna Bringhurst",
+      "words": "and can you kind of tell us how you selected, that piece for your class? I think you said you started with the Civil War.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:24:29]"
+    },
+    {
+      "id": "context_03_81",
+      "index": 81,
+      "speaker": "Kim Madsen Dill",
+      "words": "We did,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:36:05]"
+    },
+    {
+      "id": "context_03_82",
+      "index": 82,
+      "speaker": "Kim Madsen Dill",
+      "words": "We started with the Civil War. And, you know, during the planning stage stages, I read a ton and, certainly a lot of books that never made it in. You know, one of the challenges was this the 16 weight class. And it's an entry level 100 level course. And, you know, it's not, a senior level nor grad level kind, of course, where I can just pile on the reading.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:40:40:08]"
+    },
+    {
+      "id": "context_03_83",
+      "index": 83,
+      "speaker": "Kim Madsen Dill",
+      "words": "And so I had to very carefully choose the readings, the books. I, I narrowed it down to three, which was really hard. and then I, I wanted to mix in, like I said, music. I bring in some of the anti-war music. from Vietnam. I, I also bring in, some music from World War one and, and some of it too, is anti-war.",
+      "tags": [
+        "music",
+        "conflict"
+      ],
+      "timestamp": "[00:41:13:11]"
+    },
+    {
+      "id": "context_03_84",
+      "index": 84,
+      "speaker": "Kim Madsen Dill",
+      "words": "Not all of it, but written more for the hour from the song, more from the perspective of the mom who's whose child is gone off to war. so I watched and rewatched all kinds of films, research websites and documentaries and, even though I knew, I knew that I was somewhat and I really want to qualify that somewhat fluent in literature about Vietnam.",
+      "tags": [
+        "conflict",
+        "education",
+        "literature"
+      ],
+      "timestamp": "[00:41:46:06]"
+    },
+    {
+      "id": "context_03_85",
+      "index": 85,
+      "speaker": "Kim Madsen Dill",
+      "words": "I had also a library here at home that was my dad's, and it was filled with, books about war, World War One, World War two, Vietnam, Korea and",
+      "tags": [
+        "education",
+        "conflict"
+      ],
+      "timestamp": "[00:42:15:08]"
+    },
+    {
+      "id": "context_03_86",
+      "index": 86,
+      "speaker": "Kim Madsen Dill",
+      "words": "I knew, I knew some of those books were kind of aging a little bit. I wanted to try and bring in some newer stuff to, for this class. The guiding principle was I wanted to give my students a chance to hear veterans stories. And so wherever possible, that's what I look for. And the Civil War, we read a novel.",
+      "tags": [
+        "conflict",
+        "literature"
+      ],
+      "timestamp": "[00:42:37:25]"
+    },
+    {
+      "id": "context_03_87",
+      "index": 87,
+      "speaker": "Kim Madsen Dill",
+      "words": "It's called The Killer Angels by Michael Shara, and, it's one of those books that if you look at the reviewers, most of them praise it. But there's a few reviewers on there that are angry because, they think that he disses on General Robert E Lee and, gives too much credit to the union side. you know, it the thing that I loved about the novel when I read it is that in a way, it's another story bit of storytelling from the perspective of the soldiers, including the the Confederate and the Union soldiers.",
+      "tags": [
+        "labor",
+        "literature"
+      ],
+      "timestamp": "[00:43:01:00]"
+    },
+    {
+      "id": "context_03_88",
+      "index": 88,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, and it's about the Battle of Gettysburg. So it's not about the whole Civil War, but it's about the Battle of Gettysburg. And, and it's really quite powerful. so, like I said, we we look for all of these our I looked for books and films and so forth that, had storytelling. And, you know, it's interesting when every semester I always have students that tell me that they never truly learned about the Civil War, World War One, or Vietnam or one of the other wars that we studied.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:43:49:11]"
+    },
+    {
+      "id": "context_03_89",
+      "index": 89,
+      "speaker": "Kim Madsen Dill",
+      "words": "And perhaps for this reason, perhaps the reason is that they see history as a boring paragraph in a textbook, or a matter of memorizing dates, but we kind of general or I do tend to forget dates. But as an English teacher, I recognize that the stories are powerful and if you can, if you can hear or read an engaging story, it it captivates your attention and draws you in, and there becomes an investment and emotional investment in the story that you hear.",
+      "tags": [
+        "education",
+        "economy"
+      ],
+      "timestamp": "[00:44:27:05]"
+    },
+    {
+      "id": "context_03_90",
+      "index": 90,
+      "speaker": "Kim Madsen Dill",
+      "words": "And that's, I think, so important. you know, I have a, former high school student, Jordan Leonard, who when he graduated, he, he joined and he served in Iraq and Afghanistan and, His name on Instagram is the war hippie, or, I think, just war hippie. And he has, kind of like a blog where he's, he's always, posting, writing that he does, reaching out to veterans and telling them you are loved.",
+      "tags": [
+        "education",
+        "conflict"
+      ],
+      "timestamp": "[00:45:05:00]"
+    },
+    {
+      "id": "context_03_91",
+      "index": 91,
+      "speaker": "Kim Madsen Dill",
+      "words": "You are seeing, you know, things that they need to hear. He has struggled with all kinds of mental health issues since getting out, and in fact, he re-enlisted, I think, a couple of times. And then he, became, a contractor. Even, he was a sniper in Iraq and Afghanistan and he didn't know how to get out and to go back to, to life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:46:02]"
+    },
+    {
+      "id": "context_03_92",
+      "index": 92,
+      "speaker": "Kim Madsen Dill",
+      "words": "And it was a real struggle. And I think he's found a bearings now. And, but I said to him one time we were talking, I told him that sometimes I struggle because I'm so interested in all of this, that I want to read more, and I want to maybe one of these days, write something about it. But then, as I said to him, you know, but what authority do I have to speak?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:15:13]"
+    },
+    {
+      "id": "context_03_93",
+      "index": 93,
+      "speaker": "Kim Madsen Dill",
+      "words": "And he said to me, although you might not know what it's like to be shot at him, still human emotions are universal. You can feel empathy. And I'm going to share that this semester with my students because that's what we all, all of us need to hear. It is the the listening ear and the empathy. And, you know, my dad always felt that he had this built in community as a pilot where they he would meet fellow veterans who were also pilots and they would share their stories.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:46:45:15]"
+    },
+    {
+      "id": "context_03_94",
+      "index": 94,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, and it it was a way that they could help each other and but like I said earlier, he worried about the veterans who didn't have that community that they came home to. And so, you know, the the, the works that we read, most of them are telling stories. Some of them, though, it's necessary to help us get a context for the war.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:47:26:06]"
+    },
+    {
+      "id": "context_03_95",
+      "index": 95,
+      "speaker": "Kim Madsen Dill",
+      "words": "What was going on that led into the war? And again, this might be another opportunity for me to get political, but I don't. I just give them the information, read about this and understand it as they go back to thinking about the implications for the veterans. And that's kind of the way I ask it. So for the Civil War, like I said, The Killer Angels by Michael Shaw is one of my favorites.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:47:58:15]"
+    },
+    {
+      "id": "context_03_96",
+      "index": 96,
+      "speaker": "Kim Madsen Dill",
+      "words": "It won a Pulitzer Prize, I think, in 1975. And, it tells the story of the soldiers, the generals who fought in Gettysburg won both. That is on my to read list is a book entitled They Fought Like Demons Women, soldiers in the Civil War. And that was news to me. It documents the service of more than 240 women soldiers.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:48:28:19]"
+    },
+    {
+      "id": "context_03_97",
+      "index": 97,
+      "speaker": "Kim Madsen Dill",
+      "words": "So that's definitely on my list to read when it comes to World War one. I just retired last time, as you mentioned earlier, and when I did, from my office on campus, I gave away ten boxes of books. So consequently I couldn't find my favorite volume. It's a collection of World War One poetry. I couldn't find it here, but I'm pretty sure that the one that I had was a Penguin Classic volume.",
+      "tags": [
+        "conflict",
+        "literature"
+      ],
+      "timestamp": "[00:48:57:12]"
+    },
+    {
+      "id": "context_03_98",
+      "index": 98,
+      "speaker": "Kim Madsen Dill",
+      "words": "There's all kinds. I mean, if somebody was interested in reading more about, the poetry reading from the poetry of World War One, there's all kinds of collections there that can be found on the web, and I highly recommend it. It's really interesting and just powerful reading. I also would recommend I have read both of these, but it's been so long and they're they're pretty dense reading.",
+      "tags": [
+        "literature",
+        "conflict"
+      ],
+      "timestamp": "[00:49:29:28]"
+    },
+    {
+      "id": "context_03_99",
+      "index": 99,
+      "speaker": "Kim Madsen Dill",
+      "words": "I, I now want to go back there also have moved to my to read list. but I highly recommend Barbara Tuchman, Proud Tower, which is about the world during the years of 1890 to 1914 and then her book, The Guns of August, The Outbreak of World War One. So that's what it covers. and both of those works are really great.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:50:03:17]"
+    },
+    {
+      "id": "context_03_100",
+      "index": 100,
+      "speaker": "Kim Madsen Dill",
+      "words": "The The Guns of August, I did as an audio book and that does not do it justice. So like I said, I really want to go back and read them. I just finished reading it wasn't a book about war, really. let me see. Can I remember desert Queen or Queen of the desert? And, and it was about, on course right now I'm going to draw blank.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:50:30:15]"
+    },
+    {
+      "id": "context_03_101",
+      "index": 101,
+      "speaker": "Kim Madsen Dill",
+      "words": "My mind's not in that track, but it was about a woman who was, kind of at the end of the Victorian period, and she, traveled and wrote. But she ended up spending most of her time, in the Middle East and became a friend to sheikhs, crossing the desert many times on camels. The interesting thing about that book is that it really does a fascinating job of giving a background history of the different tribes of the Middle East, including the Jews, and and it tells about the various conflicts and the way they they got together.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:55:28]"
+    },
+    {
+      "id": "context_03_102",
+      "index": 102,
+      "speaker": "Kim Madsen Dill",
+      "words": "And and it tells about how Britain and the United States and Germany and France and all of these major Western powers, the role that they played in trying to establish countries, all while they could maintain their interest and the rising payroll, that needed oil. And so, so much of that had, everything to do with the war now, but also the wars that are going on over there now, but also, related to World War One.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:51:41:09]"
+    },
+    {
+      "id": "context_03_103",
+      "index": 103,
+      "speaker": "Kim Madsen Dill",
+      "words": "And so I just recommend that a good, introduction to the history of the period is always smart. In my case, I, I for my students, I invite them to do some of their their reading and research online. I give them sources that they're varied. Ken Burns is a great historian. but also, there's different veterans websites and government websites, veterans organizations, but then also, governmental veterans organizations.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:52:24:19]"
+    },
+    {
+      "id": "context_03_104",
+      "index": 104,
+      "speaker": "Kim Madsen Dill",
+      "words": "And there's just a lot of history that's available out there, for World War Two. Right now on my to read list is ghost, ghost Soldiers, the epic account of World War II, whose greatest rescue mission by Hampton Sides. And this book tells the story of 121 hand-selected U.S. troops who marched 30 rugged miles to rescue 513 P.O.W. and a hellish camp.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:53:04:08]"
+    },
+    {
+      "id": "context_03_105",
+      "index": 105,
+      "speaker": "Kim Madsen Dill",
+      "words": "Some of them were the last survivors of the Bataan Death March. And, if you have much information about World War Two, you know that the Bataan Death March was horrific. Of course, I recommend Band of Brothers. by Spielberg and Hanks. And they also have another film out called The Pacific. And then they've got one that's coming out very soon.",
+      "tags": [
+        "conflict",
+        "cinema"
+      ],
+      "timestamp": "[00:53:38:14]"
+    },
+    {
+      "id": "context_03_106",
+      "index": 106,
+      "speaker": "Kim Madsen Dill",
+      "words": "And it's about the aviation war, and I don't remember the title of it, but I am The.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:54:06:26]"
+    },
+    {
+      "id": "context_03_107",
+      "index": 107,
+      "speaker": "Johanna Bringhurst",
+      "words": "Streets of the air.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:12:17]"
+    },
+    {
+      "id": "context_03_108",
+      "index": 108,
+      "speaker": "Kim Madsen Dill",
+      "words": "That's the Masters of the air. It's definitely a good one. when it comes to Vietnam, I mentioned it earlier, but it bears repeating. And it is the on Amazon, available on Amazon. It's Bravo. Common men, Uncommon Valor by Ken and Betty Rogers. 14 Marines and one corpsman relive their journey from enlistment through the epic 77 they siege of the, caisson during the Vietnam War.",
+      "tags": [
+        "migration",
+        "conflict"
+      ],
+      "timestamp": "[00:54:14:16]"
+    },
+    {
+      "id": "context_03_109",
+      "index": 109,
+      "speaker": "Kim Madsen Dill",
+      "words": "Just boys in 1968. They recount their ferocious experience in that wet and isolated battle ground fighting fear and the enemy, only to return to a nation at odds with this controversial war. Still, today, the case on experience simmers just beneath their skin, and I can attest to that. Yeah, it's powerful, and I just can't highly recommend this film enough.",
+      "tags": [
+        "conflict",
+        "cinema"
+      ],
+      "timestamp": "[00:54:49:17]"
+    },
+    {
+      "id": "context_03_110",
+      "index": 110,
+      "speaker": "Kim Madsen Dill",
+      "words": "And and in fact, I want to give a shout out to Ken and Betty because I, I first saw the film, I went with my granddaughter to Idaho Falls and it was a Humanities Council event, and they were showing this film and I'd heard about it, and I wanted to go see it in a theater, and I had a chance to meet him afterwards.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:55:21:19]"
+    },
+    {
+      "id": "context_03_111",
+      "index": 111,
+      "speaker": "Kim Madsen Dill",
+      "words": "I was in the the planning stages for this course. The first semester that I taught. It was in fall of 2017, and I told them what I was doing and, and told them I'd love to share this with my students and asked them, is it available? And, long story short, he gave me and my students permission to use it, and I would reach out to him every, every semester and say, we're doing another class, may may we access.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:43:04]"
+    },
+    {
+      "id": "context_03_112",
+      "index": 112,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, he finally gave me blanket permission and said, just go ahead and use it. And, it's just incredible. It's a powerful story. Then there is, I mentioned this also the things they carried by Tim O'Brien. I use only the first title essay, but I've read the whole book and it was powerful and it's so good and it's not surprising that he shot to fame because of this book, but he has others out to that are well worth your time.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:56:15:28]"
+    },
+    {
+      "id": "context_03_113",
+      "index": 113,
+      "speaker": "Kim Madsen Dill",
+      "words": "They're on my read list is a Rumor of War by Philip Caputo. and this description says a rumor of war is far more than one soldier. Story. Upon its publication in 1977, it shattered America's indifference to the fate of the man sent to fight in the jungles of Vietnam. In the years since then, it has become not only a basic text on the Vietnam War, but also a renowned classic in the literature of wars throughout history.",
+      "tags": [
+        "conflict",
+        "literature"
+      ],
+      "timestamp": "[00:56:52:24]"
+    },
+    {
+      "id": "context_03_114",
+      "index": 114,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, as the author writes, of the things men doing, war and the things war does to them. And I believe that Philip Kudo, the author, was himself a soldier there. And it's a memoir. It's part of his experiences. And then, regarding the war in Iraq and, you know, I want to qualify that again by saying that we don't read and study about the Gulf War, although as we're going moving now towards we're halfway maybe almost two thirds of the way through the semester.",
+      "tags": [
+        "literature",
+        "conflict",
+        "education"
+      ],
+      "timestamp": "[00:57:29:10]"
+    },
+    {
+      "id": "context_03_115",
+      "index": 115,
+      "speaker": "Kim Madsen Dill",
+      "words": "When we get to this point. I have at, at KCI at the College of Southern Idaho, former colleagues of mine who have since, retired had their own oral history project of veterans, and they were doing recordings with veterans. And most of the veterans at that time were coming home from the Gulf War. And so my students listen to a couple of those oral history recordings, and I do that because I want to introduce them to you.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:58:09:20]"
+    },
+    {
+      "id": "context_03_116",
+      "index": 116,
+      "speaker": "Kim Madsen Dill",
+      "words": "you know what? What that's like. But I also use it to alert them to the fact that America's involvement in, in the Gulf and, Iraq has gone on for a long time. so one of the books that my students that I read is called The Good Soldiers by David Trinkle. and, the last two books come in the final, time period of our class.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:47:02]"
+    },
+    {
+      "id": "context_03_117",
+      "index": 117,
+      "speaker": "Kim Madsen Dill",
+      "words": "This book, Finkel was also a Pulitzer Prize winner, and I don't know that it was for this book, but for his own writing, probably as a journalist. He wrote this book as an embedded journalist with the 216 Infantry Battalion in Baghdad during 2007 and 2008, and I highly recommend it. It it's powerful because. He he gets it. He tells their stories, the stories of the different soldiers, who were involved, including their commander.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:22:10]"
+    },
+    {
+      "id": "context_03_118",
+      "index": 118,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, you know, again, it's one of those books that and the comment threads the reviewers post. There's some people that complain, oh, this is just antiwar trash. It's not it's a goldmine of stories giving us the perspective of the soldiers who were actually there. And the truth is, some of it's really ugly. you know, because he even returns to America and goes to the bedside of soldiers who are in hospital, some of them never to get out and continues to tell their stories.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:05:29]"
+    },
+    {
+      "id": "context_03_119",
+      "index": 119,
+      "speaker": "Kim Madsen Dill",
+      "words": "He also opens every chapter with a quotation from president, former President George W Bush, or maybe one of the generals, and they address what was going on in the Iraq War at that time. And so there's things about the surge and here's how things are going. And, you know, the Iraq war was not unique if you do any studying about war, one of the websites that I've looked at, where I've downloaded, transcripts from a Senate, I don't know if it was a Senate committee hearing or just a general session, but we get reports from Dean Rusk and, I can't remember who some of the others were, but these were some of",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:00:52:06]"
+    },
+    {
+      "id": "context_03_120",
+      "index": 120,
+      "speaker": "Kim Madsen Dill",
+      "words": "the people who were in power and making decisions about the war in Vietnam. And to listen to the things that they say. Everything's going swimmingly. You know, we're we're in there. We're getting that done. Everything's, yeah. And you get a sense of that in this book, The Good Soldiers. And so maybe that's, you know what, put some people off.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:01:52:27]"
+    },
+    {
+      "id": "context_03_121",
+      "index": 121,
+      "speaker": "Kim Madsen Dill",
+      "words": "But the the truth is that's the story of war, the reality of what is happening on the ground that our soldiers are experiencing always stands in sharp contrast. And there's heroic stories and there's there's winds, but there's still great loss. And I'm not talking about the battles themselves. I'm talking about the loss, that of life, and I'm talking about the loss.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:02:26:17]"
+    },
+    {
+      "id": "context_03_122",
+      "index": 122,
+      "speaker": "Kim Madsen Dill",
+      "words": "To the psyche of our soldiers. And so, again, this is an anti-war. It's not pro-war. It's about telling, telling our soldiers stories. another about the Iraq War. Another book on my list to read is also by Finkel. It's called Thank You for Your Service. I'm not sure. I think it's been made into a movie. and then War Hippie, my former student, high school student Jordan Leonard.",
+      "tags": [
+        "conflict",
+        "cinema",
+        "education"
+      ],
+      "timestamp": "[01:03:01:03]"
+    },
+    {
+      "id": "context_03_123",
+      "index": 123,
+      "speaker": "Kim Madsen Dill",
+      "words": "it's his name on Instagram. If somebody ever cares to go look, okay, he writes, a lot of really valuable stuff there. he's become a man of faith, and he doesn't shy away from sharing his faith.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:03:35:00]"
+    },
+    {
+      "id": "context_03_124",
+      "index": 124,
+      "speaker": "Kim Madsen Dill",
+      "words": "And so, you know, for some people, that might put them off. But what I find so valuable about what he's doing there is he believes that it's his job to reach out to other veterans, to himself when he tells the story, was on the brink of suicide. And thank God I pulled away from it. And he wants to reach out to other veterans who are struggling and to help them.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:03:54:22]"
+    },
+    {
+      "id": "context_03_125",
+      "index": 125,
+      "speaker": "Kim Madsen Dill",
+      "words": "And then, finally, there's the Afghanistan,",
+      "tags": [
+
+      ],
+      "timestamp": "[01:04:23:11]"
+    },
+    {
+      "id": "context_03_126",
+      "index": 126,
+      "speaker": "Kim Madsen Dill",
+      "words": "And the book that we end with, it's called War by Sebastian Junger is powerful. And again, he was an embedded, journalist, with Battle Company in the Kooringal Valley in Afghanistan and the excuse me. And, he was there about 15 months. Sometimes he would just stay, but other times he'd leave and then come back. his goal was to convey what the soldiers experience, what it actually feels like.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:04:32:02]"
+    },
+    {
+      "id": "context_03_127",
+      "index": 127,
+      "speaker": "Kim Madsen Dill",
+      "words": "He he weaves into it, some statistics about the impact of war and, on veterans. And he addresses that idea of that band of brothers about it's a brotherhood of war. And he addresses that quite a bit, too. And he, he doesn't glorify it. He he too recognizes that.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:05:08:13]"
+    },
+    {
+      "id": "context_03_128",
+      "index": 128,
+      "speaker": "Kim Madsen Dill",
+      "words": "This is not all glory, but it's fighting for the guy next to me. And, and sure, they think about their families, but when it gets right down to it, the hard, cold reality is they're fighting for the person that's in the foxhole with them or their buddy who's just been hauled out on a stretcher, and that's what they're doing.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:05:43:04]"
+    },
+    {
+      "id": "context_03_129",
+      "index": 129,
+      "speaker": "Kim Madsen Dill",
+      "words": "And then, he has a friend, Tim Hetherington, who I think was killed over there. And Junger and Hetherington, did a documentary called Restrepo, which I have yet to see. And it's on my list. So that's part of my reading list for, Afghanistan. I mentioned previously about, about doctor Mike Haney. there's also a Sarah Robinson, that Sarah.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[01:06:08:15]"
+    },
+    {
+      "id": "context_03_130",
+      "index": 130,
+      "speaker": "Kim Madsen Dill",
+      "words": "Sara, she is a veteran herself, and she does a Ted talk about interviewing veterans. And it's really powerful. And she, you know, she titles it what I have learned from interviewing veterans. And let me tell you, there's a lot for us to learn from them. So these are some of the the recommendations that I would offer. There's so much more great websites and all kinds of things.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:06:45:19]"
+    },
+    {
+      "id": "context_03_131",
+      "index": 131,
+      "speaker": "Kim Madsen Dill",
+      "words": "I don't know if I mentioned it, but we're all nowadays familiar with the, the, war, the Vietnam Wall Memorial in Washington, DC. There is a, a website called Wall of Faces that also what it does is for every name that's etched on the Vietnam Memorial, they have a page on this wall of faces and it gives a picture, a photo.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:07:20:05]"
+    },
+    {
+      "id": "context_03_132",
+      "index": 132,
+      "speaker": "Kim Madsen Dill",
+      "words": "It tells a brief, information about their time in service. And, and then people can go there and actually post comments and I still haven't had the courage. I've looked at my my father's best friend, chief warrant officer van. Sure. I've looked at his his page and I've read everything that's there. Interestingly, some of the students that have posted on his page were students, high school students who were going there and reading and posting as an assignment for a class.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[01:07:53:01]"
+    },
+    {
+      "id": "context_03_133",
+      "index": 133,
+      "speaker": "Kim Madsen Dill",
+      "words": "They were taking, which I commend. but anyway, I have yet to post anything because it's hard, very emotional. I've lived with his death ever since my dad came on, and as it happens, he died on the day my brother turned to. And so my dad again, not to take anything away from van, but he always felt like he had been given this gift of life.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:08:32:22]"
+    },
+    {
+      "id": "context_03_134",
+      "index": 134,
+      "speaker": "Kim Madsen Dill",
+      "words": "And so he had to make the most of it. And he did.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:09:07:17]"
+    },
+    {
+      "id": "context_03_135",
+      "index": 135,
+      "speaker": "Johanna Bringhurst",
+      "words": "After all of these years of teaching this class and studying veterans literature, what have you learned and what do you hope your students have learned? Why are these stories so important for all of us to hear?",
+      "tags": [
+
+      ],
+      "timestamp": "[01:09:12:15]"
+    },
+    {
+      "id": "context_03_136",
+      "index": 136,
+      "speaker": "Johanna Bringhurst",
+      "words": "I've asked doctor, possible question probably.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:09:35:01]"
+    },
+    {
+      "id": "context_03_137",
+      "index": 137,
+      "speaker": "Kim Madsen Dill",
+      "words": "Well, I mean, for me, it just keeps returning to the veterans doctor, Mike Haney, and his podcast. I think it was called The Moral Obligation to Know Our Veterans. and his podcast, he, he says that he he starts it by he's on an airplane and conversation lights up. Somebody finds out that one of the fellow passengers is a veteran, and the lady next to him says, thank you for your service.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:09:37:29]"
+    },
+    {
+      "id": "context_03_138",
+      "index": 138,
+      "speaker": "Kim Madsen Dill",
+      "words": "And doctor Mike Haney's job. He works for Syracuse University. He's a veteran himself, but he at least he did this Ted talk in 2014. And he he says he starts to tell her the real story. our veterans nowadays and what they're experiencing, and he gives us statistics of suicide and the statistics of they can't find jobs and it's more than she can take.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:10:15:09]"
+    },
+    {
+      "id": "context_03_139",
+      "index": 139,
+      "speaker": "Kim Madsen Dill",
+      "words": "She checks out, puts her headphones in and watches a film. And when that happens, somebody taps him on the shoulder and thanked him for what he was saying and says, I'm a veteran, and I'm. I'm new home. I'm struggling to find my way, find my place. He's very embarrassed because he's struggled with holding down a job.",
+      "tags": [
+        "cinema",
+        "conflict"
+      ],
+      "timestamp": "[01:10:45:14]"
+    },
+    {
+      "id": "context_03_140",
+      "index": 140,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, part of it is the constant ringing in the ears that comes from the traumatic brain injury of bombs and explosions going off. And, you know, he so he tells a story. And one of the things that he says to Haney is, I feel anonymous. Oh. And that just shouldn't be shouldn't be that way. And so one of the things that I've learned.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:11:13:00]"
+    },
+    {
+      "id": "context_03_141",
+      "index": 141,
+      "speaker": "Kim Madsen Dill",
+      "words": "I have I have a philosophy. I picked it up one time from a film I saw. It was just a brief short film, and it showed a guy going through his day. And he's he leaves the house and he's rushing and he's busy, he's important and he's off to do his thing. And all the encounters that he has for his day.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[01:11:51:14]"
+    },
+    {
+      "id": "context_03_142",
+      "index": 142,
+      "speaker": "Kim Madsen Dill",
+      "words": "And we see his growing impatience with people. And he when he's leaving his house, he backs up, almost hit a kid, almost hits a kid who's on his tricycle right behind him, and he gets out. Choose the kid out. And why aren't where's your parents? Why aren't they watching now and then? He takes off. So we go through this whole day, and then we we see him go through his day on repeat.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:12:16:12]"
+    },
+    {
+      "id": "context_03_143",
+      "index": 143,
+      "speaker": "Kim Madsen Dill",
+      "words": "But this time, every time he encounters someone, they have this small label on their forehead that in a word or phrase, sums up who they are or what they're going through. Their struggle.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:12:42:27]"
+    },
+    {
+      "id": "context_03_144",
+      "index": 144,
+      "speaker": "Kim Madsen Dill",
+      "words": "And I've just never forgot. Forgotten that I'm one of those people that can get kind of impatient. And I'm rushing through my day, and I've got so much to do and know. The waitress that serves me, I. I'm ashamed to say sometimes I'm impatient. But in my best days, I try and remember that and think that person has a story.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:12:59:08]"
+    },
+    {
+      "id": "context_03_145",
+      "index": 145,
+      "speaker": "Kim Madsen Dill",
+      "words": "And how do we know that that person's not a veteran? And if we're less concerned with these and more concerned with looking around us and finding out what's going on, engaging with people. You never know what gold you're going to find. And that's what I remind myself. It's so important to connect to people. Maybe that person in front of me is somebody that needs to talk, needs to unburden, might be a veteran.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:13:24:06]"
+    },
+    {
+      "id": "context_03_146",
+      "index": 146,
+      "speaker": "Kim Madsen Dill",
+      "words": "And so that's the lesson that I've learned for myself. And I'm still chained to this thing. But, you know, I remember, back in the early days of teaching in the college when the hallways would, in between classes would be filled with a roar because students would be out there talking and and engaging with each other after class.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:14:05:23]"
+    },
+    {
+      "id": "context_03_147",
+      "index": 147,
+      "speaker": "Kim Madsen Dill",
+      "words": "And nowadays it's so different. It's too quiet. And you look down the hallway and too many of them are just standing there staring at their, their, smartphones and our dumb phones. So the point is that it's important. To seek out these stories. I mean, great to read about them. Certainly, but even better to connect with somebody with a cup of coffee and just to listen.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:14:30:08]"
+    },
+    {
+      "id": "context_03_148",
+      "index": 148,
+      "speaker": "Kim Madsen Dill",
+      "words": "And that's what I hope my students take with them out of this class and then learn how to be better citizens.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:15:09:09]"
+    },
+    {
+      "id": "context_03_149",
+      "index": 149,
+      "speaker": "Johanna Bringhurst",
+      "words": "Well, yeah, that'd be nice to know.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:15:16:25]"
+    },
+    {
+      "id": "context_03_150",
+      "index": 150,
+      "speaker": "Kim Madsen Dill",
+      "words": "And that's part of our citizenship. And that is to be aware of that because, this is not a draft army that we have, that our neighbors are enlisting and we need to care about what they're doing.",
+      "tags": [
+        "migration",
+        "literature"
+      ],
+      "timestamp": "[01:15:19:23]"
+    },
+    {
+      "id": "context_03_151",
+      "index": 151,
+      "speaker": "Johanna Bringhurst",
+      "words": "Yeah. If we aren't learning those lessons from our military conflicts, from Covid, from, you know, the challenges that we're dealing with today, that we need each other, we need to connect more with each other and value each other's stories. Then what's the point of these challenges? Right.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:15:41:19]"
+    },
+    {
+      "id": "context_03_152",
+      "index": 152,
+      "speaker": "Kim Madsen Dill",
+      "words": "Yeah. And, you know, that's what the humanities is all about.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:16:05:05]"
+    },
+    {
+      "id": "context_03_153",
+      "index": 153,
+      "speaker": "Johanna Bringhurst",
+      "words": "Yes, we are.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:16:10:04]"
+    },
+    {
+      "id": "context_03_154",
+      "index": 154,
+      "speaker": "Kim Madsen Dill",
+      "words": "It's why I became an English teacher. I love stories.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[01:16:12:27]"
+    },
+    {
+      "id": "context_03_155",
+      "index": 155,
+      "speaker": "Johanna Bringhurst",
+      "words": "Thank you so much, Kim. It's one so lovely to talk to you today and learn from you. And I just wanted to, just end today. saying. Thank you for making us aware of these stories. And we at the Idaho Humanities Council value so much the experiences of our service members. And a big thank you to anyone who is listening.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:16:16:23]"
+    },
+    {
+      "id": "context_03_156",
+      "index": 156,
+      "speaker": "Johanna Bringhurst",
+      "words": "And thank you so much, Kim, for helping us be be more engaged, look for each other better.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:16:47:05]"
+    },
+    {
+      "id": "context_03_157",
+      "index": 157,
+      "speaker": "Kim Madsen Dill",
+      "words": "I'd like to to add, when you post this, discussion and if you decide to post it, I want to, say that I would welcome emails. And so you can use my College of Southern Idaho email. fortunately I am though I'm retired, I'm teaching this class this semester. And, if anybody, listens to this recording and would like to get more information or ask questions, whatever, or if you're a veteran and have a story to tell, please reach out to me.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[01:16:54:14]"
+    },
+    {
+      "id": "context_03_158",
+      "index": 158,
+      "speaker": "Kim Madsen Dill",
+      "words": "And, I would love to have a chat.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:17:37:10]"
+    },
+    {
+      "id": "context_03_159",
+      "index": 159,
+      "speaker": "Johanna Bringhurst",
+      "words": "Thank you, thank you.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:17:42:09]"
+    },
+    {
+      "id": "context_03_160",
+      "index": 160,
+      "speaker": "Kim Madsen Dill",
+      "words": "Okay.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:17:45:00]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 161,
+    "description": "Johanna interviews Kim Madsen Dill about the veteran’s literature class she teaches at the College of Southern Idaho, that was inspired by her father’s military service. Kim Madsen Dill has taught in the English Department at the College of Southern Idaho since 2004 and recently retired. She was the Writing Program Administrator for the English Department. Kim oversaw the writing program and was the Faculty Liaison for Dual Credit teachers. She also volunteered teaching English at the CSI Refugee Center.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

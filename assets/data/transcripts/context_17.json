@@ -1,0 +1,870 @@
+{
+  "title": "Christmas Movies and the Religious Dimensions of Story Structure",
+  "interviewee": "Dr. Russell P. Johnson",
+  "interviewer": "Johanna Bringhurst",
+  "date": "2023-12-05",
+  "subjects": [
+    "motion pictures (visual works)",
+    "christmas"
+  ],
+  "segments": [
+    {
+      "id": "context_17_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_17_1",
+      "index": 1,
+      "speaker": "Johanna Bringhurst",
+      "words": "Hello, everyone, and welcome to context. This program is brought to you by the Idaho Humanities Council with funding from the National Endowment for the Humanities. The views expressed here today do not necessarily represent those of the IHC or the NIH. My name is Johanna Bringhurst. And joining us today is Doctor Russell Johnson. Doctor Johnson teaches religious studies at the University of Chicago.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_17_2",
+      "index": 2,
+      "speaker": "Johanna Bringhurst",
+      "words": "His research focuses on conflict and the ethics of communication, specifically how good guys versus bad guys narratives shape moral reflection. His courses include villains, evil in philosophy, religion, and film, and arguing on the internet. He is a columnist for savings, and his first book, Beyond Civility and Social Conflict, is forthcoming from Cambridge University Press. Thank you for being with us today to discuss Christmas movies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:37:07]"
+    },
+    {
+      "id": "context_17_3",
+      "index": 3,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Thanks for having me.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:09:05]"
+    },
+    {
+      "id": "context_17_4",
+      "index": 4,
+      "speaker": "Johanna Bringhurst",
+      "words": "This is that magical time of year when we cozy up with our favorite holiday films and reflect on the complex relationship between religion and culture. Or at least some of us do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:10:21]"
+    },
+    {
+      "id": "context_17_5",
+      "index": 5,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "I mean, what else is there to do to get in the Christmas spirit? Then think about the ways of religion and influence with influences our culture.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:22:13]"
+    },
+    {
+      "id": "context_17_6",
+      "index": 6,
+      "speaker": "Johanna Bringhurst",
+      "words": "Okay, so, Doctor Johnson, you've written about how Christmas movies illustrate how religious ideas suffuse cultures, even when many in those cultures have abandoned explicit religious commitments. How did this idea take root for you?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:30:13]"
+    },
+    {
+      "id": "context_17_7",
+      "index": 7,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Well, so I was tasked with, explaining, Max Weber's 1905 book, The Protestant Ethic in the Spirit of Capitalism to my students, it's a classic in religious studies and sociology. and part of what Faber argues in that very influential book is that, Calvin ism, the branch of Protestant Christianity continues to influence, European and American cultures in ways that a lot of people might not recognize.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[00:01:47:02]"
+    },
+    {
+      "id": "context_17_8",
+      "index": 8,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "In particular, through a kind of ascetic, attitude toward work that persists. I mean, for instance, in the the rise and grind mindset, as we experience it now, Weber's didn't use the terms rise and grind in the early 20th centuries. but part of what Faber is arguing is that the the way that influences not just through explicit religious rituals, religious narratives, religious imagery and symbols, but through secular theorized forms that nonetheless preserve some of the content of, of those, really of the religions that that that led to them.",
+      "tags": [
+        "religion",
+        "culture"
+      ],
+      "timestamp": "[00:02:18:07]"
+    },
+    {
+      "id": "context_17_9",
+      "index": 9,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "So, secularization is a process of transformation rather than a process of elimination. And so as I was thinking about that, my mind naturally went to Christmas. And the way that American Christmas is something that pretty clearly has its roots within Christianity. But you could, you know, Jingle Bells, you could go through a whole Christmas season. and not necessarily, think that closely about, the birth of Jesus of Nazareth and you can, as most people, I mean, a lot of people in America celebrate Christmas, and it's not necessarily a quote unquote religious holiday in terms of the observance observances that they have.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[00:03:00:02]"
+    },
+    {
+      "id": "context_17_10",
+      "index": 10,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and so as I was thinking about the sort of how the subtle logic of, Christianity influences how people celebrate Christmas, even in a very sort of secularized, commercialized kind of way. My mind naturally went to Christmas movies, and I started realizing that the the logic of a typical Christmas movie, even even one made like, for instance, by hallmark, where their goal is not to spread the gospel, necessarily nonetheless perpetuates some of the same, moral logic, as the forms of Christianity, that that were shaping culture in the 17th, 18th and 19th centuries.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:03:40:12]"
+    },
+    {
+      "id": "context_17_11",
+      "index": 11,
+      "speaker": "Johanna Bringhurst",
+      "words": "Films are such an important way of how we tell stories and how we express our feelings and hopes and dreams and wishes for the holidays. So help me understand what is the typical story structure of a holiday film that expresses that thesis.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:23:11]"
+    },
+    {
+      "id": "context_17_12",
+      "index": 12,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so typically part of what you need to have a Christmas movie. And of course, the boundaries of what counts as a Christmas movie are disputed. but usually if you were to set out to make a Christmas movie, you would start by establishing your protagonist as, Commercial. in some sense, they're preoccupied with work and success and making an impact.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:04:40:01]"
+    },
+    {
+      "id": "context_17_13",
+      "index": 13,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "we see this, for instance, in, buddy the Elf. Father. preoccupied with business. We see this in, Arnold Schwarzenegger's character in Jingle All the Way. You know, it's Christmas. It's the day before Christmas Eve. And he's, you know, selling mattresses, that sort of thing. Obviously, Ebenezer Scrooge is the prototype, of of this. And even the very first Christmas movie that was made was a telling of, Christmas Carol.",
+      "tags": [
+        "literature",
+        "cinema"
+      ],
+      "timestamp": "[00:05:05:17]"
+    },
+    {
+      "id": "context_17_14",
+      "index": 14,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "back in 1901. so it goes back to that root. So, so you got to start with a character who is not feeling the spirit of Christmas. and then something has to happen that interrupts their routine. and initially they are upset and frustrated at what is happening that is, interrupted their routine. but slowly and surely, they have a change of heart.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:05:32:02]"
+    },
+    {
+      "id": "context_17_15",
+      "index": 15,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "I mean, in the case of the Grinch, their heart grows three sizes. and then, through that interruption, into their preoccupation with material gain and success and reputation, they come to realize that that isn't what ultimately really matters. and what really matters is something like generosity. In the case of Scrooge. Family is a pretty common one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:55:11]"
+    },
+    {
+      "id": "context_17_16",
+      "index": 16,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "faith, in one sort of another, whether that's a religious faith or just sort of a believing in the spirit of Christmas. and then, the person who is sort of typically alone and alienated at the beginning of the movie, ends the movie, with the people that they care about having their value system transformed, over the course of the events of the film.",
+      "tags": [
+        "religion",
+        "cinema"
+      ],
+      "timestamp": "[00:06:21:02]"
+    },
+    {
+      "id": "context_17_17",
+      "index": 17,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so we can see that, that change, that the moral change of the hero through the interruption and into what, whatever the spirit of Christmas means for the screenwriters and directors.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:42:15]"
+    },
+    {
+      "id": "context_17_18",
+      "index": 18,
+      "speaker": "Johanna Bringhurst",
+      "words": "What are the key Protestant themes that emerge from that story structure?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:56:15]"
+    },
+    {
+      "id": "context_17_19",
+      "index": 19,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "So part of the, the roots, part of the idea of Christianity is that the sense of, unconditional love as an interruption in into our, workaday world. and the way that that gets told is that, we are by nature greedy and materialistic, and that what Jesus teaches us, is that, our proper orientation is not to the world of, success and gain, but rather to, toward God.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:07:02:08]"
+    },
+    {
+      "id": "context_17_20",
+      "index": 20,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And, as that takes place over the years that, that so, so so the logic of, of conversion, I would say, is crucial to Protestantism. in particular, as, as the sort of, going from preoccupation with the material sinful world to preoccupation with things that are holy, and things that are characterized by love. And oftentimes, historically, unfortunately, the materialistic realm gets, retro, actively and stereotypically, attributed to Jews.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[00:07:38:10]"
+    },
+    {
+      "id": "context_17_21",
+      "index": 21,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and so we see some of these, these stereotypes of, of Jews that have persisted throughout the ages as, the other two Christianity. So Jews are materialistic because Christians aren't materialistic. What they care about is each other. and so we see that, that logic of that same contrast and the idea of conversion from, one set of values and preoccupations through the intervention of, something magical or supernatural.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:14:02]"
+    },
+    {
+      "id": "context_17_22",
+      "index": 22,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "in the case of the Christmas story, of course, this is the the incarnation God becoming human. in the person of Jesus. but in Christmas movies, it's not always, it's often supernatural. you know, for instance, in, in, Tom at a Tim Allen's character in The Santa Claus. Now he has killed Santa Claus and he becomes Santa Claus.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:08:44:15]"
+    },
+    {
+      "id": "context_17_23",
+      "index": 23,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "So this is an a supernatural interruption into his life that changes his priorities. Or to revisit elf. You know, Buddy the elf, entering into, his his father's office building. there is a sort of supernatural intervention in the case of Scrooge. Again, this is the ghosts. first morally and then the three spirits, intervening in his life, and fundamentally changing his priority system.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:05:07]"
+    },
+    {
+      "id": "context_17_24",
+      "index": 24,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so that idea of a supernatural intervention, and then a changed value system, is not exclusive to Protestant Christianity, but it's certainly characteristic of the stories that Christians tell about, their lives and about the world. and it gets replicated in these more secular forms throughout Christmas movies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:30:10]"
+    },
+    {
+      "id": "context_17_25",
+      "index": 25,
+      "speaker": "Johanna Bringhurst",
+      "words": "I don't think I ever noticed that before in my own Christmas movie viewing, but that is such an a key part of Christianity. The belief that you can become more like Christ, that you need to, that you need to change and that idea of like becoming someone different, becoming someone better in Christ is such a part of of that faith.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:51:22]"
+    },
+    {
+      "id": "context_17_26",
+      "index": 26,
+      "speaker": "Johanna Bringhurst",
+      "words": "now I'm think now I'm going back through my mind and all of my favorite films, and they do all fit the structure. How the Grinch Stole Christmas, right? The Grinch. His heart grows three sizes that day, and he changes. We were we also talked about one of our holiday favorites, Little Women, which maybe not everyone thinks of as a Christmas movie.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:19:25]"
+    },
+    {
+      "id": "context_17_27",
+      "index": 27,
+      "speaker": "Johanna Bringhurst",
+      "words": "but those characters go through a change as well. Changing of what is priority. Maybe Joe is trying to sell her book to be a famous and rich author, but then she decides to write about her family and what really matters most. A really good one to think about is It's a Wonderful Life. Also, does that fit the same structure?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:43:22]"
+    },
+    {
+      "id": "context_17_28",
+      "index": 28,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "I think It's a Wonderful Life fits in a slightly different way. so I, one scholar of religion and film says that there are two, two storylines of Christmas. One is bad guys realizing it's bad to be bad on the other is good guys realizing it's good to be good. and, It's a Wonderful Life fits the the latter paradigm.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:11:09:14]"
+    },
+    {
+      "id": "context_17_29",
+      "index": 29,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "so this, this movie, which came out in 1946, and sort of established a lot of genre conventions for subsequent Christmas movies. If you've seen It's a Wonderful Life and if you've seen, any version of A Christmas Carol, although I recommend The Muppet one, then you kind of understand the whole, Christmas. It's narrative structure, but in It's a Wonderful Life, part of what he's, regretting is that he didn't have the opportunity to go off into college, that he was stuck in Bedford Falls.",
+      "tags": [
+        "cinema",
+        "literature"
+      ],
+      "timestamp": "[00:11:29:24]"
+    },
+    {
+      "id": "context_17_30",
+      "index": 30,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "So there is this sense of dissatisfaction with the, what he already has and what it's like home and familiar and a longing for success. beyond the according to the standards of success within this culture. And so in, in that it's not that he is materialistic, but he, he's bemoaning the fact that he did not lead a more materialistic, perhaps, life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:00:25]"
+    },
+    {
+      "id": "context_17_31",
+      "index": 31,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and he is through the this miraculous intervention of Clarence, the angel, shown, very much in a, in A Christmas Carol sort of way. Like what the what things would have been like without him? and it, it shifts his values and his perspectives. and this this it's a wonderful life. It's interesting because one of the ways that it's paradigmatic is the celebration of gratitude.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:12:26:09]"
+    },
+    {
+      "id": "context_17_32",
+      "index": 32,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and that's also a very Protestant idea that God already loves you. You don't need to work to earn God's love. You just need to live out of a gratitude for what God has already given to you. and that idea of being satisfied with what you have, the gifts that you have rather than aspiring toward, something that if you only get X, Y, or Z, then you will finally be satisfied.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:50:24]"
+    },
+    {
+      "id": "context_17_33",
+      "index": 33,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "That's a very, that hearkens back to the theology of Saint Augustine in, you know, the fourth and fifth century. but we're seeing it through the lens of Frank Capra. and, and the kind of American sensibility where what he's grateful for is not necessarily God's love, but the love of his family.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:17:06]"
+    },
+    {
+      "id": "context_17_34",
+      "index": 34,
+      "speaker": "Johanna Bringhurst",
+      "words": "You called to remind us of, a film, The Preacher's Wife. There was a version made in the 1940s with Cary Grant. But then again in the 90s with Whitney Houston and Denzel Washington. You're listening to this podcast. You've not seen this film immediately pause and go see it. But I, I love your, idea of this rich structure of realizing it's good to still be good.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:37:08]"
+    },
+    {
+      "id": "context_17_35",
+      "index": 35,
+      "speaker": "Johanna Bringhurst",
+      "words": "This minister is losing his church and regretting, decisions he's made and and considering selling out in order to, have a new church built in for his community. And of course, he realizes through, in this case, an angelic intervention that, he it's good to be good. It's good to. And and he ends up getting a church without selling out.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:03:04]"
+    },
+    {
+      "id": "context_17_36",
+      "index": 36,
+      "speaker": "Johanna Bringhurst",
+      "words": "But also you get to hear Whitney Houston sing Christmas music. So what can be bad there? so.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:30:04]"
+    },
+    {
+      "id": "context_17_37",
+      "index": 37,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Moving it to the top of my viewing list. I haven't seen it, but you haven't seen it. Denzel Washington know it sounds great.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:37:00]"
+    },
+    {
+      "id": "context_17_38",
+      "index": 38,
+      "speaker": "Johanna Bringhurst",
+      "words": "And they are magical together, so give. Yeah, give that one a watch. So many holiday films really are about family togetherness, but that is not, an explicit, I don't recall that being a big focus of the New Testament. How does how are Protestant things themes making an impact here as well?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:43:28]"
+    },
+    {
+      "id": "context_17_39",
+      "index": 39,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "You're absolutely right. I mean, the that's not necessarily Jesus. If you I mean, I wouldn't characterize Jesus as either pro-family or anti-family, but if someone had to put him in one of those camps, it might be easier to find arguments for anti family. and early Christianity certainly had that not necessarily an antipathy toward family, but a relative izing of the importance of blood relations in favor of, love for and, community with, with other people, regardless of their, their sort of ethnic or familial connections.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:08:16]"
+    },
+    {
+      "id": "context_17_40",
+      "index": 40,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so it's interesting in that, you know, family is, certainly a major theme, throughout the Bible. but but it's it's challenged in different ways in the Christmas story, and the subsequent teachings of Jesus and yet that is so fundamental to America. And I think part of that reflects when we think of Christmas, we think of, okay, so you're taking off work and you're spending time with your family.",
+      "tags": [
+        "literature",
+        "religion"
+      ],
+      "timestamp": "[00:15:47:29]"
+    },
+    {
+      "id": "context_17_41",
+      "index": 41,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "So the act of celebrating Christmas in America is an is, in its own way, an interruption into the workaday work of success and an invitation to gratitude and to, being with people that unconditionally love you. and so that is it captures the same kind of shift in values. but, as, as the kind of more, more explicitly classically Christian conversion stories.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:14:00]"
+    },
+    {
+      "id": "context_17_42",
+      "index": 42,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "but it's achieved more through, realizing the love that you already have within your, your family and prioritizing them over whatever it is you're striving toward. and it's interesting that this, this also involves the beginning of new families. So we see this in, in, hallmark Christian movies, which are able to shift to the focus. I mean, it's still usually someone who's, preoccupied with success.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:46:01]"
+    },
+    {
+      "id": "context_17_43",
+      "index": 43,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "you know, they've got their New York City job, and now they're snowed in in, you know, Noel, Indiana. And they have to save the gingerbread factory or whatever. but, the male protagonist, I mean, the female protagonist, the love interest is depicted as being, the kind of guy you could take home to mom. I mean, there is this sense of, family ness and the spirit of warmth that is, associated with that as the as part of the defining trait of the Christmas spirit.",
+      "tags": [
+        "labor",
+        "cinema"
+      ],
+      "timestamp": "[00:17:16:10]"
+    },
+    {
+      "id": "context_17_44",
+      "index": 44,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and so, yeah, even in you don't see family as much in A Christmas Carol, but even there, Scrooge goes to be with his nephew, and he goes to celebrate with with Fred. And so there is this sense of Christmas is the time when we are with our family. And Christmas movies serve to paint that in a very rosy, magical light.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:55:14]"
+    },
+    {
+      "id": "context_17_45",
+      "index": 45,
+      "speaker": "Johanna Bringhurst",
+      "words": "And you're also maybe relating the unconditional love of God and and Jesus Christ to that unconditional love, family manifest.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:19:19]"
+    },
+    {
+      "id": "context_17_46",
+      "index": 46,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Absolutely. Absolutely.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:29:06]"
+    },
+    {
+      "id": "context_17_47",
+      "index": 47,
+      "speaker": "Johanna Bringhurst",
+      "words": "Yeah. My favorite film that focuses on family during the holidays. No judging out there is Home Alone. I just love Home Alone. I, I don't know about all five or however many there are now, but I really enjoyed the first and second. And the focus there, right, is on a boy who can't stand his siblings and is annoyed with his parents.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:31:10]"
+    },
+    {
+      "id": "context_17_48",
+      "index": 48,
+      "speaker": "Johanna Bringhurst",
+      "words": "Being without them during the holidays helps him realize how much he really does appreciate them and take them for granted.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:55:26]"
+    },
+    {
+      "id": "context_17_49",
+      "index": 49,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "I think that's absolutely right. I mean, he so he wishes them to be gone. but then once he gets what he wishes for, he realizes that what he really what really matters to him is, is having the family around. and there's also, I mean, as is often in Christmas movies, there's a change in his perspective toward, people he is otherwise suspicious of or, hostile toward.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:03:08]"
+    },
+    {
+      "id": "context_17_50",
+      "index": 50,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so the old man with the shovel, I'm forgetting the character's name. Maybe you remember it, as this sort of threatening presence. Who, through the magic of Christmas, those who are other, or threatening or looks down upon, they can become, as it were, a sort of found family, the kind of people that we can rely on.",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[00:19:27:05]"
+    },
+    {
+      "id": "context_17_51",
+      "index": 51,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so we see that just as much as the family is a theme that sort of bridging the gaps of hostility or antipathy or suspicion, in and with a spirit of generosity, we see that, reiterated throughout Christmas, rarely in Christmas movies do the bad guys just die, or lose. I mean, we see it happening for sure, but there is this this sense of.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:19:46:17]"
+    },
+    {
+      "id": "context_17_52",
+      "index": 52,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "No, it's about redemption. It's about reconciliation. and and so we see that, coming together, in, in the way that, a, a character like the old man with a shovel gets, gets depicted.",
+      "tags": [
+        "literature",
+        "agriculture"
+      ],
+      "timestamp": "[00:20:10:25]"
+    },
+    {
+      "id": "context_17_53",
+      "index": 53,
+      "speaker": "Johanna Bringhurst",
+      "words": "And much of what we know about the life of Jesus Christ was spent with people who were not looked upon by their mainstream society as being well favored. Right? He spent time with adulterers and prostitutes and people who were not valued by their society. I'm starting. You're changing my mind here. I'm starting to see all of these themes in Chris's films.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:26:04]"
+    },
+    {
+      "id": "context_17_54",
+      "index": 54,
+      "speaker": "Johanna Bringhurst",
+      "words": "I don't know that I've ever thought about that before.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:54:02]"
+    },
+    {
+      "id": "context_17_55",
+      "index": 55,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Well, and the very I mean, the, the Christmas story itself of there not being any room at the inn. And so Mary and Joseph and the baby Jesus, you know, finding a place in the manger, that story, I mean, even if you separate all of the theological aspects of it, that story of, you know, being, displaced, being impoverished, and, and nonetheless, finding, celebration with, the people who matter to you, a celebration that then gets sort of lumped in with the, the shepherds and the wise men and the little Drummer boy.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:20:57:03]"
+    },
+    {
+      "id": "context_17_56",
+      "index": 56,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "as, as part of this, coming together of, a family and a sort of, found family, a sort of shared community, around the holidays is what, celebrating a lot of nativity scenes and a lot of creches. and it has that spirit of of gathering together, even in difficult circumstances. And we see this in a lot of Christmas songs.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:21:40:05]"
+    },
+    {
+      "id": "context_17_57",
+      "index": 57,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "There's a lot of like, it's been a rough year, but it's Christmas. it tends to be, I think it replicates that, nativity pattern.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:04:18]"
+    },
+    {
+      "id": "context_17_58",
+      "index": 58,
+      "speaker": "Johanna Bringhurst",
+      "words": "Even our favorite classic Christmas comedies, like a National Lampoon's Christmas Vacation and A Christmas Tree Elf. As you mentioned before, they really, even though they're making fun of the holidays and how we celebrate and interact during the holidays, we still follow the same story structure and the same themes emerge.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:16:06]"
+    },
+    {
+      "id": "context_17_59",
+      "index": 59,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:38:23]"
+    },
+    {
+      "id": "context_17_60",
+      "index": 60,
+      "speaker": "Johanna Bringhurst",
+      "words": "So what does this prevalence tell us about the an idea of religious ideas and culture?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:40:07]"
+    },
+    {
+      "id": "context_17_61",
+      "index": 61,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "I mean, I think it says that, religious, the explicitly religious is only the tip of the iceberg. so going to synagogue and, is, is only one part of what it means to be Jewish. and a lot of Jewish culture, for instance, is lived out in the, the, the stories that people tell and the ways of, of coping and celebrating, that may or may not be seen as explicitly religious.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[00:22:48:10]"
+    },
+    {
+      "id": "context_17_62",
+      "index": 62,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so recognize that the influence that, religions have on, on a culture, go so much deeper than, just the explicit participation in rituals and reading of holy books, but get filtered through such that, you know, the Bible certainly influenced Charles Dickens, and then Charles Dickens influenced, Frank Capra. and then Frank happens and it gets, shifted.",
+      "tags": [
+        "culture",
+        "religion"
+      ],
+      "timestamp": "[00:23:22:22]"
+    },
+    {
+      "id": "context_17_63",
+      "index": 63,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Until now we've got, you know, Michael Keaton as a dad and Jack Frost, who's been turned into a snowman. and that I would not necessarily consider a Christian movie, but the influences are such that it is replicating some of those, originally religious ideas, and, and, and values in a, in a different way. And so I think vapor really helps us see that with regard to the approach we take toward work.",
+      "tags": [
+        "cinema",
+        "religion"
+      ],
+      "timestamp": "[00:23:53:23]"
+    },
+    {
+      "id": "context_17_64",
+      "index": 64,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and, and how if you feel guilty when you're not working, that is not necessarily a religious feeling, but it nonetheless, is takes draws strength from historically. I mean, if you trace back the genealogy, that's where part of that feeling comes from. And similarly, the feeling of feeling Christmasy, around the holidays, having this, this Christmas spirit, even if you're just listening to, you know, Mariah Carey in a retail store, I would not necessarily call that religious, but we have to realize how that, has it echoes in some ways or shows the influence of, explicitly religious impact on culture.",
+      "tags": [
+        "religion",
+        "history"
+      ],
+      "timestamp": "[00:24:24:17]"
+    },
+    {
+      "id": "context_17_65",
+      "index": 65,
+      "speaker": "Johanna Bringhurst",
+      "words": "So as I've been preparing to discuss Christmas films during this holiday season, one film keeps coming up again and again as being either people's favorite Christmas film or it is not a Christmas film at all. So you need to weigh in on the debate. Die-Hard Christmas film Yes or No?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:08:27]"
+    },
+    {
+      "id": "context_17_66",
+      "index": 66,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Die Hard is the ultimate Christmas film.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:25:29:20]"
+    },
+    {
+      "id": "context_17_67",
+      "index": 67,
+      "speaker": "Johanna Bringhurst",
+      "words": "okay. Tell me why.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:33:05]"
+    },
+    {
+      "id": "context_17_68",
+      "index": 68,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "So it not only takes place during Christmas, which is important, but not sufficient for something to be a Christmas movie. there is Christmas music played throughout, including Run-D.M.C., which is great. and, and your Christmas features heavily, in terms of even in one of the climactic scenes, you know, wrapping paper, plays a vital role.",
+      "tags": [
+        "cinema",
+        "music"
+      ],
+      "timestamp": "[00:25:36:03]"
+    },
+    {
+      "id": "context_17_69",
+      "index": 69,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "I'll leave it at that. And for people who haven't seen the original, Die Hard, so, so in the sense that Christmas is not just the setting but suffuses, the movie, I think we can confidently call it a Christmas movie, but also it has this structure of John McClane. Initially, he prioritizes his job over being with his wife.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:26:01:14]"
+    },
+    {
+      "id": "context_17_70",
+      "index": 70,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "And so it's leading him to be estranged from his family. and in some sense, I mean, Holly is not the main focus, but she's, you know, going by her maiden name at the, at the, at her work, and whatnot. So there is the sense of family has been, strained based on preoccupation with with success in work.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:24:12]"
+    },
+    {
+      "id": "context_17_71",
+      "index": 71,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and it takes an intervention, not necessarily a supernatural intervention. but, you know, Hans Gruber and the group of, of, would be terrorists, to result in a sort of change of values. and he ends up John McClane ends up hugging his wife and reunited with her in a way that's very similar to, the end of It's a Wonderful Life.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:45:00]"
+    },
+    {
+      "id": "context_17_72",
+      "index": 72,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and we also have this kind of found family connection with him and al. so, yeah, I mean, it has, both in terms of its setting and in terms of its narrative structure. It's Christmas all the way down.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:27:09:07]"
+    },
+    {
+      "id": "context_17_73",
+      "index": 73,
+      "speaker": "Johanna Bringhurst",
+      "words": "All right. I will add, you're going to watch The Preacher's Wife, I will add diehard to my line up. What other Christmas films are your favorites that you have to watch every year?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:21:10]"
+    },
+    {
+      "id": "context_17_74",
+      "index": 74,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Muppet Christmas Carol is,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:32:25]"
+    },
+    {
+      "id": "context_17_75",
+      "index": 75,
+      "speaker": "Johanna Bringhurst",
+      "words": "I think it's right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:35:15]"
+    },
+    {
+      "id": "context_17_76",
+      "index": 76,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Yeah, I they Michael Caine did such a fantastic job. some someone on the internet recently said that, Michael Caine and Tim Curry were the actors who worked best with Muppets in a muppet Christmas Carol and, Muppet, Treasure Island. because Michael Caine treated the Muppets like fellow humans. and Tim Curry treated himself like a fellow Muppet.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:37:17]"
+    },
+    {
+      "id": "context_17_77",
+      "index": 77,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "and I think that's that's. Yeah, I think that's a spot on analysis. But he he gives such a great performance. And, the way that, the narrator comes in and then, of course, the music, I mean, I think about A Christmas Carol truly is the perfect Christmas movie. and it's a must watch, every Christmas for in my household.",
+      "tags": [
+        "music",
+        "cinema"
+      ],
+      "timestamp": "[00:28:01:12]"
+    },
+    {
+      "id": "context_17_78",
+      "index": 78,
+      "speaker": "Johanna Bringhurst",
+      "words": "I have to agree, which is part of how Doctor Johnson and I became acquainted is because I was researching a muppet Christmas Carol. Because it is my family's all time favorite. We also love Sir Michael Caine, but the music and, the direct quotations from Dickens original Christmas carol and the hilarity that ensues when Muppets are around all make it such a perfect, such a perfect Christmas film.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:20:17]"
+    },
+    {
+      "id": "context_17_79",
+      "index": 79,
+      "speaker": "Johanna Bringhurst",
+      "words": "anything else on your list that you would say, go home and watch?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:55:02]"
+    },
+    {
+      "id": "context_17_80",
+      "index": 80,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "I mean, I like the new movie spirited. the one that Will Ferrell and Ryan Reynolds, wherein I think it's a fun twist on the Christmas carol narrative in more ways than one. And so I, I've only seen it once. I watched it last Christmas, but, it's one that I'm looking forward to, revisiting and unpacking and, certainly with a cup of eggnog in hand, and a nice sugar cookie.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:29:01:21]"
+    },
+    {
+      "id": "context_17_81",
+      "index": 81,
+      "speaker": "Johanna Bringhurst",
+      "words": "Awesome. Well, I'm going to I'm going to go home and watch The Grinch again, because that is one my husband loves to watch every year. And now I have to think through how the Grinch Stole Christmas, how that fits in with our discussion today, Doctor Johnson, it's been so fun to talk to you about Christmas films. You've given us so much to think about, and I really appreciate you being here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:26:13]"
+    },
+    {
+      "id": "context_17_82",
+      "index": 82,
+      "speaker": "Dr. Russell P. Johnson",
+      "words": "Thanks for having me and happy holidays.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:50:16]"
+    },
+    {
+      "id": "context_17_83",
+      "index": 83,
+      "speaker": "Johanna Bringhurst",
+      "words": "Happy holidays to you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:52:14]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 84,
+    "description": "Johanna is joined by Dr. Russell P. Johnson from the University of Chicago Divinity School to talk about our favorite holiday films.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

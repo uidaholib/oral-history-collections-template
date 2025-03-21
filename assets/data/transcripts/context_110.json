@@ -1,0 +1,95 @@
+{
+  "title": "Welcome to Context!",
+  "interviewee": "Unknown Speakers",
+  "interviewer": "Doug Exton",
+  "date": "2020-06-01",
+  "subjects": null,
+  "segments": [
+    {
+      "id": "context_110_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_110_1",
+      "index": 1,
+      "speaker": "Doug Exton",
+      "words": "Context is our way of connecting you to experts, scholars and ideas.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_110_2",
+      "index": 2,
+      "speaker": "Unknown Speaker",
+      "words": "But I want to show you some subtle differences in how Susanna portrays the event versus how a representative male artist such as Tintoretto does.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:06:27]"
+    },
+    {
+      "id": "context_110_3",
+      "index": 3,
+      "speaker": "Unknown Speaker",
+      "words": "It's an event that you'll rarely find in U.S. history textbooks, because when those of us history textbooks tell you the history of the United States, they're not thinking about the Philippines.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:16:15]"
+    },
+    {
+      "id": "context_110_4",
+      "index": 4,
+      "speaker": "Doug Exton",
+      "words": "Our goal is to help provide a context on topics both fun and serious, which shape the world we live in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:27:22]"
+    },
+    {
+      "id": "context_110_5",
+      "index": 5,
+      "speaker": "Unknown Speaker",
+      "words": "And this allotment process did what Teddy Roosevelt said. It was a pulverizing engine to break up the tribal mass. He said this with the approval rather than regret.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:35:20]"
+    },
+    {
+      "id": "context_110_6",
+      "index": 6,
+      "speaker": "Unknown Speaker",
+      "words": "The Basques culturally are not connected to any of the places around it. The Basque language or guitar is not related to any other language in the world. It's not Latin based like Spanish and French.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:46:18]"
+    },
+    {
+      "id": "context_110_7",
+      "index": 7,
+      "speaker": "Doug Exton",
+      "words": "We hope to strike the spark on your sense of exploration and discovery as you listen.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:01:19]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 8,
+    "description": "Presented by the Idaho Humanities Council, Context is our way of connecting you to experts, scholars, and ideas. Our goal is to help provide context on topics, both fun and serious, which shape the world we live in. We hope to strike the spark on your sense of exploration and discovery as you listen.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

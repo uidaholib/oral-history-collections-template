@@ -1,0 +1,1640 @@
+{
+  "title": "S1E20 A Discussion on the Arts and the Humanities",
+  "interviewee": "Michael Faison",
+  "interviewer": "David Pettyjohn",
+  "date": "2020-10-20",
+  "subjects": [
+    "humanities",
+    "arts education",
+    "programming (function)",
+    "grants",
+    "advocacy"
+  ],
+  "segments": [
+    {
+      "id": "context_90_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_90_1",
+      "index": 1,
+      "speaker": "David Pettyjohn",
+      "words": "And, Welcome, everyone. My name is David Pettyjohn. I am the executive director of the Idaho Humanities Council. And I'm going to thank you for joining us for our weekly Connected Conversations program. Just before we begin tonight, I want to remind everybody that we will be taking questions. And you can do that by either using the chat feature at the bottom of your screen, or you can, just simply type your question into the Q&A, feature as well.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_90_2",
+      "index": 2,
+      "speaker": "David Pettyjohn",
+      "words": "So, joining us tonight, it is my pleasure to introduce, a colleague as well as a friend, Michael Faison. He is the executive director of the Idaho Commission on the Arts. Michael, thank you so much for joining us. How are you?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:36:05]"
+    },
+    {
+      "id": "context_90_3",
+      "index": 3,
+      "speaker": "Michael Faison",
+      "words": "Very well. David, it's good to be here tonight to see you and, to speak with our friends of Arts and Humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:52:14]"
+    },
+    {
+      "id": "context_90_4",
+      "index": 4,
+      "speaker": "David Pettyjohn",
+      "words": "So October is, National Arts and Humanities Month. It has, been that way since 1993. And as we were planning our, you know, programs for, the month, I thought, wouldn't it be great to invite Michael and he and I would just have a conversation about, the arts and humanities in Idaho and why they are so important and also give a little bit of background, you know, how we came to be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:00:09]"
+    },
+    {
+      "id": "context_90_5",
+      "index": 5,
+      "speaker": "David Pettyjohn",
+      "words": "So what we're going to do is kind of have we'll have a presentation that kind of walks everybody through our origin stories. And we'll each talk a little bit and then we'll kind of engage in a discussion. But before we do that, Michael, would you mind just giving a very brief introduction, you know, kind of a little bit of your of your background?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:30:18]"
+    },
+    {
+      "id": "context_90_6",
+      "index": 6,
+      "speaker": "Michael Faison",
+      "words": "Sure. So today I am the director of the Idaho Commission on the Arts. I come from an arts and sciences family. I previously was with the Pennsylvania Council on the Arts, running the arts and education programs across the state. We place 350 teaching artists in schools across Pennsylvania. It was very exciting work. I was with the Oregon Arts Commission.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:52:06]"
+    },
+    {
+      "id": "context_90_7",
+      "index": 7,
+      "speaker": "Michael Faison",
+      "words": "I was, high school art and design teacher in Austin, Texas for many years, as well as an illustrator and officer and an avid motorcyclist.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:17:14]"
+    },
+    {
+      "id": "context_90_8",
+      "index": 8,
+      "speaker": "David Pettyjohn",
+      "words": "That, yes, you are. So I do think that's interesting how, you know, you come to your position, with the experience of working for other, you know, arts commissions. I also, you know, came to the Idaho Humanities Council. I worked for the Oklahoma Humanities Council for several years. And I know one of my colleagues, Cindy Wang, worked for the Kansas Humanities Council.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:27:04]"
+    },
+    {
+      "id": "context_90_9",
+      "index": 9,
+      "speaker": "David Pettyjohn",
+      "words": "So I think it really is kind of nice, you know, kind of bringing in the different, you know, programs and ideas, here to, to Idaho. But we're very lucky to have you here, Michael. So thank.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:51:21]"
+    },
+    {
+      "id": "context_90_10",
+      "index": 10,
+      "speaker": "Michael Faison",
+      "words": "You.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:04:12]"
+    },
+    {
+      "id": "context_90_11",
+      "index": 11,
+      "speaker": "David Pettyjohn",
+      "words": "All right. So we'll go ahead and begin our presentation. So we're joining, you know, you're joining us tonight to talk about the arts and humanities in Idaho. This is a photo that was taken of a museum on Main Street, exhibit opening. And I thought it was really reflective of kind of the arts and humanities with this, I believe Nez Perce trialed, you know, showcasing, his culture through his adornment and other artistic venues.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:05:10]"
+    },
+    {
+      "id": "context_90_12",
+      "index": 12,
+      "speaker": "David Pettyjohn",
+      "words": "So let's kind of start at the beginning, so to speak. So how did the Idaho Commission on the Arts and the Idaho Humanities Council come to be? Well, it all really kind of began at President Lyndon Johnson's State of the Union address on January the 5th of 1965. Interesting fact this was the first state of the Union broadcast on television, and Lyndon Johnson realized that this was a great opportunity to reach a lot of people.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:35:18]"
+    },
+    {
+      "id": "context_90_13",
+      "index": 13,
+      "speaker": "David Pettyjohn",
+      "words": "And it is at this state of the Union that he talked about his Great Society agenda. And one of the things he discussed was the creation of a national foundation on the arts to recognize the artistic achievements of Americans. He didn't mention the humanities in that state of the Union speech. Well, Senator Claiborne Pell from Rhode Island and Representative William Moorehead from Pennsylvania realized that the humanities also needs to be a part of this conversation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:04:24]"
+    },
+    {
+      "id": "context_90_14",
+      "index": 14,
+      "speaker": "David Pettyjohn",
+      "words": "So they crafted legislation together and then pushed it through. That really worked, worked it through both houses of Congress to also create a national foundation on the humanities. While realizing that the momentum was there, they brought them together, and that resulted in the National Foundation on the Arts and Humanities Act that was signed by President Johnson on September the 29th of 1965.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:37:19]"
+    },
+    {
+      "id": "context_90_15",
+      "index": 15,
+      "speaker": "David Pettyjohn",
+      "words": "And here is a photo of him giving remarks before the actual signing of that document. If you haven't had a chance to read this document, I highly recommend it. It's very powerful. Those of you who receive our newsletter, I actually quoted it, in my little article that I put in because I find it very comforting and just a few of the passages I just want to briefly touch upon.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:03:00]"
+    },
+    {
+      "id": "context_90_16",
+      "index": 16,
+      "speaker": "David Pettyjohn",
+      "words": "It talks about how the arts and humanities reflect the high place accorded by the American people to our rich cultural heritage, and to fostering of mutual respect for the diverse beliefs and values of all persons and groups in democracy also demands wisdom and vision, and it's citizen. So therefore it was foster and support a form of education and access to the arts and the humanities, designed to meet people of all backgrounds and whoever located masters of their technology and knowledge.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:30:16]"
+    },
+    {
+      "id": "context_90_17",
+      "index": 17,
+      "speaker": "David Pettyjohn",
+      "words": "I'm thinking servants. Let's also remember the 60s were the space age, so technology was really kind of moving over, taking over the conversation. And this was a way of saying we human beings have these achievements that need to be recognized as well. Beyond technology. So the National Foundation on the Arts and Humanities resulted in the creation of two separate endowments.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:02:10]"
+    },
+    {
+      "id": "context_90_18",
+      "index": 18,
+      "speaker": "David Pettyjohn",
+      "words": "We work together, but we are two distinct, separate endowments. Since the National Endowment for the Arts and then the National Endowment for the Humanities. So to tell us how arts, the Arts Commission on Idaho, I know Commission, on the Arts came to me. I'm going to turn it over to Michael.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:31:03]"
+    },
+    {
+      "id": "context_90_19",
+      "index": 19,
+      "speaker": "Michael Faison",
+      "words": "Thank you. David. So the National Endowment for the Arts and Humanities, of course, formed us all together. And, and I like to point out, these quotes from George Washington and Thomas Jefferson, some of our founding fathers, to make the point that from its beginnings, our nation saw a place for the arts. You know, I would also argue that the arts and humanities are two children of the same mother, and, George Washington and Jefferson, both saw essential roles for the creative lives and, the, the, the humanitarian lives of our nation.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:51:12]"
+    },
+    {
+      "id": "context_90_20",
+      "index": 20,
+      "speaker": "Michael Faison",
+      "words": "Next, please. So in 1966, a year after the foundation of the National Endowments of the Arts and Humanities, the the Idaho Commission on the Arts was born, signed into law by Governor Smiley. But interestingly, again, being, siblings together Arts and humanities. The Idaho Commission on the Arts was not formed independently of the humanities at that point, but actually together, these were seen together by the state of Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:34:02]"
+    },
+    {
+      "id": "context_90_21",
+      "index": 21,
+      "speaker": "Michael Faison",
+      "words": "And inseparable at that time in 1966. It was only later in the early 70s, when the Idaho Humanities Council was born as an entity. Did that split take place? And so that in Idaho state government, the Idaho Commission on the Arts stayed in government, while the Idaho Humanities Council then became a not for profit entity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:04:24]"
+    },
+    {
+      "id": "context_90_22",
+      "index": 22,
+      "speaker": "Michael Faison",
+      "words": "Actually. So the I no Commission on the Arts was charged by state law in statute to stimulate the study and presentation of the performing and fine arts, as they said at the time. And and for the people to engage in the arts. And of course, we, we, strive and insist on the freedom of artistic expression as being essential to the well-being of the arts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:27:12]"
+    },
+    {
+      "id": "context_90_23",
+      "index": 23,
+      "speaker": "Michael Faison",
+      "words": "And I would say to society that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:51:07]"
+    },
+    {
+      "id": "context_90_24",
+      "index": 24,
+      "speaker": "Michael Faison",
+      "words": "So what do we do? What does the Idaho Commission on the Arts do? And I'll kick this off, for David and I, the commission does support the vitality of the arts in Idaho in two, very distinct ways, one through grant services and the other through non granting professional services. But as for grants and let's take go to the next slide.",
+      "tags": [
+        "education",
+        "culture"
+      ],
+      "timestamp": "[00:08:57:12]"
+    },
+    {
+      "id": "context_90_25",
+      "index": 25,
+      "speaker": "Michael Faison",
+      "words": "We have some distinct granting programs. The, the probably the lion's share of our funding goes to support the public programs and projects of, of Idaho's nonprofit arts organizations. So this is through a program called Public Programs in the Arts and entry track and through what we call quick funds, grants that fund projects and programs of, say, small volunteer arts organizations across the state.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:21:18]"
+    },
+    {
+      "id": "context_90_26",
+      "index": 26,
+      "speaker": "Michael Faison",
+      "words": "Importantly to we support arts and education projects across the state, both in schools and community settings. And that's an area that is a particular love of mine, coming from teaching myself. And then, of course, we support, artist fellowships recognizing excellence in the arts, in all disciplines. And again, something very exciting that happened only in the last year.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:53:04]"
+    },
+    {
+      "id": "context_90_27",
+      "index": 27,
+      "speaker": "Michael Faison",
+      "words": "We finally got approval in the last year to make fellowships in folk and traditional arts as well. In this year, fiscal year 21 were the first fellowships we've been able to make. And that's very, very exciting. We also also exciting help carry on the traditions of the arts and trades and and occupations, traditional occupations of Idaho. So through apprenticeships, we link up master artists and artisans with apprentices to carry on these traditions.",
+      "tags": [
+        "history"
+      ],
+      "timestamp": "[00:10:21:20]"
+    },
+    {
+      "id": "context_90_28",
+      "index": 28,
+      "speaker": "Michael Faison",
+      "words": "Whether Norwegian Rose Marling, Western saddle making, hat making and again, this is a a very clearly a crossover here in arts and humanities. You cannot separate them when you talk about history and heritage and the arts. And then finally an area of grant making that is not as sexy but necessary, to, to help our artists and our arts managers to thrive.",
+      "tags": [
+        "history",
+        "education"
+      ],
+      "timestamp": "[00:10:54:16]"
+    },
+    {
+      "id": "context_90_29",
+      "index": 29,
+      "speaker": "Michael Faison",
+      "words": "Professional Development and technical assistance grants to technical assistance for organizations to bring in consultants, for issues they face or professional development for artists. How about an actor who needs to learn in the stage? Stage combat techniques? Or a writer to do some research? And again, you're talking about literature. You're talking about the crossover between arts and humanities.",
+      "tags": [
+        "cinema",
+        "conflict",
+        "literature",
+        "education"
+      ],
+      "timestamp": "[00:11:20:07]"
+    },
+    {
+      "id": "context_90_30",
+      "index": 30,
+      "speaker": "Michael Faison",
+      "words": "So we're but, I think we have a pretty good portfolio grant making it so non granting services. These this is an area that we're not as well known for. But in fact they're they're really quite essential to the vitality of the arts in the state. And if I can have the next slide. So here are things that some artists and arts managers might know about, but people don't again, associate as well.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:11:45:17]"
+    },
+    {
+      "id": "context_90_31",
+      "index": 31,
+      "speaker": "Michael Faison",
+      "words": "So the Idaho Change Leader program, this is a collaborative professional development program for arts managers. We collaborative as in Utah and Colorado, both work with us together in a tri state union of the change Leader program, in which we help arts managers to learn change management techniques and organizational management techniques, how to run groups, how to initiate change in your community but do it in a productive way.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:12:16:07]"
+    },
+    {
+      "id": "context_90_32",
+      "index": 32,
+      "speaker": "Michael Faison",
+      "words": "How to run an organization. How to do board leadership. These are the things that the change management and Change Leader program is just arts managers. So it's it's really quite important work within organizations. And we funded across the state. We have people across the state in this program. In my entrepreneur program, this is an exciting new one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:46:13]"
+    },
+    {
+      "id": "context_90_33",
+      "index": 33,
+      "speaker": "Michael Faison",
+      "words": "We we believe in stealing from the best. So we stole, I should say, we actually collaborated with our peers in Montana where this originated. My Archer Preneur is a program that helps working artists to learn how to monetize and be better business people and their art if they want to make a living doing it. And this is a frankly, a college level curriculum, in arts, business management for individual artists.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:13:09:20]"
+    },
+    {
+      "id": "context_90_34",
+      "index": 34,
+      "speaker": "Michael Faison",
+      "words": "It's very exciting. It's it's, kind of I but and it's had very good effect in Montana over many years. And we've now been doing this for about two year. And we're very hopeful that it's going to make a meaningful difference in the businesses of artists. Our Our Writer in residence program. Now, that is, again, a very clear crossover with the humanities.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:13:42:00]"
+    },
+    {
+      "id": "context_90_35",
+      "index": 35,
+      "speaker": "Michael Faison",
+      "words": "A state writer in residence. That writer in residence would normally be across the state right now, going to libraries and community centers, doing readings and literary workshops. Well, we know that's not happening this year. So this year, and a nice little innovative thing. And I'm, my staff and our third writer in residence came up with this.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:14:06:24]"
+    },
+    {
+      "id": "context_90_36",
+      "index": 36,
+      "speaker": "Michael Faison",
+      "words": "This is brilliant. Writers in residencies, we have pen pal relationships with writers across the state, all being sort of managed by our state writer in residence. And, it's very exciting. And, and we'll see where it takes us. Who knows, maybe we'll continue to do this after the age of the pandemic is over. Poetry out loud again, an arts and humanities combo if I ever saw one.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:14:28:16]"
+    },
+    {
+      "id": "context_90_37",
+      "index": 37,
+      "speaker": "Michael Faison",
+      "words": "The National Poetry recitation contest. Very exciting. We manage it here for Idaho. I know, David, you manage this yourself and humanities in Oklahoma, right?",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:14:59:19]"
+    },
+    {
+      "id": "context_90_38",
+      "index": 38,
+      "speaker": "David Pettyjohn",
+      "words": "Yeah, yeah, I got to make a couple of them very cool.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:09:18]"
+    },
+    {
+      "id": "context_90_39",
+      "index": 39,
+      "speaker": "Michael Faison",
+      "words": "So you have young poets and, reciting the classics of the English language and then competing across the state and their schools, and finally in state finals and then competing with their state champions from across the nation in Washington, DC each spring. Very exciting. And this year, last year, because they couldn't convene in D.C., the National Endowment for the Arts, who sponsors this with the Poetry Foundation, actually had the students writing their own original poetry and competing with that at a distance via zoom.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:15:13:14]"
+    },
+    {
+      "id": "context_90_40",
+      "index": 40,
+      "speaker": "Michael Faison",
+      "words": "It was an exciting, change. Again, you make something good out of a complicated situation, right? Master? Master. Traditional arts convenings the masters of these trades and occupations, the silver engravers, hat makers, saddle makers, rawhide breeders bringing them together so that they can learn from each other and their trades and also share business information so that they can remain viable going into the future.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:51:05]"
+    },
+    {
+      "id": "context_90_41",
+      "index": 41,
+      "speaker": "Michael Faison",
+      "words": "And again, there we have arts and humanities together. They're inseparable. And the Community Scholar program, again, a very much a humanities sort of affair here where helping people to learn how to document their own local community assets, in arts and humanities and history, so that they can take ownership of their of their own history in their community.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:19:07]"
+    },
+    {
+      "id": "context_90_42",
+      "index": 42,
+      "speaker": "Michael Faison",
+      "words": "And all we do is help them with the tools and techniques so that they can make it their, and then new only under construction as we speak, community cultural planning services through our latest planning process, it is very clear that most of the dreams and aspirations of people in the arts across Idaho could be fulfilled with their own community, cultural planning at home, having all the stakeholders coming together and figuring this out together, what they want to make happen in their home.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:46:15]"
+    },
+    {
+      "id": "context_90_43",
+      "index": 43,
+      "speaker": "Michael Faison",
+      "words": "And, and we've starting down that road now, learning how to help communities to do their own community cultural planning. Whether it's private, stakeholders across the city or them and the cities or counties themselves, so that even cities and counties can have, cultural plans within their comprehensive plans, which is that is a beautiful, fully unified community plan.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:17:22:20]"
+    },
+    {
+      "id": "context_90_44",
+      "index": 44,
+      "speaker": "Michael Faison",
+      "words": "So those are some of the non granting services that we provide. Oh, and let me say, and it's not on that list because it merges grants and non grant services. We actually work with organizations today also in how to manage cash flow. To understand what the cash flow curves are, how to manage them, how to forecast them so that they don't have a cash crisis unexpectedly and and we all know how important that is right now.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:17:49:20]"
+    },
+    {
+      "id": "context_90_45",
+      "index": 45,
+      "speaker": "David Pettyjohn",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:18:19]"
+    },
+    {
+      "id": "context_90_46",
+      "index": 46,
+      "speaker": "Michael Faison",
+      "words": "So David Geary, there you go.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:19:23]"
+    },
+    {
+      "id": "context_90_47",
+      "index": 47,
+      "speaker": "David Pettyjohn",
+      "words": "Thank you, Michael, I appreciate that. We'll talk more later, kind of about our, kind of shared.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:22:15]"
+    },
+    {
+      "id": "context_90_48",
+      "index": 48,
+      "speaker": "David Pettyjohn",
+      "words": "Kind of experiences as well as, you know, programs that really kind of cover both the arts and humanities. So, as Michael said, you know, we're up to the National Foundation on the Arts and Humanities Act took place here in Idaho. It was a state art and humanities council. Well, when the NEA decided that they wanted to do state based humanities programing, they looked at several models and one of the models was a state agency, much like the arts councils and commissions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:33:11]"
+    },
+    {
+      "id": "context_90_49",
+      "index": 49,
+      "speaker": "David Pettyjohn",
+      "words": "And then others were working with universities and then a separate, not for profit. Eventually it was determined that the separate, not not for profit model worked best. So, in Idaho, there were a group of individuals who, applied for a planning grant and received it in 1973. And we became we started out as the Association for the Humanities in Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:09:03]"
+    },
+    {
+      "id": "context_90_50",
+      "index": 50,
+      "speaker": "David Pettyjohn",
+      "words": "This is an article from the statesman. You can see some of the names, that were involved in that, including, Alice Dieter and Charles Wright, as well as, Judy Austin, you know, some really, leading individuals in, in the area, you know, helped, the establishment of our organization. We remained the Association for the Humanities in Idaho until 1986, when we changed our name to the Idaho Humanities Council.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:39:23]"
+    },
+    {
+      "id": "context_90_51",
+      "index": 51,
+      "speaker": "David Pettyjohn",
+      "words": "So very briefly, this is our mission to deepen public understanding of human experience by connecting people with ideas. And our vision, states that the humanities inspire a more literate, tolerant, and intellectually inquisitive Idaho citizenry, better able to embrace life's possibilities. I love that intellectually inquisitive it it kind of ties into the National Foundation on the Arts and Humanities, talking about how democracy demands wisdom.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:13:23]"
+    },
+    {
+      "id": "context_90_52",
+      "index": 52,
+      "speaker": "David Pettyjohn",
+      "words": "So I, I think that's a really great term. So in 1986, we changed our name to the Idaho Humanities Council. And then we also were donated our house, our current headquarters, right here on the left. Located in downtown Boise. A lawyer by the name of Guy Grove. But they wanted the equity in the house, to the IAC and for many years, the, Idaho Centennial Commission, resided here in the house, to help pay the restoration bridge.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:43:05]"
+    },
+    {
+      "id": "context_90_53",
+      "index": 53,
+      "speaker": "David Pettyjohn",
+      "words": "And then I moved in in 1991. And then a couple of years ago, we renamed the house Arden Jr House in honor of, my predecessor, Rick Arden Jr. And here he is, with his wife, Rosemary, at the official dedication of art in your house. So, so we offer a variety of programs, you know, somewhat similar to Michael's.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:20:15]"
+    },
+    {
+      "id": "context_90_54",
+      "index": 54,
+      "speaker": "David Pettyjohn",
+      "words": "You know, we have, you know, a grant program I'll talk about here in a bit. But then we also have several council conducted programs. One of our most well-known is the Summer Teachers Institute. Several years ago, actually, almost 20 years ago, we received a grant from the National Endowment for the Humanities to raise an endowment to provide these, week long, intense, humanities focused institutes, to Idaho teachers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:45:15]"
+    },
+    {
+      "id": "context_90_55",
+      "index": 55,
+      "speaker": "David Pettyjohn",
+      "words": "They take place every July. We have about 40 teachers that come in. This was, in 2019, unfortunately, our 2020 Institute, like many other things, was postponed, so we weren't able to hold it in person, but we are planning on coming back next year. But you can see, we we were focused on the centennial of women's suffrage.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:12:15]"
+    },
+    {
+      "id": "context_90_56",
+      "index": 56,
+      "speaker": "David Pettyjohn",
+      "words": "Another program we do is, museum on Main Street. We bring in a Smithsonian exhibit, to a rural Idaho community that, focuses on, specific topic. But it's more than just hosting an exhibit. It's a capacity building program as well. We provide training for all of the project directors. You know, we provide booklets and publicity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:36:24]"
+    },
+    {
+      "id": "context_90_57",
+      "index": 57,
+      "speaker": "David Pettyjohn",
+      "words": "We bring everybody together for workshops, and it's all free of charge. We charge a small fee to the community, like $200, to participate, but then everything else is covered. This is the, grand opening of the latest one. But Moscow crossroads, looking at rural America, it has since left the state. But we'll be bringing another museum on Main Street, exhibit back in the years ahead.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:01:16]"
+    },
+    {
+      "id": "context_90_58",
+      "index": 58,
+      "speaker": "David Pettyjohn",
+      "words": "Some awards. We offer a wide variety of civil works across the state. To support humanities based programing. Here's a photo that was taken in southeast Idaho of an exhibit that we funded, I believe, at the Oregon Trail Center, Oregon Trail, California Trail Center in Montpelier. So we fund exhibits across history lectures, other discussions. We also, provide assistance, you know, to many organizations that you're familiar with as well as many organizations that the Arts Commission, supports as well.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:30:03]"
+    },
+    {
+      "id": "context_90_59",
+      "index": 59,
+      "speaker": "David Pettyjohn",
+      "words": "Just goes to show, that mutual level of support, that both of our organizations provide to the cultural, you know, infrastructure here in the Gem State. We also pre-pandemic, host these distinguished humanities lectures. We have them here in Boise as well as in Idaho Falls and Coeur d'Alene. We bring in a nationally recognized speaker.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:06:09]"
+    },
+    {
+      "id": "context_90_60",
+      "index": 60,
+      "speaker": "David Pettyjohn",
+      "words": "These were from 2019. We had Douglas Brinkley and Idaho Falls, Richard Blanco here in Boise. And then be a time when up in court, Elaine. And it's a wonderful opportunity for people to come to network to hear from a great scholar, engage in a question and answer, as well as kind of visit with them them afterwards.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:35:10]"
+    },
+    {
+      "id": "context_90_61",
+      "index": 61,
+      "speaker": "David Pettyjohn",
+      "words": "So like everything else, we've had to postpone those this year but hope to come back in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:57:00]"
+    },
+    {
+      "id": "context_90_62",
+      "index": 62,
+      "speaker": "Michael Faison",
+      "words": "2021",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:02:13]"
+    },
+    {
+      "id": "context_90_63",
+      "index": 63,
+      "speaker": "David Pettyjohn",
+      "words": "Speaking of, you know, kind of what we are all kind of dealing with now, once this pandemic really became apparent, we here at the IAC, along with other organizations, we, really started to explore, virtual programing. You know, something that we had talked about for years, but obviously it was imperative that that we do them now.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:04:21]"
+    },
+    {
+      "id": "context_90_64",
+      "index": 64,
+      "speaker": "David Pettyjohn",
+      "words": "So these are the the virtual programs. I mean, you're joining us tonight on one, you know, connected conversations. We started with our dear pen friend. You know, it's kind of like, you know, you're writers and residencies, but you know this, your pen friend connects Idahoans from across the state. As a way to, stay in touch, make a new friend.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:28:13]"
+    },
+    {
+      "id": "context_90_65",
+      "index": 65,
+      "speaker": "David Pettyjohn",
+      "words": "Just using that wonderful craft of letter writing. We also have humanities on the home, which is just a list of resources for people on our website, and then recipe roundup, because we're home a lot now. We cook a lot of food. I've taken a bread baking. My waste doesn't appreciate it, but my husband does. And, but it's great because the recipes have stories, and food is a way of coming together.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:50:05]"
+    },
+    {
+      "id": "context_90_66",
+      "index": 66,
+      "speaker": "David Pettyjohn",
+      "words": "So we've asked everyone to kind of submit their recipes and tell the stories behind them. And those are also available on our website. So now, Michael, I'll turn it over to you to talk about CARES act. You know, it's something that, both of our organizations were involved in. So if you wouldn't mind, kind of giving an overview of that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:16:21]"
+    },
+    {
+      "id": "context_90_67",
+      "index": 67,
+      "speaker": "Michael Faison",
+      "words": "Absolutely. So the CARES act, Congress early in 2020 acted quickly at that time to, try to stave off some of the, dire economic circumstances arising from the the economic shutdown of our nation amid Covid. And 75 million of those funds were issued to the Idaho. You know, I wish 75 a yeah, to the, to the National Endowment for the Arts and 75 million to the National Endowment for the Humanities for then them to distribute across the country to help, in our case, to stave off some of the, the likely closures and loss of jobs in the arts, due to Covid.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:46:10]"
+    },
+    {
+      "id": "context_90_68",
+      "index": 68,
+      "speaker": "Michael Faison",
+      "words": "So the endowment issued, 60% of that is grants straight out from the National Endowment for the Arts to nonprofit arts organizations across the country to help stave off these losses. But then 40% of that, 75 million went out to all the state arts agencies across the country, as is the practice of the National Endowment for the Arts, so that we as, a state agency could then issue those as grants to the arts in Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:38:00]"
+    },
+    {
+      "id": "context_90_69",
+      "index": 69,
+      "speaker": "Michael Faison",
+      "words": "And we've already issued around one round, one of those grants to the, I believe, 69 organizations, professional arts organizations across the state. And you see, 100 plus organizations there combined both the arts and humanities grants thus far, with CARES act funds to 25 counties and Idaho so far totaling $652,000. And we know that's helpful.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:10:11]"
+    },
+    {
+      "id": "context_90_70",
+      "index": 70,
+      "speaker": "Michael Faison",
+      "words": "We know it can't make anyone whole, but we are helping. We are doing what we can to help, and that's helping to support jobs and activities in the arts and humanities. In the case of the arts, trying to hang on to positions and trying to keep organizations open, so that they're still operating when we come out of the other side of this thing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:41:07]"
+    },
+    {
+      "id": "context_90_71",
+      "index": 71,
+      "speaker": "Michael Faison",
+      "words": "And, David, you could probably speak to some of the activities that the humanities are supporting through this.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:04:07]"
+    },
+    {
+      "id": "context_90_72",
+      "index": 72,
+      "speaker": "David Pettyjohn",
+      "words": "Yeah, it was the same process as well. I mean, the NIH also said 40%, of that 75 million to the state and territorial councils. And we have had, I think, eight rounds. We have a final round in a couple of weeks. And really, what made these grants unique from a federal funding viewpoint were two things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:09:07]"
+    },
+    {
+      "id": "context_90_73",
+      "index": 73,
+      "speaker": "David Pettyjohn",
+      "words": "One, it specifically could cover overhead costs, salaries and utilities. And it did not require a match. And, you know, that was incredibly beneficial, to, organizations across the state that really depend on in-person or admissions, fundraising events. And, but, you know, as you said, Michael, I mean, the hurting is still there. I mean, this has helped, but, these are organizations that still, will need assistance.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:31:08]"
+    },
+    {
+      "id": "context_90_74",
+      "index": 74,
+      "speaker": "Michael Faison",
+      "words": "Absolutely. It's it's critical. They still need more assistance, than we could ever supply on our. But we will do what we can.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:04:12]"
+    },
+    {
+      "id": "context_90_75",
+      "index": 75,
+      "speaker": "David Pettyjohn",
+      "words": "Yes. So we're very fortunate to have this. I mean, and I think that we're very thankful, you know, the for both the NEA and the NEA for, and I will say that every member of Idaho's federal and national delegation voted in favor of the CARES act. So it really had that strong bipartisan support. So we're very, very thankful for that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:12:22]"
+    },
+    {
+      "id": "context_90_76",
+      "index": 76,
+      "speaker": "Michael Faison",
+      "words": "And let me say, too, that the National Endowment for the Arts, and I know it's the same with the national humanities. They are such good partners to us. They are, in fact, what I frequently call as the the models of federalism in action. They delegate a great deal of of initiative and authority to the states in an equal relationship.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:34:22]"
+    },
+    {
+      "id": "context_90_77",
+      "index": 77,
+      "speaker": "Michael Faison",
+      "words": "And there was and it was demonstrated once again through the speed with which they were able to work with us through the CARES act funds.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:58:21]"
+    },
+    {
+      "id": "context_90_78",
+      "index": 78,
+      "speaker": "David Pettyjohn",
+      "words": "That's an excellent point. It's it's it's, there aren't many organizations, kind of like that. I, I completely agree with you. And I also like to point out that our relationship, you know, with the arts and humanities here in Idaho is also very strong. You know, we have a really fortunate, experience here that I know might not necessarily be, you know, so strong in, in other states.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:07:15]"
+    },
+    {
+      "id": "context_90_79",
+      "index": 79,
+      "speaker": "David Pettyjohn",
+      "words": "So. Okay, why should we study the arts and humanities, Michael.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:36:04]"
+    },
+    {
+      "id": "context_90_80",
+      "index": 80,
+      "speaker": "Michael Faison",
+      "words": "Well, there are lots of good reasons for that. The first of all, it's good for academic achievement. It just is, even if you're not that interested in artsy narratives. Although I have a feeling everybody on this call is, the fact is that students who study arts and humanities, they just do better in school. They score higher on the SAT both in and math and verbal.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:44:10]"
+    },
+    {
+      "id": "context_90_81",
+      "index": 81,
+      "speaker": "Michael Faison",
+      "words": "Both, I and I can speak as, as one of the band kids, and one of the art kids that that was true. Basic skills are improved with study of the creative process in the classroom. You're basic analytical skills are better, your abstract reasoning is superior. And because these are fostered in the creative process, and the fact is that discipline is better.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:32:11:08]"
+    },
+    {
+      "id": "context_90_82",
+      "index": 82,
+      "speaker": "Michael Faison",
+      "words": "I mean, I know this as a teacher that, kids who were engaged creatively were simply more functional in school. And, I was on a call earlier today. We were talking about the fact that self-worth is important if to to actually have feel worth for others. And that level of empathy is built through the artistic process. And then and that feeds on to the whole school environment.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:32:41:03]"
+    },
+    {
+      "id": "context_90_83",
+      "index": 83,
+      "speaker": "Michael Faison",
+      "words": "The school just works better and you have fewer problems. You have students who are staying in school and achieving more. And I can tell you that students who are very high on that creative quotient end up in greater leadership positions in life. Generally.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:33:11:06]"
+    },
+    {
+      "id": "context_90_84",
+      "index": 84,
+      "speaker": "David Pettyjohn",
+      "words": "No. Yeah. I mean, absolutely. And I think, one of the things you pointed out, the word empathy, I think is absolutely critical, not just now, but, you know, really in every situation, when I've been asked to speak, to college classes, they'll say, why? Why should I take a humanities course or why? Why should I study the liberal arts?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:32:12]"
+    },
+    {
+      "id": "context_90_85",
+      "index": 85,
+      "speaker": "David Pettyjohn",
+      "words": "I mean, kind of going to what you were saying, Michael, but it teaches you analytical thinking skills. It shows that you can learn. And so you can be a successful student or employee. It also helps you develop that global perspective by studying cultures throughout the world. And I'm not going to go through all of these, but it also helps you clarify your own values by comparing and contrasting them to what others have thought.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:57:04]"
+    },
+    {
+      "id": "context_90_86",
+      "index": 86,
+      "speaker": "David Pettyjohn",
+      "words": "And one of the things that that I love, you know, about the humanities, it's just continually finding that inspiration, by some of the greatest minds and thoughts of the ages. And somebody described the humanities and the arts, you know, as well as this vast pool of knowledge that's free. I mean, anybody I mean, everybody who's, you know, kind of walked this earth before us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:26:06]"
+    },
+    {
+      "id": "context_90_87",
+      "index": 87,
+      "speaker": "David Pettyjohn",
+      "words": "Many of them have shared their thoughts and that shared experience is accessible through the work that you do, through the work that we do. And it's free. And I think, by kind of having those opportunities present it, it helps us develop that empathy to help us see the world through another person's eyes. And it's something that's valuable to teachers and employers as well.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:50:20]"
+    },
+    {
+      "id": "context_90_88",
+      "index": 88,
+      "speaker": "David Pettyjohn",
+      "words": "So yes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:16:20]"
+    },
+    {
+      "id": "context_90_89",
+      "index": 89,
+      "speaker": "Michael Faison",
+      "words": "By the way, strong, I can tell you that at Carnegie Mellon University, they've really fully integrated, arts, humanities and computer science.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:19:00]"
+    },
+    {
+      "id": "context_90_90",
+      "index": 90,
+      "speaker": "David Pettyjohn",
+      "words": "Oh, good.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:32:01]"
+    },
+    {
+      "id": "context_90_91",
+      "index": 91,
+      "speaker": "Michael Faison",
+      "words": "Yeah, good. And as a result, they develop smarter code warriors, people who dream up the new ideas. They don't just regurgitate the old ones. Yeah, they have that, mental discipline and maturity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:33:11]"
+    },
+    {
+      "id": "context_90_92",
+      "index": 92,
+      "speaker": "David Pettyjohn",
+      "words": "Right? So it's not only good for our soul, it's also good for the economy. So, Michael, if you want to go out and talk about, you know, some of these that absolutely.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:49:08]"
+    },
+    {
+      "id": "context_90_93",
+      "index": 93,
+      "speaker": "Michael Faison",
+      "words": "Yes, arts are good for business. In fact, they are just good business. People might not realize that, the cultural the economy, the creative economy of America is 4.5% of the economy. It's worth $877 billion and over 5 million jobs, 900,000 of which are these core arts jobs themselves, the others being the jobs that are supported by the fact that this economy exists, US wages as we as you see here, are in excess of $400 billion in the creative economy, 68 again, 68 billion directly within the arts themselves.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:01:08]"
+    },
+    {
+      "id": "context_90_94",
+      "index": 94,
+      "speaker": "Michael Faison",
+      "words": "And they take that down to Idaho. There's more here than people think. 2.8% of Idaho's economy is creative. That's a big deal. Over 20,000 jobs are supported by that creative economy that matters in this state. And this state is good about being supportive of business, of small business, of creativity. In the, in the marketplace, so Idaho should be and I would generally say is favorable to people working in a creative economy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:46:09]"
+    },
+    {
+      "id": "context_90_95",
+      "index": 95,
+      "speaker": "Michael Faison",
+      "words": "So, yeah, the wages matter, with 139 million just in the core jobs, but $1 billion in wages supporting Idaho's creative economy. It's a it's a big deal.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:23:01]"
+    },
+    {
+      "id": "context_90_96",
+      "index": 96,
+      "speaker": "David Pettyjohn",
+      "words": "The it really is it just to kind of, you know, touch on that point, you know, when you look at a dollar, you know, that is spent on a ticket at a small venue whether to go see a play or even, you know, an exhibit or something like that. That is a $12 that $1 equals $12 in economic activity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:38:05]"
+    },
+    {
+      "id": "context_90_97",
+      "index": 97,
+      "speaker": "David Pettyjohn",
+      "words": "When you look at restaurants, hotels, other things which, like you alluded to, 200 and almost $279 million in indirect annual economic impact. And I think one of the things also which is critical is we'll kind of touch about this afterwards, kind of this rural urban divide or other aspect is how culture or, you know, the arts and humanities really tend to be concentrated more in the urban centers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:57:23]"
+    },
+    {
+      "id": "context_90_98",
+      "index": 98,
+      "speaker": "David Pettyjohn",
+      "words": "Well, you and I have seen that. That's not that's not the case at all. You know, especially here in Idaho and the Governor's Association report to just last year talks about how these counties with performing arts organizations and other cultural organizations like museums and libraries, they experience population growth three times higher than those without them. And then with the design driven business, they recovered more quickly from the recession, showing greater growth in weekly earnings.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:28:14]"
+    },
+    {
+      "id": "context_90_99",
+      "index": 99,
+      "speaker": "David Pettyjohn",
+      "words": "So that creative economy which arts, humanities, cultural heritage, tourism through historic preservation, those are really an economic driver, all throughout the state.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:00:15]"
+    },
+    {
+      "id": "context_90_100",
+      "index": 100,
+      "speaker": "David Pettyjohn",
+      "words": "So here are our websites. You know, you can obviously go, to learn more about our, individual organizations. But now I'm going to stop sharing the screen and we will open it up for questions. But before we start doing that, don't forget you can use it at the chat or the Q&A feature at the bottom. We've talked about the national origin story.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:15:01]"
+    },
+    {
+      "id": "context_90_101",
+      "index": 101,
+      "speaker": "David Pettyjohn",
+      "words": "We talked about the local origin story. So Michael, I want to ask you about your individual origin story. When did you first become enamored with the arts?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:40:14]"
+    },
+    {
+      "id": "context_90_102",
+      "index": 102,
+      "speaker": "Michael Faison",
+      "words": "I was I was raised in a military and science family. I grew up in the military. I grew up with inquiry and sciences and walls of books, also with an old man who would never answer a question directly. If this boy had a question for him, he would say, well, boy, that's a good question. Let's look it up.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:52:22]"
+    },
+    {
+      "id": "context_90_103",
+      "index": 103,
+      "speaker": "Michael Faison",
+      "words": "And so I grew up with books in the home. But also, I mean, here it here was a family that was that lived in war and warfare. And I think my parents and then the all the people I knew, also had a greater appreciation for what that means for civilization. Yeah. And then I worked for governor Tom Ridge in Pennsylvania.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:40:17:13]"
+    },
+    {
+      "id": "context_90_104",
+      "index": 104,
+      "speaker": "Michael Faison",
+      "words": "And before he headed off to the new homeland Security thing, that had to happen at that time, he officiated over the Governor's Awards in the Arts, in Allentown, Pennsylvania, in October of 2001. And we had written a speech for him on arts and the economy just as we had been discussing here. But we all knew at that moment that was no longer that was not an important thing to discuss.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:46:05]"
+    },
+    {
+      "id": "context_90_105",
+      "index": 105,
+      "speaker": "Michael Faison",
+      "words": "There were bigger issues at play. And I mentioned this because he said something in his speech that was now completely extemporaneous, because we didn't have time to write a speech. He spoke to something that has always lived with me since that goes right back to why I love the arts. Why growing up, I had an old man who, lived for art and music and and literature.",
+      "tags": [
+        "music",
+        "literature"
+      ],
+      "timestamp": "[00:41:11:22]"
+    },
+    {
+      "id": "context_90_106",
+      "index": 106,
+      "speaker": "Michael Faison",
+      "words": "Governor Rich said it's about the soul of the Commonwealth. Who are we as a people? What do we stand for? And who tells our stories and who tells our stories? And that's what resonated for me my entire life. With a father who loved art and music, and growing up with airplanes, I mean, but boy, doesn't love airplanes, but, it was in the home.",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "timestamp": "[00:41:42:05]"
+    },
+    {
+      "id": "context_90_107",
+      "index": 107,
+      "speaker": "Michael Faison",
+      "words": "It was nurtured from the beginning. And, home smells like a home. If it smells like books. That that's my origin story in this, and that I saw this as a, a natural mash. And by the way, because he was also a scientist, the inquiry, the constant inquiry and questioning, which goes right back to humanities again.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:12:22]"
+    },
+    {
+      "id": "context_90_108",
+      "index": 108,
+      "speaker": "Michael Faison",
+      "words": "Right. And so that's, that's where I come from. And it feels like home to me.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:37:22]"
+    },
+    {
+      "id": "context_90_109",
+      "index": 109,
+      "speaker": "David Pettyjohn",
+      "words": "That's good. No that's good. It's, it's, it's good to feel at home, you know, and when you can, you know, when you go to work every day, I mean, that's, that's kind of a nice thing. And, you know, I'll say on my part, it's, it really started with a bookshelf that we had in our home.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:47:15]"
+    },
+    {
+      "id": "context_90_110",
+      "index": 110,
+      "speaker": "David Pettyjohn",
+      "words": "And at the bottom of that bookshelf was an encyclopedia set. And, this was well before the internet, and I just devoured, you know, it opened up a whole new world to me. I researched states and people and all sorts of, new ideas and perspectives and, and then whenever we would travel, one thing my parents always encouraged was that learning.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:04:14]"
+    },
+    {
+      "id": "context_90_111",
+      "index": 111,
+      "speaker": "David Pettyjohn",
+      "words": "And, we'd go to local museums, that, were free. My parents didn't have, you know, enough kind of income to take us to a lot of cultural events. So, that's why those opportunities that are provided free and open to the public, I really benefited from. And then, as I just I just knew it, the humanities did not, what sort of it proved that I wasn't alone?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:29:19]"
+    },
+    {
+      "id": "context_90_112",
+      "index": 112,
+      "speaker": "David Pettyjohn",
+      "words": "I didn't feel alone when I read those stories and those other experiences. So that's that's how I fell in love with it. And it's it's really, I think we both can say we're we're pretty fortunate that we get to do what we do, you know, every day. So.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:00:19]"
+    },
+    {
+      "id": "context_90_113",
+      "index": 113,
+      "speaker": "Michael Faison",
+      "words": "You know.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:17:22]"
+    },
+    {
+      "id": "context_90_114",
+      "index": 114,
+      "speaker": "David Pettyjohn",
+      "words": "We have a first question and it's for you, Michael.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:18:15]"
+    },
+    {
+      "id": "context_90_115",
+      "index": 115,
+      "speaker": "Michael Faison",
+      "words": "Okay.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:21:06]"
+    },
+    {
+      "id": "context_90_116",
+      "index": 116,
+      "speaker": "David Pettyjohn",
+      "words": "And two part the first one is, you're own work as an artist. You know, what media do you work with?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:21:18]"
+    },
+    {
+      "id": "context_90_117",
+      "index": 117,
+      "speaker": "Michael Faison",
+      "words": "I'm a painter and photographer. Okay? I, in fact, I was a commercial illustrator as well as a studio photographer, for years, but I studied studio paint. Studio art, as an undergraduate student. University of Texas at Austin. I love oil paints. I still love oil paints. I love photography, though. Painting. I keep coming back to it.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:44:31:16]"
+    },
+    {
+      "id": "context_90_118",
+      "index": 118,
+      "speaker": "Michael Faison",
+      "words": "Trust me, though, if you go into arts management, it gets more and more difficult to keep up your work teaching great, but art, you have to struggle.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:56:07]"
+    },
+    {
+      "id": "context_90_119",
+      "index": 119,
+      "speaker": "David Pettyjohn",
+      "words": "And then, the second part of the question is, has the Idaho Commission on the Arts supported work by artists with special needs and disabilities? And, to know if you are acquainted with the student led work of the Art Ability Project, sponsored by the U of I Center on Disability and Human Development.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:06:13]"
+    },
+    {
+      "id": "context_90_120",
+      "index": 120,
+      "speaker": "Michael Faison",
+      "words": "First. First question. Yes. In fact, there is an incredible program right in Boise, called Idaho Parents Unlimited, which is also the BSR Arts affiliate in Idaho. And they do incredible work, with, children with disabilities and, and with the arts. And, I would like to see even more work like that supported in this state the art ability.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:45:28:14]"
+    },
+    {
+      "id": "context_90_121",
+      "index": 121,
+      "speaker": "Michael Faison",
+      "words": "I don't know that. And I want to know it better. Okay. So I'm glad. Participant here brought that up because I'd like to pursue that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:56:23]"
+    },
+    {
+      "id": "context_90_122",
+      "index": 122,
+      "speaker": "David Pettyjohn",
+      "words": "So, don't forget, you can you can ask questions. Somebody, also said thank you for what you said earlier about, you know, the stem and the steam. And I think that kind of leads me to a question. So what challenges do you think we face in Idaho? When it comes to the arts and humanities?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:09:16]"
+    },
+    {
+      "id": "context_90_123",
+      "index": 123,
+      "speaker": "David Pettyjohn",
+      "words": "You know, kind of, I'll kind of start by saying that I think sometimes the humanities are viewed as elitist. They are not viewed, they are viewed as, not as accessible. And sometimes there is some pushback on that. It's not pervasive or statewide, but there are those sorts of, preconceptions. So I'm, I'm assuming it's similar, you know, for the arts as well.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:33:00]"
+    },
+    {
+      "id": "context_90_124",
+      "index": 124,
+      "speaker": "David Pettyjohn",
+      "words": "And in some cases. So what do you think our biggest challenges are?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:01:08]"
+    },
+    {
+      "id": "context_90_125",
+      "index": 125,
+      "speaker": "Michael Faison",
+      "words": "Certainly that perception is out there. It's real. And it should not be, because for instance, we just announced the, the next round of, recipients of the Governor's Awards for the Arts and one of these, one of these wonderful recipients, is a Norwegian rose modeler. That is an exquisite, beautiful painting for me. It's considered decorative art.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:08:16]"
+    },
+    {
+      "id": "context_90_126",
+      "index": 126,
+      "speaker": "Michael Faison",
+      "words": "Why would anybody make a distinction between, fine arts and other arts? They all work together. For instance, the occupational trades and, and saddle makers, Nez Perce, Quill and B and beaters. All of this fits together. It is one tapestry. Unfortunately, sometimes people draw a distinction to say, well, then a painting of Van Gogh's is, is some higher level, and it is exquisite.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:39:05]"
+    },
+    {
+      "id": "context_90_127",
+      "index": 127,
+      "speaker": "Michael Faison",
+      "words": "Absolutely. I just crave it. But I also crave that rose. Molly. Yeah. And I crave, And I had a hat made by an Idaho hat maker, and it was a crown that I had always wanted. And and and he made it. And it's perfect. And I know it'll last my lifetime. There is an art here. We need to break down those those barriers to this so that we all and, that we, that we see it all is one big meshed tapestry of, of magnificent arts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:12:09]"
+    },
+    {
+      "id": "context_90_128",
+      "index": 128,
+      "speaker": "Michael Faison",
+      "words": "When we do that, those social barriers break down. And I have seen those barriers break down in the legislature. Yeah, we support the the Boise Art Museum, the Art Museum of Eastern Idaho, and the Wieser Fiddle Fest and the Basque Museum, and the festival at Sandpoint. And, and they have so many different art forms and every one of them are absolutely magnificent.",
+      "tags": [
+        "boise",
+        "sandpoint"
+      ],
+      "timestamp": "[00:48:46:08]"
+    },
+    {
+      "id": "context_90_129",
+      "index": 129,
+      "speaker": "Michael Faison",
+      "words": "Or being at the, Well, I could go on, but, Yeah, you I mean, what do you see?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:16:00]"
+    },
+    {
+      "id": "context_90_130",
+      "index": 130,
+      "speaker": "David Pettyjohn",
+      "words": "No, I, I completely agree with you. I think that there is that notion that, the humanities is, like, I said earlier, it's elite and privileged, and I, completely disagree. And, you know, I think one of the things that we do here, and I know you do as well, is demonstrating how the humanities belong to everyone.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:23:19]"
+    },
+    {
+      "id": "context_90_131",
+      "index": 131,
+      "speaker": "David Pettyjohn",
+      "words": "It is the human experience, and every story is a part of that. So, we have a board just like you do as well. And, they represent the entire state. And those perspectives all come together, and we use that network to, talk about something that that might be going on in the lab. You know, we support the Welsh festival down there, you know, trailing of the sheep.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:51:04]"
+    },
+    {
+      "id": "context_90_132",
+      "index": 132,
+      "speaker": "David Pettyjohn",
+      "words": "Or, you know, things that happen in Twin Falls as well as Rexburg and Driggs. So I think it's getting the information out there. I think, it is one of those challenges that's always kind of been there, but I also view it as an opportunity. You know, it's it's that opportunity of going out and demonstrating how the arts and the humanities.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:16:01]"
+    },
+    {
+      "id": "context_90_133",
+      "index": 133,
+      "speaker": "David Pettyjohn",
+      "words": "And I know you focus on the arts and I focus on the humanities, but I know we talk about both, you know, when we kind of get loud, bring us together that shared common experience, our shared history, and going back to the National Foundation on the Arts and Humanities, how that is needed to be respectful to other ideas and other cultures.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:42:13]"
+    },
+    {
+      "id": "context_90_134",
+      "index": 134,
+      "speaker": "David Pettyjohn",
+      "words": "And I think now of all times that is needed more so than ever. And I have seen how our works have contributed to that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:04:05]"
+    },
+    {
+      "id": "context_90_135",
+      "index": 135,
+      "speaker": "Michael Faison",
+      "words": "Absolutely. In fact, the various the various cultures of Idaho, I mean, we have exquisite Korean dancers here and, and Mexican traditional dance and.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:14:02]"
+    },
+    {
+      "id": "context_90_136",
+      "index": 136,
+      "speaker": "David Pettyjohn",
+      "words": "Cranial Ukrainian dancer.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:25:23]"
+    },
+    {
+      "id": "context_90_137",
+      "index": 137,
+      "speaker": "Michael Faison",
+      "words": "Ukrainian. Yep. Absolutely. This is all part of this wonderful human tapestry. But it goes back again. Who tells our stories?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:28:01]"
+    },
+    {
+      "id": "context_90_138",
+      "index": 138,
+      "speaker": "David Pettyjohn",
+      "words": "You're absolutely right. Yep.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:37:14]"
+    },
+    {
+      "id": "context_90_139",
+      "index": 139,
+      "speaker": "Michael Faison",
+      "words": "And there are stories to tell. Their value. They're valuable. And, in fact, one of my experiences, not in my youth, but in my adulthood, and it made me go back to my youth. So back in Pennsylvania, before we were coming out here in 2007, then my wife said, you know, we haven't been to the Brandywine Museum yet.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:40:08]"
+    },
+    {
+      "id": "context_90_140",
+      "index": 140,
+      "speaker": "Michael Faison",
+      "words": "We've been here for so many years, and we've never been to the Brandywine Museum. Now, this is where three generations of Wyatt's work is. Wow. Yeah. So we went to the Brandywine Museum. We've been living right in this backyard for years, and I. We walked in there. Okay, there's these wonderful Andrew Wyeth and Jamie Wyeth. But growing up, I had grown up with the illustrations of N.C. Wyeth in the famous adventure novels, you know, Treasure Island and, Robinson Crusoe.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:03:20]"
+    },
+    {
+      "id": "context_90_141",
+      "index": 141,
+      "speaker": "Michael Faison",
+      "words": "All of this. And I'd always as a kid, I wanted to emulate the painter ness of the illustrations of N.C. Wyeth and all these famous adventure books. And I walked into one of the rooms in that gallery, and there they were. Every one of them lined up the original oil paintings by N.C. Wyeth that were about six feet tall.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:33:03]"
+    },
+    {
+      "id": "context_90_142",
+      "index": 142,
+      "speaker": "Michael Faison",
+      "words": "And I practically did a Snoopy dance. I was a kid all over again and and remembering how much I love these stories and how much those particular illustrations by N.C. Wyeth meant to me as a kid growing up. And I was, I was I wanted to squeal. Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:57:12]"
+    },
+    {
+      "id": "context_90_143",
+      "index": 143,
+      "speaker": "David Pettyjohn",
+      "words": "I mean, no, that's a really good transition because we have time for this last question, and you're going to have to think of something else now because, the question is, what is an example of an event or program in the humanities and in the arts that has touched you personally in the last several years? So I'll give you a moment to think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:19:09]"
+    },
+    {
+      "id": "context_90_144",
+      "index": 144,
+      "speaker": "David Pettyjohn",
+      "words": "And then so I'll, I'll kind of share mine. So, and the last several years I've really been fortunate, this is my new home state. You know, I've been here about three years, so I really made an effort to, travel the state, you know, and see programs. And I would say, there were so many, but one that really touched me most recently was, the North Idaho Distinguished Humanities Lecture that we had last year.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:40:09]"
+    },
+    {
+      "id": "context_90_145",
+      "index": 145,
+      "speaker": "David Pettyjohn",
+      "words": "And it wasn't the lecture part, actually, thanks to a generous donation that we received from the Idaho Forest Group, we're able to bring, the speaker two high school students and so we were at Lake City High School this year, and there were about 400 students with via Tom Wynn and listening to him engage, listening to him interact in the questions that the students had about culture and ideas, was incredibly moving and incredibly uplifting.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:11:01]"
+    },
+    {
+      "id": "context_90_146",
+      "index": 146,
+      "speaker": "David Pettyjohn",
+      "words": "And afterwards, I was reading in the paper how, the students, you know, responded by saying how it had changed them as well. And, it was something that that I really walked away from, you know, just feeling incredibly moved, not only by, the authors, you know, compassion and his, interest, but then how the students reacted as well.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:44:03]"
+    },
+    {
+      "id": "context_90_147",
+      "index": 147,
+      "speaker": "David Pettyjohn",
+      "words": "So, Michael, over to you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:10:20]"
+    },
+    {
+      "id": "context_90_148",
+      "index": 148,
+      "speaker": "Michael Faison",
+      "words": "Well, I'm going to mention a couple of things that happened. One, just a year or so ago and then another several years back. They're both going to be in Boise. And I'm prefacing by saying that because I don't want this to sound like I'm terribly centric. But they just these particular events stand out to me. I have the good fortune in the course of my work to be able to travel the state a fair amount and, to, to go to events and to meet with people, on, on the work of the agency.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:55:14:05]"
+    },
+    {
+      "id": "context_90_149",
+      "index": 149,
+      "speaker": "Michael Faison",
+      "words": "And I'm deeply moved by many of them. But let me now say that I absolutely love classical music, and early music is my, well, okay. And jazz too. I love a good straight up jazz, but early music is is is wonderful. Okay. So okay, three of us this past year before Covid happened, I was, I had some health problems and I wasn't able to get out much, but we got out to an event at the Riverside, in the Sapphire Room for some good straight ahead jazz.",
+      "tags": [
+        "music"
+      ],
+      "timestamp": "[00:55:51:03]"
+    },
+    {
+      "id": "context_90_150",
+      "index": 150,
+      "speaker": "Michael Faison",
+      "words": "And I hadn't heard any for a while, and I was at a particularly bad moment, in my health. And that music was absolutely restorative to sit there listening to some just straight ahead jazz and that that is, as they call it. I know it sounds colloquial, but it's the American classical music and I crave it. But two other musical events here.",
+      "tags": [
+        "music"
+      ],
+      "timestamp": "[00:56:33:14]"
+    },
+    {
+      "id": "context_90_151",
+      "index": 151,
+      "speaker": "Michael Faison",
+      "words": "I am a visual artist, but I love music. A year or so ago, Monica Huggett, who is the music director of the Portland Baroque Orchestra, came here to perform with the Boise Baroque Orchestra. Hum. Oh, that was exquisite. That was that was a mesmerizing concert, of baroque music. And I just, I crave baroque music.",
+      "tags": [
+        "music",
+        "boise"
+      ],
+      "timestamp": "[00:57:01:05]"
+    },
+    {
+      "id": "context_90_152",
+      "index": 152,
+      "speaker": "Michael Faison",
+      "words": "And then finally, several years ago, the Boise Philharmonic performed Mahler's Resurrection. It doesn't get performed very much because it's just big. It's big, it's difficult. It's choral, orchestral. It's massive. And the Boise Philharmonic nailed it. They just nailed it. I don't I don't jump to my feet. I think American audiences are too prone to stand in performances, but I leapt to my feet on that performance.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:57:26:07]"
+    },
+    {
+      "id": "context_90_153",
+      "index": 153,
+      "speaker": "Michael Faison",
+      "words": "It was so inspiring. Absolutely inspiring.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:59:24]"
+    },
+    {
+      "id": "context_90_154",
+      "index": 154,
+      "speaker": "David Pettyjohn",
+      "words": "You know, we'll end it on two things. The first is a panelist said that, connecting the humanities and the arts to the public at large is long standing. And even in 1711, Simon, during, you know, in 711, Joseph Addison expressed the desire to bring philosophy or the humanities more broadly out of the closet to library, schools and colleges, to dwell in clubs and assemblies, at tables and coffeehouses.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:04:07]"
+    },
+    {
+      "id": "context_90_155",
+      "index": 155,
+      "speaker": "David Pettyjohn",
+      "words": "So that is our goal. Michael. And I think the last thing I want to say is, here's to 2021 and an opportunity for us, everybody on the, the, the zoom call that, with good wishes that we can sit together again, hear wonderful music, hear wonderful lectures, and wish everybody good health.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:33:13]"
+    },
+    {
+      "id": "context_90_156",
+      "index": 156,
+      "speaker": "Michael Faison",
+      "words": "So, Michael.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:59:03]"
+    },
+    {
+      "id": "context_90_157",
+      "index": 157,
+      "speaker": "David Pettyjohn",
+      "words": "Thank you so much for joining us tonight.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:01:20]"
+    },
+    {
+      "id": "context_90_158",
+      "index": 158,
+      "speaker": "Michael Faison",
+      "words": "Thank you David. It was a real pleasure. It's always a pleasure to spend some time with you. Kindred spirits.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:05:04]"
+    },
+    {
+      "id": "context_90_159",
+      "index": 159,
+      "speaker": "David Pettyjohn",
+      "words": "Absolutely right back at you. Thank you, everyone, for joining us tonight. Next week we have another one on Tuesday. Just go to our website. You can learn more about it. Have a wonderful evening.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:11:11]"
+    },
+    {
+      "id": "context_90_160",
+      "index": 160,
+      "speaker": "Michael Faison",
+      "words": "Good night everybody.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:24:00]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 161,
+    "description": "Since 1993, October has been designated National Arts & Humanities Month to encourage Americans to explore new facets of the arts and humanities in their lives, and to begin a lifelong habit of participation in the arts and humanities. Join Michael Faison, Executive Director of the Idaho Commission on the Arts (ICA) and David Pettyjohn, Executive Director of the Idaho Humanities Council (IHC) as they discuss the essential roles the arts & humanities play in Idaho. They will also provide information on how their state-wide organizations enhance the social, economic, and cultural lives of Idahoans through programming, grants, and opportunities to engage. Michael Faison is the executive director of the Idaho Commission on the Arts. Faison previously served as the director of the Arts in Education Division of the Pennsylvania Council on the Arts, the assistant director of the Oregon Arts Commission, and the executive director of the Center for Arts Management and Technology at Carnegie Mellon University, Pittsburgh, Pennsylvania. He served as an information technology consultant for Pittsburgh’s Manchester Craftsmen’s Guild and was a high school art teacher in the Austin Independent School District, Austin, Texas. Faison is a member of the boards of the Western States Arts Federation, National Assembly of State Arts Agencies, Heinz College, Carnegie Mellon University Alumni Association, and the Boise Sunrise Rotary Club. He holds a bachelor’s degree in fine arts from the University of Texas at Austin, a master’s degree in arts management from Carnegie Mellon University, and multiple Texas teaching certifications.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

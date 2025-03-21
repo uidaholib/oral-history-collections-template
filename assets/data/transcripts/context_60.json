@@ -1,0 +1,1921 @@
+{
+  "title": "S3E9 The Electoral College",
+  "interviewee": "Dr. David Alder; Dr. Lori Cox Han",
+  "interviewer": "Doug Exton",
+  "date": "2022-05-23",
+  "subjects": [
+    "electoral colleges",
+    "voting",
+    "debates",
+    "democracies",
+    "public policy"
+  ],
+  "segments": [
+    {
+      "id": "context_60_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_60_1",
+      "index": 1,
+      "speaker": "Doug Exton",
+      "words": "Thank you so much for joining us for tonight's conversation on the Electoral College. This is a program conducted by the Idaho Humanities Council and funded by the Why it Matters civic and Electoral Participation initiative, administered by the Federation of State Humanities Councils and funded by the Andrew W Mellon Foundation. If you're not familiar with our organization, I encourage you to check out our website, idahohumanities.org.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_60_2",
+      "index": 2,
+      "speaker": "Doug Exton",
+      "words": "I like to remind all of you that you may submit any questions using the Q&A feature located at the bottom of the screen. And with me tonight is two wonderful guests, Doctor David Adler from the Alturas Institute and Doctor Lori Cox Han from Chapman University. And I turn over to you both.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:28:01]"
+    },
+    {
+      "id": "context_60_3",
+      "index": 3,
+      "speaker": "David Adler",
+      "words": "Okay, good. Thank you, Doug. Let me say how nice it is to, to share the platform tonight with my good friend Lori Cox on one of the nation's leading presidential scholars, a prolific author and, and a wonderful teacher. So, Lori, it's nice to see you again.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:44:09]"
+    },
+    {
+      "id": "context_60_4",
+      "index": 4,
+      "speaker": "Lori Cox Han",
+      "words": "All right. Thanks, David. And thanks, Doug, for inviting me to participate on this. So I guess we're talking about the electoral college and, why we have it and why people are so concerned with the fact that we still have it, which seems to be a pretty popular topic. Certainly since 2016, but really since 2000. You know, when I first started teaching American government back in the late 1990s, when I would be teaching my intro to American Politics course and talking about the Electoral College, you know, students would kind of tune out because they think, well, this is just this archaic thing, and why do we even care?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:04:23]"
+    },
+    {
+      "id": "context_60_5",
+      "index": 5,
+      "speaker": "Lori Cox Han",
+      "words": "And why does it matter? Well, in 2000, it suddenly became very relevant to a lot of people. When you had George W Bush win the presidency, but lose the popular vote. And that was the first time that that had happened since 1888. So, got a lot of renewed attention. And then certainly that same thing happened in 2016.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:40:02]"
+    },
+    {
+      "id": "context_60_6",
+      "index": 6,
+      "speaker": "Lori Cox Han",
+      "words": "The difference being that, it wasn't as close as 2000. In 2000. George W Bush won with 271 electoral votes. And of course, you only need 270 simple majority. And but lost the popular vote by 500,000 to al Gore. But in 2016, while Donald Trump had a larger margin in the electoral College, not the landslide that he always said it was, but a decent margin.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:59:24]"
+    },
+    {
+      "id": "context_60_7",
+      "index": 7,
+      "speaker": "Lori Cox Han",
+      "words": "But he lost the popular vote to Hillary Clinton by about 3 million. So that got even more renewed attention on this debate about the Electoral College, and maybe it was time to get rid of it. And so the idea behind the Electoral College really comes from the framers of the Constitution wanting to insulate the presidency from the popular will, and also to give states a role as states in the selection process of the president, because federalism and defining states as their own, you know, political entities is a very important component of our constitutional structure.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:25:17]"
+    },
+    {
+      "id": "context_60_8",
+      "index": 8,
+      "speaker": "Lori Cox Han",
+      "words": "Obviously, the framers couldn't foresee how this would play out in the, you know, in the 21st century in terms of American presidential politics. But it raises a lot of pros and cons about what we do with the Electoral College moving forward. I get asked this question a lot, not only from students, but when I give talks out in the community.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:03:04]"
+    },
+    {
+      "id": "context_60_9",
+      "index": 9,
+      "speaker": "Lori Cox Han",
+      "words": "People are, you know, very concerned about maybe we should have a popular election, you know, popular election of the president, just the national vote and that's it. Usually what I tell people is that there are a lot of good reasons to do away with it. There are also good reasons for maybe why we should not. But I'm very much a pragmatist.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:24:13]"
+    },
+    {
+      "id": "context_60_10",
+      "index": 10,
+      "speaker": "Lori Cox Han",
+      "words": "And so what I what I usually say is you probably have a better chance of winning the lottery than you do of seeing the Electoral College disappear in your lifetime. And so I take it from that perspective. But from the standpoint of why, we probably won't get rid of it. It's that and not that there aren't good arguments to do away with it and never have an election where the president, you know, got 3 million, less votes than, you know, the person who lost.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:44:16]"
+    },
+    {
+      "id": "context_60_11",
+      "index": 11,
+      "speaker": "Lori Cox Han",
+      "words": "The bottom line is that to do away with it, we would have to amend the Constitution. And the bar is so high there in terms of a two thirds vote in the House and the Senate to send the issue to the states and then three fourths of the states agreeing to do away with it. And from a very, you know, basic argument, there's not a lot of incentive for any state really to decide to do away with the Electoral College.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:16:08]"
+    },
+    {
+      "id": "context_60_12",
+      "index": 12,
+      "speaker": "Lori Cox Han",
+      "words": "And, you know, I think we can get into that a little bit more in depth, as we continue this discussion. So, you know, there there are a lot of good reasons to keep it. There are a lot of good reasons, probably even more so to get rid of it. But I'm just not sure that we're going to get to the point where we have an opportunity to really change it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:40:19]"
+    },
+    {
+      "id": "context_60_13",
+      "index": 13,
+      "speaker": "Lori Cox Han",
+      "words": "And so what that means is that maybe we need to come up with better strategies to work around keeping it in, in the Constitution as is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:59:17]"
+    },
+    {
+      "id": "context_60_14",
+      "index": 14,
+      "speaker": "David Adler",
+      "words": "Yeah. You know, I, I like Lori's points, and and I want to say that, I've long been concerned about the Electoral College from the standpoint, that it's, undemocratic, really anti-democratic. I'm concerned about the what I perceive to be the illegitimacy of the electoral College, because that's Lori pointed out, we have suffered on several occasions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:07:07]"
+    },
+    {
+      "id": "context_60_15",
+      "index": 15,
+      "speaker": "David Adler",
+      "words": "The fact that the winner of the popular vote has not been the, the next president. And so that creates a disconnect between the popular will and, the person serving in the white House. And that seems odd to me, because in every other race around the country, governor, US senators, members of Congress, and virtually every race, whoever wins the majority, of the votes or most of the votes is going to win the office.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:35:07]"
+    },
+    {
+      "id": "context_60_16",
+      "index": 16,
+      "speaker": "David Adler",
+      "words": "And so it's strikes me as being very odd that, the silver medalist, so to speak, could take the top prize and win the presidency. As it's occurred on several occasions in our history, you know, like, like Lori's experience, my students always ask, well, how did we get this strange creature of an electoral college?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:06:06]"
+    },
+    {
+      "id": "context_60_17",
+      "index": 17,
+      "speaker": "David Adler",
+      "words": "And people are, frankly confused about how it works, no matter how many times, an explanation is provided. Because it's a strange way to select the president. So I, I like to tell people, on campus and and off that, as James Wilson said, this was this question of selecting the president was the most difficult choice that the framers faced.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:29:16]"
+    },
+    {
+      "id": "context_60_18",
+      "index": 18,
+      "speaker": "David Adler",
+      "words": "And and, James Wilson, by the way, a leading framer from the state of Pennsylvania and really second in importance only to James Madison as an architect of the Constitution, was absolutely spot on. If you look at the debates in the Constitutional Convention, the framers spent, a good portion of roughly 22 days talking about how do we select the president.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:56:15]"
+    },
+    {
+      "id": "context_60_19",
+      "index": 19,
+      "speaker": "David Adler",
+      "words": "And there were some 30 votes taken on different proposals, often involving, the idea that the national legislature, that is, Congress might select a president or state somehow. And so there was indeed a very difficult question. So why as as Lori pointed out, there were there were competing concerns and, and we could start with the fact that the framers could not have adopted the, the system most familiar to them, and that is having the national legislature select the president, which would, of course, closely resemble a parliamentary system, as that practice in England.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:25:19]"
+    },
+    {
+      "id": "context_60_20",
+      "index": 20,
+      "speaker": "David Adler",
+      "words": "And there were really two reasons why the framers couldn't embrace, the selection of the president by the national legislature. One is that the framers were constantly worried about corruption. They were worried about cabals. And they feared that, in fact, if the national legislature had the authority, it could result in a lot of mischief and intrigue, people plotting, to place their own person in the white House.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:11:06]"
+    },
+    {
+      "id": "context_60_21",
+      "index": 21,
+      "speaker": "David Adler",
+      "words": "And that would always keep the president looking over his or her shoulder. But but the second reason and really, the the more striking reason why they couldn't adopt a, a method by which the national legislature selected the president was because the framers had already decided that they were going to implement the separation of powers doctrine.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:42:18]"
+    },
+    {
+      "id": "context_60_22",
+      "index": 22,
+      "speaker": "David Adler",
+      "words": "And of course, there could be no or very little independence for presidents selected by Congress. And so they stumbled around and, the question of a popular election came up. Some of the real heavyweight in the in the convention, by the way, embraced the idea of a popular vote, including James Madison, James Wilson and some others. And, there were really on record only three framers who were opposed to the idea of having a direct, election.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:07:22]"
+    },
+    {
+      "id": "context_60_23",
+      "index": 23,
+      "speaker": "David Adler",
+      "words": "And and they were, George Mason of Virginia, Pierce Butler of South Carolina, Elbridge Gerry of Massachusetts. And and so the others were sort of confused about how to do this. But the fundamental reason, as Lori knows very well, why the framers could not embrace a direct popular vote, was that the framers were concerned that the American voters might not be able to cast wise decisions, particularly because they would lack information about the various candidates, and they would be essentially, grasping for a candidate in the dark.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:41:16]"
+    },
+    {
+      "id": "context_60_24",
+      "index": 24,
+      "speaker": "David Adler",
+      "words": "We we obviously didn't have anything like National Public Radio or USA today or any other national means of reaching the electorate. And so the framers feared that a direct election might lead to state favoritism, regionalism, sectionalism, and that would cause a lot of strife. And and so, the framers finally stumbled upon, this idea of the Electoral College, which would give, state some authority and, provide for, a method that the framers hoped might place in the power of decision making.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:22:08]"
+    },
+    {
+      "id": "context_60_25",
+      "index": 25,
+      "speaker": "David Adler",
+      "words": "Some people, the electors who either had firsthand knowledge of those candidates running for the presidency or knew somebody who did. And so, I'm always interested in, in, knowing what if the convention. And I'll throw this to to my colleague Lori, what if the convention, or the country rather at that time did have a USA newspaper or a New York Times that hit every state in the Union or NPR, do you suppose that the reasons why the framers, opposed the direct popular vote would not have been factors had we had better communication?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:02:11]"
+    },
+    {
+      "id": "context_60_26",
+      "index": 26,
+      "speaker": "Lori Cox Han",
+      "words": "Probably not. But we also have to remember to at that point, we didn't have the, you know, universal suffrage that we have now. So it was a very limited part of the population that was even voting at that, that time period. Yeah. I mean, I think that's one of the best arguments for doing away with the Electoral College is that one of the main reasons is that, well, people just, you know, they didn't trust the average person to, to take part in this, but really, they weren't even talking about the average person at that point in terms of who had access to vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:45:03]"
+    },
+    {
+      "id": "context_60_27",
+      "index": 27,
+      "speaker": "Lori Cox Han",
+      "words": "I think that there's plenty of information out there that people are, you know, as informed as they can be in this media environment. And I don't think the government needs to be in the business of determining who's informed enough and who, you know, shouldn't, should or shouldn't be voting. I mean, in a perfect world, we'd have high voter turnout and high voter knowledge on all of these issues.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:13:12]"
+    },
+    {
+      "id": "context_60_28",
+      "index": 28,
+      "speaker": "Lori Cox Han",
+      "words": "Well, we don't live in that perfect world, but we certainly have the availability of information, that goes to, you know, a long way in terms of talking about media literacy, which I think is actually part of or should be part of the conversation about the Electoral College, if we're going to, you know, move towards a national popular election.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:12:32:15]"
+    },
+    {
+      "id": "context_60_29",
+      "index": 29,
+      "speaker": "Lori Cox Han",
+      "words": "But that's, you know, maybe a whole other topic. We can discuss that some other time. But I think that, yeah, I mean, if, if that would have been available during the debate over this, there might have been a slightly different outcome.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:52:08]"
+    },
+    {
+      "id": "context_60_30",
+      "index": 30,
+      "speaker": "David Adler",
+      "words": "You know, another concern that I hear often is that if the Electoral College were eliminated, let's say, in favor of a direct popular vote, that it would hurt the small states, like my own state of Idaho or our neighboring states in the West, Wyoming, Montana and others. But, you know, some political scientists who, you know well have argued that it would not really hurt the small states because they argue the Electoral College does not necessarily serve the small states so much as they serve the interests of the majority party in the state.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:05:19]"
+    },
+    {
+      "id": "context_60_31",
+      "index": 31,
+      "speaker": "David Adler",
+      "words": "And it's an error to suppose that everybody in a small state shares a community of interest and partisan views, and that leads to disenfranchisement here in Idaho. Maybe as a lot of people listening to this show, will agree, in Idaho, Democrats feel disenfranchized. And in California, your state, Republicans feel disenfranchized. What do you think about those points or those arguments?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:41:21]"
+    },
+    {
+      "id": "context_60_32",
+      "index": 32,
+      "speaker": "Lori Cox Han",
+      "words": "Well, I well, first of all, wait, are there Republicans still in California? I think.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:11:10]"
+    },
+    {
+      "id": "context_60_33",
+      "index": 33,
+      "speaker": "David Adler",
+      "words": "That there are moves.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:15:12]"
+    },
+    {
+      "id": "context_60_34",
+      "index": 34,
+      "speaker": "Lori Cox Han",
+      "words": "That.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:16:09]"
+    },
+    {
+      "id": "context_60_35",
+      "index": 35,
+      "speaker": "Doug Exton",
+      "words": "They're all moving the Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:17:09]"
+    },
+    {
+      "id": "context_60_36",
+      "index": 36,
+      "speaker": "Lori Cox Han",
+      "words": "But I mean, yeah, I mean, in California is a really great example of that, that, you know, does this deter voter turnout in terms of people thinking, well, you know, if the Democratic candidate is going to so easily win this state, why bother? You know, I like to think that people are concerned enough about everything on the down ballot that they're still motivated to go out and vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:19:02]"
+    },
+    {
+      "id": "context_60_37",
+      "index": 37,
+      "speaker": "Lori Cox Han",
+      "words": "I think sometimes it tends to be maybe a little bit more urban legend than actual, you know? So I'll have students say this all the time, but the Electoral College means that, you know, a lot of people just stay home. Well, there are any number of reasons why people don't vote, but we also just came through an election where we saw higher voter turnout in spite of the pandemic.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:43:02]"
+    },
+    {
+      "id": "context_60_38",
+      "index": 38,
+      "speaker": "Lori Cox Han",
+      "words": "So I don't know that that is a really good argument, but it does raise the issue of, you know, there is a lot of disenfranchisement going on because of the Electoral College. And if you're a Republican in California, you know, do you feel like you really have a say because it's a foregone conclusion right now that the Democratic, you know, that the Democratic candidate will win in all 55 electoral votes will go to that candidate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:00:12]"
+    },
+    {
+      "id": "context_60_39",
+      "index": 39,
+      "speaker": "Lori Cox Han",
+      "words": "So it's not just the small states. It happens. And, you know, anybody who's on a swing state, which is about, you know, 80% of the states, we face this problem on one end or the other.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:21:18]"
+    },
+    {
+      "id": "context_60_40",
+      "index": 40,
+      "speaker": "David Adler",
+      "words": "You know, that's an important insight. And and I would add to that, one of the arguments made by those who support the Electoral College is that if somehow we shifted to a direct popular vote, the candidates would ignore the small states. And, and you hear that that's a popular refrain. But, for those of us who live in a small state such as Idaho and other western small western states, we never see the candidates anyway.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:34:20]"
+    },
+    {
+      "id": "context_60_41",
+      "index": 41,
+      "speaker": "David Adler",
+      "words": "So what do you think gets at all a credible argument? With the supporters of the Electoral College, make.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:02:17]"
+    },
+    {
+      "id": "context_60_42",
+      "index": 42,
+      "speaker": "Lori Cox Han",
+      "words": "You know, my arguments on this usually come down to the very pragmatic view of who's in charge of the state legislature and what's going to motivate them to make the decision. So in California right now, you know, we have a supermajority in Sacramento for the Democratic Party, and California has 55 electoral votes. So I have a hard time imagining that there would be enough support among the Democrats up in Sacramento to say, hey, you know what?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:10:22]"
+    },
+    {
+      "id": "context_60_43",
+      "index": 43,
+      "speaker": "Lori Cox Han",
+      "words": "Let's maybe do this proportionally. You know, we'll still hang on to a good part of of the electoral votes. But we'll, we'll throw a few to the Republicans. Why would they do that? There's no incentive to do that. Political parties tend to not look long term that, you know, maybe 20 or 30 years from now, maybe the Republican Party will have rebranded itself again.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:35:18]"
+    },
+    {
+      "id": "context_60_44",
+      "index": 44,
+      "speaker": "Lori Cox Han",
+      "words": "And maybe, you know, they could be in charge of California. And, and so they don't think about it that way. They do what's in the best interest of the here and now. And I there's just no political incentive to do that. And I think the same is true in a smaller state. You know, the states that either strongly red or strongly blue, they're you know, it's it's not just in the presidential election, it's at all levels.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:56:13]"
+    },
+    {
+      "id": "context_60_45",
+      "index": 45,
+      "speaker": "Lori Cox Han",
+      "words": "And where's the incentive for the state government to go in and say, hey, let's change this, because, you know, it's not working for us.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:19:17]"
+    },
+    {
+      "id": "context_60_46",
+      "index": 46,
+      "speaker": "David Adler",
+      "words": "You know, I can't help but note, you know, because I really liked your point that political parties don't take the long view that they're concerned about the here and now. And aren't we just witnessing that, by the way, in the Republican Party, in the emerging civil war, let's say, between Donald Trump and Mitch McConnell fighting for control of the party?",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:17:27:00]"
+    },
+    {
+      "id": "context_60_47",
+      "index": 47,
+      "speaker": "David Adler",
+      "words": "And that seems very much to be a function of what what's best for the party in the here and now. Do you agree?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:52:10]"
+    },
+    {
+      "id": "context_60_48",
+      "index": 48,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah, definitely. I mean, because we're already so far into the 2024 presidential election cycle and certainly the 2022 midterms that, you know, that's that's the other part of the Electoral College, too, that I think really needs to to be addressed because we have a perpetual presidential campaign. And then there's a strategy that, goes along with that perpetual campaign, but there's also a different strategy that goes along with the Electoral College.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:17:59:04]"
+    },
+    {
+      "id": "context_60_49",
+      "index": 49,
+      "speaker": "Lori Cox Han",
+      "words": "And there's such a disconnect between those those two aspects of selecting the president that, you know, because the Electoral College really does determine so much of the strategy. And, you know, in terms of good government or best practices or however you want to call it, you know, the Electoral College doesn't give us the opportunity to really pursue some of those, those kinds of strategies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:24:16]"
+    },
+    {
+      "id": "context_60_50",
+      "index": 50,
+      "speaker": "Lori Cox Han",
+      "words": "There might be more in the best interests of, oh, I don't know, the voters and the choices that we get in terms of our presidential candidates.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:46:12]"
+    },
+    {
+      "id": "context_60_51",
+      "index": 51,
+      "speaker": "David Adler",
+      "words": "You know, that that's such a good point, as I think about strategies employed by candidates to return to that, that broader theme of whether candidates would be more likely to visit, a small state, let us say, or other states, if we abolish the Electoral College, that is is an important issue. And then when you talk about Electoral college strategy, let's talk about the finer points.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:18:55:03]"
+    },
+    {
+      "id": "context_60_52",
+      "index": 52,
+      "speaker": "David Adler",
+      "words": "In the Electoral college system, candidates, don't have to necessarily be super clear on where they stand on particular issues because they are really hedging toward, that middle for that group that they have to, persuade to come to their side. So doesn't that hurt the very idea in a democracy of having a clear debate, fleshing out interests among the candidate?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:23:01]"
+    },
+    {
+      "id": "context_60_53",
+      "index": 53,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah, it definitely works against having that kind of a substantive dialog on on really important issues that voters should be informed about. So if our ideal of and forgive me, I just came from teaching my First Amendment course. So I talk a lot about deliberative democracy. And so this is what I'm talking about. The Electoral College and the strategy that comes along goes along with it works at cross-purposes to what I consider to be some of the most important components of having a deliberative democracy, which means that citizens take responsibility for the the role that they play and in their government, but that citizens can have an informed dialog about this, not only, you know,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:54:12]"
+    },
+    {
+      "id": "context_60_54",
+      "index": 54,
+      "speaker": "Lori Cox Han",
+      "words": "amongst themselves, but from government officials as well. And so I think that we miss out on getting, you know, a lot more information on what we need for people to make informed decisions about voters. And we end up having the kind of campaigns that we've seen in the last few years that it's it's all about messaging, but not in a substantive way.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:31:22]"
+    },
+    {
+      "id": "context_60_55",
+      "index": 55,
+      "speaker": "David Adler",
+      "words": "You know, as you, as you've written, so. Well, when we look at the 10 or 12 swing states that are almost always, make the difference in any presidential election, and they're so close by definition. Is it the case, do you think that a direct popular vote would better serve the interests of voters, as opposed to the Electoral College because they would get, they would get, pretty clearly outlined, articulated views from candidates on those issues of concern to voters.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:53:04]"
+    },
+    {
+      "id": "context_60_56",
+      "index": 56,
+      "speaker": "Lori Cox Han",
+      "words": "You know, I think so. Although if we might have, candidates, though, that are still, you know, so focused on the center that we don't get clear answers on, on issues across the board. I mean, I don't know, I, I whenever I think about the Electoral College, I tend to think of the fact that, well, I mean, I'm a native Californian, with the exception of seven years that I spent in Texas early on in my my career as a political scientist, I've lived my entire life in California, but I've lived in two large states, one, reliably blue and one reliably red.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:28:01]"
+    },
+    {
+      "id": "context_60_57",
+      "index": 57,
+      "speaker": "Lori Cox Han",
+      "words": "And so, you know, I assume that people from the who live in the swing states, as we've called them over the last few campaign cycles, might be viewed a little bit differently. But, you know, the strategy that goes along in the Electoral College and the general election seems a lot like the strategy in the primary process and how we look at the calendar and how who goes first.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:01:10]"
+    },
+    {
+      "id": "context_60_58",
+      "index": 58,
+      "speaker": "Lori Cox Han",
+      "words": "And, you know, if you want to make the argument that, you know, New Hampshire and Iowa are not representative, of the nation at large, you can also make similar arguments that, well, the swing states, you know, I mean, yeah, if a state has 18 or 20 electoral votes, okay, but California has 55. So why are you more important than, you know, out here in California where we have, you know, such a huge economy and and so many people.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:24:12]"
+    },
+    {
+      "id": "context_60_59",
+      "index": 59,
+      "speaker": "Lori Cox Han",
+      "words": "So I think part of the debate that happens here is that it depends on your, perspective of what part of the country you're in. The regional differences. And, and I feel like I'm starting to make some of those points that I make to students who are talking about federalism. You know, why we have it in the first place.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:50:13]"
+    },
+    {
+      "id": "context_60_60",
+      "index": 60,
+      "speaker": "Lori Cox Han",
+      "words": "And so that that tends to tie in with the debate about the Electoral College. And do we want to take that part out of the Constitution, and how states are represented? And so it's it seems like it may be a never ending debate, but I think that a lot of us can argue about where we're at right now might not be the best place in terms of having, a better process and a better outcome in terms of presidential elections.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:07:23]"
+    },
+    {
+      "id": "context_60_61",
+      "index": 61,
+      "speaker": "David Adler",
+      "words": "You know, one of the concerns that we voters have is that we have a chance to meet candidates that, well, they're up close and personal or at least they come to our, our states and maybe our cities. And and that's because then we can explain our positions, our concerns, our issues, take for granted. Or take, for example, the wonderful situation that people in Iowa find themselves when candidates live there in Iowa.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:34:08]"
+    },
+    {
+      "id": "context_60_62",
+      "index": 62,
+      "speaker": "David Adler",
+      "words": "I think they have their mail delivered, newspapers delivered, and other very, important states early on here in the Intermountain West, when we don't see the candidates, that often deprives questioners of the opportunity to explore their particular concerns. For example, water rights. So I'm wondering, in a if we shifted to a direct popular vote and the elections were close and, you know, candidates, as you well know, through your own writing, are always in a position of knowing, where the voters are in the same way that hunters know where the ducks are, they go find them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:03:01]"
+    },
+    {
+      "id": "context_60_63",
+      "index": 63,
+      "speaker": "David Adler",
+      "words": "Wouldn't we be more likely under a direct popular vote to, expect, visitations, campaign stops, in a close election where the candidates knew that they had to go find every vote available. What do you think about that?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:45:15]"
+    },
+    {
+      "id": "context_60_64",
+      "index": 64,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah, I like to think that the, you know, if if we just had a popular vote that there would be parts of the country that that would get a little bit more attention than what is happening now. You know, I've, I've, I've been to Boise. It's a beautiful city. I can imagine that there would be some people who would want to, you know, or some candidates who would maybe want to stop off there, maybe, depending on what time of the year it was.",
+      "tags": [
+        "boise"
+      ],
+      "timestamp": "[00:25:01:10]"
+    },
+    {
+      "id": "context_60_65",
+      "index": 65,
+      "speaker": "Lori Cox Han",
+      "words": "But, but even in California, you know, candidates come here to fundraise. They don't come here to campaign because, you know, there's really no other reason to to stop by. And, the advantage, though, still to the most populous areas, Los Angeles, New York, Chicago is the major media markets or, you know, certain parts of Florida, for example, where if you get local coverage, you, you know, you know, it expands well beyond just the city that you're in.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:25:21]"
+    },
+    {
+      "id": "context_60_66",
+      "index": 66,
+      "speaker": "Lori Cox Han",
+      "words": "So I think that it would change some of the strategy. But I think there would be more incentive to, to stop in a state like Idaho or, you know, Oklahoma or, I mean, we've seen Nevada become a swing state, you know, not a lot of electoral votes there, but it has become a swing state. And so it does get a lot more attention.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:52:12]"
+    },
+    {
+      "id": "context_60_67",
+      "index": 67,
+      "speaker": "Lori Cox Han",
+      "words": "So, I mean, that there's that would be a good development, I think if we moved to, national popular vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:12:21]"
+    },
+    {
+      "id": "context_60_68",
+      "index": 68,
+      "speaker": "David Adler",
+      "words": "You know, there's some other benefits. I think, wouldn't it be likely if we shifted to a direct popular vote, wouldn't it be more likely that people would have incentive to participate in politics, join parties, participate in campaigns where there is essentially a disincentive right now under the Electoral College, for the reasons you've been explaining? And so doesn't that also tend to contribute to the problem of voter disaffection and, a sense that they're remote watching the elections as if they were watching another country?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:19:23]"
+    },
+    {
+      "id": "context_60_69",
+      "index": 69,
+      "speaker": "David Adler",
+      "words": "Isn't that an important goal to somehow encourage citizen participation in our politics?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:56:24]"
+    },
+    {
+      "id": "context_60_70",
+      "index": 70,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah, I'm all for two strong, viable, competitive parties that I'm I'm very concerned about the the trends recently, how people who are rejecting both parties are the plurality. Because whether we like it or not, we have a two party system because of the way we run our elections and some other aspects of the Constitution. So we need both parties to be competitive and viable and, and, you know, and it's not just the Republican Party that has issues right now.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:03:10]"
+    },
+    {
+      "id": "context_60_71",
+      "index": 71,
+      "speaker": "Lori Cox Han",
+      "words": "The Democratic Party certainly has a lot of issues. We we go through these cycles. Where will the party that wins the election? Well, we just assume that they're okay for the time being. But know that that victory they just had is is already, you know, in the rearview mirror. And so where does the party go from there? You can make that argument about the Democratic Party as easily as the Republican.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:32:05]"
+    },
+    {
+      "id": "context_60_72",
+      "index": 72,
+      "speaker": "Lori Cox Han",
+      "words": "It's just not being played out in the same way as publicly as the rift in the Republican Party. The party that loses then has to figure out where do we go from here? So yes, definitely. If we had a national popular vote, I think it would maybe reengage some people and make political parties seem more viable. And it would give a little bit more incentive to people to, be, you know, engage in the process.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:50:09]"
+    },
+    {
+      "id": "context_60_73",
+      "index": 73,
+      "speaker": "Lori Cox Han",
+      "words": "Because a lot of people, I think, in terms of presidential politics, it's strange because they feel attached, because you can't get away from the information. And we get so caught up in the cult of personality for some candidates, but they're really not as is, connected to it, I think, as we we should want them to be from a civic standpoint in terms of I really need to know the issues and do I really fall under this party or that party or, you know, what does it mean if I'm not in either party?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:17:13]"
+    },
+    {
+      "id": "context_60_74",
+      "index": 74,
+      "speaker": "Lori Cox Han",
+      "words": "And what does that mean for our government? So yeah, I think that that that could go a long way towards that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:44:04]"
+    },
+    {
+      "id": "context_60_75",
+      "index": 75,
+      "speaker": "David Adler",
+      "words": "You know, and one of the, one of the points you made is, is particularly telling that the Electoral College encourages a strong two party system. But for all those people across America, particularly in recent years, who are clamoring for a third party, it's very difficult, isn't it, to create a viable, third party given the Electoral college, method of selecting the president.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:50:04]"
+    },
+    {
+      "id": "context_60_76",
+      "index": 76,
+      "speaker": "David Adler",
+      "words": "Do you think people are aware of that?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:14:11]"
+    },
+    {
+      "id": "context_60_77",
+      "index": 77,
+      "speaker": "Lori Cox Han",
+      "words": "I try to make people understand. I mean, you know, it seems like ancient history to to our students now, but, when I talk about Ross Perot in 1992, because in never, you know, never feels like I always get the question of, well, well, let's have a third party, an independent party. Could we elect an independent as president?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:17:24]"
+    },
+    {
+      "id": "context_60_78",
+      "index": 78,
+      "speaker": "Lori Cox Han",
+      "words": "In theory, yes. And in the real world, probably no. And Ross Perot is still the best example. He got almost 20% of the popular vote in 1992, but he got zero electoral college votes because, you know, even so, 48 out of the 50 states plus the District of Columbia and the Electoral College is winner take all. So when you look at Nebraska and Maine, okay, it's not winner take all, but part of it is winner take all.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:36:13]"
+    },
+    {
+      "id": "context_60_79",
+      "index": 79,
+      "speaker": "Lori Cox Han",
+      "words": "If you win the state, you get the two, electoral votes associated with the US senators and then the rest is congressional district. You still win the congressional district by winner take off. So, yeah, we've had a couple of times, like in 1968, you know, where we did have a third party candidate win a few electoral votes, but not enough to have a majority.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:59:01]"
+    },
+    {
+      "id": "context_60_80",
+      "index": 80,
+      "speaker": "Lori Cox Han",
+      "words": "So it's very difficult, for, an independent candidate to come in not only the ballot issues in every state to even get on the presidential ballot, but to be able to win enough states to either win it outright or, you know, kick it to the House of Representatives. So from procedural standpoint, it's not viable.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:21:15]"
+    },
+    {
+      "id": "context_60_81",
+      "index": 81,
+      "speaker": "David Adler",
+      "words": "You've advanced so many good points as we've talked about this, for shifting to the direct popular vote. But as you pointed out at the outset of your remarks, the parties are probably not particularly interested. And that's not because one party or the other can claim a, a lock on the Electoral College. What would you say it is if if it's not, an embrace of national ideals, for example, and promoting democracy?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:43:02]"
+    },
+    {
+      "id": "context_60_82",
+      "index": 82,
+      "speaker": "David Adler",
+      "words": "Why would the parties, continue to adhere to this old method, which is anti-democratic?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:13:23]"
+    },
+    {
+      "id": "context_60_83",
+      "index": 83,
+      "speaker": "Lori Cox Han",
+      "words": "Well, like like I, you know, I was saying earlier that, I mean, if you look at it, whether it's a large state or small state or swing state, where's the the political incentive in the here and now to make that change. So, I mean, in California, there have been discussions over moving it to a proportional system to be more like Nebraska or Maine.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:21:24]"
+    },
+    {
+      "id": "context_60_84",
+      "index": 84,
+      "speaker": "Lori Cox Han",
+      "words": "And I know that that conversation is, is taking place in a lot of states. But the broader issue is and for especially for those who advocate, now we just need to amend the Constitution and get rid of the electoral College, you know, to, to get that approved for states to agree, even if we I mean, it's so hard to imagine anything right now that Congress in Congress where you could get a two thirds vote in the House and the Senate to send it to the states, and let's say even that miracle occurred and it came to the state.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:40:20]"
+    },
+    {
+      "id": "context_60_85",
+      "index": 85,
+      "speaker": "Lori Cox Han",
+      "words": "Well, what states then would be willing to sign off on it? And because you would need 38 states, I would guess that the swing states, those that fall into that category every four years, would probably just say no, we like being able to, you know, have and, and, oversize, you know, role in the decision making here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:11:21]"
+    },
+    {
+      "id": "context_60_86",
+      "index": 86,
+      "speaker": "Lori Cox Han",
+      "words": "And, and I even go to the point of if you look at the states that are in the swing states, the category right now, think of just even from very basic standpoint of the revenue that comes in to those states in those couple of months during the general election or even prior to the general election, and pick a state we know, you know, we knew that, let's say, you know, Michigan and Wisconsin were going to be very important swing states.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:33:09]"
+    },
+    {
+      "id": "context_60_87",
+      "index": 87,
+      "speaker": "Lori Cox Han",
+      "words": "And so not only do candidates start going there well before they get the nomination, but they also, you know, everybody that travels with the campaign and all of the the ad buys that are going on and all the media outlets, I mean, there's a lot of tax revenue that those states would, would lose out on. The example I often, give to people the difference between California not being a swing state and Nevada being a swing state.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:57:06]"
+    },
+    {
+      "id": "context_60_88",
+      "index": 88,
+      "speaker": "Lori Cox Han",
+      "words": "Back in 2012. So my, my, my younger sister, my mom live in Reno, Nevada, and I visited them, in the fall of 2012 and just crossing the state line from California over into Nevada. I mean, local television was, you know, at that point in October, you know, every other ad Obama, Romney, Obama, Romney. Well, I mean, there was there were no ad buys left.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:22:22]"
+    },
+    {
+      "id": "context_60_89",
+      "index": 89,
+      "speaker": "Lori Cox Han",
+      "words": "And in California, we don't get the presidential ads like that. And I remember my I said something to my mom about, well, we don't we're not I'm not seeing these ads at home. And she said, well, why? I said, mom, you live in a swing state. I mean, just think about from a financial standpoint, the revenue that would disappear.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:45:15]"
+    },
+    {
+      "id": "context_60_90",
+      "index": 90,
+      "speaker": "Lori Cox Han",
+      "words": "So those states right there probably would not want to give up that role.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:01:16]"
+    },
+    {
+      "id": "context_60_91",
+      "index": 91,
+      "speaker": "David Adler",
+      "words": "Imagine that economic interest right now. Political decisions. I you know, I, I know, Doug's probably going to pitch a number of questions to us from our audience. We should probably, let's hear some of those.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:06:14]"
+    },
+    {
+      "id": "context_60_92",
+      "index": 92,
+      "speaker": "Doug Exton",
+      "words": "Yeah. Thank you for the wonderful insight that you guys just provided on everything. Electoral College. So the first question we do have is from Carolyn, and she's wondering if you can kind of elaborate more on the National Popular Vote Compact. And you know how it ties to the legitimacy of the Electoral College.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:21:11]"
+    },
+    {
+      "id": "context_60_93",
+      "index": 93,
+      "speaker": "David Adler",
+      "words": "But I know Lori has a lot of good thoughts on that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:42:00]"
+    },
+    {
+      "id": "context_60_94",
+      "index": 94,
+      "speaker": "Lori Cox Han",
+      "words": "Well, this became pretty popular after in 2016. After, Hillary Clinton lost the presidency, but won the popular vote. So it's basically this agreement, a lot of states that have said that going forward, if, you know, they will agree to award their electoral vote to whoever the popular vote winner is. Now, every one of those states, California is one of them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:46:04]"
+    },
+    {
+      "id": "context_60_95",
+      "index": 95,
+      "speaker": "Lori Cox Han",
+      "words": "I think there are 16 total that have signed on to it. They are all states that Hillary Clinton won and in 2016. And, I don't believe there are any swing states on the list. And, but there are a lot of questions about whether or not that would even be constitute tional, because that that could get into the area of our, our these then faithless electors.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:10:11]"
+    },
+    {
+      "id": "context_60_96",
+      "index": 96,
+      "speaker": "Lori Cox Han",
+      "words": "Is this not matching up with the popular vote winner in the state and whether it would be seen legitimate moving forward?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:32:01]"
+    },
+    {
+      "id": "context_60_97",
+      "index": 97,
+      "speaker": "David Adler",
+      "words": "Yeah. You know, my concern as to follow up on your point is that, all the excitement about, the interstate compact has been slowed to a crawl right now. Spicy because the Joe Biden won both the popular vote and the Electoral College vote. Do you suppose that the interest of Americans again, to go back to one of your themes is going to ebb and flow, depending on the political fortunes of of either of the parties?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:39:03]"
+    },
+    {
+      "id": "context_60_98",
+      "index": 98,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah, definitely. I mean, I don't know, with the compact, I don't know that that's even going to have much traction moving forward. I mean, for a lot of people, you you kind of felt the sigh of relief over the Electoral College, like, okay, we just have an election now that the, the, you know, Joe Biden won both the Electoral College and the popular vote because, you know, regardless of which side of the aisle, Your Honor, who you support, there's always the, or what we always hear about there's going to be a constitutional crisis.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:10:03]"
+    },
+    {
+      "id": "context_60_99",
+      "index": 99,
+      "speaker": "Lori Cox Han",
+      "words": "You know, if we have, someone who doesn't win the popular vote. But do they win the electoral College? And, you know, I mean, it's it's a relative term when you're talking about a constitutional crisis in today's media environment, but it certainly does raise issues of the legitimacy of, the, you know, the election. And there are certainly plenty of people who, after 2000 and then after 2016, raise the issue.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:35:23]"
+    },
+    {
+      "id": "context_60_100",
+      "index": 100,
+      "speaker": "Lori Cox Han",
+      "words": "Do we have a legitimate president? Well, constitutionally speaking, yes, we we did. But from, you know, the popular opinion on how we run this process, there were certainly a lot of people who had problems with it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:01:01]"
+    },
+    {
+      "id": "context_60_101",
+      "index": 101,
+      "speaker": "David Adler",
+      "words": "Yeah. Well, Doug, I can see we're generating a lot of questions.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:15:19]"
+    },
+    {
+      "id": "context_60_102",
+      "index": 102,
+      "speaker": "Doug Exton",
+      "words": "We are? Yeah. Some people in the audience would like to know, you know, exactly who makes up the Electoral college. You know, are they normal citizens, people you know, heavily involved in politics, you know, kind of that process of, you know, who gets to be, you know, in that college.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:19:21]"
+    },
+    {
+      "id": "context_60_103",
+      "index": 103,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:38:11]"
+    },
+    {
+      "id": "context_60_104",
+      "index": 104,
+      "speaker": "David Adler",
+      "words": "I'll, I'll defer to Lori.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:39:05]"
+    },
+    {
+      "id": "context_60_105",
+      "index": 105,
+      "speaker": "Lori Cox Han",
+      "words": "Well, as I have never had the opportunity to do this, from what I understand, it is usually, people who are involved in the political party. And this is kind of a political patronage thing where, it's very symbolic thing, really, when you go and cast the electoral vote. But it's it's really two party insiders, and favors are handed out from the state party to allow people to do this.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:41:10]"
+    },
+    {
+      "id": "context_60_106",
+      "index": 106,
+      "speaker": "David Adler",
+      "words": "Yeah, yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:07:08]"
+    },
+    {
+      "id": "context_60_107",
+      "index": 107,
+      "speaker": "Doug Exton",
+      "words": "And then dipping our toes into more of a hypothetical kind of question, Maria was wondering if there is a solution that would better represent the popular vote, while still empowering smaller population states like our state in Idaho. And kind of disregarding the challenges and changing the Constitution and, you know, getting it approved in general.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:10:23]"
+    },
+    {
+      "id": "context_60_108",
+      "index": 108,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:33:16]"
+    },
+    {
+      "id": "context_60_109",
+      "index": 109,
+      "speaker": "David Adler",
+      "words": "Well, you're probably talking about a constitutional amendment which is extremely difficult to do, particularly in these polarized times. And if you think about the fact that we've only amended the Constitution 27 times, it doesn't give us a lot of optimism. That's why I didn't I do like the idea of the, direct popular vote interstate compact.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:34:14]"
+    },
+    {
+      "id": "context_60_110",
+      "index": 110,
+      "speaker": "David Adler",
+      "words": "It's a certainly a step in the right direction and, and could achieve, in theory, what abolition. The proposed abolition of the Electoral College, would not likely, be achieved, would not likely occur because of the polarization. But, beyond those mechanisms, it's difficult to imagine how we're going to create a system that would actually be true to democracy, where every person's vote counts.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:38:56:09]"
+    },
+    {
+      "id": "context_60_111",
+      "index": 111,
+      "speaker": "David Adler",
+      "words": "And I think the very fact that that we have a system in which that's not true, is very bothersome, I should say, in which every person's vote is equal to every other person's vote. That's a little bit better way of explaining it. That that that's deeply concerning to me. As an advocate of of democracy. Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:27:16]"
+    },
+    {
+      "id": "context_60_112",
+      "index": 112,
+      "speaker": "Lori Cox Han",
+      "words": "But one of one of the things that is really interesting when you look at this issue is that, you know, states can go the route of Nebraska and Maine and, and do a proportional system. Maybe it's probably the swing states that would be more likely to have enough political support to do that. But on the other hand, that would be giving up the role that they play as swing states.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:39:50:06]"
+    },
+    {
+      "id": "context_60_113",
+      "index": 113,
+      "speaker": "Lori Cox Han",
+      "words": "So, I'm, I'm not sure that they would want to do that. The interesting thing, too, about compare 2016 to 2020. In 2016, you had an outcome that was really crying out for why we need to get rid of the Electoral College. And, you know, those arguments come from either people who were, you know, staunch supporters of Hillary Clinton, given that she won the popular vote by 3 million and still lost the presidency, but also to people who really were strong advocates for one person, one vote, and to make, you know, our system more democratic than than it is.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:12:09]"
+    },
+    {
+      "id": "context_60_114",
+      "index": 114,
+      "speaker": "Lori Cox Han",
+      "words": "And in this regard. But 2020, I think, actually gave us an example of on the other side of why maybe we should keep to the Electoral College. One of the strongest arguments, from my perspective, about keeping the Electoral College is to, protect against voter fraud. And so while, you know, Donald Trump's candidacy in 2016 gave us an outcome to say maybe we need to get rid of the Electoral College, I think that what we what we saw after the election in November and the attempts to overturn the election or to not accept the results of the election, and certainly what we now know was, you know, from the phone call that we all heard",
+      "tags": [
+
+      ],
+      "timestamp": "[00:40:43:10]"
+    },
+    {
+      "id": "context_60_115",
+      "index": 115,
+      "speaker": "Lori Cox Han",
+      "words": "coming out of the state of Georgia. Now, other reporting coming out of other states like Pennsylvania, you know, the Electoral College and all the different levels of all the people involved, maybe is making the argument for, you know, in terms of protecting against voter fraud or, a system that's just handled at the federal level. This is this is giving us the check and balance then against that kind of undue influence on the way the election is certified.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:20:01]"
+    },
+    {
+      "id": "context_60_116",
+      "index": 116,
+      "speaker": "David Adler",
+      "words": "So and just to follow up on on Lori's excellent point, I think this recent effort by President Trump to, to manipulate the Electoral College probably expose what was always, a possibility in academic circles. But seemingly was not going to occur in the world of practical politics until, we see a candidate for the presidency willing to bend and twist every facet of the Electoral College to overturn the will of the people.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:41:48:00]"
+    },
+    {
+      "id": "context_60_117",
+      "index": 117,
+      "speaker": "David Adler",
+      "words": "And so I think in the end, the argument for direct popular vote has become more powerful, than than even it was, before the election.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:21:10]"
+    },
+    {
+      "id": "context_60_118",
+      "index": 118,
+      "speaker": "Doug Exton",
+      "words": "And what role, did slavery play in the establishing of the Electoral College, since they couldn't vote until the 13th amendment?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:35:05]"
+    },
+    {
+      "id": "context_60_119",
+      "index": 119,
+      "speaker": "David Adler",
+      "words": "Yeah, it it certainly played an important role before the framers decided on the Electoral College. They had already, engaged in the, passage of the 3/5 compromise, the infamous 3/5 compromise, which meant that slaves would be counted as 3/5 of a person. And the purpose behind that, of course, was to boost population, which serve the interests of the slaveholding states.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:42:48:06]"
+    },
+    {
+      "id": "context_60_120",
+      "index": 120,
+      "speaker": "David Adler",
+      "words": "So as to win, more electoral, more members of the Electoral College. So that aided the southern states. But of course southern. But because slaves could not vote, a move toward the direct popular vote would have negated the advantage. And slaveholding states achieved through the 3/5 compromise. And I think that's one reason among several, why delegates from some southern states, particularly George Mason of Virginia and Pierce Butler, South Carolina, were not going to be on board, with a, a shift to the direct popular vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:43:15:05]"
+    },
+    {
+      "id": "context_60_121",
+      "index": 121,
+      "speaker": "Doug Exton",
+      "words": "And kind of circling back again, you know, to the origin, was this model based off of another country or was this truly kind of an American born concept of the Electoral College?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:00:15]"
+    },
+    {
+      "id": "context_60_122",
+      "index": 122,
+      "speaker": "David Adler",
+      "words": "Lori, wasn't this a one off? Wasn't this a unique creature, fashioned from different experiences and thoughts? What do you think?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:13:24]"
+    },
+    {
+      "id": "context_60_123",
+      "index": 123,
+      "speaker": "Lori Cox Han",
+      "words": "I think it was, but this is this is really your expertise. So I'm going to defer to you on, on on this because I've heard you opine on this many times.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:21:13]"
+    },
+    {
+      "id": "context_60_124",
+      "index": 124,
+      "speaker": "David Adler",
+      "words": "Yeah. Well, I, I would just say quickly, this the framers dipped into their hat to find something that worked to satisfy some of the concerns that you mentioned at the outset, including giving the States a voice and, also trying to protect against the possibility or indeed the likelihood that voters would not be casting informed votes. And those reasons, of course, as we said, those rationales don't apply any longer and should not stop, an effort to move toward the direct popular vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:28:24]"
+    },
+    {
+      "id": "context_60_125",
+      "index": 125,
+      "speaker": "Doug Exton",
+      "words": "And then I know, at least on the East Coast, I haven't personally heard about it a lot since I moved to Idaho. But there's always that talk of DC becoming an official state, or Puerto Rico becoming the 51st state. How would that impact the Electoral College? Not necessarily in, you know, potential turnouts and stuff, but just the mechanics of the Electoral College.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:05:07]"
+    },
+    {
+      "id": "context_60_126",
+      "index": 126,
+      "speaker": "David Adler",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:28:05]"
+    },
+    {
+      "id": "context_60_127",
+      "index": 127,
+      "speaker": "Lori Cox Han",
+      "words": "Well, it won't change anything from the District of Columbia, since they do have the three electoral votes. But it would give Puerto Rico, you know, a couple of electoral votes as well. You know, it wouldn't be a large state that could really change the outcome. Like, you know, Florida or California or Texas, but, yeah, in terms of the District of Columbia, I don't know that much would change since we've already amended the Constitution to make sure that they have the Electoral College votes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:29:02]"
+    },
+    {
+      "id": "context_60_128",
+      "index": 128,
+      "speaker": "David Adler",
+      "words": "Was, Lori says they wouldn't affect in, to a great degree, the outcome of the presidential election, but it could certainly affect Senate politics right now. To follow on Lori's point now, there would be voting senators, voting members of the House. And, as the as the Democratic Party well knows, the way to secure a majority, for the party in the Senate is to grant statehood to DC and Puerto Rico.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:45:59:00]"
+    },
+    {
+      "id": "context_60_129",
+      "index": 129,
+      "speaker": "David Adler",
+      "words": "And in many ways, that would be the Republicans worst nightmare. I think it was Mitch McConnell who said, that, or in fact, Idaho's own senator, Jim Risch, said, the the Republicans would never have a majority in the Senate again if in fact, statehood, was extended to Washington, DC and Puerto Rico. What a thought.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:29:08]"
+    },
+    {
+      "id": "context_60_130",
+      "index": 130,
+      "speaker": "David Adler",
+      "words": "And so, Lori, I'm just wondering, as a political scientist talking about incentives, isn't that plenty of incentive for the Democrats, to make that happen?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:53:04]"
+    },
+    {
+      "id": "context_60_131",
+      "index": 131,
+      "speaker": "Lori Cox Han",
+      "words": "Yes, it is. But on the other hand, this with a 5050 split Senate, they might not keep everybody in their conference on board with that. So, I, I think that it's it's not as likely as some people like to think. I mean, you know, and I don't know, the President Biden would be willing to, to really campaign on that either.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:03:08]"
+    },
+    {
+      "id": "context_60_132",
+      "index": 132,
+      "speaker": "Lori Cox Han",
+      "words": "You know, there were some of these issues that he didn't really he you know, he kept saying in the campaign, well, you know, once I get elected or if I get elected, I'll, I'll tell you whether it's that or the packing in the Supreme Court, I, you know, I don't know that there's any evidence that Joe Biden would go that that more progressive path with some of these policies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:25:03]"
+    },
+    {
+      "id": "context_60_133",
+      "index": 133,
+      "speaker": "Lori Cox Han",
+      "words": "But, you know, I, I'm careful on any prediction I make because anything clearly anything can happen in our, in our political environment these days.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:41:16]"
+    },
+    {
+      "id": "context_60_134",
+      "index": 134,
+      "speaker": "David Adler",
+      "words": "It's, it's that reminds me of the old Yogi Berra line. It's hard to make predictions, especially about the future.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:54:21]"
+    },
+    {
+      "id": "context_60_135",
+      "index": 135,
+      "speaker": "Lori Cox Han",
+      "words": "Yes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:01:14]"
+    },
+    {
+      "id": "context_60_136",
+      "index": 136,
+      "speaker": "David Adler",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:02:19]"
+    },
+    {
+      "id": "context_60_137",
+      "index": 137,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:03:24]"
+    },
+    {
+      "id": "context_60_138",
+      "index": 138,
+      "speaker": "Doug Exton",
+      "words": "Do you think proportional voting would be a viable alternative, to the popular vote agreement between the states?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:05:16]"
+    },
+    {
+      "id": "context_60_139",
+      "index": 139,
+      "speaker": "David Adler",
+      "words": "Lori, you had some thoughts about that earlier.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:15:00]"
+    },
+    {
+      "id": "context_60_140",
+      "index": 140,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah. I mean I, I think I think it would be a really good thing to start to move in a more democratic direction. And it's, it's a step along the way without having to go the extreme and unlikely route of, of amending the Constitution to just do away with the Electoral College. I, you know, there I think there are a lot of good arguments for it makes it would make candidates really pay attention to certain not only certain states, but certain parts of certain states in a way that I don't think they do.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:17:13]"
+    },
+    {
+      "id": "context_60_141",
+      "index": 141,
+      "speaker": "Lori Cox Han",
+      "words": "Now, it might, you know, get more people, involved in terms of, volunteer work, get out the vote efforts, just, you know, all of the ground game that we tend to see in the primary process. And then maybe that would kind of continue into the general election. So, you know, put more electoral votes into play, I think is is good in terms of getting more people interested in more people involved.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:48:00]"
+    },
+    {
+      "id": "context_60_142",
+      "index": 142,
+      "speaker": "Lori Cox Han",
+      "words": "It might drive up the cost of campaigns a little bit, but, you know, I don't know that there's, you know, we haven't really talked about money in campaign finance related to this. And that's a whole other component to the way we elect our, our candidates. But, you know, yeah, I think that proportional or proportional system in more states in just two might be a good thing to consider.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:15:16]"
+    },
+    {
+      "id": "context_60_143",
+      "index": 143,
+      "speaker": "David Adler",
+      "words": "You know, as I listen to you, I'm reminded that, that Aristotle said a democracy is a system in which we disperse political power as widely as possible. And we don't do that in the United States. We throw up, institutional roadblocks. And the Electoral College is one it's a disincentive to participation. If you said, then we resort to voter suppression methods and and other means that, deliberately depress the vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:41:05]"
+    },
+    {
+      "id": "context_60_144",
+      "index": 144,
+      "speaker": "David Adler",
+      "words": "How can that be squared with the ideal, of America as a, as a democracy? How do you explain that to your students?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:10:15]"
+    },
+    {
+      "id": "context_60_145",
+      "index": 145,
+      "speaker": "Lori Cox Han",
+      "words": "Well, my students can tell you this is one of my favorite topics to talk about, but we never really resolve it. And I usually I will start with, why do we why do we elect presidents the way that we do? Because, or I tell them is if you were talking to someone who knew nothing, I mean, not one single thing about the American system, of government.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:19:09]"
+    },
+    {
+      "id": "context_60_146",
+      "index": 146,
+      "speaker": "Lori Cox Han",
+      "words": "How would you explain to them how we elect presidents? And, you know, I mean, it's it's just this, this crazy, never ending, you know, complicated process that nobody's really happy with. The way it works. And we're often unhappy with the choices that we have. And it's very much disconnected to the job of governing, because we're so focused on the never ending presidential campaign.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:37:01]"
+    },
+    {
+      "id": "context_60_147",
+      "index": 147,
+      "speaker": "Lori Cox Han",
+      "words": "And what I argue is become just a cult of personality. And I don't say that just because of Donald Trump. We've been heading in that direction for quite a while. And in terms of we seem to be disconnected from the needs of voters and citizens with how we elect presidents. And so it doesn't answer your question. It doesn't really square at all with the ideal.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:59:10]"
+    },
+    {
+      "id": "context_60_148",
+      "index": 148,
+      "speaker": "Lori Cox Han",
+      "words": "And this is one of those areas that I think that we are just so far removed from the ideal that, and there are so many areas of reform that are, that are possible, sometimes a little overwhelming, to think, where do we begin? I mean, the Electoral College is just one, one aspect of this. You know, we could talk about the primary system and how we nominate candidates where, you know, certainly a lot of reform can take place.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:20:09]"
+    },
+    {
+      "id": "context_60_149",
+      "index": 149,
+      "speaker": "Lori Cox Han",
+      "words": "You know, for a long time. And I remember all the way back in graduate school hearing political scientists that I respect a lot would argue, well, maybe we just need to shorten the campaign. Wouldn't that be a better way to do it? And but how do you do that and square with the First Amendment and some of the other, you know, issues?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:44:22]"
+    },
+    {
+      "id": "context_60_150",
+      "index": 150,
+      "speaker": "Lori Cox Han",
+      "words": "We have out there? So sometimes I say, well, if it wasn't just wasn't for that darn First Amendment, we can make a lot of a lot of changes. And I, I don't say that to let anyone think that I don't have the utmost respect for the First Amendment. I absolutely do, but, it it does it does pose some problems for how do we how do we get to a better place for some of these processes?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:01:02]"
+    },
+    {
+      "id": "context_60_151",
+      "index": 151,
+      "speaker": "David Adler",
+      "words": "No, Lori, it seems to me that this conversation is becoming more, not less complicated as we spend time on. Maybe Doug has a question that is less complicated than what we're doing at this point.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:21:05]"
+    },
+    {
+      "id": "context_60_152",
+      "index": 152,
+      "speaker": "Doug Exton",
+      "words": "Not really. How do you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:35:20]"
+    },
+    {
+      "id": "context_60_153",
+      "index": 153,
+      "speaker": "Lori Cox Han",
+      "words": "There are no easy answers.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:38:12]"
+    },
+    {
+      "id": "context_60_154",
+      "index": 154,
+      "speaker": "Doug Exton",
+      "words": "What's your opinion? If the For the People act, passes, what do you think that will do to not only just voting, but also the Electoral college, if that will alter things, possibly.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:39:09]"
+    },
+    {
+      "id": "context_60_155",
+      "index": 155,
+      "speaker": "David Adler",
+      "words": "Lori, I'll defer to you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:55:20]"
+    },
+    {
+      "id": "context_60_156",
+      "index": 156,
+      "speaker": "Lori Cox Han",
+      "words": "Well, I was going to defer to you on that one.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:57:07]"
+    },
+    {
+      "id": "context_60_157",
+      "index": 157,
+      "speaker": "David Adler",
+      "words": "So it seems to me here's here's my general response. Anything we can do to try to promote democratic ideals, civic participation, and to reduce the role, and chances of corruption and the role of money is, is desirable. And whether it's this particular means or it's, any others that creative minds can, put forward represents something that has to be seriously considered because our system, as it stands right now, is not working, effectively.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:01:08]"
+    },
+    {
+      "id": "context_60_158",
+      "index": 158,
+      "speaker": "David Adler",
+      "words": "And people are disaffected. We still have a lot of voter apathy. And to make matters worse, now, we deal, perhaps for the first time in a very real way, with the possibility that a candidate in any particular election may work to undermine and even steal the election. And that represents a very dark time for American politics.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:53:40:17]"
+    },
+    {
+      "id": "context_60_159",
+      "index": 159,
+      "speaker": "David Adler",
+      "words": "And without, introducing some of the reforms that we've discussed, you just wonder, will 2024 be a repeat of 2020 or will 2022 essentially be a repeat, some of the dark themes of 2020? After all, if there is one lesson in American politics, politicians observe what happened in the last election and they mimic the behaviors and the themes of those that were successful, and might be successful.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:07:12]"
+    },
+    {
+      "id": "context_60_160",
+      "index": 160,
+      "speaker": "David Adler",
+      "words": "Again, that sends shivers down my spine. I don't think we've seen the light. The the last of a candidate who's defeated crying foul. And and asserting that the election was rigged, that was filled with fraud. And this takes us back to one of our concerns at the very outset. What do we do? If America's elections are not viewed as being legitimate and a reflection of the will of the people?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:41:10]"
+    },
+    {
+      "id": "context_60_161",
+      "index": 161,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah, I would I would agree with all of that. I think whatever we can do to increase voter knowledge and voter turnout, I'm all for that. But also getting back to, a more universal view that the outcome is a legitimate one. And, you know, there are many, many things we could talk about related to that where we don't have time to do that here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:13:05]"
+    },
+    {
+      "id": "context_60_162",
+      "index": 162,
+      "speaker": "Lori Cox Han",
+      "words": "But there there definitely needs to be trust in the process. And, and, you know, having people, you know, feel secure in the fact that their election, the election was conducted legitimate, legitimately. And, yeah, I, I do share the concern about where we're at in 2024, in terms of the next presidential election. And, you know, the, the, the pandemic changed a lot.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:35:09]"
+    },
+    {
+      "id": "context_60_163",
+      "index": 163,
+      "speaker": "Lori Cox Han",
+      "words": "It really sped up the timetable of a lot of states coming up with, you know, ways to get more people to participate. I mean, you know, here in California, everybody got mail the ballot if they were registered. Voter. Certainly I'm always for anything that will get more people to vote. But I think that a lot of states also need to take a look at to make sure that, you know, are we doing this in a secure fashion?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:00:21]"
+    },
+    {
+      "id": "context_60_164",
+      "index": 164,
+      "speaker": "Lori Cox Han",
+      "words": "And I think there are a lot of conversations that need to be had at the state and local level to make sure that that we are doing everything we can to make sure that every, every vote is counted. Everyone who wants to vote can vote, that we don't want any voter suppression, but that there has to be integrity in the process to make sure that we can all get to a place where, you know, at least certainly a majority of us believe that the outcome is legitimate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:23:16]"
+    },
+    {
+      "id": "context_60_165",
+      "index": 165,
+      "speaker": "David Adler",
+      "words": "Amen to that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:48:15]"
+    },
+    {
+      "id": "context_60_166",
+      "index": 166,
+      "speaker": "Doug Exton",
+      "words": "And building off of that, what do you think, could happen if voting became kind of mandatory, like in Australia? You know, would that be beneficial to our system as it is currently with the Electoral College? Would it cause more issues?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:50:02]"
+    },
+    {
+      "id": "context_60_167",
+      "index": 167,
+      "speaker": "David Adler",
+      "words": "Yeah. Florida. Your students asked that question.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:05:22]"
+    },
+    {
+      "id": "context_60_168",
+      "index": 168,
+      "speaker": "Lori Cox Han",
+      "words": "Yes. We talked about this a lot, and I often pose it from the standpoint of would you rather have high voter turnout? And a lot of people who maybe aren't engaged in the process or lower voter turnout with just people who are more knowledgeable? And it's a debate that can, you know, take up an entire class system.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:08:22]"
+    },
+    {
+      "id": "context_60_169",
+      "index": 169,
+      "speaker": "Lori Cox Han",
+      "words": "I often, you know, I don't know how we get high and high voter knowledge. But I would really love to do anything we can to move in that direction and, and to get more people involved. I think that that will go a long way to just making sure that we have a sense of legitimacy in the process.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:28:14]"
+    },
+    {
+      "id": "context_60_170",
+      "index": 170,
+      "speaker": "David Adler",
+      "words": "And to follow on Lori's point, at the very least, I think we ought to have a national holiday, for elections still permit early voting. But as a means of removing yet another roadblock, I like very much the idea of a national holiday for Election Day.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:57:46:13]"
+    },
+    {
+      "id": "context_60_171",
+      "index": 171,
+      "speaker": "Lori Cox Han",
+      "words": "Or maybe even two days. Make it Monday and Tuesday. And I know that runs the risk of everybody taking, like, a four day weekend, but, you know, that's that's that's a small price to pay every four years to make sure that there are no issues. Everybody can, you know, what are the other days. And I mean there it is a good I think it is a good, situation where we have so many more opportunities to vote, whether it's early voting, mail in ballot, you know, but let's just make it easier for people to vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:03:15]"
+    },
+    {
+      "id": "context_60_172",
+      "index": 172,
+      "speaker": "Lori Cox Han",
+      "words": "I, I think that should be a no brainer. But even that tends to be politicized. And I just, you know, I wish it wouldn't be.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:33:14]"
+    },
+    {
+      "id": "context_60_173",
+      "index": 173,
+      "speaker": "Doug Exton",
+      "words": "Yeah, I definitely agree that having a four day weekend every four years in the big picture isn't really that bad. Yeah. You know, even if you vote early and still take that four day weekend.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:42:00]"
+    },
+    {
+      "id": "context_60_174",
+      "index": 174,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah. I'd be willing to to trade Presidents Day every four years for that. Every I mean every every year for, national holiday, for reelection every four years. So and I say that as presidency scholar, but, you know, but there's I, I'd rather see the attention focused on, you know, who we're going to elect then as opposed to, you know, celebrating presidents because.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:58:52:04]"
+    },
+    {
+      "id": "context_60_175",
+      "index": 175,
+      "speaker": "David Adler",
+      "words": "Yeah.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:19:06]"
+    },
+    {
+      "id": "context_60_176",
+      "index": 176,
+      "speaker": "Doug Exton",
+      "words": "And then in both of your opinions, what would be the most beneficial change to the Electoral College, to, you know, kind of help promote, you know, voter turnout, you know, going against voter disenfranchisement, especially in the non swing states, where there is definitely that opinion of like in Idaho, a Democratic vote doesn't matter in California. Vice versa.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:20:09]"
+    },
+    {
+      "id": "context_60_177",
+      "index": 177,
+      "speaker": "David Adler",
+      "words": "Well, from my perspective, at least, a step in the right direction is to move toward, proportional allocation of the Electoral College. That would help in Idaho. Maybe, and secondly, it would certainly, in my view, be the abolition of the Electoral College and to, you know, embrace the direct popular vote. I think that's what our democracy requires.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:59:45:19]"
+    },
+    {
+      "id": "context_60_178",
+      "index": 178,
+      "speaker": "David Adler",
+      "words": "And it seems odd to me in the 21st century, that we still, as Lori pointed out, still practice this anti-democratic method of selecting the president. President.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:08:08]"
+    },
+    {
+      "id": "context_60_179",
+      "index": 179,
+      "speaker": "Lori Cox Han",
+      "words": "Yeah. And I really like the idea of proportional system. I'd be fascinated to see how that would play out, especially here in California. I actually happen to live in and a district with a Republican member of Congress, and those there aren't too many of those in California. But I, I would be fascinated to see what that would mean for congressional races if if suddenly in a presidential election year, then all of those congressional districts are competitive for the electoral vote.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:20:00]"
+    },
+    {
+      "id": "context_60_180",
+      "index": 180,
+      "speaker": "Lori Cox Han",
+      "words": "That goes with it as well. You know, maybe that could, maybe I'm just being overly optimistic. But, you know, I've long talked about the danger of having so many safe seats where you only have a handful of congressional or House elections every two years that are competitive. Well, maybe this would help actually, at that level to to make the presidential election a little bit more competitive in that state, but also that congressional district, they might put it into play.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:00:48:12]"
+    },
+    {
+      "id": "context_60_181",
+      "index": 181,
+      "speaker": "Lori Cox Han",
+      "words": "And I think that, you know, every district being competitive, would be a really good thing for our democratic ideals. You know, I, I usually I'm, I'm loathe to make any of my academic comments partisan, but I think, Marjorie Taylor Greene is the poster child for why we need competitive congressional elections in every single district across this country.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:13:04]"
+    },
+    {
+      "id": "context_60_182",
+      "index": 182,
+      "speaker": "David Adler",
+      "words": "I don't think that's a partisan statement at all.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:38:19]"
+    },
+    {
+      "id": "context_60_183",
+      "index": 183,
+      "speaker": "Lori Cox Han",
+      "words": "I like to think of it's more practical in terms of good government. So.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:42:01]"
+    },
+    {
+      "id": "context_60_184",
+      "index": 184,
+      "speaker": "David Adler",
+      "words": "Okay.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:45:24]"
+    },
+    {
+      "id": "context_60_185",
+      "index": 185,
+      "speaker": "Doug Exton",
+      "words": "Well, thank you to both of you for being with me tonight to have this wonderful conversation. The thank you to everyone who hung on the extra five minutes past our ending. Time to continue. So have a great night everyone.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:01:47:04]"
+    },
+    {
+      "id": "context_60_186",
+      "index": 186,
+      "speaker": "David Adler",
+      "words": "Thank you. Doug and to the IHC for hosting. This has been a pleasure to participate in. To work again with my colleague and Lori. I have to say that I feel very much like we're back at one of our national conferences talking about the great problems confronting our nation. Always great to see you and work with you.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:02:00:12]"
+    },
+    {
+      "id": "context_60_187",
+      "index": 187,
+      "speaker": "Lori Cox Han",
+      "words": "Always happy to have this conversation. So thanks for inviting me.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:02:18:11]"
+    },
+    {
+      "id": "context_60_188",
+      "index": 188,
+      "speaker": "Doug Exton",
+      "words": "Have a great night, everyone.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:02:22:20]"
+    },
+    {
+      "id": "context_60_189",
+      "index": 189,
+      "speaker": "David Adler",
+      "words": "Good night.",
+      "tags": [
+
+      ],
+      "timestamp": "[01:02:24:06]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 190,
+    "description": "The electoral college has been part of the US voting systems for more than two centuries. Debate on why it is still in use rather than the popular vote is very present from the general population. Comments such as “outdated,” “anti-democratic,” and “arbitrary” fly around as critiques against the institution. Join us as we discuss the history of the electoral college, if it should remain, and the mechanics behind the scenes. This program is funded by the 'Why It Matters: Civic and Electoral Participation' initiative, administered by the Federation of State Humanities Councils and funded by the Andrew W. Mellon Foundation.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

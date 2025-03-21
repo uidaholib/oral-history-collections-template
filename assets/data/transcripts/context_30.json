@@ -1,0 +1,983 @@
+{
+  "title": "Pioneering the History of Iranian Dance",
+  "interviewee": "Dr. Ida Meftah",
+  "interviewer": "Johanna Bringhurst",
+  "date": "2023-07-05",
+  "subjects": [
+    "iranian",
+    "dances (performance events)",
+    "folk dances",
+    "dance (discipline)"
+  ],
+  "segments": [
+    {
+      "id": "context_30_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_30_1",
+      "index": 1,
+      "speaker": "Johanna Bringhurst",
+      "words": "Hello, everyone, and welcome to context. This program is brought to you by the Idaho Humanities Council with funding from the National Endowment for the Humanities. The views expressed today do not necessarily represent those of the IHC or the NIH. My name is Johanna Bringhurst. And joining us today is Doctor Ida Meftahi an assistant professor of the Middle East specializing in the history of modern Iran with an emphasis on the intersections of politics, gender and performance.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_30_2",
+      "index": 2,
+      "speaker": "Johanna Bringhurst",
+      "words": "She holds a PhD from the University of Toronto's Department of Near and Middle Eastern Civilizations, and has been a postdoctoral fellow at the Institute for the Arts and Humanities at Pennsylvania State University, as well as Visiting Assistant Professor of Contemporary Iranian Culture and Society at the University of Maryland. She is currently at Boise State University. Her first book, Gender and Dance in Modern Iran Biopolitics on Stage, received the Associate Asian for Iranian Studies prestigious the TFA Yahshua Her Award for its original contribution to the field of Iranian women's studies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:50:12]"
+    },
+    {
+      "id": "context_30_3",
+      "index": 3,
+      "speaker": "Johanna Bringhurst",
+      "words": "She is currently working on her second manuscript, tentatively titled Tulip Grove Tehran Urban Geopolitics, Gender and Performative Culture in Modern Iran, which centers on Tehran's historic Lazaar Street and its surrounding vicinity. Between 1880 and 1960. So welcome, Doctor Meftahi. How did you find your way to Boise after so many different places on your way here?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:34:10]"
+    },
+    {
+      "id": "context_30_4",
+      "index": 4,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Well, I, I actually graduated from, Sharif University of, Tehran, which was a technical university, a very prestigious one in software engineering. But at the same time, I was, dancing most of the time, rehearsing dance. and I'll tell the story in a little bit. so, I became interested in dance performance and gradually started to ask questions about the history of dance.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:05:12]"
+    },
+    {
+      "id": "context_30_5",
+      "index": 5,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So, I moved to Canada in 2000, and, my biggest goal was to perform and to also find a way to study, the history of Iranian dance. So I, did my master's at, York University in dance studies, in Toronto. there I wrote, sort of a historical, dissertation on dance. most of it was through, you know, examination of periodicals.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:47:10]"
+    },
+    {
+      "id": "context_30_6",
+      "index": 6,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And then I continued my journey after that to, University of Toronto's, Department of, near and Middle Eastern civilizations, where I did my PhD. I was also taking courses in performance and theater studies at University of Toronto. And, so I did my, my, my PhD thesis there. And, then after that, I found a, postdoc position, at Pennsylvania, State University.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:25:01]"
+    },
+    {
+      "id": "context_30_7",
+      "index": 7,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "there I had a chance to, sort of, focus on, preparing my, book manuscript. then I found a job at University of Maryland. there, I thought, mainly courses on Iran, Iranian culture and society. so my courses there sort of, you know, ranged from sort of, modern history of Iran, which was more of political history.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:05:27]"
+    },
+    {
+      "id": "context_30_8",
+      "index": 8,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And then I thought Iranian cinema thought performance and popular culture. and then after a few years, I, I found a job and landed a job at Boise State University's Department of History. So here I mostly, focus on, courses that are about a middle East Islamic civilization. And then I also teach courses on history of modern Iran.",
+      "tags": [
+        "cinema",
+        "boise"
+      ],
+      "timestamp": "[00:04:47:27]"
+    },
+    {
+      "id": "context_30_9",
+      "index": 9,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Again, my courses are, very diverse. I teach courses on cinema. I teach courses on gender studies. I even had the, course on, sort of performance history of the Middle East. And I also teach, you know, history of modern Middle East. So it's from culture to politics. I do all of that.",
+      "tags": [
+        "cinema",
+        "education"
+      ],
+      "timestamp": "[00:05:21:15]"
+    },
+    {
+      "id": "context_30_10",
+      "index": 10,
+      "speaker": "Johanna Bringhurst",
+      "words": "And everything in between.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:47:29]"
+    },
+    {
+      "id": "context_30_11",
+      "index": 11,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Yes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:49:24]"
+    },
+    {
+      "id": "context_30_12",
+      "index": 12,
+      "speaker": "Johanna Bringhurst",
+      "words": "So what was it about dance, dancing that first captivated you, that you've made, that you're lifelong? Yes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:51:02]"
+    },
+    {
+      "id": "context_30_13",
+      "index": 13,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So it's, It's an interesting story and pretty much, very unique. I, sort of mostly grew up after, the Iranian Revolution of 1979. so that was pretty much banned. And most of the cultural stuff was very sort of, strict in the first decade of, you know, after the revolution. So, I was a very shy, girl.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:06:00:20]"
+    },
+    {
+      "id": "context_30_14",
+      "index": 14,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And, my mother always took me to different classes to find sort of a way, to, sort of boost my confidence. And, among many things, including painting, basketball, volleyball, all of these things. she took me to, to the dance class of sort of an older, ballet teacher, in Iran. and she was an Armenian woman who had, two basically was a migrant from the Soviet Union.",
+      "tags": [
+        "education",
+        "migration",
+        "labor"
+      ],
+      "timestamp": "[00:06:39:22]"
+    },
+    {
+      "id": "context_30_15",
+      "index": 15,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so I, took classes with her, sort of. I had, you know, I learned, various sort of, dances from Russia. I learned, Azerbaijani dance from, for instance. And, so I, or a dance that was called shellac. And, in addition to that, surprisingly, at age 12, I learned some ballroom dances.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:23:03]"
+    },
+    {
+      "id": "context_30_16",
+      "index": 16,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So sort of cha cha cha, waltz and a couple of these dances and even a dance that they called care. and so I was studying dance for a while with her, but, she was very strict. really didn't help, sort of boost my confidence. So I found another, I mean, my mom found, another dance teacher who was the sort of the student of, Madame Lazare.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:07:59:28]"
+    },
+    {
+      "id": "context_30_17",
+      "index": 17,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And and, so I stopped for a while, and then my mom found this, amazing woman. Fondazione Carbone, who is who was, sort of before revolution was Iran's sort of, so Iranian dance companies, sort of national dance companies, actually. and, she was with that company, for, I think about like eight years at least.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:08:38:07]"
+    },
+    {
+      "id": "context_30_18",
+      "index": 18,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "as a lead dancer. and, she was very passionate about dancing. I mean, she was also an actress, so, she had to really be careful about, you know, her dance classes. but regardless, it was a dance class for women, and and gradually we got opportunities for performance. So, during that time, she really worked on, sort of, new pieces for me.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:09:16:06]"
+    },
+    {
+      "id": "context_30_19",
+      "index": 19,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so new choreographies for me, that sort of, more, you know, was more suitable for a shy person. So gradually I started, expressing myself to through dance and, it sort of became the, you know, my biggest goal to become a performer. so I would, rehearse, like, hours and hours.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:55:05]"
+    },
+    {
+      "id": "context_30_20",
+      "index": 20,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "sort of the new choreographies, and, when, you know, during the time that we were performing mostly in the Italian school in Tehran, we also had a performance in the Italian embassy in Tehran in, in late 19, 1990s, sort of this became, an avenue for us to take it more seriously.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:10:30:15]"
+    },
+    {
+      "id": "context_30_21",
+      "index": 21,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "the performances were for women only and they were for, sort of a charity, organization. But, you know, just the name of my teacher, and her past history as pretty much the star of Iranian national dance brought a lot of audiences. And, so we had, I think I was involved with three of them.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:11:02:05]"
+    },
+    {
+      "id": "context_30_22",
+      "index": 22,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And gradually from having, you know, one solo, I was in, you know, in 1999, I was involved and, sort of pretty much all group dancers, they were mostly like folk dancers from around Iran. Iran is very diverse culturally. there's so many diverse folk dances. And, then I had, I think, last perform last, you know, concert.",
+      "tags": [
+        "music"
+      ],
+      "timestamp": "[00:11:31:07]"
+    },
+    {
+      "id": "context_30_23",
+      "index": 23,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "I had at least 3 or 4 solos. So I became sort of, you know, one of her best students, you know, dancing is very competitive in a way. and then I left to Canada. So at the same time that I was dancing, I was also doing a degree and computer engineering, as I said. But, the, the technical school that I, you know, studied and was, very strict, very much male dominated.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:12:04:18]"
+    },
+    {
+      "id": "context_30_24",
+      "index": 24,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "it's not like that anymore. so instead, the dancing world for me was a place to express my feelings. and, so when I left Iran, the only goal that I had was to pursue dance and to pursue dance studies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:47:28]"
+    },
+    {
+      "id": "context_30_25",
+      "index": 25,
+      "speaker": "Johanna Bringhurst",
+      "words": "That's a really remarkable story. And you really are the first person to document the history of dance in Iran. what was that process like? And how is that different from what historians typically do?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:13:13:06]"
+    },
+    {
+      "id": "context_30_26",
+      "index": 26,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Yes. So I have to mention that, that, before I started to do this, Doctor Anthony Shay, who's a very sort of prominent dance scholar, had studied, dance, Iranian dance, you know, more of, more through ethnographic methods and more in diaspora. but, what I did, I mean, first I benefited from, the fact that I was already connected to you know, at least the genre of Iranian dance.",
+      "tags": [
+        "migration"
+      ],
+      "timestamp": "[00:13:29:00]"
+    },
+    {
+      "id": "context_30_27",
+      "index": 27,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "and, through that, I was also connected to sort of a, new, sort of genre, of theatrical dance, which is called rhythmic movement. So basically, the name of the title of dance is changed to rhythmic movements because, dances of that. I mean, there's always a stigma, about dance and at least Muslim countries.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:14:05]"
+    },
+    {
+      "id": "context_30_28",
+      "index": 28,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So, this new theatrical dance in Iran, a lot of the people who initiated that, there are people like my, own dance teacher. so pretty much after I left Iran, they got the chance to stage, you know, these theatrical dances. The themes were mostly like mystical or even religious. so in this genre, pretty much they stage event, study the history of, like early history of Islam through dance or early, or or the history of she is an event through dance.",
+      "tags": [
+        "education",
+        "religion"
+      ],
+      "timestamp": "[00:14:49:16]"
+    },
+    {
+      "id": "context_30_29",
+      "index": 29,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Obviously the, you know, the dancers are pretty much covered, you know, their limited and, their movements, but they're still dancing. So, because of that, I was also connected to that community. And, so part of my work was it not graphy, but, since, the work that I started and my ma was sort of, historical examination of, the press between 1930 to 1980, that was mostly analysis of the history of dance through whatever that was.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:37:09]"
+    },
+    {
+      "id": "context_30_30",
+      "index": 30,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "mentioned or, reported and the periodicals of pre-revolutionary time. So I had that background and I had the other sort of, background of being connected to the dance community in Iran. so what I did in my, PhD pretty much was a continuation, but in a more serious and analytical way of the periodicals, government documents and, again, that's the other side was, it's not graphy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:26:06]"
+    },
+    {
+      "id": "context_30_31",
+      "index": 31,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so, pretty much one of the most important aspects of my, PhD work was to also study cabaret dancing in pre-revolutionary Iran. So this was, the cabarets, or musical classes emerged in Iran and, mostly in 1950s, this became a place that, you know, this new, genre was developed, the audiences, especially in sort of the musical classes that are called Coffin in Persian.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:17:04:22]"
+    },
+    {
+      "id": "context_30_32",
+      "index": 32,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "it was in a way, the audience there, mostly men, they would drink alcohol. and so it was more of a restaurant, you know, bar with, women performing in them. So the, the early, basically earlier women who started dancing there where most of the time really needy women, who didn't have, dance training, but there to, you know, climb the stage and, do such a thing and, you know, Muslim majority countries.",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:17:45:18]"
+    },
+    {
+      "id": "context_30_33",
+      "index": 33,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So they were pretty much very brave also. But it was a good, sort of revenue for these performers. so, the, the sort of when the Tehran's nightlife expanded, you would see more and more of these women who, perform, in these settings and, sort of, and like, parallel to that, Iranian, commercial cinema, which is called film Farsi was being developed.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:18:25:09]"
+    },
+    {
+      "id": "context_30_34",
+      "index": 34,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "It was this genre was very much inspired by Egyptian cinema on Indian cinema and to some extent, Hollywood. But, one of the central themes, in these genres, was, you know, when the male hero would go to a cafe and, you know, get involved with the cafe dancer. so the, the always the story of the dancer was sort of a, the one of the sort of sob stories and, film narrative.",
+      "tags": [
+        "cinema",
+        "literature"
+      ],
+      "timestamp": "[00:19:05:08]"
+    },
+    {
+      "id": "context_30_35",
+      "index": 35,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so the depiction of kangaroo dance became in cinema and on screen became something that was parallel to development of, nightlife, mainly in Iran. so the society also started responding to this genre because it, it involved, many things, including what they perceived as nakedness, nudity, and even prostitution. So, I studied both of them, the sort of the, lives of, these cabaret dancers under depiction in Iranian cinema and also the way they in a way, contributed to economically to to Iran's nightlife and to commercial cinema of Iran.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:19:43:13]"
+    },
+    {
+      "id": "context_30_36",
+      "index": 36,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "But at the same time, they were perceived as prostitutes. So, documenting them was the most difficult work that I did in my mattis's because, what I was using the periodic calls of diverse genres from those that were more about, you know, sort of arts and culture from a nationalist perception and those of its sort of Islamist tendencies and those with Marxist tendencies.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:43:29]"
+    },
+    {
+      "id": "context_30_37",
+      "index": 37,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So each of them had, their own perception of performance. But when it came to, cabaret dancing, they all agreed that this is the generation, this is, sort of, it's, linked to prostitution. It sort of deceived the youths, and, sort of, takes them out of the, you know, ordinary life to, you know, basically, sort of to be provoked sexually.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:20:18]"
+    },
+    {
+      "id": "context_30_38",
+      "index": 38,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So it create the thought that it's creating a disorder in society. So because of all this, it, you know, pretty much whatever, that was in, sort of periodicals about them was very negative and sort of they created also, sort of in that, around the cabaret dancer that this was a needy woman who was a runaway girl, who was, you know, sort of tricked by sort of a man to, come to Tehran, for instance.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:22:02:25]"
+    },
+    {
+      "id": "context_30_39",
+      "index": 39,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And, then she ended up and, sort of the red light district of Tehran, then, you know, found an opportunity to go on stage, dance, but still, they very involved, the male audience. so a lot of these things, they're also projected in the periodicals. So, and the same story was about the, the, sort of the character type of, dancer prostitutes on screen.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:22:40:18]"
+    },
+    {
+      "id": "context_30_40",
+      "index": 40,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so sort of deconstructing this was really, really difficult. so I really needed to get connected to actual cabaret dancers. so pretty much, you know, I could calculate that these people would be older and, not very much visible in society, because after the revolution, cabarets were burned that burned down. And also many cinemas that would show sort of popular cinema were also burned down.",
+      "tags": [
+        "conflict",
+        "cinema"
+      ],
+      "timestamp": "[00:23:20:23]"
+    },
+    {
+      "id": "context_30_41",
+      "index": 41,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So many of the these women also denied their past, in a way, they wanted, to, forget their, their own histories. so finally I was able to get connected to one woman, who was really amazing. And then, she, also connected me to another lady. Was older, and she passed away. Really?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:59:18]"
+    },
+    {
+      "id": "context_30_42",
+      "index": 42,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "a few months after I interviewed her. So, when I met them, you know, my whole worldview changed because I, as a dancer, also, associated with high culture. I always had my own perception of these women, but then hearing their life. Life stories, as not only counter dancers, but, sort of, actors, like actors who did sort of improvised, comedy in LA Street most of the time.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:39:21]"
+    },
+    {
+      "id": "context_30_43",
+      "index": 43,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And, like the other parts of their lives, was really interesting. It was really eye opening. And then I was able to, sort of connect the dots, of what was received publicly and their actual life, then I was able to find another actress, actually, two actresses, in, Toronto. They were living in senior houses in Toronto.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:25:22:26]"
+    },
+    {
+      "id": "context_30_44",
+      "index": 44,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And, again, I was able to find another star of, sort of cabaret and also, films, that again, commercial cinema. so one thing that all of them asked me to do was not to reveal their names, their actual names, mainly because their families very concerned. So I can tell that, one of these, ladies, her daughter was, was a cinema sort of actress, pretty much famous in post-revolutionary Iran in Iran.",
+      "tags": [
+        "cinema"
+      ],
+      "timestamp": "[00:25:58:22]"
+    },
+    {
+      "id": "context_30_45",
+      "index": 45,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And the other had, very famous daughter singer, but all of them wanted to, sort of they wanted to give me information because they were happy that someone cared about them. But at the same time, they weren't comfortable even telling their kids that they did that interview. so so I interviewed these ladies for, I think I recorded, especially the ones in Iran.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:48:06]"
+    },
+    {
+      "id": "context_30_46",
+      "index": 46,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "I think I have at least 15 hours of recording with them. And, so that became really useful in analyzing their history. And then I was able to find, sort of government documents about the life of Iran and also about prostitution. So the whole idea of prostitution for, you know, cabaret dancers was sort of this convention in, Iranian cabarets.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:21:06]"
+    },
+    {
+      "id": "context_30_47",
+      "index": 47,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And it's very similar to, you know, the convention in, Egyptian cabarets at that time and 1960s and 70s. Was that, when, the dancers and the middle of their performance would come to, you know, the, space that women at that, their male audiences were sitting and they would just basically sort of, make eye contact with them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:52:13]"
+    },
+    {
+      "id": "context_30_48",
+      "index": 48,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And then after the performance, these male audiences, some of them would want to drink with them. this was true. to the cabaret owner. So this was pretty much, pattern type of prostitution. I mean, this could be, but the cabaret owner was the one who sort of, even sold tickets to these male audiences.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:30:25]"
+    },
+    {
+      "id": "context_30_49",
+      "index": 49,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And then I asked these, ask the women, the performers do, sit with these guys on their table and drink, but this, sort of implied that after the show, they would go out with these, these men, but most of the time, because they had to drink with several of them, there were fights outside of the cabaret, and it was so risky that many of them would carry cold weapons.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:29:03:11]"
+    },
+    {
+      "id": "context_30_50",
+      "index": 50,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so this was basically the type of, in a way, sort of secretive. prostitution in areas that there, that's such, sort of, conduct was, pretty much banned by the city police. I mean, red light district of Tehran. It was okay to do these things, but places like the czar, for instance, it was it had to they had to obey, follow the rules of the city and the city police.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:37:01]"
+    },
+    {
+      "id": "context_30_51",
+      "index": 51,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so, for that reason, I was able to find, sort of, The cabaret dancers in the footnotes of a book about prostitution in Iran and, also through that, I was able to analyze some of these, again, government documents about prostitution, their limitations. and also the way that, cabaret dancers and, sort of, the they call workers of the nightlife, had to follow, for instance, as my interviews also mentioned, they had to take, sort of, STD tests every six months to be able to get permission for their, performances.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:22:10]"
+    },
+    {
+      "id": "context_30_52",
+      "index": 52,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So it was a very complicated story, but I was really lucky, to connect to people who were who actually talked about these things. so that was all my story about, you know, sort of studying this thing that was really untouched. I mean, even in, in sort of historical narratives, even for the people who were writing about gender, and sexual history of Iran, still, they had this perception that these women were not worthy of, you know, their study, there were bunch of prostitutes, but not even prostitutes that, very considered, you know, legitimate enough, diverse studies, for instance, red light district office, but not not these",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:31:22:25]"
+    },
+    {
+      "id": "context_30_53",
+      "index": 53,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "people. So, bringing their lives into history. and did, you know, and addition to the other things was really challenging, but I think that was that's really fulfilling. I mean, it's made me change my perceptions about, sort of different people, but different problems. And also exciting stories.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:27:23]"
+    },
+    {
+      "id": "context_30_54",
+      "index": 54,
+      "speaker": "Johanna Bringhurst",
+      "words": "That's really interesting that you discovered this whole segment of Tehran that was the of women that were being ignored. When you are researching now, a lot of these are street. Is it are you finding a lot of more stories of people that have been under the radar and not brought into history, as you said?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:32:58:14]"
+    },
+    {
+      "id": "context_30_55",
+      "index": 55,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "yes. I mean, one of the most interesting things about, you know, my previous research and especially being involved with this, cabaret of one of women was that most of these things, most of these, for instance, dance genres, they're developed in theaters of less our streets since, you know, early, 20th century. So there were sort of these more upper class audiences who would go to operettas about, you know, sort of, Iranian nationalism.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:33:26:08]"
+    },
+    {
+      "id": "context_30_56",
+      "index": 56,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "but they had performers and sort of, mostly mostly from, like emigres with non-Muslim background. So most of these things are actually developed in La Lazaro Street. So I had a lot of background about, this area and its culture. But what I didn't know was that, most of these, you know, performances, they're happening in an area that, you know, mostly considered, you know, a place for development of cosmopolitan culture of Iran.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:07:12]"
+    },
+    {
+      "id": "context_30_57",
+      "index": 57,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "It's lawless. Are is also compared to Broadway or or Chansley said, it was called, chandeliers after Iran, specially, you know, and, early 1900, but then I realized when I did more study and archival research that, because our street was in a very strategic place in Tehran, it was, basically the neighboring street was this street that was called earlier the the street of European embassies.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:34:46:27]"
+    },
+    {
+      "id": "context_30_58",
+      "index": 58,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "so, when lawless art was being developed, since late 18, late 19th century, these streets were also being developed. So first, you know, I think French embassy moved there. And then gradually the British embassy, the, the sort of delegation of, Netherland, Turkey, Austria, Germany, moved there and, many of the people who came to work in these embassies, you know, their families started, you know, basically opening various types of shops, for instance, there were liquor stores, they were gambling houses.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:28:10]"
+    },
+    {
+      "id": "context_30_59",
+      "index": 59,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "They there, drugstores, boutiques and sort of, even, like, one hotel that was called Paris Hotel. All of these started there, and one major hotel that was started there that it's most of the time, you know, very present in Iranian sort of cultural memory is was called, Grand Hotel. So, this was a place that not only, you know, émigrés, from, you know, Russian Empire or Soviet Union, and also, the emigres who escaped sort of persecution in Ottoman Empire or Turkey, most many of them would come to this streets and intermingle with, you know, these also, sort of foreigners who came for,",
+      "tags": [
+        "labor"
+      ],
+      "timestamp": "[00:36:25:17]"
+    },
+    {
+      "id": "context_30_60",
+      "index": 60,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "for them the seas and also sort of upper class Iranians who had their own, let's say, French shops there. So in this venue, this, in a way, this was a hub for cosmopolitan cultural production, sort of modernity and pretty much all the turning points of 20th century Iran. You can see that it was, sort of, had an impact and a, you know, sort of very, clear reflection in this area.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:31:21]"
+    },
+    {
+      "id": "context_30_61",
+      "index": 61,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And I have to say that, the, Parliament of Iran and some of the major offices there also in this street. So it was very, very, in a way, an important urban, sort of hub for not only cultural development but for geopolitics. So you can see this area, during the Iranian Constitutional Revolution when, you know, the British or the Russians got involved.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:38:11:10]"
+    },
+    {
+      "id": "context_30_62",
+      "index": 62,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So, you know, you would see people interacting with them or even, you know, taking refuge in these embassies. Then again, during World War, you can see that the famine that, after the, you know, allies occupation of Iran, you know, happened around the country. People in this area also suffered from famine. And there was there were bread riots there.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:38:46:29]"
+    },
+    {
+      "id": "context_30_63",
+      "index": 63,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Then, again, World War two, sort of again, a lot is the occupation of Iran. You would see, many clashes between sort of drunken allied soldiers with Iranians. There were even like abduction of women, or even rape. so you would see sort of the, also the relationship of, Iranian government with these, sort of foreign embassies, another really important turning point that exactly happened in this lawless art district and that, you know, its surrounding area was, the, sort of Anglo-American coup, that of 1953, I mean, many of the riots and demonstrations happened there.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:39:22:28]"
+    },
+    {
+      "id": "context_30_64",
+      "index": 64,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And for instance, during the Constitution, during the, the coup, since a lot of the communist, press, had offices in this neighborhood, actually, sort of across from the Soviet embassy, during the coup, many of them were burned down. So you would see a lot of these, sort of destructions, that came because of politics and even international politics, of, direct impact and lawlessness.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:40:22:26]"
+    },
+    {
+      "id": "context_30_65",
+      "index": 65,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Street. And as I said, like 1979 revolution. Also, you would see, you know, places being burned down. So, so it's not just, you know, a place for culture or, sort of fashion or many of these things that are perceived to be, but also a place that you can, in a way, study urban geopolitics.",
+      "tags": [
+        "conflict",
+        "education"
+      ],
+      "timestamp": "[00:41:03:29]"
+    },
+    {
+      "id": "context_30_66",
+      "index": 66,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "you know, the fact that it was called, for instance, transit after Iran. It was because the French culture was very much present, in this neighborhood, its missionary schools, for instance, they were they were exactly French missionary schools in Lazaro Street. So it was French culture, French language, which was also lingua franca of Iran back then.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:41:36:28]"
+    },
+    {
+      "id": "context_30_67",
+      "index": 67,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "all their present. so the fashion, for instance, the French fashion was very much around, so it's, you know, whatever that was around the world, that was, a practice that was fashionable around the world. You would see that happening there. again, ballroom dancing of various types or, for instance, World War Two American soldiers would dance with Iranian women, which, of course, you know, created a lot of, sort of, negative response in the society because it was a few years after, unveiling of women in 1937 by, Reza Shah.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:42:10:07]"
+    },
+    {
+      "id": "context_30_68",
+      "index": 68,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So, imagine that 19 from 1937 unveiling of women to 1941, World War II. Iranian women would engage or, you know, dance in the arms of foreign soldiers. So exactly like the dance craze of 1940s was present in that area. So it's a fascinating place to, really study a lot of things. So it's a very complicated story.",
+      "tags": [
+        "conflict",
+        "education"
+      ],
+      "timestamp": "[00:43:05:07]"
+    },
+    {
+      "id": "context_30_69",
+      "index": 69,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Again. and it needs needed me to really, more than anything, rely on, sort of diplomatic documents. So I've done, you know, archival work and, and, at the National Archive, British National Archive, which is a fascinating archive. Then I've done work in, you know, a lot of, you know, sort of archival, research at the National Archive here, which is, again, very fascinating.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:43:40:27]"
+    },
+    {
+      "id": "context_30_70",
+      "index": 70,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "that was, the National Archive was in Maryland. So it was very close to the University. and then, of course, a wide range of, archives in Iran and archives, actually in Iran are very, very sort of, developed. You can, basically order documents and get it on a CD. this is not the case that the British or American Archive.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:44:25:12]"
+    },
+    {
+      "id": "context_30_71",
+      "index": 71,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So there I have, worked and and also I, sort of hired research assistants who had done a lot of work on, retrieving and also documenting and indexing these, sort of archival sources. So there you can sort of, you know, sort of cross examine, the correspondences, let's say, between, Iranian Ministry of Foreign Affairs, which the British Legation or the, the American legation, these became, delegations changed to embassies after, sort of the Tehran conference where, Churchill, Stalin, and President Roosevelt met in, in, pretty much lawless or sit so, you can see these, correspondences and you can see",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:45:00:03]"
+    },
+    {
+      "id": "context_30_72",
+      "index": 72,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "the real life of Iranians and you can see its reflection in these, sort of diplomatic, documents. And then you can see that, how each of these are, responding to each other. You can see that, for instance, British Legation knew that there, you know, the behavior of their drunken soldiers are destructive. But then when responding to sort of Ministry of Foreign Affairs, that wanted sort of justice for Iranian citizens, they would deny everything.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:46:20:11]"
+    },
+    {
+      "id": "context_30_73",
+      "index": 73,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "But in documents, you can see that they actually knew what's happening, but they didn't want to take responsibility for sometimes financial reasons. So, okay, you just focus.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:08:06]"
+    },
+    {
+      "id": "context_30_74",
+      "index": 74,
+      "speaker": "Johanna Bringhurst",
+      "words": "Yeah. You describe your work like you are a, detective or an.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:22:23]"
+    },
+    {
+      "id": "context_30_75",
+      "index": 75,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Investigator.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:26:16]"
+    },
+    {
+      "id": "context_30_76",
+      "index": 76,
+      "speaker": "Johanna Bringhurst",
+      "words": "More than, what we think of as a historian.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:28:02]"
+    },
+    {
+      "id": "context_30_77",
+      "index": 77,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Yes, and I love that. Okay, I love that. Really. and again, this is, I mean, unlike my, you know, sort of previous work on dance that was very much about sort of local, or national sort of sphere of sphere of Iran. This is much more, international. So it's connection between, sort of international relations and sort of, national politics and, cultural development.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:47:32:13]"
+    },
+    {
+      "id": "context_30_78",
+      "index": 78,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "So and actually everyday life of Iranians. so it's kind of a also bottom, sort of, yeah, bottom up history as well. It's not about always, you know, how the government of Iran ruled people, but also about everyday life on the streets? they're the response of people to, you know, international politics or national politics.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:12:07]"
+    },
+    {
+      "id": "context_30_79",
+      "index": 79,
+      "speaker": "Johanna Bringhurst",
+      "words": "It sounds like students at Boise State are really lucky to have you and to be able to take one of your classes.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:48:46:22]"
+    },
+    {
+      "id": "context_30_80",
+      "index": 80,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "yes. I mean, I'm really excited for being here at Boise State. I mean, first of all, I found, Boise, really a really amazing place. I mean, there's so many stereotypes about Idaho, but Boise is really fascinating. It's a clean city. It's really nice people and a lot of nature. I feel that people are really down to earth here and very culture, culture.",
+      "tags": [
+        "boise",
+        "environment"
+      ],
+      "timestamp": "[00:48:54:10]"
+    },
+    {
+      "id": "context_30_81",
+      "index": 81,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And, and I see the same thing in my students and also colleagues. most of the time my students come to class with sort of an open mind to learn about an area that they don't know much about. So, they engage with the courses and engage with the material and also with myself and, I think for them, I'm also sort of a, in a very, an unusual type of instructor.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:49:25:24]"
+    },
+    {
+      "id": "context_30_82",
+      "index": 82,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "but, yeah, I really love being here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:05:27]"
+    },
+    {
+      "id": "context_30_83",
+      "index": 83,
+      "speaker": "Johanna Bringhurst",
+      "words": "Are there things that you wish your students, or maybe Americans in general, understood better about Iran?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:10:26]"
+    },
+    {
+      "id": "context_30_84",
+      "index": 84,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Yes. I mean, about Iran? I'm pretty much I mean, obviously, I'm much more passionate about culture. society and also politics. So, I want, first of all, I, I ask my Iranians to my, students to, pronounce Iran the right way and not Iran. And.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:20:03]"
+    },
+    {
+      "id": "context_30_85",
+      "index": 85,
+      "speaker": "Johanna Bringhurst",
+      "words": "So step one pronoun through.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:49:15]"
+    },
+    {
+      "id": "context_30_86",
+      "index": 86,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And I always say, like, repeat after me, it's Iran. And then, I mean, yeah. To we do Iran. also outside or beyond international politics. I mean, even Iranian national politics is very much is very different than what people would be. You, so, to understand the cultural history of Iran, the social history of Iran and also present really it's not all about is, like past but also present.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:50:52:18]"
+    },
+    {
+      "id": "context_30_87",
+      "index": 87,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "I mean, as I talked about, you know, sort of, the cosmopolitan culture of Iran, you know, an early 20th century and or to it throughout 20th century Iranian culture is very cosmopolitan. I mean, it's true that, you know, whatever we have all these, history of Persian Empire or, you know, Islamic conquest and, you know, Iranians becoming Muslim.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:51:36:18]"
+    },
+    {
+      "id": "context_30_88",
+      "index": 88,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And then development of she is, versus, sort of Sunnis. so, all of them, all of these are there but also there is this cosmopolitan culture. Iranians are very much aware of, let's say American culture. They speak speak English very well. thanks to satellite and internet. Hollywood, they know very much about what's going on in the United States or other parts of the world.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:52:10:14]"
+    },
+    {
+      "id": "context_30_89",
+      "index": 89,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "they watch things and they learn from that, that. So, we see a, you know, for instance, post-revolutionary Iranian cinema, that was supposed to die after, you know, that sort of, disruptive, conditions of 1979 revolution. But we see sort of an organic, national cinema that was developed in Iran that, you know, it's very much connected to the world culture, but it's authentic.",
+      "tags": [
+        "cinema",
+        "conflict",
+        "agriculture"
+      ],
+      "timestamp": "[00:52:51:13]"
+    },
+    {
+      "id": "context_30_90",
+      "index": 90,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "And you would see Iranian filmmakers receiving, you know, international awards pretty much, you know, you know, once in a while, and, that is very much sort of, really representative of, you know, the diversity and also the open mindedness, the ness of Iranians. And the other thing, the difference between public and private life.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:53:32:15]"
+    },
+    {
+      "id": "context_30_91",
+      "index": 91,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "This is a very, sort of a, in a way, a very Iranian thing, but also a middle eastern thing because, you know, because of Islamic regulations, and even Islamic, sort of, social, rules. there was always a difference between how people live their private lives with public lives. So, for instance, especially with women historically, inside the house was a safe space for them that they could live a life, but outside they had to cover their, themselves and, had limited Interac interaction with men.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:54:08:17]"
+    },
+    {
+      "id": "context_30_92",
+      "index": 92,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "of course, that has changed. and especially after Revolution, you would see much more presence of women outside the world, outside the houses and workplace. at universities, events and whatever, sport competitions and all that. But, the difference between private life and public life still exists. So that's another thing. I mean, in public in, you know, Islamic countries, people may, be limited, but inside their houses, you know, their parties and drinking and all that, either.",
+      "tags": [
+        "conflict",
+        "labor"
+      ],
+      "timestamp": "[00:55:01:05]"
+    },
+    {
+      "id": "context_30_93",
+      "index": 93,
+      "speaker": "Johanna Bringhurst",
+      "words": "Doctor Meftahi, it's been so great to talk to you today. Thank you so much for taking the time to be with us. And we really appreciate it. Value the work that you do at Boise State, and we're lucky to have you here.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:55:50:21]"
+    },
+    {
+      "id": "context_30_94",
+      "index": 94,
+      "speaker": "Dr. Ida Meftahi",
+      "words": "Thank you very much. Thanks for the interview.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:56:04:15]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 95,
+    "description": "Historian Dr. Ida Meftahi, from Boise State University, joins us in a fascinating conversation about her pioneering work in documenting the history of Iranian Dance and her personal journey as a dancer, scholar, and educator.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

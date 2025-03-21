@@ -1,0 +1,982 @@
+{
+  "title": "Pushed Out PT 1",
+  "interviewee": "Dr. Ryanne Pilgeram",
+  "interviewer": null,
+  "date": "2022-11-18",
+  "subjects": [
+    "rural areas",
+    "economic development",
+    "rural development",
+    "gentrification",
+    "timber logs",
+    "timber (wood by origin)"
+  ],
+  "segments": [
+    {
+      "id": "context_38_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_38_1",
+      "index": 1,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Hi, my name is Doctor Ryanne Pilgeram. Thanks for listening to my talk on my book project. Pushed out. for my talk today, I'm going to be giving a kind of overview of the project and what inspired it, and diving into some of the theoretical work that I did to make sense of what I was seeing. So this is a book that looks at the development of a small community in northern Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_38_2",
+      "index": 2,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Dohger. my project works to understand how this small town moved from, a huge sawmill that operated there from 1920 through 1989, to an upscale development and site of 600 units. So trying to understand that change, both politically, economically and socially. And in case you're not familiar with North Idaho, here's specifically what I'm talking about.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:34:19]"
+    },
+    {
+      "id": "context_38_3",
+      "index": 3,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So Dover is on Lake Ponderay in northern Idaho, and it's about three miles outside of Sandpoint, Idaho, which people are more familiar with sometimes. and here's a map of the actual community that I looked at. there's the mill site that has become home to the development and then what I call old Dover. So I want to start by suggesting that we sometimes think about development in rural communities as a contemporary issue.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:07:11]"
+    },
+    {
+      "id": "context_38_4",
+      "index": 4,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And one of the things I work to do in this project is to understand development more broadly, to trace the roots of what set it into place and so we can better understand what's happening contemporarily. I think that's important because if we don't understand what structure the past, it's difficult to understand how we move forward in the future.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:39:16]"
+    },
+    {
+      "id": "context_38_5",
+      "index": 5,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And instead of, just discussing the introduction, I'm going to read a short portion of my book because I think it's the easiest way to introduce you to the project. And while I'm talking, there'll be some images popping up behind me, that correlate with what I'm sharing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:03:17]"
+    },
+    {
+      "id": "context_38_6",
+      "index": 6,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Welcome to Dover. Every month, the Dover girls meet to share a potluck lunch and work on a project at the community hall. One of this week's projects was making blankets. For what one of them termed, quote, abused women. The Dover Girls, a group of older women who all grew up there, had spent a lifetime together as friends and neighbors, raising children and burying husbands.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:24:19]"
+    },
+    {
+      "id": "context_38_7",
+      "index": 7,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So sharing this afternoon with them felt like being let in on a secret. The women teased and joked, filling and refilling their plates with casseroles, salads, rolls and desserts, and encouraging me to do the same. They were completely at ease with each other. After lunch, they got to work on their task sewing dresses to send to Africa to make blankets for domestic violence shelter.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:43:19]"
+    },
+    {
+      "id": "context_38_8",
+      "index": 8,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "There was a matter of fact, just the discussion. They were making blankets for these women because of Sharon Miller, who was in her 80s and had lived in Dover since she was a child, explained when men get laid off at Christmas time, they tend to drink too much and knock women around. The community hall hosting this event, along with most of the other homes and buildings in the town, was originally built for a different middle town in the area.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:03:10]"
+    },
+    {
+      "id": "context_38_9",
+      "index": 9,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "But when that mill burned down in 1922, the mills owner, A.C. white, sent a flotilla of buildings upriver to the site of the new mill in what would eventually become Dover, Idaho. If the burnt orange percolating coffeepot was any indication, the community hall, much like much of Old Dover, had not seen many changes since the buildings were moved.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:25:10]"
+    },
+    {
+      "id": "context_38_10",
+      "index": 10,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The walls were the soft industrial green that had gone out of style, but is now back in fashion in places. Large swaths of the green paint was bubbling in a way away, a sign of water damage and use. But what stood out were the photos that lined the walls, black and white photos of children and overall standing before now forgotten houses.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:46:21]"
+    },
+    {
+      "id": "context_38_11",
+      "index": 11,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Photos of the old lumber mill before it closed in the late 80s. Photos of long dead but not forgotten Dover ites who made their home on the shores of the river and won. Children are dressed in costumes on stage for a local production, and another long tables of people enjoying the town's annual picnic, with a church in Lake serving as the backdrop.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[00:04:05:07]"
+    },
+    {
+      "id": "context_38_12",
+      "index": 12,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The Dover girls laugh as they point out their husbands and as children in the now 80 year old photos, all Dover was born again in the photos that had been carefully preserved and captioned, and they highlighted what was special about Dover to this community. The beauty of the lake of Lake Ponderay and the Ponderay watershed was never far from their minds, but mostly it served as a background for the relationships that flourished in this place.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:25:01]"
+    },
+    {
+      "id": "context_38_13",
+      "index": 13,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The bluff and the beach and the endless fields in force are meaningful, but primarily because they provide a space to labor and connect with their community. At the entry to the community hall, a birdhouse decorated with moss and ivory serves as a donation box. A cheerfully written sign explains donations for lights and gas, a reminder that we might not have much, but if we pull together, we still have this place.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:49:08]"
+    },
+    {
+      "id": "context_38_14",
+      "index": 14,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Most of the windows in the community hall face all Dover, still looking over the original mill workers houses and church that were transported upriver in 1922. Slipping into the kitchen and peering out. The back window, however, is a reminder of how much Dover has changed. In the 1950s, it would have looked at a tangle of trees, then a deep meadow in the distance, the community's sandy beach.",
+      "tags": [
+        "religion"
+      ],
+      "timestamp": "[00:05:13:12]"
+    },
+    {
+      "id": "context_38_15",
+      "index": 15,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Just beyond that. Later, the view would have included massive piles of wood chips, the birch trees providing some cover between the buildings and the grain, piles of sawdust. Today, there's a walking path that skirts the back of the community hall, and beyond that, brand new homes, dozens of them, from condominiums to bungalows to massive mansions. They now sit in the fields where the mill once stood, adorned with the natural wood shingles and crisp white trim.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:35:22]"
+    },
+    {
+      "id": "context_38_16",
+      "index": 16,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The home share a similar architectural style, meant to evoke craftsman, the craftsman style that was popular in the buildings of Old Dover were floating up the river, but the homes are unmistakably modern. In their attempt to blend the ruggedness of the Pacific Northwest with the comforts of upper middle class living lining freshly paved streets. The new homes nestled against the development's headquarters, which features a fitness club, next scale restaurant.",
+      "tags": [
+        "economy",
+        "education"
+      ],
+      "timestamp": "[00:06:00:17]"
+    },
+    {
+      "id": "context_38_17",
+      "index": 17,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The developer was approved. The development was approved in in 2004 after a lengthy and contentious struggle with the inhabitants of Old Dover. Since then, New Dover has brought waves of people to the community, drawn by the scenic beauty and recreational potential of the lake and river. When looking out the window of Old Dover's community hall, the new homes are so close, it seems like you might be able to peer inside.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:26:20]"
+    },
+    {
+      "id": "context_38_18",
+      "index": 18,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "But the new homes are built with their backs to the community center, so they face the lake and river. And so it is old and new. Back to back. A path winding between them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:51:22]"
+    },
+    {
+      "id": "context_38_19",
+      "index": 19,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So you might wonder, how I got started on this project and what it, actually looks at. So this project was an attempt to answer a question that had bothered me for a long time. So I went to high school in Sandpoint. I'm from western Montana, and I moved to Sandpoint when I was in high school. actually, Dover and I rode the Dover school bus.",
+      "tags": [
+        "education",
+        "sandpoint"
+      ],
+      "timestamp": "[00:07:04:16]"
+    },
+    {
+      "id": "context_38_20",
+      "index": 20,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So when I was living there in the 90s, you know, the mill had burned down. It was sort of a down on block town. but I would go swim at the beach and, you know, just was part of that community. A lot of important moments in my life happened in Dover. And it was a special place to me.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:29:14]"
+    },
+    {
+      "id": "context_38_21",
+      "index": 21,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And so I was surprised when I was in graduate school and noticed that there was this big development being built, and I couldn't quite understand what the impetus for that development was. So Dover is interesting in the sense that many communities are experiencing what Dover is experiencing, this sort of shift from industrial, extractive economy to recreation based economy.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:07:48:06]"
+    },
+    {
+      "id": "context_38_22",
+      "index": 22,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So it's very, happening a lot and around the world, but especially, in the American West. And so I was interested in trying to understand, well, why is that happening? And Dover is interesting because the city council of Dover actually had a tremendous amount of power in that rezoning process, or at least they did on the surface.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:13:01]"
+    },
+    {
+      "id": "context_38_23",
+      "index": 23,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And I was interested in the question of why would they city councilors, who were predominantly working class members of the community, entirely working class members of the community, why would they rezone? And with that loon, lose access to many of the places that were important to them? So through the rezoning process, they lost access to their sandy beach that they had been using for almost 100 years.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:08:30:09]"
+    },
+    {
+      "id": "context_38_24",
+      "index": 24,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "their baseball diamond and just the bluff. A lot of open spaces. So why rezone? That was the question that drove this research project. So to answer that question, I did a lot of research. I interviewed over 30 people, from all, parts of the project. So residents, both new and old residents, city councilors, city clerks, mayors, new and old, people involved with the development, state geologists.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:08:52:21]"
+    },
+    {
+      "id": "context_38_25",
+      "index": 25,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "I also did quite a bit of archeological or archival research, both with the Bonner Historical Society and then from in from collections from Dover residents that they had kept from over, over the years. I looked at city council minutes. I looked at the archeological site reports done by the state. before the development could be put into place.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:09:21:20]"
+    },
+    {
+      "id": "context_38_26",
+      "index": 26,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "I had several, interviews that I did with the cultural resource manager for the Kalispell tribe to try and understand the Kalispell, tribe's relationship to this land, historically and contemporarily. And, did participant observation things like attending lunch with the Dover girls. So I had collected a tremendous amount of data to try and answer this question. Why is, what is driving the development in these rural communities?",
+      "tags": [
+        "indigenous",
+        "agriculture"
+      ],
+      "timestamp": "[00:09:42:18]"
+    },
+    {
+      "id": "context_38_27",
+      "index": 27,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Why does it look like this? And to sort of interrogate that question or the idea that development equals progress. because I don't think that that's a fair way of understanding development. So there's a couple of terms that I use in this project, and I'm sorry my head is over. So many of these, things. so this project is a case study which means that I am using a very specific example to try and say something about that specific place, but also more broadly.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:10:11:07]"
+    },
+    {
+      "id": "context_38_28",
+      "index": 28,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So Dover is interesting, like I said, because the city council had so much power. And that's not true in a lot of communities in Idaho and in the West. Many times it's county commissioners or so on. Are these unincorporated places, but Dover actually had to incorporate as a city to get access to loans to rebuild their water and sewer systems.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:39:14]"
+    },
+    {
+      "id": "context_38_29",
+      "index": 29,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So Dover then the mill site was all incorporated as a city, in the late 80s. And so the city council had a lot of control over that rezoning process. So that makes it a little different. But I think also really interesting because theoretically, this is a community that should have more power than many communities, facing these kind of issues.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:58:18]"
+    },
+    {
+      "id": "context_38_30",
+      "index": 30,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "I also use the term rural gentrification in here, and I use it to mean, that that I'm seeing two things happening in this community. So real gentrification requires, two elements. So the first is a demographic shift. of urban populations to more rural ones happening at a specific time and place. And but that's not sufficient, right?",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[00:11:18:12]"
+    },
+    {
+      "id": "context_38_31",
+      "index": 31,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "People move around all the time. The second part of that requires that those people have cultural, economic and social power to transform, change or otherwise, affect that community if they're part of. Right. So it's not enough to say that people are moving. People always move around. It's about that power that comes with it, usually economic. But with that economic comes social power and cultural power.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:46:15]"
+    },
+    {
+      "id": "context_38_32",
+      "index": 32,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "and then I also use the concept of the New West. So thinking about how can we talk about succinctly, this transition from communities that used to be more resource extractive based? Think logging, mining, agriculture, Old West, Patagonia wearing telecommuters or retirees with motorboats as New West right. So there's a great quote here that I really like.",
+      "tags": [
+        "mining"
+      ],
+      "timestamp": "[00:12:12:11]"
+    },
+    {
+      "id": "context_38_33",
+      "index": 33,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Images of the Old West are ranchers, horses and dusty cattle drives. Today, the New West conveys images of residents wearing Patagonian fleeces in Western jeans, telecommuters and professionals with laptops able to work remotely. So they're a key part of that is that these, people are moving to the New West to seek recreational opportunities. So I'll sort of be using those terms here.",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[00:12:35:23]"
+    },
+    {
+      "id": "context_38_34",
+      "index": 34,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And I wanted to define them before I, just started spouting off terms. They didn't have any definition for you. Okay. So one of the things that occurred to me in my project that I was sort of struggling with, was trying to make sense of what I was seeing. So one of the big issues that I had in my project when I did all the interviews was I realized that the city of Dover, sorry, I'm trying to look through my notes here to get to the right page.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:59:19]"
+    },
+    {
+      "id": "context_38_35",
+      "index": 35,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Faced a series of crises, and that's predominantly when I did my interviews. what my, respondents talked about. So Dover was under a boil order for six years. they had to the city had to the community had to incorporate in order to get loans for a low income community to rebuild their water system. It took six years.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:13:27:14]"
+    },
+    {
+      "id": "context_38_36",
+      "index": 36,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "They were red tagged for their sewer system. so they also had to get USDA loans for low income communities to rebuild their sewer system. They had a bridge that was on the verge of collapsing, literally. the mayor ended up on America's crumbling infrastructure, tearing chunks of concrete off and, showing them on television in order to get funding for that new bridge to be built.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:13:48:18]"
+    },
+    {
+      "id": "context_38_37",
+      "index": 37,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Bridge had been an important, piece of infrastructure to move timber out of, in and out of Dover. And when the timber industry left the bridge, it was sort of over the railroad tracks and sort of left to crumble. So here's this community facing all this infrastructure crisis. facing a lot of pressure from developers who, after the Millburn Down, bought the mill site and we're trying to get it resolved.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:11:22]"
+    },
+    {
+      "id": "context_38_38",
+      "index": 38,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So when I'm doing my interviews, that's what everyone's talking about. And there is so much information, so many newspaper articles, and I'm doing interviews and reading newspaper articles, and I'm really struggling to make sense of what I'm hearing. I create a timeline because there was just so much between about, you know, 85 and 95. There is so much happening in Dover and even the people who are living there, sort of not sure if it was the water system or the sewer system that's failing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:35:01]"
+    },
+    {
+      "id": "context_38_39",
+      "index": 39,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And, you know, in the process of trying to make sense of that and realizing that a lot of the documents to make sense of how, the development move forward were missing. So I had a lot of missing data sources, and that was pretty frustrating to try and make sense of. One of the things that occurred to me was maybe I was stuck in the middle of the story, and I needed to start the story earlier to be able to say, I need to step back a little bit.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:02:22]"
+    },
+    {
+      "id": "context_38_40",
+      "index": 40,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "I was too close to the data. and so I decided that I needed to understand what happened before, Dover was incorporated, before it became a mill town. And so worked with both the archeological report, some other, data, and then a lot of interviews or a lot of time with, Kevin Lyons, who's the cultural resource manager for the Catalyst.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:30:16]"
+    },
+    {
+      "id": "context_38_41",
+      "index": 41,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "I'll try to talk to trying to make sense of what was happening in Dover. And so what I ended up settling on is this theory called the spatial fix, which says there's a way of understanding change in space across in a space, by understanding these sort of three steps that happen to that space. So I'm going to tell you what those are.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:15:56:19]"
+    },
+    {
+      "id": "context_38_42",
+      "index": 42,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And then we're going to go through all three of them. So the first step is that in order to function, capitalism has to create a space for itself. so David Harvey's the one who, developed this theory and he argues that capitalism has to seek out new spaces and new workers to function. And then the second step is it has to destroy those spaces when it's no longer possible to maximize profit, then this then allows for the expansion, the third phase.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:18:11]"
+    },
+    {
+      "id": "context_38_43",
+      "index": 43,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So create destroy. The third phase then is its expansion back into that space with new organizations of labor and resources, new ways of seeing the economy for people with wealth to once again prosper in those spaces. So I want to start here, with some images on the left or of the Kalispell, people on Lake Ponderay. The first is, an old historical image.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:54:09]"
+    },
+    {
+      "id": "context_38_44",
+      "index": 44,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The second is an image that comes from the Northern Pacific's, sort of Rand McNally Guide to, settlers to come to North Idaho and work the land. So this is ironically, right, an image that's being used to promote North Idaho when we know that the indigenous people in North Idaho are, fleeing, they are sent to reservations both in Washington and Montana.",
+      "tags": [
+        "history",
+        "indigenous",
+        "migration"
+      ],
+      "timestamp": "[00:17:22:03]"
+    },
+    {
+      "id": "context_38_45",
+      "index": 45,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "There isn't even a reservation for the Kalispell people in Idaho. The bands are broken up and sent to, you know, to two different states. so the council, people's primarily home primary homeland was the shores of the Ponderay watershed. they navigated these what are called sturgeon nodes, canoes. And they were so specialized that they were only found in two places in the world.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:17:48:18]"
+    },
+    {
+      "id": "context_38_46",
+      "index": 46,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "They're specialized to navigate their winds. And the, reeds that were typical in this watershed. By 1890, the lake and river were crossed by railroad bridges filled with logs or, filled with logs and, to be turned into timber. So it's important to note that the Northern Pacific Railroad that built the line through North Idaho happens to be the line that one of the lines that, Dover sent their timber to market on, was the Northern Pacific Railroad lobbied the US government for subsidies to construct the line, and they were given over 40 million acres of land to do that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:12:23]"
+    },
+    {
+      "id": "context_38_47",
+      "index": 47,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So for every mile of railroad that the Northern Pacific railroads built, they were given 1280 acres of land and they were doubled that in, in the territories which Idaho was at the time. And this is important for a bunch of reasons. Right? and I really discussed this in depth in chapter two of my book, but when some of the first, missionaries arrived in North French missionaries arrived in North Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:04:10]"
+    },
+    {
+      "id": "context_38_48",
+      "index": 48,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "They described trees twice as large as they'd ever seen, in their lives. So the species of trees were the same as they had seen, but they'd never seen them grow to this size. And I think it's important to recognize that the Kalispell people's relationship with the land allowed for created that ecosystem, that they were integral to the creation of that ecosystem.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:19:33:17]"
+    },
+    {
+      "id": "context_38_49",
+      "index": 49,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "But that ecosystem allowed for the railroad and timber barons to prosper here. So Jim Hill, who wrote who built the Northern, the Great Northern Railroad, which also goes through Sandpoint, it's a funnel for railroads. was next door neighbors with warehouse or the timber barn was still a pretty household name, so it was pretty typical. the railroads get these huge tracts of land, they would immediately turn around and sell them to the timber industry warehouse.",
+      "tags": [
+        "environment",
+        "sandpoint",
+        "labor"
+      ],
+      "timestamp": "[00:19:59:04]"
+    },
+    {
+      "id": "context_38_50",
+      "index": 50,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "It was a huge, owned tons of land in the West. They still do. when that land was logged off and there was it was no longer, the trees were cleared. Then they would turn around and sell it to settlers. at one point, I think North Idaho had, like, more dynamite coming in than any place in the world because there were so many tree stumps in, the farmers were trying to blow up all the tree stumps.",
+      "tags": [
+        "history"
+      ],
+      "timestamp": "[00:20:28:07]"
+    },
+    {
+      "id": "context_38_51",
+      "index": 51,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So, really interesting history. how did why are the mills here? Right. It's not an accident that the mills are here. Why is the railroad coming through here? Who benefits from that? and I think the other important thing to recognize, and I do this is again in chapter two, is who the workers were in those mills.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:20:50:24]"
+    },
+    {
+      "id": "context_38_52",
+      "index": 52,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And, and in the, logging camps, the logging camps were during winter when it was easier to slide, to use gravity and see, snow to move the timber around. those were largely, Scandinavian immigrants who were working in those. it was extremely dangerous work. It required 8000 calories a day to, function. Those workers, lived in bunks without running water for months, like 4 to 6 months at a time.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:09:12]"
+    },
+    {
+      "id": "context_38_53",
+      "index": 53,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "They were lice infested, right? So highly exploitive. Labor conditions. And there was a huge, huge labor movement in North Idaho. I highly recommend the novel The Cold Millions. If you want to read a little bit about that labor history in Idaho. there's also other great work looking at, labor activism in the mines. and Wallace, the timber wars of 1918 happened, and workers actually gained a tremendous number of rights during this period through really effective collective organizing, with their unions.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:21:44:04]"
+    },
+    {
+      "id": "context_38_54",
+      "index": 54,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And we see, then, of course, there's the Great Depression and we come out of the Great Depression and World War II to that period. And there's actually a lot of prosperity in North Idaho for working class people. And I have a lot of interviews in my books with people whose family logged and in North Idaho during that period, or worked at the mills and talking about, you know, I was a stay at home mom.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:22:18:01]"
+    },
+    {
+      "id": "context_38_55",
+      "index": 55,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "My husband worked in the mill, and we were financially solid. Right. And so trying to understand, well, why was that? It's because of the way the land was taken from indigenous people. the land is valuable because of how indigenous people have, cared for it. And the exploitation then of working class whites, many immigrant communities in, others, which if you want to learn more, you should read chapter two in my book.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:22:42:14]"
+    },
+    {
+      "id": "context_38_56",
+      "index": 56,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Okay. So what happens then? So this is how the space gets created. What happens then? So, this all changes. So this prosperity that I described, kind of this post-World War Two prosperity, changes in the 1980s. it's worth noting, too, the Idaho is the only state that becomes right to work and makes it difficult for, unions to organize in the 1980s.",
+      "tags": [
+        "conflict"
+      ],
+      "timestamp": "[00:23:15:15]"
+    },
+    {
+      "id": "context_38_57",
+      "index": 57,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So Idaho is the only state that becomes right to work in the 1980s? Right. When a lot of mills were unionizing, which is exactly what happens in Dover, the unionized is, I think, in 1988 and closes down six months later. and the 80s are a time of a it's so interesting to me because if you live in the West, you know, the 80s are a time of a lot of economic crisis.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:40:08]"
+    },
+    {
+      "id": "context_38_58",
+      "index": 58,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "not so there's, you know, in cities, a lot of prosperity. They talk about the prosperity and sort of greed and of the 1980s. But in rural communities in the West, it's a time of a lot of economic hardship. So we see the farm crisis and we see significant changes to the mining and timber industries. The most significant, I argue, and least discussed is, due to automation and consolidation.",
+      "tags": [
+        "agriculture",
+        "mining"
+      ],
+      "timestamp": "[00:24:05:20]"
+    },
+    {
+      "id": "context_38_59",
+      "index": 59,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So between 1979 and 2006, the number of mills in North Idaho shrank from 133 to 38, which probably makes sense to people living up here. Right? We saw the mills closing. however, the amount of lumber produced in North Idaho increases in nearly every reported period between 79 and 2006, from 900,000ft in 79 to 1.8 million board feet in 2006.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:31:21]"
+    },
+    {
+      "id": "context_38_60",
+      "index": 60,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And I quit in 2006 because that's when the housing market crashed. these seeming contradictions are explained by the closure of small mills and the growth of much larger ones that needed fewer people to do the same work. Because of this rapid mechanization of the industry, like during the 60 years earlier when workers demanded compensation for their labor, the industry responded with rapid technological intervention to replace humans with machines.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:03:07]"
+    },
+    {
+      "id": "context_38_61",
+      "index": 61,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "one researcher found. Nationwide. During the 80s, production in lumber mills rose by almost 2% a year, and employment in those same mills declined by 2% a year. and those are all if you want those citations, they're all in my book. you can also email me. I'd be happy to send those to you. so Dover's faced with this sort of economic crisis.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:25:29:07]"
+    },
+    {
+      "id": "context_38_62",
+      "index": 62,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The mill closes. They're also faced with many other crises. So they're faced with a water crisis when the mill closes. it sells to. And it's halted. It sells to a developer or landholder. It's not really clear. and now developer sends out a letter to all the residents and tells them that the that their purchase of the mill.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:50:16]"
+    },
+    {
+      "id": "context_38_63",
+      "index": 63,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The mill happens to provide water to everyone in Dover. So the mill had laid the water lines and the had the pump. And Purdue provided the water to Dover. They let the people of Dover know through a letter that their purchase of their water was incidental, and they were going to turn it off. The people of Dover immediately responded and found sort of this loophole law.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:16:17]"
+    },
+    {
+      "id": "context_38_64",
+      "index": 64,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "They said as long as they paid for their water, they could not be turned off. So it was fascinating to be sitting in interviews with residents, and they could pull out cancel checks from that period to prove that they had paid their water bill, because they were so afraid that their water was going to be turned off. The, developer who bought the mill at that time, responded by saying, okay, well, we bought it as is, and we're not doing any repairs.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:39:06]"
+    },
+    {
+      "id": "context_38_65",
+      "index": 65,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The water system at the time was described by one engineering firm that came in, as something more akin to something that you would see in a third world country. it was put under the city of Dover, was put under a boil order. That boil order lasted for six years on top of that. so they would have to boil their water to use it.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:04:09]"
+    },
+    {
+      "id": "context_38_66",
+      "index": 66,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "any time the power went out and meant the pump also went out and their water, and they would have to send someone down to bail all the water out of the pump house and try and restart the water pumps. So this is I always like this picture. It's from the spokesman review of Craig Hofmeister was a city councilor at the time who worked with adults with developmental disabilities, which he goes into great detail.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:28:05]"
+    },
+    {
+      "id": "context_38_67",
+      "index": 67,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Makes a great point in the article. Like that's his background. That's what he's trained to do, trying to get the water turned on so that the city of Dover has water at Christmas time so residents can't sell their homes because they're under this boil order. let's see,",
+      "tags": [
+
+      ],
+      "timestamp": "[00:27:52:12]"
+    },
+    {
+      "id": "context_38_68",
+      "index": 68,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And not only that, the city of Dover also faces a crisis with their sewer system. So, well, they don't really have a sewer system. They have a leech field. most people have septic tanks, but it's bubbling up effluent into the watershed. And so they get red tagged, meaning they can build no new homes. ironically.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:10:08]"
+    },
+    {
+      "id": "context_38_69",
+      "index": 69,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So this is a little bit out of order here. the mill burns down not too long after it's sold. not too long after the city of Dover finally got its water system fixed. So the city of Dover was under boil order for six years. They, had to incorporate and then apply for loans for a low income community to rebuild their water system.",
+      "tags": [
+        "economy"
+      ],
+      "timestamp": "[00:28:33:19]"
+    },
+    {
+      "id": "context_38_70",
+      "index": 70,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So that's a quite a long time. As soon as it's built, the mill burns down. and the mill had turned off the water to many of the hydrants that they had maintained, but they hadn't let the fire department know. So, they were doing some salvage work on them, some of the mill sites to get prepare it, maybe for development.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:28:58:17]"
+    },
+    {
+      "id": "context_38_71",
+      "index": 71,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "which sparked a blaze. I this chapter was really interesting to write because there was a lot of speculation. I know somebody in the community had recently called the EPA to, to report that the, work being done in the community they thought violated some of the rules of, that the EPA had allowed. And, like two days later, the mill burned down.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:22:02]"
+    },
+    {
+      "id": "context_38_72",
+      "index": 72,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So the newspaper articles, from that period are really, really interesting. And I quote from them pretty extensively in the book. Right. So create the space and then the spaces literally sort of literally and figuratively destroyed. Right. You don't provide water to the community. you require don't support their efforts to, rebuild their sewer system. So one of the things that was shocking to me and trying to figure out, well, how the development happened, right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:29:44:07]"
+    },
+    {
+      "id": "context_38_73",
+      "index": 73,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And there's all these theories people are talking about why it got resolved and what I figured out through archival research is that Dover was rezoned because the city got a loan to rebuild their sewer system, but it required somewhere to put a sewer plant. They needed like 13 acres to build a sewer plant. So they intended to use eminent domain to rebuild their sewer plant.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:30:13:16]"
+    },
+    {
+      "id": "context_38_74",
+      "index": 74,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And they sent a letter to the mill, owner, developer, whoever it is, has it at that point and tells them that they would like to purchase their, 13 acres to build this sewer plant at market prices. and the developer says, nope, not unless you rezone it for a planned use development in the city of Dover said, nope, we're not going to do that.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:30:36:18]"
+    },
+    {
+      "id": "context_38_75",
+      "index": 75,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And essentially what happens is a judge decides that in order for the city of Dover to get those 13 acres to build their sewer, that they have to rezone their community for a planned use development. And what's fascinating about this, so this happens, I think, in 1996, and trying to look at my articles here. what's so fascinating about this is a number of things.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:01:22]"
+    },
+    {
+      "id": "context_38_76",
+      "index": 76,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Right? So the reason that the city of Dover sort of went along with it was that these loans are difficult to get, and they have timelines attached to them. So the city of Dover was up against this timeline that if they didn't use the funds, if they didn't have a plan in place to use the funds, the funds would be pulled.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:25:14]"
+    },
+    {
+      "id": "context_38_77",
+      "index": 77,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "They also had homes that were red tape, meaning it was very difficult for them to sell their home. So, they were sort of in this crisis moment. I also just personally thought it was really fascinating that this happened so quickly, that most people in the community did not realize that the planned use development had been put into place in 1996, because there's not really a development plan that goes into place until, the mid 2000.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:31:42:17]"
+    },
+    {
+      "id": "context_38_78",
+      "index": 78,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "So really the and there were a number of, sort of strings attached to that USDA loan that the City of Dover thought meant that that made it difficult for that land to be, built on, to be developed. So the USDA put restrictions on building within the 100 year flood plain. so you couldn't connect to the sewer if you were building within the 100 year flood plain and a lot of, the Dover a lot of the development is built on 100 year flood plain.",
+      "tags": [
+        "education",
+        "environment"
+      ],
+      "timestamp": "[00:32:10:23]"
+    },
+    {
+      "id": "context_38_79",
+      "index": 79,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "And then, you're able to get around that by buying out the USDA loan for that portion of the project. Right. So really interesting things, that show that by creating crisis, infrastructural crisis, it may the city of Dover have to make decisions and push them into, having court cases ruled against them. so think it build, destroy and then development to create openings for fresh accumulation of wealth for people outside the area to come in.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:32:42:07]"
+    },
+    {
+      "id": "context_38_80",
+      "index": 80,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "I'm going to read you a short, portion of that conclusion. And just like in the introduction, I'll have some images, that I put behind that mostly, the development. So Mill Lake is a similar reference. Oh, and Mill Lake is the pseudonym I give for my, for the development. Mill Lake is a similar grove for the American West that never existed.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:33:24:08]"
+    },
+    {
+      "id": "context_38_81",
+      "index": 81,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Mill Lake is old timey street lamps and fountains set against the scenic beauty of the river. In the mountains. Mill Lake is a sparkling new Dover City Hall that sits at the lake's edge, with vaulted ceilings and exposed beams showing off the timber that at one time would have been harvested by Dover residents and processed at the Dover Mill today probably came from Canada.",
+      "tags": [
+        "environment"
+      ],
+      "timestamp": "[00:33:47:16]"
+    },
+    {
+      "id": "context_38_82",
+      "index": 82,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Milling means realtors rushing around looking for the omnipresent, moves to entice buyers with what they call a mill lake moment, and hoping the the moose doesn't charge them when they find it. What is missing from the simulacra? Of course, are the people of Old Dover, in small and large ways, are erased from the community. Each single change is magnified against a backdrop of historic changes today, and Old Dover, a maroon for each bus, sits in someone's yard.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:08:23]"
+    },
+    {
+      "id": "context_38_83",
+      "index": 83,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "It's half storage unit, half garden statue, a reminder of a time when a small community could fill a bus with kids and head to a neighboring community equally full of kids in Mill Lake, streets are named after the old timers whose family settled in Dover 100 years ago, but whose children cannot afford to live on the streets that bear them.",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[00:34:37:11]"
+    },
+    {
+      "id": "context_38_84",
+      "index": 84,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "What happened in Dover is happening across the Pacific Northwest and the American West. More broadly, communities that undergo processes like this are sometimes referred to as lucky, since the alternative is often to be essentially raced off the map.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:34:56:11]"
+    },
+    {
+      "id": "context_38_85",
+      "index": 85,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The winners of these processes talk about rural revitalization, but the process is inherently uneven. Unequal wealth only returns to areas that were previous exploited in a boom and bust cycle by people who accumulated wealth elsewhere. When wealth returns, it must extract the resources of the community again. But now, instead of cleaning timber, workers clear tables and they fight to survive in an especially exploitative service economy in Idaho 2020, the minimum wage for tipped workers is 335 an hour.",
+      "tags": [
+        "agriculture",
+        "economy"
+      ],
+      "timestamp": "[00:35:12:14]"
+    },
+    {
+      "id": "context_38_86",
+      "index": 86,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "For residents of Old Dover, this doesn't feel much like a revitalization.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:48:09]"
+    },
+    {
+      "id": "context_38_87",
+      "index": 87,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "But there were processes and histories that brought Mill Lake to Dover, and other developments to other communities are often hard to discern. They're obscured behind the notion that the market is a natural force, sweeping across the region in ways that cannot be altered. It leads to anger from working class people. But it's ankle anger, coupled with frustration and often apathy.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:35:54:09]"
+    },
+    {
+      "id": "context_38_88",
+      "index": 88,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The folks of Old Dover learned long ago that their rights as a community were never going to outweigh the prospects of profit. They had gleaned stability and prosperity when their labor was key to making those profits. But now that landowners profited by marketing the scenic beauty of the landscape, there's no longer a place for them, and they have resigned themselves to seeing this as progress.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:15:07]"
+    },
+    {
+      "id": "context_38_89",
+      "index": 89,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "Sometimes this anger at the injustice of the system finds its ways to people like environmentalists. Despite evidence indicating that the timber companies competing in a global market themselves abandoned these communities in order to profit elsewhere, the anger isn't amplified by those who claim that tourist based economies are more environmentally sound than extractive industries, which is a debatable claim.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:36:38:04]"
+    },
+    {
+      "id": "context_38_90",
+      "index": 90,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "But more importantly, such claims suggest that the human suffering of the people left behind is an acceptable price to pay to protect the natural world. It suggests having a beautiful place to tootle around on a motorboat or ski is more important than people's ability to provide for their families. Against these debates, it bears repeating that the market is not a natural force.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:03:24]"
+    },
+    {
+      "id": "context_38_91",
+      "index": 91,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "The practices and policies that we loosely call the free market are anything but free, and they are created by people who benefit from them in order for their interests to seem natural. Across time and throughout history, most people have lived in arrangements that did not lead to these kinds of boom and bust cycles that have gripped the American West, and it is possible to create a future that does not rely upon them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:37:27:14]"
+    },
+    {
+      "id": "context_38_92",
+      "index": 92,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "I just want to end, with some images, sort of historic pictures of Kalispell people and, contemporary pictures of Kalispell people, because I think it's important to remember that for most of human history in North Idaho, these boom and bust cycles were not normal. this is an image of Kalispell and a number of Salish tribes.",
+      "tags": [
+        "indigenous"
+      ],
+      "timestamp": "[00:37:53:20]"
+    },
+    {
+      "id": "context_38_93",
+      "index": 93,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "doing a return trip up the river, from Washington up to the Sandpoint City beach. That happened in 2017. It was one of the first, I think, in like 100 years that that had happened. So there are different ways of envisioning our future. And I think that, one of the things my project does is tells us that in order to create a different future, we have to first envision that in order to envision that, we have to have a full understanding of how we got here.",
+      "tags": [
+        "sandpoint"
+      ],
+      "timestamp": "[00:38:28:23]"
+    },
+    {
+      "id": "context_38_94",
+      "index": 94,
+      "speaker": "Dr. Ryanne Pilgeram",
+      "words": "thanks for if you've listened this far, I hope you go to your local library. You do not have to buy my book. Go to your local library and ask them to get a copy, or hopefully they already have a copy. check it out. Read it at your library. feel free to reach out to me if you have questions I'm always happy to talk about this is is been a really, important project for me personally.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:39:01:05]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 95,
+    "description": "A small town weighs the economic compromises of growth in the Rocky Mountain West. Dr. Ryanne Pilgeram from University of Idaho joins us to discuss her book on Dover, Idaho titled \"Pushed Out.\" What happens to rural communities when their traditional economic base collapses? When new money comes in, who gets left behind? Pushed Out offers a rich portrait of Dover, Idaho, whose transformation from “thriving timber mill town” to “economically depressed small town” to “trendy second-home location” over the past four decades embodies the story and challenges of many other rural communities. Check out her book at the Book People store in Moscow or Vanderford’s in Sandpoint.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}

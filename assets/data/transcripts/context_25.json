@@ -1,0 +1,642 @@
+{
+  "title": "The Black History Research Lab at the University of Idaho",
+  "interviewee": "Dr. Sydney Freeman, Jr.",
+  "interviewer": "Johanna Bringhurst",
+  "date": "2023-10-11",
+  "subjects": [
+    "african american",
+    "history (discipline)",
+    "social history"
+  ],
+  "segments": [
+    {
+      "id": "context_25_0",
+      "index": 0,
+      "speaker": null,
+      "words": null,
+      "tags": [
+
+      ],
+      "timestamp": null
+    },
+    {
+      "id": "context_25_1",
+      "index": 1,
+      "speaker": "Johanna Bringhurst",
+      "words": "Hello everyone, and welcome to. Context. This program is brought to you by the Idaho Humanities Council with funding from the National Endowment for the Humanities. The views expressed here today do not necessarily represent those of the IHC or the NIH. My name is Johanna Bringhurst. And joining us today is Doctor Sydney Freeman. He is a full professor within the leadership and counseling department at the University of Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:00:00]"
+    },
+    {
+      "id": "context_25_2",
+      "index": 2,
+      "speaker": "Johanna Bringhurst",
+      "words": "He recently earned the Distinguished title of fellow of the Royal Historical Society from the United Kingdom's foremost professional association of historians and history. Under his leadership as the founder and director of the University of Idaho, Idaho's Black History Research Lab, the lab has received letters of commendation from the US Senate and the governor of the State of Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:30:00]"
+    },
+    {
+      "id": "context_25_3",
+      "index": 3,
+      "speaker": "Johanna Bringhurst",
+      "words": "Sydney is a prolific author with nearly 100 publications to his credit, and he has lectured and presented at institutions such as Harvard University, Oxford University, Jerusalem College of Technology, and RMIT University, Vietnam. Saigon. His nationally and internationally recognized for his historical scholarship in the areas of black studies and religion. Doctor Freeman was honored as one of the accomplished under 40 Award recipients for 2020 by the Idaho Business Review.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:00:55:12]"
+    },
+    {
+      "id": "context_25_4",
+      "index": 4,
+      "speaker": "Johanna Bringhurst",
+      "words": "He is the founding director of the university's Black History Research Lab, and the recipient of the 2022 Carlos J. Biagio Memorial Award for Exemplary Scholarship awarded by the multicultural Multi-Ethnic Education Theory, Research and Practice Group within the American Educational Research Association. This past April, he was named one of the stellar 40 under 40 Alumni of Oakwood University. In June, he received both the 2020 2023 McInnis Ryan mid-career leadership Award from the American University Association of Administrators, and the Astro Perpetua Award from the Idaho State Historical Society for his scholarship relating to preserving black history in Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:01:27:29]"
+    },
+    {
+      "id": "context_25_5",
+      "index": 5,
+      "speaker": "Johanna Bringhurst",
+      "words": "And in September, he will receive the 2023 American Association for State and Local Histories Excellence in Leadership and History Award on behalf of the University of Idaho Black History Research Lab. And I believe, Doctor Freeman, you just received that award this last week. Is that right?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:18:05]"
+    },
+    {
+      "id": "context_25_6",
+      "index": 6,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Yes, that is exactly right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:37:04]"
+    },
+    {
+      "id": "context_25_7",
+      "index": 7,
+      "speaker": "Johanna Bringhurst",
+      "words": "Congratulations. And thank you so much for joining us today so that we can learn more about the Black History Research Lab at the University of Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:39:19]"
+    },
+    {
+      "id": "context_25_8",
+      "index": 8,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Thank you so much for this opportunity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:49:11]"
+    },
+    {
+      "id": "context_25_9",
+      "index": 9,
+      "speaker": "Johanna Bringhurst",
+      "words": "So you describe yourself not as a historian, but as both a memory keeper and experience keeper. Why is that?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:02:52:12]"
+    },
+    {
+      "id": "context_25_10",
+      "index": 10,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Yes, because I am not classically trained as a humanities scholar or a historian, although I've taken, you know, your basic history classes in your kind of general ed curriculum. And then within the last couple of years, I audited a history course. but the work in which I I've done is one of being a memory keeper, one who is finding ways to keep, information alive.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:03:02:18]"
+    },
+    {
+      "id": "context_25_11",
+      "index": 11,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "The the the biographies of those who have come before, particularly in the black community, to keep their names and their contributions and their legacies alive. And when we talk about being an experience giver, I'm talking about the ways in which, me and my team curate, these experiences to share with others, whether it's online, via a kind of online archive, archival museum or, a exhibit that goes around the state, sharing the, experiences and contributions of blacks to the University of Idaho.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:03:39:19]"
+    },
+    {
+      "id": "context_25_12",
+      "index": 12,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And so that's why I describe myself as a memory keeper and an experience giver.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:23:18]"
+    },
+    {
+      "id": "context_25_13",
+      "index": 13,
+      "speaker": "Johanna Bringhurst",
+      "words": "How did you begin engaging in public history projects, even though you had pretty limited training in the humanities?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:30:23]"
+    },
+    {
+      "id": "context_25_14",
+      "index": 14,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Yeah. So, when I first I've always had interest in history. Right. And, what really got me excited about studying more was when I arrived in Idaho, I wanted to get a sense of, where I was and in relationship to other African-Americans or black people at the institution. How many black black faculty do we have? Right.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:04:38:22]"
+    },
+    {
+      "id": "context_25_15",
+      "index": 15,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "How many? You know, how many have been administrators? Things like that. And so that took me down kind of a spiral. What I wanted to learn the history of the contributions of blacks, because people would say that they didn't think that there was a black history, of the University of Idaho. And the more and more, we did research, we found, that black people had provided significant contributions to the university.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:05:10:23]"
+    },
+    {
+      "id": "context_25_16",
+      "index": 16,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And so it was really important for, for me and, many of my students to, uncover that history and share with others. So it could be an inspiration for generations yet unborn as, as our grandparents would say.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:41:25]"
+    },
+    {
+      "id": "context_25_17",
+      "index": 17,
+      "speaker": "Johanna Bringhurst",
+      "words": "How did the Black History Research Lab get started? And what is your mission and your goals for the lab?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:05:59:12]"
+    },
+    {
+      "id": "context_25_18",
+      "index": 18,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Yeah. So it started really? so prior, I would say prior to the pandemic, maybe about 2 or 3 years, I was doing my own little history projects with students. So I'm so, mind you, I my primary position is that of a professor in a college of education, health and human sciences. And I teach leadership classes. However, because of my interest in black studies, I have an affiliation with the Africana Studies program.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:06:24]"
+    },
+    {
+      "id": "context_25_19",
+      "index": 19,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And then, because of my interest in historical narratives and things like that, I built a relationship with the history department. And what they would allow me to do in the history department would be to facilitate in turn, ship opportunities for our students. and, because I don't teach undergrad students was a great opportunity to engage undergrads with students in these internships.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:06:49:15]"
+    },
+    {
+      "id": "context_25_20",
+      "index": 20,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And this was each semester. And so we just started looking at, going to the archives and trying to dig up information related to blacks here at the institution. And we would do little small projects. and that was going on for, probably, 2 to 3 years. But then in 2020, after the unfortunate murder of George Floyd, the institution was trying to find ways in which to show that black lives mattered at the institution.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:07:19:01]"
+    },
+    {
+      "id": "context_25_21",
+      "index": 21,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And one of the recommendations that I made both to them. But, I had written an article that went viral, nationally and internationally around, points of, ways in which predominantly white institutions like the University of Idaho could contribute to, the black community on their campuses. One of the things I said was it was important for them to invest in a, historical research around black contributions at their institutions.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:07:56:09]"
+    },
+    {
+      "id": "context_25_22",
+      "index": 22,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Right. And that history and so our and so our institution provided a $10,000 grant, via the president's office, and I leveraged those dollars and turned it into a lab to those that, you know, you know, the science, the heart scientists would say, how did you do that with $10,000? But we were, one of the things I'm pretty proud of was I was able to I was able to, work with the Office of Research to get, a space, a lab space within the top research within the research space within the campus.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:08:32:09]"
+    },
+    {
+      "id": "context_25_23",
+      "index": 23,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "and so that's a big deal, because we are the only standalone humanities social science project within that, within that building, which is called, Iraq. and so from there, we began to really leverage that, that those resources and creating exhibits on campus around the contributions of blacks to the institution.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:16:18]"
+    },
+    {
+      "id": "context_25_24",
+      "index": 24,
+      "speaker": "Johanna Bringhurst",
+      "words": "You've accomplished so much. I wonder if, if and how you encountered challenges along the way to be to creating the lab and how you handle them.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:09:45:14]"
+    },
+    {
+      "id": "context_25_25",
+      "index": 25,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "So, one of the big challenges that I have experience is that, in academic environments, often research is siloed. And so people see your work as kind of this cute little boutique project rather than something that is a core, part of the mission of the institution, right to serve all students, all faculty and staff. And so that often that often is a challenge when partnering with other units where, there are often pressures on people to, to do multiple projects.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:09:59:07]"
+    },
+    {
+      "id": "context_25_26",
+      "index": 26,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And then when you're talking about a particular population that is less than 1% of the campus, or, excuse me, just a little over 1%, excuse me, of the students, with students of faculty and staff on campus, you can often be, overlooked, if, if you're not careful. So I have to make a lot of noise to make sure.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:10:43:00]"
+    },
+    {
+      "id": "context_25_27",
+      "index": 27,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Make sure that our our voices are heard. There's often challenges around lack of finances. and some of that is when we're just talking about the mission. People may talk about diversity, equity and inclusion as something that is important. however, those dollars don't necessarily always line up, with that. And so the idea is that you go after grants and look, look for external funding.",
+      "tags": [
+        "culture"
+      ],
+      "timestamp": "[00:11:05:20]"
+    },
+    {
+      "id": "context_25_28",
+      "index": 28,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Well, as we all know, and I'm sure the Idaho Humanities Council has experienced this, there is limited funding for many humanities projects. And so that's always, something that, you have to navigate. And I would say lastly, black consciousness. Right. And so when you're having, a lack of a critical mass, there are some things that you often have to navigate.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:11:35:29]"
+    },
+    {
+      "id": "context_25_29",
+      "index": 29,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "My wife and I right now are the only, African American. And what I mean by African-American, I mean American descendants of slaves, those who, whose great great great great great great grandparents, were enslaved here in this country. we're the only where the only faculty members here with that lineage. the others, the other faculty on campus may come for the Caribbean are come from Africa.",
+      "tags": [
+        "history"
+      ],
+      "timestamp": "[00:12:05:23]"
+    },
+    {
+      "id": "context_25_30",
+      "index": 30,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "So their relationship to this country is often different. Right. And so, I'll give you I'll give you an egg example. So if you are from a country, a country in Africa, this is perceived as the land of opportunity. this is a land that is, has been gracious enough to allow you to come to the country, to to learn and to also, to teach and make a better, better life for your family.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:12:37:00]"
+    },
+    {
+      "id": "context_25_31",
+      "index": 31,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Whereas I have a particular, I have my wife may have a particular ownership of this country in a different type of way and will critique this country in a different type of way. And that spills over, and the ways in which we look at the institution and its research. Right. So I'm going to look at, the history of the institution and having examples of the KKK, being on campus.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:13:11:00]"
+    },
+    {
+      "id": "context_25_32",
+      "index": 32,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Right. And in a way that's different than someone who did not have, that kind of legacy to the, to this country and the institution. So those are some of the challenges, that that we have and we've had to navigate, having, a lot of, most of the students that have worked with the lab, have been white students, even though we do have, blacks, we do have black students that have work with the lab, but the majority have been white students.",
+      "tags": [
+        "history"
+      ],
+      "timestamp": "[00:13:38:11]"
+    },
+    {
+      "id": "context_25_33",
+      "index": 33,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And so there's always kind of this navigating, when we're writing the narrative, how can we ensure that the narrative, remains centering, black people rather than what they call the white gaze? Right. How will it, be viewed by administrators or white alumni and things like that, but really tell the story from a, black, a black perspective.",
+      "tags": [
+        "literature"
+      ],
+      "timestamp": "[00:14:11:23]"
+    },
+    {
+      "id": "context_25_34",
+      "index": 34,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "So those are some of the challenges that we've had.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:38:16]"
+    },
+    {
+      "id": "context_25_35",
+      "index": 35,
+      "speaker": "Johanna Bringhurst",
+      "words": "You mentioned, a connection from between the university and the KKK. Would you elaborate on that and explain about this part of history?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:14:41:18]"
+    },
+    {
+      "id": "context_25_36",
+      "index": 36,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Yeah. So there was in there was a clear episode, I believe it was in the in the 60s where we had established a black student union on campus, and there was a particular, space that was allocated to the Black Student Union for their meetings and other events. And, one of the local radio, one of the, local radio personalities that work with the radio station on campus and also served as a security guard.",
+      "tags": [
+        "education",
+        "labor"
+      ],
+      "timestamp": "[00:14:53:04]"
+    },
+    {
+      "id": "context_25_37",
+      "index": 37,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "that gentleman found a, a KKK robe and, went towards the, the Black Student Union. Union space. and so there have been clear, documentation where the students really pushed back. The black students really pushed back on that and felt like, they were being people were trying to intimidate, intimidate them. you also, even in modern, modern times, you've had people who have wore, you know, KKK robes as a, as a, going Halloween or something, right.",
+      "tags": [
+        "education",
+        "labor"
+      ],
+      "timestamp": "[00:15:26:03]"
+    },
+    {
+      "id": "context_25_38",
+      "index": 38,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "and so you have these, these things that we don't talk about openly. but I think it's really important that that we be honest about, honest and forthright and tell a full story. So while black people have contributed greatly to this, see, this, institution and this institution has provided, tremendous opportunities for our black population, we also have to be honest about the anti-Blackness that, has been perpetuated over the years and in some cases, still so happens.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:13:01]"
+    },
+    {
+      "id": "context_25_39",
+      "index": 39,
+      "speaker": "Johanna Bringhurst",
+      "words": "It's such a gift to have your lab at the university and here in Idaho to help us reckon with our history. What projects are you working on right now?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:16:49:03]"
+    },
+    {
+      "id": "context_25_40",
+      "index": 40,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "so we actually have a open access, book that we have launched, last year that we've gotten, great, feedback on and reviews on. I work with a former student of ours to launch this particular book. And, the book is contributing, is, contributions of black to black to the University of Idaho and, and it's perspective futures, where we kind of use an Afro futuristic approach to thinking about what we would like to see in the future related to, the black population on campus.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:17:01:18]"
+    },
+    {
+      "id": "context_25_41",
+      "index": 41,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "and so, we did a survey of similar units at institutions. So people who they may not be called a Black History Research Lab, but they may may be a center or an institute. And the one thing that we had not, really looked at during was launch. It was launching a curriculum. So creating the tie between the research and, the classroom.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:17:42:23]"
+    },
+    {
+      "id": "context_25_42",
+      "index": 42,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And so what we did was, we hired a former, student here at the Institute to help develop a online curriculum that will be launched, will be launched in February. of next year. And one of the other things that we are in conversation, conversation about doing is finding ways is ways to create historical markers across campus, related to the contributions of blacks at the University of Idaho.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:18:12:06]"
+    },
+    {
+      "id": "context_25_43",
+      "index": 43,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Our understanding is that the university has kind of a broader, initiative going on related to doing a historical district. And so it looks like we'll be partnering our ideas with their ideas to make sure that we get as much traction as possible on this initiative.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:18:45:04]"
+    },
+    {
+      "id": "context_25_44",
+      "index": 44,
+      "speaker": "Johanna Bringhurst",
+      "words": "That sounds incredible. If our listeners want to support the work that you're doing at the lab, what is the best way to connect with you and to support your work?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:19:01:22]"
+    },
+    {
+      "id": "context_25_45",
+      "index": 45,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Yes. So one way that you can do that is emailing me directly at Freeman J r at U Idaho that edu. Another way you can do that is just googling, Sydney Freeman Junior or the University of Idaho's Black History Research Lab, and there'll be multiple links that will come up where you can find out more about our work.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:19:12:06]"
+    },
+    {
+      "id": "context_25_46",
+      "index": 46,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "one of the things that, we've tried to do is make our work accessible in multiple ways. So we have two websites, one that directly tells you about the Black History Research Lab. But then there's another website, that is associated with the library, where the University of Idaho's library, where it outlines things, so much, of of the contributions that blacks have made to the institution.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:19:44:00]"
+    },
+    {
+      "id": "context_25_47",
+      "index": 47,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "So you can find research articles, you can find videos, you can find pictures, all kinds of things. You can actually access the book, the book in that way. Also, another way in which, we've been able to get the information out in a different way is to create a physical exhibit. We've had that physical exhibit, hosted at museums, hosted at museums, namely the Idaho Black History Museum there in Boise.",
+      "tags": [
+        "education",
+        "boise"
+      ],
+      "timestamp": "[00:20:18:17]"
+    },
+    {
+      "id": "context_25_48",
+      "index": 48,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "We've had it, in theaters, the Kenworthy Theater, theater in Moscow, and Moscow, Idaho. And, we've had it on different, university campuses. And so what we've tried to do is to share this information in different ways, whether it's a book, whether it's a website, whether it's a, traveling, traveling, exhibit, our, our job.",
+      "tags": [
+        "moscow"
+      ],
+      "timestamp": "[00:20:51:16]"
+    },
+    {
+      "id": "context_25_49",
+      "index": 49,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And now as I'm, as I'm sharing with you, sharing it through an open access class. So that class, the curriculum will be accessible to anyone in the world. the idea is that, we don't want to create barriers. We're trying to, create, ways in which is easy, easy, and accessible to get this information. And we're hoping, to do even more in the very near future.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:21:22:27]"
+    },
+    {
+      "id": "context_25_50",
+      "index": 50,
+      "speaker": "Johanna Bringhurst",
+      "words": "That's so exciting to hear. How do you hope that the lab will change and grow in the future?",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:51:21]"
+    },
+    {
+      "id": "context_25_51",
+      "index": 51,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Yeah. So one of the things that my mentor has, his name is, Ronnie Van der Haus. he's shared with me that, that I am a seed planter. And so sometimes what what what happens with those who are visionaries that are in and positions like myself where, there's not necessarily a critical mass that is able to support you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:21:59:05]"
+    },
+    {
+      "id": "context_25_52",
+      "index": 52,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "You feel like you have to do everything in the time that you're there. Right? And so what he's done and other mentors have helped me to understand that I'm part of a great legacy. I'm grabbing the baton from I've grabbed the baton from others, whereas I'm going to have to, pass the baton to those who are in the future.",
+      "tags": [
+        "history"
+      ],
+      "timestamp": "[00:22:27:08]"
+    },
+    {
+      "id": "context_25_53",
+      "index": 53,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And sometimes you you may not meet the people that pick up the work that you're doing. So my job is to plant as many seeds as possible in many and as many different ways as possible. And you're hoping that someone else comes and water to seed, and someone else makes sure that the seed that once the the seed sprouts, that it gets enough sunlight and all those kinds of things.",
+      "tags": [
+        "agriculture"
+      ],
+      "timestamp": "[00:22:47:07]"
+    },
+    {
+      "id": "context_25_54",
+      "index": 54,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And so that's the way in which I, I am approaching, the work, we have some great partnerships. So I would be remiss to not mention the partnership that we've had with the library, the archives, Department archives and research department within the University of Idaho's library. the black of the black cultural, black and African-American cultural center on campus has been a great partner.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:23:12:08]"
+    },
+    {
+      "id": "context_25_55",
+      "index": 55,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "The history department, has been wonderful, support to us. And then I would also be remiss if I, if I didn't mention my own college, they would get on me. So my own college of of education, health and human sciences have been great partners in ensuring that this work moves forward. I also want to say this.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:23:40:08]"
+    },
+    {
+      "id": "context_25_56",
+      "index": 56,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "I understand that we are in a historical moment. It is not, it does not miss me that, we're in a time where in Florida, people of Florida and, and I was going to say Arizona. But in Arkansas, you're having, state officials like their governors, trying to rewrite, black history. So it's really important that, and even in Idaho, there's an argument about, about black history here in this state.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:24:03:25]"
+    },
+    {
+      "id": "context_25_57",
+      "index": 57,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And so I'm always clear about this is not just woke, woke scholarship, as some people try to demean, the type of work in which we're engaging in with this is true full scholarship and, historical scholarship. And I would dare say that you can't tell the story of Idaho, the true story of Idaho, without including, the black people who have contributed so much to make Idaho the state that it is.",
+      "tags": [
+        "education"
+      ],
+      "timestamp": "[00:24:42:08]"
+    },
+    {
+      "id": "context_25_58",
+      "index": 58,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "And so I call it an honor and privilege to be in such a position to, share, to share this information as a memory keeper and as a, as a experience giver. And I hope that this inspires people, as I said, yet unborn, they're not born yet, but they'll they'll learn from the information that the seeds that we've planted, at this moment in time.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:09:03]"
+    },
+    {
+      "id": "context_25_59",
+      "index": 59,
+      "speaker": "Johanna Bringhurst",
+      "words": "Doctor Freeman, thank you so much for helping all of us who call Idaho home, preserve those memories and understand the full experiences and narrative of our history. It's so lovely to get to talk to you, and we just really wish you all the best in the work that you're doing.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:37:06]"
+    },
+    {
+      "id": "context_25_60",
+      "index": 60,
+      "speaker": "Dr. Sydney Freeman, Jr.",
+      "words": "Okay, thank you so much for this opportunity.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:25:57:09]"
+    },
+    {
+      "id": "context_25_61",
+      "index": 61,
+      "speaker": "Johanna Bringhurst",
+      "words": "Thank you.",
+      "tags": [
+
+      ],
+      "timestamp": "[00:26:00:20]"
+    }
+  ],
+  "metadata": {
+    "totalSegments": 62,
+    "description": "Dr. Sydney Freeman, Jr. from the University of Idaho joins Johanna to talk about the Black History Research Lab and the important work he is performing as a memory keeper.",
+    "location": null,
+    "source": "Context, Idaho Humanities Council, https://idahohumanities.org/programs/connected-conversations/"
+  }
+}
