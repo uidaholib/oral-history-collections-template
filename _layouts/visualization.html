@@ -54,7 +54,7 @@ custom-foot: transcript/js/visualization-js.html
    <section class="vizdiv mt-2" id="vizdiv-{{ transcript-name }}" aria-hidden="true">
     <div class="d-flex justify-content-between align-items-center mb-1">
       <a id="header{{ transcript-name }}visualization" class="small mb-0" href="{{ transcript-name | prepend: '/items/' | append: '.html' | relative_url }}" title="View full interview page" aria-hidden="true" tabindex="-1">
-        {{ transcript_item.title | default: transcript_item.title }}</a>
+        {{ transcript_item.title | default: transcript_item.title | truncatewords: 10 }}</a>
       <div class="btn-group btn-group-sm ms-2" role="group" aria-label="Actions for {{ transcript_item.title }}" aria-hidden="true" tabindex="-1">
         <button class="btn btn-outline-dark btn-sm toggle_int" data-id="{{ transcript-name }}" title="Show only this interview" tabindex="-1">
           Filter
