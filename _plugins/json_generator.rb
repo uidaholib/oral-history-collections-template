@@ -98,35 +98,6 @@ module Jekyll
         file.write(JSON.pretty_generate(index_data))
       end
       
-      # Store collection file in a hidden directory that Jekyll won't watch
-      src_path = File.join(site.source, '.data')  # Changed to .data directory
-      data_path = File.join(src_path, 'transcript-collection.json')
-      
-      # Add timestamp check
-      should_write = true
-      if File.exist?(data_path)
-        file_age = Time.now - File.mtime(data_path)
-        should_write = file_age > 60 # Only write if more than 1 minute has passed
-        
-        if should_write
-          existing_content = File.read(data_path)
-          new_content = JSON.pretty_generate(collection_data)
-          existing_hash = Digest::SHA256.hexdigest(existing_content)
-          new_hash = Digest::SHA256.hexdigest(new_content)
-          should_write = (existing_hash != new_hash)
-        end
-      end
-      
-      # Only write if content is different, to avoid regeneration loops
-      if should_write
-        FileUtils.mkdir_p(src_path)
-        File.open(data_path, 'w') do |file|
-          file.write(JSON.pretty_generate(collection_data))
-        end
-        puts "Updated _data/transcript-collection.json with new content"
-      else
-        puts "No changes to _data/transcript-collection.json, keeping existing file"
-      end
     end
   end
 end
