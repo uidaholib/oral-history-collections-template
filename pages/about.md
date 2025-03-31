@@ -5,7 +5,7 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-featured-image: https://objects.lib.uidaho.edu/context/context_111.jpg
+featured-image: https://objects.lib.uidaho.edu/context/context_banner.jpg
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image. By default this will be the site title. Give the value false for no heading.
@@ -58,6 +58,3 @@ We are all fellow travelers on this journey through humanity/the human experienc
 
 Presented by the Idaho Humanities Council, Context is our way of connecting you to experts, scholars, and ideas. Our goal is to help provide context on topics, both fun and serious, which shape the world we live in. We hope to strike the spark on your sense of exploration and discovery as you listen. Get involved at www.idahohumanities.org" speaker="Idaho Humanities Council" %}
 
-## Cover Image Attribution
-
-Photograph courtesy Roger Peterson of the US Forest Service under CC 2.0 license. ["Along the Nez Perce National Historic Trail Lolo Motorway, central Idaho, August 13th 2015."](https://www.flickr.com/photos/fsnorthernregion/20521907423/){:target="_blank" rel="noopener"} 
