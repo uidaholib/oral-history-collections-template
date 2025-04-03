@@ -22,7 +22,7 @@ padding: 8em
 
 On June 2, 2020, the Idaho Humanities Council debuted a new program called Connected Conversations. The purpose of this program was to bring Idahoans together virtually to explore humanities topics with scholars around the state and the nation while it was unsafe to gather in person because of the COVID virus. 
 
-Humanities scholars would make a presentation on their research and then take questions from the audience. Originally, Connected Conversations were live events, but over time, the IHC realized that this content could be accessed by a wider audience in a podcast form without live participation. People were also suffering from Zoom fatigue and live virtual events became less popular. 
+Humanities scholars would make a presentation on their research and then take questions from the audience. Originally, Connected Conversations were live events, but over time, the IHC realized that this content could be accessed by a wider audience in a podcast form without live participation. Over time, people were also suffering from Zoom fatigue and live virtual events became less popular. 
 
 In 2022, IHC shifted the format and renamed this program to Context. The stated goal of the podcast was to connect Idahoans to experts, scholars, and ideas. "Our goal is to help provide context on topics, both fun and serious, which shape the world we live in. We hope to strike the spark on your sense of exploration and discovery as you listen."
 
@@ -34,7 +34,7 @@ The [Idaho Humanities Council (IHC)](https://idahohumanities.org/) is a non-prof
 
 The IHC is dedicated to serving Idaho citizens by promoting greater public awareness, appreciation, and understanding of the humanities. The Council accomplishes its mission by awarding grants to organizations statewide, and by working with organizations as partners to develop local humanities projects and programs, and by sponsoring its own Council-conducted programs, such as summer institutes in the humanities for K-12 teachers, library reading/discussion programs in small communities, traveling exhibitions from the Smithsonian Institution, a Humanities Speakers Bureau, Distinguished Humanities Lectures, and other projects and programs limited only by the imagination. 
 
-Our guiding principles:
+IHC guiding principles:
 
 - We believe that the humanities should be open, accessible, and welcoming to all Idahoans. 
 - We believe that every story contributes to a deeper understanding of being human. 
@@ -47,7 +47,7 @@ The vision of the IHC is that the humanities inspire a more literate, tolerant a
 
 ## About the Collection 
 
-The items in this collection begin with the first episode of the Connected Conversations program recorded on June 2, 2020, until the program ended June 1, 2024 when it was called Context. 
+The items in this collection span from the first episode of the *Connected Conversations* program, recorded on June 2, 2020, to the final episode—aired on June 1, 2024—by which time the program had been renamed *Context*.
 
 The collection features the work of over 100 humanities scholars and what they were researching, writing about, and thinking about during the COVID 19 pandemic. Topics range across ethics and philosophy, history, literature, language, political science, public humanities, sociology, and jurisprudence.  
 
