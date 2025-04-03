@@ -24,7 +24,7 @@ On June 2, 2020, the Idaho Humanities Council debuted a new program called Conne
 
 Humanities scholars would make a presentation on their research and then take questions from the audience. Originally, Connected Conversations were live events, but over time, the IHC realized that this content could be accessed by a wider audience in a podcast form without live participation. People were also suffering from Zoom fatigue and live virtual events became less popular. 
 
-In 2022, IHC shifted the format and renamed this program to Context. The state goal of the podcast was to connect Idahoans to experts, scholars, and ideas. "Our goal is to help provide context on topics, both fun and serious, which shape the world we live in. We hope to strike the spark on your sense of exploration and discovery as you listen."
+In 2022, IHC shifted the format and renamed this program to Context. The stated goal of the podcast was to connect Idahoans to experts, scholars, and ideas. "Our goal is to help provide context on topics, both fun and serious, which shape the world we live in. We hope to strike the spark on your sense of exploration and discovery as you listen."
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/context/context-logo-on-teal.png" alt="context logo featuring play button O and teal background with audio wave forms" width="25" %}
 
@@ -51,7 +51,7 @@ The items in this collection begin with the first episode of the Connected Conve
 
 The collection features the work of over 100 humanities scholars and what they were researching, writing about, and thinking about during the COVID 19 pandemic. Topics range across ethics and philosophy, history, literature, language, political science, public humanities, sociology, and jurisprudence.  
 
-The first two years of the program it was coordinated by a program officer at the IHC, Doug Exton. The third year the podcast, program officer Johanna Bringhurst joined the team. The final year of the podcast, director of programs Johanna Bringhurst produced. 
+Doug Exton, a program officer at the IHC, coordinated the program during its first two years. During the third year of the podcast, program officer Johanna Bringhurst joined the team. As director of programs, Johanna Bringhurst produced the podcast in its final year. 
 
 {% include feature/blockquote.html text="
 We are all fellow travelers on this journey through humanity/the human experience. The humanities deepen our understanding of what it means to be human by exploring history, politics, literature and more to help us navigate the world around us. Join IHC staff as we talk with scholars, experts, and keepers of knowledge across Idaho’s communities to share what they are thinking, writing, and talking about. *Context* will be your guide as you explore the humanities.
