@@ -11,22 +11,8 @@
         remove: ":"}}: </span>{% endif %}{% endunless %}{{item.words}}
     </p>
     <div class="col-12 col-md-2 timestamp mb-3 small text-center">
-      {% if item.timestamp %}
-        {% include transcript/standardized-timestamp.html %}
-        {% if av %}
-          <button 
-            type="button" 
-            title="Jump video to {{ timestamp }}"
-            class="timestamp-link btn btn-link p-0" 
-            data-timestamp="{{ total_sec | strip }}"
-            {% if av contains 'mp3' %}
-              onclick="timestampMP3('{{- total_sec -}}');"
-            {% elsif av contains 'youtube' %}
-              onclick="seekTo({{ total_sec }});"
-            {% elsif av contains 'soundcloud' %}
-              onclick="seekTo({{total_sec | times: 1000}});"
-            {% endif %}
-            aria-label="Jump video to {% if hours > 0 %}{{ hours }} hour{% if hours != 1 %}s{% endif %}{% if minutes > 0 or seconds > 0 %}, {% endif %}{% endif %}{% if minutes > 0 %}{{ minutes }} minute{% if minutes != 1 %}s{% endif %}{% if seconds > 0 %}, {% endif %}{% endif %}{% if seconds > 0 or hours == 0 and minutes == 0 %}{{ seconds }} second{% if seconds != 1 %}s{% endif %}{% endif %}"
+      {% if item.timestamp %}{% include transcript/standardized-timestamp.html %}{% if av %}
+          <button type="button" title="Jump video to {{ timestamp }}" class="timestamp-link btn btn-link p-0" data-timestamp="{{ total_sec | strip }}" {% if av contains 'mp3' %}onclick="timestampMP3('{{- total_sec -}}');"{% elsif av contains 'youtube' %}onclick="seekTo({{ total_sec }});"{% elsif av contains 'soundcloud' %} onclick="seekTo({{total_sec | times: 1000}});"{% endif %} aria-label="Jump video to {% if hours > 0 %}{{ hours }} hour{% if hours != 1 %}s{% endif %}{% if minutes > 0 or seconds > 0 %}, {% endif %}{% endif %}{% if minutes > 0 %}{{ minutes }} minute{% if minutes != 1 %}s{% endif %}{% if seconds > 0 %}, {% endif %}{% endif %}{% if seconds > 0 or hours == 0 and minutes == 0 %}{{ seconds }} second{% if seconds != 1 %}s{% endif %}{% endif %}"
           >
             <span aria-hidden="true">{{ timestamp }}</span>
           </button>
