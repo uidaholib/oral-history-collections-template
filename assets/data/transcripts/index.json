@@ -224,13 +224,6 @@
     "url": "/assets/data/transcripts/context_21.json"
   },
   {
-    "id": "context_22",
-    "title": "The Blue Humanities",
-    "interviewee": "Dr. T.S. McMillin",
-    "date": "2023-10-16",
-    "url": "/assets/data/transcripts/context_22.json"
-  },
-  {
     "id": "context_23",
     "title": "Vampires are Cool Again",
     "interviewee": "Rachel Stewart",
@@ -399,32 +392,11 @@
     "url": "/assets/data/transcripts/context_53.json"
   },
   {
-    "id": "context_55",
-    "title": "Changing Face of Media in Idaho",
-    "interviewee": "Don Day; Clint Schroeder; Christina Lords; Bill Manny",
-    "date": "2022-06-15",
-    "url": "/assets/data/transcripts/context_55.json"
-  },
-  {
-    "id": "context_56",
-    "title": "La cara cambiante de los medios en Idaho",
-    "interviewee": "Don Day; Clint Schroeder; Christina Lords; Bill Manny",
-    "date": "2022-06-15",
-    "url": "/assets/data/transcripts/context_56.json"
-  },
-  {
     "id": "context_57",
     "title": "Why Do We See Media As Polarizing?",
     "interviewee": "Bill Manny; Maria Hinojosa; Mark Trehant",
     "date": "2022-06-07",
     "url": "/assets/data/transcripts/context_57.json"
-  },
-  {
-    "id": "context_58",
-    "title": "¿Son los medios polarizantes?",
-    "interviewee": "Bill Manny; Maria Hinojosa; Mark Trehant",
-    "date": "2022-06-07",
-    "url": "/assets/data/transcripts/context_58.json"
   },
   {
     "id": "context_59",
@@ -593,13 +565,6 @@
     "interviewee": "Annie Gavica",
     "date": "2021-03-09",
     "url": "/assets/data/transcripts/context_83.json"
-  },
-  {
-    "id": "context_84",
-    "title": "From Alcatraz to Mauna Kea",
-    "interviewee": "Dr. Erik Hadley",
-    "date": "2021-02-23",
-    "url": "/assets/data/transcripts/context_84.json"
   },
   {
     "id": "context_85",
