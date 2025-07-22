@@ -69,7 +69,7 @@ endcapture -%}
     
           </div>{% endif %}
         </div>
-        {% if site.data.filters %}
+        {% if site.data.filters and uniqueSubjects.size > 0 %}
         {% include transcript/item/transcript-viz.html %}
         {% endif %}
   </div>
