@@ -12,7 +12,7 @@ credits: true
 
 ## About the Digital Collection
 
-The Latah County Oral HIstory Collections consists of audio interview recordings and transcriptions for over 300 interviews conducted during the mid-1970s. This collection is a digital representation of the [Latah County Oral History Collection (MG 415)](http://nwda.orbiscascade.org/ark:/80444/xv27761/), which is held by the University of Idaho Library's Special Collections & Archives.
+The Latah County Oral HIstory Collections consists of audio interview recordings and transcriptions for over 300 interviews conducted during the mid-1970s. This collection is a digital representation of the [Latah County Oral History Collection (MG 415)](http://nwda.orbiscascade.org/ark:80444/xv27761), which is held by the University of Idaho Library's Special Collections & Archives.
 
 In order to provide enhanced access to this collection, the Digital Initiatives Department employed an open-source plug-in called the [Oral History Metadata Synchronizer (OHMS)](http://www.oralhistoryonline.org/), which was created at the University of Kentucky. OHMS provides additional layers of access by connecting the audio and transcript files of a digitized oral history on a single page, and by providing real-time searching of keywords in transcripts and indexes there as well. OHMS synchronizes transcribed text with timestamps in the audio and provides a viewer that connects search results of a transcript to the corresponding moment in the audio file.
 
