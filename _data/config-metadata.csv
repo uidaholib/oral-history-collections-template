@@ -8,6 +8,7 @@ interviewee,Interviewee,,,,
 interviewer,Interviewer,true,,,
 transcriber,,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
+idaho_county,Idaho County,true,,,
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
