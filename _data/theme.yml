@@ -34,7 +34,7 @@ json-generation: false ## true/false --> defaults to false (see note below if yo
 
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: mcmichael9
+featured-image: hohp025
 # optional for CB base layout: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
@@ -64,9 +64,9 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
-latitude: #to determine center of map
-longitude: #to determine center of map
-zoom-level: 3 # zoom level for map 
+latitude: 43.411422 #to determine center of map
+longitude: -114.274290 #to determine center of map
+zoom-level: 7.5 # zoom level for map 
 map-base: Esri_WorldImagery # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery, OpenStreetMap_Mapnik
 map-search: true # not suggested with large collections
 map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
