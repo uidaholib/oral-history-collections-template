@@ -10,7 +10,21 @@
 {% else %}
 <div class="row my-3 {% unless site.data.theme.search-and-filters-sticky == false %}sticky-top {% endunless %}bg-white border-bottom border-left border-right d-print-none py-3 w-md-75"
     id="filters-search">
-    <div class="col {% unless site.data.filters and uniquesubjects %}d-none{% endunless %}">
+    {%- comment -%}
+    Language Toggle: Left of topic filter, only shown if Spanish exists.
+    {%- endcomment -%}
+    {% if has_spanish == true %}
+    <div class="col-auto d-flex align-items-center">
+        <label class="lang-switch" aria-label="Toggle between English and Spanish">
+            <input type="checkbox" id="lang-toggle" onclick="toggleLanguage()" />
+            <span class="lang-slider">
+                <span class="lang-label-en">EN</span>
+                <span class="lang-label-es">ES</span>
+            </span>
+        </label>
+    </div>
+    {% endif %}
+    <div class="col {% unless site.data.filters and uniqueSubjects %}d-none{% endunless %}">
         <!-- Enhanced label for screen readers -->
         <label for="filters" class="visually-hidden">Filter transcript by topic</label>
         <select id="filters" title="Filter by Topic" class="filters py-1 form-select border border-primary"
@@ -68,7 +82,7 @@
         <div role="status" aria-live="polite" class="visually-hidden" id="search-status-announcer"></div>
     </div>
     <div id="filter-tab"
-        class="d-none filter-tab col-4 col-lg-2 text-center justify-content-end bg-primary text-white small px-1 py-1">
+        class="d-none filter-tab col-4 col-lg-2 text-center justify-content-end bg-primary text-dark small px-1 py-1">
         <span id="hide-filters-text">Hide Filters &#9650;</span>
         <span id="show-filters-text">Show Filters &#9660;</span>
     </div>

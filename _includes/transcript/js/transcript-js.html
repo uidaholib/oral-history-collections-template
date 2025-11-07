@@ -1,4 +1,52 @@
 <script>
+// ============================================================================
+// LANGUAGE TOGGLE FUNCTIONALITY
+// Switches between English and Spanish transcript text
+// ============================================================================
+
+/**
+ * Toggle between English and Spanish transcript display
+ * Saves preference to localStorage for persistence across page visits
+ */
+function toggleLanguage() {
+  const toggleCheckbox = document.getElementById('lang-toggle');
+  const newLang = toggleCheckbox.checked ? 'es' : 'en';
+
+  // Save preference
+  localStorage.setItem('transcript-lang', newLang);
+
+  // Apply language display
+  applyLanguage(newLang);
+
+  // Announce to screen readers
+  const langName = newLang === 'en' ? 'English' : 'Spanish';
+  announceToScreenReader(`Switched to ${langName}`);
+}
+
+/**
+ * Apply language preference to transcript display
+ * @param {string} lang - 'en' or 'es'
+ */
+function applyLanguage(lang) {
+  const body = document.body;
+  const toggleCheckbox = document.getElementById('lang-toggle');
+
+  // Update body class to control CSS visibility
+  if (lang === 'es') {
+    body.classList.add('show-spanish');
+    body.classList.remove('show-english');
+    if (toggleCheckbox) toggleCheckbox.checked = true;
+  } else {
+    body.classList.add('show-english');
+    body.classList.remove('show-spanish');
+    if (toggleCheckbox) toggleCheckbox.checked = false;
+  }
+}
+
+// ============================================================================
+// UTILITY FUNCTIONS
+// ============================================================================
+
 // Utility functions for transcript pages
 const getUrlParams = () => {
   const url = new URL(window.location);
@@ -79,42 +127,55 @@ function vizFilter(filterClass) {
 
 /**
  * Search transcript lines for matching text
+ * Searches in the currently active language (English or Spanish)
  */
 function searchLines(searchQuery) {
   resetVals();
-  
+
   const itemcontainer = getElement("contents-container");
   if (!itemcontainer) return;
-  
+
   const lines = itemcontainer.getElementsByClassName("line");
-  
+  const currentLang = localStorage.getItem('transcript-lang') || 'en';
+
   // Update URL parameters with search query
   updateUrlParams(params, 'q', searchQuery);
-  
+
   const filter = searchQuery.toUpperCase();
   let searchResults = '<option>Select and scroll to a matching line</option>';
   let matchCount = 0;
-  
+
   // Process each line
   for (let i = 0; i < lines.length; i++) {
     const wordsElement = lines[i].getElementsByClassName("words")[0];
-    
+
     if (wordsElement) {
-      if (wordsElement.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      // Get the text in the current language
+      const searchText = currentLang === 'es'
+        ? wordsElement.getAttribute('data-spanish') || ''
+        : wordsElement.getAttribute('data-english') || '';
+
+      if (searchText.toUpperCase().indexOf(filter) > -1) {
         // Add featured class to matching line
         lines[i].classList.add("featured");
         matchCount++;
-        
+
         // Add line to dropdown options
-        const truncatedText = wordsElement.innerHTML.substring(0, 125);
+        const truncatedText = searchText.substring(0, 125);
         searchResults += '<option class="text-truncate" style="max-width: 250px;" value="{{page.objectid}}' + i + '">Line ' + i + ' -- ' + truncatedText + '...</option>';
-        
-        // Highlight matching text
-        wordsElement.innerHTML = wordsElement.innerHTML.replace(
-          searchQuery, 
-          "<span class='text-danger'>" + searchQuery + "</span>"
-        );
-        
+
+        // Highlight matching text in the visible language span
+        const langSpan = currentLang === 'es'
+          ? wordsElement.querySelector('.lang-es')
+          : wordsElement.querySelector('.lang-en');
+
+        if (langSpan) {
+          langSpan.innerHTML = langSpan.innerHTML.replace(
+            new RegExp('(' + searchQuery + ')', 'gi'),
+            "<span class='text-danger'>$1</span>"
+          );
+        }
+
         // Highlight corresponding rectangle in visualization if filters exist
         const rectal = "rect" + i;
         const rectElement = getElement(rectal);
@@ -343,6 +404,10 @@ function resetVals() {
  * Initialize the page
  */
 function init() {
+  // Load saved language preference
+  const savedLang = localStorage.getItem('transcript-lang') || 'en';
+  applyLanguage(savedLang);
+
   // Set up search input handler
   const searchInput = getElement("quicksearch");
   if (searchInput) {
