@@ -170,7 +170,14 @@ function searchLines(searchQuery) {
           : wordsElement.querySelector('.lang-en');
 
         if (langSpan) {
+          // Dual-language transcript: update the appropriate language span
           langSpan.innerHTML = langSpan.innerHTML.replace(
+            new RegExp('(' + searchQuery + ')', 'gi'),
+            "<span class='text-danger'>$1</span>"
+          );
+        } else {
+          // Single-language transcript: update the words element directly
+          wordsElement.innerHTML = wordsElement.innerHTML.replace(
             new RegExp('(' + searchQuery + ')', 'gi'),
             "<span class='text-danger'>$1</span>"
           );
