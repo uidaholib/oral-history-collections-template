@@ -31,9 +31,14 @@
     background-color: #212529 !important;
 }
 
-.legendTag {
+.legendTag, .transcriptTitle {
     cursor: pointer;
 }
+.tableTimestamp {
+    width:10%;
+    vertical-align:top;
+}
+
 // tab to show/hide  filters options for transcripts
 
 .filter-tab {
