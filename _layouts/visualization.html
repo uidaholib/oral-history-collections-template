@@ -52,7 +52,7 @@ custom-foot: transcript/js/visualization-js.html
   {% assign transcript-name = transcript[0] %}
   {%- assign transcript_item = items | where_exp: 'item', 'item.objectid == transcript-name' | first -%}
    <section class="vizdiv" aria-labelledby="header{{ transcript-name }}visualization">
-    <h3 id="header{{ transcript-name }}visualization" class="mt-4 toggle_int {{ transcript-name }}" tabindex="-1" style="cursor:pointer;" data-id="{{transcript-name}}" role="button" aria-hidden="true">{{ transcript_item.title | default: transcript_item.title }}<i class="fas fa-filter"></i> <small>Click to filter</small></h3>
+    <h3 id="header{{ transcript-name }}visualization" class="mt-4 toggle_int {{ transcript-name }}" tabindex="-1" style="cursor:pointer;" data-id="{{transcript-name}}" role="button" aria-hidden="true">{{ transcript_item.title | default: transcript-name }}<i class="fas fa-filter"></i> <small>Click to filter</small></h3>
     <svg class="chart {{transcript-name}}" width="100%" height="100px" style="overflow: visible" role="img" aria-label="Visualization of interview segments" data-transcript-id="{{ transcript-name }}">
       {%- for item in transcript[1] -%}
       {%- assign my_integer = forloop.length -%}
@@ -99,7 +99,7 @@ custom-foot: transcript/js/visualization-js.html
   <h2>Contents</h2>
 
   {% for transcript in site.data.transcripts %}
-  {%assign transcript-name = transcript[0] %}
+  {% assign transcript-name = transcript[0] %}
   {% assign transcript_item = items | where_exp: 'item', 'item.objectid == transcript-name' | first %}
   {% for item in transcript[1] %}
   {% if forloop.first %}
