@@ -23,9 +23,9 @@ custom-foot: transcript/js/visualization-js.html
     <div id="filterGroupLabel" class="visually-hidden d-none">Filter transcripts by subject</div>
     {% for n in site.data.filters %}
     <div class="col-md-3 col-4">
-      <svg class="legend" width="100%" height="25px" data-id="{{ n.tag | slugify }}"
+      <svg class="legendTag" width="100%" height="25px" data-id="{{ n.tag | slugify }}"
            aria-labelledby="legendTitle{{ forloop.index }}" role="button"
-           aria-label="Filter by {{ n.tag }}" tabindex="0" style="cursor:pointer;"
+           aria-label="Filter by {{ n.tag | escape }}" tabindex="0"
            data-bs-toggle="tooltip" data-bs-placement="left"
            title="{{ n.description | escape }}" aria-pressed="false">
         <title id="legendTitle{{ forloop.index }}">Filter by {{ n.tag }}</title>

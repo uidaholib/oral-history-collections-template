@@ -440,7 +440,7 @@
         console.log('Initializing transcript visualization...');
 
         // Set up legend click handlers that load data on first click
-        document.querySelectorAll(".legend").forEach(legend => {
+        document.querySelectorAll(".legendTag").forEach(legend => {
             legend.addEventListener('click', function () {
                 const cFilter = this.getAttribute("data-id");
                 loadDataAndFilter(cFilter);
