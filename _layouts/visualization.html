@@ -33,7 +33,7 @@ custom-foot: transcript/js/visualization-js.html
         <text x="38" y="15">{{ n.tag }}</text>
       </svg>
     </div>
-    {% endfor %}
+    {%- endfor -%}
   </div>
   
   <a href="#transcript-contents" class="visually-hidden-focusable visually-hidden skip-link mb-3 d-inline-block p-2">
@@ -54,20 +54,20 @@ custom-foot: transcript/js/visualization-js.html
    <section class="vizdiv" aria-labelledby="header{{ transcript-name }}visualization">
     <h3 id="header{{ transcript-name }}visualization" class="mt-4 toggle_int {{ transcript-name }}" tabindex="-1" style="cursor:pointer;" data-id="{{transcript-name}}" role="button" aria-hidden="true">{{ transcript_item.title | default: transcript_item.title }}<i class="fas fa-filter"></i> <small>Click to filter</small></h3>
     <svg class="chart {{transcript-name}}" width="100%" height="100px" style="overflow: visible" role="img" aria-label="Visualization of interview segments" data-transcript-id="{{ transcript-name }}">
-      {% for item in transcript[1] %}
-      {% assign my_integer = forloop.length %}
-      {% assign my_float = my_integer | times: 1.0 %}
-      {% assign rect-width = 100 | divided_by: my_float  %}
-      {% assign tags = item.tags | split: ";" | compact | where_exp: 'tag', 'tag != " " and tag != ""' %}
-      {% capture tag_classes %}{% for tag in tags %}{{ tag | slugify }} {% endfor %}{%- endcapture -%}
+      {%- for item in transcript[1] -%}
+      {%- assign my_integer = forloop.length -%}
+      {%- assign my_float = my_integer | times: 1.0 -%}
+      {%- assign rect-width = 100 | divided_by: my_float -%}
+      {%- assign tags = item.tags | split: ";" | compact | where_exp: 'tag', 'tag != " " and tag != ""' -%}
+      {%- capture tag_classes -%}{% for tag in tags %}{{ tag | slugify }} {% endfor %}{%- endcapture -%}
       <a href="{{ forloop.index0 | prepend: transcript-name | prepend: '.html?line=' | prepend: transcript-name | prepend: '/items/' | relative_url }}" aria-label="Jump to line {{ forloop.index0 }} in the webpage for this transcript" tabindex="-1" aria-hidden="true" data-segment-id="{{ forloop.index0 }}">
-        <rect x="{{forloop.index0 | times: rect-width }}%" y="20" width="{{rect-width}}%" height="50" data-bs-toggle="tooltip" data-bs-placement="top" class="{{ tag_classes }}" data-segment-index="{{ forloop.index0 }}" tabindex="-1" aria-hidden="true" {% unless site.data.theme.json-generation %} title="{{ item.words | default: '...' }}{% if item.tags %} (Subjects: {{ item.tags | replace: ';', ', ' }}){%endif%}"{% endunless %}>
+        <rect x="{{forloop.index0 | times: rect-width }}%" y="20" width="{{rect-width}}%" height="50" data-bs-toggle="tooltip" data-bs-placement="top" class="{{ tag_classes }}" data-segment-index="{{ forloop.index0 }}" tabindex="-1" aria-hidden="true"{% unless site.data.theme.json-generation %} title="{{ item.words | default: '...' }}{% if item.tags %} (Subjects: {{ item.tags | replace: ';', ', ' }}){%endif%}"{% endunless %}>
         </rect>
       </a>
-      {% endfor %}
+      {%- endfor -%}
     </svg>
   </section>
-  {% endfor %}
+  {%- endfor -%}
 </div>
 
 <br />
@@ -98,7 +98,6 @@ custom-foot: transcript/js/visualization-js.html
 <div class="container" id="transcript-contents">
   <h2>Contents</h2>
 
-
   {% for transcript in site.data.transcripts %}
   {%assign transcript-name = transcript[0] %}
   {% assign transcript_item = items | where_exp: 'item', 'item.objectid == transcript-name' | first %}
@@ -106,19 +105,19 @@ custom-foot: transcript/js/visualization-js.html
   {% if forloop.first %}
   <section class="contentsdiv" >
     <h3 class="my-4 {{transcript-name}}"><a href="{{transcript-name | prepend: '/items/' | append: '.html' | relative_url }}">{{ transcript_item.interviewee | default: transcript_item.title }}</a></h3>
-    <table class="my-4 p-2 border {{transcript-name}} {%cycle 'bg-light','' %}">{%endif%}
+    <table class="my-4 p-2 border {{transcript-name}} {%cycle 'bg-light','' %}">
+  {%- endif -%}
       <tr id="{{transcript-name}}row{{ forloop.index0 }}" class="{{item.tags | replace: ";", " "}}">
-        <td class="p-2" style="width:10%;vertical-align:top"><a href="{{ forloop.index0 | prepend: transcript-name | prepend: '.html?line=' | prepend: transcript-name | prepend: '/items/' | relative_url }}" aria-label="jump to Line {{ forloop.index0 }} from {{transcript-name}}'s interview, opens in new tab" class="small btn-link text-dark" tabindex="-1">Line {{ forloop.index0 }}</a></td>
+        <td class="p-2" style="width:10%;vertical-align:top"><a href="{{ forloop.index0 | prepend: transcript-name | prepend: '.html?line=' | prepend: transcript-name | prepend: '/items/' | relative_url }}" aria-label="jump to Line {{ forloop.index0 }} from {{transcript-name}}'s interview" class="small btn-link text-dark" tabindex="-1">Line {{ forloop.index0 }}</a></td>
         <td class="words p-2">
           <div id="spoken">{%if item.speaker%}{{item.speaker | remove: ":"}}: {%endif%}{{item.words}}</div>
         </td>
       </tr>
-
       {% if forloop.last%}</table>
-    </section>{%endif%}
-  {% endfor %}{% endfor %}
-  {% endif %}
-{% endunless %}
+    </section>{%- endif -%}
+  {%- endfor -%}{%- endfor -%}
+  {%- endif -%}
+{%- endunless -%}
 
 <br />
 <hr /><br />
