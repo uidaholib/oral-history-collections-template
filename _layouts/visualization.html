@@ -50,7 +50,7 @@ custom-foot: transcript/js/visualization-js.html
 
   {% for transcript in transcripts %}
   {% assign transcript-name = transcript[0] %}
-  {% assign transcript_item = items | where_exp: 'item', 'item.objectid == transcript-name' | first %}
+  {%- assign transcript_item = items | where_exp: 'item', 'item.objectid == transcript-name' | first -%}
    <section class="vizdiv" aria-labelledby="header{{ transcript-name }}visualization">
     <h3 id="header{{ transcript-name }}visualization" class="mt-4 toggle_int {{ transcript-name }}" tabindex="-1" style="cursor:pointer;" data-id="{{transcript-name}}" role="button" aria-hidden="true">{{ transcript_item.title | default: transcript_item.title }}<i class="fas fa-filter"></i> <small>Click to filter</small></h3>
     <svg class="chart {{transcript-name}}" width="100%" height="100px" style="overflow: visible" role="img" aria-label="Visualization of interview segments" data-transcript-id="{{ transcript-name }}">
@@ -58,8 +58,8 @@ custom-foot: transcript/js/visualization-js.html
       {% assign my_integer = forloop.length %}
       {% assign my_float = my_integer | times: 1.0 %}
       {% assign rect-width = 100 | divided_by: my_float  %}
-{% assign tags = item.tags | split: ";" | compact | where_exp: 'tag', 'tag != " "' %}
-  {% capture tag_classes %}{% for tag in tags %}{{ tag | slugify }} {% endfor %}{% endcapture %}
+      {% assign tags = item.tags | split: ";" | compact | where_exp: 'tag', 'tag != " " and tag != ""' %}
+      {% capture tag_classes %}{% for tag in tags %}{{ tag | slugify }} {% endfor %}{%- endcapture -%}
       <a href="{{ forloop.index0 | prepend: transcript-name | prepend: '.html?line=' | prepend: transcript-name | prepend: '/items/' | relative_url }}" aria-label="Jump to line {{ forloop.index0 }} in the webpage for this transcript" tabindex="-1" aria-hidden="true" data-segment-id="{{ forloop.index0 }}">
         <rect x="{{forloop.index0 | times: rect-width }}%" y="20" width="{{rect-width}}%" height="50" data-bs-toggle="tooltip" data-bs-placement="top" class="{{ tag_classes }}" data-segment-index="{{ forloop.index0 }}" tabindex="-1" aria-hidden="true" {% unless site.data.theme.json-generation %} title="{{ item.words | default: '...' }}{% if item.tags %} (Subjects: {{ item.tags | replace: ';', ', ' }}){%endif%}"{% endunless %}>
         </rect>
