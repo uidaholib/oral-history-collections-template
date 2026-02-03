@@ -1,0 +1,84 @@
+{% comment %}
+
+    Adds a Leaflet map with multiple markers based on the person's map_markers field (pipe-delimited coordinates).
+    Used specifically for person layout to show all locations mentioned across interviews.
+    Markers are simple with no popups or click interactions.
+
+{% endcomment %}
+
+<style>
+#person-map { height: 350px; z-index: 98; }
+</style>
+<div id="person-map"></div>
+
+<!-- load leaflet dependencies -->
+<link rel="stylesheet" href="{{ '/leaflet/leaflet.css' | prepend: site.digital-assets }}">
+<link rel="stylesheet" href="{{ '/leaflet/leaflet.fullscreen.css' | prepend: site.digital-assets }}">
+<script src="{{ '/leaflet/leaflet.js' | prepend: site.digital-assets }}"></script>
+<script src="{{ '/leaflet/Leaflet.fullscreen.min.js' | prepend: site.digital-assets }}"></script>
+
+<script>
+    (function(){
+        // Parse map center and zoom
+        {% if page.map_center %}
+        var mapCenter = [{{ page.map_center }}];
+        {% else %}
+        var mapCenter = [{{ site.data.theme.latitude | default: 46.826786 }}, {{ site.data.theme.longitude | default: -116.697019 }}];
+        {% endif %}
+        var mapZoom = 8;
+        
+        // Initialize map
+        var map = L.map('person-map').setView(mapCenter, mapZoom);
+        
+        // Add map layer options
+        var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+        });
+        var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+            maxZoom: 16
+        });
+        var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        });
+        
+        // Add base map switcher
+        var baseMaps = {
+            "Esri World StreetMap": Esri_WorldStreetMap,
+            "Esri National Geo": Esri_NatGeoWorldMap,
+            "Esri Imagery": Esri_WorldImagery
+        };
+        L.control.layers(baseMaps).addTo(map);
+        
+        // Load default base map
+        Esri_WorldStreetMap.addTo(map);
+        
+        // Add fullscreen control
+        map.addControl(new L.Control.Fullscreen());
+        
+        // Parse and add markers from map_markers field
+        {% if page.map_markers %}
+        var markersString = "{{ page.map_markers }}";
+        var markerCoords = markersString.split('|');
+        var markers = [];
+        
+        markerCoords.forEach(function(coordPair) {
+            var coords = coordPair.split(',');
+            if(coords.length === 2) {
+                var lat = parseFloat(coords[0].trim());
+                var lng = parseFloat(coords[1].trim());
+                if(!isNaN(lat) && !isNaN(lng)) {
+                    var marker = L.marker([lat, lng]).addTo(map);
+                    markers.push(marker);
+                }
+            }
+        });
+        
+        // Fit map to show all markers if there are multiple
+        if(markers.length > 1) {
+            var group = new L.featureGroup(markers);
+            map.fitBounds(group.getBounds().pad(0.1));
+        }
+        {% endif %}
+    })();
+</script>

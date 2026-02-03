@@ -1,0 +1,266 @@
+---
+# person layout for displaying biographical information and related interviews
+layout: item/item-page-base
+gallery: false
+---
+{% assign children = site.data[site.metadata] | where_exp: 'item','item.personid == page.objectid' %}
+
+{%- comment -%} Mobile Jump to Interviews Button {%- endcomment -%}
+{% if children.size > 0 %}
+<div class="d-md-none mb-3 text-center">
+    <a href="#interviews-section" class="btn btn-primary">
+        <svg class="bi me-1" width="16" height="16" fill="currentColor">
+            <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-arrow-down"/>
+        </svg>
+        Jump to Interviews ({{ children.size }})
+    </a>
+</div>
+{% endif %}
+
+{%- comment -%} Aggregate data from all interviews first {%- endcomment -%}
+{% if children.size > 0 %}
+{% assign total_subjects = "" %}
+{% assign total_locations = "" %}
+{% assign all_interviewers = "" %}
+{% assign earliest_date = "" %}
+{% assign latest_date = "" %}
+
+{% for interview in children %}
+    {% if interview.subject %}
+        {% assign total_subjects = total_subjects | append: ";" | append: interview.subject %}
+    {% endif %}
+    {% if interview.location %}
+        {% assign total_locations = total_locations | append: ";" | append: interview.location %}
+    {% endif %}
+    {% if interview.interviewer %}
+        {% unless all_interviewers contains interview.interviewer %}
+            {% if all_interviewers != "" %}
+                {% assign all_interviewers = all_interviewers | append: "; " %}
+            {% endif %}
+            {% assign all_interviewers = all_interviewers | append: interview.interviewer %}
+        {% endunless %}
+    {% endif %}
+    {% if interview.date %}
+        {% if earliest_date == "" or interview.date < earliest_date %}
+            {% assign earliest_date = interview.date %}
+        {% endif %}
+        {% if latest_date == "" or interview.date > latest_date %}
+            {% assign latest_date = interview.date %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+{% endif %}
+
+<div class="row">
+    {%- comment -%} Left Column: Person Info & Visualizations {%- endcomment -%}
+    <div class="col-md-7 mb-4">
+        
+        {%- comment -%} Person Header Card {%- endcomment -%}
+        <div class="card mb-4 border-0 shadow-sm">
+            <div class="card-body">
+                <div class="row">
+                    <div class="{% if page.image_large or page.image_small %}col-md-4{% else %}col-md-12{% endif %} text-center mb-3 mb-md-0">
+                        {% if page.object_location %}
+                            <img src="{{ page.object_location | relative_url }}" alt="{{ page.title | escape }}" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
+                        {% elsif page.image_small %}
+                            <img src="{{ page.image_small | relative_url }}" alt="{{ page.title | escape }}" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
+                    
+                        {% endif %}
+                    </div>
+                    
+                    <div class="{% if page.image_large or page.image_small %}col-md-8{% else %}col-md-12{% endif %}">
+                        <div class="row">
+                            {% if page.birth_year %}
+                            <div class="col-sm-4 mb-2">
+                                <small class="text-muted d-block">Born</small>
+                                <strong>{{ page.birth_year }}</strong>
+                            </div>
+                            {% endif %}
+                            
+                            {% if page.occupation %}
+                            <div class="col-sm-8 mb-2">
+                                <small class="text-muted d-block">Occupation</small>
+                                {% assign occupations = page.occupation | split: ";" %}
+                                {% for occ in occupations %}
+                                    <a href="{{ occ | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}" class="badge bg-secondary text-white text-decoration-none me-1 mb-1">{{ occ | strip }}</a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            
+                            {% if all_interviewers != "" %}
+                            <div class="col-12 mb-2">
+                                <small class="text-muted d-block">Interviewers</small>
+                                {% assign interviewers = all_interviewers | split: "; " %}
+                                {% for interviewer in interviewers %}
+                                    <a href="{{ interviewer | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}" class="badge bg-info text-white text-decoration-none me-1 mb-1">{{ interviewer | strip }}</a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            
+                            {% if total_locations != "" %}
+                            <div class="col-12 mb-2">
+                                <small class="text-muted d-block">Locations Mentioned</small>
+                                {% assign locations = total_locations | split: ";" | uniq | sort %}
+                                <div class="d-flex flex-wrap">
+                                    {% for location in locations %}
+                                        {% if location != "" %}
+                                            <a href="{{ location | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}" class="badge bg-success text-white text-decoration-none me-1 mb-1 small">{{ location | strip }}</a>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            {% if page.origin %}
+                            <div class="col-12 mb-2">
+                                <small class="text-muted d-block">Origin</small>
+                                <span>{{ page.origin }}</span>
+                            </div>
+                            {% endif %}
+                            
+                            {% if page.residence %}
+                            <div class="col-12 mb-2">
+                                <small class="text-muted d-block">Residence</small>
+                                <span>{{ page.residence }}</span>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% if children.size > 0 %}
+
+<div id="interviews-section">
+            <h2 class="h4 mb-3 pb-2 border-bottom">
+                <svg class="bi me-1" width="20" height="20" fill="currentColor">
+                    <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-audio"/>
+                </svg>
+                Interviews
+            </h2>
+            
+            {% for interview in children %}
+            <div class="card mb-3 border-0 shadow-sm hover-shadow">
+                <div class="card-body p-3">
+                    <h3 class="card-title h5 mb-2">
+                        <a href="{{ '/items/' | append: interview.objectid | append: '.html' | relative_url }}" class="text-decoration-none stretched-link">
+                            {{ interview.title }}
+                        </a>
+                    </h3>
+                    
+                    <div class="small mb-2">
+                        {% if interview.date %}
+                        <div class="mb-1">
+                            <svg class="bi text-muted me-1" width="12" height="12" fill="currentColor">
+                                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-calendar"/>
+                            </svg>
+                            <strong>{{ interview.date | date: "%B %d, %Y" }}</strong>
+                        </div>
+                        {% endif %}
+                        
+                        {% if interview.duration %}
+                        <div class="mb-1">
+                            <svg class="bi text-muted me-1" width="12" height="12" fill="currentColor">
+                                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-clock"/>
+                            </svg>
+                            {{ interview.duration }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if interview.interviewer %}
+                        <div class="mb-1">
+                            <svg class="bi text-muted me-1" width="12" height="12" fill="currentColor">
+                                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-person"/>
+                            </svg>
+                            <em>{{ interview.interviewer }}</em>
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    {% if interview.description %}
+                    <p class="card-text text-muted small mb-2">{{ interview.description | truncatewords: 25 }}</p>
+                    {% endif %}
+                    
+                    {% if interview.subject %}
+                    <div class="mt-2">
+                        <div class="d-flex flex-wrap">
+                            {% assign subjects = interview.subject | split: ";" | sort %}
+                            {% for subject in subjects limit:4 %}
+                                {% if subject != "" %}
+                                    <span class="badge bg-primary bg-opacity-10 text-primary me-1 mb-1" style="font-size: 0.7rem;">{{ subject | strip }}</span>
+                                {% endif %}
+                            {% endfor %}
+                            {% if subjects.size > 4 %}
+                                <span class="badge bg-secondary bg-opacity-10 text-secondary me-1 mb-1" style="font-size: 0.7rem;">+{{ subjects.size | minus: 4 }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+
+
+
+    </div>{%- comment -%} End Left Column {%- endcomment -%}
+    
+    {%- comment -%} Right Column: Interviews {%- endcomment -%}
+    <div class="col-md-5">
+        {%- comment -%} Larger Map Section {%- endcomment -%}
+{% if page.map_markers and page.map_markers != '' %}
+<div class="card mb-4 border-0 shadow-sm">
+    <div class="card-header bg-white border-bottom">
+        <h3 class="h6 mb-0">
+            <svg class="bi me-1" width="16" height="16" fill="currentColor">
+                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-map-pin"/>
+            </svg>
+            Locations Map
+        </h3>
+    </div>
+    <div class="card-body p-0">
+        {% include item/person-map.html %}
+    </div>
+</div>
+{% endif %}
+        
+{%- comment -%} Topics Word Cloud {%- endcomment -%}
+{% if total_subjects != "" %}
+<div class="card mb-4 border-0 shadow-sm">
+    <div class="card-header bg-white border-bottom">
+        <h3 class="h6 mb-0">
+            <svg class="bi me-1" width="16" height="16" fill="currentColor">
+                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-chat"/>
+            </svg>
+            Interview Topics
+        </h3>
+    </div>
+    <div class="card-body">
+        {% include item/person-cloud.html subjects=total_subjects %}
+    </div>
+</div>
+{% endif %}
+
+    </div>{%- comment -%} End Right Column {%- endcomment -%}
+    
+</div>{%- comment -%} End Row {%- endcomment -%}
+
+{% endif %}{%- comment -%} End if children.size > 0 {%- endcomment -%}
+
+<style>
+.hover-shadow {
+    transition: all 0.3s ease;
+}
+.hover-shadow:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    transform: translateY(-2px);
+}
+.stretched-link {
+    color: inherit;
+}
+.stretched-link:hover {
+    color: var(--bs-primary);
+}
+</style>

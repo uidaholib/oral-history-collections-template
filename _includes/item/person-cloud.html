@@ -1,0 +1,44 @@
+{% comment %}
+    Generates a word cloud from aggregated interview subjects for person pages.
+    Uses the same logic as the main cloud feature.
+{% endcomment %}
+
+{% assign cloud_id = "person-cloud" | append: include.subjects | slugify %}
+<div id="{{ cloud_id }}" class="text-center my-3"></div>
+
+<script>
+(function(){    
+    var subjectsString = "{{ include.subjects }}";
+    var allSubjects = subjectsString.toLowerCase().split(';');
+    
+    // Count occurrences
+    var counts = {};
+    allSubjects.forEach(function(subject) {
+        subject = subject.trim();
+        if(subject) {
+            counts[subject] = (counts[subject] || 0) + 1;
+        }
+    });
+    
+    // Convert to array and sort by count
+    var terms = Object.keys(counts).map(function(key) {
+        return [key, counts[key]];
+    }).sort(function(a, b) { return b[1] - a[1]; });
+    
+    // Calculate max for sizing
+    var countMax = Math.max.apply(Math, terms.map(function(t) { return t[1]; }));
+    
+    function mapSize(x) { 
+        return Math.round(x * 9 / countMax + 1); 
+    }
+    
+    // Create cloud
+    var cloud = document.getElementById("{{ cloud_id }}");
+    var items = "";
+    for (var i = 0; i < terms.length; i++) {
+        var size = mapSize(terms[i][1]) - 4;
+        items += '<a class="btn btn-outline-primary btn-sm m-1 tagcloud' + size + '"  href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(terms[i][0]) + '" >' + terms[i][0] + '</a>';
+    }
+    cloud.innerHTML = items;
+})();
+</script>
