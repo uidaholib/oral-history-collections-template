@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">2/8/1974</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Clarence Johnson, 1974-02-08, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:10:08</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Johnson, Clarence</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Farmer</occupation>
+      <birthyear>1895</birthyear>
+      <residence>Burnt Ridge, Troy</residence>
+      <origin>Parents were homesteaders from Sweden (1884)</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#homesteads"&gt;homesteads&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#immigrants"&gt;immigrants&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#railroads"&gt;railroads&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#liveries"&gt;liveries&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#death"&gt;death&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#mining"&gt;mining&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Swedish Americans"&gt;Swedish Americans&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Troy"&gt;Troy&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Vollmer"&gt;Vollmer&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Rob Moore</interviewer>
+      <file_name>13479</file_name>
+      <mp3>13480.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13480.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>60</time>
+            <title>Born in Vollmer, ID; name change in Troy; disliked for his lending practices</title>
+            <synopsis>Born in Vollmer, Idaho. Name change to Troy. Vollmer
+               disliked for his lending practices. "Biggest little
+               town on earth."
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>300</time>
+            <title>Father homesteaded in 1884; came to America from Sweden</title>
+            <synopsis>Father homesteaded in 1884; came to America at age 19
+               from Sweden. Talked Swedish in the home.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>360</time>
+            <title>1893 Depression; Coxey's Army got some boys from Troy to join</title>
+            <synopsis>1893 Depression: hard to get money for postage.
+               Coxey's Army got some Troy boys to join. "The last
+               250 in the state of Idaho." Hoboes.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>660</time>
+            <title>Early Troy a thriving town; railroad traffic; shooting of Marshall Hayes by Paine
+               sly; prospecting and mining
+               
+            </title>
+            <synopsis>Early Troy a thriving little town. Railroad traffic,
+               livery barns. Shooting of Marshall Hayes by Paine Sly,
+               Prospecting and mining. The Copper Chief.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>960</time>
+            <title>Paul Smith in 1894 decides to leave, but convinced to stay by Dernam and Kaufman</title>
+            <synopsis>Paul Smith in 1894 decides to leave, but is convinced
+               to stay by Dernam and Kaufman. They talk quite a few
+               people into staying, and help them do it.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>1893 depression; J.P. Vollmer. Early Troy. 2-8-74 .3 hr RM</description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13249_lcoh_13249.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13479</xmlfilename>
+      <previous>Johanson</previous>
+      <next>Johnson_Delia</next>
+      <disp_name>Johnson_Clarence</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

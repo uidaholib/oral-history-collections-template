@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">3/1/1974</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Bess Beardsley Whitman, 1974-03-01, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:29:52</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Whitman, Bess Beardsley</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Homemaker; store clerk</occupation>
+      <birthyear>1891</birthyear>
+      <residence>Moscow</residence>
+      <origin>Delia Johnson's sister</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#colleges and universities"&gt;colleges and universities&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#University of Idaho"&gt;University of Idaho&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#rattlesnakes"&gt;rattlesnakes&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#families"&gt;families&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#horses"&gt;horses&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#stores"&gt;stores&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Moscow"&gt;Moscow&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Sam Schrager</interviewer>
+      <file_name>13544</file_name>
+      <mp3>13545.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13545.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>60</time>
+            <title>Stories about sister at university</title>
+            <synopsis>Her sister Delia Johnson's skilled presentation of her
+               trip from California to the university class. Sister's
+               loss of diary and work when the Administration building
+               burned down' this led to her withdrawing from the univesity
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>300</time>
+            <title>Stories about mom, rattlesnake, and cougar</title>
+            <synopsis>Her recollections of home in California; mother's skill
+               and determination. Mother chopped a rattlesnake who
+               hypnotized the calves. A cougar attack. Mother nursed
+               her and other sick people. They came to Moscow so the
+               girls would get an education, and it was hard to
+               run the farm. Mother boarded a boy in Moscow for nothing.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>660</time>
+            <title>Trip on horses from California with family</title>
+            <synopsis>Troubles handling horses on trip from California. Their
+               outfit was well prepared for trip. Uncle drank on trip,
+               although he promised he wouldn't. Mother cried when she
+               first saw Moscow. Their uncle who lived here had told
+               them to bring horses because the market was good, but
+               the market collasped and some of the horses died that
+               winter because they didn't have adequate shelter. She
+               had to sell her pony, so she cut off part of his mane.
+               Mother's struggle after she came.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1080</time>
+            <title>JC Penney's in Mosocw</title>
+            <synopsis>Beginnings of J.C. Penneys Store in Moscow, it had
+               formerly been the Golden Rule. Recollections of Mr.
+               Penney; his gift to them. Their development of
+               Penneys' Stores. Desire of established businesses
+               to keep competition out. Working people liked Penney's.
+               
+               
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Mother's skill and determination. Family's horse drive from California;
+         loss of horses. Development of Penney's Store chain. 3-74 .5 hr RM
+         
+         
+      </description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13336_lcoh_13336.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13544</xmlfilename>
+      <previous>Wheeler</previous>
+      <next>Wicks1</next>
+      <disp_name>Whitman</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

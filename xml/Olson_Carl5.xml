@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">6/17/1975</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Carl Olson, 1975-02-21, Interview #5 - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:08:29</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Olson, Carl</interviewee>
+      <intnum>Interview #5</intnum>
+      <occupation>Parents emigrated from Sweden and homesteaded (1889).
+         Thresherman, operator of gas station and car dealership, sawmiller, miner;
+         Troy councilman for 24 years.
+         
+      </occupation>
+      <birthyear>1895</birthyear>
+      <residence>Dry Ridge, Troy</residence>
+      <origin>Parents emigrated from Sweden and homesteaded (1889)</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#businesses"&gt;businesses&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#sawmills"&gt;sawmills&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#politics"&gt;politics&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Dry Ridge"&gt;Dry Ridge&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Troy"&gt;Troy&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Sam Schrager</interviewer>
+      <file_name>13599</file_name>
+      <mp3>13600.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13600.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>0</time>
+            <title>No index available</title>
+            <synopsis></synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>n/a</description>
+      <rel></rel>
+      <transcript>No transcript available.</transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13599</xmlfilename>
+      <previous>Olson_Carl4</previous>
+      <next>Olson_Ella</next>
+      <disp_name>Olson_Carl5</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

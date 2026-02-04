@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">6/13/1974</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Ruth Anderson Kellberg, 1974-06-13, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:27:27</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Kellberg, Ruth Anderson</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Farm wife</occupation>
+      <birthyear>1899</birthyear>
+      <residence>Burnt Ridge, Troy</residence>
+      <origin>Parents were Swedish homesteaders (1890)</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#families"&gt;families&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#telephones"&gt;telephones&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#churches"&gt;churches&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Swedish Americans"&gt;Swedish Americans&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#games"&gt;games&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#music"&gt;music&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#schools"&gt;schools&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#farming"&gt;farming&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#stores"&gt;stores&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#holidays"&gt;holidays&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Moscow"&gt;Moscow&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Burnt Ridge"&gt;Burnt Ridge&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Laura Schrager</interviewer>
+      <file_name>13492</file_name>
+      <mp3>13493.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13493.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>60</time>
+            <title>Read written description of early years on Burnt Ridge</title>
+            <synopsis>Read written description of early years on Burnt
+               Ridge: early settlers and family history, hard
+               ships, phone line, worship at Cordelia Chapel and
+               Pastor Carlson.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>300</time>
+            <title>Moving into new house; Aunt made a cross for Peter Carlson's funeral; learned Swedish
+               only at home; Luther League in summer
+               
+            </title>
+            <synopsis>Moving into the new house. Aunt made a cross for
+               Peter Carlson's funeral. Learned only Swedish at
+               home. Luther League in summer for young people.
+               Played party games—sings one song.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>900</time>
+            <title>One room schoolhouse; help on farm; shopped in Moscow once a year</title>
+            <synopsis>One room schoolhouse. Helped on farm and did a lot
+               of bean hoeing and bunching beans. Shopped in Moscow
+               once a year in the fall at the Williamson store
+               and got a free meal.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1440</time>
+            <title>Early Christmas service; lit candles and went to church that morning; early pastors
+               came from Moscow; later pastors came out of schoolhouses
+               
+            </title>
+            <synopsis>Early Christmas service at 5:30. Lit candles in
+               the early morning before going to church. Missed
+               the tradition when they changed the time. Early
+               pastors came from Moscow. Later pastors would
+               come out to schoolhouses on Sunday afternoon and
+               preach.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Pioneer hardships. Religious traditions. 6-13-74 .5 hr LS</description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13260_lcoh_13260.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13492</xmlfilename>
+      <previous>Kauder3</previous>
+      <next>Kent</next>
+      <disp_name>Kellberg</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

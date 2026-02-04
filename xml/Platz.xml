@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">2/19/1975</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Ima Hodge Platz, 1975-02-19 - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:40:15</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Platz, Ima Hodge</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Harvest cook; farm wife</occupation>
+      <birthyear>1888</birthyear>
+      <residence>Palouse</residence>
+      <origin>Came from Missouri with parents</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#farming"&gt;farming&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#women"&gt;women&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#threshing"&gt;threshing&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#chores"&gt;chores&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Palouse"&gt;Palouse&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Viola"&gt;Viola&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Sam Schrager</interviewer>
+      <file_name>13567</file_name>
+      <mp3>13568.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13568.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>60</time>
+            <title>Cutting grain with a binder; shocking the bundles; seasoning the cut grain</title>
+            <synopsis>Cutting grain with a binder. Shocking the bundles.
+               Seasoning the cut grain.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>480</time>
+            <title>Pitching bundles on the wagon; loading up the wagon; feeding grain to the separator</title>
+            <synopsis>Pitching bundles on the wagon. Loading up the wagon.
+               Feeding grain to the separator.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1020</time>
+            <title>Jigging, sewing sacks; clogging up the thrashing machine</title>
+            <synopsis>Jigging, sewing sacks. Clogging up the thrashing
+               machine.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1680</time>
+            <title>Began getting breakfast ready at 2:30; dividing the cooking; working as the cook house
+               was moved to another field
+               
+            </title>
+            <synopsis>Began getting breakfast ready at 2:30. Dividing the
+               cooking. Working as the cook house was moved to
+               another field.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1800</time>
+            <title>Conditions of cooking; wages; cooked for Ed Parker for seven years</title>
+            <synopsis>Conditions of cooking. Wages. Cooked for Ed Parker for
+               seven years.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Cooking for harvest crew. Art of shocking and threshing grain. 2-19-75 .6
+         hr
+         
+         
+      </description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13286_lcoh_13286.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13567</xmlfilename>
+      <previous>Platt</previous>
+      <next>Presby</next>
+      <disp_name>Platz</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

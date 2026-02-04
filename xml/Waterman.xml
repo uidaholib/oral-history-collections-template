@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">2/2/1973</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Merton Waterman, 1973-02-02, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>1:00:45</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Waterman, Merton</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Mail carrier; laborer; farmer</occupation>
+      <birthyear>1896</birthyear>
+      <residence>Moscow</residence>
+      <origin>Parents came from Illinois via Texas (1910)</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#families"&gt;families&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#holidays"&gt;holidays&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#education"&gt;education&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#farming"&gt;farming&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#illness"&gt;illness&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#horses"&gt;horses&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#food"&gt;food&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#accidents"&gt;accidents&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#schools"&gt;schools&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#accidents"&gt;accidents&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#unions"&gt;unions&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Moscow"&gt;Moscow&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Grace Wicks</interviewer>
+      <file_name>13655</file_name>
+      <mp3>13656.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13656.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>0</time>
+            <title>Life in Illinois; mother's family forced father to go to church</title>
+            <synopsis>Parents lived in Illinois. Their life in Illinois. Father forced to go to church by
+               mother's family. Mother told him to be prosperous before marrying, as father had been.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>180</time>
+            <title>Fourth of July in Moscow; didn't go to high school; work on paving Third Street; Harvey
+               Smith as city engineer
+               
+            </title>
+            <synopsis>Three day celebration for Fourth of July in Moscow(1910). He was too sensitive about
+               being two years behind others in school, so he didn't go to high school. He quit school
+               to work on paving of Third Street . Harvey Smith as city engineer-the maps in his
+               head.He took the short course at university for three years,from middle of October
+               to March; the subjects.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>900</time>
+            <title>Family experience farming; moving to Idaho; typhoid fever; father injured by outlaw
+               horse
+               
+            </title>
+            <synopsis>Family experience farming near Hereford,Texas, before moving to Idaho; typhoid fever,
+               an outlaw horse which injured father.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1080</time>
+            <title>Raising vegetables; the Idaho Harverster Company; Guy Wold lost leg in threshing machine</title>
+            <synopsis>He farmed the vacant land on the Lieuallen estate, raising vegetables after mother
+               bought him team. The Idaho Harvester Company ran on Day family money, until they got
+               tired of financing it. Guy Wolf lost leg in threshing machine, so became a lawyer.
+               He lost money on his farming for three years in a row, and was never caught up on
+               grocery bills for David's.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1500</time>
+            <title>Work on various jobs; delivering mail; making 65 cents an hour</title>
+            <synopsis>His work on delivery and many other jobs. How he began delivering mail. His duel jobs
+               of primary separation and delivery. He made 65 cents an hour at first.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Working career. Short course at university. Family background. 2-2-73 .5 hr Grace
+         Wicks
+         
+         
+      </description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13324_lcoh_13324.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13655</xmlfilename>
+      <previous>Waldron2</previous>
+      <next>Wells1</next>
+      <disp_name>Waterman</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

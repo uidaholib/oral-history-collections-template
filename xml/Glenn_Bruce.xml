@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">6/18/1975</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Bruce &amp; Agnes Glenn, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>2:05:34</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Glenn, Bruce &amp; Agnes</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Oil deliveryman</occupation>
+      <birthyear>1904</birthyear>
+      <residence>Potlatch Ridge, American Ridge, Juliaetta</residence>
+      <origin>Roy Glenn's brother</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#farming"&gt;farming&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#farmers"&gt;farmers&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#doctors"&gt;doctors&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#schools"&gt;schools&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#dances"&gt;dances&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Potlatch Ridge"&gt;Potlatch Ridge&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#American Ridge"&gt;American Ridge&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Juliaetta"&gt;Juliaetta&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Sam Schrager</interviewer>
+      <file_name>13453</file_name>
+      <mp3>13454.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13454.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>0</time>
+            <title>No index available</title>
+            <synopsis></synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Farm self-sufficiency; farming equipment. Juliaetta and Kendrick
+         Dr. Ruffle. School and dances. Tramway. 9-28-75, 1.8 hr
+         
+      </description>
+      <rel></rel>
+      <transcript>No transcript available.</transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13453</xmlfilename>
+      <previous>Gleave</previous>
+      <next>Glenn_Roy</next>
+      <disp_name>Glenn_Bruce</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

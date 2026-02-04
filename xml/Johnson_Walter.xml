@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">1/16/1974</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Walter Johnson, 1974-01-16, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:28:18</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Johnson, Walter</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Accountant</occupation>
+      <birthyear>1892</birthyear>
+      <residence>Moscow</residence>
+      <origin>Parents were Swedish immigrants who moved from Minnesota (1882)</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#murders"&gt;murders&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#death"&gt;death&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#doctors"&gt;doctors&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#crafts"&gt;crafts&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#horses"&gt;horses&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#stores"&gt;stores&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Moscow"&gt;Moscow&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Rob Moore</interviewer>
+      <file_name>13482</file_name>
+      <mp3>13483.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13483.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>60</time>
+            <title>Account of the murder of Dr. Watkins by William Steffens</title>
+            <synopsis>Account of the murder of Dr. Watkins by William Steffens. Hiding out and pursuing
+               Steffen. Buffalo Coat, a novel, written around this event.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>300</time>
+            <title>Names for towns; Russian farmers responsible for naming Moscow; homesteaders</title>
+            <synopsis>Indian, French, and Spanish names for towns. Russian farmers responsible for naming
+               of Moscow? Homestead locators responsible for determining boundary murders. Metric
+               system verses our system.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>720</time>
+            <title>Gypsies used to camp near Moscow</title>
+            <synopsis>Gypsies used to camp near Moscow and made baskets and plant stands out of willows
+               and sell them around town. Wild horses could be bought for 500 apiece. Wild Davey.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1740</time>
+            <title>Dernam and Kaulfman store</title>
+            <synopsis>Dernam and Kaulfman store. David's carried Groceries until the Farmer's Union came
+               in. David's was a friendly store, farmers would gather around the stoves at lunchtime.
+               Copper vacuum tubes carried cash from the clerks to the accounting office.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Killing of Dr. Watkins. David's Store. 1-16-74 .5 hr RM</description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13258_lcoh_13258.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13482</xmlfilename>
+      <previous>Johnson_Oscar</previous>
+      <next>Jones1</next>
+      <disp_name>Johnson_Walter</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

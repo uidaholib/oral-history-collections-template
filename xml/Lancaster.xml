@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">11/21/1973</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>May &amp; Carl Lancaster, 1973-11-21, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:30:43</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Lancaster, May &amp; Carl</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Logger; woods blacksmith and maintenance man</occupation>
+      <birthyear>1902</birthyear>
+      <residence>Helmer, Harvard</residence>
+      <origin>Parents came from Pennsylvania before he was born</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#fights"&gt;fights&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#railroads"&gt;railroads&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#lumber"&gt;lumber&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#automobiles"&gt;automobiles&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#winter"&gt;winter&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#thieves"&gt;thieves&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#families"&gt;families&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Helmer"&gt;Helmer&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Harvard"&gt;Harvard&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Princeton"&gt;Princeton&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Sam Schrager</interviewer>
+      <file_name>13494</file_name>
+      <mp3>13495.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13495.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>0</time>
+            <title>Winter activities (sledding down hills, sleigh ride)</title>
+            <synopsis>Sledding down hills. Taking a six-horse sleigh to
+               Kennedy Ford Grange from Harvard.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>300</time>
+            <title>Stolen chicken feast</title>
+            <synopsis>A stolen chicken feast.</synopsis>
+         </point>
+         <point>
+            <time>420</time>
+            <title>Troubles at Princeton (robbery, lost buggy top, lost sleigh tongue)</title>
+            <synopsis>Troubles at Princeton: Carl's sleigh is robbed; his
+               buggy top is cut off by a wire across the road.
+               Losing a sleigh tongue. Carl preferred team to
+               horseback.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>780</time>
+            <title>Early cars; Carl's family is separated</title>
+            <synopsis>Some early cars. A Case car runs on cream separator oil.
+               Carl's family separated.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1080</time>
+            <title>Carl tangles with a crazy man</title>
+            <synopsis>Carl tangles with a crazy man.</synopsis>
+         </point>
+         <point>
+            <time>1380</time>
+            <title>Carl's work maintaining the railroad section; railroad strike</title>
+            <synopsis>Carl's work maintaining the railroad section. A bit
+               about the railroad strike.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1560</time>
+            <title>Carl switches to woods work</title>
+            <synopsis>Carl switches to woods work. He works all different
+               jobs, depending on where he is needed. Drays, drop
+               skids, headblocks, bunkloads, corner binds and bumper logs.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Old logging terms. Tangling with a crazy man. Tricks and jokes 11-21-73 .5
+         hr
+         
+         
+      </description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13265_lcoh_13265.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13494</xmlfilename>
+      <previous>Kent</previous>
+      <next>Lawrence1</next>
+      <disp_name>Lancaster</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

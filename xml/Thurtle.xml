@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">11/30/1973</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Alice Hall Thurtle, 1973-11-30, Interview - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:30:14</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Thurtle, Alice Hall</interviewee>
+      <intnum>Interview</intnum>
+      <occupation>Farm wife</occupation>
+      <birthyear>1889</birthyear>
+      <residence>Avon</residence>
+      <origin>Family came from Iowa in 1888</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#schools"&gt;schools&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#homesteads"&gt;homesteads&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#marriage"&gt;marriage&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#families"&gt;families&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#farming"&gt;farming&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#farms"&gt;farms&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#dating"&gt;dating&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#rural schools"&gt;rural schools&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#teaching"&gt;teaching&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#chores"&gt;chores&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#timber"&gt;timber&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#marriage"&gt;marriage&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#shivarees"&gt;shivarees&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#literary"&gt;literary&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Avon"&gt;Avon&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Rob Moore</interviewer>
+      <file_name>13659</file_name>
+      <mp3>13660.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13660.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>0</time>
+            <title>Introduction</title>
+            <synopsis>Introduction.</synopsis>
+         </point>
+         <point>
+            <time>60</time>
+            <title>Father pre-emption; huckleberries; wild animals</title>
+            <synopsis>Father pre-emption. Dressing in men's clothes to
+               go huckleberry picking and selling.
+               Coyotes, cougars, and bears.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>420</time>
+            <title>Courtship with husband</title>
+            <synopsis>Courtship. Making an agreement with her husband
+               not to lose their tempers.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>720</time>
+            <title>Avon School; discipline</title>
+            <synopsis>Avon school. Enforcing discipline. Her mother
+               boarded out when she was a teacher.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1020</time>
+            <title>Living with grandparents; chores; timber selling</title>
+            <synopsis>Living with her grandparents. Chores. Selling
+               timber off homestead to PFI.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>1320</time>
+            <title>Beans, courtship, and marriage</title>
+            <synopsis>Beans, courtship, and marriage. Supporting yourself
+               off of 80 acres. Shivaree, tricks and noise.
+               Kitchen sweats and literary.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Courtship. School and entertainment. Subsistence farming. 11-30-73 .5 hr
+         RM
+         
+         
+      </description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13312_lcoh_13312.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13659</xmlfilename>
+      <previous>Thomason2</previous>
+      <next>Torgerson</next>
+      <disp_name>Thurtle</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

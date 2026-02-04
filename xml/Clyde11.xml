@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">6/6/1976</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>Lola Clyde, Interview #11 - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:29:15</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Clyde, Lola</interviewee>
+      <intnum>Interview #11</intnum>
+      <occupation>Teacher; farm wife; local historian; frequently addresses groups and aids
+         researchers
+         
+         
+      </occupation>
+      <birthyear>1900</birthyear>
+      <residence>Paradise Ridge, Moscow</residence>
+      <origin>Father emigrated from Ireland and became the area's first Presbyterian minister
+         (1880); mother was from Victoria, British Columbia
+         
+         
+      </origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#holidays"&gt;holidays&lt;/a&gt;
+         &lt;a href="/digital/lcoh/index.html#women"&gt;women&lt;/a&gt;
+         &lt;a href="/digital/lcoh/index.html#childhood"&gt;childhood&lt;/a&gt;
+         &lt;a href="/digital/lcoh/index.html#customs"&gt;customs&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Paradise Ridge"&gt;Paradise Ridge&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Moscow"&gt;Moscow&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Canada"&gt;Canada&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Sam Schrager</interviewer>
+      <file_name>13623</file_name>
+      <mp3>13624.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13624.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>0</time>
+            <title>No index available</title>
+            <synopsis></synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Lola recalls Christmas as a child on Paradise Ridge.</description>
+      <rel></rel>
+      <transcript>No transcript available.</transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13623</xmlfilename>
+      <previous>Clyde10</previous>
+      <next>Clyde8</next>
+      <disp_name>Clyde11</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>

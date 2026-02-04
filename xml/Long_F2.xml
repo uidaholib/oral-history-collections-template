@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+   <record dt="2015-01-03">
+      <version>4</version>
+      <date format="yyyy-mm-dd">7/10/1973</date>
+      <date_nonpreferred_format></date_nonpreferred_format>
+      <cms_record_id>https://www.lib.uidaho.edu/digital/lcoh/</cms_record_id>
+      <title>F. Marvin Long, 1973-07-03, Interview #2 - MP3 Recording</title>
+      <accession></accession>
+      <duration>0:31:10</duration>
+      <collection_id>latah</collection_id>
+      <collection_name>Latah County Oral History Collection</collection_name>
+      <series_id></series_id>
+      <series_name></series_name>
+      <repository>University of Idaho Library</repository>
+      <repository_url>https://www.lib.uidaho.edu/digital/</repository_url>
+      <subject>Latah County -- Idaho</subject>
+      <interviewee>Long, F. Marvin</interviewee>
+      <intnum>Interview #2</intnum>
+      <occupation>Operator of mercantile store</occupation>
+      <birthyear>1894</birthyear>
+      <residence>Kendrick, Cedar Creek, Leland</residence>
+      <origin>Family moved from North Carolina (1888)</origin>
+      <keywords>
+         &lt;a href="/digital/lcoh/index.html#fires"&gt;fires&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#bricks"&gt;bricks&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#stores"&gt;stores&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#winter"&gt;winter&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#moving"&gt;moving&lt;/a&gt;
+         
+      </keywords>
+      <locations>
+         &lt;a href="/digital/lcoh/index.html#Kendrick"&gt;Kendrick&lt;/a&gt;
+         
+         &lt;a href="/digital/lcoh/index.html#Leland"&gt;Leland&lt;/a&gt;
+         
+      </locations>
+      <interviewer>Rob Moore</interviewer>
+      <file_name>13673</file_name>
+      <mp3>13674.mp3</mp3>
+      <sync>1:|0(1)</sync>
+      <media_id></media_id>
+      <media_url>https://www.lib.uidaho.edu/latah/13674.mp3</media_url>
+      <mediafile>
+         <host>Other</host>
+         <host_account_id></host_account_id>
+         <host_player_id></host_player_id>
+         <host_clip_id></host_clip_id>
+         <clip_format>audio</clip_format>
+      </mediafile>
+      <language></language>
+      <index>
+         <point>
+            <time>60</time>
+            <title>Seeing smoke from 1904 fire on Potlatch Ridge; fireproofing main street buildings.</title>
+            <synopsis>Saw smoke from 1904 Kendrick fire up on Potlatch
+               Ridge. Ordinance passed that all buildings on Main
+               Street had to be fireproofed. Cause of fire unknown.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>360</time>
+            <title>Operation of brick factory; clay run down the hill
+               in chutes
+               
+            </title>
+            <synopsis>Operation of brick factory; clay run down the hill
+               in chutes.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>480</time>
+            <title>Rebuilding the town after the fire; Stores set up in
+               tents
+               
+            </title>
+            <synopsis>Rebuilding the town after the fire. Stores set up in
+               tents.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>600</time>
+            <title>Grain tramway into Kendrick and how it ran</title>
+            <synopsis>Grain tramway into Kendrick. Weight of the sacks going
+               down kept the cable moving.
+               
+            </synopsis>
+         </point>
+         <point>
+            <time>960</time>
+            <title>Cutting ice in the winter</title>
+            <synopsis>Cutting ice in the winter</synopsis>
+         </point>
+         <point>
+            <time>1380</time>
+            <title>Moving from Leland to Kendrick; Skating rinks in
+               Kendrick
+               
+            </title>
+            <synopsis>Moving from Leland to Kendrick. Skating rinks in
+               Kendrick.
+               
+            </synopsis>
+         </point>
+      </index>
+      <type>interview</type>
+      <description>Kendrick fire (1904). Tramway and brick factory. Ice cutting. 7-10-73 .5 hr
+         RM
+         
+         
+      </description>
+      <rel></rel>
+      <transcript>&lt;a target='_blank' href='https://objects.lib.uidaho.edu/lcoh/transcripts/13269_lcoh_13269.pdf'&gt;Download
+         the PDF Index&lt;/a&gt;
+         
+         No transcript available.
+         
+      </transcript>
+      <rights>Digital format copyright: University of Idaho Library. Original Copyright: Latah County
+         Historical Society
+      </rights>
+      <fmt>audio</fmt>
+      <usage></usage>
+      <userestrict>0</userestrict>
+      <xmllocation></xmllocation>
+      <xmlfilename>13673</xmlfilename>
+      <previous>Long_F1</previous>
+      <next>Long_F3</next>
+      <disp_name>Long_F2</disp_name>
+      <collection_link>https://www.lib.uidaho.edu/digital/lcoh/</collection_link>
+      <series_link></series_link>
+   </record>
+</ROOT>
