@@ -1,6 +1,6 @@
 ---
 title: About the Digital Collection
-layout: about
+layout: page
 permalink: /about-collection.html
 # include CollectionBuilder info at bottom
 credits: true
