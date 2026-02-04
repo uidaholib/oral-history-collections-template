@@ -1,6 +1,9 @@
-field,display_name,btn,hidden,sort_name
-person_name,Person,,,Person
-occupation,Occupation,,,Occupation
-subject,,true
-location,,true
-identifier,,,true,Identifier
+field,display_name,btn,hidden,sort_name,facet_name
+description,Topics,,true
+subject,,,true
+location,Locations,true
+interviewer,,,true
+date,,,true
+residence,Residence,true,
+occupation,Occupation,true,
+origin,Family Origin,

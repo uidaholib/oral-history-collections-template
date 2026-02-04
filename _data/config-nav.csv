@@ -3,7 +3,9 @@ Home,/,
 Browse,/browse.html,
 Subjects,/subjects.html,
 Locations,/locations.html,
-People,/people.html
 Timeline,/timeline.html,
-Data,/data.html,
-About,/about.html,
+People,/people/index.html,
+About,,
+Introduction,/about.html,About
+Original Foreword,/about-foreword.html,About
+About the Digital Collection,/about-collection.html,About
