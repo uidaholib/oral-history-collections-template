@@ -1,0 +1,378 @@
+TRANSCRIPT CONFLICT ANALYSIS REPORT
+================================================================================
+
+Total transcript XML files: 322
+Unique mappings: 309
+Conflicts: 13
+
+================================================================================
+CONFLICTS (Same XML → Multiple Objectids)
+================================================================================
+
+Adair1.xml
+  → adair_ione_1
+  → cornelison_bernadine_1
+
+Adair2.xml
+  → adair_ione_2
+  → cornelison_bernadine_2
+
+Adair3.xml
+  → adair_ione_3
+  → cornelison_bernadine_3
+
+Adair4.xml
+  → adair_ione_4
+  → cornelison_bernadine_4
+
+Adair5.xml
+  → adair_ione_5
+  → cornelison_bernadine_5
+
+Byers2.xml
+  → brouillard_jennie_2
+  → byers_fannie_2
+
+Cameron.xml
+  → cameron_viola_1
+  → ryan_grace_1
+
+Justice_Lena2.xml
+  → justice_lena_2
+  → lemarr_may_2
+
+Kent.xml
+  → cox_andrew_1
+  → kent_edward_1
+
+Murphy.xml
+  → maloney_joe_1
+  → murphy_danandjoemaloney_1
+
+Platt.xml
+  → hickman_william_1
+  → platt_ej_1
+  → platt_kenneth_1
+
+Sundell.xml
+  → asplund_ida_1
+  → sundell_theodore_1
+
+Wurman.xml
+  → lynd_mary_1
+  → munden_mamie_1
+  → wurman_mamie_1
+
+================================================================================
+UNIQUE MAPPINGS (For reference)
+================================================================================
+
+Albright1.xml → albright_lora_1
+Albright2.xml → albright_lora_2
+Albright3.xml → albright_lora_3
+Anderson_Axel1.xml → anderson_axel_1
+Anderson_Axel2.xml → anderson_axel_2
+Anderson_Axel3.xml → anderson_axel_3
+Anderson_Axel4.xml → anderson_axel_4
+Anderson_Axel5.xml → anderson_axel_5
+Anderson_Ernest1.xml → anderson_ernest_1
+Anderson_Ernest2.xml → anderson_ernest_2
+Anderson_Helen1.xml → anderson_helen_1
+Anderson_Helen2.xml → anderson_helen_2
+Asplund.xml → asplund_philip_1
+Bacca.xml → bacca_jamesandamelia_1
+Baker.xml → baker_winney_1
+Benge1.xml → benge_john_1
+Benge2.xml → benge_john_2
+Benge3.xml → benge_john_3
+Benge4.xml → benge_john_4
+Benscoter.xml → benscoter_walter_1
+Benson.xml → benson_henry_1
+Bjerke1.xml → bjerke_arthur_1
+Bjerke2.xml → bjerke_arthur_2
+Bjerke3.xml → bjerke_arthur_3
+Bjerke4.xml → bjerke_arthur_4
+Boag.xml → boag_violet_1
+Boas1.xml → boas_louis_1
+Boas2.xml → boas_louis_2
+Borah.xml → borah_mary_1
+Brammer1.xml → brammer_henry_1
+Brammer2.xml → brammer_henry_2
+Brink.xml → brink_carol_1
+Brocke1.xml → brocke_frank_1
+Brocke2.xml → brocke_frank_2
+Brocke3.xml → brocke_frank_3
+Brocke4.xml → brocke_frank_4
+Brocke5.xml → brocke_frank_5
+Bubuly.xml → bubuly_michael_1
+Burkland_Joel.xml → burkland_joel_1
+Burkland_William2.xml → burkland_william_2
+Butterfield1.xml → butterfield_edna_1
+Butterfield2.xml → butterfield_edna_2
+Byers1.xml → byers_fannie_1
+Byers3.xml → byers_fannie_3
+Callison1.xml → callison_norla_1
+Callison2.xml → callison_norla_2
+Callison3.xml → callison_norla_3
+Carlson_Gustav1.xml → carlson_gustav_1
+Carlson_Gustav2.xml → carlson_gustav_2
+Carlson_Helena1.xml → carlson_helena_1
+Carlson_Helena2.xml → carlson_helena_2
+Carlson_Mevlin1.xml → carlson_melvin_1
+Carlson_Mevlin2.xml → carlson_melvin_2
+Carlson_Willa1.xml → carlson_willa_1
+Carlson_Willa2.xml → carlson_willa_2
+Carlson_Willa3.xml → carlson_willa_3
+Carlson_Willa4.xml → carlson_willa_4
+Carlson_Willa5.xml → carlson_willa_5
+Carlson_Willa6.xml → carlson_willa_6
+Christina.xml → christina_sister_1
+Clark_Archie.xml → clark_archie_1
+Clark_J.xml → clark_jandmarie_1
+Clark_Rosie.xml → clark_rosie_1
+Clyde1.xml → clyde_lola_1
+Clyde2.xml → clyde_lola_2
+Clyde3.xml → clyde_lola_3
+Clyde4.xml → clyde_lola_4
+Clyde5.xml → clyde_lola_5
+Clyde6.xml → clyde_lola_6
+Clyde7.xml → clyde_lola_7
+Corrin.xml → corrin_glenn_1
+Craig.xml → craig_anna_1
+Crocker.xml → crocker_lester_1
+Crow_Ada.xml → crow_ada_1
+Crow_Charles.xml → crow_charles_1
+Currin.xml → currin_walter_1
+Cushman.xml → cushman_john_1
+Daniels.xml → daniels_eva_1
+Demus1.xml → demus_gus_1
+Demus2.xml → demus_gus_2
+Demus3.xml → demus_gus_3
+Demus4.xml → demus_gus_4
+Denevan.xml → denevan_lucille_1
+Diamantis.xml → diamantis_john_1
+Driscoll.xml → driscoll_jennie_1
+East.xml → east_john_1
+Edwards.xml → edwards_mary_1
+Eikum1.xml → eikum_john_1
+Erickson.xml → erickson_alfred_1
+Estes.xml → estes_willis_1
+Fisher.xml → fisher_marie_1
+Fleener1.xml → fleener_dora_1
+Fleener2.xml → fleener_dora_2
+Flodin1.xml → flodin_elmer_1
+Flodin2.xml → flodin_elmer_2
+Follett.xml → follett_mahlon_1
+Fry1.xml → fry_frances_1
+Fry2.xml → fry_frances_2
+Gamble_Daniel.xml → gamble_daniel_1
+Gamble_Gus1.xml → gamble_gus_1
+Gamble_Gus2.xml → gamble_gus_2
+Gamble_WJ1.xml → gamble_wj_1
+Gamble_WJ2.xml → gamble_wj_2
+Gilder1.xml → gilder_glenandagnes_1
+Gilder3.xml → gilder_glenandagnes_3
+Gilder4.xml → gilder_glenandagnes_4
+Gilder5.xml → gilder_glenandagnes_5
+Gilder6.xml → gilder_glenandagnes_6
+Gilder7.xml → gilder_glenandagnes_7
+Gleave.xml → gleave_james_1
+Glenn_Bruce.xml → glenn_bruceandagnes_1
+Glenn_Roy.xml → glenn_royandmabel_1
+Goff1.xml → goff_abe_1
+Goff2.xml → goff_abe_2
+Gorman.xml → gorman_madeleine_1
+Grannis.xml → grannis_kate_1
+Groseclose1.xml → groseclose_edwardanddixie_1
+Groseclose2.xml → groseclose_edwardanddixie_2
+Groseclose3.xml → groseclose_edwardanddixie_3
+Grove1.xml → grove_clara_1
+Grove2.xml → grove_clara_2
+Grove3.xml → grove_clara_3
+Grove4.xml → grove_clara_4
+Grove5.xml → grove_clara_5
+Gruell.xml → gruell_crystal_1
+Guernsey.xml → guernsey_viola_1
+Guilfoy1.xml → guilfoy_leo_1
+Guilfoy2.xml → guilfoy_leo_2
+Gustin.xml → gustin_clay_1
+Halen1.xml → halen_alben_1
+Halen2.xml → halen_alben_2
+Halseth.xml → halseth_edward_1
+Hampton.xml → hampton_elvon_1
+Handlin.xml → handlin_nellie_1
+Hardt.xml → hardt_verna_1
+Hazeltine.xml → hazeltine_mabel_1
+Hermann.xml → herrmann_beulah_1
+Herzog2.xml → herzog_frank_2
+Holland1.xml → holland_joseph_1
+Holland2.xml → holland_joseph_2
+Hove.xml → hove_palma_1
+Ingle_Florence.xml → ingle_florence_1
+Ingle_Gerald.xml → ingle_gerald_1
+Jackson.xml → jackson_alice_1
+Jelleberg.xml → jelleberg_charles_1
+Johanson.xml → johanson_nellie_1
+Johnson_Clarence.xml → johnson_clarence_1
+Johnson_Delia.xml → johnson_delia_1
+Johnson_Hattie.xml → johnson_hattie_1
+Johnson_Oscar.xml → johnson_oscar_1
+Johnson_Walter.xml → johnson_walter_1
+Jones1.xml → jones_agnes_1
+Jones2.xml → jones_agnes_2
+Jones3.xml → jones_agnes_3
+Justice_Albert.xml → justice_albert_1
+Justice_Lena1.xml → justice_lena_1
+Kauder1.xml → kauder_william_1
+Kauder2.xml → kauder_william_2
+Kauder3.xml → kauder_william_3
+Kellberg.xml → kellberg_ruth_1
+Lancaster.xml → lancaster_mayandcarl_1
+Lawrence1.xml → lawrence_floydandnola_1
+Lawrence2.xml → lawrence_floydandnola_2
+Leland.xml → leland_ruth_1
+Lepard.xml → lepard_george_1
+Lew1.xml → lew_miandmarie_1
+Lew2.xml → lew_miandmarie_2
+Lew3.xml → lew_miandmarie_3
+Lew4.xml → lew_miandmarie_4
+Long_F1.xml → long_f_1
+Long_F2.xml → long_f_2
+Long_F3.xml → long_f_3
+Long_Martha1.xml → long_martha_1
+Long_Martha2.xml → long_martha_2
+Maclied.xml → maclied_pauline_1
+Mahon1.xml → mahon_catherine_1
+Mahon2.xml → mahon_catherine_2
+Mahon3.xml → mahon_catherine_3
+McKeever.xml → mckeever_george_1
+Messersmith.xml → messersmith_lewisandhazel_1
+Miller.xml → miller_john_1
+Moore.xml → moore_elsie_1
+Morgan.xml → morgan_william_1
+Mushal.xml → mushal_edward_1
+Nelson1.xml → nelson_elsie_1
+Nelson2.xml → nelson_elsie_2
+Newman.xml → newman_ida_1
+Nichols.xml → nichols_george_1
+Nordby.xml → nordby_rudolph_1
+Nye.xml → nye_maeci_1
+Olson_Carl1.xml → olson_carl_1
+Olson_Carl2.xml → olson_carl_2
+Olson_Carl3.xml → olson_carl_3
+Olson_Carl4.xml → olson_carl_4
+Olson_Carl5.xml → olson_carl_5
+Olson_Ella.xml → olson_ella_1
+Olson_Oscar.xml → olson_oscarandhazel_1
+Olson_Ruth.xml → olson_ruth_1
+Oslund.xml → oslund_anna_1
+Otness1.xml → otness_lillian_1
+Otness2.xml → otness_lillian_2
+Paolini.xml → paolini_pete_1
+Parker.xml → parker_naomi_1
+Phelan.xml → phelan_amanda_1
+Pierce_Albert.xml → pierce_albert_1
+Pierce_Selina.xml → pierce_selina_1
+Platz.xml → platz_ima_1
+Presby.xml → presby_curtis_1
+Ramsdale1.xml → ramsdale_edward_1
+Ramsdale2.xml → ramsdale_edward_2
+Ringsage_Helmer1.xml → ringsage_helmer_1
+Ringsage_Helmer2.xml → ringsage_helmer_2
+Ringsage_Helmer3.xml → ringsage_helmer_3
+Ringsage_Helmer4.xml → ringsage_helmer_4
+Ringsage_Jean1.xml → ringsage_jeanandstiner_1
+Ringsage_Jean2.xml → ringsage_jeanandstiner_2
+Ringsage_Jean3.xml → ringsage_jeanandstiner_3
+Rowan1.xml → rowan_frankandlottie_1
+Rowan2.xml → rowan_frankandlottie_2
+Ruberg.xml → ruberg_hilda_1
+Sampson_Clarice1.xml → sampson_clarice_1
+Sampson_Clarice2.xml → sampson_clarice_2
+Sampson_Clarice4.xml → sampson_clarice_4
+Sampson_Harry1.xml → sampson_harry_1
+Sampson_Harry2.xml → sampson_harry_2
+Sampson_Harry3.xml → sampson_harry_3
+Sandell.xml → sandell_hanna_1
+Sanderson_Byers1.xml → sanderson_byers_1
+Sanderson_Byers2.xml → sanderson_byers_2
+Sanderson_Byers3.xml → sanderson_byers_3
+Sanderson_Byers4.xml → sanderson_byers_4
+Sanderson_John.xml → sanderson_john_1
+Schimke.xml → schimke_margaret_1
+Schmaltz1.xml → schmaltz_george_1
+Schmaltz2.xml → schmaltz_george_2
+Schoeffler.xml → schoeffler_ada_1
+Schupfer_Herman1.xml → schupfer_herman_1
+Schupfer_Herman2.xml → schupfer_herman_2
+Schupfer_Otto1.xml → schupfer_otto_1
+Schupfer_Otto2.xml → schupfer_otto_2
+Settle1.xml → settle_eugene_1
+Settle2.xml → settle_eugene_2
+Settle3.xml → settle_eugene_3
+Settle4.xml → settle_eugene_4
+Settle5.xml → settle_eugene_5
+Settle6.xml → settle_eugene_6
+Sherman1.xml → sherman_theodore_1
+Sherman2.xml → sherman_theodore_2
+Shirrod.xml → shirrod_emma_1
+Showalter1.xml → showalter_ulysses_1
+Showalter2.xml → showalter_ulysses_2
+Smith1.xml → smith_nellie_1
+Smith2.xml → smith_nellie_2
+Smith3.xml → smith_nellie_3
+Smith4.xml → smith_nellie_4
+Smith5.xml → smith_nellie_5
+Smith6.xml → smith_nellie_6
+Spencer.xml → spencer_jesseandmabel_1
+Stefanos.xml → stefanos_mike_1
+Steffen1.xml → steffen_kenneth_1
+Steffen2.xml → steffen_kenneth_2
+Stowell1.xml → stowell_william_1
+Stowell2.xml → stowell_william_2
+Stowell3.xml → stowell_william_3
+Sundberg1.xml → sundberg_arthur_1
+Sundberg2.xml → sundberg_arthur_2
+Sundberg3.xml → sundberg_arthur_3
+Sundberg4.xml → sundberg_arthur_4
+Sundberg5.xml → sundberg_arthur_5
+Sweeney.xml → sweeney_nellie_1
+Swenson1.xml → swenson_edward_1
+Swenson2.xml → swenson_edward_2
+Swenson3.xml → swenson_edward_3
+Swenson4.xml → swenson_edward_4
+Thomason1.xml → thomason_oscarandanna_1
+Thomason2.xml → thomason_oscarandanna_2
+Thurtle.xml → thurtle_alice_1
+Torgerson.xml → torgerson_george_1
+Tribble_Hershiel1.xml → tribble_hershiel_1
+Tribble_Hershiel2.xml → tribble_hershiel_2
+Tribble_Lolah.xml → tribble_lolah_1
+Utt_Anna1.xml → utt_emmettandanna_3
+Utt_Emmett1.xml → utt_emmettandanna_1
+Utt_Emmett2.xml → utt_emmettandanna_2
+Utt_EmmettAnna4.xml → utt_emmettandanna_4
+Utt_EmmettAnna5.xml → utt_emmettandanna_5
+Vine.xml → vine_rannie_1
+Wahl2.xml → wahl_tomandelizabeth_2
+Wahl3.xml → wahl_tomandelizabeth_3
+Waldron1.xml → waldron_kate_1
+Waldron2.xml → waldron_kate_2
+Waterman.xml → waterman_merton_1
+Wells1.xml → wells_elmer_1
+Wells2.xml → wells_elmer_2
+Wheeler.xml → wheeler_ruby_1
+Whitman.xml → whitman_bess_1
+Wicks1.xml → wicks_grace_1
+Wicks2.xml → wicks_grace_2
+Wicks3.xml → wicks_grace_3
+Wicks4.xml → wicks_grace_4
+Wicks5.xml → wicks_grace_5
+Wilkins.xml → wilkins_kenneth_1
+https://objects.lib.uidaho.edu/lcoh/transcripts/buchanan1.pdf → buchanan_george_1
+https://objects.lib.uidaho.edu/lcoh/transcripts/martin1.pdf → martin_roy_1
+https://objects.lib.uidaho.edu/lcoh/transcripts/martin2.pdf → martin_roy_2
+https://objects.lib.uidaho.edu/lcoh/transcripts/milbert1.pdf → milbert_frank_1
+https://objects.lib.uidaho.edu/lcoh/transcripts/milbert2.pdf → milbert_frank_2
+https://objects.lib.uidaho.edu/lcoh/transcripts/moody1.pdf → moody_george_1
+https://objects.lib.uidaho.edu/lcoh/transcripts/morris1.pdf → morris_mabell_1
