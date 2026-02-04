@@ -3,6 +3,22 @@
 layout: item/item-page-base
 ---
 
+{% if page.connected_objectid %}
+{%- assign connected_item = site.data[site.metadata] | where: "objectid", page.connected_objectid | first -%}
+{% if connected_item %}
+<div class="alert alert-info mb-4" role="alert">
+    <svg class="bi me-2" width="20" height="20" fill="currentColor">
+        <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-audio"/>
+    </svg>
+    <strong>This is a shared interview.</strong> 
+    View the full interview transcript and recording: 
+    <a href="{{ '/items/' | append: page.connected_objectid | append: '.html' | relative_url }}" class="alert-link fw-bold">
+        {{ connected_item.title }}
+    </a>
+</div>
+{% endif %}
+{% endif %}
+
 <div class="mb-4 text-center">
 
     <div class="my-2">

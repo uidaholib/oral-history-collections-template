@@ -143,8 +143,21 @@ gallery: false
             {% for interview in children %}
             <div class="card mb-3 border-0 shadow-sm hover-shadow">
                 <div class="card-body p-3">
+                    {%- comment -%} If this is a record with connected_objectid, link to the actual interview {%- endcomment -%}
+                    {% if interview.display_template == 'record' and interview.connected_objectid %}
+                        {% assign link_objectid = interview.connected_objectid %}
+                        <div class="alert alert-info alert-sm py-1 px-2 mb-2" style="font-size: 0.75rem;">
+                            <svg class="bi me-1" width="12" height="12" fill="currentColor">
+                                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-people"/>
+                            </svg>
+                            Shared interview
+                        </div>
+                    {% else %}
+                        {% assign link_objectid = interview.objectid %}
+                    {% endif %}
+                    
                     <h3 class="card-title h5 mb-2">
-                        <a href="{{ '/items/' | append: interview.objectid | append: '.html' | relative_url }}" class="text-decoration-none stretched-link">
+                        <a href="{{ '/items/' | append: link_objectid | append: '.html' | relative_url }}" class="text-decoration-none stretched-link">
                             {{ interview.title }}
                         </a>
                     </h3>
@@ -195,6 +208,17 @@ gallery: false
                                 <span class="badge bg-secondary bg-opacity-10 text-secondary me-1 mb-1" style="font-size: 0.7rem;">+{{ subjects.size | minus: 4 }}</span>
                             {% endif %}
                         </div>
+                    </div>
+                    {% endif %}
+                    
+                    {%- comment -%} If this linked to a connected interview, show link to the record {%- endcomment -%}
+                    {% if interview.display_template == 'record' and interview.connected_objectid %}
+                    <div class="mt-2 pt-2 border-top">
+                        <small class="text-muted">
+                            <a href="{{ '/items/' | append: interview.objectid | append: '.html' | relative_url }}" class="text-muted text-decoration-none" style="position: relative; z-index: 2;">
+                                View {{ page.person_name | split: ", " | last | strip }} {{ page.person_name | split: ", " | first | strip }}'s record →
+                            </a>
+                        </small>
                     </div>
                     {% endif %}
                 </div>

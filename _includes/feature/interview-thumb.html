@@ -1,0 +1,10 @@
+{%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+{%- capture image_link -%}{{ '/people/' | append: item.objectid | append: '.html' | relative_url }}{% endcapture %}
+{%- capture src -%}{{ item.image_small | default: item.object_location | relative_url }}{% endcapture %}
+{%- capture alt -%}{{ item.image_alt_text | default: item.description | default: item.title }}{% endcapture %}
+<div class="card my-4 text-center">
+    <img class="card-img-top" src="{{ src }}" alt="{{ alt | escape }}">
+    <div class="card-body">
+        <a class="stretched-link" href="{{ image_link }}">{{ item.title }}</a>
+    </div>
+</div>
