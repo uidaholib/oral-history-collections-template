@@ -268,6 +268,24 @@
     font-weight: bold;
     color: white;
     opacity: 0.9;
+    max-width: 100%;
+    padding: 0 1rem;
+    white-space: nowrap;
+    line-height: 1.1;
+    
+    /* Scale down font for longer text */
+    &[data-length="medium"] {
+        font-size: 3rem;
+    }
+    &[data-length="long"] {
+        font-size: 2.2rem;
+    }
+    &[data-length="very-long"] {
+        font-size: 1.6rem;
+    }
+    &[data-length="extra-long"] {
+        font-size: 1.2rem;
+    }
 }
 
 .person-card .card-title a {

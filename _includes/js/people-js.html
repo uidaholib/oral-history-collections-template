@@ -271,7 +271,7 @@ function createPersonCard(person) {
         `${person.interview_count} interview${person.interview_count > 1 ? 's' : ''}` : 
         'Interviews available';
     
-    let card = '<div class="col-lg-4 col-md-6 mb-4">';
+    let card = '<div class="col-lg-4 col-md-6 col-6 mb-4">';
     card += '<div class="card h-100 person-card">';
     
     // Image or placeholder
@@ -280,8 +280,15 @@ function createPersonCard(person) {
         card += `<img src="${imageUrl}" class="card-img-top person-card-img" alt="${person.name}">`;
         card += '</a>';
     } else {
+        const lastName = getLastName(person.title);
+        let lengthClass = '';
+        if (lastName.length > 15) lengthClass = 'extra-long';
+        else if (lastName.length > 11) lengthClass = 'very-long';
+        else if (lastName.length > 8) lengthClass = 'long';
+        else if (lastName.length > 6) lengthClass = 'medium';
+        
         card += '<div class="person-card-placeholder">';
-        card += `<div class="person-initials">${getLastName(person.title)}</div>`;
+        card += `<div class="person-initials" data-length="${lengthClass}">${lastName}</div>`;
         card += '</div>';
     }
     
