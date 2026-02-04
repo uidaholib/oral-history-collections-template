@@ -1,3 +1,5 @@
+{%- comment -%} Define trancheck variable needed by filters.html {%- endcomment -%}
+{% assign trancheck = items | map: "words" %}
 {% include transcript/item/filters.html %}
 <!-- cb: _includes/transcript/item/transcript-viz.html -->
 <div id="contents-container" class="pe-5 pb-5 mb-5 border-bottom pdf-content">

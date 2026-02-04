@@ -1,0 +1,81 @@
+{%- comment -%}
+    Display index points as an accordion matching transcript layout style.
+    Reads from _data/indexes/[objectid].csv or _data/indexes/[object-transcript].csv
+
+    Each index point has: time (timestamp), title, description
+    Title and timestamp are visible; click title to expand description.
+{%- endcomment -%}
+
+{%- comment -%} Determine which index file to load {%- endcomment -%}
+{% if page.object-transcript contains ".csv" %}
+    {% assign index_file = page.object-transcript | remove: ".csv" %}
+{% elsif page.object-transcript %}
+    {% assign index_file = page.object-transcript %}
+{% else %}
+    {% assign index_file = page.objectid %}
+{% endif %}
+
+{%- comment -%} Try to load the index data {%- endcomment -%}
+{% assign index_points = site.data.indexes[index_file] %}
+
+{%- comment -%} Only display if we have index data {%- endcomment -%}
+{% if index_points and index_points.size > 0 %}
+<div id="interview-index-content" class="accordion accordion-flush pe-5 pb-5 mb-5 border-bottom pdf-content">
+    {% for point in index_points %}
+    <div class="accordion-item border-0 border-bottom">
+        <div class="accordion-header row py-2" id="indexHeading{{ forloop.index }}">
+            <div class="col-md-10 col-lg-8 col-print-12 pr-0">
+                <button class="accordion-button collapsed p-0 bg-transparent border-0 shadow-none text-start" type="button" data-bs-toggle="collapse" data-bs-target="#indexCollapse{{ forloop.index }}" aria-expanded="false" aria-controls="indexCollapse{{ forloop.index }}">
+                    <h3 class="h5 fw-bold mb-0">{{ point.title }}</h3>
+                </button>
+            </div>
+            <div class="col-12 col-md-2 mb-0 small text-center">
+                {% if av and point.time %}
+                {%- comment -%} Convert timestamp to seconds for media jumping {%- endcomment -%}
+                {% assign time_parts = point.time | remove: "[" | remove: "]" | split: ":" %}
+                {% if time_parts.size == 3 %}
+                    {% assign hours = time_parts[0] | times: 3600 %}
+                    {% assign minutes = time_parts[1] | times: 60 %}
+                    {% assign seconds = time_parts[2] | plus: 0 %}
+                    {% assign total_seconds = hours | plus: minutes | plus: seconds %}
+                {% elsif time_parts.size == 2 %}
+                    {% assign minutes = time_parts[0] | times: 60 %}
+                    {% assign seconds = time_parts[1] | plus: 0 %}
+                    {% assign total_seconds = minutes | plus: seconds %}
+                {% else %}
+                    {% assign total_seconds = time_parts[0] | plus: 0 %}
+                {% endif %}
+                <button
+                    type="button"
+                    title="Jump to {{ point.time }}"
+                    class="timestamp-link btn btn-link p-0"
+                    data-timestamp="{{ total_seconds }}"
+                    {% if av contains 'mp3' %}
+                        onclick="timestampMP3('{{ total_seconds }}');"
+                    {% elsif av contains 'youtube' %}
+                        onclick="seekTo({{ total_seconds }});"
+                    {% elsif av contains 'soundcloud' %}
+                        onclick="seekTo({{ total_seconds | times: 1000 }});"
+                    {% elsif av contains 'vimeo' %}
+                        onclick="vimeoPlayer.setCurrentTime({{ total_seconds }});"
+                    {% endif %}
+                    aria-label="Jump to {{ point.time }}"
+                >
+                    <span aria-hidden="true">{{ point.time }}</span>
+                </button>
+                {% else %}
+                {{ point.time }}
+                {% endif %}
+            </div>
+        </div>
+        <div id="indexCollapse{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="indexHeading{{ forloop.index }}" data-bs-parent="#interview-index-content">
+            <div class="accordion-body row">
+                <div class="col-md-10 col-lg-8 col-print-12">
+                    <p class="mb-0">{{ point.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
