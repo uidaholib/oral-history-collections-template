@@ -1,0 +1,172 @@
+<script>
+/**
+ * PEOPLE PAGE JAVASCRIPT
+ * Handles filtering, search, and display of narrator list
+ */
+
+// =============================================================================
+// INITIALIZATION
+// =============================================================================
+
+let filteredPeople = peopleData;
+const searchBox = document.getElementById('peopleSearchBox');
+const peopleGrid = document.getElementById('peopleGrid');
+const resultsCount = document.getElementById('searchResultsCount');
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function() {
+    displayPeople(peopleData);
+    updateResultsCount(peopleData.length);
+    
+    // Setup search with debounce
+    let searchTimeout;
+    searchBox.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            filterPeople(this.value);
+        }, 300);
+    });
+    
+    // Focus search box
+    searchBox.focus();
+});
+
+// =============================================================================
+// FILTERING & SEARCH
+// =============================================================================
+
+/**
+ * Filter people based on search query
+ */
+function filterPeople(query) {
+    if (!query || query.trim() === '') {
+        filteredPeople = peopleData;
+    } else {
+        const searchTerms = query.toLowerCase().trim();
+        filteredPeople = peopleData.filter(person => {
+            return (
+                (person.name && person.name.toLowerCase().includes(searchTerms)) ||
+                (person.occupation && person.occupation.toLowerCase().includes(searchTerms)) ||
+                (person.residence && person.residence.toLowerCase().includes(searchTerms)) ||
+                (person.origin && person.origin.toLowerCase().includes(searchTerms))
+            );
+        });
+    }
+    
+    displayPeople(filteredPeople);
+    updateResultsCount(filteredPeople.length);
+}
+
+/**
+ * Clear search and reset display
+ */
+function clearPeopleSearch() {
+    searchBox.value = '';
+    filterPeople('');
+    searchBox.focus();
+}
+
+/**
+ * Update results count display
+ */
+function updateResultsCount(count) {
+    if (searchBox.value.trim() === '') {
+        resultsCount.textContent = `Showing all ${count} narrators`;
+    } else {
+        resultsCount.textContent = `Found ${count} narrator${count !== 1 ? 's' : ''}`;
+    }
+}
+
+// =============================================================================
+// DISPLAY
+// =============================================================================
+
+/**
+ * Display people cards in grid
+ */
+function displayPeople(people) {
+    if (people.length === 0) {
+        peopleGrid.innerHTML = '<div class="col-12 text-center py-5"><p class="lead text-muted">No narrators found matching your search.</p></div>';
+        return;
+    }
+    
+    peopleGrid.innerHTML = people.map(person => createPersonCard(person)).join('');
+}
+
+/**
+ * Create HTML card for a person
+ */
+function createPersonCard(person) {
+    const hasImage = person.image_small || person.image_thumb;
+    const imageUrl = person.image_small || person.image_thumb;
+    const interviewText = person.interview_count ? 
+        `${person.interview_count} interview${person.interview_count > 1 ? 's' : ''}` : 
+        'Interviews available';
+    
+    let card = '<div class="col-lg-4 col-md-6 mb-4">';
+    card += '<div class="card h-100 person-card">';
+    
+    // Image or placeholder
+    if (hasImage) {
+        card += `<a href="${person.person_link}">`;
+        card += `<img src="${imageUrl}" class="card-img-top person-card-img" alt="${person.name}">`;
+        card += '</a>';
+    } else {
+        card += '<div class="person-card-placeholder">';
+        card += `<div class="person-initials">${getInitials(person.name)}</div>`;
+        card += '</div>';
+    }
+    
+    // Card body
+    card += '<div class="card-body">';
+    card += `<h3 class="card-title h5"><a href="${person.person_link}" class="stretched-link">${person.title}</a></h3>`;
+    
+    if (person.birth_year) {
+        card += `<p class="text-muted small mb-2">Born ${person.birth_year}</p>`;
+    }
+    
+    if (person.occupation) {
+        card += `<p class="card-text small"><strong>Occupation:</strong> ${person.occupation}</p>`;
+    }
+    
+    if (person.residence) {
+        card += `<p class="card-text small"><strong>Residence:</strong> ${person.residence}</p>`;
+    }
+    
+    card += '</div>'; // card-body
+    
+    // Card footer
+    card += '<div class="card-footer bg-transparent">';
+    card += `<small class="text-muted">${interviewText}</small>`;
+    card += '</div>';
+    
+    card += '</div>'; // card
+    card += '</div>'; // col
+    
+    return card;
+}
+
+/**
+ * Get initials from name for placeholder
+ */
+function getInitials(name) {
+    if (!name) return '?';
+    
+    // Handle "Last, First" format
+    const parts = name.split(',').map(p => p.trim());
+    if (parts.length >= 2) {
+        const lastName = parts[0];
+        const firstName = parts[1];
+        return (firstName.charAt(0) + lastName.charAt(0)).toUpperCase();
+    }
+    
+    // Handle "First Last" format
+    const words = name.trim().split(/\s+/);
+    if (words.length >= 2) {
+        return (words[0].charAt(0) + words[words.length - 1].charAt(0)).toUpperCase();
+    }
+    
+    // Single name
+    return name.charAt(0).toUpperCase();
+}
+</script>

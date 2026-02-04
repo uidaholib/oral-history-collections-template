@@ -1,0 +1,79 @@
+---
+layout: page
+custom-foot: js/people-js.html
+---
+{%- assign people = site.data.lcoh | where: "display_template", "person" | sort: "person_name" -%}
+{%- assign people_with_images = site.data.people-with-images | sample: 20 -%}
+
+<div class="people-page-wrapper">
+  
+  <!-- Floating Photo Grid Background Decoration -->
+  <div class="people-photo-grid-bg">
+    {% for person in people_with_images %}
+      <div class="people-grid-item">
+        <img src="{{ person.image_small }}" 
+             alt="{{ person.person_name }}" 
+             loading="lazy">
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Main Content -->
+  <div class="people-content">
+    
+    <!-- Page Introduction -->
+    <div class="row mb-4">
+      <div class="col-md-10 offset-md-1">
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- Search/Filter Box -->
+    <div class="row mb-4">
+      <div class="col-md-8 offset-md-2">
+        <div class="input-group input-group-lg">
+          <input type="text" 
+                 class="form-control" 
+                 id="peopleSearchBox" 
+                 placeholder="Search by name, occupation, location..." 
+                 aria-label="Search narrators"
+                 autocomplete="off">
+          <button class="btn btn-secondary" 
+                  type="button" 
+                  id="clearSearch" 
+                  onclick="clearPeopleSearch()">
+            Clear
+          </button>
+        </div>
+        <div id="searchResultsCount" class="text-center mt-2 text-muted"></div>
+      </div>
+    </div>
+
+    <!-- People Grid -->
+    <div class="row" id="peopleGrid">
+      <!-- Populated by JavaScript -->
+    </div>
+
+  </div>
+</div>
+
+<!-- Hidden data for JavaScript -->
+<script>
+var peopleData = [
+  {% for person in people %}
+  {
+    objectid: {{ person.objectid | jsonify }},
+    name: {{ person.person_name | jsonify }},
+    title: {{ person.title | jsonify }},
+    birth_year: {{ person.birth_year | jsonify }},
+    residence: {{ person.residence | jsonify }},
+    origin: {{ person.origin | jsonify }},
+    occupation: {{ person.occupation | jsonify }},
+    image_small: {{ person.image_small | jsonify }},
+    image_thumb: {{ person.image_thumb | jsonify }},
+    person_link: "{{ '/items/' | relative_url }}" + {{ person.objectid | jsonify }} + ".html",
+    interview_count: {{ person.interview_count | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+</script>

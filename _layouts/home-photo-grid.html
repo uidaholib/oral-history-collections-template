@@ -1,0 +1,58 @@
+---
+# Photo grid home page layout showcasing narrator portraits
+layout: default
+---
+<div class="container-fluid">
+{%- assign people_with_images = site.data.people-with-images -%}
+{%- assign random_people = people_with_images | sample: 24 -%}
+{% include collection-nav.html %}
+<div class="photo-grid-home">
+  <!-- Photo Grid Background -->
+  <div class="photo-grid-container">
+    <div class="photo-grid">
+      {% for person in random_people %}
+        <div class="photo-grid-item" style="grid-row: span {% cycle 1, 2, 1, 2, 1, 1, 2 %};">
+          <img src="{{ person.image_small }}" 
+               alt="{{ person.person_name }}" 
+               title="{{ person.person_name }} - {{ person.occupation }}"
+               loading="lazy">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Centered Overlay with Title and CTAs -->
+  <div class="photo-grid-overlay">
+    <div class="overlay-content">
+      <h1 class="display-3 overlay-title">{{ site.title }}</h1>
+      {% if site.tagline %}
+        <p class="lead overlay-tagline">{{ site.tagline }}</p>
+      {% endif %}
+      <div class="overlay-buttons">
+        <a href="{{ '/people/index.html' | relative_url }}" class="btn btn-lg btn-clearwater me-2 mb-2">Explore Narrators</a>
+        <a href="{{ '/browse.html' | relative_url }}" class="btn btn-lg btn-outline-light mb-2">Browse the Collection</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Library Logo Corner -->
+  <a class="d-none d-md-block position-absolute top-0 end-0 p-3 liblogo-corner bg-dark bg-opacity-75" 
+     href="https://www.lib.uidaho.edu/digital/" 
+     title="University of Idaho Library Digital Collections"
+     style="z-index: 1000;">
+    <img alt="University of Idaho Library" 
+         src="https://www.lib.uidaho.edu/media/digital/liblogo_transparent.png"
+         style="height: 55px;">
+  </a>
+</div>
+
+<!-- Page Content Below Grid -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+</div>
