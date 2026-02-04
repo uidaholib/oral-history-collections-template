@@ -47,9 +47,9 @@ author: CDIL
 metadata: lcoh
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
-# page_gen:
-#  - data: 'lcoh'
-#    dir: 'people'
+page_gen:
+  - data: 'lcoh'
+    dir: 'people'
 
 ##########
 # Site/Organization Branding 

@@ -6,7 +6,7 @@
 ##########
 # Transcript Page / Oral History as Data Options 
 # 
-transcript-fields: "description,date,location,interviewer,interviewee,image,bio" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
+transcript-fields: "description,date,location,subject" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
 # list the fields you'd like displayed, separated by comma
 media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
 search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
@@ -34,20 +34,20 @@ json-generation: false ## true/false --> defaults to false (see note below if yo
 ##########
 # Base Layout (OHD or CollectionBuilder)
 # If you'd like the site to look like CollectionBuilder instead of the OHD look, just change the below value for base-layout to CB rather than ohd
-base-layout: OHD # OHD or CB
+base-layout: CB # OHD or CB
 # NOTE!!: if you change this to CB, and would like the home page to look like other CollectionBuilder sites, you'll need to change the layout on the pages/index.md file to "home-infographic" from "home-cover"
 
 ##########
 # HOME PAGE
 # The optional visualization on the home page is a composite of the transcripts color-coded representation 
 # To turn it off, either don't include a filters or change the value below to false.
-home-page-visualization: true # true / false, if true, the visualization will appear on the home page
+home-page-visualization: false # true / false, if true, the visualization will appear on the home page
 # if false or there's no _data/filters.csv, the image defined by featured-image will be used as a featured image on the homepage
 
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere. 
 # Note: if you are using the CB base layout as determined above, the featured image defined here will show up as the large image at top of the home page
-featured-image: gluck
+featured-image: 
 featured-image-alt-text: # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional for CB base layout: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
@@ -75,14 +75,14 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
+subjects-fields: subject; occupation # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+subjects-min: 2 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+locations-fields: location; residence # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
@@ -103,7 +103,7 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 # set either year-navigation or year-nav-increment to generate a year nav dropdown
-year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
+year-navigation: 1963;1973;1974;1975;1976;1978 #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
 year-nav-increment: 5 # set increments to auto gen nav years
 
 ##########
@@ -111,9 +111,9 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "objectid,parentid,title,creator,interviewer,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rightsstatement,rights,display_template,object_location,image_small,image_thumb,pdf,bio"
+metadata-export-fields: "objectid,personid,title,person_name,birth_year,residence,origin,occupation,date,description,duration,interviewer,subject,identifier,reel,source,rights,rightsstatement,location,format,interview_count,image_filename,image_large,map_center,map_markers,person_link,interview_link,transcript_xml,object_location,pdf,display_template,xml_location,image_small,image_thumb,connected_objectid"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,interviewer,format"
+metadata-facets-fields: "subject,interviewer,duration,location,format"
 
 ##########
 # Compound Objects 

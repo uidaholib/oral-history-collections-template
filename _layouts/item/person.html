@@ -157,7 +157,7 @@ gallery: false
                     {% endif %}
                     
                     <h3 class="card-title h5 mb-2">
-                        <a href="{{ '/items/' | append: link_objectid | append: '.html' | relative_url }}" class="text-decoration-none stretched-link">
+                        <a href="{{ '/people/' | append: link_objectid | append: '.html' | relative_url }}" class="text-decoration-none stretched-link">
                             {{ interview.title }}
                         </a>
                     </h3>
@@ -215,7 +215,7 @@ gallery: false
                     {% if interview.display_template == 'record' and interview.connected_objectid %}
                     <div class="mt-2 pt-2 border-top">
                         <small class="text-muted">
-                            <a href="{{ '/items/' | append: interview.objectid | append: '.html' | relative_url }}" class="text-muted text-decoration-none" style="position: relative; z-index: 2;">
+                            <a href="{{ '/people/' | append: interview.objectid | append: '.html' | relative_url }}" class="text-muted text-decoration-none" style="position: relative; z-index: 2;">
                                 View {{ page.person_name | split: ", " | last | strip }} {{ page.person_name | split: ", " | first | strip }}'s record →
                             </a>
                         </small>

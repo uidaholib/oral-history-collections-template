@@ -1,9 +1,9 @@
 field,display_name,btn,hidden,sort_name,facet_name
 description,Topics,,true
-subject,,,true
+subject,Subjects,true,
 location,Locations,true
 interviewer,,,true
-date,,,true
-residence,Residence,true,
+date,,,true,Date
+residence,Residence,true,,Residence
 occupation,Occupation,true,
-origin,Family Origin,
+origin,Family Origin,,,Origin

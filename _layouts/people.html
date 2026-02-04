@@ -28,30 +28,77 @@ custom-foot: js/people-js.html
       </div>
     </div>
 
-    <!-- Search/Filter Box -->
-    <div class="row mb-4">
-      <div class="col-md-8 offset-md-2">
-        <div class="input-group input-group-lg">
-          <input type="text" 
-                 class="form-control" 
-                 id="peopleSearchBox" 
-                 placeholder="Search by name, occupation, location..." 
-                 aria-label="Search narrators"
-                 autocomplete="off">
-          <button class="btn btn-secondary" 
-                  type="button" 
-                  id="clearSearch" 
-                  onclick="clearPeopleSearch()">
-            Clear
-          </button>
-        </div>
-        <div id="searchResultsCount" class="text-center mt-2 text-muted"></div>
-      </div>
-    </div>
+    <div class="row">
+      <!-- Filters Sidebar (desktop only) -->
+      <div class="col-lg-3 d-none d-lg-block mb-4">
+        <div class="filters-sidebar">
+          <h4 class="h5 mb-3">Filter By</h4>
+          
+          <div class="accordion" id="filtersAccordion">
+            <!-- Residence Filter -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingResidence">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResidence" aria-expanded="false" aria-controls="collapseResidence">
+                  Residence
+                </button>
+              </h2>
+              <div id="collapseResidence" class="accordion-collapse collapse" aria-labelledby="headingResidence" data-bs-parent="#filtersAccordion">
+                <div class="accordion-body p-2">
+                  <div id="residenceList" class="residence-list">
+                    <!-- Populated by JavaScript -->
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <!-- People Grid -->
-    <div class="row" id="peopleGrid">
-      <!-- Populated by JavaScript -->
+            <!-- Occupation Filter -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOccupation">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOccupation" aria-expanded="true" aria-controls="collapseOccupation">
+                  Occupation
+                </button>
+              </h2>
+              <div id="collapseOccupation" class="accordion-collapse collapse show" aria-labelledby="headingOccupation" data-bs-parent="#filtersAccordion">
+                <div class="accordion-body p-2">
+                  <div id="occupationList" class="occupation-list">
+                    <!-- Populated by JavaScript -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Main Content Area -->
+      <div class="col-lg-9">
+        <!-- Search/Filter Box -->
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="input-group input-group-lg">
+              <input type="text" 
+                     class="form-control" 
+                     id="peopleSearchBox" 
+                     placeholder="Search by name, occupation, location..." 
+                     aria-label="Search narrators"
+                     autocomplete="off">
+              <button class="btn btn-secondary" 
+                      type="button" 
+                      id="clearSearch" 
+                      onclick="clearPeopleSearch()">
+                Clear
+              </button>
+            </div>
+            <div id="searchResultsCount" class="text-center mt-2 text-muted"></div>
+          </div>
+        </div>
+
+        <!-- People Grid -->
+        <div class="row" id="peopleGrid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
     </div>
 
   </div>
@@ -71,7 +118,7 @@ var peopleData = [
     occupation: {{ person.occupation | jsonify }},
     image_small: {{ person.image_small | jsonify }},
     image_thumb: {{ person.image_thumb | jsonify }},
-    person_link: "{{ '/items/' | relative_url }}" + {{ person.objectid | jsonify }} + ".html",
+    person_link: "{{ '/people/' | relative_url }}" + {{ person.objectid | jsonify }} + ".html",
     interview_count: {{ person.interview_count | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}

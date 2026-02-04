@@ -12,11 +12,15 @@ let filteredPeople = peopleData;
 const searchBox = document.getElementById('peopleSearchBox');
 const peopleGrid = document.getElementById('peopleGrid');
 const resultsCount = document.getElementById('searchResultsCount');
+const occupationList = document.getElementById('occupationList');
+const residenceList = document.getElementById('residenceList');
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
     displayPeople(peopleData);
     updateResultsCount(peopleData.length);
+    buildOccupationSidebar();
+    buildResidenceSidebar();
     
     // Setup search with debounce
     let searchTimeout;
@@ -30,6 +34,160 @@ document.addEventListener('DOMContentLoaded', function() {
     // Focus search box
     searchBox.focus();
 });
+
+// =============================================================================
+// OCCUPATION SIDEBAR
+// =============================================================================
+
+/**
+ * Build the occupation sidebar with top occupations
+ */
+function buildOccupationSidebar() {
+    if (!occupationList) return; // Sidebar not present on mobile
+    
+    // Count occupations (normalize case for counting)
+    const occupationCounts = {};
+    const occupationDisplayNames = {}; // Store the most common casing
+    
+    peopleData.forEach(person => {
+        if (person.occupation) {
+            // Split by semicolon for multiple occupations
+            const occupations = person.occupation.split(';').map(o => o.trim()).filter(o => o);
+            occupations.forEach(occ => {
+                const normalized = occ.toLowerCase();
+                occupationCounts[normalized] = (occupationCounts[normalized] || 0) + 1;
+                
+                // Keep the version with more capitals for display (looks more professional)
+                if (!occupationDisplayNames[normalized] || occ.charAt(0) === occ.charAt(0).toUpperCase()) {
+                    occupationDisplayNames[normalized] = occ;
+                }
+            });
+        }
+    });
+    
+    // Sort by count and get top 30
+    const topOccupations = Object.entries(occupationCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 30);
+    
+    // Build the list
+    let html = '<div class="list-group list-group-flush">';
+    topOccupations.forEach(([normalized, count]) => {
+        const displayName = occupationDisplayNames[normalized];
+        html += `<button type="button" class="list-group-item list-group-item-action occupation-filter-btn" 
+                        data-occupation="${normalized}" 
+                        onclick="filterByOccupation('${normalized.replace(/'/g, "\\'")}')"
+                        title="Show ${count} narrator${count > 1 ? 's' : ''}">
+                    <span class="occupation-name">${displayName}</span>
+                    <span class="badge bg-secondary float-end">${count}</span>
+                 </button>`;
+    });
+    html += '</div>';
+    
+    occupationList.innerHTML = html;
+}
+
+/**
+ * Filter by clicking an occupation in sidebar
+ */
+function filterByOccupation(occupation) {
+    searchBox.value = occupation;
+    filterPeople(occupation);
+    
+    // Highlight the active occupation
+    document.querySelectorAll('.occupation-filter-btn').forEach(btn => {
+        if (btn.dataset.occupation === occupation) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+    
+    // Remove active state from residence buttons
+    document.querySelectorAll('.residence-filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    // Scroll to top of results
+    peopleGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// =============================================================================
+// RESIDENCE SIDEBAR
+// =============================================================================
+
+/**
+ * Build the residence sidebar with top residences
+ */
+function buildResidenceSidebar() {
+    if (!residenceList) return; // Sidebar not present on mobile
+    
+    // Count residences (normalize case for counting)
+    const residenceCounts = {};
+    const residenceDisplayNames = {}; // Store the most common casing
+    
+    peopleData.forEach(person => {
+        if (person.residence) {
+            // Split by semicolon for multiple residences
+            const residences = person.residence.split(';').map(r => r.trim()).filter(r => r);
+            residences.forEach(res => {
+                const normalized = res.toLowerCase();
+                residenceCounts[normalized] = (residenceCounts[normalized] || 0) + 1;
+                
+                // Keep the version with more capitals for display (looks more professional)
+                if (!residenceDisplayNames[normalized] || res.charAt(0) === res.charAt(0).toUpperCase()) {
+                    residenceDisplayNames[normalized] = res;
+                }
+            });
+        }
+    });
+    
+    // Sort by count and get top 30
+    const topResidences = Object.entries(residenceCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 30);
+    
+    // Build the list
+    let html = '<div class="list-group list-group-flush">';
+    topResidences.forEach(([normalized, count]) => {
+        const displayName = residenceDisplayNames[normalized];
+        html += `<button type="button" class="list-group-item list-group-item-action residence-filter-btn" 
+                        data-residence="${normalized}" 
+                        onclick="filterByResidence('${normalized.replace(/'/g, "\\'")}')"
+                        title="Show ${count} narrator${count > 1 ? 's' : ''}">
+                    <span class="residence-name">${displayName}</span>
+                    <span class="badge bg-secondary float-end">${count}</span>
+                 </button>`;
+    });
+    html += '</div>';
+    
+    residenceList.innerHTML = html;
+}
+
+/**
+ * Filter by clicking a residence in sidebar
+ */
+function filterByResidence(residence) {
+    searchBox.value = residence;
+    filterPeople(residence);
+    
+    // Highlight the active residence
+    document.querySelectorAll('.residence-filter-btn').forEach(btn => {
+        if (btn.dataset.residence === residence) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+    
+    // Remove active state from occupation buttons
+    document.querySelectorAll('.occupation-filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    // Scroll to top of results
+    peopleGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
 // =============================================================================
 // FILTERING & SEARCH
@@ -64,6 +222,16 @@ function clearPeopleSearch() {
     searchBox.value = '';
     filterPeople('');
     searchBox.focus();
+    
+    // Remove active state from occupation buttons
+    document.querySelectorAll('.occupation-filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    // Remove active state from residence buttons
+    document.querySelectorAll('.residence-filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
 }
 
 /**
@@ -113,7 +281,7 @@ function createPersonCard(person) {
         card += '</a>';
     } else {
         card += '<div class="person-card-placeholder">';
-        card += `<div class="person-initials">${getInitials(person.name)}</div>`;
+        card += `<div class="person-initials">${getLastName(person.title)}</div>`;
         card += '</div>';
     }
     
@@ -147,26 +315,13 @@ function createPersonCard(person) {
 }
 
 /**
- * Get initials from name for placeholder
+ * Get last name from title for placeholder
  */
-function getInitials(name) {
-    if (!name) return '?';
+function getLastName(title) {
+    if (!title) return '?';
     
-    // Handle "Last, First" format
-    const parts = name.split(',').map(p => p.trim());
-    if (parts.length >= 2) {
-        const lastName = parts[0];
-        const firstName = parts[1];
-        return (firstName.charAt(0) + lastName.charAt(0)).toUpperCase();
-    }
-    
-    // Handle "First Last" format
-    const words = name.trim().split(/\s+/);
-    if (words.length >= 2) {
-        return (words[0].charAt(0) + words[words.length - 1].charAt(0)).toUpperCase();
-    }
-    
-    // Single name
-    return name.charAt(0).toUpperCase();
+    // Get the last word from the title
+    const words = title.trim().split(/\s+/);
+    return words[words.length - 1].toUpperCase();
 }
 </script>

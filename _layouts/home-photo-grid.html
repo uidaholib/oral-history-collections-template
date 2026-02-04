@@ -29,8 +29,9 @@ layout: default
         <p class="lead overlay-tagline">{{ site.tagline }}</p>
       {% endif %}
       <div class="overlay-buttons">
-        <a href="{{ '/people/index.html' | relative_url }}" class="btn btn-lg btn-clearwater me-2 mb-2">Explore Narrators</a>
-        <a href="{{ '/browse.html' | relative_url }}" class="btn btn-lg btn-outline-light mb-2">Browse the Collection</a>
+        <a href="{{ '/browse.html' | relative_url }}" class="btn btn-lg btn-clearwater me-2  mb-2">Browse  Interviews</a>
+        <a href="{{ '/people/index.html' | relative_url }}" class="btn btn-lg btn-secondary me-2 mb-2">Explore Narrators</a>
+        <a href="{{ '/about.html' | relative_url }}" class="btn btn-lg btn-outline-light me-2 mb-2">Learn More</a>
       </div>
     </div>
   </div>
@@ -49,7 +50,7 @@ layout: default
 <!-- Page Content Below Grid -->
 <div class="container mt-5">
   <div class="row">
-    <div class="col-md-8 offset-md-2">
+    <div class="col-md-10 offset-md-1">
       {{ content }}
     </div>
   </div>

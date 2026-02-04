@@ -257,7 +257,7 @@
 
 .person-card-placeholder {
     height: 300px;
-    background: linear-gradient(135deg, #f1b300 0%, #c0c0c0 50%, #000000 100%);
+    background: linear-gradient(135deg, #1f5870 0%, #4f4949 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -295,6 +295,100 @@
 #searchResultsCount {
     font-size: 0.9rem;
     margin-top: 0.5rem;
+}
+
+/* Occupation Sidebar */
+.occupation-sidebar,
+.filters-sidebar {
+    position: sticky;
+    top: 20px;
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+.occupation-sidebar h4,
+.filters-sidebar h4 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Accordion styling for filters */
+.filters-sidebar .accordion-button {
+    background-color: #008080;
+    color: white;
+    font-weight: bold;
+}
+
+.filters-sidebar .accordion-button:not(.collapsed) {
+    background-color: #008080;
+    color: white;
+}
+
+.filters-sidebar .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 128, 128, 0.5);
+}
+
+.filters-sidebar .accordion-button:hover {
+    background-color: #006666;
+}
+
+.occupation-list {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.residence-list {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.occupation-filter-btn {
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.residence-filter-btn {
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.occupation-filter-btn:hover {
+    background-color: #f8f9fa;
+}
+
+.occupation-filter-btn.active, .residence-filter-btn.active {
+    background-color: #006666;
+    color: white;
+    font-weight: 600;
+}
+
+.occupation-filter-btn.active .badge {
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
+.occupation-name {
+    display: inline-block;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.occupation-filter-btn .badge {
+    font-size: 0.75rem;
 }
 
 /* Responsive adjustments */

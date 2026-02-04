@@ -22,9 +22,9 @@
 {% if index_points and index_points.size > 0 %}
 <div id="interview-index-content" class="accordion accordion-flush pe-5 pb-5 mb-5 border-bottom pdf-content">
     {% for point in index_points %}
-    <div class="accordion-item border-0 border-bottom">
+    <div class="accordion-item border-0 py-1">
         <div class="accordion-header row py-2" id="indexHeading{{ forloop.index }}">
-            <div class="col-md-10 col-lg-8 col-print-12 pr-0">
+            <div class="col-md-9 col-lg-7 col-print-12 pr-0 border-bottom">
                 <button class="accordion-button collapsed p-0 bg-transparent border-0 shadow-none text-start" type="button" data-bs-toggle="collapse" data-bs-target="#indexCollapse{{ forloop.index }}" aria-expanded="false" aria-controls="indexCollapse{{ forloop.index }}">
                     <h3 class="h5 fw-bold mb-0">{{ point.title }}</h3>
                 </button>

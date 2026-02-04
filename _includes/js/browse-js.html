@@ -54,23 +54,17 @@ var loadingIcon, filterTextBox, browseItemsDiv;
  */
 function makeCard(obj) {
     const placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
-    const itemHref = `{{ '/items/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`;
+    const itemHref = `{{ '/people/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`;
     
     let card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
     
-    // Image or icon
+    // Top image for items with image
     if(obj.img) {
         card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}"></a>`;
     }
     
-    // Title
-    card += `<div class="card-body text-center"><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
-    
-    // Icon for items without images
-    if(!obj.img) {
-        const thumbIcon = getIcon(obj.display_template, obj.format, "thumb");
-        if(thumbIcon) card += `<p><a href="${itemHref}">${thumbIcon}</a></p>`;
-    }
+    // Title (not centered)
+    card += `<div class="card-body"><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
     
     // Field data
     card += '<p class="card-text">';
@@ -81,7 +75,7 @@ function makeCard(obj) {
         const btns = obj[{{ f.field | jsonify }}].split(";");
         btns.forEach(btn => {
             if(btn.trim()) {
-                card += `<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ page.url | relative_url }}#{{ f.field }}:${encodeURIComponent(btn.trim())}">${btn.trim()}</a>`;
+                card += `<a class="ms-1" href="{{ '/browse.html' | relative_url }}#${encodeURIComponent(btn.trim())}">${btn.trim()}</a> `;
             }
         });
         {% else %}
@@ -92,13 +86,16 @@ function makeCard(obj) {
     {% endunless %}{% endfor %}
     card += '</p>';
     
-    // Media type badge
-    if(obj.display_template) {
-        const mediaIcon = getIcon(obj.display_template, obj.format, "hidden");
-        card += `<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#display_template:${encodeURIComponent(obj.display_template)}">${obj.display_template.toUpperCase().replace("_"," ")} ${mediaIcon}</a></small></p>`;
+    // View button
+    let buttonText = 'Full Record';
+    if (obj.display_template === 'transcript') {
+        buttonText = 'Interview';
+    } else if (obj.display_template) {
+        buttonText = obj.display_template.charAt(0).toUpperCase() + obj.display_template.slice(1);
     }
+    card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View ${buttonText}</a>`;
     
-    card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View Full Record</a></div></div></div>`;
+    card += '</div></div></div>';
     return card;
 }
 
