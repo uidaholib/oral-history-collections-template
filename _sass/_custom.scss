@@ -424,7 +424,22 @@
     }
     
     .person-initials {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        padding: 0 0.5rem;
+        
+        /* Smaller sizes for mobile */
+        &[data-length="medium"] {
+            font-size: 1.5rem;
+        }
+        &[data-length="long"] {
+            font-size: 1.2rem;
+        }
+        &[data-length="very-long"] {
+            font-size: 1rem;
+        }
+        &[data-length="extra-long"] {
+            font-size: 0.85rem;
+        }
     }
 }
 

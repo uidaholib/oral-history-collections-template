@@ -162,7 +162,7 @@ icons:
   icon-image: image
   icon-audio: soundwave
   icon-video: film
-  icon-pdf: file-pdf
+  icon-pdf: file-richtext
   icon-record: file-text
   icon-panorama: image-alt
   icon-compound-object: collection 
