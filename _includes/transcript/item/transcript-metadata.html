@@ -16,10 +16,40 @@
    </div>
     {% if site.data.theme.transcript-fields contains 'image'  %}
     {% if page.image_small or page.image_thumb %}
-    <div class="col-md-3 {% if av == 'vimeo' or av == 'youtube'%}d-none d-md-block{% endif %}">
+    <div class="col-md-4 {% if av == 'vimeo' or av == 'youtube'%}d-none d-md-block{% endif %}">
       <img class="img-thumbnail timeline-thumb" src="{{page.image_small | default: page.image_thumb | relative_url }}" alt="{{page.title}}"> 
     </div>
     {% endif %}
+    {% endif %}
+    
+    <!-- Person Card -->
+    {% if page.personid %}
+      {%- assign person = site.data.lcoh | where: "objectid", page.personid | first -%}
+      {% if person %}
+      <div class="col-md-4">
+        <div class="card person-info-card">
+          <div class="card-body">
+            {% if person.image_thumb %}
+            <a href="{{ '/people/' | relative_url }}{{ person.objectid }}.html" class="float-end ms-2">
+              <img src="{{ person.image_thumb }}" class="person-info-thumb" alt="{{ person.person_name }}">
+            </a>
+            {% endif %}
+            <h5 class="card-title h6">
+              <a href="{{ '/people/' | relative_url }}{{ person.objectid }}.html">{{ person.title }}</a>
+            </h5>
+            {% if person.birth_year %}
+            <p class="card-text small text-muted mb-1">Born {{ person.birth_year }}</p>
+            {% endif %}
+            {% if person.occupation %}
+            <p class="card-text small mb-1"><strong>Occupation:</strong> {{ person.occupation }}</p>
+            {% endif %}
+            {% if person.residence %}
+            <p class="card-text small mb-1"><strong>Residence:</strong> {{ person.residence }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
     {% endif %}
   </div>
 <!-- /cb: _includes/transcript/item/transcript-metadata.html -->
