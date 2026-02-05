@@ -1,0 +1,39 @@
+---
+title: Interview Redirect
+layout: page-narrow
+permalink: /people/interviews/viewer.html
+---
+
+<div id="redirect-message" style="text-align: center; padding: 2rem;">
+  <p>Redirecting to interview page...</p>
+</div>
+
+<script>
+// Build redirect mapping from LCOH data using Liquid
+const transcriptMap = {
+  {%- assign items = site.data.lcoh | where_exp: 'item','item.transcript_xml' -%}
+  {%- for item in items -%}
+    "{{ item.transcript_xml }}": "{{ item.objectid }}"{% unless forloop.last %},{% endunless %}
+  {%- endfor -%}
+};
+
+// Parse URL query parameters
+const urlParams = new URLSearchParams(window.location.search);
+const cachefile = urlParams.get('cachefile');
+
+if (!cachefile) {
+  document.getElementById('redirect-message').innerHTML = 
+    '<p class="alert alert-danger">Error: No cachefile parameter provided</p>';
+} else if (transcriptMap[cachefile]) {
+  // Redirect to the new page URL
+  const objectid = transcriptMap[cachefile];
+  const newUrl = '{{ "/people/" | relative_url }}' + objectid + '.html';
+  window.location.replace(newUrl);
+} else {
+  document.getElementById('redirect-message').innerHTML = 
+    '<p class="alert alert-warning">Error: Interview not found for cachefile: <code>' + 
+    cachefile + '</code></p>' +
+    '<p>This interview may have been moved or removed. Please return to the ' +
+    '<a href="{{ "/browse.html" | relative_url }}">browse page</a> to find available interviews.</p>';
+}
+</script>
