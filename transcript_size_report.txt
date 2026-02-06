@@ -1,0 +1,419 @@
+================================================================================
+TRANSCRIPT FILE SIZE ANALYSIS REPORT
+================================================================================
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total transcript items in lcoh.csv: 322
+Transcript files found: 315
+Transcript files missing: 7
+Average character count: 75,948
+Total characters across all transcripts: 23,923,594
+
+================================================================================
+MISSING TRANSCRIPT FILES (7)
+================================================================================
+
+ObjectID: buchanan_george_1
+Title: George (Bud) Buchanan Interview #1, 5/01/1974 (transcript only
+Expected path: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/buchanan_george_1.csv
+--------------------------------------------------------------------------------
+ObjectID: martin_roy_1
+Title: Roy Martin Interview #1, 07/02/1976
+Expected path: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/martin_roy_1.csv
+--------------------------------------------------------------------------------
+ObjectID: martin_roy_2
+Title: Roy Martin Interview #2, 07/30/1976
+Expected path: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/martin_roy_2.csv
+--------------------------------------------------------------------------------
+ObjectID: milbert_frank_1
+Title: Frank Milbert Interview #1, 06/18/1975
+Expected path: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/milbert_frank_1.csv
+--------------------------------------------------------------------------------
+ObjectID: milbert_frank_2
+Title: Frank Milbert Interview #2, 06/20/1975
+Expected path: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/milbert_frank_2.csv
+--------------------------------------------------------------------------------
+ObjectID: moody_george_1
+Title: George (Hap) Moody Interview #1, 2/28/1974 (transcript only
+Expected path: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/moody_george_1.csv
+--------------------------------------------------------------------------------
+ObjectID: morris_mabell_1
+Title: Mabelle Nickell Morris Interview #1, 5/14/1976 (transcript only)
+Expected path: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/morris_mabell_1.csv
+--------------------------------------------------------------------------------
+
+================================================================================
+10 SMALLEST TRANSCRIPT FILES
+================================================================================
+
+1. ObjectID: baker_winney_1
+   Title: Winney Tout Baker Interview #1, 1975
+   Character count: 57
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/baker_winney_1.csv
+--------------------------------------------------------------------------------
+2. ObjectID: hove_palma_1
+   Title: Palma Hanson Hove Interview #1, 6/13/1975
+   Character count: 134
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/hove_palma_1.csv
+--------------------------------------------------------------------------------
+3. ObjectID: olson_carl_5
+   Title: Carl Olson Interview #5, 6/17/1975
+   Character count: 8,443
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/olson_carl_5.csv
+--------------------------------------------------------------------------------
+4. ObjectID: johnson_clarence_1
+   Title: Clarence Johnson Interview #1, 2/8/1974
+   Character count: 8,671
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/johnson_clarence_1.csv
+--------------------------------------------------------------------------------
+5. ObjectID: nelson_elsie_1
+   Title: Elsie Nelson Interview #1, 3/14/1974
+   Character count: 10,145
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/nelson_elsie_1.csv
+--------------------------------------------------------------------------------
+6. ObjectID: nelson_elsie_2
+   Title: Elsie Nelson Interview #2, 3/27/1974
+   Character count: 11,121
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/nelson_elsie_2.csv
+--------------------------------------------------------------------------------
+7. ObjectID: jones_agnes_3
+   Title: Agnes Healy Jones Interview #3, 5/19/1976
+   Character count: 11,993
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/jones_agnes_3.csv
+--------------------------------------------------------------------------------
+8. ObjectID: swenson_edward_3
+   Title: Edward Swenson Interview #3, 7/5/1974
+   Character count: 13,157
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/swenson_edward_3.csv
+--------------------------------------------------------------------------------
+9. ObjectID: kauder_william_3
+   Title: William Kauder Interview #3, 6/1/1974
+   Character count: 13,905
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/kauder_william_3.csv
+--------------------------------------------------------------------------------
+10. ObjectID: borah_mary_1
+   Title: Mary McConnell Borah Interview #1, 10/15/1971
+   Character count: 15,026
+   File: /Users/devinbecker/Documents/GitHub/oral-history-collections-template/_data/transcripts/borah_mary_1.csv
+--------------------------------------------------------------------------------
+
+================================================================================
+COMPLETE LISTING (sorted by character count, ascending)
+================================================================================
+
+ObjectID: baker_winney_1                 Chars:         57  Title: Winney Tout Baker Interview #1, 1975
+ObjectID: hove_palma_1                   Chars:        134  Title: Palma Hanson Hove Interview #1, 6/13/1975
+ObjectID: olson_carl_5                   Chars:      8,443  Title: Carl Olson Interview #5, 6/17/1975
+ObjectID: johnson_clarence_1             Chars:      8,671  Title: Clarence Johnson Interview #1, 2/8/1974
+ObjectID: nelson_elsie_1                 Chars:     10,145  Title: Elsie Nelson Interview #1, 3/14/1974
+ObjectID: nelson_elsie_2                 Chars:     11,121  Title: Elsie Nelson Interview #2, 3/27/1974
+ObjectID: jones_agnes_3                  Chars:     11,993  Title: Agnes Healy Jones Interview #3, 5/19/1976
+ObjectID: swenson_edward_3               Chars:     13,157  Title: Edward Swenson Interview #3, 7/5/1974
+ObjectID: kauder_william_3               Chars:     13,905  Title: William Kauder Interview #3, 6/1/1974
+ObjectID: borah_mary_1                   Chars:     15,026  Title: Mary McConnell Borah Interview #1, 10/15/1971
+ObjectID: sweeney_nellie_1               Chars:     17,337  Title: Nellie Edwin Sweeney Interview #1, 7/3/1974
+ObjectID: wheeler_ruby_1                 Chars:     18,866  Title: Ruby Canfield Wheeler Interview #1, 4/9/1974
+ObjectID: johnson_oscar_1                Chars:     19,037  Title: Oscar Johnson Interview #1, 10/1/1976
+ObjectID: east_john_1                    Chars:     22,299  Title: John East Interview #1, 7/9/1974
+ObjectID: presby_curtis_1                Chars:     23,215  Title: Curtis Presby Interview #1, 6/16/1975
+ObjectID: jackson_alice_1                Chars:     23,474  Title: Alice Henry Jackson Interview #1, 2/5/1974
+ObjectID: kellberg_ruth_1                Chars:     23,639  Title: Ruth Anderson Kellberg Interview #1, 6/13/1974
+ObjectID: kauder_william_2               Chars:     24,030  Title: William Kauder Interview #2, 5/3/1974
+ObjectID: long_f_2                       Chars:     24,446  Title: F. Marvin Long Interview #2, 7/10/1973
+ObjectID: kauder_william_1               Chars:     24,800  Title: William Kauder Interview #1, 2/13/1974
+ObjectID: christina_sister_1             Chars:     25,121  Title: Sister Mary Christina Interview #1, 8/19/1976
+ObjectID: thurtle_alice_1                Chars:     25,151  Title: Alice Hall Thurtle Interview #1, 11/30/1973
+ObjectID: bjerke_arthur_3                Chars:     27,011  Title: Arthur Bjerke Interview #3, 10/10/1973
+ObjectID: oslund_anna_1                  Chars:     27,761  Title: Anna Marie Anderson Oslund Interview #1, 12/14/1973
+ObjectID: carlson_willa_3                Chars:     27,964  Title: Willa Cummings Carlson Interview #3, 1974-05-07
+ObjectID: nordby_rudolph_1               Chars:     28,035  Title: Rudolph Nordby Interview #1, 7/5/1963
+ObjectID: justice_lena_1                 Chars:     28,119  Title: Lena (Molly) Erickson Justice Interview #1, 8/20/1974
+ObjectID: lepard_george_1                Chars:     28,839  Title: George Lepard Interview #1, 2/14/1974
+ObjectID: crocker_lester_1               Chars:     30,490  Title: Lester Crocker Interview #1, 7/12/1973
+ObjectID: johnson_walter_1               Chars:     31,247  Title: Walter Johnson Interview #1, 1/16/1974
+ObjectID: lancaster_mayandcarl_1         Chars:     31,327  Title: May & Carl Lancaster Interview #1, 11/21/1973
+ObjectID: gilder_glenandagnes_7          Chars:     31,765  Title: Glen & Agnes Gilder Interview #7, 8/10/1978
+ObjectID: long_f_3                       Chars:     31,871  Title: F. Marvin Long Interview #3, 2/27/1976
+ObjectID: wells_elmer_2                  Chars:     31,951  Title: Elmer Wells Interview #2, 11/15/1974
+ObjectID: platz_ima_1                    Chars:     32,927  Title: Ima Hodge Platz Interview #1, 2/19/1975
+ObjectID: flodin_elmer_1                 Chars:     33,288  Title: Elmer Flodin Interview #1, 6/25/1974
+ObjectID: hazeltine_mabel_1              Chars:     33,593  Title: Mabel Oliver Hazeltine Interview #1, 6/3/1974
+ObjectID: johnson_delia_1                Chars:     34,094  Title: Delia Beardsley Johnson Interview #1, 12/13/1973
+ObjectID: anderson_helen_1               Chars:     34,279  Title: Helen Kellberg Anderson Interview #1, 6/5/1974
+ObjectID: otness_lillian_1               Chars:     34,315  Title: Lillian Woodworth Otness Interview #1, 1/6/1975
+ObjectID: byers_fannie_3                 Chars:     34,912  Title: Fannie Cuthbert Byers Interview #3, 1976
+ObjectID: whitman_bess_1                 Chars:     35,407  Title: Bess Beardsley Whitman Interview #1, 3/1/1974
+ObjectID: swenson_edward_1               Chars:     35,520  Title: Edward Swenson Interview #1, 7/1/1974
+ObjectID: bjerke_arthur_1                Chars:     35,663  Title: Arthur Bjerke Interview #1, 8/15/1973
+ObjectID: leland_ruth_1                  Chars:     36,006  Title: Ruth Leland Interview #1, 5/25/1976
+ObjectID: gilder_glenandagnes_3          Chars:     37,357  Title: Glen & Agnes Gilder Interview #3, 6/17/1975
+ObjectID: gamble_daniel_1                Chars:     38,568  Title: Daniel (Bert) Gamble Interview #1, 12/5/1973
+ObjectID: brammer_henry_1                Chars:     39,023  Title: Henry Brammer Interview #1, 8/20/1973
+ObjectID: demus_gus_4                    Chars:     39,181  Title: Gus Demus Interview #4, 9/24/1976
+ObjectID: erickson_alfred_1              Chars:     39,210  Title: Alfred Erickson Interview #1, 7/26/1974
+ObjectID: anderson_helen_2               Chars:     39,403  Title: Helen Kellberg Anderson Interview #2, 6/14/1974
+ObjectID: brammer_henry_2                Chars:     39,559  Title: Henry Brammer Interview #2, 8/27/1973
+ObjectID: gamble_gus_2                   Chars:     39,664  Title: Gus Gamble Interview #2, 12/18/1974
+ObjectID: wicks_grace_4                  Chars:     40,096  Title: Grace Jain Wicks Interview #4, 10/8/1974
+ObjectID: herrmann_beulah_1              Chars:     40,338  Title: Beulah Dollar Herrmann Interview #1, 11/9/1976
+ObjectID: utt_emmettandanna_3            Chars:     40,921  Title: Emmett and Anna Utt Interview #1, 10/19/1973
+ObjectID: justice_lena_2                 Chars:     41,127  Title: Lena (Molly) Erickson Justice Interview #2, 8/23/1974
+ObjectID: diamantis_john_1               Chars:     41,191  Title: John Diamantis Interview #1, 7/28/1974
+ObjectID: gustin_clay_1                  Chars:     41,443  Title: Clay Gustin Interview #1, 7/25/1973
+ObjectID: ingle_florence_1               Chars:     42,646  Title: Florence Hupp Ingle Interview #1, 8/22/1973
+ObjectID: sherman_theodore_2             Chars:     43,175  Title: Theodore Sherman Interview #2, 6/17/1976
+ObjectID: showalter_ulysses_1            Chars:     43,324  Title: Ulysses Showalter Interview #1, 2/4/1974
+ObjectID: long_f_1                       Chars:     44,064  Title: F. Marvin Long Interview #1, 7/3/1973
+ObjectID: utt_emmettandanna_1            Chars:     44,952  Title: Emmett and Anna Utt Interview #2, 5/7/1973
+ObjectID: gilder_glenandagnes_1          Chars:     45,482  Title: Glen & Agnes Gilder Interview #1, 5/22/1975
+ObjectID: handlin_nellie_1               Chars:     45,752  Title: Nellie Tomer Handlin Interview #1, 12/17/1973
+ObjectID: wells_elmer_1                  Chars:     45,976  Title: Elmer Wells Interview #1, 8/24/1973
+ObjectID: olson_carl_2                   Chars:     46,477  Title: Carl Olson Interview #2, 8/17/1973
+ObjectID: gilder_glenandagnes_5          Chars:     46,900  Title: Glen & Agnes Gilder Interview #5, 12/9/1976
+ObjectID: pierce_selina_1                Chars:     47,042  Title: Selina Smith Pierce Interview #1, 8/2/1974
+ObjectID: moore_elsie_1                  Chars:     47,460  Title: Elsie Adair Moore Interview #1, 12/1/1973
+ObjectID: sanderson_byers_2              Chars:     47,557  Title: Byers Sanderson Interview #2, 11/13/1975
+ObjectID: jones_agnes_2                  Chars:     47,640  Title: Agnes Healy Jones Interview #2, 5/6/1976
+ObjectID: grove_clara_1                  Chars:     47,884  Title: Clara Payne Grove Interview #1, 2/20/1974
+ObjectID: settle_eugene_4                Chars:     48,267  Title: Eugene Settle Interview #4, 12/19/1975
+ObjectID: sampson_harry_3                Chars:     48,381  Title: Harry Sampson Interview #3, 8/16/1976
+ObjectID: clark_rosie_1                  Chars:     49,365  Title: Rosie Hecks Clark Interview #1, 4/17/1974
+ObjectID: bjerke_arthur_4                Chars:     50,343  Title: Arthur Bjerke Interview #4, 5/30/1975
+ObjectID: butterfield_edna_2             Chars:     50,358  Title: Edna Johnson Butterfield Interview #2, 10/19/1976
+ObjectID: craig_anna_1                   Chars:     50,383  Title: Anna Vivan Hise Craig Interview #1, 7/26/1973
+ObjectID: bjerke_arthur_2                Chars:     50,642  Title: Arthur Bjerke Interview #2, 8/20/1973
+ObjectID: ramsdale_edward_1              Chars:     50,672  Title: Edward Ramsdale Interview #1, 3/20/1975
+ObjectID: clark_archie_1                 Chars:     50,957  Title: Archie Clark Interview #1, 4/17/1974
+ObjectID: waldron_kate_1                 Chars:     51,282  Title: Kate Sanderson Waldron Interview #1, 7/8/1976
+ObjectID: halen_alben_2                  Chars:     51,382  Title: Alben Halen Interview #2, 2/20/1976
+ObjectID: halseth_edward_1               Chars:     51,536  Title: Edward Halseth Interview #1, 12/20/1974
+ObjectID: halen_alben_1                  Chars:     52,192  Title: Alben Halen Interview #1, 2/9/1976
+ObjectID: fleener_dora_1                 Chars:     52,463  Title: Dora Otter Fleener Interview #1, 8/21/1973
+ObjectID: demus_gus_2                    Chars:     52,800  Title: Gus Demus Interview #2, 9/12/1975
+ObjectID: crow_charles_1                 Chars:     53,308  Title: Charles Crow Interview #1, 7/24/1974
+ObjectID: paolini_pete_1                 Chars:     53,478  Title: Pete Paolini Interview #1, 10/21/1976
+ObjectID: olson_ella_1                   Chars:     54,411  Title: Ella Olson Olson Interview #1, 10/1/1976
+ObjectID: waterman_merton_1              Chars:     54,577  Title: Merton Waterman Interview #1, 2/2/1973
+ObjectID: phelan_amanda_1                Chars:     54,862  Title: Amanda Asplund Phelan Interview #1, 1/3/1976
+ObjectID: fleener_dora_2                 Chars:     55,332  Title: Dora Otter Fleener Interview #2, 12/16/1974
+ObjectID: smith_nellie_6                 Chars:     55,682  Title: Nellie Wood Smith Interview #6, 1/23/1976
+ObjectID: sampson_clarice_2              Chars:     56,111  Title: Clarice Moody Sampson Interview #2, 1/25/1975
+ObjectID: brink_carol_1                  Chars:     56,410  Title: Carol Ryrie Brink Interview #1, 6/1/1975
+ObjectID: benson_henry_1                 Chars:     56,668  Title: Henry Benson Interview #1, 5/15/1974
+ObjectID: flodin_elmer_2                 Chars:     56,922  Title: Elmer Flodin Interview #2, 1/10/1975
+ObjectID: driscoll_jennie_1              Chars:     57,222  Title: Jennie Halverson Driscoll Interview #1, 2/17/1976
+ObjectID: tribble_lolah_1                Chars:     57,377  Title: Lolah Benge Tribble Interview #1, 7/23/1973
+ObjectID: callison_norla_1               Chars:     58,963  Title: Norla Callison Interview #1, 8/29/1973
+ObjectID: smith_nellie_3                 Chars:     59,095  Title: Nellie Wood Smith Interview #3, 9/22/1975
+ObjectID: carlson_willa_5                Chars:     59,250  Title: Willa Cummings Carlson Interview #5, 5/20/1974
+ObjectID: estes_willis_1                 Chars:     59,418  Title: Willis Estes Interview #1, 7/9/1974
+ObjectID: sampson_harry_1                Chars:     60,192  Title: Harry Sampson Interview #1, 11/13/1974
+ObjectID: callison_norla_3               Chars:     60,304  Title: Norla Callison Interview #3, 1/24/1974
+ObjectID: guernsey_viola_1               Chars:     60,322  Title: Viola Sheldon Guernsey Interview #1, 4/27/1976
+ObjectID: gamble_wj_1                    Chars:     60,663  Title: W. J. Gamble Interview #1, 12/14/1973
+ObjectID: pierce_albert_1                Chars:     60,668  Title: Albert Pierce Interview #1, 8/22/1974
+ObjectID: currin_walter_1                Chars:     60,740  Title: Walter Currin Interview #1, 3/17/1976
+ObjectID: gamble_gus_1                   Chars:     60,872  Title: Gus Gamble Interview #1, 11/25/1974
+ObjectID: cameron_viola_1                Chars:     60,975  Title: Viola White Cameron Interview #1, 7/25/1974
+ObjectID: adair_ione_1                   Chars:     61,274  Title: Ione Adair Interview #1, 6/8/1976
+ObjectID: herzog_frank_2                 Chars:     62,466  Title: Frank Herzog Interview #2, 7/18/1975
+ObjectID: benscoter_walter_1             Chars:     62,479  Title: Walter Benscoter Interview #1, 7/23/1973
+ObjectID: schmaltz_george_1              Chars:     63,159  Title: George Schmaltz Interview #1, 5/17/1976
+ObjectID: clyde_lola_2                   Chars:     63,718  Title: Lola Gamble Clyde Interview #2, 12/13/1974
+ObjectID: wicks_grace_1                  Chars:     63,724  Title: Grace Jain Wicks Interview #1, 6/12/1974
+ObjectID: wicks_grace_2                  Chars:     63,724  Title: Grace Jain Wicks Interview #2, 10/3/1974
+ObjectID: demus_gus_1                    Chars:     63,890  Title: Gus Demus Interview #1, 8/7/1975
+ObjectID: brocke_frank_3                 Chars:     64,213  Title: Frank Brocke Interview #3, 1/7/1976
+ObjectID: wicks_grace_3                  Chars:     64,299  Title: Grace Jain Wicks Interview #3, 10/4/1974
+ObjectID: schoeffler_ada_1               Chars:     64,865  Title: Ada Oylear Schoeffler Interview #1, 2/7/1976
+ObjectID: stefanos_mike_1                Chars:     65,487  Title: Mike Stefanos Interview #1, 9/1/1976
+ObjectID: anderson_ernest_1              Chars:     65,724  Title: Ernest Anderson Interview #1, 6/5/1974
+ObjectID: carlson_willa_1                Chars:     65,800  Title: Willa Cummings Carlson Interview #1, 4/23/1974
+ObjectID: messersmith_lewisandhazel_1    Chars:     65,814  Title: Lewis & Hazel Messersmith Interview #1, 1/21/1975
+ObjectID: lew_miandmarie_2               Chars:     66,153  Title: Mi & Marie Lee Lew Interview #2, 12/10/1975
+ObjectID: cox_andrew_1                   Chars:     66,187  Title: Andrew Cox Interview #1 (w/ half-brother Edward Kent, 8/10/1976)
+ObjectID: grove_clara_3                  Chars:     66,366  Title: Clara Payne Grove Interview #3, 11/21/1975
+ObjectID: ringsage_helmer_4              Chars:     66,527  Title: Helmer Ringsage Interview #4, 4/1/1976
+ObjectID: gamble_wj_2                    Chars:     66,745  Title: W. J. Gamble Interview #2, 6/6/1975
+ObjectID: stowell_william_2              Chars:     66,860  Title: William (Michigan Bill) Stowell Interview #2, 2/24/1976
+ObjectID: clyde_lola_6                   Chars:     66,965  Title: Lola Gamble Clyde Interview #6, 7/3/1975
+ObjectID: edwards_mary_1                 Chars:     67,130  Title: Mary Grey Edwards Interview #1, 11/3/1976
+ObjectID: grove_clara_5                  Chars:     67,209  Title: Clara Payne Grove Interview #5, 5/11/1976
+ObjectID: otness_lillian_2               Chars:     67,690  Title: Lillian Woodworth Otness Interview #2, 1/16/1975
+ObjectID: goff_abe_2                     Chars:     67,832  Title: Abe MacGregor Goff Interview #2, 11/26/1974
+ObjectID: swenson_edward_2               Chars:     68,382  Title: Edward Swenson Interview #2, 7/2/1974
+ObjectID: settle_eugene_3                Chars:     68,520  Title: Eugene Settle Interview #3, 8/4/1975
+ObjectID: sampson_harry_2                Chars:     68,667  Title: Harry Sampson Interview #2, 1/25/1975
+ObjectID: nye_maeci_1                    Chars:     68,864  Title: Maeci Groseclose Nye Interview #1, 3/11/1976
+ObjectID: olson_carl_1                   Chars:     69,346  Title: Carl Olson Interview #1, 8/6/1973
+ObjectID: miller_john_1                  Chars:     69,681  Title: John B. Miller Interview #1, 7/18/1973
+ObjectID: anderson_axel_3                Chars:     69,939  Title: Axel Anderson Interview #3, 7/26/1974
+ObjectID: stowell_william_1              Chars:     70,325  Title: William (Michigan Bill) Stowell Interview #1, 10/29/1975
+ObjectID: steffen_kenneth_2              Chars:     70,642  Title: Kenneth Steffen Interview #2, 1/13/1976
+ObjectID: bubuly_michael_1               Chars:     70,670  Title: Michael Bubuly Interview #1, 8/14/1974
+ObjectID: grove_clara_2                  Chars:     70,721  Title: Clara Payne Grove Interview #2, 11/7/1975
+ObjectID: guilfoy_leo_2                  Chars:     70,809  Title: Leo Guilfoy Interview #2, 7/3/1974
+ObjectID: settle_eugene_2                Chars:     71,011  Title: Eugene Settle Interview #2, 7/7/1975
+ObjectID: anderson_ernest_2              Chars:     71,076  Title: Ernest Anderson Interview #2, 6/14/1974
+ObjectID: anderson_axel_2                Chars:     71,172  Title: Axel Anderson Interview #2, 7/25/1974
+ObjectID: settle_eugene_1                Chars:     71,366  Title: Eugene Settle Interview #1, 6/3/1975
+ObjectID: hampton_elvon_1                Chars:     71,518  Title: Elvon Hampton Interview #1, 5/3/1976
+ObjectID: boas_louis_1                   Chars:     72,098  Title: Louis Boas Interview #1, 7/30/1976
+ObjectID: lew_miandmarie_1               Chars:     72,585  Title: Mi & Marie Lee Lew Interview #1, 11/20/1975
+ObjectID: callison_norla_2               Chars:     72,831  Title: Norla Callison Interview #2, 12/7/1973
+ObjectID: burkland_joel_1                Chars:     72,913  Title: Joel Burkland Interview #1, 8/15/1953
+ObjectID: tribble_hershiel_1             Chars:     72,998  Title: Hershiel A. Tribble Interview #1, 7/16/1973
+ObjectID: clyde_lola_5                   Chars:     73,039  Title: Lola Gamble Clyde Interview #5, 6/5/1975
+ObjectID: brocke_frank_2                 Chars:     73,531  Title: Frank Brocke Interview #2, 4/26/1975
+ObjectID: asplund_ida_1                  Chars:     73,630  Title: Ida Swanberg Asplund Interview #1 (w/ Theodore Sundell, a friend of Ida's)
+ObjectID: albright_lora_2                Chars:     73,846  Title: Lora Brackett Albright Interview #2, 5/25/1976
+ObjectID: brocke_frank_1                 Chars:     73,984  Title: Frank Brocke Interview #1, 3/18/1975
+ObjectID: guilfoy_leo_1                  Chars:     74,043  Title: Leo Guilfoy Interview #1, 12/10/1973
+ObjectID: carlson_willa_2                Chars:     74,153  Title: Willa Cummings Carlson Interview #2, 4/30/1974
+ObjectID: sundberg_arthur_1              Chars:     74,392  Title: Arthur Sundberg Interview #1, 7/11/1975
+ObjectID: holland_joseph_1               Chars:     75,206  Title: Joseph Holland Interview #1, 7/25/1974
+ObjectID: settle_eugene_5                Chars:     75,477  Title: Eugene Settle Interview #5, 1/13/1976
+ObjectID: anderson_axel_4                Chars:     76,778  Title: Axel Anderson Interview #4, 8/20/1974
+ObjectID: glenn_royandmabel_1            Chars:     77,182  Title: Roy & Mabel Glenn Interview #1, 11/18/1976
+ObjectID: mushal_edward_1                Chars:     77,668  Title: Edward Mushal Interview #1, 9/16/1975
+ObjectID: demus_gus_3                    Chars:     77,679  Title: Gus Demus Interview #3, 10/24/1975
+ObjectID: schupfer_herman_2              Chars:     78,284  Title: Herman Schupfer Interview #2, 7/26/1973
+ObjectID: olson_carl_3                   Chars:     78,586  Title: Carl Olson Interview #3, 11/8/1973
+ObjectID: burkland_william_2             Chars:     78,666  Title: William Burkland Interview #2, 3/19/1976
+ObjectID: sampson_clarice_1              Chars:     78,930  Title: Clarice Moody Sampson Interview #1, 11/13/1974
+ObjectID: smith_nellie_2                 Chars:     79,157  Title: Nellie Wood Smith Interview #2, 9/10/1975
+ObjectID: gilder_glenandagnes_4          Chars:     80,080  Title: Glen & Agnes Gilder Interview #4, 7/29/1975
+ObjectID: wicks_grace_5                  Chars:     80,323  Title: Grace Jain Wicks Interview #5, 12/11/1974
+ObjectID: follett_mahlon_1               Chars:     80,738  Title: Mahlon Follett Interview #1, 5/3/1976
+ObjectID: boag_violet_1                  Chars:     80,764  Title: Violet Frei Boag Interview #1, 10/15/1976
+ObjectID: maloney_joe_1                  Chars:     80,846  Title: Joe Maloney Interview #1, 8/22/1974
+ObjectID: adair_ione_2                   Chars:     81,321  Title: Ione Adair Interview #2, 9/3/1976
+ObjectID: settle_eugene_6                Chars:     81,369  Title: Eugene Settle Interview #6, 1/13/1976
+ObjectID: asplund_philip_1               Chars:     81,391  Title: Philip Asplund Interview #1, 2/13/1975
+ObjectID: benge_john_3                   Chars:     81,406  Title: John (Dick) Benge Interview #3, 4/4/1976
+ObjectID: daniels_eva_1                  Chars:     81,893  Title: Eva Slatter Daniels Interview #1, 4/29/1976
+ObjectID: clyde_lola_1                   Chars:     82,150  Title: Lola Gamble Clyde Interview #1, 12/2/1974
+ObjectID: utt_emmettandanna_2            Chars:     82,440  Title: Emmett and Anna Utt Interview #3, 8/10/1973
+ObjectID: carlson_willa_6                Chars:     82,593  Title: Willa Cummings Carlson Interview #6, 1/15/1976
+ObjectID: goff_abe_1                     Chars:     82,604  Title: Abe MacGregor Goff Interview #1, 11/13/1974
+ObjectID: clyde_lola_4                   Chars:     82,841  Title: Lola Gamble Clyde Interview #4, 5/19/1975
+ObjectID: smith_nellie_1                 Chars:     82,923  Title: Nellie Wood Smith Interview #1, 6/27/1974
+ObjectID: vine_rannie_1                  Chars:     83,238  Title: Rannie (Ma) Johnson Vine Interview #1, 7/8/1976
+ObjectID: wahl_tomandelizabeth_2         Chars:     84,253  Title: Tom and Elizabeth Wahl Interview #2, 3/10/1976
+ObjectID: holland_joseph_2               Chars:     84,656  Title: Joseph Holland Interview #2, 8/23/1974
+ObjectID: gorman_madeleine_1             Chars:     84,803  Title: Madeleine Groh Gorman Interview #1, 8/21/1974
+ObjectID: waldron_kate_2                 Chars:     84,867  Title: Kate Sanderson Waldron Interview #2, 8/25/1976
+ObjectID: olson_ruth_1                   Chars:     85,924  Title: Ruth Olson Interview #1, 6/16/1976
+ObjectID: schmaltz_george_2              Chars:     85,944  Title: George Schmaltz Interview #2, 8/27/1976
+ObjectID: bacca_jamesandamelia_1         Chars:     85,958  Title: James & Amelia Bacca Interview #1, 9/24/1976
+ObjectID: rowan_frankandlottie_1         Chars:     86,656  Title: Frank & Lottie Rowan Interview #1, 1/14/1975
+ObjectID: crow_ada_1                     Chars:     86,727  Title: Ada Hill Crow Interview #1, 7/24/1974
+ObjectID: ringsage_helmer_1              Chars:     87,262  Title: Helmer Ringsage Interview #1, 2/12/1976
+ObjectID: adair_ione_4                   Chars:     87,465  Title: Ione Adair Interview #4, 1/27/1977
+ObjectID: sundberg_arthur_4              Chars:     87,553  Title: Arthur Sundberg Interview #4, 8/1/1975
+ObjectID: showalter_ulysses_2            Chars:     87,835  Title: Ulysses Showalter Interview #2, 2/20/1974
+ObjectID: gilder_glenandagnes_6          Chars:     88,009  Title: Glen & Agnes Gilder Interview #6, 6/28/1978
+ObjectID: lew_miandmarie_3               Chars:     88,023  Title: Mi & Marie Lee Lew Interview #3, 1/20/1976
+ObjectID: anderson_axel_5                Chars:     88,137  Title: Axel Anderson Interview #5, 8/24/1974
+ObjectID: carlson_helena_1               Chars:     88,258  Title: Helena Cartwright Carlson Interview #1, 7/6/1975
+ObjectID: eikum_john_1                   Chars:     89,197  Title: John Eikum Interview #1, 12/8/1975
+ObjectID: boas_louis_2                   Chars:     89,309  Title: Louis Boas Interview #2, 9/3/1976
+ObjectID: grannis_kate_1                 Chars:     89,390  Title: Kate Price Grannis Interview #1, 2/24/1976
+ObjectID: grove_clara_4                  Chars:     89,520  Title: Clara Payne Grove Interview #4, 12/16/1975
+ObjectID: carlson_willa_4                Chars:     90,289  Title: Willa Cummings Carlson Interview #4, 5/14/1974
+ObjectID: utt_emmettandanna_4            Chars:     90,692  Title: Emmett and Anna Utt Interview #4, 10/19/1973
+ObjectID: fry_frances_1                  Chars:     91,066  Title: Frances Vaughan Fry Interview #1, 8/3/1976
+ObjectID: swenson_edward_4               Chars:     91,123  Title: Edward Swenson Interview #4, 8/10/1976
+ObjectID: groseclose_edwardanddixie_1    Chars:     91,187  Title: Edward & Dixie Groseclose Interview #1, 3/9/1976
+ObjectID: cushman_john_1                 Chars:     92,425  Title: John Cushman Interview #1, 10/27/1977
+ObjectID: schupfer_otto_1                Chars:     92,654  Title: Otto Schupfer Interview #1, 4/14/1976
+ObjectID: sherman_theodore_1             Chars:     92,920  Title: Theodore Sherman Interview #1, 3/24/1976
+ObjectID: sundberg_arthur_2              Chars:     93,121  Title: Arthur Sundberg Interview #2, 7/18/1975
+ObjectID: sanderson_john_1               Chars:     93,168  Title: John Sanderson Interview #1, 6/15/1975
+ObjectID: gruell_crystal_1               Chars:     93,226  Title: Crystal Ottosen Gruell Interview #1, 7/21/1976
+ObjectID: spencer_jesseandmabel_1        Chars:     93,509  Title: Jesse and Mabel Spencer Interview #1, 1/29/1975
+ObjectID: carlson_helena_2               Chars:     93,557  Title: Helena Cartwright Carlson Interview #2, 7/20/1975
+ObjectID: lew_miandmarie_4               Chars:     93,796  Title: Mi & Marie Lee Lew Interview #4, 10/7/1976
+ObjectID: benge_john_2                   Chars:     94,433  Title: John (Dick) Benge Interview #2, 5/3/1974
+ObjectID: sanderson_byers_4              Chars:     94,717  Title: Byers Sanderson Interview #4, 8/25/1976
+ObjectID: schimke_margaret_1             Chars:     94,778  Title: Margaret Schimke Interview #1, 4/11/1978
+ObjectID: hickman_william_1              Chars:     95,857  Title: William (Dave) Hickman Interview #1 (w/ cousins Tom and Kenneth Platt)
+ObjectID: lawrence_floydandnola_2        Chars:     96,182  Title: Floyd & Nola Lawrence Interview #2, 1/27/1976
+ObjectID: sanderson_byers_3              Chars:     96,520  Title: Byers Sanderson Interview #3, 1/23/1976
+ObjectID: sandell_hanna_1                Chars:     97,281  Title: Hanna Anderson Sandell Interview #1, 2/7/1976
+ObjectID: sundberg_arthur_5              Chars:     97,479  Title: Arthur Sundberg Interview #5, 8/7/1975
+ObjectID: butterfield_edna_1             Chars:     97,614  Title: Edna Johnson Butterfield Interview #1, 10/11/1973
+ObjectID: adair_ione_5                   Chars:     97,948  Title: Ione Adair Interview #5, 2/24/1977
+ObjectID: schupfer_otto_2                Chars:     98,254  Title: Otto Schupfer Interview #2, 6/1/1976
+ObjectID: albright_lora_1                Chars:     98,320  Title: Lora Brackett Albright Interview #1, 4/29/1976
+ObjectID: fry_frances_2                  Chars:     98,492  Title: Frances Vaughan Fry Interview #2, 2/18/1977
+ObjectID: ringsage_helmer_3              Chars:     98,702  Title: Helmer Ringsage Interview #3, 3/5/1976
+ObjectID: brocke_frank_4                 Chars:     99,009  Title: Frank Brocke Interview #4, 2/11/1976
+ObjectID: thomason_oscarandanna_2        Chars:     99,210  Title: Oscar & Anna Thomason Interview #2, 3/19/1976
+ObjectID: smith_nellie_4                 Chars:     99,683  Title: Nellie Wood Smith Interview #4, 10/3/1975
+ObjectID: shirrod_emma_1                 Chars:     99,725  Title: Emma Christenson Shirrod Interview #1, 1/21/1975
+ObjectID: sanderson_byers_1              Chars:     99,810  Title: Byers Sanderson Interview #1, 10/16/1975
+ObjectID: benge_john_1                   Chars:     99,915  Title: John (Dick) Benge Interview #1, 7/17/1973
+ObjectID: olson_oscarandhazel_1          Chars:    100,020  Title: Oscar & Hazel Olson Interview #1, 6/16/1976
+ObjectID: newman_ida_1                   Chars:    100,296  Title: Ida Mielke Newman Interview #1, 2/18/1977
+ObjectID: torgerson_george_1             Chars:    100,359  Title: George Torgerson Interview #1, 5/17/1976
+ObjectID: adair_ione_3                   Chars:    100,379  Title: Ione Adair Interview #3, 11/16/1976
+ObjectID: fisher_marie_1                 Chars:    102,131  Title: Marie Leitch Fisher Interview #1, 10/29/1975
+ObjectID: wahl_tomandelizabeth_3         Chars:    102,226  Title: Tom and Elizabeth Wahl Interview #3, 4/4/1977
+ObjectID: ramsdale_edward_2              Chars:    102,447  Title: Edward Ramsdale Interview #2, 5/9/1975
+ObjectID: anderson_axel_1                Chars:    104,008  Title: Axel Anderson Interview #1, 7/23/1974
+ObjectID: lawrence_floydandnola_1        Chars:    104,643  Title: Floyd & Nola Lawrence Interview #1, 1/21/1976
+ObjectID: tribble_hershiel_2             Chars:    104,816  Title: Hershiel A. Tribble Interview #2, 7/23/1973
+ObjectID: rowan_frankandlottie_2         Chars:    105,428  Title: Frank & Lottie Rowan Interview #2, 2/3/1975
+ObjectID: denevan_lucille_1              Chars:    105,591  Title: Lucille Riddell Denevan Interview #1, 11/11/1975
+ObjectID: clyde_lola_3                   Chars:    106,232  Title: Lola Gamble Clyde Interview #3, 1/7/1975
+ObjectID: sundberg_arthur_3              Chars:    108,430  Title: Arthur Sundberg Interview #3, 7/25/1975
+ObjectID: lynd_mary_1                    Chars:    109,178  Title: Mary West Lynd Interview #1 (w/ friend Mamie Wurman, 6/24/1975)
+ObjectID: corrin_glenn_1                 Chars:    109,363  Title: Glenn Corrin Interview, 5/21/1975
+ObjectID: carlson_gustav_2               Chars:    109,596  Title: Gustav Carlson Interview #2, 7/15/1976
+ObjectID: mckeever_george_1              Chars:    110,603  Title: George Mckeever Interview #1, 8/4/1976
+ObjectID: johanson_nellie_1              Chars:    110,820  Title: Nellie Johanson Interview #1, 6/22/1978
+ObjectID: stowell_william_3              Chars:    110,971  Title: William (Michigan Bill) Stowell Interview #3, 9/28/1976
+ObjectID: ringsage_helmer_2              Chars:    111,023  Title: Helmer Ringsage Interview #2, 2/27/1976
+ObjectID: steffen_kenneth_1              Chars:    111,217  Title: Kenneth Steffen Interview #1, 1/23/1975
+ObjectID: johnson_hattie_1               Chars:    112,838  Title: Hattie Wilken Johnson Interview #1, 8/4/1976
+ObjectID: gleave_james_1                 Chars:    113,285  Title: James Gleave Interview #1, 7/6/1978
+ObjectID: long_martha_1                  Chars:    113,294  Title: Martha Lowery Long Interview #1, 10/25/1976
+ObjectID: jelleberg_charles_1            Chars:    114,084  Title: Charles Jelleberg Interview #1, 8/8/1973
+ObjectID: jones_agnes_1                  Chars:    114,119  Title: Agnes Healy Jones Interview #1, 8/31/1973
+ObjectID: thomason_oscarandanna_1        Chars:    116,750  Title: Oscar & Anna Thomason Interview #1, 2/3/1976
+ObjectID: nichols_george_1               Chars:    118,428  Title: George Nichols Interview #1, 5/28/1975
+ObjectID: hardt_verna_1                  Chars:    118,901  Title: Verna Palmer Hardt Interview #1, 1975
+ObjectID: olson_carl_4                   Chars:    119,664  Title: Carl Olson Interview #4, 2/21/1975
+ObjectID: brocke_frank_5                 Chars:    121,720  Title: Frank Brocke Interview #5, 11/9/1976
+ObjectID: wilkins_kenneth_1              Chars:    122,354  Title: Kenneth Wilkins Interview #1, 6/23/1975
+ObjectID: schupfer_herman_1              Chars:    123,077  Title: Herman Schupfer Interview #1, 7/19/1973
+ObjectID: sampson_clarice_4              Chars:    123,213  Title: Clarice Moody Sampson Interview #4, 11/16/1976
+ObjectID: smith_nellie_5                 Chars:    123,875  Title: Nellie Wood Smith Interview #5, 11/13/1975
+ObjectID: maclied_pauline_1              Chars:    124,298  Title: Pauline (Pearl) Maclied Interview #1, 5/1/1978
+ObjectID: ingle_gerald_1                 Chars:    125,990  Title: Gerald Ingle Interview #1, 10/7/1976
+ObjectID: byers_fannie_1                 Chars:    126,759  Title: Fannie Cuthbert Byers Interview #1, 11/5/1976
+ObjectID: justice_albert_1               Chars:    127,077  Title: Albert Justice Interview #1, 8/23/1976
+ObjectID: morgan_william_1               Chars:    127,573  Title: William Morgan Interview #1, 10/28/1976
+ObjectID: benge_john_4                   Chars:    129,560  Title: John (Dick) Benge Interview #4, 4/27/1976
+ObjectID: carlson_melvin_1               Chars:    130,026  Title: Melvin Carlson Interview #1, 7/21/1975
+ObjectID: groseclose_edwardanddixie_2    Chars:    134,513  Title: Edward & Dixie Groseclose Interview #2, 6/1/1976
+ObjectID: parker_naomi_1                 Chars:    135,208  Title: Naomi Boll Parker Interview #1, 9/1/1976
+ObjectID: clyde_lola_7                   Chars:    135,668  Title: Lola Gamble Clyde Interview #7, 10/12/1976
+ObjectID: glenn_bruceandagnes_1          Chars:    143,896  Title: Bruce & Agnes Glenn Interview #1, 6/18/1975
+ObjectID: long_martha_2                  Chars:    146,317  Title: Martha Lowery Long Interview #2, 11/18/1976
+ObjectID: mahon_catherine_3              Chars:    147,587  Title: Catherine Mahon Interview #3, 10/21/1976
+ObjectID: carlson_melvin_2               Chars:    149,644  Title: Melvin Carlson Interview #2, 7/22/1975
+ObjectID: clark_jandmarie_1              Chars:    155,470  Title: J. Les and Marie J. Clark Interview #1, 7/9/1976
+ObjectID: carlson_gustav_1               Chars:    156,545  Title: Gustav Carlson Interview #1, 7/12/1976
+ObjectID: ruberg_hilda_1                 Chars:    162,313  Title: Hilda Carlson Ruberg Interview #1, 6/19/1976
+ObjectID: utt_emmettandanna_5            Chars:    162,588  Title: Emmett and Anna Utt Interview #5, 11/14/1975
+ObjectID: ringsage_jeanandstiner_3       Chars:    168,463  Title: Jean & Stiner Ringsage Interview #3, 11/7/1976
+ObjectID: groseclose_edwardanddixie_3    Chars:    169,175  Title: Edward & Dixie Groseclose Interview #3, 7/21/1976
+ObjectID: mahon_catherine_1              Chars:    178,459  Title: Catherine Mahon Interview #1, 8/27/1976
+ObjectID: mahon_catherine_2              Chars:    179,503  Title: Catherine Mahon Interview #2, 9/28/1976
+ObjectID: albright_lora_3                Chars:    197,235  Title: Lora Brackett Albright Interview #3, 6/23/1976
+ObjectID: ringsage_jeanandstiner_1       Chars:    253,922  Title: Jean & Stiner Ringsage Interview #1, 10/5/1976
+ObjectID: ringsage_jeanandstiner_2       Chars:    277,326  Title: Jean & Stiner Ringsage Interview #2, 10/19/1976
+ObjectID: brouillard_jennie_2            Chars:    282,399  Title: Jennie Cuthbert Brouillard Interview #2 (w/ Fannie Byers and Brouillard, 1976
