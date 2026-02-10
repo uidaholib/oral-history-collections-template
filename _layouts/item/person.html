@@ -9,7 +9,7 @@ gallery: false
 {% if children.size > 0 %}
 <div class="d-md-none mb-3 text-center">
     <a href="#interviews-section" class="btn btn-primary">
-        <svg class="bi me-1" width="16" height="16" fill="currentColor">
+        <svg class="bi icon-sprite me-1" width="16" height="16" fill="currentColor">
             <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-arrow-down"/>
         </svg>
         Jump to Interviews ({{ children.size }})
@@ -134,7 +134,7 @@ gallery: false
 
 <div id="interviews-section">
             <h2 class="h4 mb-3 pb-2 border-bottom">
-                <svg class="bi me-1" width="20" height="20" fill="currentColor">
+                <svg class="bi icon-sprite me-1" width="20" height="20" fill="currentColor">
                     <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-audio"/>
                 </svg>
                 Interviews
@@ -147,7 +147,7 @@ gallery: false
                     {% if interview.display_template == 'record' and interview.connected_objectid %}
                         {% assign link_objectid = interview.connected_objectid %}
                         <div class="alert alert-info alert-sm py-1 px-2 mb-2" style="font-size: 0.75rem;">
-                            <svg class="bi me-1" width="12" height="12" fill="currentColor">
+                            <svg class="bi icon-sprite me-1" width="12" height="12" fill="currentColor">
                                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-people"/>
                             </svg>
                             Shared interview
@@ -165,7 +165,7 @@ gallery: false
                     <div class="small mb-2">
                         {% if interview.date %}
                         <div class="mb-1">
-                            <svg class="bi text-muted me-1" width="12" height="12" fill="currentColor">
+                            <svg class="bi icon-sprite text-muted me-1" width="12" height="12" fill="currentColor">
                                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-calendar"/>
                             </svg>
                             <strong>{{ interview.date | date: "%B %d, %Y" }}</strong>
@@ -174,7 +174,7 @@ gallery: false
                         
                         {% if interview.duration %}
                         <div class="mb-1">
-                            <svg class="bi text-muted me-1" width="12" height="12" fill="currentColor">
+                            <svg class="bi icon-sprite text-muted me-1" width="12" height="12" fill="currentColor">
                                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-clock"/>
                             </svg>
                             {{ interview.duration }}
@@ -183,7 +183,7 @@ gallery: false
                         
                         {% if interview.interviewer %}
                         <div class="mb-1">
-                            <svg class="bi text-muted me-1" width="12" height="12" fill="currentColor">
+                            <svg class="bi icon-sprite text-muted me-1" width="12" height="12" fill="currentColor">
                                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-person"/>
                             </svg>
                             <em>{{ interview.interviewer }}</em>
@@ -238,7 +238,7 @@ gallery: false
 <div class="card mb-4 border-0 shadow-sm">
     <div class="card-header bg-white border-bottom">
         <h3 class="h6 mb-0">
-            <svg class="bi me-1" width="16" height="16" fill="currentColor">
+            <svg class="bi icon-sprite me-1" width="16" height="16" fill="currentColor">
                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-map-pin"/>
             </svg>
             Locations Map
@@ -255,7 +255,7 @@ gallery: false
 <div class="card mb-4 border-0 shadow-sm">
     <div class="card-header bg-white border-bottom">
         <h3 class="h6 mb-0">
-            <svg class="bi me-1" width="16" height="16" fill="currentColor">
+            <svg class="bi icon-sprite me-1" width="16" height="16" fill="currentColor">
                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-chat"/>
             </svg>
             Interview Topics
