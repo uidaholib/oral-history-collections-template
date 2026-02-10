@@ -47,8 +47,8 @@ home-page-visualization: false # true / false, if true, the visualization will a
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere. 
 # Note: if you are using the CB base layout as determined above, the featured image defined here will show up as the large image at top of the home page
-featured-image: 
-featured-image-alt-text: # add alt text if using url for featured-image (objectid will be automatic from metadata)
+featured-image: https://objects.lib.uidaho.edu/lcoh/small/Brink-C_02.jpg
+featured-image-alt-text: historic sepia portrait photograph of woman with hat and silk scarf # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional for CB base layout: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
