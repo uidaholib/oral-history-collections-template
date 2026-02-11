@@ -11,13 +11,22 @@ credits: true
 
 ## About the Digital Collection
 
-The Latah County Oral HIstory Collections consists of audio interview recordings and transcriptions for over 300 interviews conducted during the mid-1970s. This collection is a digital representation of the [Latah County Oral History Collection (MG 415)](http://nwda.orbiscascade.org/ark:80444/xv27761), which is held by the University of Idaho Library's Special Collections & Archives.
+The Latah County Oral History Collection consists of audio interview recordings and transcriptions for over 300 interviews conducted during the mid-1970s. This collection is a digital representation of the [Latah County Oral History Collection (MG 415)](http://nwda.orbiscascade.org/ark:80444/xv27761), which is held by the University of Idaho Library's Special Collections & Archives.
 
-In order to provide enhanced access to this collection, the Digital Initiatives Department employed an open-source plug-in called the [Oral History Metadata Synchronizer (OHMS)](http://www.oralhistoryonline.org/), which was created at the University of Kentucky. OHMS provides additional layers of access by connecting the audio and transcript files of a digitized oral history on a single page, and by providing real-time searching of keywords in transcripts and indexes there as well. OHMS synchronizes transcribed text with timestamps in the audio and provides a viewer that connects search results of a transcript to the corresponding moment in the audio file.
+The site provides enhanced access to oral history collections through:
 
-In the course of preparing this collection, hundreds of cassette tapes were converted to digital audio files, and the typescript transcripts for over 300 interviews were scanned and made full-text searchable. To do this, staff and student assistants created complex XML files that included full-text transcripts for many of the interviews, as well as original timestamps and synopses for most interviews, which were originally provided by the transcriber. Each interview was then described using the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) for keywords and subjects, as well as tagged locations that were later connected to Google Maps via latitude and longitude coordinates. These subjects and locations are now fully linked and searchable through the website.
+- **Person Pages**: Each narrator has a dedicated page that aggregates all their interviews, displays biographical information, and visualizes the locations mentioned across their interviews on an interactive map
+- **Interactive Transcripts**: Full-text transcripts are synchronized with audio playback, allowing users to click any passage to jump to that moment in the recording
+- **Qualitative Coding**: Interviews are tagged with subject codes from the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/), enabling thematic exploration across the collection
+- **Geographic Visualization**: Locations mentioned in interviews are mapped with latitude/longitude coordinates, creating searchable geographic access points
 
-For more information on the OHMS plug-in, see ["OHMS: Enhancing Access to Oral History for Free"](http://ohr.oxfordjournals.org/content/early/2013/03/20/ohr.oht031) by Doug Boyd.
+### Oral History as Data
+
+This site is built using [Oral History as Data (OHD)](https://oralhistoryasdata.github.io/), a framework developed by the University of Idaho Library's [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/). OHD is built on top of CDIL's [CollectionBuilder](https://collectionbuilder.github.io/) platform, an open-source tool for creating digital collection and exhibit websites.
+
+### Digitization Process
+
+In the course of preparing this collection, hundreds of cassette tapes were converted to digital audio files, and the typescript transcripts for over 300 interviews were scanned and made full-text searchable. Staff and student assistants created detailed metadata files that included full-text transcripts, original timestamps, and synopses originally provided by the transcriber.
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/lcoh/map.jpg" alt="hand drawn map depicting Latah county showing towns and main roads" caption="We transferred a number of different original items into digital surrogates, inlcuding the map above, and over 300 audio cassette tapes, which took over a year to digitize." %}
 
@@ -31,5 +40,4 @@ Student Assistants and Interns: Nate Sirdofsky, Elisabeth (Izzy) Martin, Elizabe
 
 ## Migration
 
-In December 2023, due to changing repository platforms and new development processes, the original LCOH site was migrated.
-This version of the site is a transition that updates the data and web markup, and will be enhanced in the near future with new features to better support this unique oral history content.
+In December 2023, the original LCOH site was migrated from the legacy OHMS platform to the Oral History as Data framework. This migration preserved all original content while adding new features including person-centered navigation, enhanced transcript visualization, and improved accessibility.
