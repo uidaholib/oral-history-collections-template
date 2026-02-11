@@ -116,7 +116,7 @@
             {% if site.data.theme.map-search == true %}/* bind feature for search */
             feature.layer = layer;{% endif %}
             // find item link
-            var itemHref = '{{ "/items/" | relative_url }}' + feature.properties.link;
+            var itemHref = '{{ "/people/" | relative_url }}' + feature.properties.link;
             // find image
             var imgAlt = feature.properties.alt ? feature.properties.alt : feature.properties.title;
             var thumbImg;
