@@ -41,8 +41,8 @@ const step0 = getElement('step0');
  * Filters visualization by highlighting specific rectangles
  */
 function vizFilter(filterClass) {
-  // Skip URL update if just highlighting
-  if (filterClass !== "hilite") {
+  // Skip URL update if just highlighting or resetting to all (resetVals will clear params)
+  if (filterClass !== "hilite" && filterClass !== "all") {
     updateUrlParams(params, 'filter', filterClass);
     
     // Update filters dropdown if it exists
@@ -69,12 +69,16 @@ function vizFilter(filterClass) {
     // Apply filtering logic
     if (filterClass === "all") {
       classString.remove('dark');
-      resetVals();
     } else if (classString.contains(filterClass)) {
       classString.remove('dark');
       classString.add(`primary-${filterClass}`);
     }
   });
+
+  // Reset values once after processing all rectangles when showing all
+  if (filterClass === "all") {
+    resetVals();
+  }
 }
 
 /**
