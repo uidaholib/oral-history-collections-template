@@ -56,6 +56,8 @@
     overflow: hidden;
     position: relative;
     transition: transform 0.2s ease-in-out, z-index 0s 0.2s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .photo-grid-item:hover {
@@ -202,22 +204,49 @@
 @media screen and (max-width: 1199px) {
     .photo-grid {
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    
+    /* Disable row spanning */
+    .photo-grid-item:nth-child(6n+2),
+    .photo-grid-item:nth-child(6n+5) {
+        grid-row: span 1;
+    }
+    
+    /* Hide extra images beyond 30 (6x5 grid) */
+    .photo-grid-item:nth-child(n+31) {
+        display: none;
     }
 }
 
 @media screen and (max-width: 991px) {
     .photo-grid {
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    
+    /* Hide extra images beyond 25 (5x5 grid) */
+    .photo-grid-item:nth-child(n+26) {
+        display: none;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         gap: 4px;
+    }
+    
+    /* Disable row spanning on tablet/mobile */
+    .photo-grid-item:nth-child(6n+2),
+    .photo-grid-item:nth-child(6n+5) {
+        grid-row: span 1;
+    }
+    
+    /* Hide extra images beyond 16 (4x4 grid) */
+    .photo-grid-item:nth-child(n+17) {
+        display: none;
     }
     
     .overlay-content {
@@ -234,25 +263,22 @@
         margin: 0.5rem 0 !important;
     }
     
+    /* Hide hover overlays on touch devices */
     .photo-info-overlay {
-        padding: 0.4rem 0.5rem;
-    }
-    
-    .photo-info-name {
-        font-size: 0.8rem;
-    }
-    
-    .photo-info-year,
-    .photo-info-occupation {
-        font-size: 0.7rem;
+        display: none;
     }
 }
 
 @media screen and (max-width: 576px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         gap: 3px;
+    }
+    
+    /* Hide extra images beyond 12 (3x4 grid) */
+    .photo-grid-item:nth-child(n+13) {
+        display: none;
     }
     
     .overlay-content {
@@ -266,12 +292,6 @@
     
     .overlay-tagline {
         font-size: 0.95rem;
-    }
-    
-    /* Disable hover on touch devices - show first few names always */
-    .photo-grid-item:nth-child(-n+6) .photo-info-overlay {
-        opacity: 0.9;
-        transform: translateY(0);
     }
 }
 
