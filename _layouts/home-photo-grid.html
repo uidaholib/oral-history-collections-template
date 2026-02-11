@@ -4,18 +4,22 @@ layout: default
 ---
 <div class="container-fluid">
 {%- assign people_with_images = site.data.people-with-images -%}
-{%- assign random_people = people_with_images | sample: 24 -%}
+{%- assign random_people = people_with_images | sample: 36 -%}
 {% include collection-nav.html %}
 <div class="photo-grid-home">
   <!-- Photo Grid Background -->
   <div class="photo-grid-container">
     <div class="photo-grid">
       {% for person in random_people %}
-        <div class="photo-grid-item" style="grid-row: span {% cycle 1, 2, 1, 2, 1, 1, 2 %};">
+        <div class="photo-grid-item">
           <img src="{{ person.image_small }}" 
-               alt="{{ person.person_name }}" 
-               title="{{ person.person_name }} - {{ person.occupation }}"
+               alt="portrait photograph of {{ person.person_name }}" 
                loading="lazy">
+          <div class="photo-info-overlay">
+            <a href="{{ '/people/' | append: person.objectid | append: '.html' | relative_url }}" class="photo-info-name">{{ person.title }}</a>
+            {% if person.birth_year %}<span class="photo-info-year">(b. {{ person.birth_year }})</span>{% endif %}
+            {% if person.occupation %}<span class="photo-info-occupation">{{ person.occupation }}</span>{% endif %}
+          </div>
         </div>
       {% endfor %}
     </div>
