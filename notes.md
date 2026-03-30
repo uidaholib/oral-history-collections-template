@@ -4,4 +4,7 @@
 - albright_lora_1, albright_lora_2: diarization breaks down about an hour in
 - bacca_jamesandamelia_1: diarization problems between two interviewees
 - baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is Laura
-- 
+- brocke_frank_3: hallucination
+- brocke_frank_4: diarization problems around 20
+- byers_fannie_1: is there a reason this is not included in current CSV?
+- buchanan_george_1: listed as transcript only but its just an index
