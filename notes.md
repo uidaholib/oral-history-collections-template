@@ -18,3 +18,4 @@
 - noticing frequent diarization confusion in second half of transcripts:
 - waldron_kate_2: interviewee asking questions, causing diarization confusion
 - waldron_kate_2: diarization confusion
+- wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 not processed
