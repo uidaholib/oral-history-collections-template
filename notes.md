@@ -8,3 +8,5 @@
 - brocke_frank_4: diarization problems around 20
 - byers_fannie_1: is there a reason this is not included in current CSV?
 - buchanan_george_1: listed as transcript only but its just an index
+- wurman_mamie_1: redirecting to lynd_mary_1
+- wicks_grace_2 and wicks_grace_1 transcripts not processed
