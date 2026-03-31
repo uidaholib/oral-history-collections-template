@@ -16,4 +16,5 @@
 - daniels_eva_1: needs to be re-processed
 - demus_gus_3: looks like it wasn't processed
 - noticing frequent diarization confusion in second half of transcripts:
-    -waldron_kate_2: interviewee asking questions, causing diarization confusion
+- waldron_kate_2: interviewee asking questions, causing diarization confusion
+- waldron_kate_2: diarization confusion
