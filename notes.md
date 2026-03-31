@@ -15,3 +15,4 @@
 - cornelison_bernadine_1-cornelison_bernadine_5 redirects to adair_ione_1-adair_ione_5, which are already replaced
 - daniels_eva_1: needs to be re-processed
 - demus_gus_3: looks like it wasn't processed
+- noticing frequent diarization confusion in second half of transcripts
