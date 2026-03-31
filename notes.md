@@ -10,3 +10,5 @@
 - buchanan_george_1: listed as transcript only but its just an index
 - wurman_mamie_1: redirecting to lynd_mary_1
 - wicks_grace_2 and wicks_grace_1 transcripts not processed
+- clyde_lola_1: diarization breaks down around 28 minutes
+- clyde_lola_4: diarization breaks down around 33 minutes
