@@ -12,3 +12,4 @@
 - wicks_grace_2 and wicks_grace_1 transcripts not processed
 - clyde_lola_1: diarization breaks down around 28 minutes
 - clyde_lola_4: diarization breaks down around 33 minutes
+- cornelison_bernadine_1-cornelison_bernadine_5 redirects to adair_ione_1-adair_ione_5, which are already replaced
