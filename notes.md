@@ -39,6 +39,7 @@
 ## Redundant Transcripts
 
 - cornelison_bernadine_1-cornelison_bernadine_5 redirects to adair_ione_1-adair_ione_5, which are already replaced
+- wurman_mamie is redirected to lynd_mary_1
 
 ## Other Issues
 
