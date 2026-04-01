@@ -1,4 +1,4 @@
-
+## Project Notes
 
 - adair_ione_3: diarization trouble -- attributing Ione Adair to Sam
 - albright_lora_1, albright_lora_2: diarization breaks down about an hour in
@@ -19,13 +19,9 @@
 - waldron_kate_2: interviewee asking questions, causing diarization confusion
 - waldron_kate_2: diarization confusion
 - fleener_dora_1: diarization breaks down around 26
-<<<<<<< Updated upstream
 - To remove millisecond from Premiere transcripts: in bash -- sed -i '' 's/\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\):[0-9]\{2\}/\1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/flodin_elmer_2.csv (select CSV that needs adjusting and choose `copy path` and paste in the last section of the command)
 - wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 not processed
 - vine_rannie_1 not processed
-=======
 - To remove millisecond from Premiere transcripts: in bash -- sed -i '' 's/\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\):[0-9]\{2\}/\1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/follett_mahlon_1.csv (select CSV that needs adjusting and choose `copy path` and paste in the last section of the command)
 - wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 not processed
 - fry_frances_1: diarization breaks down around 58
-- 
->>>>>>> Stashed changes
