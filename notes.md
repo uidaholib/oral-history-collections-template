@@ -22,7 +22,7 @@
 - wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 not processed
 - vine_rannie_1 not processed
 - fry_frances_1: diarization breaks down around 58
-- utt_emmettandanna_5 premiere transcript could be replaced; new transcript diarization breakdown with questions
+- utt_emmettandanna_5 replaced premiere transcript; new transcript diarization breakdown with questions. some remediation done but could be reprocessed.
 
 ## Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
