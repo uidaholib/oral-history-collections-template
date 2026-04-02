@@ -21,6 +21,9 @@
 - utt_emmettandanna_5 replaced premiere transcript; new transcript diarization breakdown with questions. some remediation done but could be reprocessed.
 - utt_emmettandanna_4 premiere transcript could be replaced; new transcript diarization breakdown around questions
 - glenn_royandmabel_1: Diarization issues
+- goff_abe_2: Diarization issues
+- gorman_madeleine_1: diarization breakdown at 48
+- 
 
 ## Never Processed
 
