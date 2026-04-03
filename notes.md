@@ -23,7 +23,7 @@
 - glenn_royandmabel_1: Diarization issues
 - goff_abe_2: Diarization issues
 - gorman_madeleine_1: diarization breakdown at 48
-- 
+- halen_alben_2: subtle diarization problems
 
 ## Never Processed
 
@@ -36,6 +36,7 @@
 
 - glenn_bruceandagnes_1: marked as Sam but it is Laura
 - baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is Laura
+- hardt_verna_1: appears to just be a dictated tape -- no interviewer
 
 ## Included in _transcripts but not CSV
 
