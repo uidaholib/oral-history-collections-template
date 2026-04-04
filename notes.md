@@ -37,6 +37,7 @@
 - glenn_bruceandagnes_1: marked as Sam but it is Laura
 - baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is Laura
 - hardt_verna_1: appears to just be a dictated tape -- no interviewer
+- johanson_nellie_1: Interviewer listed as Rachel Foxwell but it is Rachel Foxman -- https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_v07-n4.pdf
 
 ## Included in _transcripts but not CSV
 
@@ -57,4 +58,10 @@
 ## Kind of incredible
 
 - guilfoy_leo_2
+
+## Translation notes
+
+- jackson_alice_1: Nez Perce words that could use another look
+
+
 
