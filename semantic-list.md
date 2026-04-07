@@ -5,3 +5,6 @@
 - dray
 - Gypsies
 - Flunkeying
+- A Literary
+- Camas
+- Cous
