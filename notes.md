@@ -2,6 +2,25 @@
 
 - To remove millisecond from Premiere transcripts: in bash -- sed -i '' 's/\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\):[0-9]\{2\}/\1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/flodin_elmer_2.csv (select CSV that needs adjusting and choose `copy path` and paste in the last section of the command)
 
+- To switch columns C and D: 
+
+python3 -c "
+import csv, sys
+rows = list(csv.reader(open('$(echo /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/mckeever_george_1.csv)')))
+out = [[r[0],r[1],r[3],r[2]]+r[4:] if len(r)>3 else r for r in rows]
+csv.writer(open('$(echo /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/mckeever_george_1.csv)','w',newline='')).writerows(out)
+"
+
+- To remove line breaks from CSV:
+
+python3 -c "
+import csv
+path = '/Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/mckeever_george_1.csv'
+rows = list(csv.reader(open(path)))
+clean = [r for r in rows if any(field.strip() for field in r)]
+csv.writer(open(path, 'w', newline='')).writerows(clean)
+"
+
 ## Diarization Trouble / Hallucination / Needs Reprocessing
 
 - adair_ione_3: diarization trouble -- attributing Ione Adair to Sam
@@ -27,10 +46,12 @@
 
 ## Never Processed
 
-- demus_gus_3: looks like it wasn't processed
-- gilder_glenandagnes_7: not processed
-- wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 not processed
-- vine_rannie_1 not processed
+- demus_gus_3: 
+- gilder_glenandagnes_7: 
+- wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 
+- vine_rannie_1
+- martin_roy_1+2
+- milbert_frank_1+2
 
 ## Incorrect Interviewer in Metadata
 

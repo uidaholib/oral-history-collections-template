@@ -10,3 +10,5 @@
 - Cous
 - Quadrilles
 - Dialogues
+- Jungle / Jungling-Up
+- Weyerhaeuser
