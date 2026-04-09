@@ -65,6 +65,7 @@
 
 - lawrence_floydandnola_2: Same audio seems to repeat from an hour into the recording. Also, a ton of cross-talk.
 - buchanan_george_1: listed as transcript only but its just an index
+- mahon_catherine_2: audio starts looping at 0:31:00-1:04:00
 
 
 
