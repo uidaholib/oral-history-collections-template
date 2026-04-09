@@ -3,9 +3,10 @@
 - shivaree
 - gyppo
 - dray
-- Gypsies
+- Romani
 - Flunkeying
 - A Literary
 - Camas
 - Cous
 - Quadrilles
+- Dialogues

@@ -42,16 +42,13 @@
 ## Included in _transcripts but not CSV
 
 - byers_fannie_1: is there a reason this is not included in current CSV?
+- lynd_mary_1
 
 ## Redundant Transcripts
 
 - cornelison_bernadine_1-cornelison_bernadine_5 redirects to adair_ione_1-adair_ione_5, which are already replaced
 - wurman_mamie is redirected to lynd_mary_1
 - lemarr_may_2 redirects to justice_lena_2
-
-## Other Issues
-
-- buchanan_george_1: listed as transcript only but its just an index
 
 ## Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
@@ -67,6 +64,7 @@
 ## Misc.
 
 - lawrence_floydandnola_2: Same audio seems to repeat from an hour into the recording. Also, a ton of cross-talk.
+- buchanan_george_1: listed as transcript only but its just an index
 
 
 
