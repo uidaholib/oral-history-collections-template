@@ -52,6 +52,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 - vine_rannie_1
 - martin_roy_1+2
 - milbert_frank_1+2
+- morris_mabell_1
 
 ## Incorrect Interviewer in Metadata
 
@@ -70,6 +71,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 - cornelison_bernadine_1-cornelison_bernadine_5 redirects to adair_ione_1-adair_ione_5, which are already replaced
 - wurman_mamie is redirected to lynd_mary_1
 - lemarr_may_2 redirects to justice_lena_2
+- murphy_danandjoemaloney_1 is a copy of maloney_joe_1
 
 ## Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12

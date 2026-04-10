@@ -5,10 +5,14 @@
 - dray
 - Romani
 - Flunkeying
-- A Literary
+- A Literary / literaries
 - Camas
 - Cous
 - Quadrilles
 - Dialogues
 - Jungle / Jungling-Up
+- Weyerhaeuser
+- Chautauquas
+- moonshine
+- WI&M / Washington, Idaho & Montana Railway
 - Weyerhaeuser
