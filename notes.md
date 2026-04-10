@@ -46,7 +46,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 
 ## Never Processed
 
-- demus_gus_3: 
+- demus_gus_3: mk processed
 - gilder_glenandagnes_7: 
 - wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 
 - vine_rannie_1
