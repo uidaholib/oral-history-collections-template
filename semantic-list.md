@@ -14,9 +14,11 @@
 - Miller Boy  
 - Moonshine  
 - Quadrilles  
+- Rebekah
 - Romani  
 - Shivaree  
 - Skip to My Lou  
+- Smudge Fire
 - Swampers  
 - Thrashing  
 - WI&M / Washington, Idaho & Montana Railway  
@@ -25,13 +27,24 @@
 ## Places
 
 - Bovill  
+- Cheney
+- Clarkia
+- Deary
 - Ellensburg
+- Elk River
+- Fernwood
+- Helmer
+- Hoodoo
 - Juliaetta  
 - Kamiah  
 - Kendrick  
 - Lewiston
+- Mizpah Mine
+- Nora
 - Omak  
 - Pomeroy
 - Potlatch  
 - Pullman
+- Spokane
+- Troy
 - Walla Walla
