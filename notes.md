@@ -23,7 +23,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 
 ## Diarization Trouble / Hallucination / Needs Reprocessing
 
-- adair_ione_3: diarization trouble -- attributing Ione Adair to Sam
+- adair_ione_3: diarization trouble -- attributing Ione Adair to Sam - mk reprocessed
 - albright_lora_1, albright_lora_2: diarization breaks down about an hour in
 - bacca_jamesandamelia_1: diarization problems between two interviewees
 - brocke_frank_3: hallucination
