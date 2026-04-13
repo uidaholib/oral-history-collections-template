@@ -28,7 +28,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 ## Diarization Trouble / Hallucination / Needs Reprocessing
 
 - adair_ione_3: diarization trouble -- attributing Ione Adair to Sam - mk reprocessed
-- albright_lora_2: diarization breaks down about an hour in
+- albright_lora_2: diarization breaks down about an hour in - mk reprocessed
 - bacca_jamesandamelia_1: diarization problems between two interviewees
 - brocke_frank_3: hallucination
 - brocke_frank_4: diarization problems around 20
