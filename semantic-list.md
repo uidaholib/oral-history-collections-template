@@ -15,6 +15,7 @@
 - Moonshine  
 - Quadrilles  
 - Rebekah
+- Rinky Dinks
 - Romani  
 - Shivaree  
 - Skip to My Lou  

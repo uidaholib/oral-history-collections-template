@@ -21,6 +21,10 @@ clean = [r for r in rows if any(field.strip() for field in r)]
 csv.writer(open(path, 'w', newline='')).writerows(clean)
 "
 
+- To make sure all characters following a quote in the words field is capitalized
+
+perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/platz_ima_1.csv
+
 ## Diarization Trouble / Hallucination / Needs Reprocessing
 
 - adair_ione_3: diarization trouble -- attributing Ione Adair to Sam - mk reprocessed
@@ -64,6 +68,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 - baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is Laura
 - hardt_verna_1: appears to just be a dictated tape -- no interviewer
 - johanson_nellie_1: Interviewer listed as Rachel Foxwell but it is Rachel Foxman -- https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_v07-n4.pdf
+- presby_curtis_1: marked as Sam but it is Laura
 
 ## Included in _transcripts but not CSV
 
@@ -76,6 +81,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 - wurman_mamie is redirected to lynd_mary_1
 - lemarr_may_2 redirects to justice_lena_2
 - murphy_danandjoemaloney_1 is a copy of maloney_joe_1
+- platt_kenneth_1 bypasses to hickman_william_1
 
 ## Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
