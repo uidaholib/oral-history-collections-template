@@ -43,6 +43,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 - goff_abe_2: Diarization issues
 - gorman_madeleine_1: diarization breakdown at 48
 - halen_alben_2: subtle diarization problems
+- otness_lillian_2: breaks down around the hour
 
 ## Never Processed
 
@@ -92,6 +93,7 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 - lawrence_floydandnola_2: Same audio seems to repeat from an hour into the recording. Also, a ton of cross-talk.
 - buchanan_george_1: listed as transcript only but its just an index
 - mahon_catherine_2: audio starts looping at 0:31:00-1:04:00
+- otness_lillian_1 recording turns into oslund_anna_1 recording at the hour mark: "I never did know what it was particularly that caused him to, to change. | There are the thoughts about this country, how great it is."
 
 
 
