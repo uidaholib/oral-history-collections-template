@@ -47,8 +47,11 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 ## Never Processed
 
 - demus_gus_3: mk processed
-- gilder_glenandagnes_7: mk processed. baby making noises that confuses the transcript
-- wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2 
+- gilder_glenandagnes_7: mk processed. a baby babbling in background that confuses the transcript
+
+## Missing Audio
+
+- wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2
 - vine_rannie_1
 - martin_roy_1+2
 - milbert_frank_1+2
