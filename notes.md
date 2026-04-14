@@ -31,7 +31,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - albright_lora_2: diarization breaks down about an hour in - mk reprocessed
 - brocke_frank_3: hallucination mk reprocessed
 - wurman_mamie_1: redirecting to lynd_mary_1
-- clyde_lola_1: diarization breaks down around 28 minutes
 - clyde_lola_4: diarization breaks down around 33 minutes
 - daniels_eva_1: needs to be re-processed
 - noticing frequent diarization confusion in second half of transcripts:
@@ -104,6 +103,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - buchanan_george_1: listed as transcript only but its just an index
 - mahon_catherine_2: audio starts looping at 0:31:00-1:04:00
 - otness_lillian_1 recording turns into oslund_anna_1 recording at the hour mark: "I never did know what it was particularly that caused him to, to change. | There are the thoughts about this country, how great it is."
+- clyde_lola_1: repeats section of interview at 01:32:06:08, original transcript shows that section of interview is missing
 
 
 
