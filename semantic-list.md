@@ -12,8 +12,13 @@
 - Flunkeying  
 - Gyppo  
 - Jungle / Jungling-Up  
+- Kiwanis Club
+- Klu Klux Klan
 - Miller Boy  
 - Moonshine  
+- Psychiana
+- Oddfellows
+- QAE Club
 - Quadrilles  
 - Rebekah
 - Rinky Dinks
@@ -27,6 +32,7 @@
 - WCTU
 - WI&M / Washington, Idaho & Montana Railway  
 - Weyerhaeuser  
+- Wild Davey
 
 ## Places
 
@@ -34,6 +40,7 @@
 - Cheney
 - Clarkia
 - Craigmont
+- Crumarine Gulch
 - Deary
 - Ellensburg
 - Elk River
@@ -49,9 +56,11 @@
 - Nora
 - Omak  
 - Peck
+- Pocatello
 - Pomeroy
 - Potlatch  
 - Pullman
+- Riparia
 - Spokane
 - Troy
 - Walla Walla
