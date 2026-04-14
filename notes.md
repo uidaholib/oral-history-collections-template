@@ -29,13 +29,11 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 - adair_ione_3: diarization trouble -- attributing Ione Adair to Sam - mk reprocessed
 - albright_lora_2: diarization breaks down about an hour in - mk reprocessed
-- brocke_frank_3: hallucination mk reprocessed
+- brocke_frank_3: hallucination - mk reprocessed
 - wurman_mamie_1: redirecting to lynd_mary_1
-- daniels_eva_1: needs to be re-processed mk reprocessed
+- daniels_eva_1: needs to be re-processed - mk reprocessed
 - noticing frequent diarization confusion in second half of transcripts:
-- waldron_kate_2: interviewee asking questions, causing diarization confusion
-- fleener_dora_1: diarization breaks down around 26
-- fry_frances_1: diarization breaks down around 58
+- fry_frances_1: diarization breaks down around 58 - mk reprocessed
 - utt_emmettandanna_5 replaced premiere transcript; new transcript diarization breakdown with questions. some remediation done but could be reprocessed.
 - utt_emmettandanna_4 premiere transcript could be replaced; new transcript diarization breakdown around questions
 - glenn_royandmabel_1: Diarization issues
@@ -50,6 +48,8 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - bacca_jamesandamelia_1: diarization problems between two interviewees; premiere not transcribing many words correctly
 - brocke_frank_4: diarization problems around 20; premiere over-parses
 - clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses
+- waldron_kate_2: interviewee asking questions, causing diarization confusion; premiere over-parses
+- fleener_dora_1: diarization breaks down around 26; premiere over-parses
 
 ## Never Processed
 
