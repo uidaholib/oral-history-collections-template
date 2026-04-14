@@ -31,7 +31,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - albright_lora_2: diarization breaks down about an hour in - mk reprocessed
 - brocke_frank_3: hallucination mk reprocessed
 - wurman_mamie_1: redirecting to lynd_mary_1
-- daniels_eva_1: needs to be re-processed
+- daniels_eva_1: needs to be re-processed mk reprocessed
 - noticing frequent diarization confusion in second half of transcripts:
 - waldron_kate_2: interviewee asking questions, causing diarization confusion
 - fleener_dora_1: diarization breaks down around 26
