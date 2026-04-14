@@ -30,9 +30,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - adair_ione_3: diarization trouble -- attributing Ione Adair to Sam - mk reprocessed
 - albright_lora_2: diarization breaks down about an hour in - mk reprocessed
 - brocke_frank_3: hallucination mk reprocessed
-- brocke_frank_4: diarization problems around 20
 - wurman_mamie_1: redirecting to lynd_mary_1
-- wicks_grace_2 and wicks_grace_1 transcripts not processed
 - clyde_lola_1: diarization breaks down around 28 minutes
 - clyde_lola_4: diarization breaks down around 33 minutes
 - daniels_eva_1: needs to be re-processed
@@ -52,6 +50,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 - albright_lora_1
 - bacca_jamesandamelia_1: diarization problems between two interviewees; premiere not transcribing many words correctly
+- brocke_frank_4: diarization problems around 20; premiere over-parses
 
 ## Never Processed
 
@@ -65,6 +64,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - martin_roy_1+2
 - milbert_frank_1+2
 - morris_mabell_1
+- wicks_grace_2 and wicks_grace_1
 
 ## Incorrect Interviewer in Metadata
 
