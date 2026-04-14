@@ -36,9 +36,11 @@
 
 ## Places
 
+- Beals Butte
 - Bovill  
 - Cheney
 - Clarkia
+- Cloquet, Minnesota
 - Craigmont
 - Crumarine Gulch
 - Deary
@@ -61,7 +63,12 @@
 - Potlatch  
 - Pullman
 - Riparia
+- Slabtown
 - Spokane
 - Troy
 - Walla Walla
 - Wenatchee
+
+## Geographic / Cultural additions
+
+- Bohunk for Hungarian
