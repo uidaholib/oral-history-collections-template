@@ -1,6 +1,7 @@
 ## Semantic List
 
 - A Literary / Literaries  
+- Basket Socials
 - Camas  
 - Chautauquas  
 - Cous  
@@ -22,6 +23,7 @@
 - Smudge Fire
 - Swampers  
 - Thrashing  
+- Three Deep
 - WI&M / Washington, Idaho & Montana Railway  
 - Weyerhaeuser  
 
@@ -30,10 +32,12 @@
 - Bovill  
 - Cheney
 - Clarkia
+- Craigmont
 - Deary
 - Ellensburg
 - Elk River
 - Fernwood
+- Hayden
 - Helmer
 - Hoodoo
 - Juliaetta  
@@ -43,9 +47,11 @@
 - Mizpah Mine
 - Nora
 - Omak  
+- Peck
 - Pomeroy
 - Potlatch  
 - Pullman
 - Spokane
 - Troy
 - Walla Walla
+- Wenatchee
