@@ -106,4 +106,9 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - clyde_lola_1: repeats section of interview at 01:32:06:08, original transcript shows that section of interview is missing
 - ruberg_hilda_1: plays the same audio over again at the hour mark
 
+## Design Notes
+
+- The tagging elements can be a dropdown menu on the left of the Browse page rather than a tagging data visualization page
+- The photographs of the interviewees should expand in a light box on selection
+
 
