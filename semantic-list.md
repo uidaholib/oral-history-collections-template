@@ -2,6 +2,7 @@
 
 - A Literary / Literaries  
 - Basket Socials
+- Blister Rust
 - Camas  
 - Chautauquas  
 - Cous  
@@ -50,6 +51,7 @@
 - Hayden
 - Helmer
 - Hoodoo
+- Hoquiam
 - Juliaetta  
 - Kamiah  
 - Kendrick  
