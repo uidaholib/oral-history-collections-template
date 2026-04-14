@@ -31,7 +31,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - albright_lora_2: diarization breaks down about an hour in - mk reprocessed
 - brocke_frank_3: hallucination mk reprocessed
 - wurman_mamie_1: redirecting to lynd_mary_1
-- clyde_lola_4: diarization breaks down around 33 minutes
 - daniels_eva_1: needs to be re-processed
 - noticing frequent diarization confusion in second half of transcripts:
 - waldron_kate_2: interviewee asking questions, causing diarization confusion
@@ -50,6 +49,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - albright_lora_1
 - bacca_jamesandamelia_1: diarization problems between two interviewees; premiere not transcribing many words correctly
 - brocke_frank_4: diarization problems around 20; premiere over-parses
+- clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses
 
 ## Never Processed
 
