@@ -104,6 +104,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - mahon_catherine_2: audio starts looping at 0:31:00-1:04:00
 - otness_lillian_1 recording turns into oslund_anna_1 recording at the hour mark: "I never did know what it was particularly that caused him to, to change. | There are the thoughts about this country, how great it is."
 - clyde_lola_1: repeats section of interview at 01:32:06:08, original transcript shows that section of interview is missing
-
+- ruberg_hilda_1: plays the same audio over again at the hour mark
 
 
