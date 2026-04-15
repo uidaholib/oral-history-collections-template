@@ -10,6 +10,7 @@
 - Debates  
 - Dialogues  
 - Dray  
+- Foster School of Healing
 - Flunkeying  
 - Gyppo  
 - Jungle / Jungling-Up  
@@ -39,7 +40,8 @@
 
 - Asotin
 - Beals Butte
-- Bovill  
+- Bovill
+- Cameron
 - Cheney
 - Clarkia
 - Cloquet, Minnesota
@@ -49,6 +51,7 @@
 - Ellensburg
 - Elk River
 - Fernwood
+- Fix Ridge
 - Hayden
 - Helmer
 - Hoodoo
