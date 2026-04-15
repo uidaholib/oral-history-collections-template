@@ -38,7 +38,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - utt_emmettandanna_4 premiere transcript could be replaced; new transcript diarization breakdown around questions
 - glenn_royandmabel_1: Diarization issues - mk reprocessed
 - goff_abe_2: Diarization issues - mk reprocessed
-- gorman_madeleine_1: diarization breakdown at 48
+- gorman_madeleine_1: diarization breakdown at 48 - mk reprocessed
 - halen_alben_2: subtle diarization problems
 - otness_lillian_2: breaks down around the hour
 
