@@ -68,6 +68,7 @@
 - Riparia
 - Saint Maries
 - Slabtown
+- Southwick
 - Spokane
 - Troy
 - Walla Walla
