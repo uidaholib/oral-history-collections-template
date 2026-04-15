@@ -39,12 +39,15 @@
 ## Places
 
 - Asotin
+- Aspendale
 - Beals Butte
+- Bluestem, WA
 - Bovill
 - Cameron
 - Cheney
 - Clarkia
 - Cloquet, Minnesota
+- Coeur d'Alene
 - Craigmont
 - Crumarine Gulch
 - Deary
@@ -60,6 +63,8 @@
 - Kamiah  
 - Kendrick  
 - Lewiston
+- Linville
+- Lochsa River
 - Mizpah Mine
 - Nora
 - Omak  
