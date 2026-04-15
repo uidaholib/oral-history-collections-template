@@ -39,17 +39,17 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - glenn_royandmabel_1: Diarization issues - mk reprocessed
 - goff_abe_2: Diarization issues - mk reprocessed
 - gorman_madeleine_1: diarization breakdown at 48 - mk reprocessed
-- halen_alben_2: subtle diarization problems
 - otness_lillian_2: breaks down around the hour
 
 ## Reprocess with new script
 
 - albright_lora_1
-- bacca_jamesandamelia_1: diarization problems between two interviewees; premiere not transcribing many words correctly
+- bacca_jamesandamelia_1: diarization problems between two interviewees; premiere struggling with dialogue
 - brocke_frank_4: diarization problems around 20; premiere over-parses
 - clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses
 - waldron_kate_2: interviewee asking questions, causing diarization confusion; premiere over-parses
 - fleener_dora_1: diarization breaks down around 26; premiere over-parses
+- halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata.
 
 ## Never Processed
 
@@ -105,6 +105,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - otness_lillian_1 recording turns into oslund_anna_1 recording at the hour mark: "I never did know what it was particularly that caused him to, to change. | There are the thoughts about this country, how great it is."
 - clyde_lola_1: repeats section of interview at 01:32:06:08, original transcript shows that section of interview is missing
 - ruberg_hilda_1: plays the same audio over again at the hour mark
+- halen_alben_2: Starts part way through the interview. Original transcript shows that section of the iinterview is missing
 
 ## Design Notes
 
