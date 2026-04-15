@@ -39,7 +39,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - glenn_royandmabel_1: Diarization issues - mk reprocessed
 - goff_abe_2: Diarization issues - mk reprocessed
 - gorman_madeleine_1: diarization breakdown at 48 - mk reprocessed
-- otness_lillian_2: breaks down around the hour
+- otness_lillian_2: breaks down around the hour - mk reprocessed
 
 ## Reprocess with new script
 
