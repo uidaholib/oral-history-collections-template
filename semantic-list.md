@@ -37,6 +37,7 @@
 
 ## Places
 
+- Asotin
 - Beals Butte
 - Bovill  
 - Cheney
@@ -65,6 +66,7 @@
 - Potlatch  
 - Pullman
 - Riparia
+- Saint Maries
 - Slabtown
 - Spokane
 - Troy
