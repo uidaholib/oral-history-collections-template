@@ -34,8 +34,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - daniels_eva_1: needs to be re-processed - mk reprocessed
 - noticing frequent diarization confusion in second half of transcripts:
 - fry_frances_1: diarization breaks down around 58 - mk reprocessed
-- utt_emmettandanna_5 replaced premiere transcript; new transcript diarization breakdown with questions. some remediation done but could be reprocessed.
-- utt_emmettandanna_4 premiere transcript could be replaced; new transcript diarization breakdown around questions
 - glenn_royandmabel_1: Diarization issues - mk reprocessed
 - goff_abe_2: Diarization issues - mk reprocessed
 - gorman_madeleine_1: diarization breakdown at 48 - mk reprocessed
@@ -50,6 +48,8 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - waldron_kate_2: interviewee asking questions, causing diarization confusion; premiere over-parses
 - fleener_dora_1: diarization breaks down around 26; premiere over-parses
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata.
+- utt_emmettandanna_5: diarization breakdown with questions; premiere struggling with dialogue
+- utt_emmettandanna_4: diarization breakdown with questions; premiere struggling with dialogue
 
 ## Never Processed
 
