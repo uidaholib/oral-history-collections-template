@@ -62,17 +62,20 @@
 - Juliaetta  
 - Kamiah  
 - Kendrick  
+- Lapwai reservation
 - Lewiston
 - Linville
 - Lochsa River
 - Mizpah Mine
 - Nora
 - Omak  
+- Payette Lake
 - Peck
 - Pocatello
 - Pomeroy
 - Potlatch  
 - Pullman
+- Ridenbaugh Canal
 - Riparia
 - Saint Maries
 - Slabtown
