@@ -68,6 +68,7 @@
 - Lochsa River
 - Mizpah Mine
 - Nora
+- Okanagan
 - Omak  
 - Payette Lake
 - Peck
