@@ -5,21 +5,29 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: alice_03
+about-featured-image: https://objects.lib.uidaho.edu/coltrane/alice_13.jpg
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About the Collection
+heading: Alice Coltrane Jazz Spiritualism
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
-padding: 6em
+padding: 8em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
+## About the Collection
 
-## Early Career
+This collection presents [Alice Coltrane's interview with Leonard Feather]({{ '/items/alice_13.html' | relative_url }}), enriched with contextual information exploring her contributions to jazz spiritualism, researched by 2024 Berry International Jazz Collections Fellow Irene Koreski.
+The recording was found in the [Leonard Feather papers](https://archiveswest.orbiscascade.org/ark:/80444/xv98547), part of the [International Jazz Collections](https://www.ijc.uidaho.edu/) held by University of Idaho Library.
+
+## Alice Coltrane, Jazz Spiritualism
+
+*Essay by 2024 Berry International Jazz Collections Fellow Irene Koreski*
+
+### Early Career
 
 {% include feature/image.html objectid="alice_09" width="50" %}
 
@@ -27,7 +35,7 @@ Born in 1937, Alice grew up in Detroit, Michigan to a very large family of six c
 
 {% include feature/image.html objectid="alice_10" %}
 
-## Spirituality
+### Spirituality
 
 Alice Coltrane had already been a large proponent of religion and its influence in music, and it seemed that John’s death only amplified these ideas for her when she decided to become a solo recording artist. She spent much of her time in isolation - praying, fasting, meditating - to seek a spiritual truth. It was during this time that Alice met her guru, traveled to India, and dedicated herself to God. 
 
@@ -35,25 +43,27 @@ Alice Coltrane had already been a large proponent of religion and its influence 
 
 Alice and her children - Michelle, John Jr., Ravi, and Oranyan - moved from their home of New York to Los Angeles and Alice opened her own spiritual retreat called The Vedantic Center in 1975 until it was relocated to the Santa Monica Mountains of Agoura, California. Alice recorded 25 albums, several of which featured spiritual music that Alice had composed herself and she wrote many books on the subject of her religion. 
 
-## Interview with Leonard Feather
+### Interview with Leonard Feather
 
-<a href="/coltrane/oral_histories.html"> In 1981, Leonard Feather traveled to the home of Alice Coltrane in LA where they discussed several topics </a>, of course focused on, but not limited to her music. Feather was a widely known music journalist that interviewed dozens of musicians throughout his lifetime, largely in part due to his Blindfold Test recordings. In these recordings, Leonard Feather would ask a musician to blindfold themselves, much as the name implies, and listen to an unknown recording of a jazz tune, after which they would discuss their thoughts on the playing and arranging of the piece. The interview with Alice Coltrane would be much more than his standard blindfold tests. Feather was a fan of Alice’s work and had previously written the liner notes for one of her albums Ptah, the El Daoud, which was released in 1970, as well as writing about her music prior. 
+In 1981, Leonard Feather traveled to the home of Alice Coltrane in LA where they discussed several topics, of course focused on, but not limited to her music. Feather was a widely known music journalist that interviewed dozens of musicians throughout his lifetime, largely in part due to his Blindfold Test recordings. In these recordings, Leonard Feather would ask a musician to blindfold themselves, much as the name implies, and listen to an unknown recording of a jazz tune, after which they would discuss their thoughts on the playing and arranging of the piece. 
 
-{% include feature/pdf.html objectid="alice_12" %}
+{% include feature/image.html objectid="alice_13" %}
 
-Alice Coltrane spoke extensively in the interview with Feather about her spirituality and its impact on her musical career and her family life. Much of what she did every day to connect with a greater purpose, she encouraged her children to join her in doing as well, such as daily meditation and reading of the Hindu scriptures. She also talked to Leonard Feather about how she was able to connect with her late-husband, John Coltrane, through her meditation.
+The interview with Alice Coltrane would be much more than his standard blindfold tests. Feather was a fan of Alice’s work and had previously written the liner notes for one of her albums Ptah, the El Daoud, which was released in 1970, as well as writing about her music prior. 
 
-{% include feature/pdf.html objectid="alice_01" %}
+{% include feature/image.html objectid="alice_12" %}
 
-This interview was recorded while Alice and her sons were preparing for a concert at UCLA where they were to perform a set of her own music, which was referred to on the poster as avant garde. Sadly, this would be one of the last times John Jr. would be recorded, because on August 9th, 1982, John Jr. would die at the age of 17 in a car accident. This would have a profound impact on the family, leading Alice further into her spiritual studies and music and particularly the middle son, Ravi, who would quit music entirely. 
+Alice Coltrane spoke extensively in the interview with Feather about her spirituality and its impact on her musical career and her family life. Much of what she did every day to connect with a greater purpose, she encouraged her children to join her in doing as well, such as daily meditation and reading of the [Hindu scriptures]({{ '/items/alice_01.html' | relative_url }}). She also talked to Leonard Feather about how she was able to connect with her late-husband, John Coltrane, through her meditation.
 
 {% include feature/image.html objectid="alice_03" width="50" %}
 
+This interview was recorded while Alice and her sons were preparing for a concert at UCLA where they were to perform a set of her own music, which was referred to on the poster as avant garde. Sadly, this would be one of the last times John Jr. would be recorded, because on August 9th, 1982, John Jr. would die at the age of 17 in a car accident. This would have a profound impact on the family, leading Alice further into her spiritual studies and music and particularly the middle son, Ravi, who would quit music entirely. 
+
 Leonard Feather had recorded one of the few, if not only, interviews existing with Alice Coltrane and all three of her sons, giving the listener a unique perspective on their family dynamic after their father’s death, touching on topics of school, music, religion, and much more. 
 
-## About the Collection
+## International Jazz Collections
 
-Among the vast works in the University of Idaho’s International Jazz Collection archives, many items belonged to the late Leonard Feather (1914-1994) made up of letters, manuscripts, interview tapes, music scores, books, vinyl records, CDs and other memorabilia. Items were generously donated by Feather’s family in 1995 to the Lionel Hampton School of Music and have since been housed in the university's special collections. A large portion of the collection has been digitized and made available through the University of Idaho Library Special Collections website, but there are still many items that exist only in their physical locations. 
+Among the vast works in the University of Idaho’s International Jazz Collection archives, many items belonged to the late Leonard Feather (1914-1994) made up of letters, manuscripts, interview tapes, music scores, books, vinyl records, CDs and other memorabilia. Items were generously donated by Feather’s family in 1995 to the Lionel Hampton School of Music and have since been housed in the university's special collections. A small portion of the collection has been digitized and made available through the [International Jazz Collections](https://www.ijc.uidaho.edu/) website, but there are still many items that exist only in their physical locations. 
 
 ## About the Fellow
 
