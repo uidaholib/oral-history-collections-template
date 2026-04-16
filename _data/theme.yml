@@ -6,7 +6,7 @@
 ##########
 # Transcript Page / Oral History as Data Options 
 # 
-transcript-fields: "description,date,location,interviewer,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
+transcript-fields: "description,date,location" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
 # list the fields you'd like displayed, separated by comma
 media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
 search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
@@ -34,12 +34,12 @@ json-generation: false ## true/false --> defaults to false (see note below if yo
 
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: mcmichael9
+featured-image: alice_03
 featured-image-alt-text: # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional for CB base layout: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: 12em # the margin from the top your title portion will appear.
+home-title-y-padding: 14em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: center # Default is top
+home-banner-image-position: top # Default is top
 
 
 ##########
