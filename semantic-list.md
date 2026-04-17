@@ -18,6 +18,7 @@
 - Klu Klux Klan
 - Miller Boy  
 - Moonshine  
+- Mumble-Pig
 - Psychiana
 - Oddfellows
 - QAE Club
@@ -78,7 +79,9 @@
 - Pullman
 - Ridenbaugh Canal
 - Riparia
+- Ritzville, WA
 - Saint Maries
+- Sacheen Lake
 - Slabtown
 - Southwick
 - Spokane
