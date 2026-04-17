@@ -24,6 +24,7 @@
 - QAE Club
 - Quadrilles  
 - Rebekah
+- Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
 - Rinky Dinks
 - Romani  
 - Shivaree  
@@ -71,6 +72,7 @@
 - Nora
 - Okanagan
 - Omak  
+- Parma
 - Payette Lake
 - Peck
 - Pocatello
@@ -79,6 +81,7 @@
 - Pullman
 - Ridenbaugh Canal
 - Riparia
+- Rexburg
 - Ritzville, WA
 - Saint Maries
 - Sacheen Lake

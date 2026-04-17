@@ -39,6 +39,8 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - gorman_madeleine_1: diarization breakdown at 48 - mk reprocessed
 - otness_lillian_2: breaks down around the hour - mk reprocessed
 - sherman_theodore_2 - a little diarization trouble? Not a very long recording and may be easier to manually adjust rather than reprocess. - mk manually adjusted
+- smith_nellie_2: Hallucination
+- smith_nellie_5: skips between 2:12:57-2:15:58
 
 ## Reprocess with new script
 
