@@ -41,7 +41,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - sherman_theodore_2 - a little diarization trouble? Not a very long recording and may be easier to manually adjust rather than reprocess. - mk manually adjusted
 - smith_nellie_2: Hallucination
 - smith_nellie_5: skips between 2:12:57-2:15:58
-- utt_emmettandanna_1 - diarization trouble
+
 
 ## Reprocess with new script
 
@@ -54,6 +54,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata.
 - utt_emmettandanna_5: diarization breakdown with questions; premiere struggling with dialogue
 - utt_emmettandanna_4: diarization breakdown with questions; premiere struggling with dialogue
+- utt_emmettandanna_1 - diarization breakdown with questions; premiere struggling with dialogue
 
 ## Never Processed
 
