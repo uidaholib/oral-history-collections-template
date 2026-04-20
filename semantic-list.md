@@ -57,6 +57,7 @@
 - Elk River
 - Fernwood
 - Fix Ridge
+- Hatter Creek
 - Hayden
 - Helmer
 - Hoodoo
@@ -79,6 +80,7 @@
 - Pocatello
 - Pomeroy
 - Potlatch  
+- Princeton
 - Pullman
 - Ridenbaugh Canal
 - Riparia
