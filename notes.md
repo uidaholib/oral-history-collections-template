@@ -47,9 +47,9 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - albright_lora_1. aw - script c and d both failed - try again with large model with script_d (pending)
 - bacca_jamesandamelia_1: diarization problems between two interviewees; premiere struggling with dialogue. aw reprocessed with script_c and copy edited
 - brocke_frank_4: diarization problems around 20; premiere over-parses
-- clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses
+- clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending)
 - waldron_kate_2: interviewee asking questions, causing diarization confusion; premiere over-parses
-- fleener_dora_1: diarization breaks down around 26; premiere over-parses
+- fleener_dora_1: diarization breaks down around 26; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending)
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata.
 - utt_emmettandanna_5: diarization breakdown with questions; premiere struggling with dialogue
 - utt_emmettandanna_4: diarization breakdown with questions; premiere struggling with dialogue
