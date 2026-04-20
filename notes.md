@@ -54,7 +54,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - utt_emmettandanna_5: diarization breakdown with questions; premiere struggling with dialogue
 - utt_emmettandanna_4: diarization breakdown with questions; premiere struggling with dialogue
 - utt_emmettandanna_1 - diarization breakdown with questions; premiere struggling with dialogue
-- smith_nellie_2: Hallucination; premiere hallucinating a different language
+- smith_nellie_2: Hallucination; premiere hallucinating a different language. aw reprocessed with large model script d and copy edited
 
 ## Never Processed
 
