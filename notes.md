@@ -44,8 +44,8 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 ## Reprocess with new script
 
-- albright_lora_1
-- bacca_jamesandamelia_1: diarization problems between two interviewees; premiere struggling with dialogue
+- albright_lora_1. aw - script c and d both failed - try again with large model with script_d (pending)
+- bacca_jamesandamelia_1: diarization problems between two interviewees; premiere struggling with dialogue. aw reprocessed with script_c and copy edited
 - brocke_frank_4: diarization problems around 20; premiere over-parses
 - clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses
 - waldron_kate_2: interviewee asking questions, causing diarization confusion; premiere over-parses

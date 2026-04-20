@@ -72,6 +72,7 @@
 - Nora
 - Okanagan
 - Omak  
+- Onaway
 - Parma
 - Payette Lake
 - Peck
