@@ -56,7 +56,8 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - utt_emmettandanna_1 - diarization breakdown with questions; premiere struggling with dialogue. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
 - smith_nellie_2: Hallucination; premiere hallucinating a different language. aw reprocessed with large model script d and copy edited.
 - thomason_oscarandanna_1: diarization breakdown with questions; premiere struggling with dialogue
--thomason_oscarandanna_2: diarization breakdown with questions; premiere struggling with dialogue
+- thomason_oscarandanna_2: diarization breakdown with questions; premiere struggling with dialogue
+- sundberg_arthur_5: both f_script and Premiere failed. Will run with large model for two speakers (pending)
 
 ## Never Processed
 
@@ -72,6 +73,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - morris_mabell_1
 - wicks_grace_2 and wicks_grace_1
 - sundberg_arthur_2
+- sweeney_nellie_1
 
 ## Incorrect Interviewer in Metadata
 
