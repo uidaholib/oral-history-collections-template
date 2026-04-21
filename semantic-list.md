@@ -67,6 +67,7 @@
 - Kamiah  
 - Kendrick  
 - Kuna
+- Laclede
 - Lapwai reservation
 - Lewiston
 - Linville
@@ -79,6 +80,7 @@
 - Parma
 - Payette Lake
 - Peck
+- Pembine
 - Pocatello
 - Pomeroy
 - Potlatch  
@@ -88,6 +90,7 @@
 - Riparia
 - Rexburg
 - Ritzville, WA
+- Rosalia, WA
 - Saint Maries
 - Sacheen Lake
 - Slabtown
