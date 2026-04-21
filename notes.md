@@ -66,14 +66,16 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 ## Missing Audio
 
-- wahl_tomandelizabeth_3 and wahl_tomandelizabeth_2
+- wahl_tomandelizabeth_3 
+- wahl_tomandelizabeth_2
 - vine_rannie_1
-- martin_roy_1+2
-- milbert_frank_1+2
-- morris_mabell_1
-- wicks_grace_2 and wicks_grace_1
+- wicks_grace_2
+- wicks_grace_1
 - sundberg_arthur_2
 - sweeney_nellie_1
+- martin_roy_1+2 (but correctly formatted)
+- milbert_frank_1+2 (but correctly formatted)
+- morris_mabell_1 (but correctly formatted)
 
 ## Incorrect Interviewer in Metadata
 
