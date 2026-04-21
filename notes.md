@@ -62,7 +62,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 - demus_gus_3: mk processed
 - gilder_glenandagnes_7: mk processed. a baby babbling in background that confuses the transcript
-- sundberg_arthur_2
 
 ## Missing Audio
 
@@ -72,6 +71,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - milbert_frank_1+2
 - morris_mabell_1
 - wicks_grace_2 and wicks_grace_1
+- sundberg_arthur_2
 
 ## Incorrect Interviewer in Metadata
 
