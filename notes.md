@@ -93,6 +93,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - lemarr_may_2 redirects to justice_lena_2
 - murphy_danandjoemaloney_1 is a copy of maloney_joe_1
 - platt_kenneth_1 bypasses to hickman_william_1
+- sundell_theodore_1 redirects to asplund_ida_1
 
 ## Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
