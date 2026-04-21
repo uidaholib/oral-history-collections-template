@@ -19,6 +19,7 @@
 - Miller Boy  
 - Moonshine  
 - Mumble-Pig
+- Pirating
 - Psychiana
 - Oddfellows
 - QAE Club
