@@ -62,7 +62,7 @@
 - Hayden
 - Helmer
 - Hoodoo
-- Hoquiam
+- Hoquiam, WA
 - Juliaetta  
 - Kamiah  
 - Kendrick  
@@ -83,7 +83,7 @@
 - Pomeroy
 - Potlatch  
 - Princeton
-- Pullman
+- Pullman, WA
 - Ridenbaugh Canal
 - Riparia
 - Rexburg
@@ -92,10 +92,11 @@
 - Sacheen Lake
 - Slabtown
 - Southwick
-- Spokane
+- Spokane, WA
+- Toppenish, WA
 - Troy
-- Walla Walla
-- Wenatchee
+- Walla Walla, WA
+- Wenatchee, WA
 - Whitmore School
 
 ## Geographic / Cultural additions

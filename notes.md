@@ -93,6 +93,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 ## Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
+- William (Michigan Bill) Stowell: likely all of the recordings
 
 ## Kind of incredible
 
