@@ -62,6 +62,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 - demus_gus_3: mk processed
 - gilder_glenandagnes_7: mk processed. a baby babbling in background that confuses the transcript
+- sundberg_arthur_2
 
 ## Missing Audio
 
