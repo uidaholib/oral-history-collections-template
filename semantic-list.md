@@ -11,7 +11,7 @@
 - Dialogues  
 - Dray  
 - Foster School of Healing
-- Flunkeying  
+- Flunkeying/ Flunkies
 - Gyppo  
 - Jungle / Jungling-Up  
 - Kiwanis Club
@@ -65,6 +65,7 @@
 - Juliaetta  
 - Kamiah  
 - Kendrick  
+- Kuna
 - Lapwai reservation
 - Lewiston
 - Linville
@@ -94,6 +95,7 @@
 - Troy
 - Walla Walla
 - Wenatchee
+- Whitmore School
 
 ## Geographic / Cultural additions
 
