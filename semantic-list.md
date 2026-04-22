@@ -74,6 +74,7 @@
 - Lewiston
 - Linville
 - Lochsa River
+- Micah Mountain
 - Mizpah Mine
 - Nora
 - Okanagan
