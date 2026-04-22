@@ -93,5 +93,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 ## Model notes
 
 - There does appear to be innocuous hallucination that is occurring with only the large-V3 Whisper model. The small.en model hallucinations are much less frequent and much more obvious. The large model will improvise multiple sentences at the beginning of a passage and then return to the actual script seamlessly.
+- The medium.en model on script_c didn't contain any hallucination and appears to be the most accurate with diarization without a heuristic, although it was only around 75% accurate. Still, less labor intensive to resolve than script_e
 
 
