@@ -41,9 +41,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - wicks_grace_1
 - sundberg_arthur_2
 - sweeney_nellie_1
-- martin_roy_1+2 (but correctly formatted)
-- milbert_frank_1+2 (but correctly formatted)
-- morris_mabell_1 (but correctly formatted)
 
 ## Incorrect Interviewer in Metadata
 
