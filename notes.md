@@ -33,7 +33,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - utt_emmettandanna_5: diarization breakdown with questions; premiere struggling with dialogue. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
 - utt_emmettandanna_4: diarization breakdown with questions; premiere struggling with dialogue. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
 - utt_emmettandanna_1 - diarization breakdown with questions; premiere struggling with dialogue. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
-- thomason_oscarandanna_2: diarization breakdown with questions; premiere struggling with dialogue
 - sundberg_arthur_5: both f_script and Premiere failed. Will run with large model for two speakers (pending). -- attempted with script_c medium model and still faulty in diarization -- try with B?
 
 ## Missing Audio
