@@ -25,44 +25,17 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 
 perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/platz_ima_1.csv
 
-## Diarization Trouble / Hallucination / Needs Reprocessing
-
-- adair_ione_3: diarization trouble -- attributing Ione Adair to Sam - mk reprocessed
-- albright_lora_2: diarization breaks down about an hour in - mk reprocessed
-- brocke_frank_3: hallucination - mk reprocessed
-- wurman_mamie_1: redirecting to lynd_mary_1
-- daniels_eva_1: needs to be re-processed - mk reprocessed
-- noticing frequent diarization confusion in second half of transcripts:
-- fry_frances_1: diarization breaks down around 58 - mk reprocessed
-- glenn_royandmabel_1: Diarization issues - mk reprocessed
-- goff_abe_2: Diarization issues - mk reprocessed
-- gorman_madeleine_1: diarization breakdown at 48 - mk reprocessed
-- otness_lillian_2: breaks down around the hour - mk reprocessed
-- sherman_theodore_2 - a little diarization trouble? Not a very long recording and may be easier to manually adjust rather than reprocess. - mk manually adjusted
-- smith_nellie_5: skips between 2:12:57-2:15:58 -- no follow-up needed -- just a note
-
-
 ## Reprocess with new script
 
-- albright_lora_1. aw - script c and d both failed - try again with large model with script_d (pending)
-- bacca_jamesandamelia_1: diarization problems between two interviewees; premiere struggling with dialogue. aw reprocessed with script_c and copy edited.
 - brocke_frank_4: diarization problems around 20; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
 - clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending - run with four speakers)
-- waldron_kate_2: interviewee asking questions, causing diarization confusion; premiere over-parses. aw - reprocessed with script_c and copy edited.
-- fleener_dora_1: diarization breaks down around 26; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending)
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
 - utt_emmettandanna_5: diarization breakdown with questions; premiere struggling with dialogue. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
 - utt_emmettandanna_4: diarization breakdown with questions; premiere struggling with dialogue. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
 - utt_emmettandanna_1 - diarization breakdown with questions; premiere struggling with dialogue. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers)
-- smith_nellie_2: Hallucination; premiere hallucinating a different language. aw reprocessed with large model script d and copy edited.
 - thomason_oscarandanna_1: diarization breakdown with questions; premiere struggling with dialogue
 - thomason_oscarandanna_2: diarization breakdown with questions; premiere struggling with dialogue
 - sundberg_arthur_5: both f_script and Premiere failed. Will run with large model for two speakers (pending)
-
-## Never Processed
-
-- demus_gus_3: mk processed
-- gilder_glenandagnes_7: mk processed. a baby babbling in background that confuses the transcript
 
 ## Missing Audio
 
@@ -103,10 +76,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - utt_emmettandanna_5 00:18:36; 00:52:12
 - William (Michigan Bill) Stowell: likely all of the recordings
 
-## Kind of incredible
-
-- guilfoy_leo_2
-
 ## Translation notes
 
 - jackson_alice_1: Nez Perce words that could use another look
@@ -125,5 +94,9 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 - The tagging elements can be a dropdown menu on the left of the Browse page rather than a tagging data visualization page
 - The photographs of the interviewees should expand in a light box on selection
+
+## Model notes
+
+- There does appear to be innocuous hallucination that is occurring with only the large-V3 Whisper model. The small.en model hallucinations are much less frequent and much more obvious. The large model will improvise multiple sentences at the beginning of a passage and then return to the actual script seamlessly.
 
 
