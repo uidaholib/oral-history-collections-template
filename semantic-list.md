@@ -98,6 +98,7 @@
 - Sacheen Lake
 - Slabtown
 - Snoqualmie Falls, WA
+- Spangle, WA
 - Southwick
 - Spokane, WA
 - Toppenish, WA
