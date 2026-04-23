@@ -30,6 +30,7 @@
 - Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
 - Rinky Dinks
 - Romani  
+- Rosauers
 - Shivaree  
 - Skip to My Lou  
 - Smudge Fire
@@ -49,6 +50,7 @@
 - Bluestem, WA
 - Bovill
 - Cameron
+- Chatcolet Lake 
 - Cheney
 - Clarkia
 - Cloquet, Minnesota
