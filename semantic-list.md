@@ -34,6 +34,7 @@
 - Shivaree  
 - Skip to My Lou  
 - Smudge Fire
+- Soroptimist Club
 - Swampers  
 - Thrashing  
 - Three Deep
@@ -56,8 +57,10 @@
 - Cloquet, Minnesota
 - Coeur d'Alene
 - Craigmont
+- Cranbrook, BC
 - Crumarine Gulch
 - Deary
+- Dworshak Dam
 - Ellensburg
 - Elk River
 - Fernwood
@@ -77,6 +80,7 @@
 - Lewiston
 - Linville
 - Lochsa River
+- Lolo Pass, MO
 - Micah Mountain
 - Mizpah Mine
 - Nora
