@@ -101,6 +101,7 @@
 - Rexburg
 - Ritzville, WA
 - Rosalia, WA
+- Rosenstein Store
 - Saint Maries
 - Sacheen Lake
 - Slabtown

@@ -36,12 +36,9 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 ## Missing Audio
 
 - wahl_tomandelizabeth_3 
-- wahl_tomandelizabeth_2
-- vine_rannie_1
 - wicks_grace_2
 - wicks_grace_1
 - sundberg_arthur_2
-- sweeney_nellie_1
 
 ## Incorrect Interviewer in Metadata
 
@@ -68,6 +65,9 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 ## Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
 - William (Michigan Bill) Stowell: likely all of the recordings
+- vine_rannie_1:
+    "Rannie (Ma) Johnson Vine: Well, they tried to pull that here too. And of course here... There were so many foreigners, Austrians and Greeks and all that class of people. And Swedes. Well, don't record this.
+    Sam Schrager: I'll tell you, if I used any of this, I wouldn't use your name in connection with it at all."
 
 ## Translation notes
 
