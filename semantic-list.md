@@ -60,11 +60,13 @@
 - Cranbrook, BC
 - Crumarine Gulch
 - Deary
+- Dogger
 - Dworshak Dam
 - Ellensburg
 - Elk River
 - Fernwood
 - Fix Ridge
+- Gang Saw
 - Ghormley Park
 - Hatter Creek
 - Hayden
