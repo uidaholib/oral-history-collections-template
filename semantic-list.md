@@ -30,8 +30,9 @@
 - Rebekah
 - Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
 - Rinky Dinks
-- Romani  
+- Romani
 - Rosauers
+- Rutledge Lumber and Manufacturing Company
 - Shivaree  
 - Skip to My Lou  
 - Smudge Fire
@@ -46,10 +47,12 @@
 
 ## Places
 
+- Alsea, OR
 - Asotin
 - Aspendale
 - Beals Butte
 - Bluestem, WA
+- Bonanza
 - Bovill
 - Cameron
 - Chatcolet Lake 
@@ -60,6 +63,7 @@
 - Craigmont
 - Cranbrook, BC
 - Crumarine Gulch
+- Cusick
 - Deary
 - Dogger
 - Dworshak Dam
@@ -85,12 +89,14 @@
 - Linville
 - Lochsa River
 - Lolo Pass, MO
+- Metaline Falls
 - Micah Mountain
 - Mizpah Mine
 - Nora
 - Okanagan
 - Omak  
 - Onaway
+- Oviatt Meadows
 - Parma
 - Payette Lake
 - Peck
@@ -108,6 +114,7 @@
 - Rosenstein Store
 - Saint Maries
 - Sacheen Lake
+- Scoville
 - Slabtown
 - Snoqualmie Falls, WA
 - Spangle, WA
@@ -123,3 +130,11 @@
 ## Geographic / Cultural additions
 
 - Bohunk for Hungarian
+
+## Nicknames
+
+- Wood 'em Up George
+
+## Timber
+
+- Shade Crew (?) 
