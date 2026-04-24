@@ -22,9 +22,10 @@
 - Moonshine  
 - Mumble-Pig
 - Piecake-a-Mile!
+- Pinochle
 - Pirating
 - Psychiana
-- Oddfellows
+- Odd Fellows Hall
 - QAE Club
 - Quadrilles  
 - Rebekah
@@ -53,6 +54,7 @@
 - Beals Butte
 - Bluestem, WA
 - Bonanza
+- Buzzard Roost
 - Bovill
 - Cameron
 - Chatcolet Lake 
@@ -63,6 +65,7 @@
 - Craigmont
 - Cranbrook, BC
 - Crumarine Gulch
+- Culdesac
 - Cusick
 - Deary
 - Dogger
@@ -84,6 +87,7 @@
 - Kendrick  
 - Kuna
 - Laclede
+- Lake Waha
 - Lapwai reservation
 - Lewiston
 - Linville
@@ -134,6 +138,7 @@
 ## Nicknames
 
 - Wood 'em Up George
+- Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 
 ## Timber
 
