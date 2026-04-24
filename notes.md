@@ -32,10 +32,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
 - adair_ione_4: diarization problems at the hour -- rerun with c medium
 
-## Missing Audio
-
-- wahl_tomandelizabeth_3
-
 ## Incorrect Interviewer in Metadata
 
 - glenn_bruceandagnes_1: marked as Sam but it is Laura
