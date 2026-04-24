@@ -34,8 +34,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 ## Missing Audio
 
-- wahl_tomandelizabeth_3 
-- wicks_grace_2
+- wahl_tomandelizabeth_3
 
 ## Incorrect Interviewer in Metadata
 
