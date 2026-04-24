@@ -17,6 +17,7 @@
 - Jungle / Jungling-Up  
 - Kiwanis Club
 - Klu Klux Klan
+- McGoldrick Lumber Company
 - Miller Boy  
 - Moonshine  
 - Mumble-Pig
@@ -68,6 +69,7 @@
 - Fix Ridge
 - Gang Saw
 - Ghormley Park
+- Grangeville
 - Hatter Creek
 - Hayden
 - Helmer
@@ -116,6 +118,7 @@
 - Walla Walla, WA
 - Wenatchee, WA
 - Whitmore School
+- Yreka Mining District
 
 ## Geographic / Cultural additions
 
