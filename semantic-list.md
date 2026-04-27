@@ -148,3 +148,8 @@
 ## Timber
 
 - Shade Crew (?) 
+
+## People
+
+- Malcher Anderson
+- Naugle (superintendent)
