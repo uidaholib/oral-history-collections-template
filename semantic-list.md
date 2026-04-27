@@ -96,9 +96,11 @@
 - Linville
 - Lochsa River
 - Lolo Pass, MO
+- Luella Mine
 - Metaline Falls
 - Micah Mountain
 - Mizpah Mine
+- Muscovite Mine
 - Nora
 - Okanagan
 - Omak  
