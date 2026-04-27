@@ -34,7 +34,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 ## Incorrect Interviewer in Metadata
 
 - glenn_bruceandagnes_1: marked as Sam but it is Laura
-- baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is Laura
+- baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is an unknown interviewer
 - hardt_verna_1: appears to just be a dictated tape -- no interviewer
 - johanson_nellie_1: Interviewer listed as Rachel Foxwell but it is Rachel Foxman -- https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_v07-n4.pdf
 - presby_curtis_1: marked as Sam but it is Laura
