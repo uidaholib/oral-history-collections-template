@@ -39,6 +39,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - hardt_verna_1: appears to just be a dictated tape -- no interviewer
 - johanson_nellie_1: Interviewer listed as Rachel Foxwell but it is Rachel Foxman -- https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_v07-n4.pdf
 - presby_curtis_1: marked as Sam but it is Laura
+- whitman_bess_1: marked as Sam but is an unknown interviewer
 
 ## Included in _transcripts but not CSV
 
