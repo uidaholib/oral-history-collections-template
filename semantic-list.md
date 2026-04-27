@@ -5,7 +5,9 @@
 - Blister Rust
 - Bullgang
 - Camas  
+- Catface
 - Chautauquas  
+- Check-Scaler
 - Cous  
 - Curses
 - Debates  
