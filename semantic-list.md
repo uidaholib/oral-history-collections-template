@@ -79,6 +79,7 @@
 - Dworshak Dam
 - Ellensburg
 - Elk River
+- Fairview
 - Fernwood
 - Fix Ridge
 - Gang Saw
