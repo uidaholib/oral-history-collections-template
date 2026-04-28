@@ -155,3 +155,5 @@
 
 - Malcher Anderson
 - Naugle (superintendent)
+- Palouser (cook)
+- Powderpuff Johnny (Hook Man)
