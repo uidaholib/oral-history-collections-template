@@ -157,3 +157,4 @@
 - Naugle (superintendent)
 - Palouser (cook)
 - Powderpuff Johnny (Hook Man)
+- Mox-Mox (Indigenous person)
