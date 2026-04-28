@@ -12,6 +12,7 @@
 - Curses
 - Debates  
 - Dialogues  
+- Do-si-do
 - Dray  
 - Foster School of Healing
 - Flunkeying/ Flunkies
@@ -27,6 +28,7 @@
 - Pinochle
 - Pirating
 - Psychiana
+- Pump Pump Pullway
 - Odd Fellows Hall
 - QAE Club
 - Quadrilles  

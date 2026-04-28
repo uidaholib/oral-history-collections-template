@@ -28,7 +28,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 ## Reprocess with new script
 
 - brocke_frank_4: diarization problems around 20; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
-- clyde_lola_4: diarization breaks down around 33 minutes; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending - run with four speakers) -- attempted with script_c medium model and still faulty in diarization -- try with B?
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
 - wilkins_kenneth_1: premiere over-parses; diarization problems and missing speech from whisper script -- aw will try again with script_c medium
 
