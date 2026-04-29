@@ -60,7 +60,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - vine_rannie_1:
     "Rannie (Ma) Johnson Vine: Well, they tried to pull that here too. And of course here... There were so many foreigners, Austrians and Greeks and all that class of people. And Swedes. Well, don't record this.
     Sam Schrager: I'll tell you, if I used any of this, I wouldn't use your name in connection with it at all."
-- wells_elmer_2: 00:18:18
+- wells_elmer_2: 00:18:18, 00:01:00
 
 ## Translation notes
 
