@@ -27,7 +27,6 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 
 ## Reprocess with new script
 
-- brocke_frank_4: diarization problems around 20; premiere over-parses. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
 - wilkins_kenneth_1: premiere over-parses; diarization problems and missing speech from whisper script -- aw will try again with script_c medium
 
@@ -61,6 +60,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
     "Rannie (Ma) Johnson Vine: Well, they tried to pull that here too. And of course here... There were so many foreigners, Austrians and Greeks and all that class of people. And Swedes. Well, don't record this.
     Sam Schrager: I'll tell you, if I used any of this, I wouldn't use your name in connection with it at all."
 - wells_elmer_2: 00:18:18, 00:01:00
+- brocke_frank_4
 
 ## Translation notes
 

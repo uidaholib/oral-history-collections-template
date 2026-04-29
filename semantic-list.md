@@ -24,7 +24,7 @@
 - McGoldrick Lumber Company
 - Miller Boy  
 - Moonshine  
-- Mumble-Pig
+- Mumblety-Peg
 - Piecake-a-Mile!
 - Pinochle
 - Pirating
@@ -40,6 +40,7 @@
 - Rosauers
 - Roustabout
 - Rutledge Lumber and Manufacturing Company
+- Shinny
 - Shivaree  
 - Skip to My Lou  
 - Smudge Fire
@@ -63,6 +64,7 @@
 - Bonanza
 - Buzzard Roost
 - Bovill
+- Bremerton, WA
 - Cameron
 - Chatcolet Lake 
 - Cheney
@@ -166,3 +168,4 @@
 - Powderpuff Johnny (Hook Man)
 - Mox-Mox (Indigenous person)
 - Charles Bolles (Moscow Druggist)
+- Ollie Bowman (banker)
