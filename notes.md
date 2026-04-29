@@ -75,7 +75,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - clyde_lola_1: repeats section of interview at 01:32:06:08, original transcript shows that section of interview is missing
 - ruberg_hilda_1: plays the same audio over again at the hour mark
 - halen_alben_2: Starts part way through the interview. Original transcript shows that section of the iinterview is missing
-- waterman_merton_1: Audio repeats at 30:27:15
+- waterman_merton_1: Audio repeats at 00:30:35
 
 ## Design Notes
 
