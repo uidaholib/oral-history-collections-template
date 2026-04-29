@@ -9,6 +9,7 @@
 - Chautauquas  
 - Check-Scaler
 - Cous  
+- Coxey's Army
 - Curses
 - Debates  
 - Dialogues  
