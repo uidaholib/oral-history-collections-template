@@ -93,6 +93,7 @@
 - Juliaetta  
 - Kamiah  
 - Kendrick  
+- Kibbie Dome
 - Kuna
 - Laclede
 - Lake Waha
@@ -111,6 +112,7 @@
 - Omak  
 - Onaway
 - Oviatt Meadows
+- Owyhee Mountains
 - Parma
 - Payette Lake
 - Peck
@@ -138,6 +140,7 @@
 - Troy
 - Walla Walla, WA
 - Wenatchee, WA
+- Weiser
 - Whitmore School
 - Yreka Mining District
 
@@ -161,3 +164,4 @@
 - Palouser (cook)
 - Powderpuff Johnny (Hook Man)
 - Mox-Mox (Indigenous person)
+- Charles Bolles (Moscow Druggist)
