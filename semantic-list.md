@@ -12,9 +12,10 @@
 - Coxey's Army
 - Curses
 - Debates  
+- Derrick Team - "They pulled in the headed grain from the stack"
 - Dialogues  
 - Do-si-do
-- Dray  
+- Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
 - Foster School of Healing
 - Flunkeying/ Flunkies
 - Gyppo  
@@ -38,6 +39,7 @@
 - Rinky Dinks
 - Romani
 - Rosauers
+- Roughlock
 - Roustabout
 - Rutledge Lumber and Manufacturing Company
 - Shinny
