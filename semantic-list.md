@@ -22,6 +22,7 @@
 - Kiwanis Club
 - Klu Klux Klan
 - Literaries
+- Maccabee Lodge
 - McGoldrick Lumber Company
 - Miller Boy  
 - Moonshine  
@@ -175,3 +176,4 @@
 - Ollie Bowman (banker)
 - Shorty Justice (logging cook)
 - Sam Piwash
+- Shefflins
