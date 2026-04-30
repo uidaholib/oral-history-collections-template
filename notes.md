@@ -63,7 +63,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - brocke_frank_4
 - utt_emmettandanna_4: 01:31:43 (not totally clear)
    Sam Schrager: Huh. Well, I wouldn't want you to use these, but what was the matter? 
-- utt_emmettandanna_1: 00:57:39 - 00:58:42
+- utt_emmettandanna_1: 00:57:39, 00:58:42
 
 ## Translation notes
 
