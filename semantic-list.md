@@ -1,6 +1,5 @@
 ## Semantic List
-
-- A Literary / Literaries  
+  
 - Basket Socials
 - Blister Rust
 - Bullgang
@@ -22,6 +21,7 @@
 - Jungle / Jungling-Up  
 - Kiwanis Club
 - Klu Klux Klan
+- Literaries
 - McGoldrick Lumber Company
 - Miller Boy  
 - Moonshine  
@@ -84,6 +84,7 @@
 - Dworshak Dam
 - Ellensburg
 - Elk River
+- Emida
 - Fairview
 - Fernwood
 - Fix Ridge
@@ -147,6 +148,7 @@
 - Wenatchee, WA
 - Weiser
 - Whitmore School
+- Woodfell
 - Yreka Mining District
 
 ## Geographic / Cultural additions
