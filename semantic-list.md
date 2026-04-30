@@ -60,6 +60,7 @@
 ## Places
 
 - Alsea, OR
+- American Ridge
 - Asotin
 - Aspendale
 - Beals Butte
