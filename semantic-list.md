@@ -169,3 +169,4 @@
 - Mox-Mox (Indigenous person)
 - Charles Bolles (Moscow Druggist)
 - Ollie Bowman (banker)
+- Shorty Justice (logging cook)
