@@ -170,3 +170,4 @@
 - Charles Bolles (Moscow Druggist)
 - Ollie Bowman (banker)
 - Shorty Justice (logging cook)
+- Sam Piwash
