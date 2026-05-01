@@ -76,6 +76,7 @@
 - Chatcolet Lake 
 - Cheney
 - Clarkia
+- Clarksville
 - Cloquet, Minnesota
 - Coeur d'Alene
 - Corral Creek
