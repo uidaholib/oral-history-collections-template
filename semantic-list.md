@@ -88,6 +88,7 @@
 - Cusick
 - Deary
 - Dogger
+- Driscoll Ridge
 - Dworshak Dam
 - Ellensburg
 - Elk River
@@ -105,8 +106,9 @@
 - Hoquiam, WA
 - Juliaetta  
 - Kamiah  
-- Kendrick  
+- Kendrick
 - Kibbie Dome
+- Kooskia
 - Kuna
 - Laclede
 - Lake Waha
