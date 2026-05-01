@@ -19,6 +19,7 @@
 - Flunkeying/ Flunkies
 - Gyppo  
 - Jungle / Jungling-Up  
+- Kitchen Sweats
 - Kiwanis Club
 - Klu Klux Klan
 - Literaries
@@ -64,8 +65,10 @@
 - Asotin
 - Aspendale
 - Beals Butte
+- Bear Creek
 - Bluestem, WA
 - Bonanza
+- Bovard
 - Buzzard Roost
 - Bovill
 - Bremerton, WA
