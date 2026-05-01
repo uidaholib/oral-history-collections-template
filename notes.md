@@ -74,6 +74,7 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
 - utt_emmettandanna_4: 01:31:43 (not totally clear)
    Sam Schrager: Huh. Well, I wouldn't want you to use these, but what was the matter? 
 - utt_emmettandanna_1: 00:57:39, 00:58:42
+- torgerson_george_1: 00:52:39, 00:53:02
 
 ### Translation notes
 
