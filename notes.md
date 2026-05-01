@@ -1,5 +1,7 @@
 ## Processing Notes
 
+### Fixes
+
 - To remove millisecond from Premiere transcripts: in bash -- sed -i '' 's/\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\):[0-9]\{2\}/\1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/flodin_elmer_2.csv (select CSV that needs adjusting and choose `copy path` and paste in the last section of the command)
 
 - To switch columns C and D: 
@@ -25,12 +27,20 @@ csv.writer(open(path, 'w', newline='')).writerows(clean)
 
 perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/platz_ima_1.csv
 
-## Reprocess with new script
+- To change speaker names for specific sections:
+
+awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {$1="Helena Cartwright Carlson"} 1' \
+  "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/carlson_helena_2.csv" > \
+  "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" && \
+  mv "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" \
+     "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/carlson_helena_2.csv"
+
+### Reprocess with new script
 
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
 - wilkins_kenneth_1: premiere over-parses; diarization problems and missing speech from whisper script -- aw will try again with script_c medium
 
-## Incorrect Interviewer in Metadata
+### Incorrect Interviewer in Metadata
 
 - glenn_bruceandagnes_1: marked as Sam but it is Laura
 - baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is an unknown interviewer
@@ -39,12 +49,12 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - presby_curtis_1: marked as Sam but it is Laura
 - whitman_bess_1: marked as Sam but is an unknown interviewer
 
-## Included in _transcripts but not CSV
+### Included in _transcripts but not CSV
 
 - byers_fannie_1: is there a reason this is not included in current CSV?
 - lynd_mary_1
 
-## Redundant Transcripts
+### Redundant Transcripts
 
 - cornelison_bernadine_1-cornelison_bernadine_5 redirects to adair_ione_1-adair_ione_5, which are already replaced
 - wurman_mamie is redirected to lynd_mary_1
@@ -53,7 +63,7 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - platt_kenneth_1 bypasses to hickman_william_1
 - sundell_theodore_1 redirects to asplund_ida_1
 
-## Sensitive Material
+### Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
 - William (Michigan Bill) Stowell: likely all of the recordings
 - vine_rannie_1:
@@ -65,11 +75,11 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
    Sam Schrager: Huh. Well, I wouldn't want you to use these, but what was the matter? 
 - utt_emmettandanna_1: 00:57:39, 00:58:42
 
-## Translation notes
+### Translation notes
 
 - jackson_alice_1: Nez Perce words that could use another look
 
-## Misc.
+### Misc.
 
 - lawrence_floydandnola_2: Same audio seems to repeat from an hour into the recording. Also, a ton of cross-talk.
 - buchanan_george_1: listed as transcript only but its just an index
@@ -80,12 +90,12 @@ perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/o
 - halen_alben_2: Starts part way through the interview. Original transcript shows that section of the iinterview is missing
 - waterman_merton_1: Audio repeats at 00:30:35
 
-## Design Notes
+### Design Notes
 
 - The tagging elements can be a dropdown menu on the left of the Browse page rather than a tagging data visualization page
 - The photographs of the interviewees should expand in a light box on selection
 
-## Model notes
+### Model notes
 
 - There does appear to be innocuous hallucination that is occurring with only the large-V3 Whisper model. The small.en model hallucinations are much less frequent and much more obvious. The large model will improvise multiple sentences at the beginning of a passage and then return to the actual script seamlessly.
 - The medium.en model on script_c didn't contain any hallucination and appears to be the most accurate with diarization without a heuristic, although it was only around 75% accurate. Still, less labor intensive to resolve than script_e

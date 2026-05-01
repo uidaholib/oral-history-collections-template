@@ -17,6 +17,7 @@
 - Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
 - Foster School of Healing
 - Flunkeying/ Flunkies
+- Guess the Skull
 - Gyppo  
 - Jungle / Jungling-Up  
 - Kitchen Sweats
@@ -28,6 +29,7 @@
 - Miller Boy  
 - Moonshine  
 - Mumblety-Peg
+- Pie Social
 - Piecake-a-Mile!
 - Pinochle
 - Pirating
