@@ -69,8 +69,9 @@
 - Bluestem, WA
 - Bonanza
 - Bovard
-- Buzzard Roost
 - Bovill
+- Burnt Ridge
+- Buzzard Roost
 - Bremerton, WA
 - Cameron
 - Chatcolet Lake 
