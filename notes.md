@@ -78,6 +78,7 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
 - thomason_oscarandanna_2: 0:50:59, 0:51:05
 - thomason_oscarandanna_1: 2:23:54
 - sundberg_arthur_3: 1:43:36; 2:46:40
+- stowell_william_3: 1:11:32; 1:18:30; 1:43:20; 2:18:50; 2:45:05; 2:45:11
 
 ### Translation notes
 
