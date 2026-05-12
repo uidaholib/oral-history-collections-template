@@ -79,6 +79,7 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
 - thomason_oscarandanna_1: 2:23:54
 - sundberg_arthur_3: 1:43:36; 2:46:40
 - stowell_william_3: 1:11:32; 1:18:30; 1:43:20; 2:18:50; 2:45:05; 2:45:11
+- stowell_william_1: 0:53:03
 
 ### Translation notes
 
@@ -94,6 +95,7 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
 - ruberg_hilda_1: plays the same audio over again at the hour mark
 - halen_alben_2: Starts part way through the interview. Original transcript shows that section of the iinterview is missing
 - waterman_merton_1: Audio repeats at 00:30:35
+- stowell_william_1 00:00:00 - 0:22:26 and stowell_william_2 00:00:00 - 00:22:40 are the same audio. Legacy transcripts are semi-swapped: transcript for stowell_william_2 is accurate to audio for stowell_william_1 until 0:54:11. Then, the second part of legacy transcript from stowell_william_ 1 is accurate (beginning at "What that first one was like, they had on the river?" in the legacy.) This second part of the audio is the same as the audio for stowell_william_2, starting at 0:45:43
 
 ### Design Notes
 
