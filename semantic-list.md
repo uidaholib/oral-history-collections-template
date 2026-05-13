@@ -152,6 +152,7 @@
 - Saint Maries
 - Sacheen Lake
 - Scoville
+- Selway–Bitterroot Wilderness
 - Slabtown
 - Snoqualmie Falls, WA
 - Spangle, WA
@@ -191,3 +192,4 @@
 - Shorty Justice (logging cook)
 - Sam Piwash
 - Shefflins
+- Missy Lee (Chinese Immigrant)
