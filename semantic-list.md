@@ -22,6 +22,7 @@
 - Flunkeying/ Flunkies
 - Guess the Skull
 - Gyppo  
+- Hurdy-Gurdy Girls
 - Jungle / Jungling-Up  
 - Kitchen Sweats
 - Kiwanis Club
