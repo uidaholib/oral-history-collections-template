@@ -193,3 +193,4 @@
 - Sam Piwash
 - Shefflins
 - Missy Lee (Chinese Immigrant)
+- Anna Webster Litle (Dean of Women)
