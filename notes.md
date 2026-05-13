@@ -94,7 +94,7 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
 - otness_lillian_1 recording turns into oslund_anna_1 recording at the hour mark: "I never did know what it was particularly that caused him to, to change. | There are the thoughts about this country, how great it is."
 - clyde_lola_1: repeats section of interview at 01:32:06:08, original transcript shows that section of interview is missing
 - ruberg_hilda_1: plays the same audio over again at the hour mark
-- halen_alben_2: Starts part way through the interview. Original transcript shows that section of the iinterview is missing
+- halen_alben_2: Starts part way through the interview. Original transcript shows that section of the interview is missing
 - waterman_merton_1: Audio repeats at 00:30:35
 - stowell_william_1 00:00:00 - 0:22:26 and stowell_william_2 00:00:00 - 00:22:40 are the same audio. Legacy transcripts are semi-swapped: transcript for stowell_william_2 is accurate to audio for stowell_william_1 until 0:54:11. Then, the second part of legacy transcript from stowell_william_ 1 is accurate (beginning at "What that first one was like, they had on the river?" in the legacy.) This second part of the audio is the same as the audio for stowell_william_2, starting at 0:45:43
 
@@ -107,5 +107,3 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
 
 - There does appear to be innocuous hallucination that is occurring with only the large-V3 Whisper model. The small.en model hallucinations are much less frequent and much more obvious. The large model will improvise multiple sentences at the beginning of a passage and then return to the actual script seamlessly.
 - The medium.en model on script_c didn't contain any hallucination and appears to be the most accurate with diarization without a heuristic, although it was only around 75% accurate. Still, less labor intensive to resolve than script_e
-
-
