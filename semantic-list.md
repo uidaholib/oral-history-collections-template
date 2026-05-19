@@ -199,3 +199,5 @@
 - Shefflins
 - Missy Lee (Chinese Immigrant)
 - Anna Webster Litle (Dean of Women)
+- Jackson Sundance (Indigenous Rodeo Rider)
+- Rosensteins (shopkeeper)
