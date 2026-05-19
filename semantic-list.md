@@ -72,6 +72,7 @@
 - Aspendale
 - Beals Butte
 - Bear Creek
+- Beartrack Creek
 - Bluestem, WA
 - Bonanza
 - Bovard
