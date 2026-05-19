@@ -1,5 +1,6 @@
 ## Semantic List
   
+- Andersonville Prison
 - Andy Over
 - Basket Socials
 - Blister Rust
@@ -18,7 +19,7 @@
 - Dogging -"Well, on the smaller logs, we had what we called dogs. They'd be chains about that long with a hook. They'd come in, and you'd just take and you'd drive. There's one hook into the log in front, and one into the log back, but it'd be so. They'd be about that far behind, and they'd hook on front and away they'd go. The other logs behind it you had tacked on and followed"
 - Do-si-do
 - Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
-- Foster School of Healing
+- Foster School of Healing (Juliaetta)
 - Flunkeying/ Flunkies
 - Guess the Skull
 - Gyppo  

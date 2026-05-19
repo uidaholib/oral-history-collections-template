@@ -2,7 +2,11 @@
 
 ### Fixes
 
-- To remove millisecond from Premiere transcripts: in bash -- sed -i '' 's/\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\):[0-9]\{2\}/\1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/flodin_elmer_2.csv (select CSV that needs adjusting and choose `copy path` and paste in the last section of the command)
+- To remove millisecond from Premiere transcripts: in bash -- 
+
+sed -i '' 's/\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\):[0-9]\{2\}/\1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/flodin_elmer_2.csv 
+
+(select CSV that needs adjusting and choose `copy path` and paste in the last section of the command)
 
 - To switch columns C and D: 
 
