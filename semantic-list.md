@@ -54,6 +54,7 @@
 - Shinny
 - Shivaree  
 - Skip to My Lou  
+- Skookum
 - Smudge Fire
 - Soroptimist Club
 - Swamping - "getting the logs ready for skidding to the landing"
