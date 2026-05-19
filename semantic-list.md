@@ -104,6 +104,7 @@
 - Fairview
 - Fernwood
 - Fix Ridge
+- Fourmile Creek
 - Gang Saw
 - Ghormley Park
 - Grangeville
@@ -130,6 +131,7 @@
 - Micah Mountain
 - Mizpah Mine
 - Muscovite Mine
+- Nespelem, WA
 - Nora
 - Okanagan
 - Omak  
