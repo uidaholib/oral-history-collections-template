@@ -1,11 +1,36 @@
 
-# Remediation Workflows
+# Remediation Workflow
+
+## Copy Editing Overview
+
+- First, check to see if there are major errors that warrant running the file through another transcription method.
+    - Open the file locally and skip about every 15 minutes
+    - If you encounter major diarization problems, such as transcripts not flagging distinct speakers in the middle of a chunk of dialogue, the transcript may take less time to reprocess than to manually correct -- and you will want to find this out before putting any more work into it!
+    - If this is the case, note the filename of the corrupted transcript in the notes.md in the `reprocess with new script` section.
+- Second, if the transcript looks workable, begin formatting the transcript as needed using any of these processed detailed in the **other workflows** section below.
+    - Remove millisecond from Premiere transcripts
+    - Switch columns C and D (retain but not focus on End Time field if this is a Premiere Transcript)
+    - Remove empty line breaks from CSV (occasional Premiere bug)
+    - Capitalize the first letter in a new row of dialogue (occasional Premiere and Whisper bug)
+    - Change speaker names for specific sections
+- Third, check the spelling in Visual Studio Code.
+    - Look up flagged words. 
+    - Check the semantic-list.md file for people and place names that have already been documented.
+    - If a proper name feels reoccurring, add it to the semantic-list file and right click the word and select `add to user settings` to expand your dictionary.
+    - If you are noticing a fair amount of mis-diarization caused by the interviewee posing questions rhetorically or recounting questions of others, such as "... and then she said, why did you do that?" this is a good time in the workflow to run the **said.py** script on the file.
+- Fourth, listen through the transcript by tabbing through the timestamp field while running the collection on your device locally. This will give you a chance to:
+    - This will give you a chance to correct diarization errors, spelling and, most infrequently, timestamp errors.
+    - **Note**: the goal is to reflect the audio, not correct the audio. Muffled recordings, mumbled words and ambiguous proper names can either be documented by an ellipses or a best guess (as long as the guess is standardized across that transcript).
+    - As you work through note things like incorrect interviewer/interviewee metadata on the items, sensitive material that we may want to flag for researchers and notes about the audio, such as looping or noise issues in the notes.md
+- Fifth, if the script you are working on is overly parsed, you can run the cluster.py on the file, which will condense multiple rows of dialogue from the same speaker into maximum four sentence clusters. 
+
+# Technical Workflows
 
 - If you have a copy of the repo on your local, select the + sign in your terminal to open a new window in bash and select these workflows as needed.
 
 - Copy and Paste these formulas down into a Doc and replace the dummy path for the path of the file you would like to adjust. To find your file's path, right click the transcript file and select `copy path`.
 
-# Python Workflows
+## Python Workflows
 
 - **cluster.py** consolidates rows of dialogue that are labeled as the same speaker into a maximum of four sentences for material that is over-parsed.
 
