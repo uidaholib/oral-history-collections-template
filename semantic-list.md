@@ -104,6 +104,7 @@
 - Ellensburg
 - Elk River
 - Emida
+- Ephrata, WA
 - Fairview
 - Fernwood
 - Fix Ridge
@@ -197,6 +198,7 @@
 - Mox-Mox (Indigenous person)
 - Charles Bolles (Moscow Druggist)
 - Ollie Bowman (banker)
+- Ole Bohman (alt, might need standardizing)
 - Shorty Justice (logging cook)
 - Sam Piwash
 - Shefflins
