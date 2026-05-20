@@ -21,6 +21,7 @@
 - Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
 - Foster School of Healing (Juliaetta)
 - Flunkeying/ Flunkies
+- Flying Dutchman
 - Guess the Skull
 - Gyppo  
 - Hurdy-Gurdy Girls
@@ -68,6 +69,7 @@
 
 ## Places
 
+- Aggipah Mountain
 - Alsea, OR
 - American Ridge
 - Asotin
@@ -163,6 +165,7 @@
 - Spangle, WA
 - Southwick
 - Spokane, WA
+- Stites
 - Toppenish, WA
 - Troy
 - Walla Walla, WA
