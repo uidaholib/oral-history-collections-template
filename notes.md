@@ -1,44 +1,5 @@
 ## Processing Notes
 
-### Fixes
-
-- To remove millisecond from Premiere transcripts: in bash -- 
-
-sed -i '' 's/\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}\):[0-9]\{2\}/\1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/flodin_elmer_2.csv 
-
-(select CSV that needs adjusting and choose `copy path` and paste in the last section of the command)
-
-- To switch columns C and D: 
-
-python3 -c "
-import csv, sys
-rows = list(csv.reader(open('$(echo /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/mckeever_george_1.csv)')))
-out = [[r[0],r[1],r[3],r[2]]+r[4:] if len(r)>3 else r for r in rows]
-csv.writer(open('$(echo /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/mckeever_george_1.csv)','w',newline='')).writerows(out)
-"
-
-- To remove line breaks from CSV:
-
-python3 -c "
-import csv
-path = '/Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/mckeever_george_1.csv'
-rows = list(csv.reader(open(path)))
-clean = [r for r in rows if any(field.strip() for field in r)]
-csv.writer(open(path, 'w', newline='')).writerows(clean)
-"
-
-- To make sure all characters following a quote in the words field is capitalized
-
-perl -i -pe 's/"([a-z])/\"\u$1/g' /Users/aweymouth@uidaho.edu/Documents/GitHub/oral-history-collections-template/_data/transcripts/platz_ima_1.csv
-
-- To change speaker names for specific sections:
-
-awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {$1="Helena Cartwright Carlson"} 1' \
-  "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/carlson_helena_2.csv" > \
-  "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" && \
-  mv "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" \
-     "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/carlson_helena_2.csv"
-
 ### Reprocess with new script
 
 - halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
