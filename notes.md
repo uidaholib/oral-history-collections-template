@@ -6,6 +6,7 @@
 - wilkins_kenneth_1: premiere over-parses; diarization problems and missing speech from whisper script -- aw will try again with script_c medium
 - steffen_kenneth_2: premiere dialogue problems; whisper diarization
 - clark_jandmarie_1: diarization problems
+- smith_nellie_2: hallucination and character corruption. Some diarization problems
 
 ### Incorrect Interviewer in Metadata
 
