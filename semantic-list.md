@@ -28,7 +28,7 @@
 - Jungle / Jungling-Up  
 - Kitchen Sweats
 - Kiwanis Club
-- Klu Klux Klan
+- Ku Klux Klan
 - Literaries
 - Maccabee Lodge
 - McGoldrick Lumber Company
@@ -86,6 +86,7 @@
 - Bremerton, WA
 - Cameron
 - Chatcolet Lake 
+- Chehalis, WA
 - Cheney
 - Clarkia
 - Clarksville
@@ -116,6 +117,7 @@
 - Hayden
 - Helmer
 - Hoodoo
+- Hood River, WA
 - Hoquiam, WA
 - Juliaetta  
 - Kamiah  
@@ -126,6 +128,7 @@
 - Laclede
 - Lake Waha
 - Lapwai reservation
+- Leavenworth, WA
 - Lewiston
 - Linville
 - Lochsa River
@@ -161,6 +164,7 @@
 - Sacheen Lake
 - Scoville
 - Selway–Bitterroot Wilderness
+- Silverton, OR
 - Slabtown
 - Snoqualmie Falls, WA
 - Spangle, WA
