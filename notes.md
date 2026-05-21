@@ -7,6 +7,7 @@
 - steffen_kenneth_2: premiere dialogue problems; whisper diarization
 - clark_jandmarie_1: diarization problems
 - smith_nellie_2: hallucination and character corruption. Some diarization problems
+- denevan_lucille_1: Rerun. Bad diarization.
 
 ### Incorrect Interviewer in Metadata
 
