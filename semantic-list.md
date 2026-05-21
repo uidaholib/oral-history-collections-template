@@ -195,14 +195,14 @@
 
 ## People
 
+- Laird (Logging Supervisor)
 - Malcher Anderson
 - Naugle (superintendent)
 - Palouser (cook)
 - Powderpuff Johnny (Hook Man)
 - Mox-Mox (Indigenous person)
 - Charles Bolles (Moscow Druggist)
-- Ollie Bowman (banker)
-- Ole Bohman (alt, might need standardizing)
+- Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Shorty Justice (logging cook)
 - Sam Piwash
 - Shefflins
