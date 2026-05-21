@@ -19,10 +19,10 @@
     - If a proper name feels reoccurring, add it to the semantic-list file and right click the word and select `add to user settings` to expand your dictionary.
     - If you are noticing a fair amount of mis-diarization caused by the interviewee posing questions rhetorically or recounting questions of others, such as "... and then she said, why did you do that?" this is a good time in the workflow to run the **said.py** script on the file.
 - **Fourth**, listen through the transcript by tabbing through the timestamp field while running the collection on your device locally. This will give you a chance to:
-    - This will give you a chance to correct diarization errors, spelling and, most infrequently, timestamp errors.
+    - This will give you a chance to correct diarization errors and further spelling refinements.
     - **Note**: the goal is to reflect the audio, not correct the audio. Muffled recordings, mumbled words and ambiguous proper names can either be documented by an ellipses or a best guess (as long as the guess is standardized across that transcript).
     - As you work through note things like incorrect interviewer/interviewee metadata on the items, sensitive material that we may want to flag for researchers and notes about the audio, such as looping or noise issues in the notes.md
-- **Fifth**, if the script you are working on is overly parsed, you can run the cluster.py on the file, which will condense multiple rows of dialogue from the same speaker into maximum four sentence clusters. 
+- **Fifth**, if the script you are working on is overly parsed, you can run the **cluster.py** on the file, which will condense multiple rows of dialogue from the same speaker into maximum four sentence clusters. 
 
 # Technical Workflows
 
