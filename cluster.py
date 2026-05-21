@@ -150,7 +150,7 @@ def process_file(path: Path):
     # Write to a temp file alongside the original, then replace atomically
     tmp = path.with_suffix(".tmp")
     try:
-        with tmp.open("w", newline="", encoding="utf-8-sig") as fh:
+        with tmp.open("w", newline="", encoding="utf-8") as fh:
             writer = csv.writer(fh, delimiter=delim)
             writer.writerows(out_rows)
         shutil.move(str(tmp), str(path))
