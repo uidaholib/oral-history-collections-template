@@ -52,6 +52,7 @@
 - steffen_kenneth_1: 01:40:35; 01:52:54
 - carlson_willa_5: 1:16:52
 - showalter_ulysses_2: 1:32:14; 0:21:05
+- shirrod_emma_1: 01:01:30
 ### Translation notes
 
 - jackson_alice_1: Nez Perce words that could use another look
