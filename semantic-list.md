@@ -117,6 +117,7 @@
 - Hatter Creek
 - Hayden
 - Helmer
+- Hog Meadow Creek
 - Hoodoo
 - Hood River, WA
 - Hoquiam, WA
