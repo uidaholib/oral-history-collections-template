@@ -77,6 +77,7 @@
 - Beals Butte
 - Bear Creek
 - Beartrack Creek
+- Benewah County
 - Bluestem, WA
 - Bonanza
 - Bovard
@@ -209,4 +210,4 @@
 - Missy Lee (Chinese Immigrant)
 - Anna Webster Litle (Dean of Women)
 - Jackson Sundance (Indigenous Rodeo Rider)
-- Rosensteins (shopkeeper)
+- Rosenstein's ; Jake Rosenstein (shopkeeper)
