@@ -75,6 +75,7 @@
 - Alsea, OR
 - American Ridge
 - Asotin
+- Ahsahka
 - Aspendale
 - Beals Butte
 - Bear Creek
@@ -156,6 +157,7 @@
 - Pocatello
 - Pomeroy
 - Potlatch  
+- Preston
 - Princeton
 - Pullman, WA
 - Ridenbaugh Canal
@@ -208,6 +210,7 @@
 - Palouser (cook)
 - Powderpuff Johnny (Hook Man)
 - Mox-Mox (Indigenous person)
+- Mox Herzog (Homesteader)
 - Charles Bolles (Moscow Druggist)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
