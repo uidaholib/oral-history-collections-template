@@ -70,6 +70,7 @@
 - stowell_william_1 00:00:00 - 0:22:26 and stowell_william_2 00:00:00 - 00:22:40 are the same audio. Legacy transcripts are semi-swapped: transcript for stowell_william_2 is accurate to audio for stowell_william_1 until 0:54:11. Then, the second part of legacy transcript from stowell_william_ 1 is accurate (beginning at "What that first one was like, they had on the river?" in the legacy.) This second part of the audio is the same as the audio for stowell_william_2, starting at 0:45:43
 - clyde_lola_1 begins looping the same audio at 01:31:01
 - erickson_alfred_1: "hog meadows" in the metadata but actually Hog Meadow
+- Marie Leitch Fisher,1:11:19: Miller-Dervant Co. mentioned
 
 ### Design Notes
 
