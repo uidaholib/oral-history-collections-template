@@ -8,6 +8,7 @@
 - Bullgang
 - Camas  
 - Catface
+- Cayuse (Horse)
 - Chautauquas
 - Check-Scaler
 - Coasting Parties
@@ -176,6 +177,7 @@
 - Stites
 - Toppenish, WA
 - Troy
+- Vollmer (now Troy)
 - Walla Walla, WA
 - Wenatchee, WA
 - Weiser
@@ -198,6 +200,8 @@
 
 ## People
 
+- Cecil Emmet (moonshiner)
+- John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
 - Laird (Logging Supervisor)
 - Malcher Anderson
 - Naugle (superintendent)
@@ -206,7 +210,9 @@
 - Mox-Mox (Indigenous person)
 - Charles Bolles (Moscow Druggist)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
+- Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
 - Shorty Justice (logging cook)
+- Sam McKinn (Moonshiner)
 - Sam Piwash
 - Shefflins
 - Missy Lee (Chinese Immigrant)

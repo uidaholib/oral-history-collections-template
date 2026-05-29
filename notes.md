@@ -9,6 +9,7 @@
 - smith_nellie_2: hallucination and character corruption. Some diarization problems
 - denevan_lucille_1: Rerun. Bad diarization.
 - fleener_dora_2: Rerun. Bad diarization.
+- flodin_elmer_2: Premiere transcription is poor. Rerun with scripts.
 
 ### Incorrect Interviewer in Metadata
 
