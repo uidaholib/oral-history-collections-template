@@ -2,6 +2,7 @@
   
 - Andersonville Prison
 - Andy Over
+- Appaloosa
 - Basket Socials
 - Blister Rust
 - Bullgang
