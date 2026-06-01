@@ -38,8 +38,11 @@
 - utt_emmettandanna_5 00:18:36; 00:52:12
 - William (Michigan Bill) Stowell: likely all of the recordings
 - vine_rannie_1:
+    - 01:28:27
     "Rannie (Ma) Johnson Vine: Well, they tried to pull that here too. And of course here... There were so many foreigners, Austrians and Greeks and all that class of people. And Swedes. Well, don't record this.
     Sam Schrager: I'll tell you, if I used any of this, I wouldn't use your name in connection with it at all."
+    
+- Wahl_timandelizabeth_3: 22:04:26
 - wells_elmer_2: 00:18:18, 00:01:00
 - brocke_frank_4
 - utt_emmettandanna_4: 01:31:43 (not totally clear)
