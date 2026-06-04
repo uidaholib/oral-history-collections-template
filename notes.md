@@ -76,6 +76,7 @@
 - clyde_lola_1 begins looping the same audio at 01:31:01
 - erickson_alfred_1: "hog meadows" in the metadata but actually Hog Meadow
 - Marie Leitch Fisher,1:11:19: Miller-Dervant Co. mentioned
+- utt_emmettandanna transcripts: number in metadata does not match number on html page.
 
 ### Design Notes
 
