@@ -48,7 +48,7 @@
 - utt_emmettandanna_4: 01:31:43 (not totally clear)
    Sam Schrager: Huh. Well, I wouldn't want you to use these, but what was the matter? 
 - utt_emmettandanna_1: 00:57:39, 00:58:42
-- torgerson_george_1: 00:52:39, 00:53:02
+- torgerson_george_1: 00:52:40, 00:52:56, 01:00:16
 - thomason_oscarandanna_2: 0:50:59, 0:51:05
 - thomason_oscarandanna_1: 2:23:54
 - sundberg_arthur_3: 1:43:36; 2:46:40
