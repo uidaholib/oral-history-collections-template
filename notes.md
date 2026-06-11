@@ -59,6 +59,7 @@
 - showalter_ulysses_2: 1:32:14; 0:21:05
 - shirrod_emma_1: 01:01:30
 - sundberg_arthur_3: 02:46:40
+- settle_eugene_5: 1:34:37
 ### Translation notes
 
 - jackson_alice_1: Nez Perce words that could use another look
@@ -92,3 +93,4 @@
 ### Hallucinations
 
 - There was a hallucination towards the end of smith_nellie_2. Fixed.
+- Fixed some minor hallucinations in settle_eugene_5.
