@@ -10,6 +10,7 @@
 - denevan_lucille_1: Rerun. Bad diarization.
 - fleener_dora_2: Rerun. Bad diarization.
 - flodin_elmer_2: Premiere transcription is poor. Rerun with scripts.
+- settle_eugene_4: some diarization problems; skipping sections of dialogue
 
 ### Incorrect Interviewer in Metadata
 
