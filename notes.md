@@ -79,6 +79,7 @@
 - erickson_alfred_1: "hog meadows" in the metadata but actually Hog Meadow
 - Marie Leitch Fisher,1:11:19: Miller-Dervant Co. mentioned
 - utt_emmettandanna transcripts: number in metadata does not match number on html page.
+- settle_eugene_5: 1:26:21
 
 ### Design Notes
 
@@ -93,4 +94,4 @@
 ### Hallucinations
 
 - There was a hallucination towards the end of smith_nellie_2. Fixed.
-- Fixed some minor hallucinations in settle_eugene_5.
+- Fixed some hallucinations in settle_eugene_5. Mostly skipping chunks of dialogue.
