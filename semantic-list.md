@@ -209,6 +209,7 @@
 - Naugle (superintendent)
 - Palouser (cook)
 - Powderpuff Johnny (Hook Man)
+- Prune Joe (Bill Helmer's ranch foreman)
 - Mox-Mox (Indigenous person)
 - Mox Herzog (Homesteader)
 - Charles Bolles (Moscow Druggist)
