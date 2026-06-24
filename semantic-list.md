@@ -126,6 +126,7 @@
 - Hoquiam, WA
 - Juliaetta  
 - Kamiah  
+- Kelly Creek
 - Kendrick
 - Kibbie Dome
 - Kooskia
@@ -133,6 +134,7 @@
 - Laclede
 - Lake Waha
 - Lapwai reservation
+- Larkins Peak / Lake
 - Leavenworth, WA
 - Lewiston
 - Linville
