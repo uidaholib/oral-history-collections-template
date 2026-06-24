@@ -46,6 +46,7 @@
 - Odd Fellows Hall
 - QAE Club
 - Quadrilles  
+- Reading Room
 - Rebekah
 - Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
 - Rinky Dinks
