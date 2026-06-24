@@ -177,6 +177,7 @@
 - Southwick
 - Spokane, WA
 - Stites
+- Tensed
 - Toppenish, WA
 - Troy
 - Vollmer (now Troy)
