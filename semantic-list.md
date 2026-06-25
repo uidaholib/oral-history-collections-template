@@ -31,6 +31,7 @@
 - Kitchen Sweats
 - Kiwanis Club
 - Ku Klux Klan
+- Leapfrog
 - Literaries
 - Maccabee Lodge
 - McGoldrick Lumber Company
