@@ -11,6 +11,7 @@
 - Cayuse (Horse)
 - Chautauquas
 - Check-Scaler
+- Chesters or Cheeky Pins
 - Coasting Parties
 - Cous  
 - Coxey's Army
@@ -30,6 +31,7 @@
 - Jungle / Jungling-Up  
 - Kitchen Sweats
 - Kiwanis Club
+- Kris Krinkles
 - Ku Klux Klan
 - Leapfrog
 - Literaries
@@ -47,6 +49,7 @@
 - Odd Fellows Hall
 - QAE Club
 - Quadrilles  
+- Quilting Parties
 - Reading Room
 - Rebekah
 - Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
@@ -76,6 +79,7 @@
 - Aggipah Mountain
 - Alsea, OR
 - American Ridge
+- Arrow
 - Asotin
 - Ahsahka
 - Aspendale
@@ -182,6 +186,7 @@
 - Southwick
 - Spokane, WA
 - Stites
+- Teakean Butte
 - Tensed
 - Toppenish, WA
 - Troy
