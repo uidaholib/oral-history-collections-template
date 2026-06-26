@@ -226,6 +226,7 @@
 - Sam McKinn (Moonshiner)
 - Mox-Mox (Indigenous person)
 - Rosenstein's ; Jake Rosenstein (shopkeeper)
+- Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Sam Piwash
 - Shefflins
 - Jackson Sundance (Indigenous Rodeo Rider)
