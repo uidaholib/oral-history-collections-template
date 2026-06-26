@@ -207,24 +207,26 @@
 
 ## People
 
-- Cecil Emmet (moonshiner)
-- John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
-- Laird (Logging Supervisor)
 - Malcher Anderson
+- Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
+- Charles Bolles (Moscow Druggist)
+- William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Cecil Emmet (moonshiner)
+- William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Mox Herzog (Homesteader)
+- Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Missy Lee (Chinese Immigrant)
+- Anna Webster Litle (Dean of Women)
+- Shorty Justice (logging cook)
 - Naugle (superintendent)
 - Palouser (cook)
 - Powderpuff Johnny (Hook Man)
 - Prune Joe (Bill Helmer's ranch foreman)
-- Mox-Mox (Indigenous person)
-- Mox Herzog (Homesteader)
-- Charles Bolles (Moscow Druggist)
-- Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
-- Shorty Justice (logging cook)
 - Sam McKinn (Moonshiner)
+- Mox-Mox (Indigenous person)
+- Rosenstein's ; Jake Rosenstein (shopkeeper)
 - Sam Piwash
 - Shefflins
-- Missy Lee (Chinese Immigrant)
-- Anna Webster Litle (Dean of Women)
 - Jackson Sundance (Indigenous Rodeo Rider)
-- Rosenstein's ; Jake Rosenstein (shopkeeper)
+- John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
