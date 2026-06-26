@@ -81,6 +81,7 @@
 - Marie Leitch Fisher,1:11:19: Miller-Dervant Co. mentioned
 - utt_emmettandanna transcripts: number in metadata does not match number on html page.
 - settle_eugene_5: 1:26:21
+- goff_abe_1 - 31:01 to 40:31 seems to shift to another unknown interviewee
 
 ### Design Notes
 
