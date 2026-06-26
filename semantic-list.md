@@ -164,9 +164,10 @@
 - Preston
 - Princeton
 - Pullman, WA
+- Reardan, WA
+- Rexburg
 - Ridenbaugh Canal
 - Riparia
-- Rexburg
 - Ritzville, WA
 - Rosalia, WA
 - Rosenstein Store
