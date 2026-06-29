@@ -124,6 +124,7 @@
 - Fourmile Creek
 - Gang Saw
 - Ghormley Park
+- Gilt Edge Mine
 - Grangeville
 - Hatter Creek
 - Hayden
