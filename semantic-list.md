@@ -65,6 +65,7 @@
 - Skookum
 - Smudge Fire
 - Soroptimist Club
+- Spin the Platter
 - Swamping - "getting the logs ready for skidding to the landing"
 - Thrashing  
 - Three Deep
