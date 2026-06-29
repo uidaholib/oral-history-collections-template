@@ -77,6 +77,7 @@
 
 ## Places
 
+- Agatha
 - Aggipah Mountain
 - Alsea, OR
 - American Ridge
