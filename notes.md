@@ -98,3 +98,4 @@
 
 - There was a hallucination towards the end of smith_nellie_2. Fixed.
 - Fixed some hallucinations in settle_eugene_5. Mostly skipping chunks of dialogue.
+- Fixed minor hallucination in schupfer_otto_2
