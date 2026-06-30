@@ -62,6 +62,7 @@
 - shirrod_emma_1: 01:01:30
 - sundberg_arthur_3: 02:46:40
 - settle_eugene_5: 1:34:37
+- schupfer_otto_2: 1:22:17, 1:22:41
 ### Translation notes
 
 - jackson_alice_1: Nez Perce words that could use another look
