@@ -69,6 +69,7 @@
 - Swamping - "getting the logs ready for skidding to the landing"
 - Thrashing  
 - Three Deep
+- Toboggan Parties
 - Waha Lake
 - WCTU
 - WI&M / Washington, Idaho & Montana Railway  
@@ -93,6 +94,7 @@
 - Bonanza
 - Bovard
 - Bovill
+- Box and Goose
 - Burnt Ridge
 - Buzzard Roost
 - Bremerton, WA
