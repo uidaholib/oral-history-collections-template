@@ -207,15 +207,6 @@
 
 - Bohunk for Hungarian
 
-## Nicknames
-
-- Wood 'em Up George
-- Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
-
-## Timber
-
-- Shade Crew (?) 
-
 ## People
 
 - Malcher Anderson
@@ -230,7 +221,9 @@
 - Anna Webster Litle (Dean of Women)
 - Shorty Justice (logging cook)
 - Naugle (superintendent)
+- Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Palouser (cook)
+- Old Gil Pippen, Big Gil (Timber Foreman)
 - Powderpuff Johnny (Hook Man)
 - Prune Joe (Bill Helmer's ranch foreman)
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
@@ -242,3 +235,4 @@
 - Shefflins
 - Jackson Sundance (Indigenous Rodeo Rider)
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
+- Wood 'em Up George (Lumberjack)
