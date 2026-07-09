@@ -209,9 +209,12 @@
 
 ## People
 
+- Axel Anderson, "The Big Swede" (Timber Manager)
 - Malcher Anderson
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
+- Joe Buck (timber worker, painter)
+- Ted Collins (Bovill Lumberjack)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
 - William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
@@ -220,7 +223,7 @@
 - Missy Lee (Chinese Immigrant)
 - Anna Webster Litle (Dean of Women)
 - Shorty Justice (logging cook)
-- Naugle (superintendent)
+- C.G. Naugle (timber superintendent)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Palouser (cook)
 - Old Gil Pippen, Big Gil (Timber Foreman)
@@ -230,6 +233,7 @@
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
 - Sam McKinn (Moonshiner)
 - Mox-Mox (Indigenous person)
+- Nick the Greek (bootlegger)
 - Rosenstein's ; Jake Rosenstein (shopkeeper)
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Sam Piwash
