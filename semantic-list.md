@@ -224,6 +224,7 @@
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Palouser (cook)
 - Old Gil Pippen, Big Gil (Timber Foreman)
+- Old Sundown Jackson ("first Indian that was world champion rider") hickman_william_1
 - Powderpuff Johnny (Hook Man)
 - Prune Joe (Bill Helmer's ranch foreman)
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)

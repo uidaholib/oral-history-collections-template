@@ -14,6 +14,7 @@
 - grannis_kate_1: Rerun. Bad diarization. 
 - halen_alben_2: Rerun. Bad diarization. 
 - hardt_verna_1: Correctly translated but seems to drop all punctuation around 1:15:00
+- hickman_william_1: Rerun. Bad diarization.
 
 ### Incorrect Interviewer in Metadata
 
