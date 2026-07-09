@@ -58,39 +58,6 @@
 - Soroptimist Club
 - WCTU (Women's Christian Temperance Union)
 
-## Play
-
-- Andy Over
-- Basket Socials
-- Chautauquas
-- Chesters or Cheeky Pins
-- Coasting Parties
-- Debates  
-- Dialogues  
-- Do-si-do
-- Flying Dutchman
-- Guess the Skull
-- Kitchen Sweats
-- Kris Krinkles
-- Leapfrog
-- Literaries
-- Miller Boy  
-- Mumblety-Peg
-- Pie Social
-- Piecake-a-Mile!
-- Pinochle
-- Pump Pump Pullway (Pom-Pom-Pull-Away)
-- Quadrilles
-- Quilting Parties
-- Reading Room
-- Rinky Dinks (parties)
-- Shinny
-- Shivaree  
-- Skip to My Lou 
-- Spin the Platter
-- Three Deep
-- Toboggan Parties
-
 ## People
 
 - Axel Anderson, "The Big Swede" (Timber Manager or "Walking Boss")
@@ -209,6 +176,7 @@
 - Leavenworth, WA
 - Lewiston
 - Linville
+- Little Bear Ridge
 - Lochsa River
 - Lolo Pass, MO
 - Luella Mine
@@ -263,3 +231,36 @@
 - Whitmore School
 - Woodfell
 - Yreka Mining District
+
+## Play
+
+- Andy Over
+- Basket Socials
+- Chautauquas
+- Chesters or Cheeky Pins
+- Coasting Parties
+- Debates  
+- Dialogues  
+- Do-si-do
+- Flying Dutchman
+- Guess the Skull
+- Kitchen Sweats
+- Kris Krinkles
+- Leapfrog
+- Literaries
+- Miller Boy  
+- Mumblety-Peg
+- Pie Social
+- Piecake-a-Mile!
+- Pinochle
+- Pump Pump Pullway (Pom-Pom-Pull-Away)
+- Quadrilles
+- Quilting Parties
+- Reading Room
+- Rinky Dinks (parties)
+- Shinny
+- Shivaree  
+- Skip to My Lou 
+- Spin the Platter
+- Three Deep
+- Toboggan Parties
