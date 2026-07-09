@@ -213,17 +213,23 @@
 - Malcher Anderson
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
+- Sleigh Hall Brown (Lumberjack)
 - Joe Buck (timber worker, painter)
 - Ted Collins (Bovill Lumberjack)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
+- Wood 'em Up George (Lumberjack)
+- Old John Grohl (Pioneer, Store Keeper)
+- Cryin' Gus (lumberjack)
 - William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Mox Herzog (Homesteader)
 - Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Missy Lee (Chinese Immigrant)
 - Anna Webster Litle (Dean of Women)
+- Samuel T. Red Rosie Joe (lumberjack)
 - Shorty Justice (logging cook)
 - C.G. Naugle (timber superintendent)
+- Laughin' Mike (lumberjack)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Palouser (cook)
 - Old Gil Pippen, Big Gil (Timber Foreman)
@@ -240,4 +246,4 @@
 - Shefflins
 - Jackson Sundance (Indigenous Rodeo Rider)
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
-- Wood 'em Up George (Lumberjack)
+- Joe Wells (Black lumberjack)

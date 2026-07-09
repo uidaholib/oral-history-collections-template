@@ -168,3 +168,45 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
   "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" && \
   mv "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" \
      "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/carlson_helena_2.csv"
+
+## Add missing punctuation at the end of a row of dialogue (remove period from header after)
+
+python3 -c "
+import csv
+
+path = '/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/holland_joseph_2.csv'
+
+with open(path, newline='', encoding='utf-8') as f:
+    rows = list(csv.reader(f))
+
+header = rows[0]
+header = [h.rstrip('.?!') for h in header]
+rows[0] = header
+
+with open(path, 'w', newline='', encoding='utf-8') as f:
+    csv.writer(f).writerows(rows)
+
+with open(path, newline='', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    fieldnames = reader.fieldnames
+    rows = list(reader)
+
+for row in rows:
+    text = row['words'].rstrip()
+    if not text:
+        continue
+    if text[-1] == '\"' and len(text) > 1:
+        core = text[:-1]
+        if core and core[-1] not in '.?!':
+            text = core + '.\"'
+    elif text[-1] not in '.?!':
+        text = text + '.'
+    row['words'] = text
+
+with open(path, 'w', newline='', encoding='utf-8') as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(rows)
+
+print('Done.')
+"
