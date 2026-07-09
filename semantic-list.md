@@ -1,79 +1,138 @@
-## Semantic List
-  
-- Andersonville Prison
-- Andy Over
-- Appaloosa
-- Basket Socials
-- Blister Rust
-- Bullgang
-- Camas  
-- Catface
+# Semantic Lists for LCOH
+
+## Corporations
+
+- McGoldrick Lumber Company
+- Rosauers
+- Rutledge Lumber and Manufacturing Company
+- Weyerhaeuser Timber Company
+- WI&M / Washington, Idaho & Montana Railway 
+
+## Flora & Fauna
+
+- Appaloosa (horse)
+- Blister Rust (timber virus)
+- Camas (plant)
+- Catface (timber characteristic)
 - Cayuse (Horse)
-- Chautauquas
+- Cous (plant)
+- Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
+- Smudge Fire
+
+## Labor Designations
+
+- Bullgang
 - Check-Scaler
+- Derrick Team - "They pulled in the headed grain from the stack"
+- Dogging -"Well, on the smaller logs, we had what we called dogs. They'd be chains about that long with a hook. They'd come in, and you'd just take and you'd drive. There's one hook into the log in front, and one into the log back, but it'd be so. They'd be about that far behind, and they'd hook on front and away they'd go. The other logs behind it you had tacked on and followed"
+- Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
+- Flunkeying/ Flunkies
+- Gyppoing
+- Jungle / Jungling-Up  
+- Pirating
+- Roughlock ("Your roughlock, it was on either the rack or the tray bar on your sledge.")
+- Roustabout
+- Swamping - "getting the logs ready for skidding to the landing"
+- Thrashing 
+- Walking Boss  (middle manager in Timber under superintendent)
+
+## Lingual / Folklore
+
+- Bohunk (for Hungarian)
+- Gypsies (Romani)
+- Nisse ("little people", Swedish)
+- Skookum (Indigenous phrase for tough)
+
+## Organizations
+
+- Coxey's Army
+- Foster School of Healing (Juliaetta)
+- Kiwanis Club
+- Ku Klux Klan
+- Maccabee Lodge
+- Psychiana
+- Odd Fellows Hall
+- QAE Club
+- Rebekah Lodge
+- Runt Club Skating Party
+- Soroptimist Club
+- WCTU (Women's Christian Temperance Union)
+
+## Play
+
+- Andy Over
+- Basket Socials
+- Chautauquas
 - Chesters or Cheeky Pins
 - Coasting Parties
-- Cous  
-- Coxey's Army
-- Curses
 - Debates  
-- Derrick Team - "They pulled in the headed grain from the stack"
 - Dialogues  
-- Dogging -"Well, on the smaller logs, we had what we called dogs. They'd be chains about that long with a hook. They'd come in, and you'd just take and you'd drive. There's one hook into the log in front, and one into the log back, but it'd be so. They'd be about that far behind, and they'd hook on front and away they'd go. The other logs behind it you had tacked on and followed"
 - Do-si-do
-- Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
-- Foster School of Healing (Juliaetta)
-- Flunkeying/ Flunkies
 - Flying Dutchman
 - Guess the Skull
-- Gyppo  
-- Hurdy-Gurdy Girls
-- Jungle / Jungling-Up  
 - Kitchen Sweats
-- Kiwanis Club
 - Kris Krinkles
-- Ku Klux Klan
 - Leapfrog
 - Literaries
-- Maccabee Lodge
-- McGoldrick Lumber Company
 - Miller Boy  
-- Moonshine  
 - Mumblety-Peg
 - Pie Social
 - Piecake-a-Mile!
 - Pinochle
-- Pirating
-- Psychiana
 - Pump Pump Pullway (Pom-Pom-Pull-Away)
-- Odd Fellows Hall
-- QAE Club
-- Quadrilles  
+- Quadrilles
 - Quilting Parties
 - Reading Room
-- Rebekah
-- Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
-- Rinky Dinks
-- Romani
-- Rosauers
-- Roughlock
-- Roustabout
-- Rutledge Lumber and Manufacturing Company
+- Rinky Dinks (parties)
 - Shinny
 - Shivaree  
-- Skip to My Lou  
-- Skookum
-- Smudge Fire
-- Soroptimist Club
+- Skip to My Lou 
 - Spin the Platter
-- Swamping - "getting the logs ready for skidding to the landing"
-- Thrashing  
 - Three Deep
 - Toboggan Parties
-- Waha Lake
-- WCTU
-- WI&M / Washington, Idaho & Montana Railway  
-- Weyerhaeuser  
+
+## People
+
+- Axel Anderson, "The Big Swede" (Timber Manager or "Walking Boss")
+- Malcher Anderson
+- Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
+- Charles Bolles (Moscow Druggist)
+- Sleigh Hall Brown (Lumberjack)
+- Joe Buck (timber worker, painter)
+- Ted Collins (Bovill Lumberjack)
+- William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Cecil Emmet (moonshiner)
+- Wood 'em Up George (Lumberjack)
+- Hurdy-Gurdy Girls
+- Old John Grohl (Pioneer, Store Keeper)
+- Cryin' Gus (lumberjack)
+- William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Mox Herzog (Homesteader)
+- Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Missy Lee (Chinese Immigrant)
+- Anna Webster Litle (Dean of Women)
+- Samuel T. Red Rosie Joe (lumberjack)
+- Shorty Justice (logging cook)
+- C.G. Naugle (timber superintendent)
+- Laughin' Mike (lumberjack)
+- Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
+- Palouser (cook)
+- Old Gil Pippen, Big Gil (Timber Foreman)
+- Old Sundown Jackson ("first Indian that was world champion rider") hickman_william_1
+- Powderpuff Johnny (Hook Man)
+- Prune Joe (Bill Helmer's ranch foreman)
+- Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
+- Sam McKinn (Moonshiner)
+- Mox-Mox (Indigenous person)
+- Nick the Greek (bootlegger)
+- Rosenstein's ; Jake Rosenstein (shopkeeper)
+- Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
+- Sam Piwash
+- Shefflins
+- Jackson Sundance (Indigenous Rodeo Rider)
+- John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
+- Joe Wells (Black lumberjack)
+- Friedrich Weyerhaeuser  
 - Wild Davey
 
 ## Places
@@ -82,6 +141,7 @@
 - Aggipah Mountain
 - Alsea, OR
 - American Ridge
+- Andersonville Prison
 - Arrow
 - Asotin
 - Ahsahka
@@ -196,54 +256,10 @@
 - Toppenish, WA
 - Troy
 - Vollmer (now Troy)
+- Waha Lake
 - Walla Walla, WA
 - Wenatchee, WA
 - Weiser
 - Whitmore School
 - Woodfell
 - Yreka Mining District
-
-## Geographic / Cultural additions
-
-- Bohunk for Hungarian
-
-## People
-
-- Axel Anderson, "The Big Swede" (Timber Manager)
-- Malcher Anderson
-- Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
-- Charles Bolles (Moscow Druggist)
-- Sleigh Hall Brown (Lumberjack)
-- Joe Buck (timber worker, painter)
-- Ted Collins (Bovill Lumberjack)
-- William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
-- Cecil Emmet (moonshiner)
-- Wood 'em Up George (Lumberjack)
-- Old John Grohl (Pioneer, Store Keeper)
-- Cryin' Gus (lumberjack)
-- William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
-- Mox Herzog (Homesteader)
-- Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
-- Missy Lee (Chinese Immigrant)
-- Anna Webster Litle (Dean of Women)
-- Samuel T. Red Rosie Joe (lumberjack)
-- Shorty Justice (logging cook)
-- C.G. Naugle (timber superintendent)
-- Laughin' Mike (lumberjack)
-- Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
-- Palouser (cook)
-- Old Gil Pippen, Big Gil (Timber Foreman)
-- Old Sundown Jackson ("first Indian that was world champion rider") hickman_william_1
-- Powderpuff Johnny (Hook Man)
-- Prune Joe (Bill Helmer's ranch foreman)
-- Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
-- Sam McKinn (Moonshiner)
-- Mox-Mox (Indigenous person)
-- Nick the Greek (bootlegger)
-- Rosenstein's ; Jake Rosenstein (shopkeeper)
-- Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
-- Sam Piwash
-- Shefflins
-- Jackson Sundance (Indigenous Rodeo Rider)
-- John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
-- Joe Wells (Black lumberjack)
