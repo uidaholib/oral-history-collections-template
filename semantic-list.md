@@ -232,7 +232,7 @@
 - Woodfell
 - Yreka Mining District
 
-## Play
+## Play / Games
 
 - Andy Over
 - Basket Socials
