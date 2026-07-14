@@ -68,6 +68,7 @@
 - Joe Buck (timber worker, painter)
 - Ted Collins (Bovill Lumberjack)
 - Lillian Cooks, The Nordic Queen (Camp 4 lumberjack cook)
+- Dr.: Warner H. Carithers (Pre-Gritman? Hospital Director in Moscow. Carither's Hospital)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
 - Wood 'em Up George (Lumberjack)
@@ -119,6 +120,7 @@
 - Bear Creek
 - Beartrack Creek
 - Benewah County
+- Bergen, Norway
 - Bluestem, WA
 - Bonanza
 - Bovard
@@ -164,6 +166,8 @@
 - Hoodoo
 - Hood River, WA
 - Hoquiam, WA
+- Howell (non-extant)
+- Joel (non-extant)
 - Juliaetta  
 - Kamiah  
 - Kelly Creek
