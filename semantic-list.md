@@ -67,6 +67,7 @@
 - Sleigh Hall Brown (Lumberjack)
 - Joe Buck (timber worker, painter)
 - Ted Collins (Bovill Lumberjack)
+- Lillian Cooks, The Nordic Queen (Camp 4 lumberjack cook)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
 - Wood 'em Up George (Lumberjack)
@@ -99,6 +100,7 @@
 - Jackson Sundance (Indigenous Rodeo Rider)
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
 - Joe Wells (Black lumberjack)
+- Milford Welch (timber Cat Foreman in Camp 49)
 - Friedrich Weyerhaeuser  
 - Wild Davey
 
