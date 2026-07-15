@@ -2,6 +2,7 @@
 
 ## Corporations
 
+- Durham and Kaufman (Jewish-owned retail shop)
 - McGoldrick Lumber Company
 - Rosauers
 - Rutledge Lumber and Manufacturing Company
@@ -163,6 +164,7 @@
 - Gilt Edge Mine
 - Grangeville
 - Hatter Creek
+- Heyburn Park
 - Hayden
 - Helmer
 - Hog Meadow Creek
