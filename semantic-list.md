@@ -32,8 +32,9 @@
 - Pirating
 - Roughlock ("Your roughlock, it was on either the rack or the tray bar on your sledge.")
 - Roustabout
+- Sack Sewing
 - Swamping - "getting the logs ready for skidding to the landing"
-- Thrashing 
+- Thrashing Crews
 - Walking Boss  (middle manager in Timber under superintendent)
 
 ## Lingual / Folklore
@@ -41,6 +42,7 @@
 - Bohunk (for Hungarian)
 - Gypsies (Romani)
 - Nisse ("little people", Swedish)
+- Plautdietsch ("that's flat German, I guess. Flat German instead of high German.")
 - Skookum (Indigenous phrase for tough)
 
 ## Organizations
@@ -98,6 +100,7 @@
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Sam Piwash
 - Shefflins
+- Whitliff R. Smith (teacher in Cameron)
 - Jackson Sundance (Indigenous Rodeo Rider)
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
 - Joe Wells (Black lumberjack)
@@ -180,6 +183,7 @@
 - Lapwai reservation
 - Larkins Peak / Lake
 - Leavenworth, WA
+- Leland
 - Lewiston
 - Linville
 - Little Bear Ridge
@@ -242,6 +246,7 @@
 
 - Andy Over
 - Basket Socials
+- Bierstammtisch ("that's for the young, the young boys they gathered in the, in the evenings, you know, they'd have, were out in Germany. They'd go, they'd play cards, I suppose, and drink some beer and so on.")
 - Chautauquas
 - Chesters or Cheeky Pins
 - Coasting Parties
