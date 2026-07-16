@@ -64,11 +64,12 @@
 ## People
 
 - Axel Anderson, "The Big Swede" (Timber Manager or "Walking Boss")
-- Malcher Anderson
+- Malcher Anderson (Axel Anderson's brother, drinker)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
 - Sleigh Hall Brown (Lumberjack)
 - Joe Buck (timber worker, painter)
+- Herman Byers (timber camp cook)
 - Ted Collins (Bovill Lumberjack)
 - Lillian Cooks, The Nordic Queen (Camp 4 lumberjack cook)
 - Dr.: Warner H. Carithers (Pre-Gritman? Hospital Director in Moscow. Carither's Hospital)
@@ -84,7 +85,7 @@
 - Missy Lee (Chinese Immigrant)
 - Anna Webster Litle (Dean of Women)
 - Samuel T. Red Rosie Joe (lumberjack)
-- Shorty Justice (logging cook)
+- Albert "Shorty" Justice (logging cook)
 - C.G. Naugle (timber superintendent)
 - Laughin' Mike (lumberjack)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
@@ -103,7 +104,9 @@
 - Shefflins
 - Whitliff R. Smith (teacher in Cameron)
 - Jackson Sundance (Indigenous Rodeo Rider)
+- Shorty Trimble (logging cook)
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
+- Red Watson (timber camp cook)
 - Joe Wells (Black lumberjack)
 - Milford Welch (timber Cat Foreman in Camp 49)
 - Friedrich Weyerhaeuser  
