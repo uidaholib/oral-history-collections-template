@@ -8,6 +8,7 @@
 - Rutledge Lumber and Manufacturing Company
 - Weyerhaeuser Timber Company
 - WI&M / Washington, Idaho & Montana Railway 
+- Winters and Godsworth (Retail store in Leland)
 
 ## Flora & Fauna
 
@@ -18,6 +19,7 @@
 - Cayuse (Horse)
 - Cous (plant)
 - Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
+- Sarvisberry (Shadbush)
 - Smudge Fire
 
 ## Labor Designations
@@ -283,3 +285,9 @@
 - Three Deep
 - Toboggan Parties
 - Vanilla Bar
+
+Songs
+
+- Melodeon music - jones_agnes_1, beginning and end
+- My name is Charles Guiteau - kauder_william_2, 0:02:19
+- When the Roll is Called Up - jackson_alice_1, 01:25
