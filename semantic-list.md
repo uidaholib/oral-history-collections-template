@@ -277,6 +277,8 @@
 - Shinny
 - Shivaree  
 - Skip to My Lou 
+- Snipe Hunting
 - Spin the Platter
 - Three Deep
 - Toboggan Parties
+- Vanilla Bar
