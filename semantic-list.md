@@ -108,7 +108,7 @@
 - Jackson Sundance (Indigenous Rodeo Rider)
 - Shorty Trimble (logging cook)
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
-- J .P. Wahlberg (banker in Troy who monopolized land after the 1893 depression)
+- J .P. Wahlberg (banker in Lewiston who monopolized land after the 1893 depression)
 - Red Watson (timber camp cook)
 - Joe Wells (Black lumberjack)
 - Milford Welch (timber Cat Foreman in Camp 49)
