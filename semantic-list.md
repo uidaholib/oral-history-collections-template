@@ -176,6 +176,7 @@
 - Hayden
 - Helmer
 - Hog Meadow Creek
+- Hope
 - Hoodoo
 - Hood River, WA
 - Hoquiam, WA
