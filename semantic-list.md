@@ -85,6 +85,7 @@
 - Mox Herzog (Homesteader)
 - Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Missy Lee (Chinese Immigrant)
+- Aaron Levi 
 - Anna Webster Litle (Dean of Women)
 - Samuel T. Red Rosie Joe (lumberjack)
 - Albert "Shorty" Justice (logging cook)
@@ -103,6 +104,7 @@
 - Rosenstein's ; Jake Rosenstein (shopkeeper)
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Sam Piwash
+- Jacob Rosenstein (Jewish shop owner)
 - Shefflins
 - Whitliff R. Smith (teacher in Cameron)
 - Jackson Sundance (Indigenous Rodeo Rider)
