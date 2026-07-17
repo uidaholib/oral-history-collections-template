@@ -274,6 +274,7 @@
 - Pie Social
 - Piecake-a-Mile!
 - Pinochle
+- Potlatch Days
 - Pump Pump Pullway (Pom-Pom-Pull-Away)
 - Quadrilles
 - Quilting Parties
