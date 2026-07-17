@@ -42,8 +42,10 @@
 
 ## Lingual / Folklore
 
+- Bing Kong Tong (one of the most powerful Tongs in San Francisco's Chinatown during the early 20th century)
 - Bohunk (for Hungarian)
 - Gypsies (Romani)
+- Hip Sing Tong (The Hip Sing Association or HSA, formerly known as the Hip Sing Tong, is a Chinese-American criminal organization/gang formed as a labor organization in New York City's Chinatown during the early 20th century (perhaps c. 1904))
 - Nisse ("little people", Swedish)
 - Plautdietsch ("that's flat German, I guess. Flat German instead of high German.")
 - Skookum (Indigenous phrase for tough)
