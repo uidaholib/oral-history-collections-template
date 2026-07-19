@@ -260,12 +260,14 @@
 - Andy Over
 - Basket Socials
 - Bierstammtisch ("that's for the young, the young boys they gathered in the, in the evenings, you know, they'd have, were out in Germany. They'd go, they'd play cards, I suppose, and drink some beer and so on.")
+- Bullfrog on the Bank
 - Chautauquas
 - Chesters or Cheeky Pins
 - Coasting Parties
 - Debates  
 - Dialogues  
 - Do-si-do
+- Flinch Muggins Stock Exchange Card Game (https://www.ebay.com/itm/365927047298), "Flinch and Muggins"
 - Flying Dutchman
 - Guess the Skull
 - Kitchen Sweats
@@ -277,13 +279,14 @@
 - Pie Social
 - Piecake-a-Mile!
 - Pinochle
+- Post Office
 - Potlatch Days
 - Pump Pump Pullway (Pom-Pom-Pull-Away)
 - Quadrilles
 - Quilting Parties
 - Reading Room
 - Rinky Dinks (parties)
-- Shinny
+- Shinny, or Shinny On Your Own Side
 - Shivaree  
 - Skip to My Lou 
 - Snipe Hunting
@@ -291,6 +294,7 @@
 - Three Deep
 - Toboggan Parties
 - Vanilla Bar
+- Winkum or Wink 'Em
 
 Songs
 
