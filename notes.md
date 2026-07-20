@@ -67,6 +67,7 @@
 - sundberg_arthur_3: 02:46:40
 - settle_eugene_5: 1:34:37
 - schupfer_otto_2: 1:22:17
+
 ### Translation notes
 
 - jackson_alice_1: Nez Perce words that could use another look
@@ -107,3 +108,7 @@
 - There was a hallucination towards the end of smith_nellie_2. Fixed.
 - Fixed some hallucinations in settle_eugene_5. Mostly skipping chunks of dialogue.
 - Fixed minor hallucination in schupfer_otto_2
+
+### Areas of interest
+
+- All of the Catherine Mahon interviews
