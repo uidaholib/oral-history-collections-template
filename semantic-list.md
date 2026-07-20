@@ -107,7 +107,9 @@
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Sam Piwash
 - Jacob Rosenstein (Jewish shop owner)
+- Sells-Floto Circus (https://en.wikipedia.org/wiki/Sells_Floto_Circus)
 - Shefflins
+- Shivaree
 - Whitliff R. Smith (teacher in Cameron)
 - Jackson Sundance (Indigenous Rodeo Rider)
 - Shorty Trimble (logging cook)
@@ -260,13 +262,16 @@
 - Andy Over
 - Basket Socials
 - Bierstammtisch ("that's for the young, the young boys they gathered in the, in the evenings, you know, they'd have, were out in Germany. They'd go, they'd play cards, I suppose, and drink some beer and so on.")
+- Black Man (https://de.wikipedia.org/wiki/Der_schwarze_Mann)
 - Bullfrog on the Bank
 - Chautauquas
 - Chesters or Cheeky Pins
 - Coasting Parties
+- Darebase (https://en.wikipedia.org/wiki/Darebase)
 - Debates  
 - Dialogues  
 - Do-si-do
+- Drop the Handkerchief
 - Flinch Muggins Stock Exchange Card Game (https://www.ebay.com/itm/365927047298), "Flinch and Muggins"
 - Flying Dutchman
 - Guess the Skull
@@ -282,6 +287,7 @@
 - Post Office
 - Potlatch Days
 - Pump Pump Pullway (Pom-Pom-Pull-Away)
+- Pussy Wants a Corner or Puss in the Corner (https://en.wikipedia.org/wiki/Puss_in_the_corner_(children%27s_game))
 - Quadrilles
 - Quilting Parties
 - Reading Room
