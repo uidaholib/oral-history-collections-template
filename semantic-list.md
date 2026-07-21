@@ -172,6 +172,7 @@
 - Fix Ridge
 - Fourmile Creek
 - Gang Saw
+- Genesee
 - Ghormley Park
 - Gilt Edge Mine
 - Grangeville
@@ -240,6 +241,7 @@
 - Silverton, OR
 - Slabtown
 - Snoqualmie Falls, WA
+- Sodaville, OR
 - Spangle, WA
 - Southwick
 - Spokane, WA
