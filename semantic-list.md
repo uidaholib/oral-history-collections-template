@@ -3,6 +3,7 @@
 ## Corporations
 
 - Durham and Kaufman (Jewish-owned retail shop)
+- Humbird Lumber Company
 - McGoldrick Lumber Company
 - Rosauers
 - Rutledge Lumber and Manufacturing Company
@@ -244,6 +245,7 @@
 - Rosenstein Store
 - Saint Maries
 - Sacheen Lake
+- Sausalito, CA
 - Scoville
 - Selway–Bitterroot Wilderness
 - Silverton, OR
@@ -283,6 +285,7 @@
 - Dialogues  
 - Do-si-do
 - Drop the Handkerchief
+- Fan-Tan (Chinese gambling game: https://en.wikipedia.org/wiki/Fan-Tan)
 - Flinch Muggins Stock Exchange Card Game (https://www.ebay.com/itm/365927047298), "Flinch and Muggins"
 - Flying Dutchman
 - Guess the Skull
