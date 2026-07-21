@@ -71,14 +71,18 @@
 - Malcher Anderson (Axel Anderson's brother, drinker)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
+- Clay Hall Brown (lumberjack, driving team, log roller)
 - Sleigh Hall Brown (Lumberjack)
 - Joe Buck (timber worker, painter)
 - Herman Byers (timber camp cook)
+- Dr.: Warner H. Carithers (Pre-Gritman? Hospital Director in Moscow. Carither's Hospital)
 - Ted Collins (Bovill Lumberjack)
 - Lillian Cooks, The Nordic Queen (Camp 4 lumberjack cook)
-- Dr.: Warner H. Carithers (Pre-Gritman? Hospital Director in Moscow. Carither's Hospital)
+- Cumberford (Large Animal Veterinarian in Potlatch)
+- Walking Daily (Lumberjack)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
+- Old George Foss (lumberjack, log roller)
 - Wood 'em Up George (Lumberjack)
 - Hurdy-Gurdy Girls
 - Old John Grohl (Pioneer, Store Keeper)
@@ -100,11 +104,13 @@
 - Powderpuff Johnny (Hook Man)
 - Prune Joe (Bill Helmer's ranch foreman)
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
+- Billy Marsh (Potlatch lumber cook)
 - Sam McKinn (Moonshiner)
 - Mox-Mox (Indigenous person)
 - Nick the Greek (bootlegger)
 - Rosenstein's ; Jake Rosenstein (shopkeeper)
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
+- Big Gil Pippen (lumberjack)
 - Sam Piwash
 - Jacob Rosenstein (Jewish shop owner)
 - Sells-Floto Circus (https://en.wikipedia.org/wiki/Sells_Floto_Circus)
@@ -221,6 +227,7 @@
 - Parma
 - Payette Lake
 - Peck
+- Pedicord Hotel (Spokane, WA lumberjack lodging)
 - Pembine
 - Pocatello
 - Pomeroy
