@@ -150,6 +150,7 @@
 - Chehalis, WA
 - Cheney
 - Clarkia
+- Clarkston, WA
 - Clarksville
 - Cloquet, Minnesota
 - Coeur d'Alene
@@ -242,6 +243,7 @@
 - Slabtown
 - Snoqualmie Falls, WA
 - Sodaville, OR
+- Sotin Creek
 - Spangle, WA
 - Southwick
 - Spokane, WA
