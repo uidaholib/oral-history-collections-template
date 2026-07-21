@@ -153,6 +153,7 @@
 - Buzzard Roost
 - Bremerton, WA
 - Cameron
+- Cashup Davis Hotel (Steptoe Butte)
 - Chatcolet Lake 
 - Chehalis, WA
 - Cheney
