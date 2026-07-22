@@ -77,6 +77,7 @@
 - Joe Buck (timber worker, painter)
 - Herman Byers (timber camp cook)
 - Dr.: Warner H. Carithers (Pre-Gritman? Hospital Director in Moscow. Carither's Hospital)
+- Gene Chinaman (Chinese Moscow resident)
 - Ted Collins (Bovill Lumberjack)
 - Lillian Cooks, The Nordic Queen (Camp 4 lumberjack cook)
 - Cumberford (Large Animal Veterinarian in Potlatch)
@@ -317,8 +318,9 @@
 - Vanilla Bar
 - Winkum or Wink 'Em
 
-Songs
+## Songs / Films / Books
 
 - Melodeon music - jones_agnes_1, beginning and end
 - My name is Charles Guiteau - kauder_william_2, 0:02:19
+- The Birth of a Nation
 - When the Roll is Called Up - jackson_alice_1, 01:25
