@@ -67,6 +67,7 @@
 - sundberg_arthur_3: 02:46:40
 - settle_eugene_5: 1:34:37
 - schupfer_otto_2: 1:22:17
+- messersmith_lewisandhazel_1: Indigenous slurs
 
 ### Translation notes
 
@@ -93,6 +94,12 @@
 - johnson_oscar_1: audio loops at 11:30
 - lancaster_mayandcarl_1: noted as May & Carl Lancaster but just Carl
 
+### Needs vetting for Indigenous language
+
+- messersmith_lewisandhazel_1
+- mckeever_george_1
+- jackson_alice_1
+
 ### Design Notes
 
 - The tagging elements can be a dropdown menu on the left of the Browse page rather than a tagging data visualization page
@@ -109,6 +116,3 @@
 - Fixed some hallucinations in settle_eugene_5. Mostly skipping chunks of dialogue.
 - Fixed minor hallucination in schupfer_otto_2
 
-### Areas of interest
-
-- All of the Catherine Mahon interviews

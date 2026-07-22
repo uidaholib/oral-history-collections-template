@@ -90,6 +90,7 @@
 - Old John Grohl (Pioneer, Store Keeper)
 - Cryin' Gus (lumberjack)
 - William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Lynn Henry (Lapwai Storyteller)
 - Mox Herzog (Homesteader)
 - Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Missy Lee (Chinese Immigrant)
@@ -257,6 +258,7 @@
 - Sotin Creek
 - Spangle, WA
 - Southwick
+- Spalding
 - Spokane, WA
 - Stites
 - Teakean Butte
