@@ -26,13 +26,17 @@
 ## Labor Designations
 
 - Bullgang
+- Cat Skinner (Logging Position)
 - Check-Scaler
+- Choke-Setter (Logging position)
+- Cruiser or Timber Cruiser (Logging position)
 - Derrick Team - "They pulled in the headed grain from the stack"
 - Dogging -"Well, on the smaller logs, we had what we called dogs. They'd be chains about that long with a hook. They'd come in, and you'd just take and you'd drive. There's one hook into the log in front, and one into the log back, but it'd be so. They'd be about that far behind, and they'd hook on front and away they'd go. The other logs behind it you had tacked on and followed"
 - Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
 - Edgeman - (lumber mill position)
 - Flunkeying/ Flunkies
 - Gyppoing
+- Hooker (Logging position)
 - Jungle / Jungling-Up  
 - Pirating
 - Roughlock ("Your roughlock, it was on either the rack or the tray bar on your sledge.")
@@ -71,6 +75,7 @@
 
 - Axel Anderson, "The Big Swede" (Timber Manager or "Walking Boss")
 - Malcher Anderson (Axel Anderson's brother, drinker)
+- Uncle Ben (Confectioner in Harvard)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
 - Clay Hall Brown (lumberjack, driving team, log roller)
@@ -113,6 +118,7 @@
 - Mox-Mox (Indigenous person)
 - Nick the Greek (bootlegger)
 - Rosenstein's ; Jake Rosenstein (shopkeeper)
+- Henry Plummer (Leader of Horse Thief Gang)
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Big Gil Pippen (lumberjack)
 - Sam Piwash
