@@ -163,6 +163,7 @@
 - Clarkston, WA
 - Clarksville
 - Cloquet, Minnesota
+- Colton, WA
 - Coeur d'Alene
 - Corral Creek
 - Craigmont
@@ -173,6 +174,7 @@
 - Deary
 - Dogger
 - Driscoll Ridge
+- Dublin (ghost town "two miles east of what is now Craigmont")
 - Dworshak Dam
 - Ellensburg
 - Elk River
@@ -182,9 +184,11 @@
 - Fernwood
 - Fix Ridge
 - Fourmile Creek
+- Frazier (ghost town "due west of Moeller, about four miles")
 - Gang Saw
 - Genesee
 - Ghormley Park
+- Gifford (ghost town between Lewiston and Craigmont)
 - Gilt Edge Mine
 - Grangeville
 - Hatter Creek
