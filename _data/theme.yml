@@ -1,29 +1,3 @@
-##########
-# ORAL HISTORY as Data OPTIONS 
-# (CollectionBuilder options below)
-##########
-
-##########
-# Transcript Page / Oral History as Data Options 
-# 
-transcript-fields: "description,date,location,interviewer,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
-# list the fields you'd like displayed, separated by comma
-media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
-search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
-search-and-filters-sticky: true ## true/false --> determines if the search and filter options are sticky to the top of the page as a user scrolls down a transcript
-
-##########
-# Visualization page / Oral History as Data Options 
-# 
-as-data: true ## true/false --> determines if the "As Data" button and modal that pops up if you click it will appear at the top right of the visualization page
-transcript-contents: true ## true/false --> determines if the contents of the individual interviews will appear and be filtered at the bottom of the visualization page (below the color coded portion)
-
-### For Large Collections -- !!!! Warning ###
-
-# If you turn the below option `json-generation` to true, you'll need to run the rake command `generate_json` -- that command will generate the necessary json files for your collection. 
-
-json-generation: false ## true/false --> defaults to false (see note below if you turn to true!). This determines if JSON files will be accessed for the visualization page. 
-
 
 
 ##########
@@ -34,7 +8,7 @@ json-generation: false ## true/false --> defaults to false (see note below if yo
 
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: mcmichael9
+featured-image: https://objects.lib.uidaho.edu/aacc-lives/aacc-featured.jpg
 featured-image-alt-text: # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional for CB base layout: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
