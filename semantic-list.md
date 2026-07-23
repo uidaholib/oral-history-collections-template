@@ -220,6 +220,7 @@
 - Metaline Falls
 - Micah Mountain
 - Mizpah Mine
+- Moeller (ghost town "between Craigmont and Nez Perce")
 - Muscovite Mine
 - Nespelem, WA
 - Nora
