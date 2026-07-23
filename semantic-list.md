@@ -307,10 +307,11 @@
 - Literaries
 - Miller Boy  
 - Mumblety-Peg
+- Old Mother Pigeon
 - Pie Social
 - Piecake-a-Mile!
 - Pinochle
-- Post Office
+- Post Office (kissing game)
 - Potlatch Days
 - Pump Pump Pullway (Pom-Pom-Pull-Away)
 - Pussy Wants a Corner or Puss in the Corner (https://en.wikipedia.org/wiki/Puss_in_the_corner_(children%27s_game))
@@ -327,6 +328,7 @@
 - Toboggan Parties
 - Vanilla Bar
 - Winkum or Wink 'Em
+- Winter Fox and Goose
 
 ## Songs / Films / Books
 
