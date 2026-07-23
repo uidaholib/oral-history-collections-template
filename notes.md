@@ -93,6 +93,7 @@
 - schupfer_otto_1,2 - josephine named in schupfer_otto_2 0:10:37; grave information for otto and josephine: https://freepages.rootsweb.com/~mrail/genealogy/data/cemete/idaho/latah/juliaetta/juliaetta.htm; names of Foster doctors: https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_v09-n2.pdf
 - johnson_oscar_1: audio loops at 11:30
 - lancaster_mayandcarl_1: noted as May & Carl Lancaster but just Carl
+- mushal_edward_1 - audio starts warping 0:26:07 to 0:31:41
 
 ### Needs vetting for Indigenous language
 
