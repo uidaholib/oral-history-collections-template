@@ -2,7 +2,7 @@
 
 ## Corporations
 
-- Durham and Kaufman (Jewish-owned retail shop)
+- Dernham and Kaufmann  (Jewish-owned retail shop)
 - Humbird Lumber Company
 - McGoldrick Lumber Company
 - Rosauers
