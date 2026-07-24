@@ -91,6 +91,7 @@
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
 - Old George Foss (lumberjack, log roller)
+- Dr. Robert Foster (Foster’s School of Healing in Pullman, https://www.latahcountyhistoricalsociety.org/post/juliaetta-s-early-wellness-influencer-dr-robert-foster)
 - Wood 'em Up George (Lumberjack)
 - Hurdy-Gurdy Girls
 - Old John Grohl (Pioneer, Store Keeper)
