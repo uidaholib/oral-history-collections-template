@@ -330,6 +330,7 @@
 - Quilting Parties
 - Reading Room
 - Rinky Dinks (parties)
+- Schottische (dance, https://en.wikipedia.org/wiki/Schottische)
 - Shinny, or Shinny On Your Own Side
 - Shivaree  
 - Skip to My Lou 
