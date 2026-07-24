@@ -144,6 +144,7 @@
 - Aggipah Mountain
 - Alsea, OR
 - American Ridge
+- Anderson
 - Andersonville Prison
 - Arrow
 - Asotin
@@ -171,6 +172,7 @@
 - Clarkston, WA
 - Clarksville
 - Cloquet, Minnesota
+- Collins (ghost town "Between Clarkia and Bovill")
 - Colton, WA
 - Coeur d'Alene
 - Corral Creek
