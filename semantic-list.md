@@ -39,6 +39,7 @@
 - Hooker (Logging position)
 - Jungle / Jungling-Up  
 - Pirating
+- Pond Duck ("you had to pull the logs out of the pond, see, up on the deck")
 - Roughlock ("Your roughlock, it was on either the rack or the tray bar on your sledge.")
 - Roustabout
 - Sack Sewing
@@ -221,6 +222,7 @@
 - Kooskia
 - Kuna
 - Laclede
+- Lake Gamlin
 - Lake Waha
 - Lapwai reservation
 - Larkins Peak / Lake
