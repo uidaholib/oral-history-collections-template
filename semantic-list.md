@@ -10,6 +10,7 @@
 - Weyerhaeuser Timber Company
 - WI&M / Washington, Idaho & Montana Railway 
 - Winters and Godsworth (Retail store in Leland)
+- Winton Lumber Company
 
 ## Flora & Fauna
 
@@ -79,6 +80,7 @@
 - Uncle Ben (Confectioner in Harvard)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
+- Broomface Brooks (lumberjack)
 - Clay Hall Brown (lumberjack, driving team, log roller)
 - Sleigh Hall Brown (Lumberjack)
 - Joe Buck (timber worker, painter)
@@ -91,6 +93,7 @@
 - Walking Daily (Lumberjack)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
+- Laughing Jim Delaney (cop who helped organize militia to counter IWW lumber strikes)
 - Old George Foss (lumberjack, log roller)
 - Dr. Robert Foster (Foster’s School of Healing in Pullman, https://www.latahcountyhistoricalsociety.org/post/juliaetta-s-early-wellness-influencer-dr-robert-foster)
 - Wood 'em Up George (Lumberjack)
@@ -105,18 +108,23 @@
 - Aaron Levi 
 - Anna Webster Litle (Dean of Women)
 - Samuel T. Red Rosie Joe (lumberjack)
+- Broken Ass John (lumberjack)
 - Albert "Shorty" Justice (logging cook)
 - C.G. Naugle (timber superintendent)
 - Laughin' Mike (lumberjack)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Palouser (cook)
+- Butterfly Pete (lumberjack)
 - Old Gil Pippen, Big Gil (Timber Foreman)
 - Old Sundown Jackson ("first Indian that was world champion rider") hickman_william_1
 - Powderpuff Johnny (Hook Man)
 - Prune Joe (Bill Helmer's ranch foreman)
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
 - Billy Marsh (Potlatch lumber cook)
+- Dirty Shirt Martin (lumberjack)
+- Powderpuff McDonald (lumberjack)
 - Sam McKinn (Moonshiner)
+- George McKinnon (lumber foreman)
 - Mox-Mox (Indigenous person)
 - Nick the Greek (bootlegger)
 - Rosenstein's ; Jake Rosenstein (shopkeeper)
@@ -130,7 +138,9 @@
 - Shivaree
 - Whitliff R. Smith (teacher in Cameron)
 - Jackson Sundance (Indigenous Rodeo Rider)
+- Frank Tom (Chinese shopkeeper in Clarkia)
 - Shorty Trimble (logging cook)
+- Me Too, or Ollie Vincent (lumberjack)
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
 - J .P. Wahlberg (banker in Lewiston who monopolized land after the 1893 depression)
 - Red Watson (timber camp cook)
