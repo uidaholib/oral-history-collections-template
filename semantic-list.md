@@ -144,7 +144,7 @@
 - John P. Vollmer ("Idaho’s first millionaire", Vollmer Idaho is now Troy) (https://www.intermountainhistories.org/items/show/115)
 - J .P. Wahlberg (banker in Lewiston who monopolized land after the 1893 depression)
 - Red Watson (timber camp cook)
-- Joe Wells (Black lumberjack)
+- Joe Wells (Black lumberjack who lived in Deary)
 - Milford Welch (timber Cat Foreman in Camp 49)
 - Friedrich Weyerhaeuser  
 - Wild Davey
@@ -256,6 +256,7 @@
 - Onaway
 - Oviatt Meadows
 - Owyhee Mountains
+- Parker
 - Parma
 - Payette Lake
 - Peck
@@ -340,6 +341,7 @@
 - Quilting Parties
 - Reading Room
 - Rinky Dinks (parties)
+- Run Sheep Run (olson_ruth_1: It's a hide and seek game. You have two teams and one team stays at the home base. The other goes out and they have a leader that takes them out and hides them and gives them certain signals. And they're supposed to, maybe they yell red and that means they're supposed to go to a certain place and the others in the meantime are trying to find further hidden. And they have their signals to tell them to sneak from one place to another, try to get in.)
 - Schottische (dance, https://en.wikipedia.org/wiki/Schottische)
 - Shinny, or Shinny On Your Own Side
 - Shivaree  
@@ -351,6 +353,20 @@
 - Vanilla Bar
 - Winkum or Wink 'Em
 - Winter Fox and Goose
+
+## Rural Schools
+
+- Applequist
+- Brannon
+- Buckhorn
+- Elwood
+- Fern Hill
+- Liberty
+- Pleasant Hill
+- Rimrock
+- Spring Valley
+- Steele
+- Taney
 
 ## Songs / Films / Books
 
