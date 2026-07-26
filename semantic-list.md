@@ -75,9 +75,11 @@
 
 ## People
 
+- Harry Adams (Pool Hall owner in Elk River)
 - Axel Anderson, "The Big Swede" (Timber Manager or "Walking Boss")
 - Malcher Anderson (Axel Anderson's brother, drinker)
 - Uncle Ben (Confectioner in Harvard)
+- Andrew Bloom (Sawmill General Superintendent in Elk River)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
 - Broomface Brooks (lumberjack)
@@ -301,6 +303,7 @@
 - Wenatchee, WA
 - Weiser
 - Whitmore School
+- Wilson Creek
 - Woodfell
 - Yreka Mining District
 
