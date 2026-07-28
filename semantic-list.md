@@ -327,6 +327,7 @@
 - Flinch Muggins Stock Exchange Card Game (https://www.ebay.com/itm/365927047298), "Flinch and Muggins"
 - Flying Dutchman
 - Guess the Skull
+- Gustav's Skoal or Gustafs Skål (Scandanavian American folk dance, https://folkdancemusings.blogspot.com/2016/03/gustafs-skalgustavs-skoal-sweden.html)
 - Kitchen Sweats
 - Kris Krinkles
 - Leapfrog
