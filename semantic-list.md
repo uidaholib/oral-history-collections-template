@@ -65,6 +65,7 @@
 - Kiwanis Club
 - Ku Klux Klan
 - Maccabee Lodge
+- Pioneer Club
 - Psychiana
 - Odd Fellows Hall
 - QAE Club
