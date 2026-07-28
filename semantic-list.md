@@ -96,6 +96,7 @@
 - Walking Daily (Lumberjack)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Cecil Emmet (moonshiner)
+- Swan Erikson (Troy / Deary area Swedish Blacksmith)
 - Laughing Jim Delaney (cop who helped organize militia to counter IWW lumber strikes)
 - Old George Foss (lumberjack, log roller)
 - Dr. Robert Foster (Foster’s School of Healing in Pullman, https://www.latahcountyhistoricalsociety.org/post/juliaetta-s-early-wellness-influencer-dr-robert-foster)
@@ -108,6 +109,7 @@
 - Mox Herzog (Homesteader)
 - Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Missy Lee (Chinese Immigrant)
+- August Leising (German homesteader on Texas Ridge)
 - Aaron Levi 
 - Anna Webster Litle (Dean of Women)
 - Samuel T. Red Rosie Joe (lumberjack)
@@ -353,6 +355,7 @@
 - Skip to My Lou 
 - Snipe Hunting
 - Spin the Platter
+- Spud Hill
 - Three Deep
 - Toboggan Parties
 - Vanilla Bar
