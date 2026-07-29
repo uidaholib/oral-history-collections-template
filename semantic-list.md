@@ -38,12 +38,14 @@
 - Flunkeying/ Flunkies
 - Gyppoing
 - Hooker (Logging position)
+- Jigger (And then they'd have a jig. That jig's down that grain after it gets in the sack so much why they started jigging it, you know, bouncing it up and down so as to give it all the space there is in there that the grain can get into.)
 - Jungle / Jungling-Up  
 - Pirating
 - Pond Duck ("you had to pull the logs out of the pond, see, up on the deck")
 - Roughlock ("Your roughlock, it was on either the rack or the tray bar on your sledge.")
 - Roustabout
-- Sack Sewing
+- Sack Sewer (stitches full sacks of hay at the end of the bundling process)
+- Shockers (hay bundlers)
 - Swamping - "getting the logs ready for skidding to the landing"
 - Thrashing Crews
 - Walking Boss  (middle manager in Timber under superintendent)
