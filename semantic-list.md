@@ -52,13 +52,16 @@
 - Swamping - "getting the logs ready for skidding to the landing"
 - Thrashing Crews
 - Walking Boss  (middle manager in Timber under superintendent)
+- Undercutter (timber team position, "And so while he was down here marking this tree, we were sawing on, we were sawing reaching up high like this. And then there was a bunch of logs laying over there that we had fell that were laying crossways at each other.")
 
 ## Lingual / Folklore
 
 - Bing Kong Tong (one of the most powerful Tongs in San Francisco's Chinatown during the early 20th century)
-- Bohunk (for Hungarian)
+- Bohunk, or Hunk (for Hungarian)
+- grade (road)
 - Gypsies (Romani)
 - Hip Sing Tong (The Hip Sing Association or HSA, formerly known as the Hip Sing Tong, is a Chinese-American criminal organization/gang formed as a labor organization in New York City's Chinatown during the early 20th century (perhaps c. 1904))
+- Owling (curse)
 - Nisse ("little people", Swedish)
 - Plautdietsch ("that's flat German, I guess. Flat German instead of high German.")
 - Skookum (Indigenous phrase for tough)
@@ -112,6 +115,7 @@
 - William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Lynn Henry (Lapwai Storyteller)
 - Mox Herzog (Homesteader)
+- Dode Holmes (farmer / banker on Central Ridge)
 - Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Missy Lee (Chinese Immigrant)
 - August Leising (German homesteader on Texas Ridge)
