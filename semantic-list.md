@@ -7,6 +7,7 @@
 - McGoldrick Lumber Company
 - Rosauers
 - Rutledge Lumber and Manufacturing Company
+- Troy Lumber Company
 - Weyerhaeuser Timber Company
 - WI&M / Washington, Idaho & Montana Railway 
 - Winters and Godsworth (Retail store in Leland)
