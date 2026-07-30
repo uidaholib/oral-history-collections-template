@@ -41,6 +41,7 @@
 - Flunkeying/ Flunkies
 - Gyppoing
 - Hooker (Logging position)
+- Highline Man ("after he got everything hooked up, you know, he'd holler, well if you wanted him to stop he'd say, Hi! And if wanted to start, High! High! And, no, let's see, no, that's when he's loaded.")
 - Jigger (And then they'd have a jig. That jig's down that grain after it gets in the sack so much why they started jigging it, you know, bouncing it up and down so as to give it all the space there is in there that the grain can get into.)
 - Jungle / Jungling-Up  
 - Pirating
