@@ -5,6 +5,7 @@
 - Dernham and Kaufmann  (Jewish-owned retail shop)
 - Humbird Lumber Company
 - McGoldrick Lumber Company
+- Olson & Johnson (Department Store in Troy)
 - Rosauers
 - Rutledge Lumber and Manufacturing Company
 - Troy Lumber Company
@@ -12,6 +13,7 @@
 - WI&M / Washington, Idaho & Montana Railway 
 - Winters and Godsworth (Retail store in Leland)
 - Winton Lumber Company
+- White Pine Mill
 
 ## Flora & Fauna
 
@@ -359,7 +361,7 @@
 - Snipe Hunting
 - Spin the Platter
 - Spud Hill
-- Three Deep
+- Three Deep (you formed a circle, you know. So you have this two on, one behind the other, standing all around the circle. Well, then there was one, you know, there was a tag, and then there was one, three, there was three, you see. Well, then there's this one that was trying to catch the third fellow, you tagged him, you know. He was trying to catch him. If there was three there, you run over there and try to... ...pat the one behind, the third one behind on the back, see, and then he was it then. And he had, he would be the one that tagged around, try to catch the other one. So... They called it Three Deep.)
 - Toboggan Parties
 - Vanilla Bar
 - Winkum or Wink 'Em
