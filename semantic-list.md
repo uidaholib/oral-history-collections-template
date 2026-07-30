@@ -170,6 +170,7 @@
 - Alsea, OR
 - American Ridge
 - Anderson
+- Angel Ridge
 - Andersonville Prison
 - Arrow
 - Asotin
@@ -190,6 +191,7 @@
 - Bremerton, WA
 - Cameron
 - Cashup Davis Hotel (Steptoe Butte)
+- Cavendish
 - Chatcolet Lake 
 - Chehalis, WA
 - Cheney
@@ -258,6 +260,7 @@
 - Lochsa River
 - Lolo Pass, MO
 - Luella Mine
+- Melrose Ridge
 - Metaline Falls
 - Micah Mountain
 - Mizpah Mine
