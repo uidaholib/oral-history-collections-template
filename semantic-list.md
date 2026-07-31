@@ -52,7 +52,7 @@
 - Pirating
 - Pond Duck ("you had to pull the logs out of the pond, see, up on the deck")
 - Roughlock ("Your roughlock, it was on either the rack or the tray bar on your sledge.")
-- Roustabout
+- Roustabout (thrashing crew go fer)
 - Sack Sewer (stitches full sacks of hay at the end of the bundling process)
 - Shockers (hay bundlers)
 - Swamping - "getting the logs ready for skidding to the landing"
