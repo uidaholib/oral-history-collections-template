@@ -27,6 +27,11 @@
 - Sarvisberry (Shadbush)
 - Smudge Fire
 
+## Food
+
+- Fattigmann (cookies, https://scandinaviancookbook.com/norwegian-fattigmann-poor-mans-cookies/)
+- Ostkaka (cheese cake, https://en.wikipedia.org/wiki/Ostkaka)
+
 ## Labor Designations
 
 - Bullgang
@@ -374,6 +379,7 @@
 - Three Deep (you formed a circle, you know. So you have this two on, one behind the other, standing all around the circle. Well, then there was one, you know, there was a tag, and then there was one, three, there was three, you see. Well, then there's this one that was trying to catch the third fellow, you tagged him, you know. He was trying to catch him. If there was three there, you run over there and try to... ...pat the one behind, the third one behind on the back, see, and then he was it then. And he had, he would be the one that tagged around, try to catch the other one. So... They called it Three Deep.)
 - Toboggan Parties
 - Vanilla Bar
+- Virginia Reel (dance, https://en.wikipedia.org/wiki/Virginia_reel_(dance))
 - Winkum or Wink 'Em
 - Winter Fox and Goose
 
