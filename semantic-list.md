@@ -319,6 +319,7 @@
 - Walla Walla, WA
 - Wenatchee, WA
 - Weiser
+- White Bird
 - Whitmore School
 - Wilson Creek
 - Woodfell
