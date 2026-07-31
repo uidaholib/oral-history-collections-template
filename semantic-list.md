@@ -126,6 +126,7 @@
 - Broken Ass John (lumberjack)
 - Albert "Shorty" Justice (logging cook)
 - C.G. Naugle (timber superintendent)
+- Sam McKeon (Moonshiner)
 - Laughin' Mike (lumberjack)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Palouser (cook)
