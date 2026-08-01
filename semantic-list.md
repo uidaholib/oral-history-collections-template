@@ -76,13 +76,14 @@
 
 - Coxey's Army
 - Foster School of Healing (Juliaetta)
+- Grand Army of the Republic (GAR)
 - Kiwanis Club
 - Ku Klux Klan
 - Maccabee Lodge
 - Pioneer Club
 - Psychiana
 - Odd Fellows Hall
-- QAE Club
+- QAE Club (}And we had our well our special friends that we had parties in our homes you know I remember I belonged to a club and it I don't know there must have been 20 or 25 of us boys and girls and we called it the QAE Club and that meant quit at 11.")
 - Rebekah Lodge
 - Runt Club Skating Party
 - Soroptimist Club
@@ -301,6 +302,7 @@
 - Rosenstein Store
 - Saint Maries
 - Sacheen Lake
+- Salubria
 - Sausalito, CA
 - Scoville
 - Selway–Bitterroot Wilderness
@@ -334,6 +336,7 @@
 
 - Andy Over
 - Basket Socials
+- Bean Bake
 - Bierstammtisch ("that's for the young, the young boys they gathered in the, in the evenings, you know, they'd have, were out in Germany. They'd go, they'd play cards, I suppose, and drink some beer and so on.")
 - Black Man (https://de.wikipedia.org/wiki/Der_schwarze_Mann)
 - Bullfrog on the Bank
