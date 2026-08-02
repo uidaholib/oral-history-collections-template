@@ -207,6 +207,7 @@
 - Buzzard Roost
 - Bremerton, WA
 - Cameron
+- Camp Kenjockety
 - Cashup Davis Hotel (Steptoe Butte)
 - Cavendish
 - Chatcolet Lake 
@@ -382,6 +383,7 @@
 - Rinky Dinks (parties)
 - Run Sheep Run (olson_ruth_1: It's a hide and seek game. You have two teams and one team stays at the home base. The other goes out and they have a leader that takes them out and hides them and gives them certain signals. And they're supposed to, maybe they yell red and that means they're supposed to go to a certain place and the others in the meantime are trying to find further hidden. And they have their signals to tell them to sneak from one place to another, try to get in.)
 - Schottische (dance, https://en.wikipedia.org/wiki/Schottische)
+- Sells Floto Circus (https://en.wikipedia.org/wiki/Sells_Floto_Circus)
 - Shinny, or Shinny On Your Own Side
 - Shivaree  
 - Skip to My Lou 
