@@ -77,8 +77,10 @@
 - Coxey's Army
 - Foster School of Healing (Juliaetta)
 - Grand Army of the Republic (GAR)
+- Hayu Club (Sewing Social Club in Moscow, sp?)
 - Kiwanis Club
 - Ku Klux Klan
+- Ladies' Auxiliaries
 - Maccabee Lodge
 - Pioneer Club
 - Psychiana
@@ -88,6 +90,8 @@
 - Runt Club Skating Party
 - Soroptimist Club
 - WCTU (Women's Christian Temperance Union)
+- Women of the Woodcraft
+- Woodman of the World
 
 ## People
 
