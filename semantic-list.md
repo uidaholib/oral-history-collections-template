@@ -2,11 +2,13 @@
 
 ## Corporations
 
-- Dernham and Kaufmann  (Jewish-owned retail shop)
+- Dernham and Kaufmann  (Jewish-owned retail shop, Troy?)
+- Hodgin's Drug Store (Moscow)
 - Humbird Lumber Company
 - McGoldrick Lumber Company
 - Olson & Johnson (Department Store in Troy)
-- Rosauers
+- Pleasant Home (Moscow early Boarding House run by Mr. Gallop, father of Harry Gallop that would own Gallup Lumber Yard)
+- Rosauers (Moscow)
 - Rutledge Lumber and Manufacturing Company
 - Troy Lumber Company
 - Weyerhaeuser Timber Company
@@ -111,6 +113,7 @@
 - Gene Chinaman (Chinese Moscow resident)
 - Ted Collins (Bovill Lumberjack)
 - Lillian Cooks, The Nordic Queen (Camp 4 lumberjack cook)
+- George Creighton (Creighton & McClelland, business in Moscow, affluent city figures)
 - Cumberford (Large Animal Veterinarian in Potlatch)
 - Walking Daily (Lumberjack)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
@@ -175,6 +178,7 @@
 - Milford Welch (timber Cat Foreman in Camp 49)
 - Friedrich Weyerhaeuser  
 - Wild Davey
+- M .F. Zumhof (Moscow Blacksmith and Carriage House Owner)
 
 ## Places
 
