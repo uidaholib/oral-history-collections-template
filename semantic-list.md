@@ -140,6 +140,7 @@
 - Old Gil Pippen, Big Gil (Timber Foreman)
 - Old Sundown Jackson ("first Indian that was world champion rider") hickman_william_1
 - Powderpuff Johnny (Hook Man)
+- Seven Jackets (Moscow Transient Resident)
 - Prune Joe (Bill Helmer's ranch foreman)
 - Pat Malone (Bovill Sheriff, moonshine enthusiast, lived in the Spokane Hotel)
 - Billy Marsh (Potlatch lumber cook)
