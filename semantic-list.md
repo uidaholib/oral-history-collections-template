@@ -125,6 +125,7 @@
 - Dr. Robert Foster (Foster’s School of Healing in Pullman, https://www.latahcountyhistoricalsociety.org/post/juliaetta-s-early-wellness-influencer-dr-robert-foster)
 - Wood 'em Up George (Lumberjack)
 - Hurdy-Gurdy Girls
+- C.B. Green (Moscow, early laundry owner and affluent figure)
 - Old John Grohl (Pioneer, Store Keeper)
 - Cryin' Gus (lumberjack)
 - William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
@@ -326,6 +327,7 @@
 - Southwick
 - Spalding
 - Spokane, WA
+- Steptoe Butte
 - Stites
 - Teakean Butte
 - Tensed
