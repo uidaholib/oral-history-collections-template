@@ -117,6 +117,7 @@
 - Cumberford (Large Animal Veterinarian in Potlatch)
 - Walking Daily (Lumberjack)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
+- Clifford M. Drury (Presbyterian minister, seminary professor, author and historian. by Idaho historians, a pastor at Moscow, Idaho. https://idahohistory.contentdm.oclc.org/digital/api/collection/p265501coll4/id/272/download)
 - Cecil Emmet (moonshiner)
 - Swan Erikson (Troy / Deary area Swedish Blacksmith)
 - Laughing Jim Delaney (cop who helped organize militia to counter IWW lumber strikes)

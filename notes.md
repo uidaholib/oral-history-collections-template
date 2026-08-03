@@ -118,3 +118,6 @@
 - Fixed some hallucinations in settle_eugene_5. Mostly skipping chunks of dialogue.
 - Fixed minor hallucination in schupfer_otto_2
 
+### Points of interest
+
+- Harry or Clarice Sampson,0:54:56: explains Robinson was actually driven to Moscow after being railroaded from California for selling "wildcat" oil bonds.
