@@ -143,9 +143,10 @@
 - Anna Webster Litle (Dean of Women)
 - Old Codger Jack (Moonshiner)
 - Samuel T. Red Rosie Joe (lumberjack)
+- T.P. Jones (Weyerhaeuser superintendent)
 - Broken Ass John (lumberjack)
 - Albert "Shorty" Justice (logging cook)
-- C.G. Naugle (timber superintendent)
+- C.G. Naugle (Weyerhaeuser superintendent after T.P. Jones)
 - Sam McKeon (Moonshiner)
 - Laughin' Mike (lumberjack)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher

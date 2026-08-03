@@ -95,6 +95,7 @@
 - johnson_oscar_1: audio loops at 11:30
 - lancaster_mayandcarl_1: noted as May & Carl Lancaster but just Carl
 - mushal_edward_1 - audio starts warping 0:26:07 to 0:31:41
+- Byers Sanderson - audio begins looping at 1:23:38
 
 ### Needs vetting for Indigenous language
 
