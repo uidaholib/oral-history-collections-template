@@ -83,6 +83,7 @@
 - Foster School of Healing (Juliaetta)
 - Grand Army of the Republic (GAR)
 - Hayu Club (Sewing Social Club in Moscow, sp?)
+- IERA (Idaho Emergency Relief Administration, related to FERA and CCC)
 - Kiwanis Club
 - Ku Klux Klan
 - Ladies' Auxiliaries
