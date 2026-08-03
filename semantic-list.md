@@ -53,6 +53,7 @@
 - Jungle / Jungling-Up  
 - Pirating
 - Pond Duck ("you had to pull the logs out of the pond, see, up on the deck")
+- Powder Men (dynamite workers for the railroad, frequently Italian)
 - Roughlock ("Your roughlock, it was on either the rack or the tray bar on your sledge.")
 - Roustabout (thrashing crew go fer)
 - Sack Sewer (stitches full sacks of hay at the end of the bundling process)
@@ -66,6 +67,7 @@
 
 - Bing Kong Tong (one of the most powerful Tongs in San Francisco's Chinatown during the early 20th century)
 - Bohunk, or Hunk (for Hungarian)
+- The Bull of the Woods (logging term for dominant figure)
 - grade (road)
 - Gypsies (Romani)
 - Hip Sing Tong (The Hip Sing Association or HSA, formerly known as the Hip Sing Tong, is a Chinese-American criminal organization/gang formed as a labor organization in New York City's Chinatown during the early 20th century (perhaps c. 1904))
@@ -116,6 +118,7 @@
 - George Creighton (Creighton & McClelland, business in Moscow, affluent city figures)
 - Cumberford (Large Animal Veterinarian in Potlatch)
 - Walking Daily (Lumberjack)
+- Old Joe Davis (Palouse area lumberjack policeman, private?)
 - William Deary (General Manager, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Clifford M. Drury (Presbyterian minister, seminary professor, author and historian. by Idaho historians, a pastor at Moscow, Idaho. https://idahohistory.contentdm.oclc.org/digital/api/collection/p265501coll4/id/272/download)
 - Cecil Emmet (moonshiner)
@@ -132,11 +135,13 @@
 - Lynn Henry (Lapwai Storyteller)
 - Mox Herzog (Homesteader)
 - Dode Holmes (farmer / banker on Central Ridge)
+- Tom Hopkins (Palouse area lumberjack policeman, private?)
 - Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Missy Lee (Chinese Immigrant)
 - August Leising (German homesteader on Texas Ridge)
 - Aaron Levi 
 - Anna Webster Litle (Dean of Women)
+- Old Codger Jack (Moonshiner)
 - Samuel T. Red Rosie Joe (lumberjack)
 - Broken Ass John (lumberjack)
 - Albert "Shorty" Justice (logging cook)
@@ -145,6 +150,7 @@
 - Laughin' Mike (lumberjack)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Palouser (cook)
+- Tilly Pelton (Assistant Superintendent for Potlatch)
 - Butterfly Pete (lumberjack)
 - Old Gil Pippen, Big Gil (Timber Foreman)
 - Old Sundown Jackson ("first Indian that was world champion rider") hickman_william_1
@@ -164,6 +170,7 @@
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Big Gil Pippen (lumberjack)
 - Sam Piwash
+- Joe Rivers (Indigenous lumberjack)
 - Jacob Rosenstein (Jewish shop owner)
 - Sells-Floto Circus (https://en.wikipedia.org/wiki/Sells_Floto_Circus)
 - Shefflins
@@ -198,6 +205,7 @@
 - Beals Butte
 - Bear Creek
 - Beartrack Creek
+- Beeson Meadows
 - Benewah County
 - Bergen, Norway
 - Bluestem, WA
@@ -242,6 +250,7 @@
 - Fix Ridge
 - Fourmile Creek
 - Frazier (ghost town "due west of Moeller, about four miles")
+- Frederickson, WA
 - Gang Saw
 - Garfield
 - Genesee

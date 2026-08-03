@@ -121,6 +121,6 @@
 ### Points of interest
 
 - Harry or Clarice Sampson,0:54:56: explains Robinson was actually driven to Moscow after being railroaded from California for selling "wildcat" oil bonds.
-
 - Karen Purtee,00:24:04,You tell everything I say?
 Hanna Anderson Sandell,00:24:07,"No, we keep it. And the university keeps it. And so if somebody wants to listen, they can listen to it to find out your history.
+- sanderson_byers_1: "bull of the woods"  compounding the nickname element
