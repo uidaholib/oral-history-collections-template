@@ -51,6 +51,7 @@
 - Highline Man ("after he got everything hooked up, you know, he'd holler, well if you wanted him to stop he'd say, Hi! And if wanted to start, High! High! And, no, let's see, no, that's when he's loaded.")
 - Jigger (And then they'd have a jig. That jig's down that grain after it gets in the sack so much why they started jigging it, you know, bouncing it up and down so as to give it all the space there is in there that the grain can get into.)
 - Jungle / Jungling-Up  
+- Marions (brand of logging / sawmill equipment)
 - Pirating
 - Pond Duck ("you had to pull the logs out of the pond, see, up on the deck")
 - Powder Men (dynamite workers for the railroad, frequently Italian)
@@ -89,7 +90,7 @@
 - Pioneer Club
 - Psychiana
 - Odd Fellows Hall
-- QAE Club (}And we had our well our special friends that we had parties in our homes you know I remember I belonged to a club and it I don't know there must have been 20 or 25 of us boys and girls and we called it the QAE Club and that meant quit at 11.")
+- QAE Club ("And we had our well our special friends that we had parties in our homes you know I remember I belonged to a club and it I don't know there must have been 20 or 25 of us boys and girls and we called it the QAE Club and that meant quit at 11.")
 - Rebekah Lodge
 - Runt Club Skating Party
 - Soroptimist Club
@@ -109,6 +110,7 @@
 - Broomface Brooks (lumberjack)
 - Clay Hall Brown (lumberjack, driving team, log roller)
 - Sleigh Hall Brown (Lumberjack)
+- Mike Bubley (Hungarian criminal in Palouse area)
 - Joe Buck (timber worker, painter)
 - Herman Byers (timber camp cook)
 - Dr.: Warner H. Carithers (Pre-Gritman? Hospital Director in Moscow. Carither's Hospital)
@@ -124,6 +126,7 @@
 - Cecil Emmet (moonshiner)
 - Swan Erikson (Troy / Deary area Swedish Blacksmith)
 - Laughing Jim Delaney (cop who helped organize militia to counter IWW lumber strikes)
+- Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
 - Old George Foss (lumberjack, log roller)
 - Dr. Robert Foster (Foster’s School of Healing in Pullman, https://www.latahcountyhistoricalsociety.org/post/juliaetta-s-early-wellness-influencer-dr-robert-foster)
 - Wood 'em Up George (Lumberjack)
@@ -146,10 +149,9 @@
 - T.P. Jones (Weyerhaeuser superintendent)
 - Broken Ass John (lumberjack)
 - Albert "Shorty" Justice (logging cook)
-- C.G. Naugle (Weyerhaeuser superintendent after T.P. Jones)
 - Sam McKeon (Moonshiner)
 - Laughin' Mike (lumberjack)
-- Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
+- C.G. Naugle (Weyerhaeuser superintendent after T.P. Jones)
 - Palouser (cook)
 - Tilly Pelton (Assistant Superintendent for Potlatch)
 - Butterfly Pete (lumberjack)
@@ -339,6 +341,7 @@
 - Spokane, WA
 - Steptoe Butte
 - Stites
+- Swamp Creek
 - Teakean Butte
 - Tensed
 - Toppenish, WA
