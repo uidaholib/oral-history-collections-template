@@ -8,6 +8,7 @@
 - McGoldrick Lumber Company
 - Olson & Johnson (Department Store in Troy)
 - Pleasant Home (Moscow early Boarding House run by Mr. Gallop, father of Harry Gallop that would own Gallup Lumber Yard)
+- Polson Logging Company
 - Rosauers (Moscow)
 - Rutledge Lumber and Manufacturing Company
 - Troy Lumber Company
@@ -43,7 +44,7 @@
 - Cruiser or Timber Cruiser (Logging position)
 - Derrick Team - "They pulled in the headed grain from the stack"
 - Dogging -"Well, on the smaller logs, we had what we called dogs. They'd be chains about that long with a hook. They'd come in, and you'd just take and you'd drive. There's one hook into the log in front, and one into the log back, but it'd be so. They'd be about that far behind, and they'd hook on front and away they'd go. The other logs behind it you had tacked on and followed"
-- Dray Logging - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
+- Dray Logging, Draymen - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
 - Edgeman - (lumber mill position)
 - Flunkeying/ Flunkies
 - Gyppoing
@@ -147,6 +148,7 @@
 - Aaron Levi 
 - Anna Webster Litle (Dean of Women)
 - Old Codger Jack (Moonshiner)
+- Ira Jenks (moonshiner, murderer)
 - Samuel T. Red Rosie Joe (lumberjack)
 - T.P. Jones (Weyerhaeuser superintendent, wife was timber cook)
 - Broken Ass John (lumberjack)
@@ -169,6 +171,7 @@
 - Powderpuff McDonald (lumberjack)
 - Sam McKinn (Moonshiner)
 - George McKinnon (lumber foreman)
+- Bill Morland, "Ridge Runner" (forager, possibly poacher?)
 - Mox-Mox (Indigenous person)
 - Nick the Greek (bootlegger)
 - Rosenstein's ; Jake Rosenstein (shopkeeper)
@@ -228,6 +231,7 @@
 - Chatcolet Lake 
 - Chehalis, WA
 - Cheney
+- Christianson Meadow
 - Clarkia
 - Clarkston, WA
 - Clarksville
