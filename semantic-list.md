@@ -138,6 +138,7 @@
 - William Helmer (Timber Cruiser, Potlatch Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
 - Lynn Henry (Lapwai Storyteller)
 - Mox Herzog (Homesteader)
+- Ed Hill (man lynched by Masons in Colfax)
 - Dode Holmes (farmer / banker on Central Ridge)
 - Tom Hopkins (Palouse area lumberjack policeman, private?)
 - Allison W. Laird (Assistant Manager, Potlatch. Lumber Co.) https://archiveswest.orbiscascade.org/ark:80444/xv135974
@@ -157,6 +158,7 @@
 - Tilly Pelton (Assistant Superintendent for Potlatch)
 - Butterfly Pete (lumberjack)
 - Old Gil Pippen, Big Gil (Timber Foreman)
+- Sam Piwash
 - Old Sundown Jackson ("first Indian that was world champion rider") hickman_william_1
 - Powderpuff Johnny (Hook Man)
 - Seven Jackets (Moscow Transient Resident)
@@ -173,7 +175,6 @@
 - Henry Plummer (Leader of Horse Thief Gang)
 - Pete Olson (Swedish Moscow resident who lived next to Sam Piwash)
 - Big Gil Pippen (lumberjack)
-- Sam Piwash
 - Joe Rivers (Indigenous lumberjack)
 - Jacob Rosenstein (Jewish shop owner)
 - Sells-Floto Circus (https://en.wikipedia.org/wiki/Sells_Floto_Circus)
