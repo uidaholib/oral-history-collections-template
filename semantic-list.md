@@ -148,7 +148,7 @@
 - Anna Webster Litle (Dean of Women)
 - Old Codger Jack (Moonshiner)
 - Samuel T. Red Rosie Joe (lumberjack)
-- T.P. Jones (Weyerhaeuser superintendent)
+- T.P. Jones (Weyerhaeuser superintendent, wife was timber cook)
 - Broken Ass John (lumberjack)
 - Albert "Shorty" Justice (logging cook)
 - Sam McKeon (Moonshiner)
