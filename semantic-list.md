@@ -53,6 +53,7 @@
 - Jigger (And then they'd have a jig. That jig's down that grain after it gets in the sack so much why they started jigging it, you know, bouncing it up and down so as to give it all the space there is in there that the grain can get into.)
 - Jungle / Jungling-Up  
 - Marions (brand of logging / sawmill equipment)
+- Oilers (assistant to timber engineers)
 - Pirating
 - Pond Duck ("you had to pull the logs out of the pond, see, up on the deck")
 - Powder Men (dynamite workers for the railroad, frequently Italian)
