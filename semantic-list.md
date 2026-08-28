@@ -47,6 +47,7 @@
 - Dray Logging, Draymen - "One sled. We logged on one sled, that's the dray hog. We drove one into the log behind."
 - Edgeman - (lumber mill position)
 - Flunkeying/ Flunkies
+- Flying squad - "Well then they had at that time some of them union halls had what they call a 'flying squad'" (local, union-based vigilante group that sought retribution for robberies and other crimes committed against union members)
 - Gyppoing
 - Hooker (Logging position)
 - Highline Man ("after he got everything hooked up, you know, he'd holler, well if you wanted him to stop he'd say, Hi! And if wanted to start, High! High! And, no, let's see, no, that's when he's loaded.")
