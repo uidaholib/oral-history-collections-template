@@ -48,10 +48,12 @@
 - Edgeman - (lumber mill position)
 - Flunkeying/ Flunkies
 - Flying squad - "Well then they had at that time some of them union halls had what they call a 'flying squad'" (local, union-based vigilante group that sought retribution for robberies and other crimes committed against union members)
+- Go-devil any variety of transport for delivering hot meals to loggers in the field
 - Gyppoing
 - Hooker (Logging position)
 - Highline Man ("after he got everything hooked up, you know, he'd holler, well if you wanted him to stop he'd say, Hi! And if wanted to start, High! High! And, no, let's see, no, that's when he's loaded.")
 - Jigger (And then they'd have a jig. That jig's down that grain after it gets in the sack so much why they started jigging it, you know, bouncing it up and down so as to give it all the space there is in there that the grain can get into.)
+- Jumbo
 - Jungle / Jungling-Up  
 - Marions (brand of logging / sawmill equipment)
 - Oilers (assistant to timber engineers)
