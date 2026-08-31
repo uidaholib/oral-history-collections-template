@@ -53,7 +53,7 @@
 - Hooker (Logging position)
 - Highline Man ("after he got everything hooked up, you know, he'd holler, well if you wanted him to stop he'd say, Hi! And if wanted to start, High! High! And, no, let's see, no, that's when he's loaded.")
 - Jigger (And then they'd have a jig. That jig's down that grain after it gets in the sack so much why they started jigging it, you know, bouncing it up and down so as to give it all the space there is in there that the grain can get into.)
-- Jumbo
+- Jumbo "they had what they called a ""jumbo"" in there to hold, there was a form that they would jack up, a big steel form on a railroad track, and they would run that in there, and then they would pour concrete around this."
 - Jungle / Jungling-Up  
 - Marions (brand of logging / sawmill equipment)
 - Oilers (assistant to timber engineers)
