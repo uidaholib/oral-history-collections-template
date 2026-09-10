@@ -7,7 +7,6 @@
 - steffen_kenneth_2: premiere dialogue problems; whisper diarization
 - clark_jandmarie_1: diarization problems
 - smith_nellie_2: hallucination and character corruption. Some diarization problems
-- denevan_lucille_1: Rerun. Bad diarization.
 - fleener_dora_2: Rerun. Bad diarization.
 - flodin_elmer_2: Premiere transcription is poor. Rerun with scripts.
 - settle_eugene_4: some diarization problems; skipping sections of dialogue

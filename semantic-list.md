@@ -107,6 +107,7 @@
 ## People
 
 - Harry Adams (Pool Hall owner in Elk River)
+- Ed Allen (Lumber Camp Cook and Pool Hall Owner in Elk River, "All Trails Lead to Ed Allen's" clark_jandmarie_1)
 - Axel Anderson, "The Big Swede" (Timber Manager or "Walking Boss")
 - Malcher Anderson (Axel Anderson's brother, drinker)
 - Uncle Ben (Confectioner in Harvard)
@@ -390,6 +391,7 @@
 - Flying Dutchman
 - Guess the Skull
 - Gustav's Skoal or Gustafs Skål (Scandanavian American folk dance, https://folkdancemusings.blogspot.com/2016/03/gustafs-skalgustavs-skoal-sweden.html)
+- Hambo (Scandanavian Folk Dance https://en.wikipedia.org/wiki/Hambo, clark_jandmarie_1)
 - Kitchen Sweats
 - Kris Krinkles
 - Leapfrog
