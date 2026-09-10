@@ -197,8 +197,9 @@
 - Red Watson (timber camp cook)
 - Joe Wells (Black lumberjack who lived in Deary)
 - Milford Welch (timber Cat Foreman in Camp 49)
+- Wild Davey ("mountain man" figure that lived outside Moscow)
 - Friedrich Weyerhaeuser  
-- Wild Davey
+- Doc White (Potlatch veterinarian and doctor)
 - M .F. Zumhof (Moscow Blacksmith and Carriage House Owner)
 
 ## Places
