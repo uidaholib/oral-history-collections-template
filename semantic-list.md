@@ -90,6 +90,7 @@
 - Hayu Club (Sewing Social Club in Moscow, sp?)
 - IERA (Idaho Emergency Relief Administration, related to FERA and CCC)
 - Kiwanis Club
+- Knights of Pythias
 - Ku Klux Klan
 - Ladies' Auxiliaries
 - Maccabee Lodge
