@@ -163,11 +163,9 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {
 
 _Mac:_
 
-awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=66 && NR<=149 && $1=="Karen Purtee" {$1="Helena Cartwright Carlson"} 1' \
-  "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/carlson_helena_2.csv" > \
-  "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" && \
-  mv "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/tmp.csv" \
-     "/Users/aweymouth/Documents/GitHub/oral-history-collections-template/_data/transcripts/carlson_helena_2.csv"
+awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=265 && NR<=568 && $1=="Marie J. Clark" {$1="J. Les"} 1' \
+  "_data/transcripts/clark_jandmarie_1.csv" > "_data/transcripts/tmp.csv" \
+  && mv "_data/transcripts/tmp.csv" "_data/transcripts/clark_jandmarie_1.csv"
 
 ## Add missing punctuation at the end of a row of dialogue (remove period from header after). Does not work if dialogue is missing punctuation inside of dialogue.
 

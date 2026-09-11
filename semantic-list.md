@@ -90,6 +90,7 @@
 - Hayu Club (Sewing Social Club in Moscow, sp?)
 - IERA (Idaho Emergency Relief Administration, related to FERA and CCC)
 - Kiwanis Club
+- Knights of Pythias
 - Ku Klux Klan
 - Ladies' Auxiliaries
 - Maccabee Lodge
@@ -107,6 +108,7 @@
 ## People
 
 - Harry Adams (Pool Hall owner in Elk River)
+- Ed Allen (Lumber Camp Cook and Pool Hall Owner in Elk River, "All Trails Lead to Ed Allen's" clark_jandmarie_1)
 - Axel Anderson, "The Big Swede" (Timber Manager or "Walking Boss")
 - Malcher Anderson (Axel Anderson's brother, drinker)
 - Uncle Ben (Confectioner in Harvard)
@@ -197,8 +199,9 @@
 - Red Watson (timber camp cook)
 - Joe Wells (Black lumberjack who lived in Deary)
 - Milford Welch (timber Cat Foreman in Camp 49)
+- Wild Davey ("mountain man" figure that lived outside Moscow)
 - Friedrich Weyerhaeuser  
-- Wild Davey
+- Doc White (Potlatch veterinarian and doctor)
 - M .F. Zumhof (Moscow Blacksmith and Carriage House Owner)
 
 ## Places
@@ -389,6 +392,7 @@
 - Flying Dutchman
 - Guess the Skull
 - Gustav's Skoal or Gustafs Skål (Scandanavian American folk dance, https://folkdancemusings.blogspot.com/2016/03/gustafs-skalgustavs-skoal-sweden.html)
+- Hambo (Scandanavian Folk Dance https://en.wikipedia.org/wiki/Hambo, clark_jandmarie_1)
 - Kitchen Sweats
 - Kris Krinkles
 - Leapfrog
