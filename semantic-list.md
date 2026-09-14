@@ -207,6 +207,7 @@
 
 - Agatha
 - Aggipah Mountain
+- Almota, WA
 - Alsea, OR
 - American Ridge
 - Anderson
@@ -283,6 +284,7 @@
 - Hood River, WA
 - Hoquiam, WA
 - Howell (non-extant)
+- Idler's Rest
 - Joel (non-extant)
 - Juliaetta  
 - Kamiah  
