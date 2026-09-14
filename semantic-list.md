@@ -26,6 +26,8 @@
 - Catface (timber characteristic)
 - Cayuse (Horse)
 - Cous (plant)
+- Herefords (horses)
+- Percherons (horses)
 - Ribes - The genus includes species commonly referred to as redcurrants, blackcurrants, whitecurrants, and gooseberries
 - Sarvisberry (Shadbush)
 - Smudge Fire
