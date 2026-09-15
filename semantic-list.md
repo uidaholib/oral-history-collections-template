@@ -117,6 +117,7 @@
 - Andrew Bloom (Sawmill General Superintendent in Elk River)
 - Ole Bohman (alt, might need standardizing) fix previous spellings of Ollie Bowman
 - Charles Bolles (Moscow Druggist)
+- Platten Bomberg (Dutch Butcher Shop Owner in Genesee)
 - Broomface Brooks (lumberjack)
 - Clay Hall Brown (lumberjack, driving team, log roller)
 - Sleigh Hall Brown (Lumberjack)
