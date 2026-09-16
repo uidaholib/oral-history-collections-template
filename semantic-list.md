@@ -138,6 +138,7 @@
 - Swan Erikson (Troy / Deary area Swedish Blacksmith)
 - Laughing Jim Delaney (cop who helped organize militia to counter IWW lumber strikes)
 - Pack Sack Dick (Dick Farrell): Lumber Jack Preacher
+- Henry Flasher (Potlatch Foreman at Camp 10)
 - Old George Foss (lumberjack, log roller)
 - Dr. Robert Foster (Foster’s School of Healing in Pullman, https://www.latahcountyhistoricalsociety.org/post/juliaetta-s-early-wellness-influencer-dr-robert-foster)
 - Wood 'em Up George (Lumberjack)
@@ -335,6 +336,7 @@
 - Preston
 - Princeton
 - Pullman, WA
+- Randall Flat (also Randall Flat Creek)
 - Reardan, WA
 - Rexburg
 - Ridenbaugh Canal

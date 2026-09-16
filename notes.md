@@ -97,6 +97,7 @@
 - mushal_edward_1 - audio starts warping 0:26:07 to 0:31:41
 - Byers Sanderson - audio begins looping at 1:23:38
 - otness_lillian_1: Switches to another, unknown interview subject at 1:00:02 and Laura Schrager
+- rowan_frankandlottie_1: audio loops back to beginning at 00:29:59
 
 ### Needs vetting for Indigenous language
 
