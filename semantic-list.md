@@ -263,6 +263,7 @@
 - Ellensburg
 - Elk River
 - Emida
+- Endicott, WA
 - Ephrata, WA
 - Fairview
 - Fernwood
