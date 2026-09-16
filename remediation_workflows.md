@@ -169,6 +169,20 @@ awk 'BEGIN{FS=OFS=","} {gsub(/\r/,"")} NR>=265 && NR<=568 && $1=="Marie J. Clark
 
 ## Add missing punctuation at the end of a row of dialogue (remove period from header after). Does not work if dialogue is missing punctuation inside of dialogue.
 
+__Most Effective Method__
+
+- Using find and replace in VSC with regular expression function on:
+
+find:
+
+([^.!?"])("?)$
+
+replace
+
+$1.$2
+
+__Alternately__
+
 python3 -c "
 import csv
 
@@ -208,3 +222,5 @@ with open(path, 'w', newline='', encoding='utf-8') as f:
 
 print('Done.')
 "
+
+
