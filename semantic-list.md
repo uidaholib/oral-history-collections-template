@@ -295,6 +295,7 @@
 - Kamiah  
 - Kelly Creek
 - Kendrick
+- Ketchum
 - Kibbie Dome
 - Kooskia
 - Kuna
