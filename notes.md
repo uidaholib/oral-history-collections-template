@@ -1,5 +1,15 @@
 ## Processing Notes
 
+### May not be worth hosting due to extremely compromised quality of of recordings
+
+Accurate transcriptions are not possible
+
+- lawrence_floydandnola_1
+- lawrence_floydandnola_2
+- presby_curtis_1
+- ringsage_jeanandstiner_1
+- ringsage_jeanandstiner_2
+
 ### Included in _transcripts but not CSV
 
 - byers_fannie_1: is there a reason this is not included in current CSV?
