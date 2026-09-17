@@ -36,11 +36,7 @@
 - rowan_frankandlottie_2: heavy racial slurs
 - wilkins_kenneth_1
 
-### Translation notes
-
-- jackson_alice_1: Nez Perce words that could use another look
-
-### Misc.
+### Misc. Audio Notes
 
 - lawrence_floydandnola_2: Same audio seems to repeat from an hour into the recording. Also, a ton of cross-talk.
 - buchanan_george_1: listed as transcript only but its just an index
@@ -75,6 +71,7 @@
 
 - The tagging elements can be a dropdown menu on the left of the Browse page rather than a tagging data visualization page
 - The photographs of the interviewees should expand in a light box on selection
+- Optimizing the People page ith subjects and tags and removing the interviews page seems like the more intuitive user navigation
 
 ### Model notes
 
