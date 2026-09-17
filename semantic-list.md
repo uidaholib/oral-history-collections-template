@@ -222,12 +222,14 @@
 - Asotin
 - Ahsahka
 - Aspendale
+- Bald Mountain
 - Beals Butte
 - Bear Creek
 - Beartrack Creek
 - Beeson Meadows
 - Benewah County
 - Bergen, Norway
+- Big Bear Ridge
 - Bluestem, WA
 - Bonanza
 - Bovard
@@ -240,9 +242,11 @@
 - Camp Kenjockety
 - Cashup Davis Hotel (Steptoe Butte)
 - Cavendish
+- Cedar Ridge
 - Chatcolet Lake 
 - Chehalis, WA
 - Cheney
+- Cherry Butte
 - Christianson Meadow
 - Clarkia
 - Clarkston, WA
@@ -260,6 +264,7 @@
 - Deary
 - Dogger
 - Driscoll Ridge
+- Dry Ridge
 - Dublin (ghost town "two miles east of what is now Craigmont")
 - Dworshak Dam
 - Ellensburg
@@ -280,13 +285,15 @@
 - Gifford (ghost town between Lewiston and Craigmont)
 - Gilt Edge Mine
 - Grangeville
+- Hampton
+- Harvard
 - Hatter Creek
 - Heyburn Park
 - Hayden
 - Helmer
 - Hog Meadow Creek
 - Hope
-- Hoodoo
+- Hoodoo (also, Hoodoo Mountains)
 - Hood River, WA
 - Hoquiam, WA
 - Howell (non-extant)
@@ -313,11 +320,13 @@
 - Lochsa River
 - Lolo Pass, MO
 - Luella Mine
+- McGary Butte
 - Melrose Ridge
 - Metaline Falls
-- Micah Mountain
+- Mica Mountain (also, Mica Peak)
 - Mizpah Mine
 - Moeller (ghost town "between Craigmont and Nez Perce")
+- Moose Creek
 - Muscovite Mine
 - Nespelem, WA
 - Nora
@@ -326,6 +335,7 @@
 - Onaway
 - Oviatt Meadows
 - Owyhee Mountains
+- Paradise Ridge
 - Parker
 - Parma
 - Payette Lake
@@ -334,6 +344,7 @@
 - Pembine
 - Pocatello
 - Pomeroy
+- Potato Hill
 - Potlatch  
 - Preston
 - Princeton
@@ -349,9 +360,11 @@
 - Saint Maries
 - Sacheen Lake
 - Salubria
+- Sand Mountain
 - Sausalito, CA
 - Scoville
 - Selway–Bitterroot Wilderness
+- Shea Meadows
 - Silverton, OR
 - Slabtown
 - Snoqualmie Falls, WA
@@ -366,18 +379,24 @@
 - Swamp Creek
 - Teakean Butte
 - Tensed
+- Texas Ridge
+- Tomer Butte
 - Toppenish, WA
 - Troy
 - Uniontown, WA
+- Vassar Meadows
+- Viola
 - Vollmer (now Troy)
 - Waha Lake
 - Walla Walla, WA
 - Wenatchee, WA
 - Weiser
+- West Fork
 - White Bird
 - Whitmore School
 - Wilson Creek
 - Woodfell
+- Yale
 - Yreka Mining District
 
 ## Play / Games
