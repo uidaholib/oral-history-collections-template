@@ -1,31 +1,5 @@
 ## Processing Notes
 
-### Reprocess with new script
-
-- halen_alben_2: subtle diarization problems; premiere struggling with dialogue. Halen's wife also speaks in the interview but is not named in the metadata. aw - script c and d both failed - try again with large model with script_d (pending - run with three speakers) -- try with B?
-- wilkins_kenneth_1: premiere over-parses; diarization problems and missing speech from whisper script -- aw will try again with script_c medium
-- steffen_kenneth_2: premiere dialogue problems; whisper diarization
-- clark_jandmarie_1: diarization problems
-- smith_nellie_2: hallucination and character corruption. Some diarization problems
-- fleener_dora_2: Rerun. Bad diarization.
-- flodin_elmer_2: Premiere transcription is poor. Rerun with scripts.
-- settle_eugene_4: some diarization problems; skipping sections of dialogue
-- grannis_kate_1: Rerun. Bad diarization. 
-- halen_alben_2: Rerun. Bad diarization. 
-- hardt_verna_1: Correctly translated but seems to drop all punctuation around 1:15:00
-- hickman_william_1: Rerun. Bad diarization.
-- lawrence_floydandnola_1: Extremely difficult recording and diarization is a mess.
-
-### Incorrect Interviewer in Metadata
-
-- glenn_bruceandagnes_1: marked as Sam but it is Laura
-- baker_winney_1: very distorted and faint -- marked as Sam in metadata but it is an unknown interviewer
-- hardt_verna_1: appears to just be a dictated tape -- no interviewer
-- johanson_nellie_1: Interviewer listed as Rachel Foxwell but it is Rachel Foxman -- https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_v07-n4.pdf
-- presby_curtis_1: marked as Sam but it is Laura
-- whitman_bess_1: marked as Sam but is an unknown interviewer
-- schimke_margaret_1: marked as sam but rachel
-
 ### Included in _transcripts but not CSV
 
 - byers_fannie_1: is there a reason this is not included in current CSV?
