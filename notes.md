@@ -69,6 +69,7 @@
 - schupfer_otto_2: 1:22:17
 - messersmith_lewisandhazel_1: Indigenous slurs
 - rowan_frankandlottie_2: heavy racial slurs
+- wilkins_kenneth_1
 
 ### Translation notes
 

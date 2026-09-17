@@ -157,7 +157,7 @@
 - August Leising (German homesteader on Texas Ridge)
 - Aaron Levi 
 - Anna Webster Litle (Dean of Women)
-- Old Codger Jack (Moonshiner)
+- Old Codger Jack (Moonshiner) also likely Cougar Jack
 - Ira Jenks (moonshiner, murderer)
 - Samuel T. Red Rosie Joe (lumberjack)
 - T.P. Jones (Weyerhaeuser superintendent, wife was timber cook)
@@ -189,6 +189,7 @@
 - Big Gil Pippen (lumberjack)
 - Joe Rivers (Indigenous lumberjack)
 - Jacob Rosenstein (Jewish shop owner)
+- Sam Samovich (Potlatch Foreman)
 - Sells-Floto Circus (https://en.wikipedia.org/wiki/Sells_Floto_Circus)
 - Shefflins
 - Shivaree
@@ -392,6 +393,7 @@
 - Coasting Parties
 - Darebase (https://en.wikipedia.org/wiki/Darebase)
 - Debates  
+- Decoration Day
 - Dialogues  
 - Do-si-do
 - Drop the Handkerchief
