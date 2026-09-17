@@ -5,15 +5,6 @@
 - byers_fannie_1: is there a reason this is not included in current CSV?
 - lynd_mary_1
 
-### Redundant Transcripts
-
-- cornelison_bernadine_1-cornelison_bernadine_5 redirects to adair_ione_1-adair_ione_5, which are already replaced
-- wurman_mamie is redirected to lynd_mary_1
-- lemarr_may_2 redirects to justice_lena_2
-- murphy_danandjoemaloney_1 is a copy of maloney_joe_1
-- platt_kenneth_1 bypasses to hickman_william_1
-- sundell_theodore_1 redirects to asplund_ida_1
-
 ### Sensitive Material
 - utt_emmettandanna_5 00:18:36; 00:52:12
 - William (Michigan Bill) Stowell: likely all of the recordings
