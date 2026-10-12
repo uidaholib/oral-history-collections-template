@@ -1,9 +1,9 @@
 {%- comment -%}
 
-    Subject Map passage modal (Bootstrap 5).
-    The .fade class gives Bootstrap's drop-down entrance. Passages are
-    rendered into #sm-snippets by _includes/js/subject-map-js.html.
-    Tab order: close, passage 1, its link, passage 2, its link ... refresh, close.
+    Subject Map passage modal (Bootstrap 5; .fade gives the drop-down entrance).
+    Passages are rendered into #sm-snippets by _includes/js/subject-map-js.html.
+    Passages are listed A-Z by interview title, five per page.
+    Tab order: close (x), passage, its link, next passage ... Close, page numbers.
 
 {%- endcomment -%}
 <div class="modal fade sm-modal" id="subject-map-modal" tabindex="-1"
@@ -19,14 +19,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <ol class="sm-snippets" id="sm-snippets"></ol>
+                <ul class="sm-snippets list-unstyled mb-0" id="sm-snippets"></ul>
             </div>
-            <div class="modal-footer justify-content-between">
-                <button type="button" class="btn btn-outline-primary" id="sm-refresh">
-                    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false" class="me-1"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    Show five more
-                </button>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <div class="modal-footer justify-content-between flex-wrap gap-2">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                <nav id="sm-pager" class="sm-pager" aria-label="Passage pages" hidden></nav>
             </div>
         </div>
     </div>

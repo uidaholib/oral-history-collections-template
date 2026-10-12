@@ -12,6 +12,9 @@
 #   2. exposes site.data.subject_map (tags, terms, passage counts) so the
 #      Liquid tree on /subject-map.html can render without any JavaScript.
 #
+# _data/subject-map.csv columns: tag, group, terms, description.
+# "group" is optional; nest sections with " > ", e.g. "Animals > Birds".
+#
 # A transcript row counts as a passage for a term when the term appears in the
 # row's "terms" column (e.g. "doctor;horse;potlatch"). Transcripts with no
 # "terms" column fall back to a word-boundary text search, which is slower.
@@ -25,6 +28,11 @@
 #   subject-map-terms-field: terms
 #   subject-map-context-words: 5
 #   subject-map-output: assets/data/subject-map
+#   subject-map-item-path: people   (folder of interview pages; auto-detected from page_gen)
+#   subject-map-match: auto         (auto | tagged | text | both, see plan_matching)
+#
+# A term label may carry a display-only note in brackets: "Boise (Ada County)"
+# is shown as written but matched in the transcripts as "Boise".
 #
 
 require 'json'
@@ -74,7 +82,8 @@ module SubjectMap
       'subject-map-words-field' => 'words',
       'subject-map-terms-field' => 'terms',
       'subject-map-context-words' => 5,
-      'subject-map-output' => 'assets/data/subject-map'
+      'subject-map-output' => 'assets/data/subject-map',
+      'subject-map-match' => 'auto'
     }.freeze
 
     def generate(site)
@@ -94,6 +103,7 @@ module SubjectMap
 
       transcripts = site.data[@cfg['subject-map-transcripts']]
       transcripts = {} unless transcripts.is_a?(Hash)
+      plan_matching(transcripts, lookup)
       transcripts.keys.sort.each do |objectid|
         index_transcript(objectid.to_s, transcripts[objectid], lookup, occurrences)
       end
@@ -105,25 +115,57 @@ module SubjectMap
 
     # ---- tag list -----------------------------------------------------------
 
+    # Each CSV row is a tag, an optional group path ("Animals > Birds") and its
+    # terms. Rows for the same tag are merged in file order. Each tag gets:
+    #   'terms'    - flat list of unique terms (used for indexing and counts)
+    #   'children' - display tree of groups ({'group' => true, 'name', 'children'})
+    #                and terms, in the order they appear in the CSV
     def parse_tags(rows)
-      rows.filter_map do |row|
+      tags = {}
+      rows.each do |row|
         name = row['tag'].to_s.strip
         next if name.empty?
+
+        tag = tags[name] ||= {
+          'tag' => name,
+          'slug' => Jekyll::Utils.slugify(name),
+          'description' => row['description'].to_s.strip,
+          'terms' => [],
+          'children' => [],
+          'by_key' => {}
+        }
+
+        container = tag['children']
+        row['group'].to_s.split('>').map(&:strip).reject(&:empty?).each do |part|
+          group = container.find { |node| node['group'] && node['name'] == part }
+          unless group
+            group = { 'group' => true, 'name' => part, 'children' => [] }
+            container << group
+          end
+          container = group['children']
+        end
 
         raw = row['terms'].to_s.split(';').map(&:strip).reject(&:empty?)
         raw.select { |term| term.include?(':') }.each do |term|
           Jekyll.logger.warn 'Subject Map:', "\"#{term}\" in #{name} contains a colon. Should it be a semicolon?"
         end
-        terms = raw.uniq { |term| normalize(term) }
-                   .map { |term| { 'label' => term, 'key' => normalize(term) } }
-
-        {
-          'tag' => name,
-          'slug' => Jekyll::Utils.slugify(name),
-          'description' => row['description'].to_s.strip,
-          'terms' => terms
-        }
+        raw.each do |label|
+          key = normalize(match_text(label))
+          term = tag['by_key'][key]
+          unless term
+            term = { 'label' => label, 'key' => key }
+            tag['by_key'][key] = term
+            tag['terms'] << term
+          end
+          container << term unless container.include?(term)
+        end
       end
+      tags.values.each { |tag| tag.delete('by_key') }
+    end
+
+    # "Boise (Ada County)" matches transcripts as "Boise"; the note is display-only.
+    def match_text(label)
+      label.sub(/\s*\([^()]*\)\s*\z/, '')
     end
 
     def normalize(text)
@@ -147,13 +189,83 @@ module SubjectMap
 
     # ---- transcripts --------------------------------------------------------
 
+    # How each term is found in the transcripts ("subject-map-match" in theme.yml):
+    #   auto   - terms that appear in any transcript's terms column use those tags;
+    #            terms never tagged anywhere (newly added ones) are found by
+    #            searching the dialogue for the word itself  (default)
+    #   tagged - terms column only
+    #   text   - dialogue search only
+    #   both   - terms column plus dialogue search for every term
+    def plan_matching(transcripts, lookup)
+      mode = @cfg['subject-map-match'].to_s.strip.downcase
+      terms_field = @cfg['subject-map-terms-field']
+      @use_column = mode != 'text'
+
+      tagged = {}
+      if mode == 'auto'
+        transcripts.each_value do |rows|
+          next unless rows.is_a?(Array)
+
+          rows.each do |row|
+            next unless row.is_a?(Hash)
+
+            row[terms_field].to_s.split(';').each do |term|
+              key = normalize(term)
+              tagged[key] = true if lookup.key?(key)
+            end
+          end
+        end
+      end
+
+      text_keys = case mode
+                  when 'tagged' then []
+                  when 'text', 'both' then lookup.keys
+                  else lookup.keys.reject { |key| tagged[key] }
+                  end
+      @text_index = first_word_index(text_keys, lookup)
+      @full_index = first_word_index(lookup.keys, lookup)
+      unless text_keys.empty? || mode != 'auto'
+        Jekyll.logger.info 'Subject Map:', "#{text_keys.size} terms not in any terms column, searching dialogue for them."
+      end
+    end
+
+    # first word of each term variant => keys, so a line is only tested
+    # against the few terms that could start at one of its words
+    def first_word_index(keys, lookup)
+      index = Hash.new { |hash, word| hash[word] = [] }
+      keys.each do |key|
+        variants = [key]
+        variants << key.split(',').first.strip if key.include?(',')
+        variants.each do |variant|
+          word = variant[/[[:alnum:]]+/]
+          index[word] << key if word && !index[word].include?(key)
+        end
+      end
+      index.default_proc = nil
+      index
+    end
+
+    def text_matches(words, index, lookup)
+      found = []
+      words.downcase.scan(/[[:alnum:]]+/).uniq.each do |token|
+        [token, token.sub(/s\z/, ''), token.sub(/es\z/, '')].uniq.each do |candidate|
+          (index[candidate] || []).each do |key|
+            next if found.include?(key)
+
+            found << key if lookup[key].any? { |re| re.match?(words) }
+          end
+        end
+      end
+      found
+    end
+
     def index_transcript(objectid, rows, lookup, occurrences)
       return unless rows.is_a?(Array) && rows.first.is_a?(Hash)
 
       words_field = @cfg['subject-map-words-field']
       terms_field = @cfg['subject-map-terms-field']
-      tagged = rows.first.key?(terms_field)
-      unless tagged
+      has_column = rows.first.key?(terms_field)
+      unless has_column
         Jekyll.logger.warn 'Subject Map:', "#{objectid} has no \"#{terms_field}\" column, using text search."
       end
 
@@ -161,14 +273,14 @@ module SubjectMap
         words = row[words_field].to_s
         next if words.strip.empty?
 
-        keys = if tagged
-                 row[terms_field].to_s.split(';').map { |term| normalize(term) }
-                                 .reject(&:empty?).uniq.select { |key| lookup.key?(key) }
-               else
-                 lookup.keys.select { |key| lookup[key].any? { |re| re.match?(words) } }
-               end
+        keys = []
+        if has_column && @use_column
+          keys.concat(row[terms_field].to_s.split(';').map { |term| normalize(term) }
+                                       .reject(&:empty?).select { |key| lookup.key?(key) })
+        end
+        keys.concat(text_matches(words, has_column ? @text_index : @full_index, lookup))
 
-        keys.each { |key| occurrences[key] << passage(objectid, index, row, words, lookup[key]) }
+        keys.uniq.each { |key| occurrences[key] << passage(objectid, index, row, words, lookup[key]) }
       end
     end
 
@@ -262,7 +374,22 @@ module SubjectMap
       end
 
       site.data['subject_map'] = tags
-      Jekyll.logger.info 'Subject Map:', "#{passages} passages indexed across #{tags.size} tags."
+      site.data['subject_map_item_base'] = item_base(site)
+      Jekyll.logger.info 'Subject Map:', "#{passages} passages indexed across #{tags.size} tags, " \
+                                         "linking to #{site.data['subject_map_item_base']}<objectid>.html"
+    end
+
+    # Folder holding the interview pages: theme.yml "subject-map-item-path" if set,
+    # otherwise the "dir" of the page_gen entry for the metadata CSV, otherwise "items".
+    def item_base(site)
+      dir = site.data.dig('theme', 'subject-map-item-path').to_s.strip
+      if dir.empty?
+        generators = Array(site.config['page_gen']).select { |gen| gen.is_a?(Hash) }
+        match = generators.find { |gen| gen['data'].to_s == site.config['metadata'].to_s } || generators.first
+        dir = match ? match['dir'].to_s.strip : ''
+      end
+      dir = 'items' if dir.empty?
+      "/#{dir.gsub(%r{\A/+|/+\z}, '')}/"
     end
   end
 end

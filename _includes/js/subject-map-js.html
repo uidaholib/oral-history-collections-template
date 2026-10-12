@@ -1,10 +1,14 @@
 <script>
 /*
  * Subject Map
- *  - Tag buttons expand/collapse their branch of terms (Enter, click).
- *  - Esc on a term collapses its branch and returns focus to the tag.
- *  - A term opens the modal with five random tagged passages, one per
- *    interview where possible; "Show five more" draws a fresh set.
+ *  - Collapsible horizontal tree (D3): root -> tags -> sections -> terms, curved limbs.
+ *    Loads with tags only; selecting a tag or section unfolds the next level.
+ *    Only one path is open at a time: opening or moving into another section
+ *    folds the one you left. The selected node stays put while the tree reflows.
+ *  - Keyboard: Tab / Shift+Tab or Up / Down move between visible nodes;
+ *    Enter or Space opens; Right expands; Left or Esc steps back up and folds.
+ *  - A term opens the modal listing every passage A-Z by interview title,
+ *    five per page, with page numbers in runs of five.
  *  - Passage data loads lazily, one JSON file per tag, from the build index.
  *  - ?tag=<slug>&term=<key> reopens a term, so a set of passages can be shared.
  */
@@ -12,13 +16,29 @@
   'use strict';
 
   const root = document.getElementById('subject-map');
+  const canvas = document.getElementById('sm-canvas');
+  const dataEl = document.getElementById('sm-data');
   const modalEl = document.getElementById('subject-map-modal');
-  if (!root || !modalEl) return;
+  if (!root || !canvas || !dataEl || !modalEl) return;
+
+  const d3 = window.d3;
+  if (!d3) {
+    canvas.textContent = 'The subject map could not be drawn because its charting library did not load.';
+    return;
+  }
 
   const INDEX_BASE = root.dataset.indexBase;
   const ITEM_BASE = root.dataset.itemBase;
   const LINE_OFFSET = parseInt(root.dataset.lineOffset, 10) || 0;
-  const PER_DRAW = parseInt(root.dataset.perDraw, 10) || 5;
+  const PER_PAGE = parseInt(root.dataset.perPage || root.dataset.perDraw, 10) || 5;
+
+  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const DURATION = reduceMotion ? 0 : 450;
+  const ROW = 26;        // vertical spacing between sibling terms
+  const R = 7;           // node radius
+  const PAD = 16;        // space around the drawing
+  const GAP = 8;         // space between a node and its label
+  const FONT_SIZE = 14;  // keep in step with .sm-tree in subject-map.css
 
   // Passage array positions (see FIELDS in _plugins/subject_map_index.rb)
   const F = { id: 0, line: 1, ts: 2, secs: 3, speaker: 4, before: 5, match: 6, after: 7, found: 8 };
@@ -28,25 +48,19 @@
     title: document.getElementById('sm-modal-title'),
     summary: document.getElementById('sm-modal-summary'),
     list: document.getElementById('sm-snippets'),
-    refresh: document.getElementById('sm-refresh'),
+    pager: document.getElementById('sm-pager'),
     status: document.getElementById('sm-status')
   };
 
   const tagCache = new Map();
   let active = null;
+  // Read on load, before any interaction rewrites the URL.
+  const initialParams = new URLSearchParams(window.location.search);
 
-  /* ---------- helpers ---------- */
+  /* ================= helpers ================= */
 
-  const shuffle = (arr) => {
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  };
   const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
-  const passageId = (o) => `${o[F.id]}#${o[F.line]}`;
-  const tagButton = (slug) => document.getElementById(`sm-tag-${slug}`);
+  const translate = (p) => `translate(${p[0]},${p[1]})`;
 
   function el(tag, className, text) {
     const node = document.createElement(tag);
@@ -85,70 +99,330 @@
     return tagCache.get(slug);
   }
 
-  /* ---------- tree ---------- */
-
-  function setExpanded(btn, open) {
-    btn.setAttribute('aria-expanded', String(open));
-    btn.closest('.sm-tag').classList.toggle('is-open', open);
-    if (open) loadTag(btn.dataset.tag).catch(() => {}); // warm the cache
+  // Label widths, used to place the columns so labels never collide with nodes.
+  const measureCtx = (() => {
+    try { return document.createElement('canvas').getContext('2d'); } catch (e) { return null; }
+  })();
+  const fontFamily = window.getComputedStyle(canvas).fontFamily || 'sans-serif';
+  function measure(text, bold) {
+    if (!measureCtx) return text.length * FONT_SIZE * 0.56;
+    measureCtx.font = `${bold ? 700 : 400} ${FONT_SIZE}px ${fontFamily}`;
+    return measureCtx.measureText(text).width;
   }
 
-  root.addEventListener('click', (event) => {
-    const tagBtn = event.target.closest('.sm-tag-btn');
-    if (tagBtn) {
-      setExpanded(tagBtn, tagBtn.getAttribute('aria-expanded') !== 'true');
+  /* ================= tree data ================= */
+
+  // Tags -> optional groups (any depth) -> terms, from site.data.subject_map.
+  const tags = JSON.parse(dataEl.textContent || '[]');
+  function mapChildren(children, tag) {
+    return (children || []).map((c) => (c.group
+      ? { kind: 'group', name: c.name, slug: tag.slug, children: mapChildren(c.children, tag) }
+      : { kind: 'term', name: c.label, key: c.key, count: c.count || 0, slug: tag.slug, tagName: tag.tag }));
+  }
+  const hroot = d3.hierarchy({
+    kind: 'root',
+    name: root.dataset.rootLabel || 'Subjects',
+    children: tags.map((t) => ({ kind: 'tag', name: t.tag, slug: t.slug, children: mapChildren(t.children || t.terms, t) }))
+  });
+  let nextId = 0;
+  hroot.eachBefore((d) => { d.id = nextId++; });
+  const everyNode = hroot.descendants();
+  // Start with everything below the tags folded.
+  everyNode.forEach((d) => { if (d.depth > 0 && d.children) { d._children = d.children; d.children = null; } });
+
+  const isTerm = (d) => d.data.kind === 'term';
+  const hasKids = (d) => !!(d.children || d._children);
+
+  const svg = d3.select(canvas).append('svg')
+    .attr('class', 'sm-tree')
+    .attr('role', 'tree')
+    .attr('aria-label', 'Subject map')
+    .attr('aria-describedby', 'sm-instructions');
+  const gLinks = svg.append('g').attr('class', 'sm-links').attr('aria-hidden', 'true');
+  const gNodes = svg.append('g').attr('class', 'sm-nodes');
+
+  const layout = d3.tree()
+    .nodeSize([ROW, 1])
+    .separation((a, b) => {
+      if (a.parent !== b.parent) return 1.6;  // gap between neighbouring groups
+      return hasKids(a) && !a.children ? 1.3 : 1; // a little air between folded sections
+    });
+  const limb = d3.linkHorizontal().x((p) => p[0]).y((p) => p[1]);
+
+  let svgHeight = 0;
+  let heightTimer = null;
+  let lastWidth = 0;
+
+  // Column x-position for each depth. Section labels sit to the left of their
+  // node, so each column leaves room for the widest section label at that depth.
+  const sectionLabelWidth = [];
+  everyNode.forEach((d) => {
+    if (isTerm(d)) return;
+    sectionLabelWidth[d.depth] = Math.max(sectionLabelWidth[d.depth] || 0, measure(d.data.name, true));
+  });
+  const maxDepth = hroot.height;
+
+  function columns() {
+    const width = canvas.clientWidth || 800;
+    const showRoot = width >= 640;
+    const spacing = showRoot ? 44 : 16;
+    const x = [PAD + (sectionLabelWidth[0] || 0) + GAP + R];
+    for (let k = 1; k <= maxDepth; k++) {
+      const label = sectionLabelWidth[k] || 0;
+      if (k === 1 && !showRoot) x[k] = PAD + label + GAP + R;
+      else x[k] = x[k - 1] + R + spacing + (label ? label + GAP : 0) + R;
+    }
+    return { width, showRoot, x };
+  }
+
+  /* ================= drawing ================= */
+
+  function buildNode(node, d) {
+    const g = d3.select(node);
+    g.append('circle').attr('r', R);
+    const labelLeft = !isTerm(d);
+    g.append('text')
+      .attr('dy', '0.32em')
+      .attr('x', labelLeft ? -(R + GAP) : R + GAP)
+      .attr('text-anchor', labelLeft ? 'end' : 'start')
+      .text(d.data.name);
+
+    if (d.depth === 0) {
+      g.attr('aria-hidden', 'true');
       return;
     }
-    const termBtn = event.target.closest('.sm-term-btn');
-    if (termBtn) openTerm(termBtn);
-  });
-
-  root.addEventListener('keydown', (event) => {
-    if (event.key !== 'Escape') return;
-    const termBtn = event.target.closest('.sm-term-btn');
-    const tagBtn = termBtn ? tagButton(termBtn.dataset.tag) : event.target.closest('.sm-tag-btn');
-    if (!tagBtn || tagBtn.getAttribute('aria-expanded') !== 'true') return;
-    event.preventDefault();
-    setExpanded(tagBtn, false);
-    tagBtn.focus();
-  });
-
-  /* ---------- selection ---------- */
-
-  // Round-robin across shuffled interviews so the picks come from different
-  // interviews, reusing an interview only when there are too few of them.
-  function roundRobin(passages, count, picks) {
-    const groups = new Map();
-    shuffle(passages.slice()).forEach((o) => {
-      if (!groups.has(o[F.id])) groups.set(o[F.id], []);
-      groups.get(o[F.id]).push(o);
-    });
-    // Interviews not yet in this draw go first.
-    const used = new Set(picks.map((o) => o[F.id]));
-    const queues = shuffle([...groups.values()])
-      .sort((a, b) => used.has(a[0][F.id]) - used.has(b[0][F.id]));
-
-    for (let round = 0; picks.length < count; round++) {
-      let added = false;
-      for (const queue of queues) {
-        if (!queue[round]) continue;
-        picks.push(queue[round]);
-        added = true;
-        if (picks.length === count) break;
-      }
-      if (!added) break;
+    g.attr('role', 'treeitem').attr('aria-level', d.depth);
+    if (isTerm(d)) {
+      g.attr('aria-haspopup', 'dialog')
+        .attr('aria-label', `${d.data.name}, ${plural(d.data.count, 'passage')}`);
+      g.append('title').text(plural(d.data.count, 'tagged passage'));
+      if (!d.data.count) g.classed('is-empty', true).attr('aria-disabled', 'true');
+    } else {
+      g.attr('aria-label', d.data.name);
     }
-    return picks;
   }
 
-  // Fresh passages first; previously shown ones only fill any gap.
-  function pick(passages, count, seen) {
-    const fresh = passages.filter((o) => !seen.has(passageId(o)));
-    const stale = passages.filter((o) => seen.has(passageId(o)));
-    return roundRobin(stale, count, roundRobin(fresh, count, []));
+  // anchor: node to keep still on screen while the tree reflows
+  function update(anchor, animate) {
+    const dur = animate === false ? 0 : DURATION;
+    const cols = columns();
+    lastWidth = cols.width;
+    layout(hroot);
+
+    const visible = [];
+    hroot.eachBefore((d) => { d.order = visible.length; visible.push(d); });
+    const shown = cols.showRoot ? visible : visible.filter((d) => d.depth > 0);
+
+    const xs = shown.map((d) => d.x);
+    const minX = Math.min(...xs);
+    const maxX = Math.max(...xs);
+    const off = PAD + ROW / 2 - minX;
+    const height = Math.ceil(maxX - minX + ROW + PAD * 2);
+    const rightEdge = Math.max(0, ...shown.map((d) => cols.x[d.depth] + R
+      + (isTerm(d) ? GAP + measure(d.data.name) : 0)));
+    const width = Math.ceil(Math.max(cols.width, rightEdge + PAD));
+    const pos = (d) => [cols.x[d.depth], d.x + off];
+    // Animate unless motion is reduced, in which case apply the end state directly.
+    const move = (sel) => (dur ? sel.transition('move').duration(dur) : sel.interrupt('move'));
+
+    svg.attr('width', width).attr('height', Math.max(height, svgHeight));
+
+    // Scroll so the anchor node ends where it started; everything else
+    // starts from where it appeared before the scroll, so nothing jumps.
+    let shift = 0;
+    if (anchor && anchor.ry != null) {
+      const before = window.scrollY;
+      try { window.scrollBy(0, anchor.x + off - anchor.ry); } catch (e) { /* no scrolling here */ }
+      shift = window.scrollY - before;
+    }
+    const from = (d) => (d.ry != null ? [d.rx, d.ry + shift] : pos(d));
+    const enterFrom = (d) => (d.parent && d.parent.ry != null ? from(d.parent) : pos(d));
+
+    const focused = document.activeElement;
+
+    // ---- nodes ----
+    const nodes = gNodes.selectAll('g.sm-node').data(shown, (d) => d.id);
+
+    const entered = nodes.enter().append('g')
+      .attr('class', (d) => `sm-node depth-${d.depth} kind-${d.data.kind}`)
+      .attr('transform', (d) => translate(enterFrom(d)))
+      .attr('opacity', 0)
+      .each(function (d) { buildNode(this, d); });
+
+    nodes.attr('transform', (d) => translate(from(d)));
+
+    const all = entered.merge(nodes)
+      .classed('is-exiting', false)
+      .attr('tabindex', (d) => (d.depth === 0 ? null : 0))
+      .attr('aria-hidden', (d) => (d.depth === 0 ? 'true' : null))
+      .attr('aria-setsize', (d) => (d.parent ? d.parent.children.length : null))
+      .attr('aria-posinset', (d) => (d.parent ? d.parent.children.indexOf(d) + 1 : null));
+
+    all.filter((d) => d.depth > 0 && hasKids(d))
+      .attr('aria-expanded', (d) => (d.children ? 'true' : 'false'))
+      .classed('is-collapsed', (d) => !!d._children);
+
+    all.sort((a, b) => a.order - b.order); // DOM order = Tab order = tree order
+
+    move(all)
+      .attr('transform', (d) => translate(pos(d)))
+      .attr('opacity', 1);
+
+    move(nodes.exit()
+      .classed('is-exiting', true)
+      .attr('tabindex', null)
+      .attr('aria-hidden', 'true')
+      .attr('transform', (d) => translate(from(d))))
+      .attr('transform', (d) => translate(d.parent ? pos(d.parent) : from(d)))
+      .attr('opacity', 0)
+      .remove();
+
+    // ---- limbs ----
+    const limbData = shown.filter((d) => d.parent && (cols.showRoot || d.depth > 1));
+    const limbs = gLinks.selectAll('path.sm-link').data(limbData, (d) => d.id);
+
+    const limbsIn = limbs.enter().append('path')
+      .attr('class', 'sm-link')
+      .attr('d', (d) => { const p = enterFrom(d); return limb({ source: p, target: p }); });
+
+    limbs.attr('d', (d) => limb({ source: from(d.parent), target: from(d) }));
+
+    move(limbsIn.merge(limbs))
+      .attr('d', (d) => limb({ source: pos(d.parent), target: pos(d) }));
+
+    move(limbs.exit())
+      .attr('d', (d) => { const p = d.parent.ry != null ? pos(d.parent) : from(d); return limb({ source: p, target: p }); })
+      .remove();
+
+    // Remember where everything was drawn for the next transition.
+    shown.forEach((d) => { const p = pos(d); d.rx = p[0]; d.ry = p[1]; });
+
+    svgHeight = height;
+    window.clearTimeout(heightTimer);
+    heightTimer = window.setTimeout(() => svg.attr('height', svgHeight), dur + 40);
+
+    if (focused && focused.isConnected && document.activeElement !== focused) {
+      focused.focus({ preventScroll: true });
+    }
   }
 
-  /* ---------- modal ---------- */
+  /* ================= interaction ================= */
+
+  const nodeElement = (d) => gNodes.selectAll('g.sm-node').nodes()
+    .find((n) => n.__data__ === d && !n.classList.contains('is-exiting'));
+
+  function focusNode(d) {
+    const node = d && nodeElement(d);
+    if (node) node.focus();
+  }
+
+  // Only one path through the tree is ever open: fold every open section
+  // that isn't d or one of its ancestors. Returns true if anything folded.
+  function foldOutside(d) {
+    const keep = new Set(d.ancestors());
+    let changed = false;
+    hroot.descendants().forEach((n) => {
+      if (n.depth > 0 && n.children && !keep.has(n)) {
+        n._children = n.children;
+        n.children = null;
+        changed = true;
+      }
+    });
+    return changed;
+  }
+
+  function setOpen(d, open) {
+    if (open && d._children) {
+      foldOutside(d);
+      d.children = d._children;
+      d._children = null;
+      loadTag(d.data.slug).catch(() => {}); // warm the cache
+    } else if (!open && d.children) {
+      d._children = d.children;
+      d.children = null;
+    } else {
+      return false;
+    }
+    update(d);
+    return true;
+  }
+
+  function activate(d, node) {
+    if (isTerm(d)) openTerm(d, node);
+    else if (d.depth > 0 && hasKids(d)) setOpen(d, !d.children);
+  }
+
+  // Leaving a section (by Tab, arrows or pointer) folds it behind you.
+  let reflowing = false;
+  gNodes.on('focusin', (event) => {
+    const node = event.target.closest('g.sm-node');
+    if (!node || reflowing) return;
+    const d = node.__data__;
+    if (!foldOutside(d)) return;
+    reflowing = true;
+    update(d);
+    reflowing = false;
+  });
+
+  gNodes.on('click', (event) => {
+    const node = event.target.closest('g.sm-node');
+    if (!node || node.classList.contains('is-exiting')) return;
+    activate(node.__data__, node);
+  });
+
+  gNodes.on('keydown', (event) => {
+    const node = event.target.closest('g.sm-node');
+    if (!node) return;
+    const d = node.__data__;
+    const order = Array.from(gNodes.node().querySelectorAll('g.sm-node[tabindex="0"]'));
+    const i = order.indexOf(node);
+    const parent = d.parent && d.parent.depth > 0 ? d.parent : null;
+
+    switch (event.key) {
+      case 'Enter':
+      case ' ':
+        activate(d, node);
+        break;
+      case 'Escape':
+        if (d.children) setOpen(d, false);
+        else if (parent) { focusNode(parent); setOpen(parent, false); }
+        else return;
+        break;
+      case 'ArrowDown':
+        if (order[i + 1]) order[i + 1].focus();
+        break;
+      case 'ArrowUp':
+        if (order[i - 1]) order[i - 1].focus();
+        break;
+      case 'ArrowRight':
+        if (d._children) setOpen(d, true);
+        else if (d.children) focusNode(d.children[0]);
+        break;
+      case 'ArrowLeft':
+        if (d.children) setOpen(d, false);
+        else if (parent) focusNode(parent);
+        break;
+      case 'Home':
+        if (order[0]) order[0].focus();
+        break;
+      case 'End':
+        if (order.length) order[order.length - 1].focus();
+        break;
+      default:
+        return;
+    }
+    event.preventDefault();
+  });
+
+  let resizeTimer = null;
+  window.addEventListener('resize', () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => {
+      if (canvas.clientWidth !== lastWidth) update(null, false);
+    }, 150);
+  });
+
+  /* ================= modal ================= */
 
   function getModal() {
     if (window.bootstrap && window.bootstrap.Modal) {
@@ -166,7 +440,7 @@
     return url.pathname + url.search;
   }
 
-  function renderPassage(o, index, total) {
+  function renderPassage(o) {
     const title = active.titles[o[F.id]] || o[F.id];
     const ts = o[F.ts];
     const found = o[F.found] === 1;
@@ -174,7 +448,7 @@
     const item = el('li', 'sm-item');
     const card = el('article', 'sm-passage');
     card.tabIndex = 0;
-    card.setAttribute('aria-label', `Passage ${index + 1} of ${total}, ${title}${ts ? `, at ${ts}` : ''}`);
+    card.setAttribute('aria-label', `${title}${ts ? `, at ${ts}` : ''}`);
 
     const link = el('a', 'sm-term-link', found ? o[F.match] : (ts ? `Listen at ${ts}` : 'Open interview'));
     link.href = itemHref(o);
@@ -187,8 +461,6 @@
     quote.append(text);
 
     const cite = el('p', 'sm-cite');
-    if (o[F.speaker]) cite.append(el('span', 'sm-speaker', o[F.speaker]));
-    if (ts) cite.append(el('span', 'sm-ts', ts));
     cite.append(el('cite', null, title));
 
     card.append(quote, cite);
@@ -196,56 +468,104 @@
     return item;
   }
 
-  function draw(isRefresh) {
+  // Passages are listed A-Z by interview title (then in interview order),
+  // PER_PAGE at a time. Page numbers show in runs of five: 1 2 3 4 5 … / … 6 7 8 9 10 …
+  const PAGE_RUN = 5;
+
+  function pageButton(label, page, ariaLabel, opts) {
+    const li = el('li', `page-item${opts.disabled ? ' disabled' : ''}${opts.current ? ' active' : ''}`);
+    const btn = el('button', 'page-link', label);
+    btn.type = 'button';
+    btn.dataset.page = page;
+    btn.setAttribute('aria-label', ariaLabel);
+    if (opts.current) btn.setAttribute('aria-current', 'page');
+    if (opts.disabled) btn.disabled = true;
+    li.append(btn);
+    return li;
+  }
+
+  function renderPager() {
+    const pages = Math.ceil(active.passages.length / PER_PAGE);
+    ui.pager.replaceChildren();
+    ui.pager.hidden = pages <= 1;
+    if (pages <= 1) return;
+
+    const page = active.page;
+    const runStart = Math.floor((page - 1) / PAGE_RUN) * PAGE_RUN + 1;
+    const runEnd = Math.min(runStart + PAGE_RUN - 1, pages);
+    const list = el('ul', 'pagination pagination-sm mb-0');
+
+    list.append(pageButton('‹', page - 1, 'Previous page', { disabled: page === 1 }));
+    if (runStart > 1) {
+      list.append(pageButton('…', runStart - 1, `Pages ${runStart - PAGE_RUN} to ${runStart - 1}`, {}));
+    }
+    for (let p = runStart; p <= runEnd; p++) {
+      list.append(pageButton(String(p), p, `Page ${p} of ${pages}`, { current: p === page }));
+    }
+    if (runEnd < pages) {
+      list.append(pageButton('…', runEnd + 1, `Pages ${runEnd + 1} to ${Math.min(runEnd + PAGE_RUN, pages)}`, {}));
+    }
+    list.append(pageButton('›', page + 1, 'Next page', { disabled: page === pages }));
+    ui.pager.append(list);
+  }
+
+  function showPage(page, fromPager) {
     const { passages } = active;
-    const needed = Math.min(PER_DRAW, passages.length);
-    const unseen = passages.filter((o) => !active.seen.has(passageId(o))).length;
-    // Out of fresh passages: start over, but avoid repeating the current set.
-    if (unseen < needed) active.seen = new Set(active.lastShown);
+    const pages = Math.max(1, Math.ceil(passages.length / PER_PAGE));
+    active.page = Math.min(Math.max(1, page), pages);
+    const start = (active.page - 1) * PER_PAGE;
+    const slice = passages.slice(start, start + PER_PAGE);
 
-    const picks = pick(passages, PER_DRAW, active.seen);
-    picks.forEach((o) => active.seen.add(passageId(o)));
-    active.lastShown = picks.map(passageId);
-
-    ui.list.replaceChildren(...picks.map((o, i) => renderPassage(o, i, picks.length)));
+    ui.list.replaceChildren(...slice.map(renderPassage));
+    renderPager();
 
     const interviews = new Set(passages.map((o) => o[F.id])).size;
-    const shownFrom = new Set(picks.map((o) => o[F.id])).size;
-    ui.summary.textContent = `${plural(passages.length, 'tagged passage')} across ${plural(interviews, 'interview')}. `
-      + (passages.length > picks.length ? `Showing ${picks.length} at random.` : 'Showing all of them.');
-    ui.refresh.disabled = passages.length <= picks.length;
-    announce(`${isRefresh ? 'New selection. ' : ''}${plural(picks.length, 'passage')} from ${plural(shownFrom, 'interview')} about ${active.label}.`);
+    const range = passages.length > slice.length ? ` Showing ${start + 1}–${start + slice.length}.` : '';
+    ui.summary.textContent = `${plural(passages.length, 'passage')} across ${plural(interviews, 'interview')}, listed A–Z by interview.${range}`;
 
-    if (isRefresh) {
-      const first = ui.list.querySelector('.sm-passage');
-      if (first) first.focus();
+    if (fromPager) {
+      const body = modalEl.querySelector('.modal-body');
+      if (body) body.scrollTop = 0;
+      const current = ui.pager.querySelector('[aria-current="page"]');
+      if (current) current.focus();
+      announce(`Page ${active.page} of ${pages}, passages ${start + 1} to ${start + slice.length}.`);
+    } else {
+      announce(`${plural(passages.length, 'passage')} about ${active.label}, page 1 of ${pages}.`);
     }
   }
 
-  async function openTerm(btn) {
-    const label = btn.dataset.label;
-    if (btn.getAttribute('aria-disabled') === 'true') {
+  ui.pager.addEventListener('click', (event) => {
+    const btn = event.target.closest('button[data-page]');
+    if (!btn || btn.disabled || !active) return;
+    showPage(parseInt(btn.dataset.page, 10), true);
+  });
+
+  const byTitle = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
+
+  async function openTerm(d) {
+    const label = d.data.name;
+    if (!d.data.count) {
       announce(`No tagged passages for ${label} yet.`);
       return;
     }
 
     const request = {
-      slug: btn.dataset.tag,
-      key: btn.dataset.term,
+      node: d,
+      slug: d.data.slug,
+      key: d.data.key,
       label,
-      trigger: btn,
       passages: [],
       titles: {},
-      seen: new Set(),
-      lastShown: []
+      page: 1
     };
     active = request;
 
-    ui.tag.textContent = btn.dataset.tagName;
+    ui.tag.textContent = d.data.tagName;
     ui.title.textContent = label;
     ui.summary.textContent = 'Loading passages…';
     ui.list.replaceChildren();
-    ui.refresh.disabled = true;
+    ui.pager.replaceChildren();
+    ui.pager.hidden = true;
     const modal = getModal();
     if (modal) modal.show();
     setParams(request.slug, request.key);
@@ -253,20 +573,18 @@
     try {
       const data = await loadTag(request.slug);
       if (active !== request) return;
-      request.passages = (data.terms && data.terms[request.key]) || [];
       request.titles = data.titles || {};
-      if (request.passages.length) draw(false);
+      const title = (o) => request.titles[o[F.id]] || o[F.id];
+      request.passages = ((data.terms && data.terms[request.key]) || []).slice()
+        .sort((a, b) => byTitle.compare(title(a), title(b)) || a[F.line] - b[F.line]);
+      if (request.passages.length) showPage(1, false);
       else ui.summary.textContent = 'No tagged passages were found for this term.';
     } catch (err) {
       if (active === request) ui.summary.textContent = 'These passages could not be loaded. Please try again later.';
     }
   }
 
-  ui.refresh.addEventListener('click', () => {
-    if (active && active.passages.length) draw(true);
-  });
-
-  // Enter on a focused passage card follows its link.
+  // Enter on a focused passage follows its link.
   ui.list.addEventListener('keydown', (event) => {
     if (event.key !== 'Enter' || !event.target.classList.contains('sm-passage')) return;
     const link = event.target.querySelector('.sm-term-link');
@@ -275,27 +593,30 @@
 
   modalEl.addEventListener('hidden.bs.modal', () => {
     setParams(null, null);
-    if (active && active.trigger && document.contains(active.trigger)) active.trigger.focus();
+    if (!active) return;
+    const target = active.node.ancestors().find((n) => n.depth > 0 && nodeElement(n));
+    focusNode(target);
   });
 
-  /* ---------- deep links ---------- */
+  /* ================= start ================= */
 
-  // Read on load, before any click rewrites the URL.
-  const initialParams = new URLSearchParams(window.location.search);
+  update(null, false);
 
-  function openFromUrl() {
+  (function openFromUrl() {
     const slug = initialParams.get('tag');
     const key = initialParams.get('term');
-    const tagBtn = slug && tagButton(slug);
-    if (!tagBtn) return;
-    setExpanded(tagBtn, true);
-    const termBtn = key && Array.from(root.querySelectorAll('.sm-term-btn'))
-      .find((b) => b.dataset.tag === slug && b.dataset.term === key);
-    if (termBtn) openTerm(termBtn);
-    else tagBtn.focus();
-  }
-
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', openFromUrl);
-  else openFromUrl();
+    const tagNode = slug && (hroot.children || []).find((d) => d.data.slug === slug);
+    if (!tagNode) return;
+    const subtree = [];
+    (function walk(n) { subtree.push(n); (n.children || n._children || []).forEach(walk); })(tagNode);
+    const termNode = key && subtree.find((n) => isTerm(n) && n.data.key === key);
+    const target = termNode || tagNode;
+    target.ancestors().reverse().forEach((n) => {
+      if (n._children && (n !== target || !termNode)) { n.children = n._children; n._children = null; }
+    });
+    update(null, false);
+    if (termNode) openTerm(termNode);
+    else focusNode(tagNode);
+  })();
 })();
 </script>
