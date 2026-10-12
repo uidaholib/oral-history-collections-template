@@ -1,0 +1,64 @@
+{%- comment -%}
+
+    Subject Map deep links for transcript item pages.
+    Include once in _layouts/transcript.html, after the media player.
+    Handles ?t=<seconds>&autoplay=1. Scrolling to the line itself is already
+    handled by the existing ?line= parameter in transcript-js.html.
+    If the browser blocks autoplay, a "Play from" button appears instead.
+
+{%- endcomment -%}
+<script>
+(function () {
+  'use strict';
+  const params = new URLSearchParams(window.location.search);
+  const start = parseFloat(params.get('t'));
+  if (!Number.isFinite(start) || start < 0) return;
+  const autoplay = params.get('autoplay') === '1';
+
+  const fmt = (s) => {
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = String(Math.floor(s % 60)).padStart(2, '0');
+    return h ? `${h}:${String(m).padStart(2, '0')}:${sec}` : `${m}:${sec}`;
+  };
+
+  function showPlayButton(media) {
+    if (document.getElementById('sm-play-from')) return;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.id = 'sm-play-from';
+    btn.className = 'btn btn-primary btn-sm my-2';
+    btn.textContent = `▶ Play from ${fmt(start)}`;
+    btn.addEventListener('click', () => {
+      media.currentTime = start;
+      media.play();
+      btn.remove();
+    });
+    media.insertAdjacentElement('beforebegin', btn);
+  }
+
+  function cue(media) {
+    const seek = () => {
+      try { media.currentTime = start; } catch (e) { /* not seekable yet */ }
+    };
+    if (media.readyState >= 1) seek();
+    else {
+      media.addEventListener('loadedmetadata', seek, { once: true });
+      if (media.preload === 'none') media.preload = 'metadata';
+    }
+    if (!autoplay) return;
+    const playing = media.play();
+    if (playing && typeof playing.catch === 'function') playing.catch(() => showPlayButton(media));
+  }
+
+  function init() {
+    // HTML5 audio/video (LCOH mp3s). For YouTube or other embedded players,
+    // replace this lookup with that player's seek and play calls.
+    const media = document.querySelector('#upper-content audio, #upper-content video, audio, video');
+    if (media) cue(media);
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>

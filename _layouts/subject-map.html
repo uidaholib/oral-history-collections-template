@@ -1,0 +1,14 @@
+---
+# Subject Map layout
+# Expanding taxonomy tree built from _data/subject-map.csv.
+# Selecting a term opens a modal with five random tagged passages from
+# _data/transcripts, each linking to that moment in the interview.
+# Passage data is generated at build time by _plugins/subject_map_index.rb.
+layout: page
+---
+
+{{ content }}
+
+{% include subject-map/tree.html %}
+{% include subject-map/modal.html %}
+{% include js/subject-map-js.html %}

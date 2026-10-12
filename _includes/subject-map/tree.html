@@ -1,0 +1,69 @@
+{%- comment -%}
+
+    Subject Map tree.
+    Renders site.data.subject_map (built by _plugins/subject_map_index.rb).
+    Each tag is a disclosure button; its terms sit in a branch that unfolds
+    beneath and to the right along a rounded limb. Collapsed branches are
+    visibility:hidden, so their terms leave the Tab order automatically.
+
+{%- endcomment -%}
+{%- assign sm_tags = site.data.subject_map -%}
+{%- assign sm_output = site.data.theme.subject-map-output | default: 'assets/data/subject-map' -%}
+<div class="subject-map" id="subject-map"
+     data-index-base="{{ '/' | append: sm_output | append: '/' | replace: '//', '/' | relative_url }}"
+     data-item-base="{{ '/items/' | relative_url }}"
+     data-line-offset="{{ site.data.theme.subject-map-line-offset | default: 0 }}"
+     data-per-draw="5">
+
+    <p class="sm-instructions small text-muted" id="sm-instructions">
+        Use <kbd>Tab</kbd> to move between categories and terms, <kbd>Enter</kbd> to open one, and <kbd>Esc</kbd> to step back.
+    </p>
+
+    {%- if sm_tags -%}
+    <ul class="sm-tags">
+        {%- for tag in sm_tags -%}
+        {%- assign sm_btn_id = 'sm-tag-' | append: tag.slug -%}
+        {%- assign sm_branch_id = 'sm-branch-' | append: tag.slug -%}
+        <li class="sm-tag">
+            <h3 class="sm-tag-heading">
+                <button type="button" class="sm-tag-btn" id="{{ sm_btn_id }}"
+                        aria-expanded="false" aria-controls="{{ sm_branch_id }}"
+                        data-tag="{{ tag.slug }}">
+                    <span class="sm-node" aria-hidden="true"></span>
+                    <span class="sm-tag-label">{{ tag.tag | escape }}</span>
+                    <span class="sm-tag-count">{{ tag.terms.size }} terms</span>
+                    <svg class="sm-chevron" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path d="M5 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </h3>
+            <div class="sm-branch" id="{{ sm_branch_id }}" role="group" aria-labelledby="{{ sm_btn_id }}">
+                <div class="sm-branch-inner">
+                    <span class="sm-limb" aria-hidden="true"></span>
+                    <ul class="sm-terms">
+                        {%- for term in tag.terms -%}
+                        {%- assign sm_i = forloop.index0 -%}{%- if sm_i > 24 -%}{%- assign sm_i = 24 -%}{%- endif -%}
+                        <li class="sm-term" style="--i: {{ sm_i }}">
+                            <button type="button" class="sm-term-btn"
+                                    data-tag="{{ tag.slug }}"
+                                    data-tag-name="{{ tag.tag | escape }}"
+                                    data-term="{{ term.key | escape }}"
+                                    data-label="{{ term.label | escape }}"
+                                    aria-haspopup="dialog"{% if term.count == 0 %} aria-disabled="true"{% endif %}>
+                                <span class="sm-term-label">{{ term.label | escape }}</span>
+                                <span class="sm-badge">{{ term.count }}<span class="visually-hidden"> passages</span></span>
+                            </button>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+            </div>
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- else -%}
+    <div class="alert alert-warning">
+        The subject map index has not been generated. Check that <code>_data/subject-map.csv</code> exists and <code>_plugins/subject_map_index.rb</code> ran during the build.
+    </div>
+    {%- endif -%}
+
+    <div id="sm-status" class="visually-hidden" role="status" aria-live="polite"></div>
+</div>

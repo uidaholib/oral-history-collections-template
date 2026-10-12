@@ -1,0 +1,33 @@
+{%- comment -%}
+
+    Subject Map passage modal (Bootstrap 5).
+    The .fade class gives Bootstrap's drop-down entrance. Passages are
+    rendered into #sm-snippets by _includes/js/subject-map-js.html.
+    Tab order: close, passage 1, its link, passage 2, its link ... refresh, close.
+
+{%- endcomment -%}
+<div class="modal fade sm-modal" id="subject-map-modal" tabindex="-1"
+     aria-labelledby="sm-modal-title" aria-describedby="sm-modal-summary">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable modal-fullscreen-sm-down">
+        <div class="modal-content">
+            <div class="modal-header align-items-start">
+                <div>
+                    <p class="sm-modal-eyebrow" id="sm-modal-tag"></p>
+                    <h2 class="modal-title h4" id="sm-modal-title"></h2>
+                    <p class="small text-muted mb-0" id="sm-modal-summary"></p>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ol class="sm-snippets" id="sm-snippets"></ol>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-outline-primary" id="sm-refresh">
+                    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false" class="me-1"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Show five more
+                </button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

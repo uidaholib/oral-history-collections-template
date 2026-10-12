@@ -1,0 +1,301 @@
+<script>
+/*
+ * Subject Map
+ *  - Tag buttons expand/collapse their branch of terms (Enter, click).
+ *  - Esc on a term collapses its branch and returns focus to the tag.
+ *  - A term opens the modal with five random tagged passages, one per
+ *    interview where possible; "Show five more" draws a fresh set.
+ *  - Passage data loads lazily, one JSON file per tag, from the build index.
+ *  - ?tag=<slug>&term=<key> reopens a term, so a set of passages can be shared.
+ */
+(function () {
+  'use strict';
+
+  const root = document.getElementById('subject-map');
+  const modalEl = document.getElementById('subject-map-modal');
+  if (!root || !modalEl) return;
+
+  const INDEX_BASE = root.dataset.indexBase;
+  const ITEM_BASE = root.dataset.itemBase;
+  const LINE_OFFSET = parseInt(root.dataset.lineOffset, 10) || 0;
+  const PER_DRAW = parseInt(root.dataset.perDraw, 10) || 5;
+
+  // Passage array positions (see FIELDS in _plugins/subject_map_index.rb)
+  const F = { id: 0, line: 1, ts: 2, secs: 3, speaker: 4, before: 5, match: 6, after: 7, found: 8 };
+
+  const ui = {
+    tag: document.getElementById('sm-modal-tag'),
+    title: document.getElementById('sm-modal-title'),
+    summary: document.getElementById('sm-modal-summary'),
+    list: document.getElementById('sm-snippets'),
+    refresh: document.getElementById('sm-refresh'),
+    status: document.getElementById('sm-status')
+  };
+
+  const tagCache = new Map();
+  let active = null;
+
+  /* ---------- helpers ---------- */
+
+  const shuffle = (arr) => {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  };
+  const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
+  const passageId = (o) => `${o[F.id]}#${o[F.line]}`;
+  const tagButton = (slug) => document.getElementById(`sm-tag-${slug}`);
+
+  function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function announce(message) {
+    if (!ui.status) return;
+    ui.status.textContent = '';
+    window.setTimeout(() => { ui.status.textContent = message; }, 60);
+  }
+
+  function setParams(tag, term) {
+    const url = new URL(window.location.href);
+    if (tag && term) {
+      url.searchParams.set('tag', tag);
+      url.searchParams.set('term', term);
+    } else {
+      url.searchParams.delete('tag');
+      url.searchParams.delete('term');
+    }
+    window.history.replaceState({}, '', url.pathname + url.search + url.hash);
+  }
+
+  function loadTag(slug) {
+    if (!tagCache.has(slug)) {
+      const request = fetch(`${INDEX_BASE}${encodeURIComponent(slug)}.json`).then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      });
+      request.catch(() => tagCache.delete(slug));
+      tagCache.set(slug, request);
+    }
+    return tagCache.get(slug);
+  }
+
+  /* ---------- tree ---------- */
+
+  function setExpanded(btn, open) {
+    btn.setAttribute('aria-expanded', String(open));
+    btn.closest('.sm-tag').classList.toggle('is-open', open);
+    if (open) loadTag(btn.dataset.tag).catch(() => {}); // warm the cache
+  }
+
+  root.addEventListener('click', (event) => {
+    const tagBtn = event.target.closest('.sm-tag-btn');
+    if (tagBtn) {
+      setExpanded(tagBtn, tagBtn.getAttribute('aria-expanded') !== 'true');
+      return;
+    }
+    const termBtn = event.target.closest('.sm-term-btn');
+    if (termBtn) openTerm(termBtn);
+  });
+
+  root.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const termBtn = event.target.closest('.sm-term-btn');
+    const tagBtn = termBtn ? tagButton(termBtn.dataset.tag) : event.target.closest('.sm-tag-btn');
+    if (!tagBtn || tagBtn.getAttribute('aria-expanded') !== 'true') return;
+    event.preventDefault();
+    setExpanded(tagBtn, false);
+    tagBtn.focus();
+  });
+
+  /* ---------- selection ---------- */
+
+  // Round-robin across shuffled interviews so the picks come from different
+  // interviews, reusing an interview only when there are too few of them.
+  function roundRobin(passages, count, picks) {
+    const groups = new Map();
+    shuffle(passages.slice()).forEach((o) => {
+      if (!groups.has(o[F.id])) groups.set(o[F.id], []);
+      groups.get(o[F.id]).push(o);
+    });
+    // Interviews not yet in this draw go first.
+    const used = new Set(picks.map((o) => o[F.id]));
+    const queues = shuffle([...groups.values()])
+      .sort((a, b) => used.has(a[0][F.id]) - used.has(b[0][F.id]));
+
+    for (let round = 0; picks.length < count; round++) {
+      let added = false;
+      for (const queue of queues) {
+        if (!queue[round]) continue;
+        picks.push(queue[round]);
+        added = true;
+        if (picks.length === count) break;
+      }
+      if (!added) break;
+    }
+    return picks;
+  }
+
+  // Fresh passages first; previously shown ones only fill any gap.
+  function pick(passages, count, seen) {
+    const fresh = passages.filter((o) => !seen.has(passageId(o)));
+    const stale = passages.filter((o) => seen.has(passageId(o)));
+    return roundRobin(stale, count, roundRobin(fresh, count, []));
+  }
+
+  /* ---------- modal ---------- */
+
+  function getModal() {
+    if (window.bootstrap && window.bootstrap.Modal) {
+      return window.bootstrap.Modal.getOrCreateInstance(modalEl);
+    }
+    console.warn('Subject Map: Bootstrap Modal is not loaded.');
+    return null;
+  }
+
+  function itemHref(o) {
+    const url = new URL(`${ITEM_BASE}${encodeURIComponent(o[F.id])}.html`, window.location.href);
+    url.searchParams.set('line', `${o[F.id]}${o[F.line] + LINE_OFFSET}`);
+    if (o[F.secs] != null) url.searchParams.set('t', o[F.secs]);
+    url.searchParams.set('autoplay', '1');
+    return url.pathname + url.search;
+  }
+
+  function renderPassage(o, index, total) {
+    const title = active.titles[o[F.id]] || o[F.id];
+    const ts = o[F.ts];
+    const found = o[F.found] === 1;
+
+    const item = el('li', 'sm-item');
+    const card = el('article', 'sm-passage');
+    card.tabIndex = 0;
+    card.setAttribute('aria-label', `Passage ${index + 1} of ${total}, ${title}${ts ? `, at ${ts}` : ''}`);
+
+    const link = el('a', 'sm-term-link', found ? o[F.match] : (ts ? `Listen at ${ts}` : 'Open interview'));
+    link.href = itemHref(o);
+    link.setAttribute('aria-label', `${found ? o[F.match] : active.label}, play from ${ts || 'the start'} in ${title}`);
+
+    const text = el('p');
+    if (found) text.append(o[F.before] || '', link, o[F.after] || '');
+    else text.append(o[F.before] || '', ' ', link);
+    const quote = el('blockquote', 'sm-quote');
+    quote.append(text);
+
+    const cite = el('p', 'sm-cite');
+    if (o[F.speaker]) cite.append(el('span', 'sm-speaker', o[F.speaker]));
+    if (ts) cite.append(el('span', 'sm-ts', ts));
+    cite.append(el('cite', null, title));
+
+    card.append(quote, cite);
+    item.append(card);
+    return item;
+  }
+
+  function draw(isRefresh) {
+    const { passages } = active;
+    const needed = Math.min(PER_DRAW, passages.length);
+    const unseen = passages.filter((o) => !active.seen.has(passageId(o))).length;
+    // Out of fresh passages: start over, but avoid repeating the current set.
+    if (unseen < needed) active.seen = new Set(active.lastShown);
+
+    const picks = pick(passages, PER_DRAW, active.seen);
+    picks.forEach((o) => active.seen.add(passageId(o)));
+    active.lastShown = picks.map(passageId);
+
+    ui.list.replaceChildren(...picks.map((o, i) => renderPassage(o, i, picks.length)));
+
+    const interviews = new Set(passages.map((o) => o[F.id])).size;
+    const shownFrom = new Set(picks.map((o) => o[F.id])).size;
+    ui.summary.textContent = `${plural(passages.length, 'tagged passage')} across ${plural(interviews, 'interview')}. `
+      + (passages.length > picks.length ? `Showing ${picks.length} at random.` : 'Showing all of them.');
+    ui.refresh.disabled = passages.length <= picks.length;
+    announce(`${isRefresh ? 'New selection. ' : ''}${plural(picks.length, 'passage')} from ${plural(shownFrom, 'interview')} about ${active.label}.`);
+
+    if (isRefresh) {
+      const first = ui.list.querySelector('.sm-passage');
+      if (first) first.focus();
+    }
+  }
+
+  async function openTerm(btn) {
+    const label = btn.dataset.label;
+    if (btn.getAttribute('aria-disabled') === 'true') {
+      announce(`No tagged passages for ${label} yet.`);
+      return;
+    }
+
+    const request = {
+      slug: btn.dataset.tag,
+      key: btn.dataset.term,
+      label,
+      trigger: btn,
+      passages: [],
+      titles: {},
+      seen: new Set(),
+      lastShown: []
+    };
+    active = request;
+
+    ui.tag.textContent = btn.dataset.tagName;
+    ui.title.textContent = label;
+    ui.summary.textContent = 'Loading passages…';
+    ui.list.replaceChildren();
+    ui.refresh.disabled = true;
+    const modal = getModal();
+    if (modal) modal.show();
+    setParams(request.slug, request.key);
+
+    try {
+      const data = await loadTag(request.slug);
+      if (active !== request) return;
+      request.passages = (data.terms && data.terms[request.key]) || [];
+      request.titles = data.titles || {};
+      if (request.passages.length) draw(false);
+      else ui.summary.textContent = 'No tagged passages were found for this term.';
+    } catch (err) {
+      if (active === request) ui.summary.textContent = 'These passages could not be loaded. Please try again later.';
+    }
+  }
+
+  ui.refresh.addEventListener('click', () => {
+    if (active && active.passages.length) draw(true);
+  });
+
+  // Enter on a focused passage card follows its link.
+  ui.list.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' || !event.target.classList.contains('sm-passage')) return;
+    const link = event.target.querySelector('.sm-term-link');
+    if (link) link.click();
+  });
+
+  modalEl.addEventListener('hidden.bs.modal', () => {
+    setParams(null, null);
+    if (active && active.trigger && document.contains(active.trigger)) active.trigger.focus();
+  });
+
+  /* ---------- deep links ---------- */
+
+  // Read on load, before any click rewrites the URL.
+  const initialParams = new URLSearchParams(window.location.search);
+
+  function openFromUrl() {
+    const slug = initialParams.get('tag');
+    const key = initialParams.get('term');
+    const tagBtn = slug && tagButton(slug);
+    if (!tagBtn) return;
+    setExpanded(tagBtn, true);
+    const termBtn = key && Array.from(root.querySelectorAll('.sm-term-btn'))
+      .find((b) => b.dataset.tag === slug && b.dataset.term === key);
+    if (termBtn) openTerm(termBtn);
+    else tagBtn.focus();
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', openFromUrl);
+  else openFromUrl();
+})();
+</script>
