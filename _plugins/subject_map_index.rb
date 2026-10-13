@@ -35,9 +35,11 @@
 # A folded term gathers several names under one entry:
 #   "Ku Klux Klan = Klan"   or   "Indigenous = Camas Prairie | Coos | Nez Perce"
 # Its passages are every line that mentions the label or any alias.
-# A name with a leading minus is excluded instead:
+# A name with a leading minus is excluded instead, matching exactly as typed
+# (case-sensitive):
 #   "British = England | London | -British Columbia"
-# leaves out lines where "British" appears only as part of "British Columbia".
+# leaves out lines where "British" appears only as part of "British Columbia";
+#   "Chinese = China | Hong Kong | -china"  drops "china" (dishes), keeps "China".
 #
 # A definition follows the first colon: "Marions: Brand of logging equipment".
 # It appears only in the term's modal, after the title.
@@ -216,7 +218,7 @@ module SubjectMap
       exclusions = Hash.new { |hash, key| hash[key] = [] }
       tags.each do |tag|
         tag['terms'].each do |term|
-          patterns = Array(term['excludes']).flat_map { |phrase| patterns_for(normalize(phrase)) }
+          patterns = Array(term['excludes']).map { |phrase| exclusion_pattern(phrase) }
           next if patterns.empty?
 
           term['match_keys'].each { |key| exclusions[key].concat(patterns) }
@@ -234,6 +236,14 @@ module SubjectMap
     def build_lookup(tags)
       tags.flat_map { |tag| tag['terms'].flat_map { |term| term['match_keys'] } }.uniq
           .to_h { |key| [key, patterns_for(key)] }
+    end
+
+    # Exclusions match exactly as typed (case-sensitive), so "-china" removes the
+    # dishes but keeps "China"; "-British Columbia" leaves "british" alone.
+    def exclusion_pattern(phrase)
+      text = phrase.to_s.unicode_normalize(:nfkc).tr("\u2018\u2019\u02BC", "'").gsub(/\s+/, ' ').strip
+      body = Regexp.escape(text).gsub('\\ ') { '\\s+' }.gsub("'") { "['\u2019]" }
+      Regexp.new("(?<![[:alnum:]])#{body}(?:['\u2019]?s|es)?(?![[:alnum:]])")
     end
 
     def patterns_for(key)
