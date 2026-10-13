@@ -35,6 +35,9 @@
 # A folded term gathers several names under one entry:
 #   "Ku Klux Klan = Klan"   or   "Indigenous = Camas Prairie | Coos | Nez Perce"
 # Its passages are every line that mentions the label or any alias.
+# A name with a leading minus is excluded instead:
+#   "British = England | London | -British Columbia"
+# leaves out lines where "British" appears only as part of "British Columbia".
 #
 # A definition follows the first colon: "Marions: Brand of logging equipment".
 # It appears only in the term's modal, after the title.
@@ -107,6 +110,7 @@ module SubjectMap
 
       tags = parse_tags(rows)
       lookup = build_lookup(tags)
+      @exclusions = build_exclusions(tags)
       occurrences = Hash.new { |hash, key| hash[key] = [] }
 
       transcripts = site.data[@cfg['subject-map-transcripts']]
@@ -178,6 +182,13 @@ module SubjectMap
           term['definition'] = definition if definition && !definition.empty? && !term['definition']
           # Folded term: "Label = alias | alias" gathers the passages of every alias.
           aliases.each do |alias_label|
+            # "-British Columbia": lines where the term appears only inside this
+            # phrase are left out of the term's passages.
+            if alias_label.start_with?('-')
+              phrase = alias_label.sub(/\A-\s*/, '')
+              (term['excludes'] ||= []) << phrase unless phrase.empty? || (term['excludes'] || []).include?(phrase)
+              next
+            end
             alias_key = normalize(match_text(alias_label))
             next if term['match_keys'].include?(alias_key)
 
@@ -200,6 +211,26 @@ module SubjectMap
     end
 
     # key => regexps used to locate the term inside a line of dialogue
+    # match key => regexps for the phrases its term excludes ("-British Columbia")
+    def build_exclusions(tags)
+      exclusions = Hash.new { |hash, key| hash[key] = [] }
+      tags.each do |tag|
+        tag['terms'].each do |term|
+          patterns = Array(term['excludes']).flat_map { |phrase| patterns_for(normalize(phrase)) }
+          next if patterns.empty?
+
+          term['match_keys'].each { |key| exclusions[key].concat(patterns) }
+        end
+      end
+      exclusions.default_proc = nil
+      exclusions
+    end
+
+    # Blank out excluded phrases (same length, so positions still line up).
+    def mask_excluded(words, key)
+      Array(@exclusions[key]).reduce(words) { |text, re| text.gsub(re) { |m| ' ' * m.length } }
+    end
+
     def build_lookup(tags)
       tags.flat_map { |tag| tag['terms'].flat_map { |term| term['match_keys'] } }.uniq
           .to_h { |key| [key, patterns_for(key)] }
@@ -307,26 +338,36 @@ module SubjectMap
         end
         keys.concat(text_matches(words, has_column ? @text_index : @full_index, lookup))
 
-        keys.uniq.each { |key| occurrences[key] << passage(objectid, index, row, words, lookup[key]) }
+        keys.uniq.each do |key|
+          search = words
+          if @exclusions.key?(key)
+            search = mask_excluded(words, key)
+            # The word is in the line, but only inside an excluded phrase: skip it.
+            next if lookup[key].any? { |re| re.match?(words) } && lookup[key].none? { |re| re.match?(search) }
+          end
+          occurrences[key] << passage(objectid, index, row, words, lookup[key], search)
+        end
       end
     end
 
-    def passage(objectid, index, row, words, patterns)
+    def passage(objectid, index, row, words, patterns, search = words)
       timestamp = row[@cfg['subject-map-timestamp-field']].to_s.strip
       speaker = row[@cfg['subject-map-speaker-field']].to_s.strip
-      before, match, after, found = snippet(words, patterns)
+      before, match, after, found = snippet(words, patterns, search)
       [objectid, index, timestamp, to_seconds(timestamp), speaker, before, match, after, found ? 1 : 0]
     end
 
     # Returns [text before, matched term, text after, found?] with
     # @context words either side of the term.
-    def snippet(text, patterns)
+    # search: the text to look for the term in (excluded phrases blanked out);
+    # same length as text, so the match positions apply to both.
+    def snippet(text, patterns, search = text)
       tokens = []
       text.scan(/\S+/) { tokens << [Regexp.last_match.begin(0), Regexp.last_match.end(0)] }
 
       match = nil
       patterns.each do |re|
-        match = re.match(text)
+        match = re.match(search)
         break if match
       end
 
