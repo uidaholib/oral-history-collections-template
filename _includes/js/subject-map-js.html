@@ -1,7 +1,7 @@
 <script>
 /*
  * Subject Map
- *  - Collapsible horizontal tree (D3): root -> tags -> sections -> terms, curved limbs.
+ *  - Collapsible horizontal tree (D3): root -> domains -> tags -> sections -> terms.
  *    Loads with tags only; selecting a tag or section unfolds the next level.
  *    Only one path is open at a time: opening or moving into another section
  *    folds the one you left. The selected node stays put while the tree reflows.
@@ -47,6 +47,7 @@
     tag: document.getElementById('sm-modal-tag'),
     title: document.getElementById('sm-modal-title'),
     summary: document.getElementById('sm-modal-summary'),
+    includes: document.getElementById('sm-modal-includes'),
     list: document.getElementById('sm-snippets'),
     pager: document.getElementById('sm-pager'),
     status: document.getElementById('sm-status')
@@ -117,13 +118,29 @@
   function mapChildren(children, tag) {
     return (children || []).map((c) => (c.group
       ? { kind: 'group', name: c.name, slug: tag.slug, children: mapChildren(c.children, tag) }
-      : { kind: 'term', name: c.label, key: c.key, count: c.count || 0, slug: tag.slug, tagName: tag.tag }));
+      : { kind: 'term', name: c.label, key: c.key, count: c.count || 0, includes: c.includes || [], slug: tag.slug, tagName: tag.tag }));
   }
-  const hroot = d3.hierarchy({
-    kind: 'root',
-    name: root.dataset.rootLabel || 'Subjects',
-    children: tags.map((t) => ({ kind: 'tag', name: t.tag, slug: t.slug, children: mapChildren(t.children || t.terms, t) }))
+  // Tags with a domain sit under it (a tag may appear under two domains);
+  // tags without one stay at the top level. Both levels are sorted A-Z.
+  const byName = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
+  const tagNode = (t) => ({ kind: 'tag', name: t.tag, slug: t.slug, children: mapChildren(t.children || t.terms, t) });
+  const top = [];
+  const domains = new Map();
+  tags.forEach((t) => {
+    if (!t.domains || !t.domains.length) { top.push(tagNode(t)); return; }
+    t.domains.forEach((name) => {
+      if (!domains.has(name)) {
+        const domain = { kind: 'domain', name, children: [] };
+        domains.set(name, domain);
+        top.push(domain);
+      }
+      domains.get(name).children.push(tagNode(t));
+    });
   });
+  domains.forEach((domain) => domain.children.sort((a, b) => byName.compare(a.name, b.name)));
+  top.sort((a, b) => byName.compare(a.name, b.name));
+
+  const hroot = d3.hierarchy({ kind: 'root', name: root.dataset.rootLabel || 'Subjects', children: top });
   let nextId = 0;
   hroot.eachBefore((d) => { d.id = nextId++; });
   const everyNode = hroot.descendants();
@@ -336,7 +353,7 @@
       foldOutside(d);
       d.children = d._children;
       d._children = null;
-      loadTag(d.data.slug).catch(() => {}); // warm the cache
+      if (d.data.slug) loadTag(d.data.slug).catch(() => {}); // warm the cache
     } else if (!open && d.children) {
       d._children = d.children;
       d.children = null;
@@ -562,6 +579,12 @@
 
     ui.tag.textContent = d.data.tagName;
     ui.title.textContent = label;
+    // Folded terms list the names they gather together.
+    if (ui.includes) {
+      const names = d.data.includes || [];
+      ui.includes.textContent = names.length ? `Includes ${names.join(', ')}` : '';
+      ui.includes.hidden = !names.length;
+    }
     ui.summary.textContent = 'Loading passages…';
     ui.list.replaceChildren();
     ui.pager.replaceChildren();
@@ -605,18 +628,17 @@
   (function openFromUrl() {
     const slug = initialParams.get('tag');
     const key = initialParams.get('term');
-    const tagNode = slug && (hroot.children || []).find((d) => d.data.slug === slug);
-    if (!tagNode) return;
-    const subtree = [];
-    (function walk(n) { subtree.push(n); (n.children || n._children || []).forEach(walk); })(tagNode);
-    const termNode = key && subtree.find((n) => isTerm(n) && n.data.key === key);
-    const target = termNode || tagNode;
+    const walkAll = (n, out) => { out.push(n); (n.children || n._children || []).forEach((c) => walkAll(c, out)); return out; };
+    const tagAt = slug && walkAll(hroot, []).find((d) => d.data.kind === 'tag' && d.data.slug === slug);
+    if (!tagAt) return;
+    const termNode = key && walkAll(tagAt, []).find((n) => isTerm(n) && n.data.key === key);
+    const target = termNode || tagAt;
     target.ancestors().reverse().forEach((n) => {
       if (n._children && (n !== target || !termNode)) { n.children = n._children; n._children = null; }
     });
     update(null, false);
     if (termNode) openTerm(termNode);
-    else focusNode(tagNode);
+    else focusNode(tagAt);
   })();
 })();
 </script>

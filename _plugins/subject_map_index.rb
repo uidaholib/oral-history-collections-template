@@ -12,7 +12,8 @@
 #   2. exposes site.data.subject_map (tags, terms, passage counts) so the
 #      Liquid tree on /subject-map.html can render without any JavaScript.
 #
-# _data/subject-map.csv columns: tag, group, terms, description.
+# _data/subject-map.csv columns: domain, tag, group, terms, description.
+# "domain" is optional; it groups tags under Culture, Labor ... (several with " | ").
 # "group" is optional; nest sections with " > ", e.g. "Animals > Birds".
 #
 # A transcript row counts as a passage for a term when the term appears in the
@@ -30,6 +31,10 @@
 #   subject-map-output: assets/data/subject-map
 #   subject-map-item-path: people   (folder of interview pages; auto-detected from page_gen)
 #   subject-map-match: auto         (auto | tagged | text | both, see plan_matching)
+#
+# A folded term gathers several names under one entry:
+#   "Ku Klux Klan = Klan"   or   "Indigenous = Camas Prairie | Coos | Nez Perce"
+# Its passages are every line that mentions the label or any alias.
 #
 # A term label may carry a display-only note in brackets: "Boise (Ada County)"
 # is shown as written but matched in the transcripts as "Boise".
@@ -130,10 +135,16 @@ module SubjectMap
           'tag' => name,
           'slug' => Jekyll::Utils.slugify(name),
           'description' => row['description'].to_s.strip,
+          'domains' => [],
           'terms' => [],
           'children' => [],
           'by_key' => {}
         }
+
+        # Optional top-level domain(s) the tag sits under; "Infrastructure | Labor" lists it twice.
+        row['domain'].to_s.split('|').map(&:strip).reject(&:empty?).each do |domain|
+          tag['domains'] << domain unless tag['domains'].include?(domain)
+        end
 
         container = tag['children']
         row['group'].to_s.split('>').map(&:strip).reject(&:empty?).each do |part|
@@ -149,13 +160,25 @@ module SubjectMap
         raw.select { |term| term.include?(':') }.each do |term|
           Jekyll.logger.warn 'Subject Map:', "\"#{term}\" in #{name} contains a colon. Should it be a semicolon?"
         end
-        raw.each do |label|
+        raw.each do |entry|
+          label, folded = entry.split('=', 2).map(&:strip)
+          next if label.to_s.empty?
+
+          aliases = folded.to_s.split('|').map(&:strip).reject(&:empty?)
           key = normalize(match_text(label))
           term = tag['by_key'][key]
           unless term
-            term = { 'label' => label, 'key' => key }
+            term = { 'label' => label, 'key' => key, 'match_keys' => [key] }
             tag['by_key'][key] = term
             tag['terms'] << term
+          end
+          # Folded term: "Label = alias | alias" gathers the passages of every alias.
+          aliases.each do |alias_label|
+            alias_key = normalize(match_text(alias_label))
+            next if term['match_keys'].include?(alias_key)
+
+            term['match_keys'] << alias_key
+            (term['includes'] ||= []) << alias_label
           end
           container << term unless container.include?(term)
         end
@@ -174,7 +197,7 @@ module SubjectMap
 
     # key => regexps used to locate the term inside a line of dialogue
     def build_lookup(tags)
-      tags.flat_map { |tag| tag['terms'].map { |term| term['key'] } }.uniq
+      tags.flat_map { |tag| tag['terms'].flat_map { |term| term['match_keys'] } }.uniq
           .to_h { |key| [key, patterns_for(key)] }
     end
 
@@ -355,7 +378,11 @@ module SubjectMap
       tags.each do |tag|
         terms = {}
         tag['terms'].each do |term|
-          list = occurrences.fetch(term['key'], [])
+          # One passage per transcript line, even when several folded names occur in it.
+          seen = {}
+          list = term['match_keys'].flat_map { |key| occurrences.fetch(key, []) }
+                                   .select { |o| seen[[o[0], o[1]]] ? false : (seen[[o[0], o[1]]] = true) }
+                                   .sort_by { |o| [o[0], o[1]] }
           term['count'] = list.size
           term['interviews'] = list.map(&:first).uniq.size
           terms[term['key']] = list unless list.empty?
