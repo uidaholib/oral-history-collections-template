@@ -9,6 +9,10 @@
  *    Enter or Space opens; Right expands; Left or Esc steps back up and folds.
  *  - A term opens the modal listing every passage A-Z by interview title,
  *    five per page, with page numbers in runs of five.
+ *  - Modal keys: Tab / Up / Down move passage to passage (one stop each),
+ *    Left / Right turn the page, Esc returns to the tree.
+ *  - Following a passage records it in the address, so Back reopens the
+ *    modal on the same page with focus on that passage.
  *  - Passage data loads lazily, one JSON file per tag, from the build index.
  *  - ?tag=<slug>&term=<key> reopens a term, so a set of passages can be shared.
  */
@@ -76,14 +80,16 @@
     window.setTimeout(() => { ui.status.textContent = message; }, 60);
   }
 
-  function setParams(tag, term) {
+  // Keeps the open term in the address (tag, term, page, and the passage last
+  // followed) so a shared link, or Back from a recording, reopens the same view.
+  function setParams(tag, term, page, item) {
     const url = new URL(window.location.href);
+    ['tag', 'term', 'page', 'item'].forEach((k) => url.searchParams.delete(k));
     if (tag && term) {
       url.searchParams.set('tag', tag);
       url.searchParams.set('term', term);
-    } else {
-      url.searchParams.delete('tag');
-      url.searchParams.delete('term');
+      if (page > 1) url.searchParams.set('page', page);
+      if (item != null) url.searchParams.set('item', item);
     }
     window.history.replaceState({}, '', url.pathname + url.search + url.hash);
   }
@@ -464,14 +470,17 @@
 
     const item = el('li', 'sm-item');
     const card = el('article', 'sm-passage');
-    card.tabIndex = 0;
-    card.setAttribute('aria-label', `${title}${ts ? `, at ${ts}` : ''}`);
 
+    // The link is the passage's single Tab stop; screen readers hear the term,
+    // the interview and time, then the passage text (aria-describedby).
     const link = el('a', 'sm-term-link', found ? o[F.match] : (ts ? `Listen at ${ts}` : 'Open interview'));
     link.href = itemHref(o);
-    link.setAttribute('aria-label', `${found ? o[F.match] : active.label}, play from ${ts || 'the start'} in ${title}`);
+    link.setAttribute('aria-label', `${found ? o[F.match] : active.label}, ${title}, play from ${ts || 'the start'}`);
+    const textId = `sm-passage-${o[F.id]}-${o[F.line]}`;
+    link.setAttribute('aria-describedby', textId);
 
     const text = el('p');
+    text.id = textId;
     if (found) text.append(o[F.before] || '', link, o[F.after] || '');
     else text.append(o[F.before] || '', ' ', link);
     const quote = el('blockquote', 'sm-quote');
@@ -526,7 +535,9 @@
     ui.pager.append(list);
   }
 
-  function showPage(page, fromPager) {
+  // focus: 'pager' keeps focus on the page numbers, a number focuses that
+  // passage on the new page (-1 = last), null leaves focus alone.
+  function showPage(page, focus) {
     const { passages } = active;
     const pages = Math.max(1, Math.ceil(passages.length / PER_PAGE));
     active.page = Math.min(Math.max(1, page), pages);
@@ -540,26 +551,84 @@
     const range = passages.length > slice.length ? ` Showing ${start + 1}–${start + slice.length}.` : '';
     ui.summary.textContent = `${plural(passages.length, 'passage')} across ${plural(interviews, 'interview')}, listed A–Z by interview.${range}`;
 
-    if (fromPager) {
-      const body = modalEl.querySelector('.modal-body');
-      if (body) body.scrollTop = 0;
+    setParams(active.slug, active.key, active.page);
+    const body = modalEl.querySelector('.modal-body');
+    if (body) body.scrollTop = 0;
+
+    if (focus === 'pager') {
       const current = ui.pager.querySelector('[aria-current="page"]');
       if (current) current.focus();
-      announce(`Page ${active.page} of ${pages}, passages ${start + 1} to ${start + slice.length}.`);
-    } else {
-      announce(`${plural(passages.length, 'passage')} about ${active.label}, page 1 of ${pages}.`);
+    } else if (typeof focus === 'number') {
+      focusPassage(focus);
     }
+    announce(focus == null && active.page === 1
+      ? `${plural(passages.length, 'passage')} about ${active.label}, page 1 of ${pages}.`
+      : `Page ${active.page} of ${pages}, passages ${start + 1} to ${start + slice.length}.`);
   }
+
+  const passageLinks = () => Array.from(ui.list.querySelectorAll('.sm-term-link'));
+  const modalOpen = () => modalEl.classList.contains('show');
+
+  function focusPassage(index) {
+    const links = passageLinks();
+    if (!links.length) return;
+    const i = index < 0 ? links.length - 1 : Math.min(index, links.length - 1);
+    links[i].focus();
+  }
+
+  // Inside the modal: Up / Down step through passages (continuing onto the
+  // next or previous page), Left / Right turn the page. Esc closes (Bootstrap).
+  modalEl.addEventListener('keydown', (event) => {
+    if (!active || !active.passages.length || event.altKey || event.ctrlKey || event.metaKey) return;
+    const pages = Math.ceil(active.passages.length / PER_PAGE);
+    const links = passageLinks();
+    const i = links.indexOf(document.activeElement);
+
+    switch (event.key) {
+      case 'ArrowDown':
+        if (i === -1) focusPassage(0);
+        else if (i < links.length - 1) links[i + 1].focus();
+        else if (active.page < pages) showPage(active.page + 1, 0);
+        break;
+      case 'ArrowUp':
+        if (i === -1) focusPassage(-1);
+        else if (i > 0) links[i - 1].focus();
+        else if (active.page > 1) showPage(active.page - 1, -1);
+        break;
+      case 'ArrowRight':
+        if (active.page < pages) showPage(active.page + 1, 0);
+        break;
+      case 'ArrowLeft':
+        if (active.page > 1) showPage(active.page - 1, 0);
+        break;
+      default:
+        return;
+    }
+    event.preventDefault();
+  });
+
+  // Remember which passage was followed, so Back returns to it.
+  ui.list.addEventListener('click', (event) => {
+    const link = event.target.closest('.sm-term-link');
+    if (!link || !active) return;
+    setParams(active.slug, active.key, active.page, passageLinks().indexOf(link));
+  });
+
+  // Bootstrap moves focus to the dialog once it has opened; put it on the
+  // first passage instead (or the one being returned to).
+  modalEl.addEventListener('shown.bs.modal', () => {
+    if (active && active.passages.length) focusPassage(active.focusIndex || 0);
+  });
 
   ui.pager.addEventListener('click', (event) => {
     const btn = event.target.closest('button[data-page]');
     if (!btn || btn.disabled || !active) return;
-    showPage(parseInt(btn.dataset.page, 10), true);
+    showPage(parseInt(btn.dataset.page, 10), 'pager');
   });
 
   const byTitle = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
 
-  async function openTerm(d) {
+  async function openTerm(d, restore) {
     const label = d.data.name;
     if (!d.data.count) {
       announce(`No tagged passages for ${label} yet.`);
@@ -573,7 +642,8 @@
       label,
       passages: [],
       titles: {},
-      page: 1
+      page: 1,
+      focusIndex: restore && restore.item != null ? restore.item : 0
     };
     active = request;
 
@@ -600,19 +670,15 @@
       const title = (o) => request.titles[o[F.id]] || o[F.id];
       request.passages = ((data.terms && data.terms[request.key]) || []).slice()
         .sort((a, b) => byTitle.compare(title(a), title(b)) || a[F.line] - b[F.line]);
-      if (request.passages.length) showPage(1, false);
+      if (request.passages.length) {
+        // Focus now if the dialog is already open; otherwise 'shown' does it.
+        showPage((restore && restore.page) || 1, modalOpen() ? request.focusIndex : null);
+      }
       else ui.summary.textContent = 'No tagged passages were found for this term.';
     } catch (err) {
       if (active === request) ui.summary.textContent = 'These passages could not be loaded. Please try again later.';
     }
   }
-
-  // Enter on a focused passage follows its link.
-  ui.list.addEventListener('keydown', (event) => {
-    if (event.key !== 'Enter' || !event.target.classList.contains('sm-passage')) return;
-    const link = event.target.querySelector('.sm-term-link');
-    if (link) link.click();
-  });
 
   modalEl.addEventListener('hidden.bs.modal', () => {
     setParams(null, null);
@@ -620,6 +686,24 @@
     const target = active.node.ancestors().find((n) => n.depth > 0 && nodeElement(n));
     focusNode(target);
   });
+
+  // Back from a recording when the browser kept this page in memory:
+  // the modal is still open, so just return focus to the followed passage.
+  window.addEventListener('pageshow', (event) => {
+    if (!event.persisted || !active || !modalOpen()) return;
+    const item = new URLSearchParams(window.location.search).get('item');
+    focusPassage(item != null ? parseInt(item, 10) || 0 : 0);
+  });
+
+  function whenBootstrapReady(fn) {
+    const go = () => {
+      if (window.bootstrap && window.bootstrap.Modal) fn();
+      else if (document.readyState === 'complete') fn(); // no Bootstrap at all: getModal() warns
+      else window.addEventListener('load', fn, { once: true });
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go, { once: true });
+    else go();
+  }
 
   /* ================= start ================= */
 
@@ -637,8 +721,14 @@
       if (n._children && (n !== target || !termNode)) { n.children = n._children; n._children = null; }
     });
     update(null, false);
-    if (termNode) openTerm(termNode);
-    else focusNode(tagAt);
+    const page = parseInt(initialParams.get('page'), 10) || 1;
+    const item = initialParams.has('item') ? parseInt(initialParams.get('item'), 10) : null;
+    // The modal needs Bootstrap, which the site loads at the end of the page,
+    // after this script. Wait for it before reopening the term.
+    whenBootstrapReady(() => {
+      if (termNode) openTerm(termNode, { page, item: Number.isNaN(item) ? null : item });
+      else focusNode(tagAt);
+    });
   })();
 })();
 </script>

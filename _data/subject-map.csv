@@ -6,7 +6,7 @@ Labor,Agriculture,Other,Acreage ; Farming ; Homestead,subjects pertaining to Agr
 Infrastructure,Corporations,,Dernham and Kaufmann ; First Bank of Troy ; Foster School of Healing ; Hodgin's Drug ; Humbird Lumber ; Idaho Lumber ; Milwaukee Lumber ; Moscow State Bank ; Pleasant Home ; Potlatch Lumber ; Rosauers ; Standard Lumber ; Troy Lumber ; Weyerhaeuser ; White Pine Mill ; WI&M ; Winton Lumber,subjects pertaining to Corporations
 Infrastructure,Crime,Law & Punishment,Arrest ; Conviction ; Detention ; Investigation ; Jail ; Parole ; Prison ; Probation ; Trial,subjects pertaining to Crime
 Infrastructure,Crime,Offenses,Addiction ; Arson ; Assault ; Bootleg ; Burglary ; Corruption ; Crime ; Distribution ; Drugs ; Fraud ; Gambling ; Gangs ; Harass ; Kill ; Moonshine ; Murder ; Murders ; Possession ; Prostitution ; Rape ; Robbery ; Stealing ; Theft ; Vandalism ; Violence,subjects pertaining to Crime
-Infrastructure,Crime,People,Detective ; Killer ; Madame ; Officer ; Police ; Prisoner ; Prostitute ; Whore,subjects pertaining to Crime
+Infrastructure,Crime,People,Detective ; Killer ; Madame ; Officer ; Police ; Prisoner ; Prostitute = Whore,subjects pertaining to Crime
 Infrastructure,Education,Academics,Assignment ; Certificate ; Curriculum ; Degree ; Diploma ; Exam ; Grant ; Homework ; Learning ; Report Card ; Research ; Scholarship ; Special Education ; Study ; Test ; Textbook ; Tutoring,subjects pertaining to Education
 Infrastructure,Education,People,Administrator ; Counselor ; Principal ; Student ; Teacher,subjects pertaining to Education
 Infrastructure,Education,Rural Schools,Applequist ; Brannon ; Buckhorn School ; Elwood ; Fern Hill ; Pleasant Hill ; Rimrock ; Spring Valley School ; Steele School ; Taney,subjects pertaining to Education

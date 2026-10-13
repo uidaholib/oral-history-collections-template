@@ -3,7 +3,8 @@
     Subject Map passage modal (Bootstrap 5; .fade gives the drop-down entrance).
     Passages are rendered into #sm-snippets by _includes/js/subject-map-js.html.
     Passages are listed A-Z by interview title, five per page.
-    Tab order: close (x), passage, its link, next passage ... Close, page numbers.
+    Focus starts on the first passage. Tab / Up / Down: passage to passage (one stop each);
+    Left / Right: previous / next page; Esc: back to the tree.
 
 {%- endcomment -%}
 <div class="modal fade sm-modal" id="subject-map-modal" tabindex="-1"

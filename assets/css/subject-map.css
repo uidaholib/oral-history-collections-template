@@ -164,9 +164,9 @@
     border-radius: 0.5rem;
 }
 
-.sm-passage:focus-visible {
-    outline: 3px solid var(--sm-focus);
-    outline-offset: -3px;
+.sm-passage:focus-within {
+    background: var(--bs-tertiary-bg, #f8f9fa);
+    box-shadow: inset 4px 0 0 var(--sm-focus);
 }
 
 .sm-quote {
