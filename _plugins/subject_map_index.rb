@@ -12,7 +12,7 @@
 #   2. exposes site.data.subject_map (tags, terms, passage counts) so the
 #      Liquid tree on /subject-map.html can render without any JavaScript.
 #
-# _data/subject-map.csv columns: domain, tag, group, terms, description.
+# _data/subject-map.csv columns: domain, tag, group, terms (a description column is optional and unused).
 # "domain" is optional; it groups tags under Culture, Labor ... (several with " | ").
 # "group" is optional; nest sections with " > ", e.g. "Animals > Birds".
 #
@@ -35,6 +35,9 @@
 # A folded term gathers several names under one entry:
 #   "Ku Klux Klan = Klan"   or   "Indigenous = Camas Prairie | Coos | Nez Perce"
 # Its passages are every line that mentions the label or any alias.
+#
+# A definition follows the first colon: "Marions: Brand of logging equipment".
+# It appears only in the term's modal, after the title.
 #
 # A term label may carry a display-only note in brackets: "Boise (Ada County)"
 # is shown as written but matched in the transcripts as "Boise".
@@ -157,11 +160,11 @@ module SubjectMap
         end
 
         raw = row['terms'].to_s.split(';').map(&:strip).reject(&:empty?)
-        raw.select { |term| term.include?(':') }.each do |term|
-          Jekyll.logger.warn 'Subject Map:', "\"#{term}\" in #{name} contains a colon. Should it be a semicolon?"
-        end
         raw.each do |entry|
-          label, folded = entry.split('=', 2).map(&:strip)
+          # "Label = alias | alias: definition" - the definition (after the first
+          # colon) is shown only in the term's modal, after its title.
+          head, definition = entry.split(':', 2).map(&:strip)
+          label, folded = head.to_s.split('=', 2).map(&:strip)
           next if label.to_s.empty?
 
           aliases = folded.to_s.split('|').map(&:strip).reject(&:empty?)
@@ -172,6 +175,7 @@ module SubjectMap
             tag['by_key'][key] = term
             tag['terms'] << term
           end
+          term['definition'] = definition if definition && !definition.empty? && !term['definition']
           # Folded term: "Label = alias | alias" gathers the passages of every alias.
           aliases.each do |alias_label|
             alias_key = normalize(match_text(alias_label))

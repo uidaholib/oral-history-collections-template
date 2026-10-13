@@ -144,6 +144,11 @@
     text-transform: uppercase;
 }
 
+.sm-definition {
+    font-weight: 400;
+    color: var(--sm-muted);
+}
+
 .sm-modal-includes {
     margin: 0.15rem 0 0.25rem;
     color: var(--sm-muted);

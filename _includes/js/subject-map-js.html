@@ -124,7 +124,7 @@
   function mapChildren(children, tag) {
     return (children || []).map((c) => (c.group
       ? { kind: 'group', name: c.name, slug: tag.slug, children: mapChildren(c.children, tag) }
-      : { kind: 'term', name: c.label, key: c.key, count: c.count || 0, includes: c.includes || [], slug: tag.slug, tagName: tag.tag }));
+      : { kind: 'term', name: c.label, key: c.key, count: c.count || 0, includes: c.includes || [], definition: c.definition || '', slug: tag.slug, tagName: tag.tag }));
   }
   // Tags with a domain sit under it (a tag may appear under two domains);
   // tags without one stay at the top level. Both levels are sorted A-Z.
@@ -648,7 +648,10 @@
     active = request;
 
     ui.tag.textContent = d.data.tagName;
-    ui.title.textContent = label;
+    // "Marions: Brand of logging equipment" when the term has a definition,
+    // otherwise just the term.
+    ui.title.replaceChildren(label);
+    if (d.data.definition) ui.title.append(el('span', 'sm-definition', `: ${d.data.definition}`));
     // Folded terms list the names they gather together.
     if (ui.includes) {
       const names = d.data.includes || [];
