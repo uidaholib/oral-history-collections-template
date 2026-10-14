@@ -175,6 +175,17 @@
   let svgHeight = 0;
   let heightTimer = null;
   let lastWidth = 0;
+  let lastViewport = 0;
+
+  // The drawing is at least tall enough to reach the bottom of the window, so
+  // the footer starts below the fold; a smaller tree is centered inside it.
+  let fillHeight = 0;
+  function measureFill() {
+    const top = canvas.getBoundingClientRect().top + window.scrollY;
+    const viewport = window.innerHeight || 800;
+    lastViewport = viewport;
+    fillHeight = Math.max(Math.round(viewport * 0.6), Math.round(viewport - top - 16));
+  }
 
   // Column x-position for each depth. Section labels sit to the left of their
   // node, so each column leaves room for the widest section label at that depth.
@@ -239,8 +250,10 @@
     const xs = shown.map((d) => d.x);
     const minX = Math.min(...xs);
     const maxX = Math.max(...xs);
-    const off = PAD + ROW / 2 - minX;
-    const height = Math.ceil(maxX - minX + ROW + PAD * 2);
+    const contentHeight = Math.ceil(maxX - minX + ROW + PAD * 2);
+    const height = Math.max(contentHeight, fillHeight);
+    // Center the tree vertically when it is shorter than the space it fills.
+    const off = PAD + ROW / 2 - minX + Math.floor((height - contentHeight) / 2);
     const rightEdge = Math.max(0, ...shown.map((d) => cols.x[d.depth] + R
       + (isTerm(d) ? GAP + measure(d.data.name) : 0)));
     const width = Math.ceil(Math.max(cols.width, rightEdge + PAD));
@@ -253,7 +266,8 @@
     // Scroll so the anchor node ends where it started; everything else
     // starts from where it appeared before the scroll, so nothing jumps.
     let shift = 0;
-    if (anchor && anchor.ry != null) {
+    // (Not needed while the whole tree fits: it is simply re-centered.)
+    if (anchor && anchor.ry != null && contentHeight > fillHeight) {
       const before = window.scrollY;
       try { window.scrollBy(0, anchor.x + off - anchor.ry); } catch (e) { /* no scrolling here */ }
       shift = window.scrollY - before;
@@ -441,7 +455,10 @@
   window.addEventListener('resize', () => {
     window.clearTimeout(resizeTimer);
     resizeTimer = window.setTimeout(() => {
-      if (canvas.clientWidth !== lastWidth) update(null, false);
+      if (canvas.clientWidth !== lastWidth || window.innerHeight !== lastViewport) {
+        measureFill();
+        update(null, false);
+      }
     }, 150);
   });
 
@@ -710,6 +727,7 @@
 
   /* ================= start ================= */
 
+  measureFill();
   update(null, false);
 
   (function openFromUrl() {
