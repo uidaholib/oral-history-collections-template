@@ -1,10 +1,10 @@
 speaker,timestamp,words,tags,terms
 ,,,,
 Rob Moore,0:00:01,"Della Beardsley Johnson was born in California and at the age of 16 went with her mother and sister on an overland journey to Moscow, driving a herd of loose horses to sell in Idaho. On this tape, she recounts that adventurous trip, tells about the early Moscow community, the burning of the university, life on the farm, and having an accident while learning to drive.",education;family;lcoh flora & fauna;lcoh places;migration,learning;mother;sister;herd;moscow;journey
-Delia Beardsley Johnson,0:00:55,"He told me, he said, if you just let me have all the butter you can make, he says, and you don't even have to roll it in those little pound rolls, he says, you just pack it in crocks or anything like that. That's the way he wanted it. So I sold it to him as long as we, until we got so we sold cream.",food_and_drink,butter
-Rob Moore,0:01:26,How much would you sell him? How much butter did you produce?,food_and_drink,butter
+Delia Beardsley Johnson,0:00:55,"He told me, he said, if you just let me have all the butter you can make, he says, and you don't even have to roll it in those little pound rolls, he says, you just pack it in crocks or anything like that. That's the way he wanted it. So I sold it to him as long as we, until we got so we sold cream.",culinary,butter
+Rob Moore,0:01:26,How much would you sell him? How much butter did you produce?,culinary,butter
 Delia Beardsley Johnson,0:01:30,"Well, I'd sell him about 25 pounds a week.",,
-Rob Moore,0:01:34,Did he pop the popcorn in the butter too in addition to spreading it on top?,food_and_drink,butter
+Rob Moore,0:01:34,Did he pop the popcorn in the butter too in addition to spreading it on top?,culinary,butter
 Delia Beardsley Johnson,0:01:38,Mm-hmm.,,
 Rob Moore,0:01:41,How long was he around there? How long did he do this?,,
 Delia Beardsley Johnson,0:01:45,"Well, quite a while. Of course, I don't remember the dates and everything now. My memory isn't as good as it used to be anyway. That's a long time ago.",,
@@ -93,7 +93,7 @@ Delia Beardsley Johnson,0:42:25,"Well, three, and then sometimes luncheons if th
 Rob Moore,0:42:45,Was everybody usually a pretty big eater?,,
 Delia Beardsley Johnson,0:42:47,"Oh my, you couldn't fill them up. Especially in haying time when there'd be so many young fellows, you know. And my, it just seemed like you just couldn't hardly fill them up. I know one time my husband's father told my mother, he says I was just a little bit dubious of Harry marrying a city girl. But he says she's alright.",family,father;husband;mother
 Rob Moore,0:43:25,Because you could keep up with her eating there?,,
-Delia Beardsley Johnson,0:43:29,"Well, yeah, I could keep up with the eating. And then I raised most of the garden, I did most of the garden work. And I had a lot of chickens. And that was quite a chore. Gathered up eggs, they'd be laying everywhere. So you could always find something to do. I was always the first one up in the morning and the last one to bed at night. But those were good old days. It's very different from what they have nowadays, but still, I think those were the happiest days we had.",agriculture;food_and_drink,garden;eggs
+Delia Beardsley Johnson,0:43:29,"Well, yeah, I could keep up with the eating. And then I raised most of the garden, I did most of the garden work. And I had a lot of chickens. And that was quite a chore. Gathered up eggs, they'd be laying everywhere. So you could always find something to do. I was always the first one up in the morning and the last one to bed at night. But those were good old days. It's very different from what they have nowadays, but still, I think those were the happiest days we had.",agriculture;culinary,garden;eggs
 Rob Moore,0:44:21,"What kind of things would you do for, you know, in the odd moments where you might have a little time to spare and felt like some entertainment or something like that? What kind of things would you do?",leisure,entertainment
 Delia Beardsley Johnson,0:44:32,"Well, we never had any odd times. When we did, while it would be in the evening, we'd go to Grange or something like that.",,
 Rob Moore,0:44:43,What was Grange like in the early days?,,
@@ -116,10 +116,10 @@ Rob Moore,0:48:52,"Well, did most everybody get a shivaree when they got married
 Delia Beardsley Johnson,0:48:55,"Oh, yeah.",,
 Rob Moore,0:48:56,Did that happen in the towns too or just in the country?,,
 Delia Beardsley Johnson,0:48:59,"No, I think it happened in towns too before they got too thickly settled.",,
-Rob Moore,0:49:09,"When you were making butter, how did you make butter? What kind of things did you use to make butter?",food_and_drink,butter
-Delia Beardsley Johnson,0:49:16,"Well, I had this little churn that you turned by crank and then my uncle, he was a cabinet maker and he lived with us quite a bit and he made me a little butter worker. It come to the point like this and it was wider up here.",family;food_and_drink;manual_labor,uncle;butter;worker
+Rob Moore,0:49:09,"When you were making butter, how did you make butter? What kind of things did you use to make butter?",culinary,butter
+Delia Beardsley Johnson,0:49:16,"Well, I had this little churn that you turned by crank and then my uncle, he was a cabinet maker and he lived with us quite a bit and he made me a little butter worker. It come to the point like this and it was wider up here.",family;culinary;manual_labor,uncle;butter;worker
 Rob Moore,0:49:41,Kind of wedge shaped thing?,,
-Delia Beardsley Johnson,0:49:43,"Yeah, and then the third leg down there was a little shorter so that the brine would run down and run out through a little hole in there. And so that, and then he made a, well, I don't know what you call them now, but anyway it was a little lever that worked back and forth over the butter. And then I squeezed the brine out, the extra brine.",food_and_drink,butter
+Delia Beardsley Johnson,0:49:43,"Yeah, and then the third leg down there was a little shorter so that the brine would run down and run out through a little hole in there. And so that, and then he made a, well, I don't know what you call them now, but anyway it was a little lever that worked back and forth over the butter. And then I squeezed the brine out, the extra brine.",culinary,butter
 Rob Moore,0:50:32,Did you make your own soap and stuff like that too?,,
 Delia Beardsley Johnson,0:50:35,"Oh, yes.",,
 Rob Moore,0:50:38,How is soap made?,,
@@ -129,9 +129,9 @@ Delia Beardsley Johnson,0:50:50,"Well, it could take quite a little while and ta
 Rob Moore,0:51:04,Would one batch last you quite a while?,,
 Delia Beardsley Johnson,0:51:07,"Oh, yes, it would last quite a while. When you were on a farm, there were two different, as I understand, there were two different kinds of developments with thrashing crews. They first ate in the farm and then after that they had their own cook wagon.",lcoh thrashing,thrashing crews
 Rob Moore,0:51:38,Did you ever cook for a thrashing crew?,,
-Delia Beardsley Johnson,0:51:40,"No, but my mother did when she first came here. She went with a cook wagon for, oh, I think it was three years. And she made her own bread and her own pies and her own cookies and everything. And lots of times, we didn't have decent roads then or anything and going over the hills, so I, she'd have to hold that bread in her hands to keep it from spilling out… but she...",family;food_and_drink,mother;bread;cookies
+Delia Beardsley Johnson,0:51:40,"No, but my mother did when she first came here. She went with a cook wagon for, oh, I think it was three years. And she made her own bread and her own pies and her own cookies and everything. And lots of times, we didn't have decent roads then or anything and going over the hills, so I, she'd have to hold that bread in her hands to keep it from spilling out… but she...",family;culinary,mother;bread;cookies
 Rob Moore,0:52:16,"She had to cook as they traveled too, in addition to cooking when they were stopped?",,
-Delia Beardsley Johnson,0:52:19,"Well, no, she wouldn't try to bake anything or anything like that, but she would have to hold this bread to keep it from tipping over. But she worked awfully hard, I'll tell you.",food_and_drink,bread
+Delia Beardsley Johnson,0:52:19,"Well, no, she wouldn't try to bake anything or anything like that, but she would have to hold this bread to keep it from tipping over. But she worked awfully hard, I'll tell you.",culinary,bread
 Rob Moore,0:52:39,"Well, did you ever cook for any thrashing crews that came to your farm? Or did they all bring cook wagons?",lcoh thrashing,thrashing crews
 Delia Beardsley Johnson,0:52:44,"No, we always had a combine. Harry's father had a combine. And so they would harvest for him and then harvest for us too. And then we had, I think it was 20, 20 head of horses on a combine. So, he used his father's horses and his horses and that's the way they got their combining done.",agriculture;family,harvest;father
 Rob Moore,0:53:27,Did you usually keep a lot of stock at one time?,,

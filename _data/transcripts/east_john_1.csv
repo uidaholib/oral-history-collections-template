@@ -30,8 +30,8 @@ John East,00:09:30,"I'm learning where that's in my estimation, what killed the 
 Rob Moore,00:10:07,You didn't. Didn't drink it yourself?,00:10:09,,
 John East,00:10:09,"No, sir.",00:10:15,,
 Rob Moore,00:10:15,Was that common?,00:10:17,,
-John East,00:10:17,"Not involved and not among, fellows that manufacture. They generally was their very best customer. I run a beer parlor at Baylor and never for one year and never tasted. Never drank a bottle of beer. And, I was so disgusted with the business that, I sold that.",00:11:00,food_and_drink,beer
-Rob Moore,00:11:00,That was your beer parlor? Yeah. How. How large did your moonshine business get? How much volume?,00:11:09,crime;food_and_drink,moonshine;beer
+John East,00:10:17,"Not involved and not among, fellows that manufacture. They generally was their very best customer. I run a beer parlor at Baylor and never for one year and never tasted. Never drank a bottle of beer. And, I was so disgusted with the business that, I sold that.",00:11:00,culinary,beer
+Rob Moore,00:11:00,That was your beer parlor? Yeah. How. How large did your moonshine business get? How much volume?,00:11:09,crime;culinary,moonshine;beer
 John East,00:11:09,"Well, I think we'd better get that quick. Okay.",00:11:13,,
 Rob Moore,00:11:15,"When you got out of the moonshine business, you didn't sell out of that, did you?",00:11:19,crime,moonshine
 John East,00:11:19,"No, no, no...",00:11:28,,
@@ -78,7 +78,7 @@ Rob Moore,00:19:35,yeah.,00:19:36,,
 John East,00:19:36,"Yeah, I know. He could be. And, I would say this if you want to call moonshine in a business, you probably. It's, would go down in history as a porch business that I have been in.",00:20:16,crime,moonshine
 Rob Moore,00:20:16,"Who was it? Just so popular? Because everybody wanted to. I mean, it was such a big business, so everybody seemed like they were moonshine.",00:20:25,crime,moonshine
 John East,00:20:25,"Yeah. Wow. And it is no mean it was against the law and, our underworld, all the business is legal, and some of it is pay, you know, and hundreds of thousands of dollars. But I and maybe where they had a big turnover, big column, the stills hundreds and hundreds of jack sugar and the sugar that was used in the bigger ones was kind of great.",00:21:33,,
-John East,00:21:33,"These little, operations around here was all cane sugar and, if you, you see molasses out of Barrow, you just got the amount of alcohol that it contained much less than a cane sugar, much less. You just got the percentage of alcohol that, no matter what it was, whatever. Now I know nothing about the corn.",00:22:36,food_and_drink,molasses
+John East,00:21:33,"These little, operations around here was all cane sugar and, if you, you see molasses out of Barrow, you just got the amount of alcohol that it contained much less than a cane sugar, much less. You just got the percentage of alcohol that, no matter what it was, whatever. Now I know nothing about the corn.",00:22:36,culinary,molasses
 John East,00:22:36,"And, like most of the Kentucky in and those operators in the MidWes, in fact, I consider alcohol moonshiners in the ABC to it. What do you mean? We knew very little.",00:23:18,,
 Rob Moore,00:23:18,"There some people that have have told me that they, they feel that the area and the town of Moscow was a lot better place to live before Prohibition because the drinking was in the saloons rather than the home and stuff like that. How how do you feel about that?",00:23:45,lcoh places,moscow
 John East,00:23:45,"Well, I'll kind of go along with the public.",00:23:48,,

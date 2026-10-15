@@ -102,7 +102,7 @@ Sam Schrager,0:16:41,What was it like?,,
 Oscar Olson or Hazel Olson,0:16:45,My goodness. There were so many people died around here. It was terrific.,,
 Sam Schrager,0:16:51,"Well, now did they close down the school?",education,school
 Oscar Olson or Hazel Olson,0:16:52,"Because you said you stayed right here at the farm. Yeah, yeah, we did. We stayed right here. And I remember that fall we was clearing the land right over on the, right over there by the woods.",,
-Oscar Olson or Hazel Olson,0:17:05,"That was a bad deal. We escaped the Tar River. We didn't get sick at all. But our neighbor over here was sick. And we delivered milk over to him. And I didn't dare to go into the house. They wouldn't let me do that. I'd take the milk over and set it in the road by their place. And one of them wasn't too sick, went out and got it. Oh, it was quite a scare.",food_and_drink,milk
+Oscar Olson or Hazel Olson,0:17:05,"That was a bad deal. We escaped the Tar River. We didn't get sick at all. But our neighbor over here was sick. And we delivered milk over to him. And I didn't dare to go into the house. They wouldn't let me do that. I'd take the milk over and set it in the road by their place. And one of them wasn't too sick, went out and got it. Oh, it was quite a scare.",culinary,milk
 Sam Schrager,0:17:37,Do you think that your mother and the work that she did was pretty difficult to do without the modern conveniences that people have nowadays?,family,mother
 Oscar Olson or Hazel Olson,0:17:47,So I'll say so. I'll say so. Pack water from the spring down there up the hill here.,,
 Oscar Olson or Hazel Olson,0:17:56,"Everything done by hand. And your mother worked right out in the field, too. Oh, my mother worked out a lot.",family,mother
@@ -371,11 +371,11 @@ Oscar Olson or Hazel Olson,0:57:11,"Might be, I don't know. All I've heard is th
 Sam Schrager,0:57:14,"Well, do you know where he got that reputation?",,
 Oscar Olson or Hazel Olson,0:57:17,"Oscar does, no. I think so.",,
 Sam Schrager,0:57:19,Where?,,
-Oscar Olson or Hazel Olson,0:57:19,"He went on the drive. What I had heard. Oscar doesn't know for sure, but he'd heard this. I had heard that they were on the drive breaking a jam and his partner got his foot caught. The jam shifted a little bit and caught his foot and it was getting ready to leave, you know. And it was a cinch to take him down. A sudden death for his partner if he didn't free him. And he had an axe there right handy and he just chopped his partner's leg off right there. One blow of the axe cut his foot off.",family;food_and_drink,partner;jam
+Oscar Olson or Hazel Olson,0:57:19,"He went on the drive. What I had heard. Oscar doesn't know for sure, but he'd heard this. I had heard that they were on the drive breaking a jam and his partner got his foot caught. The jam shifted a little bit and caught his foot and it was getting ready to leave, you know. And it was a cinch to take him down. A sudden death for his partner if he didn't free him. And he had an axe there right handy and he just chopped his partner's leg off right there. One blow of the axe cut his foot off.",family;culinary,partner;jam
 Oscar Olson or Hazel Olson,0:57:52,Had you heard this before?,,
 Sam Schrager,0:57:53,"I don't know, but it sounds familiar enough that I may have. ... I think I have heard a story very much like that. Cruel Jimmy after that.",,
 Sam Schrager,0:58:04,Was that the only thing he could have done to save his partner?,family,partner
-Oscar Olson or Hazel Olson,0:58:06,"Oh, there was no other way. He saved his partner by it, sure. Saved his life, but had to give up his life. Saved his life because that big jam was starting to boil and roll over, you know. Taking him.",family;food_and_drink,partner;jam
+Oscar Olson or Hazel Olson,0:58:06,"Oh, there was no other way. He saved his partner by it, sure. Saved his life, but had to give up his life. Saved his life because that big jam was starting to boil and roll over, you know. Taking him.",family;culinary,partner;jam
 Sam Schrager,0:58:17,Did he strike you as a cruel person? Did you know him?,,
 Oscar Olson or Hazel Olson,0:58:21,"Well, I didn't know him that well. I don't know. No, I don't. I don't. I never heard that about him. He was just a quick thinker and he had to do what had to be done. That's all. Broken ass John.",lcoh people,broken ass john
 Sam Schrager,0:58:36,You remember that? Remember him?,,

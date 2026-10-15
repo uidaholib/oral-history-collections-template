@@ -187,7 +187,7 @@ Alice Henry Jackson,0:24:43,This way. Stand like this. Like this thing.,,
 Rob Moore,0:24:48,"Oh, the gunnysacks would stand up against each other?",,
 Alice Henry Jackson,0:24:51,"Yeah. Oh, I see. And it should burn itself. And it get ripe.",,
 Rob Moore,0:24:59,And then what do you do to eat it? To eat it?,,
-Alice Henry Jackson,0:25:03,"Well, we take it out. And we take it and dry it out. You can dry it out. Mama used to take the ones that are small. And she'd take that and pound it. To make soup out of it. It's your good soup. I've never eaten camas.",food_and_drink;lcoh flora & fauna,soup;camas
+Alice Henry Jackson,0:25:03,"Well, we take it out. And we take it and dry it out. You can dry it out. Mama used to take the ones that are small. And she'd take that and pound it. To make soup out of it. It's your good soup. I've never eaten camas.",culinary;lcoh flora & fauna,soup;camas
 Rob Moore,0:25:25,You never eat camas?,lcoh flora & fauna,camas
 Alice Henry Jackson,0:25:26,No.,,
 Rob Moore,0:25:27,You never eat cous?,lcoh flora & fauna,cous
@@ -207,21 +207,21 @@ Alice Henry Jackson,0:27:13,Pack it.,,
 Rob Moore,0:27:15,On a horse?,lcoh flora & fauna,horse
 Alice Henry Jackson,0:27:17,"We used to go from here, clay to wallow. And then coming back we'd go up in the mountain. And that's where the boys used to hunt.",,
 Rob Moore,0:27:28,Up on Moscow Mountain there? What would they call Moscow Mountain?,lcoh places,moscow
-Alice Henry Jackson,0:27:31,"On this side of Wallowa. Oh! On this side of Wallowa. And we used to come clay down to Rapa when we get home. That's how we used to do it. We used to get salmon in Wallowa. Salmon, we used to get salmon. We used to take a dip nut and dip it with a dip nut.",food_and_drink,salmon
-Rob Moore,0:27:57,Did you smoke the salmon or dry the salmon then too?,food_and_drink,salmon
+Alice Henry Jackson,0:27:31,"On this side of Wallowa. Oh! On this side of Wallowa. And we used to come clay down to Rapa when we get home. That's how we used to do it. We used to get salmon in Wallowa. Salmon, we used to get salmon. We used to take a dip nut and dip it with a dip nut.",culinary,salmon
+Rob Moore,0:27:57,Did you smoke the salmon or dry the salmon then too?,culinary,salmon
 Alice Henry Jackson,0:28:00,"We just dry it. Not smoke it. Dry it. And it's good if you eat it dry, it's alright. If you cook it, it's alright. We used to eat eels too.",,
 Rob Moore,0:28:17,Eels? From where? Did you get them out of Wallowa Lake?,leisure,lake
 Alice Henry Jackson,0:28:22,We used to get eels and we'd dry it just the same. But we have to have sticks to straighten them out so they can dry good. Just put it across like this. If it's in a fall time then we used to put fire on them. Mama used to do that. In the summer time you can dry it with the sun. It's good. I used to like it.,,
 Rob Moore,0:29:02,How much time would you spend down in Wallowa each year? Wallowa? Where did you go?,,
 Alice Henry Jackson,0:29:11,After July we'd go over there and stay over there about two weeks. Then we'd come back.,,
 Rob Moore,0:29:20,In two weeks you managed to get enough fish and everything?,,
-Alice Henry Jackson,0:29:23,"Oh, sure still. My grandfather used to get dip net. He'd dip it with a dip net. Salmon. We used to have dried salmon… yes.",family;food_and_drink,grandfather;salmon
+Alice Henry Jackson,0:29:23,"Oh, sure still. My grandfather used to get dip net. He'd dip it with a dip net. Salmon. We used to have dried salmon… yes.",family;culinary,grandfather;salmon
 Rob Moore,0:29:40,How many people were there in those times? How many Nez Perce were there when you were making those big moves from Wallowa back to here? When you were still moving around? How big a tribe would be moving?,lcoh indigenous,nez perce;tribe
 Alice Henry Jackson,0:29:52,There was lots of people who used to go to Wallowa.,,
 Rob Moore,0:29:56,Would you all go in one bunch?,,
 Alice Henry Jackson,0:29:58,No.,,
 Rob Moore,0:29:59,Or would you all go separately?,,
-Alice Henry Jackson,0:30:00,"Some went up on the other side and some down. We used to go down all the time. We used to get salmon about this long. Those are big fish, a couple of feet long. We used to get... They used to even dry salmon. You can eat it dry, it's good. I don't have to cook it, but sometimes this backbone and the head... We didn't have no chief for that. We just used to go over there and camp.",food_and_drink,salmon
+Alice Henry Jackson,0:30:00,"Some went up on the other side and some down. We used to go down all the time. We used to get salmon about this long. Those are big fish, a couple of feet long. We used to get... They used to even dry salmon. You can eat it dry, it's good. I don't have to cook it, but sometimes this backbone and the head... We didn't have no chief for that. We just used to go over there and camp.",culinary,salmon
 Rob Moore,0:30:44,Do you remember who any of the elders or the old people were?,,
 Alice Henry Jackson,0:30:49,"Grandma, grandfather, and my grandmother.",family,grandfather;grandmother
 Rob Moore,0:30:51,What were their names?,,
@@ -235,9 +235,9 @@ Alice Henry Jackson,0:31:34,"Yes, they were sorry it happened that way. See, all
 Rob Moore,0:31:55,What would the fights be about?,,
 Alice Henry Jackson,0:31:59,"Well, I don't know. Just try to take the land away from us. I think that's what it was. Take the land away.",,
 Rob Moore,0:32:12,"The Nez Perce were really good horsemen, weren't they?",lcoh indigenous,nez perce
-Alice Henry Jackson,0:32:16,"Yes… they were pretty good. They used to dry salmon, dry meat. Dry meat is awful good. Mama used to take it when we dried it and she'd take it and pound it. It'd be just purity.",food_and_drink,salmon
+Alice Henry Jackson,0:32:16,"Yes… they were pretty good. They used to dry salmon, dry meat. Dry meat is awful good. Mama used to take it when we dried it and she'd take it and pound it. It'd be just purity.",culinary,salmon
 Rob Moore,0:32:38,Why would she pound it? Why would she pound it?,,
-Alice Henry Jackson,0:32:42,"Well, to make it better. When we had salt and she'd put a little salt on it when she started to dry it. And we'd have salt on it. That's what we used to do. That's why we used to go to Wallowa. That's why we used to go to Wallowa.",food_and_drink,salt
+Alice Henry Jackson,0:32:42,"Well, to make it better. When we had salt and she'd put a little salt on it when she started to dry it. And we'd have salt on it. That's what we used to do. That's why we used to go to Wallowa. That's why we used to go to Wallowa.",culinary,salt
 Rob Moore,0:33:07,Were there some people who stayed all the time in Wallowa? Everybody had to come back to Lapwai?,lcoh places,lapwai
 Alice Henry Jackson,0:33:14,No… nobody stayed there. The Oregon people would go in and us would go in too.,,
 Rob Moore,0:33:24,Didn't Chief Joseph want to stay there? Joseph?,,

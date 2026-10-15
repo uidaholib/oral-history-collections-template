@@ -105,17 +105,17 @@ Ima Hodge Platz,00:27:53,"Yes, there was only two of us that did all the cooking
 Sam Schrager,00:27:57,And when did you start in the morning?,,
 Ima Hodge Platz,00:27:59,Two thirty. Got up at two thirty. We had breakfast at four o 'clock.,,
 Sam Schrager,00:28:07,What did it take for you to get the breakfast ready from when you got up? What did you have to do to get it on the table?,,
-Ima Hodge Platz,00:28:14,"Well, we had to cook it. Cook potatoes and make biscuits and make gravy. Fried beef, a pan of beef steak. When we didn't have bacon, we used to have beef steak.",food_and_drink,bacon;beef
+Ima Hodge Platz,00:28:14,"Well, we had to cook it. Cook potatoes and make biscuits and make gravy. Fried beef, a pan of beef steak. When we didn't have bacon, we used to have beef steak.",culinary,bacon;beef
 Sam Schrager,00:28:36,"And you and she divided it up and each of you took about half the work, is that how it worked?",,
-Ima Hodge Platz,00:28:42,"Well, I made the bread and she took care of the meat. Each one we had her own job. She took care of the meat and the rest of it by whoever needed to do what they had done. We went seven years together, seven harvests. And we were hired from the time we were pulled in one year to the next. For the next. We had the job already. To the next.",food_and_drink,bread
+Ima Hodge Platz,00:28:42,"Well, I made the bread and she took care of the meat. Each one we had her own job. She took care of the meat and the rest of it by whoever needed to do what they had done. We went seven years together, seven harvests. And we were hired from the time we were pulled in one year to the next. For the next. We had the job already. To the next.",culinary,bread
 Sam Schrager,00:29:24,"Now what was the trouble when you say the wagon, they'd move the wagon from place to place? The cook house?",,
-Ima Hodge Platz,00:29:30,"Well, they'd move the cook house to different fields, you know. They'd thrash for different people. The grain. Wherever the grain was, the cook house was there too. And they'd move the cook house. And there you had to pack your stuff in the cook house. Maybe you'd be well, I'd bake bread on the road different times. Maybe just get it in the oven, a little while before and you'd think it'd never be fit to eat. You'd wonder. But they'd generally eat you.",food_and_drink,bread
+Ima Hodge Platz,00:29:30,"Well, they'd move the cook house to different fields, you know. They'd thrash for different people. The grain. Wherever the grain was, the cook house was there too. And they'd move the cook house. And there you had to pack your stuff in the cook house. Maybe you'd be well, I'd bake bread on the road different times. Maybe just get it in the oven, a little while before and you'd think it'd never be fit to eat. You'd wonder. But they'd generally eat you.",culinary,bread
 Sam Schrager,00:30:14,What would you have to do while they were moving it?,,
 Ima Hodge Platz,00:30:17,"Well, we'd stay in the cook house and ride. Maybe pee a sponge or something.",,
-Sam Schrager,00:30:23,"And hold the bread in the oven, you say?",food_and_drink,bread
-Ima Hodge Platz,00:30:26,"Yeah, we'd stand and hold the oven door shut over a round because if we didn't, the door would come down and the bread would slide out.",food_and_drink,bread
+Sam Schrager,00:30:23,"And hold the bread in the oven, you say?",culinary,bread
+Ima Hodge Platz,00:30:26,"Yeah, we'd stand and hold the oven door shut over a round because if we didn't, the door would come down and the bread would slide out.",culinary,bread
 Sam Schrager,00:30:39,And you didn't wind up getting sick to your stomach by the time that moved it?,,
-Ima Hodge Platz,00:30:45,"No, we didn't wind up no better. We couldn't do anything good to get sick. That'd be worse. Hammer all that beef steak for them to have for breakfast.",food_and_drink,beef
+Ima Hodge Platz,00:30:45,"No, we didn't wind up no better. We couldn't do anything good to get sick. That'd be worse. Hammer all that beef steak for them to have for breakfast.",culinary,beef
 Sam Schrager,00:31:07,Did you decide what the menu was going to be yourselves?,,
 Ima Hodge Platz,00:31:12,"Oh, yeah.",,
 Sam Schrager,00:31:13,You ordered the food you wanted?,,
@@ -127,7 +127,7 @@ Ima Hodge Platz,00:32:20,"Well, it wasn't like it was where you had a home or so
 Sam Schrager,00:32:34,It was very hot?,,
 Ima Hodge Platz,00:32:35,"Not too bad, because we could raise the sides of the cookhouse, the curtain on the side we could raise and make a draft through. And there was a door in each end, so it wasn't too bad. Sometimes it's kind of hot, but it wasn't too bad. After you got used to it.",,
 Sam Schrager,00:33:01,What was the big meal of the day?,,
-Ima Hodge Platz,00:33:04,All of them… don't make this much difference. We usually had pie for dinner. Sometimes we'd just get bread nailing or cake or something and they'd come over the hill with the team. Had to move. Not for something. It's wonder they'd eat the food at the door.,food_and_drink,bread;cake;pie
+Ima Hodge Platz,00:33:04,All of them… don't make this much difference. We usually had pie for dinner. Sometimes we'd just get bread nailing or cake or something and they'd come over the hill with the team. Had to move. Not for something. It's wonder they'd eat the food at the door.,culinary,bread;cake;pie
 Sam Schrager,00:33:42,What about the dust? Was the dust bad while they were working in the field?,,
 Ima Hodge Platz,00:33:47,"Oh, not too bad, no. It wasn't. She was in stubble mostly, so that'd make a difference. Well, there'd be some. It wasn't like they could expect it. They just swelled.",,
 Sam Schrager,00:34:18,And about what time would you think you got to bed at night? Got to go to sleep. When would you be finished with all this work?,,

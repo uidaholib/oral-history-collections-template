@@ -52,7 +52,7 @@ Sam Schrager,0:10:05,What about the coal? Where did you deliver that?,,
 Clay Gustin,0:10:07,"I delivered that up at the university. A lot of it. And then around town, you know, different ones. They'd order it and you'd have to take it out. But the university had most of it. Flat car gondolas come in there and we'd load them out of them, shovel it out, take it up there, and dump it into that furnace to keep that heating plant going. They could just about burn a load while I was getting one too.",agriculture,shovel
 Clay Gustin,0:10:38,Then they finally put the railroad up there. I don't know. They ain't got the railroad there now. I don't know what the hell they get it up there. Maybe they don't use coal anymore.,transportation,railroad
 Sam Schrager,0:10:52,You told me that you delivered flour too?,,
-Clay Gustin,0:10:55,"Yeah, to the bakeries. That's the first job I had of a morning. Go down there and get about 10 sacks, 100 pound sacks of flour and take it up to that Third Street bakery. I forget who owned that now. I knew him well then too. It's the same building. Yeah, same place. But I can't think of the color of his name. It was run with them. Then I'd go overnight the last thing and get that bread and deliver it out there where that road is. And then take a bunch of it to the university up there. They had two places for them. Boy, there's a lot of bread and a thousand pounds of that flour when you get it mixed up.",food_and_drink,bread
+Clay Gustin,0:10:55,"Yeah, to the bakeries. That's the first job I had of a morning. Go down there and get about 10 sacks, 100 pound sacks of flour and take it up to that Third Street bakery. I forget who owned that now. I knew him well then too. It's the same building. Yeah, same place. But I can't think of the color of his name. It was run with them. Then I'd go overnight the last thing and get that bread and deliver it out there where that road is. And then take a bunch of it to the university up there. They had two places for them. Boy, there's a lot of bread and a thousand pounds of that flour when you get it mixed up.",culinary,bread
 Sam Schrager,0:11:43,"What was it, the Rose Hours place?",,
 Clay Gustin,0:11:45,They had an army camp there at the time. And one at the university.,conflict,army
 Sam Schrager,0:11:55,Did you take it to other stores too to sell?,,
@@ -110,7 +110,7 @@ Clay Gustin,0:20:45,"No, I don't think it was too rough. Clarkia was a rougher t
 Sam Schrager,0:20:59,What was it like in Clarkia?,lcoh places,clarkia
 Clay Gustin,0:21:03,"Oh, they had all kinds of things going over there. Tootle -Eggin', I don't know.",,
 Clay Gustin,0:21:09,"I've heard about that around here, too. Yeah, they've had some of that here, too, I guess.",,
-Clay Gustin,0:21:14,"Not too much of it, as I even know of. Of course, they can get bootlegged whiskey in here, but they hauled it in, I guess. First I'm making it, I don't think too many made it.",food_and_drink,whiskey
+Clay Gustin,0:21:14,"Not too much of it, as I even know of. Of course, they can get bootlegged whiskey in here, but they hauled it in, I guess. First I'm making it, I don't think too many made it.",culinary,whiskey
 Clay Gustin,0:21:34,"No, I forget half of what used to go on around here.",,
 Clay Gustin,0:21:38,"Well, it's been a pretty long time.",,
 Clay Gustin,0:21:42,"Well, there are never things about what's going to happen later on or nothing, you know.",,
@@ -161,7 +161,7 @@ Clay Gustin,0:31:01,"Well, about the only thing I could tell you would be how th
 Clay Gustin,0:31:25,"They'd bring two sleighs at a time behind each cat over to this railroad. Then they had a loader there, they'd load it on to them cars and take them into potlatch for the mill.",lcoh places;transportation,potlatch;railroad
 Sam Schrager,0:31:39,What was your job?,,
 Clay Gustin,0:31:40,"I was road -moaking down here. I saw the logs over there at first, they went to sleigh on, and I went on the road.",,
-Clay Gustin,0:31:52,Salmon.,food_and_drink,salmon
+Clay Gustin,0:31:52,Salmon.,culinary,salmon
 Clay Gustin,0:31:57,They put in 72 days study. Never missed Sundays and all.,education,study
 Sam Schrager,0:32:07,What did you do to maintain that road? What did you have to do?,,
 Clay Gustin,0:32:13,"Well, we put sand and gravel on the road to keep the sleighs running over the horses. They had four horses on each sleigh. There was quite a bit of weight there. And them sleighs. Just to hold the sled back down the hill.",,
@@ -188,7 +188,7 @@ Sam Schrager,0:36:27,Can you tell me some stories about prohibition?,,
 Clay Gustin,0:36:32,Some of the things that... Some of the funny stories about guys drinking on the sleigh and stuff like that.,,
 Clay Gustin,0:36:39,"Well, I don't know too much about that. I never... If I have, I forgot them all.",,
 Clay Gustin,0:36:49,You told me a couple last time. I don't know if I can remember.,,
-Clay Gustin,0:36:53,"I ain't familiar with a lot of that stuff. A lot of things happened that I forgot all about, I guess. One of the ones you told me was about a dog, and I don't remember. It was too good. Oh, it was about a dog over here hunting whiskey bottles. Yeah. He'd go out and get them too. He'd be taking a hide one wherever he wanted to. And when he'd send him out, he'd come back with it. He belonged to Harry Tracy. The dog did. He had him trained. The engineer went out and hid one there, and Tracy sent him out, and pretty soon he came back with it. He said, that's the last one. I'll hide around down there.",food_and_drink;leisure;transportation,whiskey;hunting;engineer
+Clay Gustin,0:36:53,"I ain't familiar with a lot of that stuff. A lot of things happened that I forgot all about, I guess. One of the ones you told me was about a dog, and I don't remember. It was too good. Oh, it was about a dog over here hunting whiskey bottles. Yeah. He'd go out and get them too. He'd be taking a hide one wherever he wanted to. And when he'd send him out, he'd come back with it. He belonged to Harry Tracy. The dog did. He had him trained. The engineer went out and hid one there, and Tracy sent him out, and pretty soon he came back with it. He said, that's the last one. I'll hide around down there.",culinary;leisure;transportation,whiskey;hunting;engineer
 Clay Gustin,0:37:45,"Well, just from what I've heard about it, prohibition seems to not have been taken very seriously.",,
 Clay Gustin,0:37:55,"Pat Malone really liked his... Well, he used to watch the hall down there, and he'd take a drink. He didn't bother him much. I seen him come around the fence there one night. Some guy's ahead of him, and they stopped and got a drink. He'd come along, he stopped and got one, and he'd come on down and back up. I don't know whose bottle it was. It was dark there. You couldn't hardly see him up in the light. Old Pat had the flashlight. He was going along. I thought maybe he was going to try and catch them with it. All he wanted was a drink or something.",lcoh people;technology,pat malone;flashlight
 Clay Gustin,0:38:38,"I guess he's dead a long time ago, too. Aw, he didn't bother anybody if they let him alone. I don't think.",,

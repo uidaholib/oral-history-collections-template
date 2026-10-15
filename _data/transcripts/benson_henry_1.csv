@@ -52,7 +52,7 @@ Nina Seybold,00:04:11,Yes. And sure.,00:04:12,,
 Sam Schrager,00:04:12,"I just wonder what they were like because there were so few, Negroes around, you know, in this country at all.",00:04:19,,
 Henry Benson,00:04:19,"Yeah, not at them.",00:04:20,,
 Nina Seybold,00:04:20,They know.,00:04:22,,
-Henry Benson,00:04:22,"And I was going to tell you about, Joe Wells, his wife. Now, he called her Lou. She. And she'd go in there and make biscuits every morning and cook them hot biscuit for her. Man.",00:04:37,family;food_and_drink;lcoh people,wife;biscuit;joe wells
+Henry Benson,00:04:22,"And I was going to tell you about, Joe Wells, his wife. Now, he called her Lou. She. And she'd go in there and make biscuits every morning and cook them hot biscuit for her. Man.",00:04:37,family;culinary;lcoh people,wife;biscuit;joe wells
 Nina Seybold,00:04:37,"Oh, boy. She was something.",00:04:39,,
 Henry Benson,00:04:39,yes.,00:04:41,,
 Nina Seybold,00:04:42,"And he had a daughter, Mary. He was two. But I'll tell you, they were good cooks.",00:04:48,,
@@ -94,7 +94,7 @@ Nina Seybold,00:08:29,How long were you back? All right.,00:08:31,,
 Henry Benson,00:08:31,"Yeah, right. Years back.",00:08:34,,
 Sam Schrager,00:08:34,"Well, how did your how did your folks, get by through those hard times?",00:08:40,,
 Henry Benson,00:08:40,"Well, the they had page and they had stock. We milked and we planned a garden and then I thought we'd he'd butcher for meat. So I had it all cleared up. Some of this smoke, some of it was dried, solid and dried.",00:09:03,agriculture,garden
-Nina Seybold,00:09:03,"Many even. I had cold and dry chipped beef. We had them of mama and. Okay. But you know, as when we were settling in, it was different people, different nationalities. All would come in time and sell all around the country and all the country, you know. So, you know, that'd be people moving in from different countries, in different places.",00:09:25,food_and_drink,beef
+Nina Seybold,00:09:03,"Many even. I had cold and dry chipped beef. We had them of mama and. Okay. But you know, as when we were settling in, it was different people, different nationalities. All would come in time and sell all around the country and all the country, you know. So, you know, that'd be people moving in from different countries, in different places.",00:09:25,culinary,beef
 Sam Schrager,00:09:26,There were sure a lot of people from Norway around there.,00:09:29,norwegian,norway
 Henry Benson,00:09:29,You about your life.,00:09:30,,
 Nina Seybold,00:09:30,"That was and that was really, bing bing bing bing bing.",00:09:34,,
@@ -128,7 +128,7 @@ Henry Benson,00:11:37,"Rankin wasn't away. Well, that that then Hansen's up ther
 Nina Seybold,00:11:46,What I say then. Bill.,00:11:47,,
 Sam Schrager,00:11:47,Who? Who is this? Now? The hatchet heads.,00:11:50,,
 Henry Benson,00:11:50,"Out, and they Addison Miller Place, and they built caskets up there. Wooden casket.",00:11:57,,
-Nina Seybold,00:11:57,"And then they paint them and take some real nice. You know, we had an ice cream. You're on the fence around some. I mean, up here don't have anything coming in at that time. Yeah.",00:12:09,food_and_drink,ice cream
+Nina Seybold,00:11:57,"And then they paint them and take some real nice. You know, we had an ice cream. You're on the fence around some. I mean, up here don't have anything coming in at that time. Yeah.",00:12:09,culinary,ice cream
 Sam Schrager,00:12:09,"Did,",00:12:10,,
 Nina Seybold,00:12:10,And then Bill come on church. church too.,00:12:13,religion,church
 Sam Schrager,00:12:13,Did you? Didn't many people die besides the old people that did?,00:12:17,,
@@ -150,8 +150,8 @@ Sam Schrager,00:14:01,Where do they graze?,00:14:02,,
 Henry Benson,00:14:02,And mostly just out there in their own place of business. There were over there.,00:14:09,,
 Nina Seybold,00:14:09,That make corrals. Anyway.,00:14:10,,
 Henry Benson,00:14:10,"Keep crew. No, they didn't have no corrals, man. They they went up to.",00:14:16,,
-Nina Seybold,00:14:16,They didn't have so many of the milk cows was because there used to.,00:14:20,food_and_drink,milk
-Henry Benson,00:14:20,"Have well, the milk cow they were taking care of different. Yeah. And then young occurred.",00:14:28,food_and_drink,milk
+Nina Seybold,00:14:16,They didn't have so many of the milk cows was because there used to.,00:14:20,culinary,milk
+Henry Benson,00:14:20,"Have well, the milk cow they were taking care of different. Yeah. And then young occurred.",00:14:28,culinary,milk
 Sam Schrager,00:14:28,Well how long did it take your parents to clear up and get that going.,00:14:34,,
 Henry Benson,00:14:34,"Brother? I tell you that, son, that's for sure. I had there was a lot of timber, not timber. But then, dad, he went around and chopped sugar around them trees. There she. Yes. And then they died. She. And then that. In the spring, every spring we used to have to go out there and pick up that bark of that field there that day.",00:14:57,family;lcoh timber,brother;timber
 Henry Benson,00:14:57,It no fuller.,00:15:01,,
@@ -215,13 +215,13 @@ Henry Benson,00:21:19,No. You know.,00:21:20,,
 Nina Seybold,00:21:20,"He worked like he was a worker. We all had to. There was nothing fooling around, no play around.",00:21:26,manual_labor,worker
 Henry Benson,00:21:26,"And another thing I'm going to say, you know, that every fall they'd get a lot of wood. That is black pine timber. And he'd go out there and run across culture and show them that wood. And splitter carry and.",00:21:46,lcoh timber,timber
 Sam Schrager,00:21:46,For the fire.,00:21:48,,
-Henry Benson,00:21:48,"Yes, sure. And his mother now, she used to we used to go fishing in Arthur and I did. She had a coffee grinder up there on them old timers from the war. And whenever we got back where she'd make coffee for.",00:22:10,conflict;family;food_and_drink;leisure,war;mother;coffee;fishing
+Henry Benson,00:21:48,"Yes, sure. And his mother now, she used to we used to go fishing in Arthur and I did. She had a coffee grinder up there on them old timers from the war. And whenever we got back where she'd make coffee for.",00:22:10,conflict;family;culinary;leisure,war;mother;coffee;fishing
 Nina Seybold,00:22:10,Yeah.,00:22:10,,
 Sam Schrager,00:22:11,Where do you go fishing?,00:22:12,leisure,fishing
 Henry Benson,00:22:12,"Down on the. On the river down there. We walked to Martin Magnuson Field and down. It's about three mile down north, Neal there, down the river.",00:22:26,,
 Henry Benson,00:22:27,"So far tonight, we've been down there many times.",00:22:30,,
 Sam Schrager,00:22:30,What did you catch?,00:22:31,,
-Henry Benson,00:22:31,Mostly trout. Really nice trout.,00:22:34,food_and_drink,trout
+Henry Benson,00:22:31,Mostly trout. Really nice trout.,00:22:34,culinary,trout
 Nina Seybold,00:22:34,"Oh my gosh, they were nice. Heavens. Whatever.",00:22:37,,
 Henry Benson,00:22:37,Beautiful you mentioned nowadays anymore.,00:22:41,,
 Sam Schrager,00:22:41,"You doing that in those creeks. No, no.",00:22:43,,
@@ -264,7 +264,7 @@ Nina Seybold,00:27:55,"No, everybody was happy they worked.",00:27:57,,
 Henry Benson,00:27:57,And yes.,00:27:59,,
 Nina Seybold,00:27:59,They were.,00:28:02,,
 Henry Benson,00:28:02,"Well, you know.",00:28:04,,
-Nina Seybold,00:28:04,"And they used to as well as I say, they fix or something. They got the chance and we have the administration come and then go into each other's ham dinner. And, you know, just like a big family all the way, all through. I knew it was just like a chain. Oh, where there were nobody.",00:28:23,food_and_drink,ham
+Nina Seybold,00:28:04,"And they used to as well as I say, they fix or something. They got the chance and we have the administration come and then go into each other's ham dinner. And, you know, just like a big family all the way, all through. I knew it was just like a chain. Oh, where there were nobody.",00:28:23,culinary,ham
 Henry Benson,00:28:23,But I want to show you one thing I want to ask you. Have you ever looked at that little old engine shed and down there with the people here?,00:28:31,,
 Sam Schrager,00:28:31,"It's nice, It's a nice engine.",00:28:41,,
 Sam Schrager,00:28:41,Yeah. What's so funny? Do you work on that engine?,00:28:46,,
@@ -415,7 +415,7 @@ Henry Benson,00:52:39,In a.,00:52:43,,
 Henry Benson,00:52:43,"Draft. I was drafted, didn't they? Had to go to Moscow. And you got to have had to stay in jail there because the sheriff over there was looking after someone said he had charge of the show. Goes over there, left here at 1:00. I think it was in the afternoon. Went over there and colored it all up. They're the ones that are drafted during that time.",00:53:12,crime;lcoh places,jail;moscow
 Henry Benson,00:53:12,"She. Had to do it then. and we went in there, the sheriff's office there, and they said, well, here's a bed for you fellas. And he said, I think there was supposed to God, there she he said, here's your place. You got a camp? No. So, okay. good. And well, Then that evening, then that afternoon, he said, we're going to go to Troy.",00:53:54,,
 Henry Benson,00:53:54,"He said, the sheriff says we're going to go to Troy. So we got in that white wagon that they had that. and Jack Campbell was the sheriff in. I think I'm sure we'll go to Troy now. We're going to go down there and see what they're doing down there. We went down there and well, he said, you boys, come on, let's go in here.",00:54:23,,
-Henry Benson,00:54:23,"We've got some apple cider in here. He said, yeah, it tastes pretty good, he said. So we went in there and it was hard. Cider boy. Apple cider and really hard to.",00:54:39,food_and_drink,cider
+Henry Benson,00:54:23,"We've got some apple cider in here. He said, yeah, it tastes pretty good, he said. So we went in there and it was hard. Cider boy. Apple cider and really hard to.",00:54:39,culinary,cider
 Henry Benson,00:54:39,"We stay in there for a couple hours, I guess, or something like that. Valley says, boy, let's come on back. We're going to go back to Moscow now. We went back to Moscow. Nash laid on the jail floor. There.",00:54:55,crime;lcoh places,jail;moscow
 Henry Benson,00:54:59,Then they are gone now.,00:55:02,,
 Sam Schrager,00:55:02,What was he doing with you then? He was just giving you guys a good time before you.,00:55:06,,
