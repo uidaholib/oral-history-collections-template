@@ -8,7 +8,7 @@
  *  - Keyboard: Tab / Shift+Tab or Up / Down move between visible nodes;
  *    Enter or Space opens; Right expands; Left or Esc steps back up and folds.
  *  - A term opens the modal listing every passage A-Z by interview title,
- *    five per page, with page numbers in runs of five.
+ *    five per page; page numbers show three at a time plus the last page.
  *  - Modal keys: Tab / Up / Down move passage to passage (one stop each),
  *    Left / Right turn the page, Esc returns to the tree.
  *  - Following a passage records it in the address, so Back reopens the
@@ -512,8 +512,9 @@
   }
 
   // Passages are listed A-Z by interview title (then in interview order),
-  // PER_PAGE at a time. Page numbers show in runs of five: 1 2 3 4 5 … / … 6 7 8 9 10 …
-  const PAGE_RUN = 5;
+  // PER_PAGE at a time. Page numbers show three at a time plus the last page,
+  // so the total is always visible:  1 2 3 … 16  /  1 … 4 5 6 … 16  /  1 … 13 14 15 16
+  const PAGE_RUN = 3;
 
   function pageButton(label, page, ariaLabel, opts) {
     const li = el('li', `page-item${opts.disabled ? ' disabled' : ''}${opts.current ? ' active' : ''}`);
@@ -534,23 +535,40 @@
     if (pages <= 1) return;
 
     const page = active.page;
-    const runStart = Math.floor((page - 1) / PAGE_RUN) * PAGE_RUN + 1;
-    const runEnd = Math.min(runStart + PAGE_RUN - 1, pages);
     const list = el('ul', 'pagination pagination-sm mb-0');
+    const number = (p) => pageButton(String(p), p, `Page ${p} of ${pages}`, { current: p === page });
 
     list.append(pageButton('‹', page - 1, 'Previous page', { disabled: page === 1 }));
-    if (runStart > 1) {
-      list.append(pageButton('…', runStart - 1, `Pages ${runStart - PAGE_RUN} to ${runStart - 1}`, {}));
-    }
-    for (let p = runStart; p <= runEnd; p++) {
-      list.append(pageButton(String(p), p, `Page ${p} of ${pages}`, { current: p === page }));
-    }
-    if (runEnd < pages) {
-      list.append(pageButton('…', runEnd + 1, `Pages ${runEnd + 1} to ${Math.min(runEnd + PAGE_RUN, pages)}`, {}));
+    if (pages <= PAGE_RUN + 1) {
+      // Four pages or fewer: every number fits, no ellipsis needed.
+      for (let p = 1; p <= pages; p++) list.append(number(p));
+    } else {
+      // Pages run in groups of three (1-3, 4-6 ...). The group holding the
+      // second-to-last page runs on to the last page, so the end never shows
+      // a lone number or repeats the last page after an ellipsis.
+      const lastRunStart = Math.floor((pages - 2) / PAGE_RUN) * PAGE_RUN + 1;
+      let runStart = Math.floor((page - 1) / PAGE_RUN) * PAGE_RUN + 1;
+      let runEnd = runStart + PAGE_RUN - 1;
+      if (runStart >= lastRunStart) {
+        runStart = lastRunStart;
+        runEnd = pages;
+      }
+      if (runStart > 1) {
+        list.append(number(1));
+        if (runStart > 2) {
+          list.append(pageButton('…', runStart - 1, `Pages ${Math.max(2, runStart - PAGE_RUN)} to ${runStart - 1}`, {}));
+        }
+      }
+      for (let p = runStart; p <= runEnd; p++) list.append(number(p));
+      if (runEnd < pages) {
+        list.append(pageButton('…', runEnd + 1, `Pages ${runEnd + 1} to ${Math.min(runEnd + PAGE_RUN, pages - 1)}`, {}));
+        list.append(number(pages));
+      }
     }
     list.append(pageButton('›', page + 1, 'Next page', { disabled: page === pages }));
     ui.pager.append(list);
   }
+
 
   // focus: 'pager' keeps focus on the page numbers, a number focuses that
   // passage on the new page (-1 = last), null leaves focus alone.
