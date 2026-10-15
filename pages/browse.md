@@ -1,6 +1,6 @@
 ---
 title: Browse
-layout: browse
+layout: browse-facets
 permalink: /browse.html
 ---
 

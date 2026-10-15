@@ -1,5 +1,9 @@
 field,display_name,btn,hidden,search,date_field,multivalued,sort_name,facet_name
+display_template,Type,,,,,,,Record Type
 date,Date,,,,true,,Date,Date
+residence,Residence,,,true,,,,Residence
+origin,Origin,,,true,,true,,Origin
+occupation,Occupation,,,true,,true,,Occupation
 creator,Creator,,,true,,,Creator,Creator
 description,,,true,true,,,,
 subject,,true,,2,,true,,Subject

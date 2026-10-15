@@ -19,7 +19,7 @@ var browseStore = [
 {%- if item.image_alt_text -%}"image_alt_text":{{ item.image_alt_text | strip | jsonify }},{%- endif -%}
 {%- if item.display_template -%}"display_template":{{ item.display_template | strip | jsonify }},{%- endif -%}
 {%- if item.format -%}"format":{{ item.format | strip | jsonify }},{%- endif -%}
-{%- capture item_url -%}/items/{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}{%- endcapture -%}
+{%- capture item_url -%}/people/{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}{%- endcapture -%}
 "url":{{ item_url | relative_url | jsonify }},
 "title":{{ item.title | default: item.objectid | strip | jsonify }},
 "objectid":{{ item.objectid | jsonify }}
