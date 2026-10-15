@@ -88,6 +88,12 @@ let FACETS = [];
 // url parameter names used by the page, facet fields can not use these names
 const RESERVED = /^(q|sort|order|page|[bfv]\d+|start\d+|end\d+)$/;
 
+// facet values to leave out of the filter list, by field name. the items still appear in results.
+// "record" is hidden from Record Type so the filter is a simple People / Interviews choice.
+const HIDDEN_FACET_VALUES = {
+    display_template: ["record"]
+};
+
 // placeholder image for lazyload
 const PLACEHOLDER = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
 
@@ -183,6 +189,17 @@ function placeholderText(title) {
     return words.length ? words[words.length - 1].toUpperCase() : "?";
 }
 
+/**
+ * inline font size that fits the surname to the width of its card.
+ * estimates the text width in em (wide letters like M and W count more, I counts less), then sizes the text
+ * so it fills about 86% of the placeholder width ("cqi" = 1% of the container width), never larger than 4rem.
+ * browsers without container units ignore this and fall back to the data-length sizes in custom.scss.
+ */
+function placeholderStyle(text) {
+    const ems = [...text].reduce((sum, ch) => sum + (/[MW]/.test(ch) ? 0.95 : /[IJ'’.\-]/.test(ch) ? 0.4 : 0.72), 0);
+    return `padding:0;text-align:center;font-size:min(4rem, calc(86cqi / ${Math.max(ems, 1).toFixed(2)}))`;
+}
+
 /** size class used by .person-initials[data-length] in custom.scss, same breakpoints as people-js */
 function placeholderLength(text) {
     if (text.length > 15) return "extra-long";
@@ -217,7 +234,9 @@ function itemCard(item) {
     } else {
         const text = placeholderText(item.title);
         const length = placeholderLength(text);
-        image = `<div class="person-card-placeholder card-img-top"><div class="person-initials"${length ? ` data-length="${length}"` : ""}>${esc(text)}</div></div>`;
+        // container-type lets the surname size itself to the card width, overflow keeps it inside the box
+        image = `<div class="person-card-placeholder card-img-top" style="container-type:inline-size;overflow:hidden">` +
+            `<div class="person-initials"${length ? ` data-length="${length}"` : ""} style="${placeholderStyle(text)}">${esc(text)}</div></div>`;
     }
 
     // fields that are not hidden, "btn" fields become filter links
@@ -715,7 +734,9 @@ function renderFacets() {
         }
         const ui = facetUi[f.field];
         const selected = state.facets[f.field] || [];
-        const entries = [...counts[f.field]];
+        // values left out of the checkbox list (still shown if already selected, e.g. from a card's footer button)
+        const hidden = (HIDDEN_FACET_VALUES[f.field] || []).map(v => v.toLowerCase());
+        const entries = [...counts[f.field]].filter(([v]) => selected.includes(v) || !hidden.includes(String(v).toLowerCase()));
         selected.forEach(v => { if (!counts[f.field].has(v)) entries.push([v, 0]); });
         // selected values first, then by count or alphabetical
         entries.sort((a, b) => (selected.includes(b[0]) - selected.includes(a[0])) ||
