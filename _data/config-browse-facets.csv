@@ -1,11 +1,13 @@
 field,display_name,btn,hidden,search,date_field,multivalued,sort_name,facet_name
-display_template,Type,,,,,,,Record Type
-date,Date,,,,true,,Date,Date
-residence,Residence,,,true,,,,Residence
-origin,Origin,,,true,,true,,Origin
+display_template,Type,,true,,,,,Record Type
+date,Interview Date,,true,,true,,Date,Interview Date
+subject,,true,true,2,,true,,Subject
+residence,Residence,,true,true,,true,,Residence
+location,,true,true,true,,true,,Locations
+birth_year,Born,,,,,,,
+duration,Length,,,,,,,
 occupation,Occupation,,,true,,true,,Occupation
-creator,Creator,,,true,,,Creator,Creator
+interviewer,Interviewer,,true,true,,true,,Interviewer
 description,,,true,true,,,,
-subject,,true,,2,,true,,Subject
-location,,true,,true,,true,,Location
+origin,,,true,true,,,,
 identifier,,,true,true,,,,

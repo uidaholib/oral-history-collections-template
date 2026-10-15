@@ -4,6 +4,10 @@
     Item data is loaded from assets/js/browse-store.js, fields are configured in _data/config-browse-facets.csv.
     Options are set in the browse-facets layout front matter, and can be overridden in the page front matter.
 
+    Cards use the People page styling from custom.scss (.person-card, .person-card-img,
+    .person-card-placeholder, .person-initials), so items without an image show the
+    gradient placeholder with the last word of the title, matching people-js.
+
 {%- endcomment -%}
 {%- assign fields = site.data.config-browse-facets -%}
 {%- assign per_page = page.browse-per-page | default: layout.browse-per-page | default: 48 -%}
@@ -158,6 +162,36 @@ function displayValue(field, value) {
     return value === "pdf" ? "PDF" : capitalize(value);
 }
 
+// words that start the non-name part of a title, e.g. "Pete Paolini Interview #1, 10/21/1976"
+const PLACEHOLDER_CUT = /\b(interview|oral history|transcript|recording|session|part)\b/i;
+// name suffixes skipped when finding the surname, e.g. "John Smith Jr." -> "SMITH"
+const NAME_SUFFIX = /^(jr|sr|ii|iii|iv|phd|md)$/i;
+
+/**
+ * placeholder text for items without an image: the narrator's surname, uppercased.
+ * person titles ("Kenneth Steffen") use the last word, like getLastName() in people-js.
+ * interview titles ("Eva Slatter Daniels Interview #1, 4/29/1976") use the last word before "Interview",
+ * and words without letters (dates, "#1") are skipped.
+ */
+function placeholderText(title) {
+    let text = String(title || "");
+    const cut = text.search(PLACEHOLDER_CUT);
+    if (cut > 0) text = text.slice(0, cut);
+    const words = text.split(/\s+/)
+        .map(w => w.replace(/^[^\p{L}]+|[^\p{L}]+$/gu, ""))
+        .filter(w => /\p{L}/u.test(w) && !NAME_SUFFIX.test(w));
+    return words.length ? words[words.length - 1].toUpperCase() : "?";
+}
+
+/** size class used by .person-initials[data-length] in custom.scss, same breakpoints as people-js */
+function placeholderLength(text) {
+    if (text.length > 15) return "extra-long";
+    if (text.length > 11) return "very-long";
+    if (text.length > 8) return "long";
+    if (text.length > 6) return "medium";
+    return "";
+}
+
 // =============================================================================
 // 3. CARD TEMPLATE
 // =============================================================================
@@ -168,12 +202,23 @@ function displayValue(field, value) {
  * Item values available: item.title, item.url, item.image_thumb, item.image_alt_text, item.display_template, item.format,
  * plus any field in config-browse-facets.csv, e.g. item.date or item.subject.
  * Always use esc() on values added to the html.
+ *
+ * Styling comes from the People page rules in custom.scss:
+ *   .person-card              hover lift, shadow, and fade-in
+ *   .person-card-img          300px tall cropped thumbnail (200px on small screens)
+ *   .person-card-placeholder  gradient box shown when there is no image
+ *   .person-initials          last word of the title, sized by data-length
  */
 function itemCard(item) {
-    // thumbnail image, or an icon if the item has no image
-    const image = item.image_thumb
-        ? `<img class="card-img-top lazyload" src="${PLACEHOLDER}" data-src="${esc(item.image_thumb)}" alt="${esc(item.image_alt_text)}">`
-        : `<div class="browse-card-icon">${getIcon(item.display_template, item.format, "thumb")}</div>`;
+    // thumbnail image, or the gradient placeholder with the last word of the title
+    let image;
+    if (item.image_thumb) {
+        image = `<img class="card-img-top person-card-img lazyload" src="${PLACEHOLDER}" data-src="${esc(item.image_thumb)}" alt="${esc(item.image_alt_text)}">`;
+    } else {
+        const text = placeholderText(item.title);
+        const length = placeholderLength(text);
+        image = `<div class="person-card-placeholder card-img-top"><div class="person-initials"${length ? ` data-length="${length}"` : ""}>${esc(text)}</div></div>`;
+    }
 
     // fields that are not hidden, "btn" fields become filter links
     const fields = CARD_FIELDS.map(f => {
@@ -182,7 +227,7 @@ function itemCard(item) {
         const value = f.btn
             ? splitValues(item[f.field]).map(v => filterLink(f, v)).join(" ")
             : esc(item[f.field]);
-        return `<p class="card-text mb-2">${label}${value}</p>`;
+        return `<p class="card-text small mb-2">${label}${value}</p>`;
     }).join("");
 
     // content type link
@@ -191,13 +236,13 @@ function itemCard(item) {
         : "";
 
     // the image link is hidden from keyboard and screen readers since the title links to the same page
-    return `<div class="card h-100">
+    return `<div class="card h-100 person-card">
         <a href="${esc(item.url)}" tabindex="-1" aria-hidden="true">${image}</a>
         <div class="card-body">
             <h3 class="card-title h5"><a href="${esc(item.url)}">${esc(item.title)}</a></h3>
             ${fields}
         </div>
-        ${type ? `<div class="card-footer bg-transparent border-0 pt-0">${type}</div>` : ""}
+        ${type ? `<div class="card-footer bg-transparent">${type}</div>` : ""}
     </div>`;
 }
 
@@ -250,9 +295,10 @@ const items = (window.browseStore || []).map((item, index) => {
 // random order is set once per page load, so cards don't jump around when filters change
 items.map(item => [Math.random(), item]).sort((a, b) => a[0] - b[0]).forEach(([, item], i) => { item._random = i; });
 
-// facets from config, plus content type if the collection has more than one
+// facets from config only. the automatic "Content type" facet is turned off because the
+// Record Type facet already covers it. to bring it back, uncomment the next line.
 FACETS = FIELDS.filter(f => f.facet);
-if (new Set(items.map(item => item.display_template).filter(Boolean)).size > 1) FACETS.push(CONTENT_TYPE);
+// if (new Set(items.map(item => item.display_template).filter(Boolean)).size > 1) FACETS.push(CONTENT_TYPE);
 FACETS.forEach(f => {
     if (RESERVED.test(f.field)) console.warn(`browse-facets: facet field "${f.field}" conflicts with a url parameter name, rename the field.`);
 });
@@ -706,10 +752,11 @@ function restoreFocus(id) {
 /** add cards from an index to the end of the current page */
 function renderResults(from) {
     const end = state.page * SETTINGS.perPage;
-    const colClass = el.facets ? "col-md-6 col-xl-4" : "col-sm-6 col-lg-4";
-    const html = results.slice(from, end).map(item => `<li class="${colClass} mb-3">${itemCard(item)}</li>`).join("");
+    // same grid as the People page: two columns on phones, three on large screens
+    const colClass = el.facets ? "col-6 col-md-6 col-xl-4" : "col-6 col-md-6 col-lg-4";
+    const html = results.slice(from, end).map(item => `<li class="${colClass} mb-4">${itemCard(item)}</li>`).join("");
     if (from === 0) {
-        el.items.innerHTML = results.length ? html : `<li class="col-12"><p class="lead">No items match your search and filters.</p></li>`;
+        el.items.innerHTML = results.length ? html : `<li class="col-12 text-center py-5"><p class="lead text-muted">No items match your search and filters.</p></li>`;
     } else {
         el.items.insertAdjacentHTML("beforeend", html);
     }
