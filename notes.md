@@ -77,17 +77,6 @@ Accurate transcriptions are not possible
 - mckeever_george_1
 - jackson_alice_1
 
-### Design Notes
-
-- The tagging elements can be a dropdown menu on the left of the Browse page rather than a tagging data visualization page
-- The photographs of the interviewees should expand in a light box on selection
-- Optimizing the People page ith subjects and tags and removing the interviews page seems like the more intuitive user navigation
-
-### Model notes
-
-- There does appear to be innocuous hallucination that is occurring with only the large-V3 Whisper model. The small.en model hallucinations are much less frequent and much more obvious. The large model will improvise multiple sentences at the beginning of a passage and then return to the actual script seamlessly.
-- The medium.en model on script_c didn't contain any hallucination and appears to be the most accurate with diarization without a heuristic, although it was only around 75% accurate. Still, less labor intensive to resolve than script_e
-
 ### Hallucinations
 
 - There was a hallucination towards the end of smith_nellie_2. Fixed.
@@ -97,6 +86,3 @@ Accurate transcriptions are not possible
 ### Points of interest
 
 - Harry or Clarice Sampson,0:54:56: explains Robinson was actually driven to Moscow after being railroaded from California for selling "wildcat" oil bonds.
-- Karen Purtee,00:24:04,You tell everything I say?
-Hanna Anderson Sandell,00:24:07,"No, we keep it. And the university keeps it. And so if somebody wants to listen, they can listen to it to find out your history.
-- sanderson_byers_1: "bull of the woods"  compounding the nickname element
