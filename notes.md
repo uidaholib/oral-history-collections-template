@@ -86,3 +86,4 @@ Accurate transcriptions are not possible
 ### Points of interest
 
 - Harry or Clarice Sampson,0:54:56: explains Robinson was actually driven to Moscow after being railroaded from California for selling "wildcat" oil bonds.
+- Marie Leitch Fisher,1:11:19: Miller-Dervant Co. mentioned

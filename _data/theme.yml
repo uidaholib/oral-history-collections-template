@@ -6,7 +6,7 @@
 ##########
 # Transcript Page / Oral History as Data Options 
 # 
-transcript-fields: "description,date,location,subject" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
+transcript-fields: "description,audio_notes,date,location,subject" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
 # list the fields you'd like displayed, separated by comma
 media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
 search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
@@ -126,7 +126,7 @@ subject-map-output: assets/data/subject-map # where the per-tag JSON files are w
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "objectid,personid,title,person_name,birth_year,residence,origin,occupation,date,description,duration,interviewer,subject,identifier,reel,source,rights,rightsstatement,location,format,interview_count,image_filename,image_large,map_center,map_markers,person_link,interview_link,2026_transcription,object_location,pdf,display_template,xml_location,image_small,image_thumb,connected_objectid"
+metadata-export-fields: "objectid,personid,title,person_name,birth_year,residence,origin,occupation,date,description,audio_notes,duration,interviewer,subject,identifier,reel,source,rights,rightsstatement,location,format,interview_count,image_filename,image_large,map_center,map_markers,person_link,interview_link,2026_transcription,object_location,pdf,display_template,xml_location,image_small,image_thumb,connected_objectid"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,interviewer,duration,location,format"
 
