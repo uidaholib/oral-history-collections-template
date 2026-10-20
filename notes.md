@@ -1,15 +1,5 @@
 ## Processing Notes
 
-### May not be worth hosting due to extremely compromised quality of of recordings
-
-Accurate transcriptions are not possible
-
-- lawrence_floydandnola_1
-- lawrence_floydandnola_2
-- presby_curtis_1
-- ringsage_jeanandstiner_1
-- ringsage_jeanandstiner_2
-
 ### Included in _transcripts but not CSV
 
 - byers_fannie_1: is there a reason this is not included in current CSV?
@@ -45,31 +35,6 @@ Accurate transcriptions are not possible
 - messersmith_lewisandhazel_1: Indigenous slurs
 - rowan_frankandlottie_2: heavy racial slurs
 - wilkins_kenneth_1
-
-### Misc. Audio Notes
-
-- lawrence_floydandnola_2: Same audio seems to repeat from an hour into the recording. Also, a ton of cross-talk.
-- buchanan_george_1: listed as transcript only but its just an index
-- mahon_catherine_2: audio starts looping at 0:31:00-1:04:00
-- otness_lillian_1 recording turns into oslund_anna_1 recording at the hour mark: "I never did know what it was particularly that caused him to, to change. | There are the thoughts about this country, how great it is."
-- clyde_lola_1: repeats section of interview at 01:32:06:08, original transcript shows that section of interview is missing
-- ruberg_hilda_1: plays the same audio over again at the hour mark
-- halen_alben_2: Starts part way through the interview. Original transcript shows that section of the interview is missing
-- waterman_merton_1: Audio repeats at 00:30:35
-- stowell_william_1 00:00:00 - 0:22:26 and stowell_william_2 00:00:00 - 00:22:40 are the same audio. Legacy transcripts are semi-swapped: transcript for stowell_william_2 is accurate to audio for stowell_william_1 until 0:54:11. Then, the second part of legacy transcript from stowell_william_ 1 is accurate (beginning at "What that first one was like, they had on the river?" in the legacy.) This second part of the audio is the same as the audio for stowell_william_2, starting at 0:45:43
-- clyde_lola_1 begins looping the same audio at 01:31:01
-- erickson_alfred_1: "hog meadows" in the metadata but actually Hog Meadow
-- Marie Leitch Fisher,1:11:19: Miller-Dervant Co. mentioned
-- utt_emmettandanna transcripts: number in metadata does not match number on html page.
-- settle_eugene_5: 1:26:21
-- goff_abe_1 - 31:01 to 40:31 seems to shift to another unknown interviewee
-- schupfer_otto_1,2 - josephine named in schupfer_otto_2 0:10:37; grave information for otto and josephine: https://freepages.rootsweb.com/~mrail/genealogy/data/cemete/idaho/latah/juliaetta/juliaetta.htm; names of Foster doctors: https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_v09-n2.pdf
-- johnson_oscar_1: audio loops at 11:30
-- lancaster_mayandcarl_1: noted as May & Carl Lancaster but just Carl
-- mushal_edward_1 - audio starts warping 0:26:07 to 0:31:41
-- Byers Sanderson - audio begins looping at 1:23:38
-- otness_lillian_1: Switches to another, unknown interview subject at 1:00:02 and Laura Schrager
-- rowan_frankandlottie_1: audio loops back to beginning at 00:29:59
 
 ### Needs vetting for Indigenous language
 
