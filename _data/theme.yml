@@ -22,7 +22,7 @@ transcript-contents: true ## true/false --> determines if the contents of the in
 
 # If you turn the below option `json-generation` to true, you'll need to run the rake command `generate_json` -- that command will generate the necessary json files for your collection. 
 
-json-generation: false ## true/false --> defaults to false (see note below if you turn to true!). This determines if JSON files will be accessed for the visualization page. 
+json-generation: true ## true/false --> defaults to false (see note below if you turn to true!). This determines if JSON files will be accessed for the visualization page. 
 
 
 
