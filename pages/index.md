@@ -10,7 +10,3 @@ permalink: /
 <div class="col-md">
 <p>We present here digitized audio recordings together with their indexes and transcripts for over 300 detailed recollections of life during that time. These oral histories were first conducted and collected in the mid-1970s by the Latah County Historical Society. For more on the collection, check out Schrager's <a href="{{ '/about.html' | relative_url }}">new introduction to the material</a>, as well as the <a href="{{ '/about-foreword.html' | relative_url }}">original foreword</a> and guide.</p>
 </div></div>
-<div class="row">
-<div class="col">
-<p>You can browse the interviews below, or use the tabs above to explore interviews by <a href="{{ '/locations.html' | relative_url }}">location</a>, <a href="{{ '/people/index.html' | relative_url }}">name</a>, or <a href="{{ '/subjects.html' | relative_url }}">subject</a>.</p>
-</div>
