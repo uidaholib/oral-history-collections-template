@@ -1,10 +1,14 @@
 display_name,stub,dropdown_parent
 Home,/,
-Browse,/browse.html,
-Subject Map,/subject-map.html,
-Subjects,/subjects.html,
-Locations,/locations.html,
-Timeline,/timeline.html,
+Discover Interviews
+Browse All,/browse.html,Discover Interviews
+Browse by Subject,/subjects.html,Discover Interviews
+Browse by Location,/locations.html,Discover Interviews
+Timeline,/timeline.html,Discover Interviews
+Explore Transcripts
+Subject Map,/subject-map.html,Explore Transcripts
+Glossary,/subject-glossary.html,Explore Transcripts
+General Topics,topic-visualization.html,Explore Transcripts
 About,,
 Introduction,/about.html,About
 Original Foreword,/about-foreword.html,About
