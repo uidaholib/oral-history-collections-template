@@ -1,10 +1,10 @@
 <script>
 /*
- * Subject Glossary
+ * Subject List
  *  - A-Z listing of every term in the subject map, one entry per term with its
  *    category, a short definition and the names it gathers together.
  *    Definitions come from the CSV itself ("Term: definition") or else from
- *    _data/subject-glossary.csv, matched by tag and term.
+ *    _data/subject-list.csv, matched by tag and term.
  *  - Selecting a term opens the same passage modal as the tree on /subject-map.html
  *    (five passages per page, A-Z by interview title). Keys in the modal:
  *    Tab / Up / Down move passage to passage, Left / Right turn the page, Esc closes.
@@ -88,7 +88,7 @@
     return tagCache.get(slug);
   }
 
-  /* ================= glossary data ================= */
+  /* ================= list data ================= */
 
   const byName = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
   const tags = JSON.parse(dataEl.textContent || '[]');
@@ -211,7 +211,7 @@
     if (window.bootstrap && window.bootstrap.Modal) {
       return window.bootstrap.Modal.getOrCreateInstance(modalEl);
     }
-    console.warn('Subject Glossary: Bootstrap Modal is not loaded.');
+    console.warn('Subject list: Bootstrap Modal is not loaded.');
     return null;
   }
 

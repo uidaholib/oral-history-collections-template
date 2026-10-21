@@ -1,14 +1,14 @@
 {%- comment -%}
 
-    Subject Glossary container. _includes/js/subject-glossary-js.html builds the
+    Subject List container. _includes/js/subject-list-js.html builds the
     A-Z list into #sg-list from the JSON below (site.data.subject_map, built by
     _plugins/subject_map_index.rb) plus the optional definitions in
-    _data/subject-glossary.csv.
+    _data/subject-list.csv.
 
 {%- endcomment -%}
 {%- assign sm_output = site.data.theme.subject-map-output | default: 'assets/data/subject-map' -%}
 {%- assign sm_items = site.data.subject_map_item_base | default: '/items/' -%}
-<div class="subject-map sm-glossary" id="sg-root"
+<div class="subject-map sm-list" id="sg-root"
      data-index-base="{{ '/' | append: sm_output | append: '/' | replace: '//', '/' | relative_url }}"
      data-item-base="{{ sm_items | relative_url }}"
      data-line-offset="{{ site.data.theme.subject-map-line-offset | default: 0 }}"
@@ -23,8 +23,8 @@
     <nav class="sg-letters" id="sg-letters" aria-label="Jump to letter"></nav>
     <div class="sg-list" id="sg-list"></div>
     <script type="application/json" id="sg-data">{{ site.data.subject_map | jsonify }}</script>
-    <script type="application/json" id="sg-defs">{{ site.data.subject-glossary | jsonify }}</script>
-    <noscript><p class="alert alert-warning">The glossary needs JavaScript to display.</p></noscript>
+    <script type="application/json" id="sg-defs">{{ site.data.subject-list | jsonify }}</script>
+    <noscript><p class="alert alert-warning">The subject list needs JavaScript to display.</p></noscript>
     {%- else -%}
     <div class="alert alert-warning">
         The subject map index has not been generated. Check that <code>_data/subject-map.csv</code> exists and <code>_plugins/subject_map_index.rb</code> ran during the build.

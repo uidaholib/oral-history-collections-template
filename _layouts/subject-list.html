@@ -1,15 +1,15 @@
 ---
-# Subject Glossary layout
+# Subject List layout
 # A-Z listing of every term in _data/subject-map.csv, a companion to the
 # Subject Map tree. Selecting a term opens the same passage modal as the tree.
 # Definitions come from the inline "Term: definition" syntax in the CSV, or
-# else from _data/subject-glossary.csv (tag, term, definition).
+# else from _data/subject-list.csv (tag, term, definition).
 layout: page-narrow
 ---
 <link rel="stylesheet" href="{{ '/assets/css/subject-map.css' | relative_url }}">
 
 {{ content }}
 
-{% include subject-glossary/list.html %}
+{% include subject-list/list.html %}
 {% include subject-map/modal.html %}
-{% include js/subject-glossary-js.html %}
+{% include js/subject-list-js.html %}
