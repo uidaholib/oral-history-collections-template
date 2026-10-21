@@ -46,8 +46,8 @@ Pick the one that fits what you are after. You can switch at any time.
 |---|---|
 | Wander and see what is here | [Browse by Subject]({{ '/subjects.html' | relative_url }}) or [Browse by Location]({{ '/locations.html' | relative_url }}) |
 | Find a certain kind of person, such as a teacher or a logger | [Browse All]({{ '/browse.html' | relative_url }}), with the occupation filter |
-| See who talked about a particular town | [Browse by Location]({{ '/locations.html' or [Subject List]({{ '/subject-list.html'  | relative_url }}) |
-| Hear what people said about a topic, across many interviews | [Subject Map]({{ '/subject-map.html' or [Subject List]({{ '/subject-list.html'  | relative_url }}) |
+| See who talked about a particular town | [Browse by Location]({{ '/locations.html' | relative_url }}) or  [Subject List]({{ '/subject-list.html' | relative_url }}) |
+| Hear what people said about a topic, across many interviews | [Subject Map]({{ '/subject-map.html' | relative_url }}) or  [Subject List]({{ '/subject-list.html' | relative_url }}) |
 | Find the part of a long interview about a topic | The Topics strip, Filter by Topic or the Index on the [interview page](#inside-an-interview) |
 
 ## Discover Interviews
