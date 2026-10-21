@@ -1,10 +1,10 @@
 ---
-title: Subject Glossary
-layout: subject-glossary
-permalink: /subject-glossary.html
+title: Subject List
+layout: subject-list
+permalink: /subject-list.html
 ---
 
-## Subject Glossary
+## Subject List
 
 Every term in the subject map, listed A to Z with a short definition where one is available. Prefer a visual view? Try the [Subject Map]({{ '/subject-map.html' | relative_url }}).
 
