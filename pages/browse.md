@@ -1,6 +1,6 @@
 ---
 title: Browse
-layout: browse-facets
+layout: browse-facets-lcoh
 permalink: /browse.html
 ---
 
