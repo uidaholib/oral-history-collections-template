@@ -54,15 +54,17 @@ var loadingIcon, filterTextBox, browseItemsDiv;
  */
 function makeCard(obj) {
     const placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
+
     const itemHref = `{{ '/people/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`;
     
     let card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
     
     // Top image for items with image
+
     if(obj.img) {
         card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}"></a>`;
     }
-    
+
     // Title (not centered)
     card += `<div class="card-body"><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
     
@@ -85,7 +87,7 @@ function makeCard(obj) {
     }
     {% endunless %}{% endfor %}
     card += '</p>';
-    
+
     // View button
     let buttonText = 'Full Record';
     if (obj.display_template === 'transcript') {
@@ -96,6 +98,7 @@ function makeCard(obj) {
     card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View ${buttonText}</a>`;
     
     card += '</div></div></div>';
+
     return card;
 }
 

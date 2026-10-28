@@ -45,6 +45,7 @@ home-page-visualization: false # true / false, if true, the visualization will a
 # if false or there's no _data/filters.csv, the image defined by featured-image will be used as a featured image on the homepage
 
 # featured image is used in home page banner and in meta markup to represent the collection
+
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere. 
 # Note: if you are using the CB base layout as determined above, the featured image defined here will show up as the large image at top of the home page
 featured-image: https://objects.lib.uidaho.edu/lcoh/small/Brink-C_02.jpg
@@ -90,6 +91,7 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
+auto-center-map: true
 latitude: 38.21805047796112 #to determine center of map
 longitude: -117.014185 #to determine center of map
 zoom-level: 3 # zoom level for map 
@@ -151,7 +153,7 @@ search-child-objects: true # true / false - if true, child objects will appear o
 # NAVBAR COLORS [optional!]
 # navbar text color
 # Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors
-navbar-color: navbar-dark
+navbar-color: dark
 # navbar background color
 # Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
 navbar-background: bg-dark
