@@ -5,7 +5,7 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_006
+about-featured-image: rwhp394
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
@@ -18,17 +18,33 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The Rural Women’s History Project was designed and carried out by the [University of Idaho Women's Center](https://www.lib.uidaho.edu/digital/womenscenter) with the intention of bringing attention to the experiences of women in rural communities in North Idaho. The project was funded through a grant from the Association for the Humanities in Idaho in 1974. A representative sample of interviews from this project were digitized in 2023 to increase awareness of and access to the collection. To find a full catalogue of project records, view the Special Collections and Archives [finding aid](https://archiveswest.orbiscascade.org/ark:80444/xv42414).
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+{% include feature/image.html objectid="rwhp257;rwhp040" %}
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+Over 100 interviews were conducted between 1975 and 1980, with women from multiple age groups participating. Interviews covered a variety of topics, including things like a woman's upbringing, family life, marriage, and civic participation. Each interviewee also had their picture taken. 
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+The project explored the changing roles that rural women played in their families and communities. Multiple presentations were given about the project in over 20 communities in Latah, Benewah, Clearwater, Nez Perce, and Shoshone counties in North Idaho. 
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+------
+{:.about-narrowed-content}
+
+Materials in this collection, including images, language, or other content, may be offensive or disturbing to some viewers. Care has been taken to clearly document the sources of these records, so that viewers may consider the historical context in which they were produced. To maintain historical accuracy, the materials appear as they were originally created. They do not reflect the current views of the University of Idaho. For more information about how we treat materials with offensive or disturbing content, please see the University of Idaho Library, Special Collections and Archives [Offensive Content Policy](https://www.lib.uidaho.edu/special-collections/policies.html#offensive-material-in-archival-collections).
+
+
+## About the Project
+
+Support for this digitization project was provided by the Council on Library and Information Resources (CLIR) through the [Recordings at Risk](https://www.clir.org/recordings-at-risk/) program. The University of Idaho Library Special Collections and Archives received a grant through this program to support the project *Unheard Voices: Digitizing the Oral Histories of Underrepresented Communities in Idaho.* 
+
+We chose three archival collections that contained audio or video recordings of oral history interviews: [MG 68 Rural Women's History Project](https://archiveswest.orbiscascade.org/ark:/80444/xv42414), [MG 390 Lily Wai Committee Papers](https://archiveswest.orbiscascade.org/ark:80444/xv54043), and [MG 491 Hispanic Oral History Project Interviews](https://archiveswest.orbiscascade.org/ark:80444/xv327325). The digitized materials from these collections can be found in the corresponding digital collections: 
+
+- [Rural Women's History Project](https://www.lib.uidaho.edu/digital/rwhp/): Interviews with rural women in Latah, Benewah, Clearwater, Nez Perce, and Shoshone counties, Idaho, concerning the changing roles of rural women.
+- [Other Faces, Other Lives](https://www.lib.uidaho.edu/digital/otherfaces/): Interviews from the video project, *Other Faces, Other Lives: Asian Americans in Idaho* of eight 
+Asian-American families about their experiences living, working, and raising a family in Idaho.
+- [Hispanic Oral History Project Interviews](https://www.lib.uidaho.edu/digital/hohp/): 22 interviews of Hispanic immigrants and descendants who lived in Idaho.
+
+These interviews offer a unique and important perspective on the experiences of minority communities living in a predominantly white and rural state throughout the 20th century. 
+
+This digitization project will allow these voices to speak to us again. Included are 201 hours of first-hand oral history interviews, conducted between 1975 and 1990, that document the experiences of Chinese Americans, Filipino Americans, Hispanic Americans, Japanese Americans, and rural women living in Idaho in the 20th century. 
