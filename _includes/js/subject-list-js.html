@@ -1,0 +1,484 @@
+<script>
+/*
+ * Subject List
+ *  - A-Z listing of every term in the subject map, one entry per term with its
+ *    category, a short definition and the names it gathers together.
+ *    Definitions come from the CSV itself ("Term: definition") or else from
+ *    _data/subject-list.csv, matched by tag and term.
+ *  - Selecting a term opens the same passage modal as the tree on /subject-map.html
+ *    (five passages per page, A-Z by interview title). Keys in the modal:
+ *    Tab / Up / Down move passage to passage, Left / Right turn the page, Esc closes.
+ *  - Following a passage records it in the address, so Back reopens the modal
+ *    on the same page with focus on that passage.
+ *  - ?tag=<slug>&term=<key> reopens a term, matching the tree's links.
+ *  - The modal below mirrors _includes/js/subject-map-js.html; keep them in step.
+ */
+(function () {
+  'use strict';
+
+  const root = document.getElementById('sg-root');
+  const listEl = document.getElementById('sg-list');
+  const dataEl = document.getElementById('sg-data');
+  const modalEl = document.getElementById('subject-map-modal');
+  if (!root || !listEl || !dataEl || !modalEl) return;
+
+  const INDEX_BASE = root.dataset.indexBase;
+  const ITEM_BASE = root.dataset.itemBase;
+  const LINE_OFFSET = parseInt(root.dataset.lineOffset, 10) || 0;
+  const PER_PAGE = parseInt(root.dataset.perPage, 10) || 5;
+
+  // Passage array positions (see FIELDS in _plugins/subject_map_index.rb)
+  const F = { id: 0, line: 1, ts: 2, secs: 3, speaker: 4, before: 5, match: 6, after: 7, found: 8 };
+
+  const ui = {
+    tag: document.getElementById('sm-modal-tag'),
+    title: document.getElementById('sm-modal-title'),
+    summary: document.getElementById('sm-modal-summary'),
+    includes: document.getElementById('sm-modal-includes'),
+    list: document.getElementById('sm-snippets'),
+    pager: document.getElementById('sm-pager'),
+    status: document.getElementById('sm-status'),
+    filter: document.getElementById('sg-filter'),
+    count: document.getElementById('sg-count'),
+    letters: document.getElementById('sg-letters')
+  };
+
+  const tagCache = new Map();
+  let active = null;
+  const initialParams = new URLSearchParams(window.location.search);
+
+  /* ================= helpers ================= */
+
+  const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
+  function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function announce(message) {
+    if (!ui.status) return;
+    ui.status.textContent = '';
+    window.setTimeout(() => { ui.status.textContent = message; }, 60);
+  }
+
+  function setParams(tag, term, page, item) {
+    const url = new URL(window.location.href);
+    ['tag', 'term', 'page', 'item'].forEach((k) => url.searchParams.delete(k));
+    if (tag && term) {
+      url.searchParams.set('tag', tag);
+      url.searchParams.set('term', term);
+      if (page > 1) url.searchParams.set('page', page);
+      if (item != null) url.searchParams.set('item', item);
+    }
+    window.history.replaceState({}, '', url.pathname + url.search + url.hash);
+  }
+
+  function loadTag(slug) {
+    if (!tagCache.has(slug)) {
+      const request = fetch(`${INDEX_BASE}${encodeURIComponent(slug)}.json`).then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      });
+      request.catch(() => tagCache.delete(slug));
+      tagCache.set(slug, request);
+    }
+    return tagCache.get(slug);
+  }
+
+  /* ================= list data ================= */
+
+  const byName = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
+  const tags = JSON.parse(dataEl.textContent || '[]');
+  const defsEl = document.getElementById('sg-defs');
+  const defRows = (defsEl && JSON.parse(defsEl.textContent || '[]')) || [];
+  const extraDefs = new Map(Array.isArray(defRows)
+    ? defRows.map((r) => [`${r.tag}|${String(r.term).toLowerCase()}`, r.definition])
+    : []);
+
+  // One entry per term in each tag. The path is Domain / Tag > Group > Group.
+  const entries = [];
+  tags.forEach((t) => {
+    const domain = (t.domains || []).join(' / ');
+    const walk = (children, groups) => (children || []).forEach((c) => {
+      if (c.group) { walk(c.children, groups.concat(c.name)); return; }
+      const path = [domain, t.tag].filter(Boolean).join(' › ');
+      const definition = c.definition || extraDefs.get(`${t.tag}|${c.label.toLowerCase()}`) || '';
+      entries.push({
+        label: c.label,
+        key: c.key,
+        count: c.count || 0,
+        includes: c.includes || [],
+        definition,
+        slug: t.slug,
+        tagName: t.tag,
+        path: [path].concat(groups).join(' › '),
+        search: [c.label, definition, (c.includes || []).join(' '), t.tag, groups.join(' ')].join(' ').toLowerCase()
+      });
+    });
+    walk(t.children || t.terms, []);
+  });
+
+  const sortText = (s) => s.replace(/^[^\p{L}\p{N}]+/u, '');
+  entries.sort((a, b) => byName.compare(sortText(a.label), sortText(b.label)) || byName.compare(a.path, b.path));
+  const letterOf = (s) => {
+    const ch = sortText(s).charAt(0).toUpperCase();
+    return /\p{L}/u.test(ch) ? ch.normalize('NFD').charAt(0) : '#';
+  };
+
+  /* ================= listing ================= */
+
+  function renderEntry(e) {
+    const item = el('div', 'sg-entry');
+    const head = el('dt', 'sg-term');
+    if (e.count) {
+      const btn = el('button', 'sg-term-button', e.label);
+      btn.type = 'button';
+      btn.setAttribute('aria-haspopup', 'dialog');
+      btn.setAttribute('aria-label', `${e.label}, ${plural(e.count, 'passage')}`);
+      btn.dataset.slug = e.slug;
+      btn.dataset.key = e.key;
+      head.append(btn);
+    } else {
+      head.append(el('span', 'sg-term-empty', e.label));
+    }
+    head.append(el('span', 'sg-count-pill', e.count ? plural(e.count, 'passage') : 'no passages yet'));
+
+    const body = el('dd', 'sg-body');
+    if (e.definition) body.append(el('p', 'sg-definition', e.definition));
+    if (e.includes.length) body.append(el('p', 'sg-includes', `Also: ${e.includes.join(', ')}`));
+    body.append(el('p', 'sg-path', e.path));
+
+    item.append(head, body);
+    item.dataset.slug = e.slug;
+    item.dataset.key = e.key;
+    return item;
+  }
+
+  function render(filter) {
+    const q = (filter || '').trim().toLowerCase();
+    const shown = q ? entries.filter((e) => e.search.includes(q)) : entries;
+    const frag = document.createDocumentFragment();
+    const present = [];
+    let dl = null;
+    let current = null;
+    shown.forEach((e) => {
+      const letter = letterOf(e.label);
+      if (letter !== current) {
+        current = letter;
+        present.push(letter);
+        const section = el('section', 'sg-section');
+        section.setAttribute('aria-labelledby', `sg-letter-${letter === '#' ? 'num' : letter}`);
+        const h = el('h3', 'sg-letter', letter);
+        h.id = `sg-letter-${letter === '#' ? 'num' : letter}`;
+        dl = el('dl', 'sg-entries');
+        section.append(h, dl);
+        frag.append(section);
+      }
+      dl.append(renderEntry(e));
+    });
+    if (!shown.length) frag.append(el('p', 'sg-none', 'No terms match your filter.'));
+    listEl.replaceChildren(frag);
+
+    ui.count.textContent = q ? `${shown.length} of ${entries.length} terms` : `${entries.length} terms`;
+    ui.letters.replaceChildren(...present.map((letter) => {
+      const a = el('a', 'sg-letter-link', letter);
+      a.href = `#sg-letter-${letter === '#' ? 'num' : letter}`;
+      return a;
+    }));
+    return shown.length;
+  }
+
+  let filterTimer = null;
+  ui.filter.addEventListener('input', () => {
+    window.clearTimeout(filterTimer);
+    filterTimer = window.setTimeout(() => {
+      const n = render(ui.filter.value);
+      announce(`${plural(n, 'term')} shown.`);
+    }, 120);
+  });
+
+  listEl.addEventListener('click', (event) => {
+    const btn = event.target.closest('.sg-term-button');
+    if (btn) openTerm(entries.find((e) => e.slug === btn.dataset.slug && e.key === btn.dataset.key), { button: btn });
+  });
+
+  /* ================= modal ================= */
+
+  function getModal() {
+    if (window.bootstrap && window.bootstrap.Modal) {
+      return window.bootstrap.Modal.getOrCreateInstance(modalEl);
+    }
+    console.warn('Subject list: Bootstrap Modal is not loaded.');
+    return null;
+  }
+
+  function itemHref(o) {
+    const url = new URL(`${ITEM_BASE}${encodeURIComponent(o[F.id])}.html`, window.location.href);
+    url.searchParams.set('line', `${o[F.id]}${o[F.line] + LINE_OFFSET}`);
+    if (o[F.secs] != null) url.searchParams.set('t', o[F.secs]);
+    url.searchParams.set('autoplay', '1');
+    return url.pathname + url.search;
+  }
+
+  function renderPassage(o) {
+    const title = active.titles[o[F.id]] || o[F.id];
+    const ts = o[F.ts];
+    const found = o[F.found] === 1;
+
+    const item = el('li', 'sm-item');
+    const card = el('article', 'sm-passage');
+
+    const link = el('a', 'sm-term-link', found ? o[F.match] : (ts ? `Listen at ${ts}` : 'Open interview'));
+    link.href = itemHref(o);
+    link.setAttribute('aria-label', `${found ? o[F.match] : active.label}, ${title}, play from ${ts || 'the start'}`);
+    const textId = `sm-passage-${o[F.id]}-${o[F.line]}`;
+    link.setAttribute('aria-describedby', textId);
+
+    const text = el('p');
+    text.id = textId;
+    if (found) text.append(o[F.before] || '', link, o[F.after] || '');
+    else text.append(o[F.before] || '', ' ', link);
+    const quote = el('blockquote', 'sm-quote');
+    quote.append(text);
+
+    const cite = el('p', 'sm-cite');
+    cite.append(el('cite', null, title));
+
+    card.append(quote, cite);
+    item.append(card);
+    return item;
+  }
+
+  const PAGE_RUN = 3;
+
+  function pageButton(label, page, ariaLabel, opts) {
+    const li = el('li', `page-item${opts.disabled ? ' disabled' : ''}${opts.current ? ' active' : ''}`);
+    const btn = el('button', 'page-link', label);
+    btn.type = 'button';
+    btn.dataset.page = page;
+    btn.setAttribute('aria-label', ariaLabel);
+    if (opts.current) btn.setAttribute('aria-current', 'page');
+    if (opts.disabled) btn.disabled = true;
+    li.append(btn);
+    return li;
+  }
+
+  function renderPager() {
+    const pages = Math.ceil(active.passages.length / PER_PAGE);
+    ui.pager.replaceChildren();
+    ui.pager.hidden = pages <= 1;
+    if (pages <= 1) return;
+
+    const page = active.page;
+    const list = el('ul', 'pagination pagination-sm mb-0');
+    const number = (p) => pageButton(String(p), p, `Page ${p} of ${pages}`, { current: p === page });
+
+    list.append(pageButton('‹', page - 1, 'Previous page', { disabled: page === 1 }));
+    if (pages <= PAGE_RUN + 1) {
+      for (let p = 1; p <= pages; p++) list.append(number(p));
+    } else {
+      const lastRunStart = Math.floor((pages - 2) / PAGE_RUN) * PAGE_RUN + 1;
+      let runStart = Math.floor((page - 1) / PAGE_RUN) * PAGE_RUN + 1;
+      let runEnd = runStart + PAGE_RUN - 1;
+      if (runStart >= lastRunStart) {
+        runStart = lastRunStart;
+        runEnd = pages;
+      }
+      if (runStart > 1) {
+        list.append(number(1));
+        if (runStart > 2) {
+          list.append(pageButton('…', runStart - 1, `Pages ${Math.max(2, runStart - PAGE_RUN)} to ${runStart - 1}`, {}));
+        }
+      }
+      for (let p = runStart; p <= runEnd; p++) list.append(number(p));
+      if (runEnd < pages) {
+        list.append(pageButton('…', runEnd + 1, `Pages ${runEnd + 1} to ${Math.min(runEnd + PAGE_RUN, pages - 1)}`, {}));
+        list.append(number(pages));
+      }
+    }
+    list.append(pageButton('›', page + 1, 'Next page', { disabled: page === pages }));
+    ui.pager.append(list);
+  }
+
+  const passageLinks = () => Array.from(ui.list.querySelectorAll('.sm-term-link'));
+  const modalOpen = () => modalEl.classList.contains('show');
+
+  function focusPassage(index) {
+    const links = passageLinks();
+    if (!links.length) return;
+    const i = index < 0 ? links.length - 1 : Math.min(index, links.length - 1);
+    links[i].focus();
+  }
+
+  function showPage(page, focus) {
+    const { passages } = active;
+    const pages = Math.max(1, Math.ceil(passages.length / PER_PAGE));
+    active.page = Math.min(Math.max(1, page), pages);
+    const start = (active.page - 1) * PER_PAGE;
+    const slice = passages.slice(start, start + PER_PAGE);
+
+    ui.list.replaceChildren(...slice.map(renderPassage));
+    renderPager();
+
+    const interviews = new Set(passages.map((o) => o[F.id])).size;
+    const range = passages.length > slice.length ? ` Showing ${start + 1}–${start + slice.length}.` : '';
+    ui.summary.textContent = `${plural(passages.length, 'passage')} across ${plural(interviews, 'interview')}, listed A–Z by interview.${range}`;
+
+    setParams(active.slug, active.key, active.page);
+    const body = modalEl.querySelector('.modal-body');
+    if (body) body.scrollTop = 0;
+
+    if (focus === 'pager') {
+      const current = ui.pager.querySelector('[aria-current="page"]');
+      if (current) current.focus();
+    } else if (typeof focus === 'number') {
+      focusPassage(focus);
+    }
+    announce(focus == null && active.page === 1
+      ? `${plural(passages.length, 'passage')} about ${active.label}, page 1 of ${pages}.`
+      : `Page ${active.page} of ${pages}, passages ${start + 1} to ${start + slice.length}.`);
+  }
+
+  modalEl.addEventListener('keydown', (event) => {
+    if (!active || !active.passages.length || event.altKey || event.ctrlKey || event.metaKey) return;
+    const pages = Math.ceil(active.passages.length / PER_PAGE);
+    const links = passageLinks();
+    const i = links.indexOf(document.activeElement);
+
+    switch (event.key) {
+      case 'ArrowDown':
+        if (i === -1) focusPassage(0);
+        else if (i < links.length - 1) links[i + 1].focus();
+        else if (active.page < pages) showPage(active.page + 1, 0);
+        break;
+      case 'ArrowUp':
+        if (i === -1) focusPassage(-1);
+        else if (i > 0) links[i - 1].focus();
+        else if (active.page > 1) showPage(active.page - 1, -1);
+        break;
+      case 'ArrowRight':
+        if (active.page < pages) showPage(active.page + 1, 0);
+        break;
+      case 'ArrowLeft':
+        if (active.page > 1) showPage(active.page - 1, 0);
+        break;
+      default:
+        return;
+    }
+    event.preventDefault();
+  });
+
+  ui.list.addEventListener('click', (event) => {
+    const link = event.target.closest('.sm-term-link');
+    if (!link || !active) return;
+    setParams(active.slug, active.key, active.page, passageLinks().indexOf(link));
+  });
+
+  modalEl.addEventListener('shown.bs.modal', () => {
+    if (active && active.passages.length) focusPassage(active.focusIndex || 0);
+  });
+
+  ui.pager.addEventListener('click', (event) => {
+    const btn = event.target.closest('button[data-page]');
+    if (!btn || btn.disabled || !active) return;
+    showPage(parseInt(btn.dataset.page, 10), 'pager');
+  });
+
+  const byTitle = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
+
+  // opener: { button } to return focus to on close; { page, item } to restore a view
+  async function openTerm(entry, opener) {
+    if (!entry) return;
+    const label = entry.label;
+    if (!entry.count) {
+      announce(`No tagged passages for ${label} yet.`);
+      return;
+    }
+
+    const request = {
+      entry,
+      button: opener && opener.button,
+      slug: entry.slug,
+      key: entry.key,
+      label,
+      passages: [],
+      titles: {},
+      page: 1,
+      focusIndex: opener && opener.item != null ? opener.item : 0
+    };
+    active = request;
+
+    ui.tag.textContent = entry.tagName;
+    ui.title.replaceChildren(label);
+    if (entry.definition) ui.title.append(el('span', 'sm-definition', `: ${entry.definition}`));
+    ui.includes.textContent = entry.includes.length ? `Includes ${entry.includes.join(', ')}` : '';
+    ui.includes.hidden = !entry.includes.length;
+    ui.summary.textContent = 'Loading passages…';
+    ui.list.replaceChildren();
+    ui.pager.replaceChildren();
+    ui.pager.hidden = true;
+    const modal = getModal();
+    if (modal) modal.show();
+    setParams(request.slug, request.key);
+
+    try {
+      const data = await loadTag(request.slug);
+      if (active !== request) return;
+      request.titles = data.titles || {};
+      const title = (o) => request.titles[o[F.id]] || o[F.id];
+      request.passages = ((data.terms && data.terms[request.key]) || []).slice()
+        .sort((a, b) => byTitle.compare(title(a), title(b)) || a[F.line] - b[F.line]);
+      if (request.passages.length) {
+        showPage((opener && opener.page) || 1, modalOpen() ? request.focusIndex : null);
+      } else ui.summary.textContent = 'No tagged passages were found for this term.';
+    } catch (err) {
+      if (active === request) ui.summary.textContent = 'These passages could not be loaded. Please try again later.';
+    }
+  }
+
+  modalEl.addEventListener('hidden.bs.modal', () => {
+    setParams(null, null);
+    if (!active) return;
+    const btn = active.button && active.button.isConnected
+      ? active.button
+      : listEl.querySelector(`.sg-term-button[data-slug="${active.slug}"][data-key="${CSS.escape(active.key)}"]`);
+    if (btn) btn.focus();
+  });
+
+  window.addEventListener('pageshow', (event) => {
+    if (!event.persisted || !active || !modalOpen()) return;
+    const item = new URLSearchParams(window.location.search).get('item');
+    focusPassage(item != null ? parseInt(item, 10) || 0 : 0);
+  });
+
+  function whenBootstrapReady(fn) {
+    const go = () => {
+      if (window.bootstrap && window.bootstrap.Modal) fn();
+      else if (document.readyState === 'complete') fn();
+      else window.addEventListener('load', fn, { once: true });
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go, { once: true });
+    else go();
+  }
+
+  /* ================= start ================= */
+
+  render('');
+
+  (function openFromUrl() {
+    const slug = initialParams.get('tag');
+    const key = initialParams.get('term');
+    const entry = slug && key && entries.find((e) => e.slug === slug && e.key === key);
+    if (!entry) return;
+    const page = parseInt(initialParams.get('page'), 10) || 1;
+    const item = initialParams.has('item') ? parseInt(initialParams.get('item'), 10) : null;
+    whenBootstrapReady(() => {
+      const button = listEl.querySelector(`.sg-term-button[data-slug="${slug}"][data-key="${CSS.escape(key)}"]`);
+      openTerm(entry, { button, page, item: Number.isNaN(item) ? null : item });
+    });
+  })();
+})();
+</script>

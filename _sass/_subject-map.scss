@@ -1,0 +1,337 @@
+// Subject Map: expanding taxonomy tree and passage modal
+// Import from _custom.scss with:  @import "subject-map";
+
+.subject-map,
+.sm-modal {
+    --sm-accent: var(--bs-primary, #0d6efd);
+    --sm-limb: var(--bs-border-color, #ced4da);
+    --sm-muted: var(--bs-secondary-color, #6c757d);
+    --sm-surface: var(--bs-body-bg, #fff);
+    --sm-chip-bg: var(--bs-tertiary-bg, #f8f9fa);
+    --sm-speed: 380ms;
+}
+
+.subject-map {
+    --sm-node: 0.95rem;
+    --sm-gutter: 1rem;      // x position of the node centers
+    --sm-row: 2.75rem;      // height of a tag row
+    max-width: 68rem;
+    margin: 1.5rem 0 3rem;
+}
+
+.sm-instructions {
+    margin-bottom: 1rem;
+
+    kbd {
+        font-size: 0.8em;
+    }
+}
+
+// ---------- tags (left-hand trunk) ----------
+
+.sm-tags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sm-tag {
+    position: relative;
+
+    // Trunk joining each tag node to the next one
+    &:not(:last-child)::before {
+        content: "";
+        position: absolute;
+        left: calc(var(--sm-gutter) - 1px);
+        top: calc(var(--sm-row) / 2);
+        bottom: calc(var(--sm-row) / -2);
+        border-left: 2px solid var(--sm-limb);
+    }
+}
+
+.sm-tag-heading {
+    margin: 0;
+    font-size: inherit;
+}
+
+.sm-tag-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: var(--sm-row);
+    padding: 0.25rem 0.75rem 0.25rem 0;
+    border: 0;
+    border-radius: 0.5rem;
+    background: none;
+    color: var(--bs-body-color, #212529);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+
+    &:hover .sm-tag-label {
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+
+    &:focus-visible {
+        outline: 3px solid var(--sm-accent);
+        outline-offset: 2px;
+    }
+}
+
+.sm-node {
+    position: relative;
+    z-index: 1;
+    flex: 0 0 auto;
+    width: var(--sm-node);
+    height: var(--sm-node);
+    margin-left: calc(var(--sm-gutter) - var(--sm-node) / 2);
+    border: 2px solid var(--sm-accent);
+    border-radius: 50%;
+    background: var(--sm-surface);
+    transition: background-color var(--sm-speed) ease, transform var(--sm-speed) ease;
+}
+
+.sm-tag-count {
+    color: var(--sm-muted);
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.sm-chevron {
+    flex: 0 0 auto;
+    color: var(--sm-muted);
+    transition: transform var(--sm-speed) ease;
+}
+
+.sm-tag.is-open > .sm-tag-heading {
+    .sm-node {
+        background: var(--sm-accent);
+        transform: scale(1.1);
+    }
+
+    .sm-chevron {
+        transform: rotate(90deg);
+    }
+}
+
+// ---------- branch (unfolds beneath and to the right) ----------
+
+.sm-branch {
+    display: grid;
+    grid-template-rows: 0fr;
+    visibility: hidden; // keeps collapsed terms out of the Tab order
+    transition:
+        grid-template-rows var(--sm-speed) ease,
+        visibility 0s linear var(--sm-speed);
+}
+
+.sm-tag.is-open > .sm-branch {
+    grid-template-rows: 1fr;
+    visibility: visible;
+    transition:
+        grid-template-rows var(--sm-speed) ease,
+        visibility 0s;
+}
+
+.sm-branch-inner {
+    position: relative;
+    min-height: 0;
+    overflow: hidden;
+    padding: 0.35rem 0 1rem calc(var(--sm-gutter) + 1.75rem);
+}
+
+// The rounded limb: down from the tag node, curving right into the terms
+.sm-limb {
+    position: absolute;
+    left: calc(var(--sm-gutter) - 1px);
+    top: 0;
+    width: 1.45rem;
+    height: 1.45rem;
+    border-left: 2px solid var(--sm-accent);
+    border-bottom: 2px solid var(--sm-accent);
+    border-bottom-left-radius: 0.95rem;
+}
+
+.sm-tag.is-open .sm-limb {
+    animation: sm-grow var(--sm-speed) ease-out both;
+}
+
+@keyframes sm-grow {
+    0%   { clip-path: inset(0 calc(100% - 3px) 100% 0); }
+    55%  { clip-path: inset(0 calc(100% - 3px) 0 0); }
+    100% { clip-path: inset(0 0 0 0); }
+}
+
+// ---------- terms ----------
+
+.sm-terms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sm-tag.is-open .sm-term {
+    animation: sm-sprout 300ms ease-out both;
+    animation-delay: calc(120ms + var(--i, 0) * 14ms); // --i is capped at 24 in the tree include
+}
+
+@keyframes sm-sprout {
+    from { opacity: 0; transform: translateX(-0.6rem); }
+    to   { opacity: 1; transform: none; }
+}
+
+.sm-term-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.25rem;
+    padding: 0.3rem 0.5rem 0.3rem 0.85rem;
+    border: 1px solid var(--sm-limb);
+    border-radius: 999px;
+    background: var(--sm-surface);
+    color: var(--bs-body-color, #212529);
+    font-size: 0.95rem;
+    line-height: 1.2;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+
+    &:hover {
+        border-color: var(--sm-accent);
+        background: var(--sm-chip-bg);
+    }
+
+    &:focus-visible {
+        outline: 3px solid var(--sm-accent);
+        outline-offset: 2px;
+    }
+
+    &[aria-disabled="true"] {
+        border-style: dashed;
+        color: var(--sm-muted);
+        cursor: default;
+
+        &:hover {
+            border-color: var(--sm-limb);
+            background: var(--sm-surface);
+        }
+    }
+}
+
+.sm-badge {
+    padding: 0.05rem 0.45rem;
+    border-radius: 999px;
+    background: var(--sm-chip-bg);
+    color: var(--sm-muted);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+}
+
+// ---------- modal ----------
+
+.sm-modal-eyebrow {
+    margin: 0 0 0.15rem;
+    color: var(--sm-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.sm-snippets {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sm-item + .sm-item {
+    margin-top: 0.85rem;
+}
+
+.sm-passage {
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--bs-border-color, #dee2e6);
+    border-left: 4px solid var(--sm-accent);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.15s ease;
+
+    &:focus-visible,
+    &:focus-within {
+        outline: none;
+        box-shadow: 0 0 0 3px var(--sm-accent);
+    }
+}
+
+.sm-quote {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    line-height: 1.55;
+
+    p {
+        margin: 0;
+    }
+}
+
+.sm-term-link {
+    font-weight: 700;
+    text-underline-offset: 0.2em;
+
+    &:focus-visible {
+        outline: 2px solid var(--sm-accent);
+        outline-offset: 2px;
+        border-radius: 2px;
+    }
+}
+
+.sm-cite {
+    margin: 0;
+    color: var(--sm-muted);
+    font-size: 0.85rem;
+
+    > * + *::before {
+        content: " · ";
+    }
+
+    cite {
+        color: var(--bs-body-color, #212529);
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+
+// ---------- small screens and touch ----------
+
+@media (max-width: 575.98px) {
+    .subject-map {
+        --sm-gutter: 0.75rem;
+    }
+
+    .sm-branch-inner {
+        padding-left: calc(var(--sm-gutter) + 1.4rem);
+    }
+
+    .sm-limb {
+        width: 1.1rem;
+    }
+}
+
+@media (pointer: coarse) {
+    .sm-term-btn {
+        min-height: 2.75rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sm-branch,
+    .sm-node,
+    .sm-chevron {
+        transition: none;
+    }
+
+    .sm-tag.is-open .sm-limb,
+    .sm-tag.is-open .sm-term {
+        animation: none;
+    }
+}

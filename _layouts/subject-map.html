@@ -1,0 +1,16 @@
+---
+# Subject Map layout
+# Collapsible tree (D3) built from _data/subject-map.csv: tags on load,
+# terms unfold on selection. Selecting a term opens a modal with five random
+# tagged passages from _data/transcripts, each linking to that moment in the
+# interview. Passage data is generated at build time by _plugins/subject_map_index.rb.
+layout: page
+---
+<link rel="stylesheet" href="{{ '/assets/css/subject-map.css' | relative_url }}">
+
+{{ content }}
+
+{% include subject-map/tree.html %}
+{% include subject-map/modal.html %}
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+{% include js/subject-map-js.html %}

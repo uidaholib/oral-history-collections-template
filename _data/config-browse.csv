@@ -1,7 +1,9 @@
 field,display_name,btn,hidden,sort_name,facet_name
-date,Date,,,Date Created
-description,,,true,
-creator,Creator,,,
-subject,,true
-location,,true,,,
-identifier,,,true,Identifier
+description,Topics,,true
+subject,Subjects,,true
+location,Locations,,true
+interviewer,,,true
+date,,,true,Date
+residence,Residence,,true
+occupation,Occupation,,true
+origin,Family Origin,,true

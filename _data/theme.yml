@@ -93,13 +93,28 @@ year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in d
 year-nav-increment: 5 # set increments to auto gen nav years
 
 ##########
+# Subject Map page / Oral History as Data Options
+# Expanding tag/term tree at /subject-map.html, built from _data/subject-map.csv.
+# Passages are indexed at build time by _plugins/subject_map_index.rb.
+#
+subject-map-data: subject-map          # name of the tag/term CSV in _data (no extension)
+subject-map-transcripts: transcripts   # folder in _data holding the transcript CSVs
+subject-map-terms-field: terms         # transcript column with tagged terms, e.g. "helmer;timber"
+subject-map-words-field: words         # transcript column with the dialogue
+subject-map-speaker-field: speaker     # transcript column with the speaker name
+subject-map-timestamp-field: timestamp # transcript column with the timestamp, e.g. 0:05:38
+subject-map-context-words: 5           # words shown on either side of the term in each passage
+subject-map-line-offset: 0             # set to 1 if transcript line ids count from 1 instead of 0
+subject-map-output: assets/data/subject-map # where the per-tag JSON files are written
+
+##########
 # DATA 
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
 metadata-export-fields: "title,creator,interviewer,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rightsstatement,rights,display_template,object_location,image_small,image_thumb,pdf,bio"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,interviewer,format"
+metadata-facets-fields: "subject,interviewer,location,format"
 
 ##########
 # Compound Objects 
@@ -138,15 +153,16 @@ font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/c
 # default icons can be overridden or new icons can be added using "icons" object
 # the template uses Bootstrap Icons, https://icons.getbootstrap.com/
 # find the names on the BI icons page, e.g. file-image
-#
-# icons: 
-#   icon-image: image
-#   icon-audio: soundwave
-#   icon-video: film
-#   icon-pdf: file-pdf
-#   icon-record: file-text
-#   icon-panorama: image-alt
-#   icon-compound-object: collection 
-#   icon-multiple: postcard
-#   icon-default: file-earmark # fall back icon
-#   icon-back-to-top: arrow-up-square
+
+icons: 
+  icon-image: image
+  icon-audio: soundwave
+  icon-video: film
+  icon-pdf: file-richtext
+  icon-record: file-text
+  icon-panorama: image-alt
+  icon-compound-object: collection 
+  icon-multiple: postcard
+  icon-default: file-earmark # fall back icon
+  icon-back-to-top: arrow-up-square
+  icon-arrow-down: arrow-down

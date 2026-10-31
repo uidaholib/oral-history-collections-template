@@ -1,0 +1,34 @@
+{%- comment -%}
+
+    Subject Map tree container.
+    _includes/js/subject-map-js.html draws the collapsible tree into #sm-canvas
+    from the JSON below (site.data.subject_map, built by the plugin).
+    On load only the tags are visible; selecting a tag unfolds its terms.
+
+{%- endcomment -%}
+{%- assign sm_output = site.data.theme.subject-map-output | default: 'assets/data/subject-map' -%}
+{%- assign sm_items = site.data.subject_map_item_base | default: '/items/' -%}
+<div class="subject-map" id="subject-map"
+     data-index-base="{{ '/' | append: sm_output | append: '/' | replace: '//', '/' | relative_url }}"
+     data-item-base="{{ sm_items | relative_url }}"
+     data-line-offset="{{ site.data.theme.subject-map-line-offset | default: 0 }}"
+     data-per-page="{{ site.data.theme.subject-map-per-page | default: site.data.theme.subject-map-per-draw | default: 5 }}"
+     data-root-label="{{ page.tree-root | default: 'Subjects' | escape }}">
+
+    <p class="sm-instructions" id="sm-instructions">
+        <strong>Keyboard:</strong> <kbd>Tab</kbd> or arrows to move, <kbd>Enter</kbd> to open, <kbd>Esc</kbd> to go back.
+        In passages, <kbd>←</kbd> <kbd>→</kbd> turn pages; after a recording, <kbd>⌘</kbd> <kbd>←</kbd> (<kbd>Alt</kbd> <kbd>←</kbd> on Windows) returns here.
+    </p>
+
+    {%- if site.data.subject_map -%}
+    <div class="sm-canvas" id="sm-canvas"></div>
+    <script type="application/json" id="sm-data">{{ site.data.subject_map | jsonify }}</script>
+    <noscript><p class="alert alert-warning">The subject map needs JavaScript to display.</p></noscript>
+    {%- else -%}
+    <div class="alert alert-warning">
+        The subject map index has not been generated. Check that <code>_data/subject-map.csv</code> exists and <code>_plugins/subject_map_index.rb</code> ran during the build.
+    </div>
+    {%- endif -%}
+
+    <div id="sm-status" class="visually-hidden" role="status" aria-live="polite"></div>
+</div>

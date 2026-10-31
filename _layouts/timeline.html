@@ -3,6 +3,13 @@
 layout: page
 custom-foot: js/timeline-js.html
 ---
+<style>
+/* Timeline: name cards a bit smaller than on browse, to match the image thumbnails */
+#timeline .person-card-placeholder {
+    height: 230px;   /* browse card is 300px */
+    width: 78%;      /* roughly the width of the larger thumbnails */
+}
+</style>
 {%- assign field = site.data.theme.timeline-field | default: page.timeline-field | default: "date" -%}
 {% if site.data.theme.timeline-child-objects == true %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
@@ -53,14 +60,20 @@ custom-foot: js/timeline-js.html
                             {% if item.image_thumb %}
                             <img class="lazyload img-thumbnail timeline-thumb" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.description | default: item.title | escape }}" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{ item.title | escape }}">
                             {% else %}
-                            <div class="card"> 
-                                <div class="card-body text-center">
-                                    <div class="h5 text-dark">{{ item.title }}</div>
-                                    <svg class="bi timeline-thumb text-body" fill="currentColor" aria-hidden="true">
-                                        {%- assign icon_template = item.display_template | default: item.format -%}
-                                        <use xlink:href="{{ '/assets/css/cb-icons.svg' | relative_url }}#{% if icon_template contains 'image' %}icon-image{% elsif icon_template contains 'pdf' %}icon-pdf{% elsif icon_template contains 'audio' %}icon-audio{% elsif icon_template contains 'video' %}icon-video{% elsif icon_template contains 'panorama' %}icon-panorama{% elsif icon_template contains 'compound' %}icon-compound-object{% elsif icon_template contains 'multiple' %}icon-multiple{% else %}icon-default{% endif %}"/>
-                                    </svg>
-                                </div>
+                            {%- comment -%} No image: reuse the browse page's name card (.person-card-placeholder / .person-initials in _sass/_custom.scss) {%- endcomment -%}
+                            {%- assign tl_name = item.title
+                                | remove: " Oral History Interview Audio"
+                                | remove: " Oral History Interview"
+                                | remove: " Interview"
+                                | strip | split: " " | last | upcase -%}
+                            {%- assign tl_len = tl_name | size -%}
+                            {%- if tl_len > 14 -%}{%- assign tl_size = "extra-long" -%}
+                            {%- elsif tl_len > 11 -%}{%- assign tl_size = "very-long" -%}
+                            {%- elsif tl_len > 8 -%}{%- assign tl_size = "long" -%}
+                            {%- elsif tl_len > 6 -%}{%- assign tl_size = "medium" -%}
+                            {%- else -%}{%- assign tl_size = "short" -%}{%- endif -%}
+                            <div class="person-card-placeholder rounded mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{ item.title | escape }}">
+                                <span class="person-initials" data-length="{{ tl_size }}">{{ tl_name }}</span>
                             </div>
                             {% endif %}
                         </a>
