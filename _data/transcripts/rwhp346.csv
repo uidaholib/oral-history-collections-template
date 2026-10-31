@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:01,"If you see anything that you don't want to tell about, you can just, you know, tell me. Your name."
 Speaker 2,00:00:11,Mabel Louise Scribner. S-C-R-I-B-N-E-R.
 Speaker 1,00:00:19,And your maiden name?

@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:05,We are doing the Starland address?
 Speaker 2,00:00:08,Northrup.
 Speaker 1,00:00:14,Address?

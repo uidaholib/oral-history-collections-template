@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:03,"Today is the 4th of October, 1975, and we're in Orofino. And the interviewer is Kathy Noggle, and the interviewee is Phyllis McCarthy. That's what everybody says. Okay, now, I'm going to put this, I want to make sure I spell it right, it's P-H-Y-L-L-I-S? Right. And it's M-A-C?"
 Speaker 2,00:00:39,M-C. Oh.
 Speaker 1,00:00:40,Capital A. A. And your maiden name?

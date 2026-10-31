@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:05,"First of all, we have personal data. This could be confusing for the two of you, but I'll see how I can handle it."
 Speaker 2,00:00:13,We can always revert back to the one if it gets confusing.
 Speaker 1,00:00:17,"It's Vicki with an I or one. With an I. Mitchell. I was trying to think of your last name, and I thought of Miller, Myers, everything at dinner, so I could call you, and I could not think of Mitchell. Tomorrow, everything. And Bonnie?"

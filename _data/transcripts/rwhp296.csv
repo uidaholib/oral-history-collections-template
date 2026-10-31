@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:01,Is this in the way?
 Speaker 2,00:00:02,"No, it's fine. I think it's fine now. This is Charlene Olson, and I'm down in Troy. And this is January 30. And I'm at the home of Mrs. Ella Olson. And we're going to be starting our interview now. Like I said, the first thing we're going to do is do this personal data record. And if there are any questions that you don't want to answer in the interview, you're free not to. But I don't think there's anything, at least on this. Let's see, your full name is Ella?"
 Speaker 1,00:00:39,Lillian Olson.

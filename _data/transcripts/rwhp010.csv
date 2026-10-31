@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:03,"The following interview is of Linda Apple, May 20, 1975, at St. Mary's, Idaho, by Irma Wood."
 Speaker 2,00:00:17,"Okay, now I'll watch it. Okay. What are some of the advantages and the disadvantages of living in St. Mary's?"
 Speaker 1,00:00:29,"Well, a lot of the advantages we have is our recreation, our hunting, our fishing. It's a small community, not a big city. And the disadvantages, of course, you don't have your shopping and stuff as you do in the big cities, which we go to Spokane a lot to do a lot of that, which I think most everybody here does."

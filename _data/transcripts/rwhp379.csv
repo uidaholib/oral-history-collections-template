@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:02,"The following interview is of Bernice Sullivan, made July 15, 1975, at St. Mary's, Idaho. Daryl Anderson is doing the interviewing. Can I use this one?"
 Speaker 2,00:00:16,"Sure, go ahead."
 Speaker 1,00:00:21,"Okay, let's start with your name."

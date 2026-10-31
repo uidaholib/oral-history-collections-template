@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:08,"We should tie all of that dead into a bound so we won't get any interruptions. Well, I'm Isabelle Miller and I'm here at Mrs. Bell's house. And you are, your first name is?"
 Speaker 2,00:00:21,Eva May.
 Speaker 1,00:00:22,"Eva May Bell. And we're just talking here. And I had a few questions to ask and Eva's decided she'll answer the ones she wants to. And I'll just start out in order to start the discussion. Remembering your childhood being a girl, do you feel you were treated any differently than your brothers when you grew up?"

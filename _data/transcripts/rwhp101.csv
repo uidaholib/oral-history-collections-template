@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:01,And your full name now is?
 Speaker 2,00:00:03,"Emma Christine Cook. From, are you saying, you want my maiden name?"
 Speaker 1,00:00:08,What is it?

@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:00,"22nd of March, 1975. This is Isabelle Miller. I'm interviewing Hollis Edgerton on the 22nd of March, 1975. All right, so Hollis, you're a student in Lewis and Clark"
 Speaker 2,00:00:22,"College, right?"
 Speaker 1,00:00:23,What year is that?

@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:04,What's your full name?
 Speaker 2,00:00:07,Susan Lucille Morris
 Speaker 1,00:00:11,Do you have any nicknames? Nope How do you spell your last name?

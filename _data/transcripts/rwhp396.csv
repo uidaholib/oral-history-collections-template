@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 ,,
 Hadley Hope,0:00:08,"I have your name down, and, can you tell me your maiden name?"
 Olive Weakley,0:00:11,"Hardin, Olive Hardin."

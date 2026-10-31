@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:09,What's the date today? Is it the...
 Speaker 2,00:00:12,October the... 11th? The 11th.
 Speaker 1,00:00:15,"It's the 11th, and we're in... Avery, right?"

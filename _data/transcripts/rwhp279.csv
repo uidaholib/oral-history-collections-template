@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:05,"The following interview of Elsie Nelson was taped by Isabel Miller early in the year 1975 in Moscow, Idaho."
 Speaker 2,00:00:15,"That's all it has to be. It's kind of nice to grow old and have as many friends as I have. I just feel happy. And I just, even if I get so busy, I don't have time to eat, I certainly have three syrups so that I don't mind that. But, you know, I feel that..."
 Speaker 1,00:00:43,"Excuse me, I'm going to get my hat so that'll be..."

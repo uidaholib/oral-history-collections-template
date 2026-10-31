@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:04,$5.00.
 Speaker 2,00:00:07,"Well, if you're creative and you have talent, that helps."
 Speaker 1,00:00:12,"All right, today's April 24th. We're in Sandpoint at the Pine Tree. We're talking to Irene Cook, who is the owner or co-owner of the Pine Tree, and we'd like to get some of her personal background and how she happened to be in Sandpoint. And we'll start out by saying how long have you lived in Sandpoint?"

@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:04,"Hi, your full name is Varna? Dale."
 Speaker 2,00:00:11,My full name is Maya.
 Speaker 1,00:00:16,Maya. And full F-O-L-T-Z. Mm-hmm. Have you ever had a nickname?

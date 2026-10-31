@@ -1,4 +1,4 @@
-speaker,timestamp,words
+speaker,timestamp,words,tags,terms
 Speaker 1,00:00:01,Are you down here or are you talking to each other?
 Speaker 2,00:00:03,"No, we both... are we falling in love with each other on the West? No. No? Would you like to go back and live where you came from or did you fall in love with the West too?"
 Speaker 1,00:00:17,"I think I could say that, yeah. I like it there a lot. I live near Detroit."
