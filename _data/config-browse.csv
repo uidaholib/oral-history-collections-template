@@ -4,6 +4,4 @@ subject,Subjects,,true
 location,Locations,,true
 interviewer,,,true
 date,,,true,Date
-residence,Residence,,true
-occupation,Occupation,,true
 origin,Family Origin,,true

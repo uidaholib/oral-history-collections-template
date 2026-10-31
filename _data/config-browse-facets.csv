@@ -1,11 +1,9 @@
 field,display_name,btn,hidden,search,date_field,multivalued,sort_name,facet_name
 display_template,Type,,true,,,,,Record Type
 subject,,true,true,2,,true,,Subject
-residence,Residence,,true,true,,true,,Residence
 location,,true,true,true,,true,,Locations
 birth_year,Born,,,,,,,
 duration,Length,,,,,,,
-occupation,Occupation,,,true,,true,,Occupation
 interviewer,Interviewer,,true,true,,true,,Interviewer
 description,,,true,true,,,,
 origin,,,true,true,,,,
