@@ -128,9 +128,9 @@ subject-map-output: assets/data/subject-map # where the per-tag JSON files are w
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "objectid,personid,title,person_name,birth_year,residence,origin,occupation,date,description,audio_notes,duration,interviewer,subject,identifier,reel,source,rights,rightsstatement,location,format,interview_count,image_filename,image_large,map_center,map_markers,person_link,2026_transcription,object_location,pdf,display_template,xml_location,image_small,image_thumb,connected_objectid"
+metadata-export-fields: "personid,title,person_name,birth_year,residence,origin,occupation,date,description,audio_notes,duration,interviewer,subject,location,source,identifier,reel,rights,rightsstatement,format,type,language,interview_count,map_center,person_link,interview_link,transcript_xml,object_location,pdf,display_template,genre,xml_location,image_filename,image_source,image_large,image_small,image_thumb,image_alt_text,connected_objectid,2015_transcription,transcriber"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,interviewer,duration,location,format"
+metadata-facets-fields: "residence,occupation,subject,location"
 
 ##########
 # Compound Objects 
