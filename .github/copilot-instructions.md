@@ -89,7 +89,7 @@ Three-layer icon system avoids hardcoding Bootstrap Icons:
 
 1. **theme.yml**: Maps semantic names to Bootstrap icons (`icon-map-pin: geo-alt-fill`)
 2. **cb_helpers.rb**: Processes configuration, generates SVG sprite at build time
-3. **Templates**: Reference via `<use xlink:href="/assets/lib/cb-icons.svg#icon-map-pin"/>`
+3. **Templates**: Reference via `<use xlink:href="/assets/css/cb-icons.svg#icon-map-pin"/>`
 
 ### File Paths
 
