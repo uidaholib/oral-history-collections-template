@@ -52,10 +52,16 @@ const SETTINGS = {
     facetFilterThreshold: 30
 };
 
+// record types shown by the toggle; "all" shows both and has no facets
+const TYPES = ["person", "transcript"];
+const DEFAULT_TYPE = "person";
+const TYPE_LABELS = { person: "Person", transcript: "Interview" };
+const TYPE_NOUNS = { person: ["person", "people"], transcript: ["interview", "interviews"], all: ["item", "items"] };
+
 // fields from config-browse-facets.csv
 const FIELDS = [
     {%- for f in fields %}
-    { field: {{ f.field | jsonify }}, label: {{ f.display_name | jsonify }}, btn: {{ f.btn | jsonify }}, hidden: {{ f.hidden | jsonify }}, search: {{ f.search | jsonify }}, date: {{ f.date_field | jsonify }}, multi: {{ f.multivalued | jsonify }}, sortName: {{ f.sort_name | jsonify }}, facetName: {{ f.facet_name | jsonify }} },
+    { field: {{ f.field | jsonify }}, label: {{ f.display_name | jsonify }}, btn: {{ f.btn | jsonify }}, hidden: {{ f.hidden | jsonify }}, search: {{ f.search | jsonify }}, date: {{ f.date_field | jsonify }}, multi: {{ f.multivalued | jsonify }}, sortName: {{ f.sort_name | jsonify }}, facetName: {{ f.facet_name | jsonify }}, facetFor: {{ f.facet_for | jsonify }} },
     {%- endfor %}
 ].map(f => ({
     field: f.field,
@@ -69,7 +75,9 @@ const FIELDS = [
     date: f.date === "true",
     multi: f.multi === "true",
     sortName: f.sortName,
-    facet: Boolean(f.facetName)
+    facet: Boolean(f.facetName),
+    // record types a facet applies to (facet_for column), blank = people and interviews
+    types: f.facetFor ? [f.facetFor] : TYPES.slice()
 }));
 
 // built-in fields
@@ -86,13 +94,7 @@ const SORT_FIELDS = [TITLE].concat(FIELDS.filter(f => f.sortName && f.field !== 
 let FACETS = [];
 
 // url parameter names used by the page, facet fields can not use these names
-const RESERVED = /^(q|sort|order|page|[bfv]\d+|start\d+|end\d+)$/;
-
-// facet values to leave out of the filter list, by field name. the items still appear in results.
-// "record" is hidden from Record Type so the filter is a simple People / Interviews choice.
-const HIDDEN_FACET_VALUES = {
-    display_template: ["record"]
-};
+const RESERVED = /^(q|type|sort|order|page|[bfv]\d+|start\d+|end\d+)$/;
 
 // placeholder image for lazyload
 const PLACEHOLDER = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
@@ -227,6 +229,33 @@ function placeholderLength(text) {
  *   .person-initials          last word of the title, sized by data-length
  */
 function itemCard(item) {
+    return item.display_template === "transcript" ? interviewCard(item) : personCard(item);
+}
+
+/** fields shown on each card type, in order */
+const PERSON_CARD_FIELDS = ["occupation", "residence", "birth_year"];
+const INTERVIEW_CARD_FIELDS = ["subject", "location"];
+
+/** simple card for an interview: type badge, title, subjects, and locations */
+function interviewCard(item) {
+    const fields = INTERVIEW_CARD_FIELDS.map(name => {
+        const f = FIELDS.find(x => x.field === name);
+        if (!f || !item[name]) return "";
+        const label = f.label || f.name;
+        const links = splitValues(item[name]).map(v => filterLink(f, v, "", item.display_template)).join(" ");
+        return `<p class="card-text small mb-2"><strong>${esc(label)}:</strong> ${links}</p>`;
+    }).join("");
+    return `<div class="card h-100 browse-card browse-card-interview">
+        <div class="card-body">
+            <p class="browse-type-badge mb-2"><svg class="browse-type-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path fill="currentColor" d="M8 11a3 3 0 0 0 3-3V3a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-4.5 4.975V15h2v1h-5v-1h2v-2.025A5 5 0 0 1 3 8h1a4 4 0 0 0 8 0z"/></svg> Interview</p>
+            <h3 class="card-title h5"><a class="stretched-link" href="${esc(item.url)}">${esc(item.title)}</a></h3>
+            ${fields}
+        </div>
+    </div>`;
+}
+
+/** person card, styled like the People page */
+function personCard(item) {
     // thumbnail image, or the gradient placeholder with the last word of the title
     let image;
     if (item.image_thumb) {
@@ -239,43 +268,42 @@ function itemCard(item) {
             `<div class="person-initials"${length ? ` data-length="${length}"` : ""} style="${placeholderStyle(text)}">${esc(text)}</div></div>`;
     }
 
-    // fields that are not hidden, "btn" fields become filter links
-    const fields = CARD_FIELDS.map(f => {
-        if (!item[f.field]) return "";
+    // occupation and residence become filter links, birth year is plain text
+    const fields = PERSON_CARD_FIELDS.map(name => {
+        const f = FIELDS.find(x => x.field === name);
+        if (!f || !item[name]) return "";
         const label = f.label ? `<strong>${esc(f.label)}:</strong> ` : "";
-        const value = f.btn
-            ? splitValues(item[f.field]).map(v => filterLink(f, v)).join(" ")
-            : esc(item[f.field]);
+        const value = name === "birth_year"
+            ? esc(item[name])
+            : splitValues(item[name]).map(v => filterLink(f, v, "", item.display_template)).join(" ");
         return `<p class="card-text small mb-2">${label}${value}</p>`;
     }).join("");
 
-    // content type link
-    const type = item.display_template
-        ? filterLink(CONTENT_TYPE, item.display_template, getIcon(item.display_template, item.format, "hidden"))
-        : "";
+    const badge = `<p class="browse-type-badge mb-2"><svg class="browse-type-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path fill="currentColor" d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664h10z"/></svg> Person</p>`;
 
     // the image link is hidden from keyboard and screen readers since the title links to the same page
-    return `<div class="card h-100 person-card">
+    return `<div class="card h-100 person-card browse-card browse-card-person">
         <a href="${esc(item.url)}" tabindex="-1" aria-hidden="true">${image}</a>
         <div class="card-body">
+            ${badge}
             <h3 class="card-title h5"><a href="${esc(item.url)}">${esc(item.title)}</a></h3>
             ${fields}
         </div>
-        ${type ? `<div class="card-footer bg-transparent">${type}</div>` : ""}
     </div>`;
 }
 
 /** a link that filters the browse page to one value, handled in place by the click event in section 11 */
-function filterLink(field, value, icon) {
-    const params = filterParams(field.field, value);
-    return `<a class="btn btn-sm btn-outline-secondary m-1 text-wrap" href="?${esc(params.toString())}" data-filter-link>` +
+function filterLink(field, value, icon, type) {
+    const params = filterParams(field.field, value, type);
+    return `<a class="btn btn-sm btn-outline-dark m-1 text-wrap" href="?${esc(params.toString())}" data-filter-link>` +
         `<span class="visually-hidden">Filter by ${esc(field.name)}: </span>${esc(displayValue(field.field, value))}${icon ? " " + icon : ""}</a>`;
 }
 
 /** url parameters for a filter link: a facet if the field is a facet, otherwise an advanced search phrase */
-function filterParams(field, value) {
+function filterParams(field, value, type) {
     const params = new URLSearchParams();
-    if (FACETS.some(f => f.field === field && !f.date)) {
+    if (type) params.set("type", type);
+    if (FACETS.some(f => f.field === field && !f.date && f.types.includes(type))) {
         params.append(field, value);
     } else {
         params.set("b0", "AND");
@@ -492,21 +520,23 @@ function sortItems(list, sort) {
 const state = emptyState();
 
 function emptyState() {
-    return { q: "", facets: {}, dates: {}, advanced: [], sort: "", order: "", page: 1 };
+    return { type: DEFAULT_TYPE, q: "", facets: {}, dates: {}, advanced: [], sort: "", order: "", page: 1 };
 }
 
 /** read state from url parameters */
 function readParams(params) {
     const next = emptyState();
+    const type = params.get("type");
+    if (type === "all" || TYPES.includes(type)) next.type = type;
     next.q = params.get("q") || "";
     next.sort = params.get("sort") || "";
     next.order = params.get("order") || "";
     next.page = Math.max(1, parseInt(params.get("page"), 10) || 1);
-    VALUE_FACETS.forEach(f => {
+    VALUE_FACETS.filter(f => f.types.includes(next.type)).forEach(f => {
         const values = params.getAll(f.field).filter(Boolean);
         if (values.length) next.facets[f.field] = values;
     });
-    DATE_FACETS.forEach(f => {
+    DATE_FACETS.filter(f => f.types.includes(next.type)).forEach(f => {
         const [start = "", end = ""] = (params.get(f.field) || "").split("..");
         if (start || end) next.dates[f.field] = { start: start, end: end };
     });
@@ -530,6 +560,7 @@ function readParams(params) {
 /** write state to url parameters */
 function writeParams() {
     const params = new URLSearchParams();
+    if (state.type !== DEFAULT_TYPE) params.set("type", state.type);
     if (state.q) params.set("q", state.q);
     Object.entries(state.facets).forEach(([field, values]) => values.forEach(v => params.append(field, v)));
     Object.entries(state.dates).forEach(([field, range]) => params.set(field, `${range.start}..${range.end}`));
@@ -591,6 +622,9 @@ const el = {
     active: document.getElementById("browse-active"),
     chips: document.getElementById("browse-chips"),
     facets: document.getElementById("browse-facets"),
+    filtersCol: document.getElementById("browse-filters-col"),
+    resultsCol: document.getElementById("browse-results-col"),
+    typeInputs: document.querySelectorAll("input[name=browse-type]"),
     filterCount: document.getElementById("browse-filter-count"),
     heading: document.getElementById("browse-results-heading"),
     sort: document.getElementById("browse-sort"),
@@ -608,7 +642,7 @@ let chipActions = [];
 
 /** run search, filters, and sort */
 function getResults() {
-    let list = items;
+    let list = state.type === "all" ? items : items.filter(item => item.display_template === state.type);
     const terms = parseQuery(state.q);
     if (terms.length) list = list.filter(item => (item._score = matchScore(terms, item._search)) > 0);
     if (state.advanced.length) list = list.filter(item => matchAdvanced(item, state.advanced));
@@ -636,6 +670,7 @@ function render(options = {}) {
     const focusId = document.activeElement ? document.activeElement.id : "";
 
     if (document.activeElement !== el.searchInput) el.searchInput.value = state.q;
+    renderType();
     renderSort();
     renderChips();
     renderFacets();
@@ -649,6 +684,16 @@ function render(options = {}) {
         document.getElementById(focusId).focus();
     }
     if (options.announce !== false) announce(resultsMessage());
+}
+
+/** sync the type toggle and show the filters column only when the type has facets */
+function renderType() {
+    el.typeInputs.forEach(input => { input.checked = input.value === state.type; });
+    if (!el.filtersCol) return;
+    const hasFacets = state.type !== "all";
+    el.filtersCol.hidden = !hasFacets;
+    el.resultsCol.classList.toggle("col-lg-9", hasFacets);
+    el.resultsCol.classList.toggle("col-12", !hasFacets);
 }
 
 /** sort select, rebuilt only when relevance is added or removed */
@@ -694,12 +739,12 @@ function buildFacets() {
     if (!el.facets) return;
     el.facets.innerHTML = FACETS.map((f, i) => {
         const id = `browse-facet-${i}`;
-        const expanded = i < 3 || Boolean(state.facets[f.field] || state.dates[f.field]);
+        const expanded = FACETS.filter(x => x.types.join() === f.types.join()).indexOf(f) < 3 || Boolean(state.facets[f.field] || state.dates[f.field]);
         facetUi[f.field] = { expanded: expanded, showAll: false, filter: "" };
         const toggle = `<legend class="mb-1"><button type="button" class="browse-facet-toggle btn btn-link" id="${id}-toggle" aria-expanded="${expanded}" aria-controls="${id}" data-field="${esc(f.field)}">${esc(f.name)}</button></legend>`;
         if (f.date) {
             const years = items.flatMap(item => item._dates[f.field].map(d => d.start.slice(0, 4))).sort();
-            return `<form class="browse-date-form mb-3" data-field="${esc(f.field)}"><fieldset>${toggle}
+            return `<form class="browse-date-form browse-facet-group mb-3" data-facet="${esc(f.field)}" data-field="${esc(f.field)}"><fieldset>${toggle}
                 <div id="${id}" class="row g-2 align-items-end"${expanded ? "" : " hidden"}>
                     <div class="col"><label class="form-label small d-block mb-0">From<input type="text" name="start" id="${id}-start" class="form-control form-control-sm mt-1" inputmode="numeric" placeholder="${esc(years[0] || "YYYY")}"></label></div>
                     <div class="col"><label class="form-label small d-block mb-0">To<input type="text" name="end" id="${id}-end" class="form-control form-control-sm mt-1" inputmode="numeric" placeholder="${esc(years[years.length - 1] || "YYYY")}"></label></div>
@@ -710,7 +755,7 @@ function buildFacets() {
         const filter = total > SETTINGS.facetFilterThreshold
             ? `<label class="form-label small d-block">Filter ${esc(f.name)} values<input type="search" class="form-control form-control-sm mt-1 browse-facet-filter" id="${id}-filter" data-field="${esc(f.field)}"></label>`
             : "";
-        return `<fieldset class="mb-3">${toggle}
+        return `<fieldset class="browse-facet-group mb-3" data-facet="${esc(f.field)}">${toggle}
             <div id="${id}"${expanded ? "" : " hidden"}>
                 ${filter}
                 <ul class="list-unstyled mb-1" data-values="${esc(f.field)}"></ul>
@@ -724,6 +769,9 @@ function renderFacets() {
     if (!el.facets) return;
     FACETS.forEach((f, i) => {
         const id = `browse-facet-${i}`;
+        const group = el.facets.querySelector(`[data-facet="${CSS.escape(f.field)}"]`);
+        group.hidden = !f.types.includes(state.type);
+        if (group.hidden) return;
         if (f.date) {
             const range = state.dates[f.field] || { start: "", end: "" };
             ["start", "end"].forEach(key => {
@@ -734,9 +782,7 @@ function renderFacets() {
         }
         const ui = facetUi[f.field];
         const selected = state.facets[f.field] || [];
-        // values left out of the checkbox list (still shown if already selected, e.g. from a card's footer button)
-        const hidden = (HIDDEN_FACET_VALUES[f.field] || []).map(v => v.toLowerCase());
-        const entries = [...counts[f.field]].filter(([v]) => selected.includes(v) || !hidden.includes(String(v).toLowerCase()));
+        const entries = [...counts[f.field]];
         selected.forEach(v => { if (!counts[f.field].has(v)) entries.push([v, 0]); });
         // selected values first, then by count or alphabetical
         entries.sort((a, b) => (selected.includes(b[0]) - selected.includes(a[0])) ||
@@ -774,7 +820,7 @@ function restoreFocus(id) {
 function renderResults(from) {
     const end = state.page * SETTINGS.perPage;
     // same grid as the People page: two columns on phones, three on large screens
-    const colClass = el.facets ? "col-6 col-md-6 col-xl-4" : "col-6 col-md-6 col-lg-4";
+    const colClass = state.type !== "all" && el.facets ? "col-12 col-sm-6 col-xl-4" : "col-12 col-sm-6 col-lg-4";
     const html = results.slice(from, end).map(item => `<li class="${colClass} mb-4">${itemCard(item)}</li>`).join("");
     if (from === 0) {
         el.items.innerHTML = results.length ? html : `<li class="col-12 text-center py-5"><p class="lead text-muted">No items match your search and filters.</p></li>`;
@@ -782,16 +828,21 @@ function renderResults(from) {
         el.items.insertAdjacentHTML("beforeend", html);
     }
     const shown = Math.min(end, results.length);
-    el.heading.textContent = `${results.length} ${results.length === 1 ? "item" : "items"}`;
-    el.showing.textContent = results.length ? `Showing ${shown} of ${results.length} items` : "";
+    el.heading.textContent = countLabel(results.length);
+    el.showing.textContent = results.length ? `Showing ${shown} of ${countLabel(results.length)}` : "";
     el.more.hidden = shown >= results.length;
-    el.more.textContent = `Show more items (${results.length - shown} remaining)`;
+    el.more.textContent = `Show more (${results.length - shown} remaining)`;
+}
+
+/** "12 people", "1 interview", "5 items" */
+function countLabel(n) {
+    return `${n} ${TYPE_NOUNS[state.type][n === 1 ? 0 : 1]}`;
 }
 
 function resultsMessage() {
     if (!results.length) return "No items match. Try removing a filter or changing your search.";
     const sort = el.sort.options[el.sort.selectedIndex];
-    return `${results.length} ${results.length === 1 ? "item" : "items"}, sorted by ${sort ? sort.text : ""}`;
+    return `${countLabel(results.length)}, sorted by ${sort ? sort.text : ""}`;
 }
 
 /** polite screen reader message, delayed so quick changes only announce once */
@@ -926,9 +977,19 @@ function setupEvents() {
     document.getElementById("browse-clear").addEventListener("click", () => {
         const sort = state.sort;
         const order = state.order;
-        Object.assign(state, emptyState(), { sort: sort === "relevance" ? "" : sort, order: order });
+        const type = state.type;
+        Object.assign(state, emptyState(), { type: type, sort: sort === "relevance" ? "" : sort, order: order });
         update({ focus: "heading" });
     });
+
+    // switching type clears facets, since each type has its own
+    el.typeInputs.forEach(input => input.addEventListener("change", () => {
+        if (!input.checked) return;
+        state.type = input.value;
+        state.facets = {};
+        state.dates = {};
+        update();
+    }));
 
     el.chips.addEventListener("click", e => {
         const button = e.target.closest("[data-chip]");

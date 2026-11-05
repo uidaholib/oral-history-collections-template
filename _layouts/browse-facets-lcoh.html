@@ -31,6 +31,19 @@ custom-foot: js/browse-facets-js.html
     </div>
 </form>
 
+<!-- record type toggle: People (default), Interviews, or Everything -->
+<fieldset class="browse-type-toggle mt-3">
+    <legend class="visually-hidden">Browse by record type</legend>
+    <div class="btn-group" role="group">
+        <input type="radio" class="btn-check" name="browse-type" id="browse-type-person" value="person" autocomplete="off" checked>
+        <label class="btn btn-outline-primary" for="browse-type-person">People</label>
+        <input type="radio" class="btn-check" name="browse-type" id="browse-type-transcript" value="transcript" autocomplete="off">
+        <label class="btn btn-outline-primary" for="browse-type-transcript">Interviews</label>
+        <input type="radio" class="btn-check" name="browse-type" id="browse-type-all" value="all" autocomplete="off">
+        <label class="btn btn-outline-primary" for="browse-type-all">Everything</label>
+    </div>
+</fieldset>
+
 <!-- active filters, filled by js -->
 <div id="browse-active" class="d-flex flex-wrap align-items-center gap-2 my-3" hidden>
     <span id="browse-active-label">Active filters:</span>
@@ -40,10 +53,10 @@ custom-foot: js/browse-facets-js.html
 
 <div class="row mt-3">
     {% if facet_fields.size > 0 %}
-    <div class="col-lg-3">
+    <div class="col-lg-3" id="browse-filters-col">
         <!-- on small screens filters open in an offcanvas panel -->
         <button type="button" class="btn btn-outline-secondary d-lg-none mb-3" data-bs-toggle="offcanvas" data-bs-target="#browse-filters" aria-controls="browse-filters">Filters <span id="browse-filter-count"></span></button>
-        <aside class="offcanvas-lg offcanvas-start" tabindex="-1" id="browse-filters" aria-labelledby="browse-filters-heading">
+        <aside class="offcanvas-lg offcanvas-start browse-filters-panel" tabindex="-1" id="browse-filters" aria-labelledby="browse-filters-heading">
             <div class="offcanvas-header justify-content-end">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#browse-filters" aria-label="Close filters"></button>
             </div>
@@ -56,7 +69,7 @@ custom-foot: js/browse-facets-js.html
         </aside>
     </div>
     {% endif %}
-    <section class="{% if facet_fields.size > 0 %}col-lg-9{% else %}col-12{% endif %}" aria-labelledby="browse-results-heading">
+    <section id="browse-results-col" class="{% if facet_fields.size > 0 %}col-lg-9{% else %}col-12{% endif %}" aria-labelledby="browse-results-heading">
         <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
             <h2 id="browse-results-heading" class="h4 mb-0" tabindex="-1">Items</h2>
             <div class="d-flex align-items-center gap-2">
@@ -66,7 +79,7 @@ custom-foot: js/browse-facets-js.html
             </div>
         </div>
         <!-- item cards, filled by js -->
-        <ul id="browse-item-list" class="row list-unstyled"></ul>
+        <ul id="browse-item-list" class="row list-unstyled" aria-labelledby="browse-results-heading"></ul>
         <div class="text-center mb-4">
             <p id="browse-showing" class="text-body-secondary"></p>
             <button type="button" id="browse-more" class="btn btn-outline-primary" hidden>Show more items</button>

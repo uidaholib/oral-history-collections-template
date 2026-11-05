@@ -1,4 +1,5 @@
 {%- comment -%}
+customized 
 
     Generates a subject cloud using js to process the terms for display in a "cloud" feature include or layout.
     Requires CB's array_count_uniq.rb plugin!
@@ -61,7 +62,7 @@
         {% if include.shuffle == true %}shuffle(array);{% endif %}
         for (let i = 0; i < array.length; i++) {
             size = mapSize(array[i][1]);
-            items += '<a class="btn btn-{{ include.button | default: "outline-primary" }} m-2 tagcloud' + size + '" href="{{ "/browse.html" | relative_url }}#' + array[i][2] + ':' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
+            items += '<a class="btn btn-{{ include.button | default: "outline-primary" }} m-2 tagcloud' + size + '" href="{{ "/browse.html" | relative_url }}?type=all&q=' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
         }
         cloud.innerHTML = items;
     }

@@ -1,13 +1,11 @@
 ---
+# custom for LCOH
 # create js data store for the browse-facets layout
 # fields are set in _data/config-browse-facets.csv
 # child objects are included if theme.yml browse-child-objects is true
 ---
-{%- if site.data.theme.browse-child-objects == true -%}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{%- else -%}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{%- endif -%}
+
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.display_template != "record"' -%}
 {%- assign fields = site.data.config-browse-facets -%}
 {%- assign builtins = "objectid,title,parentid,image_thumb,image_alt_text,display_template,format" | split: "," -%}
 var browseStore = [

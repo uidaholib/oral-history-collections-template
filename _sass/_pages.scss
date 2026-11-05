@@ -130,6 +130,128 @@ $toc-a-color: #191919 !default;
     flex: 1 1 20rem;
     width: auto;
 }
+/* record type toggle */
+.browse-type-toggle {
+    border: 0;
+    padding: 0;
+    .btn {
+        --bs-btn-color: #006666;
+        --bs-btn-border-color: #008080;
+        --bs-btn-hover-bg: #e6f2f2;
+        --bs-btn-hover-color: #034441;
+        --bs-btn-hover-border-color: #008080;
+        --bs-btn-padding-x: 1.25rem;
+        font-weight: 600;
+    }
+    .btn-check:checked + .btn {
+        background-color: #008080;
+        border-color: #008080;
+        color: #fff;
+    }
+    .btn-check:focus-visible + .btn {
+        outline: 3px solid #261882;
+        outline-offset: 2px;
+    }
+}
+
+/* facets panel, same look as the People page filters */
+.browse-filters-panel .offcanvas-body {
+    background: #fff;
+}
+@media (min-width: 992px) {
+    .browse-filters-panel .offcanvas-body {
+        position: sticky;
+        top: 20px;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        //max-height: calc(100vh - 40px);
+        //overflow-y: auto;
+    }
+}
+#browse-filters-heading {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+#browse-facets {
+    .browse-facet-group {
+        border: 0;
+        padding: 0;
+    }
+    .browse-facet-toggle {
+        padding: 0.5rem 0.75rem;
+        background-color: #008080;
+        color: #fff;
+        border-radius: 0.375rem;
+        &:hover {
+            background-color: #006666;
+            color: #fff;
+        }
+        &:focus-visible {
+            outline: 3px solid #261882;
+            outline-offset: 2px;
+            box-shadow: none;
+        }
+    }
+    .browse-facet-group > div,
+    .browse-facet-group > fieldset > div {
+        padding: 0.5rem 0.25rem 0;
+    }
+    .form-check-input:checked {
+        background-color: #008080;
+        border-color: #008080;
+    }
+    .browse-facet-more {
+        color: #006666;
+    }
+}
+
+/* result cards: people have a teal top bar, interviews a purple side bar on a tinted background */
+.browse-type-badge {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.browse-type-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+.browse-card-person {
+    .browse-type-badge {
+        color: #006666;
+    }
+}
+.browse-card-interview {
+    background-color: #f4f3ff;
+    border: 1px solid #d9d5ff;
+    transition: box-shadow 0.15s ease-in-out;
+    &:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .browse-type-badge {
+        color: #261882;
+    }
+    .card-title a {
+        color: inherit;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+        &:focus-visible {
+            outline: 3px solid #261882;
+            outline-offset: 2px;
+        }
+    }
+    /* keep subject and location links clickable above the stretched title link */
+    .btn {
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+    }
+}
+
 .browse-card-icon {
     padding: 1.5rem;
     text-align: center;

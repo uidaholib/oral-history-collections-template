@@ -68,6 +68,6 @@ Sam Schrager <br>August 1977
 {% for i in interviews %}
 {% include feature/interview-thumb.html objectid=i %}
 {% endfor %}
-<a class="mt-3 btn btn-outline-pride-gold" href="{{ '/people/index.html' | relative_url }}">More Interviews &raquo;</a>
+<a class="mt-3 btn btn-outline-pride-gold" href="{{ '/browse.html' | relative_url }}">More Interviews &raquo;</a>
 </div>
 </div>
