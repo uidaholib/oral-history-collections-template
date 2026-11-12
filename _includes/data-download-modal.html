@@ -6,6 +6,8 @@
 {%- endcomment -%}
 
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
+{%- comment -%} the timeline page stays published even when it is not in the nav {%- endcomment -%}
+{%- assign timeline_page = site.pages | where: "layout", "timeline" | first -%}
 <button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Download Data</button>
 <!-- Modal -->
 <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
@@ -67,12 +69,21 @@
                     </div>
                 </div>
                 {%- endif -%}
-                {% if stubs contains "timeline" %}
+                {% if stubs contains "timeline" or timeline_page %}
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">Timeline</h2>
                         <p class="card-text">A time-focused JSON data export designed for use with <a href="https://timeline.knightlab.com/">TimelineJS</a>.</p>
                         <a href="{{ '/assets/data/timelinejs.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TimelineJS JSON</a>
+                    </div>
+                </div>
+                {%- endif -%}
+                {% if site.data.theme.json-generation %}
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h2 class="card-title h4">Full Transcripts</h2>
+                        <p class="card-text">Every transcript in the collection as one JSON file, with each segment's speaker, text, timestamp, and topic tags alongside interview metadata. This is a large file (about 50 MB). Individual transcripts can be downloaded from each interview page.</p>
+                        <a href="{{ '/assets/data/transcript-collection.json' | relative_url }}" class="btn btn-outline-dark" download>Transcript Collection JSON</a>
                     </div>
                 </div>
                 {%- endif -%}
@@ -176,7 +187,7 @@
             ]      
         },
         {%- endif -%}
-        {% if stubs contains "timeline" %}
+        {% if stubs contains "timeline" or timeline_page %}
         {
             "@type": "Dataset",
             "name": "{{ site.title | escape }} timeline metadata",
