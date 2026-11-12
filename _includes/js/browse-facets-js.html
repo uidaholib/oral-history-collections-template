@@ -689,6 +689,15 @@ function render(options = {}) {
 /** sync the type toggle and show the filters column only when the type has facets */
 function renderType() {
     el.typeInputs.forEach(input => { input.checked = input.value === state.type; });
+    // highlight the navbar link for this type (People = browse.html, Interviews = browse.html?type=transcript)
+    document.querySelectorAll(".navbar .nav-link[href]:not(.dropdown-toggle)").forEach(link => {
+        const url = new URL(link.href, location.href);
+        if (url.pathname !== location.pathname) return;
+        const current = (url.searchParams.get("type") || DEFAULT_TYPE) === state.type;
+        link.classList.toggle("active", current);
+        if (current) link.setAttribute("aria-current", "page");
+        else link.removeAttribute("aria-current");
+    });
     if (!el.filtersCol) return;
     const hasFacets = state.type !== "all";
     el.filtersCol.hidden = !hasFacets;

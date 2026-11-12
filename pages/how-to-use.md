@@ -19,10 +19,10 @@ Pick the one that fits what you are after. You can switch at any time.
     <div class="card h-100">
       <div class="card-body">
         <p class="howto-kicker">Path 1</p>
-        <h3 class="h4 card-title">Discover Interviews</h3>
+        <h3 class="h4 card-title">Find People &amp; Interviews</h3>
         <p class="card-text">Start from a person, a place or a topic and find a whole interview to listen to.</p>
         <p class="card-text text-body-secondary small">Best when you want to know <em>who</em> to listen to.</p>
-        <a href="#discover-interviews" class="btn btn-clearwater">How it works</a>
+        <a href="#find-people-and-interviews" class="btn btn-clearwater">How it works</a>
       </div>
     </div>
   </div>
@@ -30,10 +30,10 @@ Pick the one that fits what you are after. You can switch at any time.
     <div class="card h-100">
       <div class="card-body">
         <p class="howto-kicker">Path 2</p>
-        <h3 class="h4 card-title">Explore Transcripts</h3>
+        <h3 class="h4 card-title">Follow a Topic</h3>
         <p class="card-text">Start from a word or phrase and land on the exact moment it is spoken.</p>
         <p class="card-text text-body-secondary small">Best when you want to know <em>what people said</em> about something.</p>
-        <a href="#explore-transcripts" class="btn btn-secondary">How it works</a>
+        <a href="#follow-a-topic" class="btn btn-secondary">How it works</a>
       </div>
     </div>
   </div>
@@ -44,53 +44,53 @@ Pick the one that fits what you are after. You can switch at any time.
 {:.table .table-striped .howto-table}
 | If you want to... | Try |
 |---|---|
-| Wander and see what is here | [Browse by Subject]({{ '/subjects.html' | relative_url }}) or [Browse by Location]({{ '/locations.html' | relative_url }}) |
-| Find a certain kind of person, such as a teacher or a logger | [Browse All]({{ '/browse.html' | relative_url }}), with the occupation filter |
-| See who talked about a particular town | [Browse by Location]({{ '/locations.html' | relative_url }}) or  [Subject List]({{ '/subject-list.html' | relative_url }}) |
-| Hear what people said about a topic, across many interviews | [Subject Map]({{ '/subject-map.html' | relative_url }}) or  [Subject List]({{ '/subject-list.html' | relative_url }}) |
+| Wander and see what is here | [Topic Word Cloud]({{ '/subjects.html' | relative_url }}) or [Places]({{ '/locations.html' | relative_url }}) |
+| Find a certain kind of person, such as a teacher or a logger | [People]({{ '/browse.html' | relative_url }}), with the occupation filter |
+| See who talked about a particular town | [Places]({{ '/locations.html' | relative_url }}) or [Topic Index A–Z]({{ '/subject-list.html' | relative_url }}) |
+| Hear what people said about a topic, across many interviews | [Topic Map]({{ '/subject-map.html' | relative_url }}) or [Topic Index A–Z]({{ '/subject-list.html' | relative_url }}) |
 | Find the part of a long interview about a topic | The Topics strip, Filter by Topic or the Index on the [interview page](#inside-an-interview) |
 
-## Discover Interviews
+## Find People and Interviews
 
-Use the **Discover Interviews** menu at the top of the page.
+Use **People**, **Interviews** and **Places** in the menu at the top of the page.
 
-### Browse All
+### People and Interviews
 
-[Browse All]({{ '/browse.html' | relative_url }}) shows every interview as a card.
+[People]({{ '/browse.html' | relative_url }}) shows every narrator as a card, and [Interviews]({{ '/browse.html?type=transcript' | relative_url }}) shows every recording. Switch between them with the toggle above the results.
 
 - **Search by keyword.** Try a name, a place, or a word like *sawmill*. Partial words work, and quotation marks find an exact phrase.
 - **Narrow with filters.** Limit the list by subject, occupation, where someone lived, who did the interview, and more. Pick several to combine them.
 - **Advanced Search** looks in one particular field, such as a date range.
 
-### Word clouds: subject and location
+### Word clouds: topics and places
 
 Bigger words appear in more interviews. Click a word to see the interviews that match.
 
-- [Browse by Subject]({{ '/subjects.html' | relative_url }}): topics and occupations, such as logging, farming or teaching.
-- [Browse by Location]({{ '/locations.html' | relative_url }}): places people talk about and places they lived.
+- [Topic Word Cloud]({{ '/subjects.html' | relative_url }}): topics and occupations, such as logging, farming or teaching.
+- [Places]({{ '/locations.html' | relative_url }}): places people talk about and places they lived.
 
 Good for wandering when you do not have a question yet.
 
 ### Timeline
 
-The [Timeline]({{ '/timeline.html' | relative_url }}) lays the interviews out by date, so you can see when the recordings were made.
+The [Timeline]({{ '/timeline.html' | relative_url }}) lays the interviews out by date, so you can see when the recordings were made. You can also reach it from **View on Timeline** on any interview page.
 
-## Explore Transcripts
+## Follow a Topic
 
-Browsing finds interviews. The **Explore Transcripts** menu finds *passages*. The words in the transcripts have been tagged by subject, so you can follow a topic through every interview that mentions it, even if it is only a few sentences in an hour of talk.
+Browsing finds interviews. The **Topics** menu finds *passages*. The words in the transcripts have been tagged by subject, so you can follow a topic through every interview that mentions it, even if it is only a few sentences in an hour of talk.
 
-### Subject Map
+### Topic Map
 
-The [Subject Map]({{ '/subject-map.html' | relative_url }}) is a branching diagram of subjects.
+The [Topic Map]({{ '/subject-map.html' | relative_url }}) is a branching diagram of subjects.
 
 1. Open a category on the left, such as *Labor*, *Culture* or *Environment*.
 2. Keep opening branches until you reach a term, such as *threshing*, *moonshine* or *Christmas*.
 3. Select the term to read short quotations from the interviews where it comes up.
 4. Select the highlighted word in a quotation to go to that moment, with the audio ready to play.
 
-### Subject List
+### Topic Index A–Z
 
-The [Subject List]({{ '/subject-list.html' | relative_url }}) has the same terms as one A to Z list, like the index at the back of a book. Some terms have a short definition, which helps with logging jobs and old-fashioned words. Filter the list with the box at the top, or jump ahead by letter. Selecting a term opens the same quotations as the map.
+The [Topic Index A–Z]({{ '/subject-list.html' | relative_url }}) has the same terms as one A to Z list, like the index at the back of a book. Some terms have a short definition, which helps with logging jobs and old-fashioned words. Filter the list with the box at the top, or jump ahead by letter. Selecting a term opens the same quotations as the map.
 
 {: .howto-note}
 **Map or list?** Choose the map if you like to browse by theme, and the list if you already have a word in mind.
@@ -123,4 +123,4 @@ Each narrator has a page that gathers everything about them in one place. Reach 
 
 ---
 
-To learn how the collection came to be, read the [Introduction]({{ '/about.html' | relative_url }}) by Sam Schrager and [About the Digital Collection]({{ '/about-collection.html' | relative_url }}).
+To learn how the collection came to be, read [About the Collection]({{ '/about.html' | relative_url }}), which includes Sam Schrager's introduction and original foreword. To download the collection metadata, see [Data]({{ '/data.html' | relative_url }}).

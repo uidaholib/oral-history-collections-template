@@ -1,16 +1,13 @@
-display_name,stub,dropdown_parent
-Home,/,
-Discover Interviews
-Browse All,/browse.html,Discover Interviews
-Browse by Subject,/subjects.html,Discover Interviews
-Browse by Location,/locations.html,Discover Interviews
-Timeline,/timeline.html,Discover Interviews
-Explore Transcripts
-Subject Map,/subject-map.html,Explore Transcripts
-Subject List,/subject-list.html,Explore Transcripts
-About,,
-Introduction,/about.html,About
-How to Use This Website,/how-to-use.html,About
-Original Foreword,/about-foreword.html,About
-About the Digital Collection,/about-collection.html,About
-Collection Data,/data.html,About
+display_name,stub,dropdown_parent,description
+Home,/,,
+People,/browse.html,,
+Interviews,/browse.html?type=transcript,,
+Topics,,,
+Topic Map,/subject-map.html,Topics,Follow a topic to the moments people talk about it
+Topic Index A–Z,/subject-list.html,Topics,Every topic alphabetically with definitions
+Topic Word Cloud,/subjects.html,Topics,The most common topics at a glance
+Places,/locations.html,,
+Data,/data.html,,
+About,,,
+About the Collection,/about.html,About,
+How to Use This Site,/how-to-use.html,About,

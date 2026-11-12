@@ -15,6 +15,20 @@
 .dropdown-menu {
     --bs-dropdown-link-active-bg: #5E48FF;
 }
+// one-line hint under nav dropdown items (description column in config-nav.csv)
+.navbar .dropdown-menu {
+    min-width: 17rem;
+}
+.dropdown-item {
+    white-space: normal;
+}
+.dropdown-item .nav-item-description {
+    max-width: 18rem;
+    font-size: .8rem;
+    line-height: 1.25;
+    opacity: .75;
+    padding-bottom: .15rem;
+}
 
 /* ============================================
    Photo Grid Home Page Styles

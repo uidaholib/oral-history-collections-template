@@ -1,20 +1,87 @@
 ---
-title: Original Foreword 
-layout: page
-permalink: /about-foreword.html
+title: About the Collection
+layout: about
+permalink: /about.html
+# include CollectionBuilder info at bottom
+credits: true
+# Old URLs redirect here via pages/redirects/.
 ---
 
-<div class="row justify-content-center narrow-page">
-<div class="col-md-8" markdown="1">
+## About the Collection
+{: #about-the-collection}
 
-## ORIGINAL FOREWORD
+<div class="row g-4 align-items-start">
+<div class="col-lg-8" markdown="1">
+
+The Latah County Oral History Collection began in the 1970s when the Latah County Historical Society set out to record the memories of the county's oldest residents. Between 1973 and 1978, Sam Schrager and a few other interviewers recorded hundreds of hours of conversation with loggers, farmers, teachers, homemakers, and townspeople who remembered settlement-era life in north Idaho. The project produced typescript transcripts and a printed *Guide to the Latah County, Idaho Oral History Collection*. The original cassettes went to the University of Idaho Library, which transferred them to archival tape.
+
+In 2015 the University of Idaho Library published the collection online for the first time, with digitized audio, scanned transcripts, and a new introduction by Schrager. This edition rebuilds the site with improved transcripts using [Oral History as Data](https://oralhistoryasdata.github.io/), an open framework developed at the Library. Each narrator now has a page, every interview has a time-stamped transcript linked to its audio, and topics and places can be followed across the whole collection. Much of the work on this edition went into the transcripts improvements: they were re-transcribed against the original recordings, labeled by speaker, and copyedited for accuracy. 
+
+### The 2015 Edition
+
+For the first online edition, hundreds of cassette tapes were converted to digital audio files, and the typescript transcripts were scanned and made full-text searchable. Staff and student assistants created detailed metadata files that included full-text transcripts, original timestamps, and synopses originally provided by the transcriber. 
+
+<div class="text-center">
+{% include feature/image.html width="50" objectid="https://objects.lib.uidaho.edu/lcoh/map.jpg" alt="hand drawn map depicting Latah county showing towns and main roads" caption="We transferred a number of different original items into digital surrogates, including the map above, and over 300 audio cassette tapes, which took over a year to digitize." %}
+</div>
+
+
+Below find Schrager's original and 2015 forwards to the collection.
+
+
+</div>
+<div class="col-lg-4">
+<div class="card text-center">
+    <img class="card-img-top" src="https://objects.lib.uidaho.edu/lcoh/page1.jpg" alt="book cover showing Latah county on Idaho map">
+    <div class="card-body">
+        <a class="stretched-link" href="https://objects.lib.uidaho.edu/lcoh/GuidetoLatahCountyOralHistoryProject.pdf">The original Guide to the Latah County, Idaho Oral History Collection</a>
+    </div>
+</div>
+</div>
+</div>
+
+---
+---
+
+## What You Have Here
+
+### Introduction to the Online Latah County Oral History Collection
+
+{: #introduction}
 
 by Sam Schrager
 
+Welcome! You have at your fingertips the stories of over 200 Idahoans, a collection of nearly 600 hours of oral history depicting life in the inland Northwest from the end of the 19th through the early 20th century. Loggers and farmers, teachers and homemakers, business owners and townsfolk: these narrators span a multitude of occupations, ethnicities, and family points of origin in the U.S. and abroad. Most resided in Latah County; some, in nearby spots like Elk River and Lewiston. Many of the conversations stretched over a series of visits; others were single sessions, yet equally rich in detail. The recordings were done by a handful of interviewers; most, by a young man who was new to north Idaho in the 1970s—me.
+
+When I hear the testimonies now, I wince at dumb questions I posed, and at hints and directions that I failed to heed. I chalk up some of the missteps to callowness in my life at that age. Still, these elders were remarkably generous. There's no mistaking the pleasure they take in recounting their memories, their curiosity as they think back on the past, their care about recalling things truthfully, and their sense of humor about human deeds and foibles, including their own. And when they talked candidly to us young folks then, they were also casting their voices across generations all the way to you.
+
+Four decades on, I appreciate the wisdom of these men and women more than ever. What strikes me most is their knack for balancing independence and community. They are strong individuals, with a firm grasp of their own aspirations, choices, setbacks and successes. They also have regard for the well-being of others—a concern not just for their family and neighbors, but for the prospering of the community at large, that extends, often, to the region and America as a whole. Tricky as it may look to us to square the interests of self and others, this first post-frontier generation prized both. A century later, when many of the challenges they faced persist (albeit in different forms), we can learn a lot from them.
+
+Visitors to the site: I hope you can take the time to listen to someone's narrative. And to relax as you do, so you can savor the words, catch inflections in the speaking, and slip into that person's distinctive ways of describing his or her lived experience. If you enjoy it, I hope you'll return for more of this person's stories, or to hear others' stories, and to note events and values that speakers have in common, or about which they differ. And that you'll dig wherever interest and imagination lead you.
+
+It's a marvel of the digital age that this oral history is now accessible to the public. Kudos to the University of Idaho Library for taking such good care of the collection: first, by transferring the original recordings from cassettes to archival tape in the late 1970s; and now, by opening the accounts to the eyes and ears of all who are drawn to people's stories of this place. Congrats, too, to the Latah County Historical Society for its steadfast support of the project. This website honors the memory of these Northwesterners and a great many others whose lives they recall.
+
+Olympia, WA <br>March 2015
+{:.text-end}
+
+~~~~
+
+*Sam Schrager* grew up in Troy, N.Y., came west to go to Reed College in Portland, and in 1972 drifted to Troy, Idaho with his wife Laura. The oral history project inspired him to study folklore at the University of Pennsylvania. After that, he did a study of trial lawyers for the Smithsonian, which resulted in a book, ***The Trial Lawyer's Art***. He's been a faculty member at The Evergreen State College since 1988, teaching American studies and ethnography, always with a good dose of oral history interviewing. He and Laura have three grown children and live on Eld Inlet, near Olympia, WA.*
+
+---
+---
+ 
+## Original Foreword
+{: #original-foreword}
+
+by Sam Schrager
+
+<div class="about-narrowed-content">
 <blockquote class="blockquote fs-3">
     <div class="mb-0 ">"There's a story out there the likes of which has never been told."</div>
 </blockquote>
 <figcaption class="blockquote-footer text-end fs-4"><cite title="Source Title"><a href="{{ '/people/gilder_glenandagnes.html' | relative_url }}" >Glen Gilder</a></cite></figcaption>
+</div>
 
 With these words Glen Gilder proposed the recording of life histories of local men and women. In the course of wide reading of Western history and fiction he had been surprised by the absence of information about the kind of life he has personally known. He decided that the exploits of cowboys, outlaws, mountain men and territorial politicians have received plenty of attention, while the experiences and values important to communities such as his have yet to be documented.
 
@@ -49,25 +116,18 @@ Should we be surprised to find that Joe and Lou Wells, black pioneers of the Dea
 Such views run counter to the generalizations of most printed histories. But then, their authors have seldom thought it necessary to consult the people themselves. We have a chance to change this, by learning to listen with care to what others-and we ourselves-say about the past, and by seeking out the stories of people like Clara Grove, Catherine Mahon, Axel Anderson and Dick Benge.
 
 Sam Schrager <br>August 1977
+
+--- 
+--- 
+
 {:.text-end}
 
 [^1]: Robert Georges develops a theoretical model for this concept in: "Toward an Understanding of Story-telling Events", Journal of American Folklore, 82(1969), 314-328.
 
 [^2]: For descriptions of the differences between elite and folk history, and an excellent introduction to oral history, see Richard Dorson's "The Oral Historian and the Folklorist", and Henry Glassie's "A Folkloristic Thought on the Promise of Oral History", both in Selections from the Fifth and Sixth National Colloquia on Oral History (New York: The Oral History Association, 1972). I am much indebted to these essays for my orientation to the field.
 
-</div>
-<div class="col-md-3 ps-5">
-<div class="card my-4 text-center">
-    <img class="card-img-top" src="https://objects.lib.uidaho.edu/lcoh/page1.jpg" alt="book cover showing Latah county on Idaho map">
-    <div class="card-body">
-        <a class="stretched-link" href="https://objects.lib.uidaho.edu/lcoh/GuidetoLatahCountyOralHistoryProject.pdf">the original Guide to the Latah County, Idaho Oral History Collection</a>
-    </div>
-</div>
-<h3 class="mt-5">Interviewees</h3>
-{% assign interviews = "bjerke_arthur;boas_louis;borah_mary;brink_carol;brocke_frank;butterfield_edna;byers_fannie;clyde_lola;crow_ada;cushman_john" | split: ";" %}
-{% for i in interviews %}
-{% include feature/interview-thumb.html objectid=i %}
-{% endfor %}
-<a class="mt-3 btn btn-outline-pride-gold" href="{{ '/browse.html' | relative_url }}">More Interviews &raquo;</a>
-</div>
-</div>
+
+
+
+<hr><hr>
+
