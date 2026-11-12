@@ -1,0 +1,72 @@
+---
+# Topic Visualization layout
+# One strip per person showing where a selected topic comes up in their
+# interviews, with the matching passages listed (and printable) below.
+# Data is generated at build time by _plugins/topic_viz_index.rb, so the page
+# itself stays small however large the collection is.
+layout: default
+custom-foot: js/topic-viz-js.html
+---
+<link rel="stylesheet" href="{{ '/assets/css/topic-viz.css' | relative_url }}">
+
+<div class="container my-4 topic-viz" id="topic-viz"
+  data-root="{{ '' | relative_url }}"
+  data-source="{{ site.data.topic_viz.output | default: 'assets/data/topic-viz' | prepend: '/' | relative_url }}">
+
+  <div class="d-print-none">
+    {{ content }}
+  </div>
+
+  <noscript>
+    <p class="alert alert-warning">This visualization needs JavaScript. The <a href="{{ '/subject-list.html' | relative_url }}">Topic Index A–Z</a> lists every topic without it.</p>
+  </noscript>
+
+  <div class="visually-hidden" aria-live="polite" id="tv-status"></div>
+
+  <section class="tv-topics d-print-none" aria-labelledby="tv-topics-heading">
+    <div class="d-flex align-items-baseline justify-content-between">
+      <h3 id="tv-topics-heading" class="h5">Topics</h3>
+      <button type="button" class="btn btn-sm btn-outline-secondary" id="tv-reset" hidden>Reset</button>
+    </div>
+    <div id="tv-topic-list" class="tv-topic-list" role="group" aria-labelledby="tv-topics-heading">
+      <p class="text-muted">Loading topics…</p>
+    </div>
+  </section>
+
+  <section class="tv-chart d-print-none" aria-labelledby="tv-chart-heading">
+    <div class="tv-chart-head">
+      <h3 id="tv-chart-heading" class="h5 mb-0">Interviews</h3>
+      <p id="tv-summary" class="tv-summary mb-0"></p>
+      <div class="tv-controls">
+        <label class="form-label mb-0" for="tv-sort">Sort</label>
+        <select id="tv-sort" class="form-select form-select-sm">
+          <option value="name">Name A–Z</option>
+          <option value="count">Most passages</option>
+        </select>
+        <div class="form-check mb-0">
+          <input class="form-check-input" type="checkbox" id="tv-hide-empty">
+          <label class="form-check-label" for="tv-hide-empty">Hide people with no passages</label>
+        </div>
+      </div>
+    </div>
+    <p class="visually-hidden">Each bar is one person's interviews, start to finish. Marks show where the selected topic comes up. The same passages are listed under Passages below.</p>
+    <div id="tv-rows" class="tv-rows"></div>
+  </section>
+
+  <section id="transcript-contents" class="tv-passages" aria-labelledby="tv-passages-heading" tabindex="-1">
+    <div class="tv-passages-head">
+      <h3 id="tv-passages-heading" class="h4 mb-0">Passages</h3>
+      <div class="tv-passage-actions d-print-none">
+        <button type="button" class="btn btn-sm btn-outline-secondary" id="tv-clear-person" hidden></button>
+        <button type="button" class="btn btn-sm btn-outline-secondary" id="tv-expand" hidden>Expand all</button>
+        <button type="button" class="btn btn-sm btn-primary" id="tv-print-all" hidden>Print</button>
+      </div>
+    </div>
+    <p id="tv-passages-summary" class="tv-summary"></p>
+    <div id="tv-passage-list">
+      <p class="text-muted d-print-none">Select a topic above to list its passages.</p>
+    </div>
+  </section>
+
+  <div id="tv-tooltip" class="tv-tooltip d-print-none" role="presentation" hidden></div>
+</div>

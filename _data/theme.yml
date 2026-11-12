@@ -124,6 +124,14 @@ subject-map-line-offset: 0             # set to 1 if transcript line ids count f
 subject-map-output: assets/data/subject-map # where the per-tag JSON files are written
 
 ##########
+# Topic Visualization page / Oral History as Data Options
+# One strip per person at /topic-visualization.html (layout: topic-visualization), with printable passages.
+# Data is indexed at build time by _plugins/topic_viz_index.rb (no rake task needed).
+#
+topic-viz-tags: filters                     # all = every tag found in the transcripts; filters = only the tags listed in _data/filters.csv
+topic-viz-output: assets/data/topic-viz # where the index and per-tag JSON files are written
+
+##########
 # DATA 
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)

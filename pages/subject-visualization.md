@@ -1,14 +1,9 @@
 ---
-title: Color-Coded Topic Visualization
-layout: visualization
+title: Topic Visualization
+layout: topic-visualization
 permalink: /topic-visualization.html
-# Default subject page is configured in "_data/theme.yml"
-# leave cloud-fields as "site.data.theme.subjects-fields"
-cloud-fields: site.data.theme.subjects-fields
-button: outline-clearwater
 ---
 
-## Browse Subjects
+## Topic Visualization
 
-Use this word cloud visualization to browse terms and subjects.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Select a topic to see where it comes up across the interviews. Select a mark to open that moment in the interview, or view and print the related passages below.
