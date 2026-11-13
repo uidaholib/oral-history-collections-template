@@ -22,7 +22,11 @@ In 2026, a new edition rebuilt the entire site with improved transcripts using [
 {% include feature/image.html width="50" objectid="https://objects.lib.uidaho.edu/lcoh/map.jpg" alt="hand drawn map depicting Latah county showing towns and main roads" caption="We transferred a number of different original items into digital surrogates, including the map above, and over 300 audio cassette tapes, which took over a year to digitize." %}
 </div>
 
-Below find Schrager's original and 2015 forwards to the collection.
+### The 2026 Edition
+
+In its second online edition, the collection was migrated to an Oral History as Data template. Because many legacy transcripts did not always align with their corresponding recordings, and digitized versions were vulnerable to inaccuracies from handwritten annotations and print quality, all recordings were transcribed once more directly from the audio recordings. These transcripts were generated using tools developed in-house at the CDIL, copyedited by staff and faculty, and text-mined to identify tags and topics for the purpose of increasing the collection's discoverability for future researchers.
+
+Find Schrager's original and 2015 forwards to the collection below.
 
 </div>
 <div class="col-lg-4">
