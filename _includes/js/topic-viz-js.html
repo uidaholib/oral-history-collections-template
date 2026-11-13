@@ -11,7 +11,9 @@
  *  - Hover a strip for the passage; select it to open that line of the interview.
  *  - Select a person's name to narrow the passages to that person.
  *  - URL: ?filter=<topic-slug>&id=<person or interview objectid>
- * Data comes from _plugins/topic_viz_index.rb.
+ * Data comes from _plugins/topic_viz_index.rb. Layout: _layouts/topic-visualization.html.
+ * The Passages section is left out when transcript-contents is false in
+ * _data/theme.yml; everything that touches it checks it is there first.
  */
 (function () {
   'use strict';
@@ -369,6 +371,7 @@
 
   function renderPassages() {
     var list = els.passages;
+    if (!list) return;
     list.textContent = '';
     els.expand.hidden = els.printAll.hidden = true;
 
@@ -430,6 +433,7 @@
   }
 
   function openAll() {
+    if (!els.passages) return;
     els.passages.querySelectorAll('details.tv-interview').forEach(function (details) {
       renderBody(details);
       details.open = true;
@@ -464,9 +468,15 @@
         plural(state.topic.interviews, 'interview') + '.';
     } else {
       els.summary.textContent = plural(data.interviews.length, 'interview') + ' with ' +
-        plural(data.people.length, 'person').replace('persons', 'people') + '. Each line is coloured by its topics.';
+        plural(data.people.length, 'person').replace('persons', 'people') + '. Each line is colored by its topics.';
     }
     els.reset.hidden = !state.topic && !state.only;
+  }
+
+  function topicMessage() {
+    if (els.passagesSummary && els.passagesSummary.textContent) return els.passagesSummary.textContent;
+    return state.topic ? state.topic.label + ': ' + plural(state.topic.count, 'passage') + ' in ' +
+      plural(state.topic.interviews, 'interview') + '.' : '';
   }
 
   function selectTopic(tag, quiet) {
@@ -482,7 +492,7 @@
       return;
     }
     if (cache[tag.slug]) {
-      if (!quiet) announce(els.passagesSummary.textContent);
+      if (!quiet) announce(topicMessage());
       return;
     }
     var id = ++requestId;
@@ -495,10 +505,11 @@
         cache[tag.slug] = file;
         if (id !== requestId || state.topic !== tag) return;
         renderPassages();
-        announce(els.passagesSummary.textContent);
+        announce(topicMessage());
       })
       .catch(function () {
         if (id !== requestId || state.topic !== tag) return;
+        if (!els.passages) return;
         els.passages.textContent = '';
         els.passages.appendChild(el('p', 'alert alert-danger', 'The passages for this topic could not be loaded. Please try again.'));
       });
@@ -510,7 +521,7 @@
     orderRows();
     updateUrl();
     renderPassages();
-    if (id && state.topic && scroll) els.contents.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (id && state.topic && scroll && els.contents) els.contents.scrollIntoView({ behavior: 'smooth', block: 'start' });
     if (!id) announce('Showing everyone.');
   }
 
@@ -531,9 +542,11 @@
     els.sort.addEventListener('change', function () { state.sort = els.sort.value; orderRows(); renderPassages(); });
     els.hideEmpty.addEventListener('change', function () { state.hideEmpty = els.hideEmpty.checked; orderRows(); });
     els.reset.addEventListener('click', reset);
-    els.clearPerson.addEventListener('click', function () { setOnly(null); });
-    els.expand.addEventListener('click', openAll);
-    els.printAll.addEventListener('click', function () { openAll(); window.print(); });
+    if (els.passages) {
+      els.clearPerson.addEventListener('click', function () { setOnly(null); });
+      els.expand.addEventListener('click', openAll);
+      els.printAll.addEventListener('click', function () { openAll(); window.print(); });
+    }
     window.addEventListener('scroll', hideTooltip, { passive: true });
 
     var frame = 0;

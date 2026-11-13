@@ -1,19 +1,34 @@
 ---
-# Topic Visualization layout
-# One strip per person showing where a selected topic comes up in their
+# Color-coded Topic Visualization
+# One bar (or strip) per interviewee showing where each topic comes up in their
 # interviews, with the matching passages listed (and printable) below.
 # Data is generated at build time by _plugins/topic_viz_index.rb, so the page
 # itself stays small however large the collection is.
+# Display size is set by "visualization-size" in _data/theme.yml (large | compact | auto).
 layout: default
 custom-foot: js/topic-viz-js.html
 ---
 <link rel="stylesheet" href="{{ '/assets/css/topic-viz.css' | relative_url }}">
+{%- assign tv-size = site.data.theme.visualization-size | default: 'auto' | downcase | strip -%}
+{%- assign tv-count = site.data.topic_viz.interviews | default: site.data.transcripts.size -%}
+{%- if tv-size != 'large' and tv-size != 'compact' -%}
+  {%- assign tv-threshold = site.data.theme.visualization-compact-threshold | default: 30 -%}
+  {%- if tv-count > tv-threshold -%}{%- assign tv-size = 'compact' -%}{%- else -%}{%- assign tv-size = 'large' -%}{%- endif -%}
+{%- endif -%}
+{%- comment -%} Compact rows grow taller the fewer interviews there are (see assets/css/topic-viz.css) {%- endcomment -%}
+{%- if tv-count <= 10 -%}{%- assign tv-density = 'roomy' -%}
+{%- elsif tv-count <= 30 -%}{%- assign tv-density = 'cozy' -%}
+{%- elsif tv-count <= 100 -%}{%- assign tv-density = 'snug' -%}
+{%- else -%}{%- assign tv-density = 'tight' -%}{%- endif -%}
 
-<div class="container my-4 topic-viz" id="topic-viz"
+<div class="container p-4 p-md-5 topic-viz tv-size-{{ tv-size }} tv-density-{{ tv-density }}" id="topic-viz"
   data-root="{{ '' | relative_url }}"
   data-source="{{ site.data.topic_viz.output | default: 'assets/data/topic-viz' | prepend: '/' | relative_url }}">
 
   <div class="d-print-none">
+    {% unless site.data.theme.as-data == false %}
+      {% include transcript/filters-data-download-modal.html %}
+    {% endunless %}
     {{ content }}
   </div>
 
@@ -24,11 +39,13 @@ custom-foot: js/topic-viz-js.html
   <div class="visually-hidden" aria-live="polite" id="tv-status"></div>
 
   <section class="tv-topics d-print-none" aria-labelledby="tv-topics-heading">
-    <div class="d-flex align-items-baseline justify-content-between">
+    <div class="d-flex flex-wrap align-items-baseline justify-content-between">
       <h3 id="tv-topics-heading" class="h5">Topics</h3>
       <div class="tv-topic-actions">
         <button type="button" class="btn btn-sm btn-outline-secondary" id="tv-reset" hidden>Reset</button>
+        {% unless site.data.theme.transcript-contents == false %}
         <a class="btn btn-sm btn-primary" href="#transcript-contents" id="tv-jump">Jump to passages <span aria-hidden="true">↓</span></a>
+        {% endunless %}
       </div>
     </div>
     <div id="tv-topic-list" class="tv-topic-list" role="group" aria-labelledby="tv-topics-heading">
@@ -52,10 +69,11 @@ custom-foot: js/topic-viz-js.html
         </div>
       </div>
     </div>
-    <p class="visually-hidden">Each bar is one person's interviews, start to finish. Marks show where the selected topic comes up. The same passages are listed under Passages below.</p>
+    <p class="visually-hidden">Each bar is one person's interviews, start to finish, with every tagged line colored by its topics. Selecting a topic leaves only that topic's lines colored.{% unless site.data.theme.transcript-contents == false %} The same passages are listed under Passages below.{% endunless %}</p>
     <div id="tv-rows" class="tv-rows"></div>
   </section>
 
+  {% unless site.data.theme.transcript-contents == false %}
   <section id="transcript-contents" class="tv-passages" aria-labelledby="tv-passages-heading" tabindex="-1">
     <div class="tv-passages-head">
       <h3 id="tv-passages-heading" class="h4 mb-0">Passages</h3>
@@ -70,6 +88,13 @@ custom-foot: js/topic-viz-js.html
       <p class="text-muted d-print-none">Select a topic above to list its passages.</p>
     </div>
   </section>
+  {% endunless %}
 
   <div id="tv-tooltip" class="tv-tooltip d-print-none" role="presentation" hidden></div>
+</div>
+
+<div class="container mb-5 d-print-none">
+  <hr class="mb-4">
+  <h3>Data Access</h3>
+  {% include transcript/download-json-button.html %}
 </div>

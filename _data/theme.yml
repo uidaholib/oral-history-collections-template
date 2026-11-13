@@ -16,13 +16,12 @@ search-and-filters-sticky: true ## true/false --> determines if the search and f
 # Visualization page / Oral History as Data Options 
 # 
 as-data: true ## true/false --> determines if the "As Data" button and modal that pops up if you click it will appear at the top right of the visualization page
-transcript-contents: true ## true/false --> determines if the contents of the individual interviews will appear and be filtered at the bottom of the visualization page (below the color coded portion)
+transcript-contents: true ## true/false --> determines if the Passages section (passages for the selected topic, grouped by interview and printable) appears below the color-coded bars on the visualization page
 
-### For Large Collections -- !!!! Warning ###
-
-# If you turn the below option `json-generation` to true, you'll need to run the rake command `generate_json` -- that command will generate the necessary json files for your collection. 
-
-json-generation: true ## true/false --> defaults to false (see note below if you turn to true!). This determines if JSON files will be accessed for the visualization page. 
+### JSON downloads ###
+# If you turn the below option `json-generation` to true, you'll need to run the rake command `generate_json` -- that command will generate the json files for your collection.
+# This only affects the "Transcripts as JSON" download options; the topic visualization no longer uses it.
+json-generation: true ## true/false --> defaults to false. If true, the Data Access section offers per-transcript JSON downloads.
 
 
 
@@ -128,6 +127,9 @@ subject-map-output: assets/data/subject-map # where the per-tag JSON files are w
 # One strip per person at /topic-visualization.html (layout: topic-visualization), with printable passages.
 # Data is indexed at build time by _plugins/topic_viz_index.rb (no rake task needed).
 #
+visualization-size: auto ## large / compact / auto --> large = one tall bar per interview with its name above (best for smaller collections); compact = thin strips in columns (best for large collections); auto = picks by number of interviews
+visualization-compact-threshold: 25 ## with auto, switch to compact when there are more interviews than this
+# compact rows adjust to the collection size automatically: tallest with 10 or fewer interviews, then 11-30, 31-100, and thinnest over 100
 topic-viz-tags: filters                     # all = every tag found in the transcripts; filters = only the tags listed in _data/filters.csv
 topic-viz-output: assets/data/topic-viz # where the index and per-tag JSON files are written
 

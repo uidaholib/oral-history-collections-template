@@ -19,7 +19,7 @@
 # Tags in square brackets are processing notes, not topics, and are skipped.
 #
 # Optional settings in _data/theme.yml (defaults shown):
-#   topic-viz-tags: all                  (all | filters -> only tags in _data/filters.csv)
+#   topic-viz-tags: filters              (filters -> only tags in _data/filters.csv | all)
 #   topic-viz-output: assets/data/topic-viz
 #   topic-viz-transcripts: transcripts   (folder in _data holding the transcript CSVs)
 #   topic-viz-item-path: people          (folder of interview pages; auto-detected from page_gen)
@@ -73,7 +73,7 @@ module TopicViz
     priority :lowest
 
     DEFAULTS = {
-      'topic-viz-tags' => 'all',
+      'topic-viz-tags' => 'filters',
       'topic-viz-output' => 'assets/data/topic-viz',
       'topic-viz-transcripts' => 'transcripts'
     }.freeze
@@ -192,10 +192,12 @@ module TopicViz
 
         title = row['title'].to_s.strip
         person = row['personid'].to_s.strip
-        # An interview with no person record stands as its own row.
+        # An interview with no person record stands as its own row,
+        # labelled by the interviewee when there is one.
         unless people.key?(person)
           person = id
-          people[id] ||= title.empty? ? id : title
+          interviewee = row['interviewee'].to_s.strip
+          people[id] ||= [interviewee, title, id].find { |name| !name.empty? }
         end
         items[id] = { 'title' => title.empty? ? id : title, 'person' => person }
       end

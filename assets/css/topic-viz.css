@@ -137,7 +137,7 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    height: 1.25rem;
+    height: var(--tv-row-h);
     break-inside: avoid;
 }
 
@@ -155,8 +155,8 @@
     border: 0;
     background: none;
     color: inherit;
-    font-size: 0.75rem;
-    line-height: 1.25rem;
+    font-size: var(--tv-name-size);
+    line-height: var(--tv-row-h);
     text-align: left;
 }
 
@@ -187,7 +187,7 @@
     flex: 1 1 auto;
     min-width: 0;
     width: 100%;
-    height: 0.8rem;
+    height: var(--tv-strip-h);
     cursor: pointer;
 }
 
@@ -307,17 +307,95 @@
     margin: 0;
 }
 
+/* ---------- compact row density ----------
+   The layout adds tv-density-<tier> from the number of interviews, so compact
+   strips stay readable in a small collection and tight in a large one.
+     roomy   10 or fewer     cozy  11-30     snug  31-100     tight  over 100 */
+
+.topic-viz,
+.tv-density-tight {
+    --tv-row-h: 1.25rem;
+    --tv-strip-h: 0.8rem;
+    --tv-name-size: 0.75rem;
+}
+
+.tv-density-snug {
+    --tv-row-h: 1.5rem;
+    --tv-strip-h: 1rem;
+    --tv-name-size: 0.8rem;
+}
+
+.tv-density-cozy {
+    --tv-row-h: 2rem;
+    --tv-strip-h: 1.35rem;
+    --tv-name-size: 0.85rem;
+}
+
+.tv-density-roomy {
+    --tv-row-h: 2.5rem;
+    --tv-strip-h: 1.75rem;
+    --tv-name-size: 0.95rem;
+}
+
+.tv-density-cozy .tv-row,
+.tv-density-roomy .tv-row {
+    margin-bottom: 0.25rem;
+}
+
+.tv-density-roomy .tv-name {
+    flex-basis: 13rem;
+}
+
+/* ---------- size modes (visualization-size in _data/theme.yml) ----------
+   compact: the strips above as-is, in columns, for large collections.
+   large:   one tall bar per interview with its name above, for smaller ones. */
+
+.tv-size-large .tv-rows {
+    column-width: auto;
+}
+
+.tv-size-large .tv-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+    height: auto;
+    margin-bottom: 1.25rem;
+}
+
+.tv-size-large .tv-name {
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.tv-size-large .tv-name-count {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.tv-size-large .tv-strip {
+    flex: 0 0 auto;
+    height: 3.5rem;
+}
+
 @media (max-width: 575.98px) {
     .tv-rows {
         column-width: auto;
     }
 
-    .tv-row {
-        height: 1.75rem;
+    .tv-size-compact .tv-row {
+        height: max(var(--tv-row-h), 1.75rem);
     }
 
-    .tv-name {
+    .tv-size-compact .tv-name {
         flex-basis: 8rem;
+    }
+
+    .tv-size-large .tv-strip {
+        height: 2.5rem;
     }
 
     .tv-controls {
