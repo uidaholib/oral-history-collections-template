@@ -27,7 +27,9 @@
     background-color: aquamarine !important;
 }
 
-.btn-outline-dark:hover {
+/* .active = a card filter link whose value is one of the current browse filters */
+.btn-outline-dark:hover,
+.btn-outline-dark.active {
     background-color: #212529 !important;
 }
 

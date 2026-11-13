@@ -9,7 +9,7 @@ default-sort-order: asc # asc / desc
 browse-per-page: 48 # number of items shown before the "Show more items" button
 browse-facet-size: 8 # number of values shown in each facet before the "Show all" button
 browse-facet-sort: count # count / alpha, order of values in each facet
-browse-facet-logic: or # or / and, how multiple selected values in the same facet are combined
+browse-facet-logic: and # and / or, how multiple selected values in the same facet are combined: and = each one narrows the results, or = each one widens them. Single-valued fields (not multivalued in config-browse-facets.csv) are always or.
 layout: page
 custom-foot: js/browse-facets-js.html
 ---
