@@ -16,15 +16,11 @@ The Latah County Oral History Collection began in the 1970s when the Latah Count
 
 In 2015 the University of Idaho Library published the collection online for the first time, with digitized audio, scanned transcripts, and a new introduction by Schrager. During this project hundreds of cassette tapes were converted to digital audio files, and the typescript transcripts were scanned and made full-text searchable. Staff and student assistants created detailed metadata files that included full-text transcripts, original timestamps, and synopses originally provided by the transcriber. 
 
-In 2026, a new edition rebuilt the entire site with improved transcripts using [Oral History as Data](https://oralhistoryasdata.github.io/), an open framework developed at the Library. Each narrator now has a page, every interview has a time-stamped transcript linked to its audio, and topics and places can be followed across the whole collection. Much of the work on this revision went into the transcripts improvements: they were re-transcribed against the original recordings, labeled by speaker, and copyedited for accuracy. 
+In 2026, a new edition rebuilt the entire site with improved transcripts using [Oral History as Data](https://oralhistoryasdata.github.io/), an open framework developed at the Library. Each narrator now has a page, every interview has a time-stamped transcript linked to its audio, and topics and places can be followed across the whole collection. Much of the work on this revision went into the transcripts improvements: they were re-transcribed against the original recordings, labeled by speaker, copyedited for accuracy, and text-mined to identify tags and topics for the purpose of increasing the collection's discoverability for future researchers.
 
 <div class="text-center">
 {% include feature/image.html width="50" objectid="https://objects.lib.uidaho.edu/lcoh/map.jpg" alt="hand drawn map depicting Latah county showing towns and main roads" caption="We transferred a number of different original items into digital surrogates, including the map above, and over 300 audio cassette tapes, which took over a year to digitize." %}
 </div>
-
-### The 2026 Edition
-
-In its second online edition, the collection was migrated to an Oral History as Data template. Because many legacy transcripts did not always align with their corresponding recordings, and digitized versions were vulnerable to inaccuracies from handwritten annotations and print quality, all recordings were transcribed once more directly from the audio recordings. These transcripts were generated using tools developed in-house at the CDIL, copyedited by staff and faculty, and text-mined to identify tags and topics for the purpose of increasing the collection's discoverability for future researchers.
 
 Find Schrager's original and 2015 forwards to the collection below.
 
@@ -125,6 +121,7 @@ Student Assistants and Interns Nate Sirdofsky, Elisabeth (Izzy) Martin, Elizabet
 
 The 2026 edition was led by Devin Becker, with Andrew Weymouth leading a complete reprocessing of the audio to create improved transcriptions and subject tagging.
 The website migrated to using [Oral History as Data](https://oralhistoryasdata.github.io/) to present the transcripts, providing engaging ways to explore the text and topics.
+Because many legacy transcripts did not always align with their corresponding recordings, and digitized versions were vulnerable to inaccuracies from handwritten annotations and print quality, all recordings were transcribed once more directly from the audio recordings.
 Transcripts were processed using a workflow developed in house and copyedited by Maryelizabeth Koepele, Jack Kredell, and Andrew Weymouth.
 
 <hr><hr>
