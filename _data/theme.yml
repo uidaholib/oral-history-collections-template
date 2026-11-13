@@ -110,7 +110,7 @@ year-nav-increment: 5 # set increments to auto gen nav years
 
 ##########
 # Subject Map page / Oral History as Data Options
-# Expanding tag/term tree at /subject-map.html, built from _data/subject-map.csv.
+# Expanding tag/term tree at /topic-tree.html, built from _data/subject-map.csv.
 # Passages are indexed at build time by _plugins/subject_map_index.rb.
 #
 subject-map-data: subject-map          # name of the tag/term CSV in _data (no extension)

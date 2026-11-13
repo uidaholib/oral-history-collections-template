@@ -3,8 +3,8 @@ Home,/,,
 People,/browse.html,,
 Interviews,/browse.html?type=transcript,,
 Topics,,,
-Topic Map,/subject-map.html,Topics,Follow a topic to the moments people talk about it
-Topic Index A–Z,/subject-list.html,Topics,Every topic alphabetically with definitions
+Topic Tree,/topic-tree.html,Topics,Follow a topic to the moments people talk about it
+Topic Index A–Z,/topic-index.html,Topics,Every topic alphabetically with definitions
 Topic Word Cloud,/subjects.html,Topics,The most common topics at a glance
 Topic Visualization,/topic-visualization.html,Topics,See where a topic comes up across the interviews
 Places,/locations.html,,

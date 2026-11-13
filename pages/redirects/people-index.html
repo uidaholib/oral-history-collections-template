@@ -1,0 +1,18 @@
+---
+layout: none
+permalink: /people/index.html
+noindex: true
+# /people/ holds the person and interview pages but has no page of its own, so it goes to Browse (People is the default view)
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ '/browse.html' | absolute_url }}">
+<meta http-equiv="refresh" content="0; url={{ '/browse.html' | relative_url }}">
+<script>location.replace("{{ '/browse.html' | relative_url }}");</script>
+</head>
+<body><p><a href="{{ '/browse.html' | relative_url }}">{{ '/browse.html' | absolute_url }}</a></p></body>
+</html>

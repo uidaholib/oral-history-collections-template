@@ -46,8 +46,8 @@ Pick the one that fits what you are after. You can switch at any time.
 |---|---|
 | Wander and see what is here | [Topic Word Cloud]({{ '/subjects.html' | relative_url }}) or [Places]({{ '/locations.html' | relative_url }}) |
 | Find a certain kind of person, such as a teacher or a logger | [People]({{ '/browse.html' | relative_url }}), with the occupation filter |
-| See who talked about a particular town | [Places]({{ '/locations.html' | relative_url }}) or [Topic Index A–Z]({{ '/subject-list.html' | relative_url }}) |
-| Hear what people said about a topic, across many interviews | [Topic Map]({{ '/subject-map.html' | relative_url }}) or [Topic Index A–Z]({{ '/subject-list.html' | relative_url }}) |
+| See who talked about a particular town | [Places]({{ '/locations.html' | relative_url }}) or [Topic Index A–Z]({{ '/topic-index.html' | relative_url }}) |
+| Hear what people said about a topic, across many interviews | [Topic Tree]({{ '/topic-tree.html' | relative_url }}) or [Topic Index A–Z]({{ '/topic-index.html' | relative_url }}) |
 | Find the part of a long interview about a topic | The Topics strip, Filter by Topic or the Index on the [interview page](#inside-an-interview) |
 
 ## Find People and Interviews
@@ -79,9 +79,9 @@ The [Timeline]({{ '/timeline.html' | relative_url }}) lays the interviews out by
 
 Browsing finds interviews. The **Topics** menu finds *passages*. The words in the transcripts have been tagged by subject, so you can follow a topic through every interview that mentions it, even if it is only a few sentences in an hour of talk.
 
-### Topic Map
+### Topic Tree
 
-The [Topic Map]({{ '/subject-map.html' | relative_url }}) is a branching diagram of subjects.
+The [Topic Tree]({{ '/topic-tree.html' | relative_url }}) is a branching diagram of subjects.
 
 1. Open a category on the left, such as *Labor*, *Culture* or *Environment*.
 2. Keep opening branches until you reach a term, such as *threshing*, *moonshine* or *Christmas*.
@@ -90,7 +90,7 @@ The [Topic Map]({{ '/subject-map.html' | relative_url }}) is a branching diagram
 
 ### Topic Index A–Z
 
-The [Topic Index A–Z]({{ '/subject-list.html' | relative_url }}) has the same terms as one A to Z list, like the index at the back of a book. Some terms have a short definition, which helps with logging jobs and old-fashioned words. Filter the list with the box at the top, or jump ahead by letter. Selecting a term opens the same quotations as the map.
+The [Topic Index A–Z]({{ '/topic-index.html' | relative_url }}) has the same terms as one A to Z list, like the index at the back of a book. Some terms have a short definition, which helps with logging jobs and old-fashioned words. Filter the list with the box at the top, or jump ahead by letter. Selecting a term opens the same quotations as the map.
 
 {: .howto-note}
 **Map or list?** Choose the map if you like to browse by theme, and the list if you already have a word in mind.

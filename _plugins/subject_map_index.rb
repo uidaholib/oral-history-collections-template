@@ -10,7 +10,7 @@
 #      holding every tagged passage for that tag's terms (with five words of
 #      context either side) plus the interview titles from the metadata CSV;
 #   2. exposes site.data.subject_map (tags, terms, passage counts) so the
-#      Liquid tree on /subject-map.html can render without any JavaScript.
+#      Liquid tree on /topic-tree.html can render without any JavaScript.
 #
 # _data/subject-map.csv columns: domain, tag, group, terms (a description column is optional and unused).
 # "domain" is optional; it groups tags under Culture, Labor ... (several with " | ").

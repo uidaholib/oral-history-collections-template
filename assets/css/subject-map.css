@@ -1,5 +1,5 @@
 /* Subject Map: collapsible tree and passage modal.
-   Linked directly from _layouts/subject-map.html (no Sass import needed). */
+   Linked directly from _layouts/topic-tree.html (no Sass import needed). */
 
 .subject-map,
 .sm-modal {
@@ -216,7 +216,7 @@
     }
 }
 
-/* ---------- subject list (/subject-list.html) ---------- */
+/* ---------- subject list (/topic-index.html) ---------- */
 
 .sg-tools {
     display: flex;
