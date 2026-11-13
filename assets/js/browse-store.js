@@ -7,6 +7,7 @@
 
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.display_template != "record"' -%}
 {%- assign fields = site.data.config-browse-facets -%}
+{%- assign people = items | where: "display_template", "person" -%}
 {%- assign builtins = "objectid,title,parentid,image_thumb,image_alt_text,display_template,format" | split: "," -%}
 var browseStore = [
 {%- for item in items %}
@@ -17,6 +18,10 @@ var browseStore = [
 {%- if item.image_alt_text -%}"image_alt_text":{{ item.image_alt_text | strip | jsonify }},{%- endif -%}
 {%- if item.display_template -%}"display_template":{{ item.display_template | strip | jsonify }},{%- endif -%}
 {%- if item.format -%}"format":{{ item.format | strip | jsonify }},{%- endif -%}
+{%- comment -%} "Last, First" for the last name sort: a person's own person_name, an interview's from its person record {%- endcomment -%}
+{%- assign last_name = item.person_name -%}
+{%- if item.personid and last_name == nil -%}{%- assign person = people | where: "objectid", item.personid | first -%}{%- assign last_name = person.person_name -%}{%- endif -%}
+{%- if last_name -%}"last_name":{{ last_name | strip | jsonify }},{%- endif -%}
 {%- capture item_url -%}/people/{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}{%- endcapture -%}
 "url":{{ item_url | relative_url | jsonify }},
 "title":{{ item.title | default: item.objectid | strip | jsonify }},

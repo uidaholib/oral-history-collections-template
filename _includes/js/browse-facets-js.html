@@ -89,7 +89,11 @@ if (titleConfig && titleConfig.weight) TITLE.weight = titleConfig.weight;
 
 const CARD_FIELDS = FIELDS.filter(f => !f.hidden && f.field !== "title");
 const SEARCH_FIELDS = [TITLE].concat(FIELDS.filter(f => f.weight && f.field !== "title"));
-const SORT_FIELDS = [TITLE].concat(FIELDS.filter(f => f.sortName && f.field !== "title"));
+// "Last, First" name written by browse-store.js (person_name), offered as a sort when the data has it
+const LAST_NAME = { field: "last_name", sortName: "Last name" };
+const SORT_FIELDS = [TITLE]
+    .concat((window.browseStore || []).some(item => item.last_name) ? [LAST_NAME] : [])
+    .concat(FIELDS.filter(f => f.sortName && f.field !== "title"));
 // facets are set up in section 4, once the data is loaded
 let FACETS = [];
 
@@ -332,6 +336,7 @@ const items = (window.browseStore || []).map((item, index) => {
         const first = f.date ? item._dates[f.field][0] : null;
         item._sort[f.field] = f.date ? (first ? first.start : "") : (values[0] || "");
     });
+    item._sort[LAST_NAME.field] = item.last_name || "";
     // text used by the keyword search box, with weights
     item._search = SEARCH_FIELDS.map(f => ({ text: item._text[f.field], weight: f.weight }));
     // text used by advanced search "All fields"
