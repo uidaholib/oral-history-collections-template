@@ -357,6 +357,17 @@ FACETS.forEach(f => {
 const VALUE_FACETS = FACETS.filter(f => !f.date);
 const DATE_FACETS = FACETS.filter(f => f.date);
 
+/**
+ * a facet value from a url, as it is written in the data. links from other pages may differ in
+ * case, accents, or punctuation (the word clouds lowercase their terms: "moscow" -> "Moscow").
+ */
+const facetLookups = {};
+function canonicalValue(field, value) {
+    const lookup = facetLookups[field] ||
+        (facetLookups[field] = new Map(items.flatMap(item => item._values[field] || []).map(v => [normalize(v), v])));
+    return lookup.get(normalize(value)) || value;
+}
+
 /** find a field definition by name */
 function fieldDef(field) {
     return [TITLE, CONTENT_TYPE].concat(FIELDS).find(f => f.field === field);
@@ -538,7 +549,7 @@ function readParams(params) {
     next.order = params.get("order") || "";
     next.page = Math.max(1, parseInt(params.get("page"), 10) || 1);
     VALUE_FACETS.filter(f => f.types.includes(next.type)).forEach(f => {
-        const values = params.getAll(f.field).filter(Boolean);
+        const values = [...new Set(params.getAll(f.field).filter(Boolean).map(v => canonicalValue(f.field, v)))];
         if (values.length) next.facets[f.field] = values;
     });
     DATE_FACETS.filter(f => f.types.includes(next.type)).forEach(f => {

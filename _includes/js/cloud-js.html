@@ -23,6 +23,12 @@ customized
 {%- endfor -%}
 {%- comment -%} find unique terms and counts {%- endcomment -%}
 {%- assign uniqTerms = terms | downcase | split: ";" | array_count_uniq | sort | where_exp: 't','t[1] >= termsMin' -%}
+{%- assign browse_query = "type=all&q=" -%}
+{%- if page.url == "/subjects.html" -%}
+{%- assign browse_query = "type=transcript&subject=" -%}
+{%- elsif page.url == "/locations.html" -%}
+{%- assign browse_query = "type=transcript&location=" -%}
+{%- endif -%}
 
 <script>
 (function(){    
@@ -62,7 +68,7 @@ customized
         {% if include.shuffle == true %}shuffle(array);{% endif %}
         for (let i = 0; i < array.length; i++) {
             size = mapSize(array[i][1]);
-            items += '<a class="btn btn-{{ include.button | default: "outline-primary" }} m-2 tagcloud' + size + '" href="{{ "/browse.html" | relative_url }}?type=all&q=' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
+            items += '<a class="btn btn-{{ include.button | default: "outline-primary" }} m-2 tagcloud' + size + '" href="{{ "/browse.html" | relative_url }}?{{ browse_query }}' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
         }
         cloud.innerHTML = items;
     }
