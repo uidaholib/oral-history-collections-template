@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,search,date_field,multivalued,sort_name,facet_name,facet_for
 occupation,Occupation,,,true,,true,,Occupation,person
 residence,Residence,,true,true,,true,,Residence,person
-birth_year,Born,,,,,,,Birth year,person
+birth_year,Born,,,,true,true,,Birth year,person
 subject,,true,true,2,,true,,Subject,transcript
 location,,true,true,true,,true,,Locations,transcript
 interviewer,Interviewer,,true,true,,true,,Interviewer,transcript

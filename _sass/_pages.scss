@@ -123,6 +123,78 @@ $toc-a-color: #191919 !default;
 }
 
 /* browse-facets layout */
+
+/* two-handled year slider in a date facet: two range inputs stacked on one track.
+   --lo and --hi (set by the script) are where the selected range starts and ends. */
+.browse-range {
+    --lo: 0%;
+    --hi: 100%;
+    position: relative;
+    height: 1.5rem;
+    margin: 0 0.5rem;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 0.3rem;
+        transform: translateY(-50%);
+        border-radius: 1rem;
+        background: linear-gradient(to right,
+            var(--bs-border-color) var(--lo),
+            #006666 var(--lo), #006666 var(--hi),
+            var(--bs-border-color) var(--hi));
+    }
+}
+.browse-range-input {
+    position: absolute;
+    left: -0.5rem;
+    width: calc(100% + 1rem);
+    top: 0;
+    height: 100%;
+    margin: 0;
+    background: none;
+    pointer-events: none;
+    appearance: none;
+    -webkit-appearance: none;
+    &::-webkit-slider-runnable-track {
+        background: none;
+    }
+    &::-moz-range-track {
+        background: none;
+    }
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        pointer-events: auto;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background: #006666;
+        box-shadow: 0 0 0 1px #006666;
+        cursor: pointer;
+    }
+    &::-moz-range-thumb {
+        pointer-events: auto;
+        width: 0.8rem;
+        height: 0.8rem;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background: #006666;
+        box-shadow: 0 0 0 1px #006666;
+        cursor: pointer;
+    }
+    &:focus-visible::-webkit-slider-thumb {
+        outline: 2px solid #000;
+        outline-offset: 2px;
+    }
+    &:focus-visible::-moz-range-thumb {
+        outline: 2px solid #000;
+        outline-offset: 2px;
+    }
+}
+
 #browse-facets legend {
     font-size: inherit;
 }

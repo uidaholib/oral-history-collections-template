@@ -638,6 +638,15 @@ function promoteAdvanced(next) {
         }
     }
     next.advanced = next.advanced.filter((row, i) => {
+        // "AND Birth year: 1880 to 1895" is the same filter as that facet's From / To range
+        const dateFacet = DATE_FACETS.find(f => f.field === row.f && f.types.includes(next.type));
+        if (dateFacet) {
+            if (!(row.start || row.end) || row.b === "NOT" || (i > 0 && row.b !== "AND") || next.dates[row.f]) return true;
+            if (next.advanced.slice(i + 1).some(later => later.b === "OR")) return true;
+            next.dates[row.f] = { start: row.start, end: row.end };
+            if (facetUi[row.f]) facetUi[row.f].expanded = true;
+            return false;
+        }
         const facet = VALUE_FACETS.find(f => f.field === row.f && f.types.includes(next.type));
         if (!facet || !row.v || row.b === "NOT" || (i > 0 && row.b !== "AND")) return true;
         if (next.advanced.slice(i + 1).some(later => later.b === "OR")) return true;
@@ -852,8 +861,17 @@ function buildFacets() {
         const toggle = `<legend class="mb-1"><button type="button" class="browse-facet-toggle btn btn-link" id="${id}-toggle" aria-expanded="${expanded}" aria-controls="${id}" data-field="${esc(f.field)}">${esc(f.name)}</button></legend>`;
         if (f.date) {
             const years = items.flatMap(item => item._dates[f.field].map(d => d.start.slice(0, 4))).sort();
+            const min = years[0], max = years[years.length - 1];
+            // two-handled year slider, a quicker way to set the From / To boxes below it
+            const slider = min && max && min !== max
+                ? `<div class="col-12"><div class="browse-range" id="${id}-range" data-min="${esc(min)}" data-max="${esc(max)}">
+                    <input type="range" class="browse-range-input" data-bound="start" min="${esc(min)}" max="${esc(max)}" step="1" value="${esc(min)}" aria-label="${esc(f.name)} from">
+                    <input type="range" class="browse-range-input" data-bound="end" min="${esc(min)}" max="${esc(max)}" step="1" value="${esc(max)}" aria-label="${esc(f.name)} to">
+                </div><div class="d-flex justify-content-between small text-body-secondary" aria-hidden="true"><span>${esc(min)}</span><span>${esc(max)}</span></div></div>`
+                : "";
             return `<form class="browse-date-form browse-facet-group mb-3" data-facet="${esc(f.field)}" data-field="${esc(f.field)}"><fieldset>${toggle}
                 <div id="${id}" class="row g-2 align-items-end"${expanded ? "" : " hidden"}>
+                    ${slider}
                     <div class="col"><label class="form-label small d-block mb-0">From<input type="text" name="start" id="${id}-start" class="form-control form-control-sm mt-1" inputmode="numeric" placeholder="${esc(years[0] || "YYYY")}"></label></div>
                     <div class="col"><label class="form-label small d-block mb-0">To<input type="text" name="end" id="${id}-end" class="form-control form-control-sm mt-1" inputmode="numeric" placeholder="${esc(years[years.length - 1] || "YYYY")}"></label></div>
                     <div class="col-auto"><button type="submit" class="btn btn-sm btn-outline-primary">Apply<span class="visually-hidden"> ${esc(f.name)} range</span></button></div>
@@ -889,6 +907,11 @@ function renderFacets() {
                 const input = document.getElementById(`${id}-${key}`);
                 if (document.activeElement !== input) input.value = range[key];
             });
+            const slider = document.getElementById(`${id}-range`);
+            if (slider) {
+                const from = parseDate(range.start), to = parseDate(range.end);
+                setSlider(slider, from ? from.start.slice(0, 4) : slider.dataset.min, to ? to.end.slice(0, 4) : slider.dataset.max);
+            }
             return;
         }
         const ui = facetUi[f.field];
@@ -913,6 +936,18 @@ function renderFacets() {
         more.hidden = ui.filter || matching.length <= limit;
         more.textContent = ui.showAll ? `Show fewer ${f.name} values` : `Show all ${matching.length} ${f.name} values`;
     });
+}
+
+/** move a year slider's handles and the filled part of its track, values are kept inside its limits and in order */
+function setSlider(slider, start, end) {
+    const min = Number(slider.dataset.min), max = Number(slider.dataset.max);
+    const lo = Math.min(Math.max(Number(start) || min, min), max);
+    const hi = Math.max(Math.min(Number(end) || max, max), lo);
+    slider.querySelector("[data-bound=start]").value = lo;
+    slider.querySelector("[data-bound=end]").value = hi;
+    slider.style.setProperty("--lo", ((lo - min) / (max - min)) * 100 + "%");
+    slider.style.setProperty("--hi", ((hi - min) / (max - min)) * 100 + "%");
+    return [lo, hi];
 }
 
 /** focus a nearby element if the focused one was removed by a redraw */
@@ -983,7 +1018,8 @@ const modal = {
     template: document.getElementById("browse-advanced-row"),
     submitted: false,
     // facets listed in the dialog as conditions, rebuilt from its rows when it is submitted
-    facetFields: []
+    facetFields: [],
+    dateFields: []
 };
 
 /**
@@ -1002,9 +1038,12 @@ function dialogRows() {
     const lead = !hasOr && multiOr.length === 1 ? multiOr[0] : null;
     const tail = active.filter(f => !multiOr.includes(f));
     modal.facetFields = tail.concat(lead || []).map(f => f.field);
+    const ranges = DATE_FACETS.filter(f => f.types.includes(state.type) && state.dates[f.field]);
+    modal.dateFields = ranges.map(f => f.field);
     return (lead ? state.facets[lead.field].map((value, i) => phrase(lead, value, i ? "OR" : "AND")) : [])
         .concat(advanced)
-        .concat(tail.flatMap(f => state.facets[f.field].map(value => phrase(f, value, "AND"))));
+        .concat(tail.flatMap(f => state.facets[f.field].map(value => phrase(f, value, "AND"))))
+        .concat(ranges.map(f => ({ b: "AND", f: f.field, v: "", start: state.dates[f.field].start, end: state.dates[f.field].end })));
 }
 
 /** add a condition row, optionally filled with values */
@@ -1077,6 +1116,7 @@ function setupAdvanced() {
         }).filter(row => row.v || row.start || row.end);
         // the facets shown as rows are rebuilt from the rows that are left
         modal.facetFields.forEach(field => { delete state.facets[field]; });
+        modal.dateFields.forEach(field => { delete state.dates[field]; });
         promoteAdvanced(state);
         update({ announce: true });
         modal.submitted = true;
@@ -1197,6 +1237,24 @@ function setupEvents() {
                 facetUi[more.dataset.field].showAll = !facetUi[more.dataset.field].showAll;
                 renderFacets();
             }
+        });
+        // year slider: dragging fills the From / To boxes, letting go applies the range
+        el.facets.addEventListener("input", e => {
+            if (!e.target.classList.contains("browse-range-input")) return;
+            const slider = e.target.closest(".browse-range");
+            const form = e.target.closest("form");
+            let start = Number(slider.querySelector("[data-bound=start]").value);
+            let end = Number(slider.querySelector("[data-bound=end]").value);
+            // the handles can't pass each other
+            if (start > end) { if (e.target.dataset.bound === "start") start = end; else end = start; }
+            [start, end] = setSlider(slider, start, end);
+            // the full range is the same as no filter, so records with no date are not left out
+            const full = start === Number(slider.dataset.min) && end === Number(slider.dataset.max);
+            form.elements.start.value = full ? "" : start;
+            form.elements.end.value = full ? "" : end;
+        });
+        el.facets.addEventListener("change", e => {
+            if (e.target.classList.contains("browse-range-input")) e.target.closest("form").requestSubmit();
         });
         el.facets.addEventListener("input", e => {
             if (!e.target.classList.contains("browse-facet-filter")) return;
