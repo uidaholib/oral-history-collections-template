@@ -8,26 +8,21 @@ credits: true
 ---
 
 ## About the Collection
-{: #about-the-collection}
 
 <div class="row g-4 align-items-start">
 <div class="col-lg-8" markdown="1">
 
 The Latah County Oral History Collection began in the 1970s when the Latah County Historical Society set out to record the memories of the county's oldest residents. Between 1973 and 1978, Sam Schrager and a few other interviewers recorded hundreds of hours of conversation with loggers, farmers, teachers, homemakers, and townspeople who remembered settlement-era life in north Idaho. The project produced typescript transcripts and a printed *Guide to the Latah County, Idaho Oral History Collection*. The original cassettes went to the University of Idaho Library, which transferred them to archival tape.
 
-In 2015 the University of Idaho Library published the collection online for the first time, with digitized audio, scanned transcripts, and a new introduction by Schrager. This edition rebuilds the site with improved transcripts using [Oral History as Data](https://oralhistoryasdata.github.io/), an open framework developed at the Library. Each narrator now has a page, every interview has a time-stamped transcript linked to its audio, and topics and places can be followed across the whole collection. Much of the work on this edition went into the transcripts improvements: they were re-transcribed against the original recordings, labeled by speaker, and copyedited for accuracy. 
+In 2015 the University of Idaho Library published the collection online for the first time, with digitized audio, scanned transcripts, and a new introduction by Schrager. During this project hundreds of cassette tapes were converted to digital audio files, and the typescript transcripts were scanned and made full-text searchable. Staff and student assistants created detailed metadata files that included full-text transcripts, original timestamps, and synopses originally provided by the transcriber. 
 
-### The 2015 Edition
-
-For the first online edition, hundreds of cassette tapes were converted to digital audio files, and the typescript transcripts were scanned and made full-text searchable. Staff and student assistants created detailed metadata files that included full-text transcripts, original timestamps, and synopses originally provided by the transcriber. 
+In 2026, a new edition rebuilt the entire site with improved transcripts using [Oral History as Data](https://oralhistoryasdata.github.io/), an open framework developed at the Library. Each narrator now has a page, every interview has a time-stamped transcript linked to its audio, and topics and places can be followed across the whole collection. Much of the work on this revision went into the transcripts improvements: they were re-transcribed against the original recordings, labeled by speaker, and copyedited for accuracy. 
 
 <div class="text-center">
 {% include feature/image.html width="50" objectid="https://objects.lib.uidaho.edu/lcoh/map.jpg" alt="hand drawn map depicting Latah county showing towns and main roads" caption="We transferred a number of different original items into digital surrogates, including the map above, and over 300 audio cassette tapes, which took over a year to digitize." %}
 </div>
 
-
 Below find Schrager's original and 2015 forwards to the collection.
-
 
 </div>
 <div class="col-lg-4">
@@ -40,14 +35,13 @@ Below find Schrager's original and 2015 forwards to the collection.
 </div>
 </div>
 
----
----
+------
+------
 
 ## What You Have Here
+{: #introduction}
 
 ### Introduction to the Online Latah County Oral History Collection
-
-{: #introduction}
 
 by Sam Schrager
 
@@ -68,8 +62,8 @@ Olympia, WA <br>March 2015
 
 *Sam Schrager* grew up in Troy, N.Y., came west to go to Reed College in Portland, and in 1972 drifted to Troy, Idaho with his wife Laura. The oral history project inspired him to study folklore at the University of Pennsylvania. After that, he did a study of trial lawyers for the Smithsonian, which resulted in a book, ***The Trial Lawyer's Art***. He's been a faculty member at The Evergreen State College since 1988, teaching American studies and ethnography, always with a good dose of oral history interviewing. He and Laura have three grown children and live on Eld Inlet, near Olympia, WA.*
 
----
----
+------
+------
  
 ## Original Foreword
 {: #original-foreword}
@@ -120,7 +114,16 @@ Sam Schrager <br>August 1977
 --- 
 --- 
 
-{:.text-end}
+## Acknowledgements
+
+The 2015 edition of LCOH was led by Devin Becker, with digital projection managers Kevin Dobbins and Erin Passehl-Stoddart.
+Student Assistants and Interns Nate Sirdofsky, Elisabeth (Izzy) Martin, Elizabeth Biancosino, and Katrina Burch contributed to the project. The website used [OHMS viewer](https://www.oralhistoryonline.org/) to present transcripts synchronized with audio recordings.
+
+The 2026 edition was led by Devin Becker, with Andrew Weymouth leading a complete reprocessing of the audio to create improved transcriptions and subject tagging.
+The website migrated to using [Oral History as Data](https://oralhistoryasdata.github.io/) to present the transcripts, providing engaging ways to explore the text and topics.
+Transcripts were processed using a workflow developed in house and copyedited by Maryelizabeth Koepele, Jack Kredell, and Andrew Weymouth.
+
+<hr><hr>
 
 [^1]: Robert Georges develops a theoretical model for this concept in: "Toward an Understanding of Story-telling Events", Journal of American Folklore, 82(1969), 314-328.
 
@@ -129,5 +132,5 @@ Sam Schrager <br>August 1977
 
 
 
-<hr><hr>
+
 
