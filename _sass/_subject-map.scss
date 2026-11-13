@@ -1,235 +1,139 @@
-// Subject Map: expanding taxonomy tree and passage modal
-// Import from _custom.scss with:  @import "subject-map";
+/* Subject Map: collapsible tree, A-Z list and passage modal.
+   Used by _layouts/subject-map.html and _layouts/subject-list.html; pulled into cb.css by assets/css/cb.scss. */
 
 .subject-map,
 .sm-modal {
-    --sm-accent: var(--bs-primary, #0d6efd);
-    --sm-limb: var(--bs-border-color, #ced4da);
+    --sm-accent: #4682b4;          /* node outline */
+    --sm-accent-soft: #dbe7f3;     /* fill of a collapsed category with hidden terms */
+    --sm-link: #c4c4c4;            /* tree limbs */
+    --sm-text: var(--bs-body-color, #191919);
     --sm-muted: var(--bs-secondary-color, #6c757d);
-    --sm-surface: var(--bs-body-bg, #fff);
-    --sm-chip-bg: var(--bs-tertiary-bg, #f8f9fa);
-    --sm-speed: 380ms;
+    --sm-bg: var(--bs-body-bg, #fff);
+    --sm-focus: var(--bs-primary, #0d6efd);
 }
 
 .subject-map {
-    --sm-node: 0.95rem;
-    --sm-gutter: 1rem;      // x position of the node centers
-    --sm-row: 2.75rem;      // height of a tag row
-    max-width: 68rem;
-    margin: 1.5rem 0 3rem;
+    margin: 1rem 0 3rem;
 }
 
 .sm-instructions {
-    margin-bottom: 1rem;
-
-    kbd {
-        font-size: 0.8em;
-    }
+    color: var(--sm-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1.25rem;
 }
 
-// ---------- tags (left-hand trunk) ----------
-
-.sm-tags {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.sm-instructions kbd {
+    font-size: 0.8em;
 }
 
-.sm-tag {
-    position: relative;
+/* ---------- tree ---------- */
 
-    // Trunk joining each tag node to the next one
-    &:not(:last-child)::before {
-        content: "";
-        position: absolute;
-        left: calc(var(--sm-gutter) - 1px);
-        top: calc(var(--sm-row) / 2);
-        bottom: calc(var(--sm-row) / -2);
-        border-left: 2px solid var(--sm-limb);
-    }
+.sm-canvas {
+    overflow-x: auto;              /* long term labels scroll sideways on phones */
+    overflow-y: hidden;
+    overflow-anchor: none;         /* the script keeps the selected node in place itself */
 }
 
-.sm-tag-heading {
-    margin: 0;
-    font-size: inherit;
+.sm-tree {
+    display: block;
+    overflow: visible;
+    font-size: 14px;
 }
 
-.sm-tag-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    min-height: var(--sm-row);
-    padding: 0.25rem 0.75rem 0.25rem 0;
-    border: 0;
-    border-radius: 0.5rem;
-    background: none;
-    color: var(--bs-body-color, #212529);
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-align: left;
-
-    &:hover .sm-tag-label {
-        text-decoration: underline;
-        text-underline-offset: 0.2em;
-    }
-
-    &:focus-visible {
-        outline: 3px solid var(--sm-accent);
-        outline-offset: 2px;
-    }
+.sm-link {
+    fill: none;
+    stroke: var(--sm-link);
+    stroke-width: 1.5px;
 }
 
 .sm-node {
-    position: relative;
-    z-index: 1;
-    flex: 0 0 auto;
-    width: var(--sm-node);
-    height: var(--sm-node);
-    margin-left: calc(var(--sm-gutter) - var(--sm-node) / 2);
-    border: 2px solid var(--sm-accent);
-    border-radius: 50%;
-    background: var(--sm-surface);
-    transition: background-color var(--sm-speed) ease, transform var(--sm-speed) ease;
+    cursor: pointer;
+    outline: none;
 }
 
-.sm-tag-count {
-    color: var(--sm-muted);
-    font-size: 0.85rem;
-    font-weight: 400;
+.sm-node circle {
+    fill: var(--sm-bg);
+    stroke: var(--sm-accent);
+    stroke-width: 2.5px;
+    transition: fill 0.2s ease, stroke-width 0.15s ease;
 }
 
-.sm-chevron {
-    flex: 0 0 auto;
-    color: var(--sm-muted);
-    transition: transform var(--sm-speed) ease;
+.sm-node.is-collapsed circle {
+    fill: var(--sm-accent-soft);
 }
 
-.sm-tag.is-open > .sm-tag-heading {
-    .sm-node {
-        background: var(--sm-accent);
-        transform: scale(1.1);
-    }
-
-    .sm-chevron {
-        transform: rotate(90deg);
-    }
+.sm-node text {
+    fill: var(--sm-text);
+    /* white halo so labels stay legible where they cross a limb */
+    paint-order: stroke;
+    stroke: var(--sm-bg);
+    stroke-width: 3px;
+    stroke-linejoin: round;
 }
 
-// ---------- branch (unfolds beneath and to the right) ----------
-
-.sm-branch {
-    display: grid;
-    grid-template-rows: 0fr;
-    visibility: hidden; // keeps collapsed terms out of the Tab order
-    transition:
-        grid-template-rows var(--sm-speed) ease,
-        visibility 0s linear var(--sm-speed);
+.sm-node.depth-0,
+.sm-node.depth-0:hover {
+    cursor: default;
 }
 
-.sm-tag.is-open > .sm-branch {
-    grid-template-rows: 1fr;
-    visibility: visible;
-    transition:
-        grid-template-rows var(--sm-speed) ease,
-        visibility 0s;
+.sm-node.depth-0 text,
+.sm-node.kind-domain text {
+    font-weight: 700;
 }
 
-.sm-branch-inner {
-    position: relative;
-    min-height: 0;
-    overflow: hidden;
-    padding: 0.35rem 0 1rem calc(var(--sm-gutter) + 1.75rem);
+.sm-node.kind-tag text {
+    font-weight: 600;
 }
 
-// The rounded limb: down from the tag node, curving right into the terms
-.sm-limb {
-    position: absolute;
-    left: calc(var(--sm-gutter) - 1px);
-    top: 0;
-    width: 1.45rem;
-    height: 1.45rem;
-    border-left: 2px solid var(--sm-accent);
-    border-bottom: 2px solid var(--sm-accent);
-    border-bottom-left-radius: 0.95rem;
+/* intermediate sections (Crops, Animals > Birds, Latah County ...) */
+.sm-node.kind-group text {
+    font-weight: 500;
 }
 
-.sm-tag.is-open .sm-limb {
-    animation: sm-grow var(--sm-speed) ease-out both;
+.sm-node.kind-domain circle {
+    stroke-width: 3px;
 }
 
-@keyframes sm-grow {
-    0%   { clip-path: inset(0 calc(100% - 3px) 100% 0); }
-    55%  { clip-path: inset(0 calc(100% - 3px) 0 0); }
-    100% { clip-path: inset(0 0 0 0); }
+.sm-node.kind-group circle {
+    stroke-width: 2px;
 }
 
-// ---------- terms ----------
-
-.sm-terms {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem 0.5rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.sm-node:hover text {
+    text-decoration: underline;
 }
 
-.sm-tag.is-open .sm-term {
-    animation: sm-sprout 300ms ease-out both;
-    animation-delay: calc(120ms + var(--i, 0) * 14ms); // --i is capped at 24 in the tree include
+.sm-node.depth-0:hover text {
+    text-decoration: none;
 }
 
-@keyframes sm-sprout {
-    from { opacity: 0; transform: translateX(-0.6rem); }
-    to   { opacity: 1; transform: none; }
+.sm-node:focus-visible circle {
+    stroke: var(--sm-focus);
+    stroke-width: 4px;
 }
 
-.sm-term-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    min-height: 2.25rem;
-    padding: 0.3rem 0.5rem 0.3rem 0.85rem;
-    border: 1px solid var(--sm-limb);
-    border-radius: 999px;
-    background: var(--sm-surface);
-    color: var(--bs-body-color, #212529);
-    font-size: 0.95rem;
-    line-height: 1.2;
-    transition: border-color 0.15s ease, background-color 0.15s ease;
-
-    &:hover {
-        border-color: var(--sm-accent);
-        background: var(--sm-chip-bg);
-    }
-
-    &:focus-visible {
-        outline: 3px solid var(--sm-accent);
-        outline-offset: 2px;
-    }
-
-    &[aria-disabled="true"] {
-        border-style: dashed;
-        color: var(--sm-muted);
-        cursor: default;
-
-        &:hover {
-            border-color: var(--sm-limb);
-            background: var(--sm-surface);
-        }
-    }
+.sm-node:focus-visible text {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
-.sm-badge {
-    padding: 0.05rem 0.45rem;
-    border-radius: 999px;
-    background: var(--sm-chip-bg);
-    color: var(--sm-muted);
-    font-size: 0.75rem;
-    font-variant-numeric: tabular-nums;
+.sm-node.is-empty {
+    cursor: default;
 }
 
-// ---------- modal ----------
+.sm-node.is-empty circle {
+    stroke: var(--sm-link);
+}
+
+.sm-node.is-empty text {
+    fill: var(--sm-muted);
+}
+
+.sm-node.is-exiting {
+    pointer-events: none;
+}
+
+/* ---------- modal ---------- */
 
 .sm-modal-eyebrow {
     margin: 0 0 0.15rem;
@@ -240,6 +144,16 @@
     text-transform: uppercase;
 }
 
+.sm-definition {
+    font-weight: 400;
+    color: var(--sm-muted);
+}
+
+.sm-modal-includes {
+    margin: 0.15rem 0 0.25rem;
+    color: var(--sm-muted);
+}
+
 .sm-snippets {
     list-style: none;
     margin: 0;
@@ -247,91 +161,164 @@
 }
 
 .sm-item + .sm-item {
-    margin-top: 0.85rem;
+    border-top: 1px solid var(--bs-border-color, #dee2e6);
 }
 
 .sm-passage {
-    padding: 0.9rem 1rem;
-    border: 1px solid var(--bs-border-color, #dee2e6);
-    border-left: 4px solid var(--sm-accent);
+    padding: 1rem 0.75rem;
     border-radius: 0.5rem;
-    transition: box-shadow 0.15s ease;
+}
 
-    &:focus-visible,
-    &:focus-within {
-        outline: none;
-        box-shadow: 0 0 0 3px var(--sm-accent);
-    }
+.sm-passage:focus-within {
+    background: var(--bs-tertiary-bg, #f8f9fa);
+    box-shadow: inset 4px 0 0 var(--sm-focus);
 }
 
 .sm-quote {
     margin: 0 0 0.5rem;
     font-size: 1.05rem;
-    line-height: 1.55;
+    line-height: 1.6;
+    text-align: center;
+}
 
-    p {
-        margin: 0;
-    }
+.sm-quote p {
+    margin: 0;
 }
 
 .sm-term-link {
     font-weight: 700;
     text-underline-offset: 0.2em;
-
-    &:focus-visible {
-        outline: 2px solid var(--sm-accent);
-        outline-offset: 2px;
-        border-radius: 2px;
-    }
 }
 
 .sm-cite {
     margin: 0;
     color: var(--sm-muted);
-    font-size: 0.85rem;
-
-    > * + *::before {
-        content: " · ";
-    }
-
-    cite {
-        color: var(--bs-body-color, #212529);
-        font-style: normal;
-        font-weight: 600;
-    }
+    font-size: 0.875rem;
+    text-align: right;
 }
 
-// ---------- small screens and touch ----------
-
-@media (max-width: 575.98px) {
-    .subject-map {
-        --sm-gutter: 0.75rem;
-    }
-
-    .sm-branch-inner {
-        padding-left: calc(var(--sm-gutter) + 1.4rem);
-    }
-
-    .sm-limb {
-        width: 1.1rem;
-    }
+.sm-cite cite {
+    font-style: normal;
 }
 
-@media (pointer: coarse) {
-    .sm-term-btn {
-        min-height: 2.75rem;
-    }
+.sm-pager .pagination {
+    flex-wrap: wrap;
+}
+
+.sm-pager .page-link {
+    min-width: 2.25rem;
+    text-align: center;
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .sm-branch,
-    .sm-node,
-    .sm-chevron {
+    .sm-node circle {
         transition: none;
     }
+}
 
-    .sm-tag.is-open .sm-limb,
-    .sm-tag.is-open .sm-term {
-        animation: none;
-    }
+/* ---------- subject list (/topic-index.html) ---------- */
+
+.sg-tools {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.sg-tools .form-control {
+    flex: 1 1 18rem;
+    max-width: 28rem;
+}
+
+.sg-letters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.sg-letter-link {
+    min-width: 2rem;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid var(--bs-border-color, #dee2e6);
+    border-radius: 0.375rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sg-letter {
+    margin: 2rem 0 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--sm-accent);
+    scroll-margin-top: 5rem;
+}
+
+.sg-entries {
+    margin: 0;
+}
+
+.sg-entry {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.sg-term {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.75rem;
+    font-weight: 700;
+}
+
+.sg-term-button {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--bs-link-color, #0d6efd);
+    font: inherit;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    cursor: pointer;
+}
+
+.sg-term-button:hover {
+    color: var(--bs-link-hover-color, #0a58ca);
+}
+
+.sg-term-button:focus-visible {
+    outline: 3px solid var(--sm-focus);
+    outline-offset: 2px;
+}
+
+.sg-term-empty {
+    color: var(--sm-muted);
+}
+
+.sg-count-pill {
+    color: var(--sm-muted);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.sg-body {
+    margin: 0.15rem 0 0;
+}
+
+.sg-body p {
+    margin: 0 0 0.15rem;
+}
+
+.sg-includes,
+.sg-path {
+    color: var(--sm-muted);
+    font-size: 0.85rem;
+}
+
+.sg-none {
+    margin-top: 2rem;
+    color: var(--sm-muted);
 }

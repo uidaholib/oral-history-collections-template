@@ -43,5 +43,9 @@ $theme-link-color: {{ site.data.theme.link-color | default: "#00AEC7" }};
 /* pull in OHD styles */
 @use "ohd"; 
 
+/* page components: subject map / topic index, topic visualization */
+@use "subject-map";
+@use "topic-viz";
+
 /* pull in custom styles to override everything else */
 @use "custom";

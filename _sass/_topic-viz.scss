@@ -1,5 +1,5 @@
 /* Topic Visualization: topic picker, per-person strips and passage list.
-   Linked directly from _layouts/topic-visualization.html (no Sass import needed).
+   Used by _layouts/topic-visualization.html; pulled into cb.css by assets/css/cb.scss.
    The strip colours are read from these variables by the script. */
 
 .topic-viz {
@@ -411,7 +411,8 @@
 /* ---------- print: passages only ---------- */
 
 @media print {
-    body > *:not(main) {
+    /* only on the visualization page: print the passages without the site chrome */
+    body:has(.topic-viz) > *:not(main) {
         display: none !important;
     }
 
@@ -459,5 +460,45 @@
     .tv-passage a {
         color: inherit;
         text-decoration: none;
+    }
+}
+
+/* ---------- selected person ----------
+   Selecting a name moves that row to the top (see orderRows in
+   _includes/js/topic-viz-js.html), spans it across every column and gives it a
+   tall strip, with the name above. */
+
+.topic-viz .tv-row.is-selected {
+    column-span: all;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    height: auto;
+    margin: 0.25rem 0 1.25rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--tv-strip);
+}
+
+.topic-viz .tv-row.is-selected .tv-name {
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    font-size: 1.15rem;
+    line-height: 1.4;
+}
+
+.topic-viz .tv-row.is-selected .tv-name-count {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.topic-viz .tv-row.is-selected .tv-strip {
+    flex: 0 0 auto;
+    height: 5rem;
+}
+
+@media (max-width: 575.98px) {
+    .topic-viz .tv-row.is-selected .tv-strip {
+        height: 3.5rem;
     }
 }
