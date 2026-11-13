@@ -3,9 +3,7 @@
    The strip colours are read from these variables by the script. */
 
 .topic-viz {
-    --tv-accent: #b8320a;          /* lines carrying the selected topic */
-    --tv-tagged: #8d96a0;          /* lines carrying any topic (nothing selected) */
-    --tv-strip: #e6e9ed;           /* an interview with nothing to show at that point */
+    --tv-strip: #e6e9ed;           /* lines with no topic to show; topic colours come from the index */
     --tv-muted: var(--bs-secondary-color, #6c757d);
     --tv-border: var(--bs-border-color, #dee2e6);
     --tv-focus: var(--bs-primary, #0d6efd);
@@ -22,6 +20,13 @@
     margin: 1.5rem 0;
 }
 
+.tv-topic-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .tv-topic-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
@@ -32,8 +37,7 @@
     position: relative;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    gap: 0.5rem;
+    gap: 0.4rem;
     padding: 0.3rem 0.5rem 0.45rem;
     border: 1px solid var(--tv-border);
     border-radius: 0.25rem;
@@ -54,7 +58,18 @@
     outline-offset: 1px;
 }
 
+.tv-topic-swatch {
+    flex: 0 0 auto;
+    align-self: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    background: var(--tv-topic-color);
+}
+
 .tv-topic-label {
+    flex: 1 1 auto;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -72,17 +87,18 @@
     left: 0;
     bottom: 0;
     height: 3px;
-    background: var(--tv-tagged);
+    background: var(--tv-topic-color);
 }
 
 .tv-topic[aria-pressed="true"] {
-    border-color: var(--tv-accent);
-    box-shadow: inset 0 0 0 1px var(--tv-accent);
+    border-color: #000;
+    box-shadow: inset 0 0 0 1px #000;
     font-weight: 600;
 }
 
-.tv-topic[aria-pressed="true"] .tv-topic-bar {
-    background: var(--tv-accent);
+/* with a topic selected the others fade to the strip colour, as their lines do */
+.tv-topic-list.has-selection .tv-topic:not([aria-pressed="true"]) .tv-topic-swatch {
+    background: var(--tv-strip);
 }
 
 /* ---------- strips ---------- */
@@ -199,6 +215,7 @@
 /* ---------- passages ---------- */
 
 .tv-passages {
+    scroll-margin-top: 1rem;
     margin: 2rem 0 3rem;
     padding-top: 1rem;
     border-top: 1px solid var(--tv-border);

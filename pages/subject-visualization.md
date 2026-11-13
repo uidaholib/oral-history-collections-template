@@ -1,5 +1,5 @@
 ---
-title: Topic Visualization
+title: Color-Coded Topic Visualization
 layout: topic-visualization
 permalink: /topic-visualization.html
 ---

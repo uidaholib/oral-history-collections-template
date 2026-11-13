@@ -26,7 +26,10 @@ custom-foot: js/topic-viz-js.html
   <section class="tv-topics d-print-none" aria-labelledby="tv-topics-heading">
     <div class="d-flex align-items-baseline justify-content-between">
       <h3 id="tv-topics-heading" class="h5">Topics</h3>
-      <button type="button" class="btn btn-sm btn-outline-secondary" id="tv-reset" hidden>Reset</button>
+      <div class="tv-topic-actions">
+        <button type="button" class="btn btn-sm btn-outline-secondary" id="tv-reset" hidden>Reset</button>
+        <a class="btn btn-sm btn-primary" href="#transcript-contents" id="tv-jump">Jump to passages <span aria-hidden="true">↓</span></a>
+      </div>
     </div>
     <div id="tv-topic-list" class="tv-topic-list" role="group" aria-labelledby="tv-topics-heading">
       <p class="text-muted">Loading topics…</p>

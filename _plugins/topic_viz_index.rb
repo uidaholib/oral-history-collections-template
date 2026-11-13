@@ -6,7 +6,8 @@
 # Feeds /topic-visualization.html (layout: topic-visualization). Reads every
 # transcript in _data/transcripts/ and, at build time, writes:
 #
-#   1. <output>/index.json - which lines of which interview carry which tag.
+#   1. <output>/index.json - which lines of which interview carry which tag,
+#      and each tag's colour.
 #      No transcript text, so the page can draw the whole collection from one
 #      small file.
 #   2. <output>/<tag-slug>.json - the passages (line, timestamp, speaker,
@@ -30,6 +31,15 @@ require 'fileutils'
 module TopicViz
   # Order of the values in each passage array written to the tag files.
   FIELDS = %w[line timestamp speaker words].freeze
+
+  # Same colours, in the same order, as _includes/transcript/style/filter-style.html,
+  # so a tag listed in _data/filters.csv has one colour here and on the interview pages.
+  # Tags not in filters.csv continue through the list, most common first; with more
+  # than 20 tags the colours repeat.
+  PALETTE = %w[
+    #e6194b #3cb44b #ffe119 #4363d8 #f58231 #911eb4 #46f0f0 #f032e6 #bcf60c #fabebe
+    #008080 #e6beff #9a6324 #fffac8 #800000 #aaffc3 #808000 #ffd8b1 #000075 #808080
+  ].freeze
 
   # Written straight to _site, skipping Liquid (transcript text may contain "{{").
   class GeneratedFile < Jekyll::StaticFile
@@ -151,7 +161,10 @@ module TopicViz
         name = row['tag'].to_s.strip
         next if name.empty?
 
-        filters[Jekyll::Utils.slugify(name)] = { 'tag' => name, 'description' => row['description'].to_s.strip }
+        slug = Jekyll::Utils.slugify(name)
+        next if filters.key?(slug)
+
+        filters[slug] = { 'tag' => name, 'description' => row['description'].to_s.strip, 'position' => filters.size }
       end
     end
 
@@ -194,12 +207,16 @@ module TopicViz
 
       ordered = tags.sort_by { |slug, tag| [-tag['count'], slug] }
       tag_index = {}
+      next_color = filters.size
       tag_rows = ordered.each_with_index.map do |(slug, tag), index|
         tag_index[slug] = index
         filter = filters[slug]
         label = filter ? filter['tag'] : tag['spellings'].max_by { |name, count| [count, name] }.first
         tag['label'] = label
-        [slug, label, filter ? filter['description'] : '', tag['count'], tag['passages'].size]
+        position = filter ? filter['position'] : next_color
+        next_color += 1 unless filter
+        [slug, label, filter ? filter['description'] : '', tag['count'], tag['passages'].size,
+         PALETTE[position % PALETTE.size]]
       end
 
       used_people = interviews.map { |interview| interview['person'] }.uniq

@@ -3,7 +3,8 @@
  * Topic Visualization
  *  - Loads one small index (which lines of which interview carry which topic)
  *    and draws a strip per person on a canvas: their interviews side by side,
- *    start to finish, with a mark wherever the selected topic comes up.
+ *    start to finish, every tagged line coloured by its topic(s). Selecting a
+ *    topic leaves only that topic's lines lit, as on the interview pages.
  *  - Selecting a topic fetches that topic's passages (one file per topic) and
  *    lists them by interview below. Passage rows are only built when an
  *    interview is opened, so the page stays light for the largest topics.
@@ -64,13 +65,27 @@
       return interview;
     });
     var tags = index.tags.map(function (t, i) {
-      return { index: i, slug: t[0], label: t[1], description: t[2], count: t[3], interviews: t[4] };
+      return { index: i, slug: t[0], label: t[1], description: t[2], count: t[3], interviews: t[4], color: t[5] || '#808080' };
     });
     return { base: SITE + index.base, tags: tags, people: people, interviews: interviews };
   }
 
   function topicLines(interview) {
     return state.topic ? (interview.tags[state.topic.index] || []) : interview.tagged;
+  }
+
+  // line -> the topics on it (indexes into data.tags), built once per interview
+  function lineTags(interview) {
+    if (!interview.byLine) {
+      interview.byLine = new Map();
+      Object.keys(interview.tags).forEach(function (key) {
+        interview.tags[key].forEach(function (line) {
+          var list = interview.byLine.get(line);
+          if (list) list.push(+key); else interview.byLine.set(line, [+key]);
+        });
+      });
+    }
+    return interview.byLine;
   }
 
   function personCount(person) {
@@ -97,6 +112,8 @@
       button.setAttribute('aria-pressed', 'false');
       button.dataset.slug = tag.slug;
       if (tag.description) button.title = tag.description;
+      button.style.setProperty('--tv-topic-color', tag.color);
+      button.appendChild(el('span', 'tv-topic-swatch'));
       button.appendChild(el('span', 'tv-topic-label', tag.label));
       var count = el('span', 'tv-topic-count', fmt(tag.count));
       count.setAttribute('aria-label', plural(tag.count, 'passage'));
@@ -167,8 +184,6 @@
 
   function readColors() {
     var style = getComputedStyle(root);
-    colors.accent = style.getPropertyValue('--tv-accent').trim() || '#b8320a';
-    colors.tagged = style.getPropertyValue('--tv-tagged').trim() || '#8d96a0';
     colors.strip = style.getPropertyValue('--tv-strip').trim() || '#e6e9ed';
   }
 
@@ -205,11 +220,22 @@
       ctx.fillRect(segment.x, 0, segment.w, height);
       var lines = topicLines(interview);
       if (!lines.length) return;
-      ctx.fillStyle = state.topic ? colors.accent : colors.tagged;
       var lineWidth = Math.max(1, segment.w / interview.n);
+      var byLine = state.topic ? null : lineTags(interview);
+      if (state.topic) ctx.fillStyle = state.topic.color;
       for (var i = 0; i < lines.length; i++) {
-        var lx = segment.x + (lines[i] / interview.n) * segment.w;
-        ctx.fillRect(Math.min(lx, segment.x + segment.w - lineWidth), 0, lineWidth, height);
+        var lx = Math.min(segment.x + (lines[i] / interview.n) * segment.w, segment.x + segment.w - lineWidth);
+        if (state.topic) {
+          ctx.fillRect(lx, 0, lineWidth, height);
+          continue;
+        }
+        // a line with several topics is split into one band per topic
+        var topics = byLine.get(lines[i]);
+        var band = height / topics.length;
+        for (var k = 0; k < topics.length; k++) {
+          ctx.fillStyle = data.tags[topics[k]].color;
+          ctx.fillRect(lx, k * band, lineWidth, band);
+        }
       }
     });
   }
@@ -269,7 +295,10 @@
     tip.appendChild(el('strong', null, target.interview.title));
     var passage = target.marked ? findPassage(target.interview, target.line) : null;
     var meta = passage && passage[1] ? passage[1] : 'Line ' + target.line;
-    if (target.marked && state.topic) meta += ' · ' + state.topic.label;
+    if (target.marked) {
+      meta += ' · ' + (state.topic ? state.topic.label : (lineTags(target.interview).get(target.line) || [])
+        .map(function (k) { return data.tags[k].label; }).join(', '));
+    }
     tip.appendChild(el('span', 'tv-tip-meta', meta));
     if (passage && passage[3]) {
       var words = passage[3].length > 180 ? passage[3].slice(0, 180).replace(/\s+\S*$/, '') + '…' : passage[3];
@@ -435,7 +464,7 @@
         plural(state.topic.interviews, 'interview') + '.';
     } else {
       els.summary.textContent = plural(data.interviews.length, 'interview') + ' with ' +
-        plural(data.people.length, 'person').replace('persons', 'people') + '. Marks show lines tagged with any topic.';
+        plural(data.people.length, 'person').replace('persons', 'people') + '. Each line is coloured by its topics.';
     }
     els.reset.hidden = !state.topic && !state.only;
   }
@@ -443,12 +472,13 @@
   function selectTopic(tag, quiet) {
     state.topic = tag;
     data.tags.forEach(function (t) { t.button.setAttribute('aria-pressed', t === tag ? 'true' : 'false'); });
+    els.topics.classList.toggle('has-selection', !!tag);
     updateSummary();
     orderRows();
     updateUrl();
     renderPassages();
     if (!tag) {
-      if (!quiet) announce('Topic cleared. Showing lines tagged with any topic.');
+      if (!quiet) announce('Topic cleared. Showing every topic.');
       return;
     }
     if (cache[tag.slug]) {
@@ -487,7 +517,7 @@
   function reset() {
     state.only = null;
     selectTopic(null, true);
-    announce('Reset. Showing lines tagged with any topic.');
+    announce('Reset. Showing every topic.');
   }
 
   // ---- start --------------------------------------------------------------
