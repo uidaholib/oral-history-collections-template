@@ -90,10 +90,10 @@ The [Topic Tree]({{ '/topic-tree.html' | relative_url }}) is a branching diagram
 
 ### Topic Index A–Z
 
-The [Topic Index A–Z]({{ '/topic-index.html' | relative_url }}) has the same terms as one A to Z list, like the index at the back of a book. Some terms have a short definition, which helps with logging jobs and old-fashioned words. Filter the list with the box at the top, or jump ahead by letter. Selecting a term opens the same quotations as the map.
+The [Topic Index A–Z]({{ '/topic-index.html' | relative_url }}) has the same terms as one A to Z list, like the index at the back of a book. Some terms have a short definition, which helps with logging jobs and old-fashioned words. Filter the list with the box at the top, or jump ahead by letter. Selecting a term opens the same quotations as the tree.
 
 {: .howto-note}
-**Map or list?** Choose the map if you like to browse by theme, and the list if you already have a word in mind.
+**Tree or list?** Choose the tree if you like to browse by theme, and the list if you already have a word in mind.
 
 ## Inside an interview
 
