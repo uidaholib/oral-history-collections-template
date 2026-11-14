@@ -38,8 +38,8 @@ module TopicViz
   # same way from _includes/transcript/topic-colors.html, so a topic has one colour
   # everywhere: keep the two lists identical, in the same order.
   PALETTE = %w[
-    #e6194b #3cb44b #ffe119 #4363d8 #f58231 #911eb4 #46f0f0 #f032e6 #bcf60c #fabebe
-    #008080 #e6beff #9a6324 #fffac8 #800000 #aaffc3 #808000 #ffd8b1 #000075 #808080
+    #e6194b #3cb44b #d99500 #4363d8 #f06800 #911eb4 #00a9c4 #f032e6 #a0a800 #ff658a
+    #008080 #a77bea #9a6324 #b0437a #800000 #1eb08f #808000 #c9746b #000075 #808080
   ].freeze
 
   # Written straight to _site, skipping Liquid (transcript text may contain "{{").
