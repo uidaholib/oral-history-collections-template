@@ -132,6 +132,7 @@ visualization-compact-threshold: 25 ## with auto, switch to compact when there a
 # compact rows adjust to the collection size automatically: tallest with 10 or fewer interviews, then 11-30, 31-100, and thinnest over 100
 topic-viz-tags: filters                     # all = every tag found in the transcripts; filters = only the tags listed in _data/filters.csv
 topic-viz-output: assets/data/topic-viz # where the index and per-tag JSON files are written
+topic-viz-row-label: name                  # name = one row per person (from person records, else the interviewee); title = one row per interview, labelled by its title
 
 ##########
 # DATA 
