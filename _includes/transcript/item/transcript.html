@@ -1,3 +1,6 @@
+{%- comment -%} filters.html only renders when the transcript has lines; set here from the transcript
+  itself (download-buttons.html only sets it when the item has no pdf) {%- endcomment -%}
+{% assign trancheck = items | map: "words" %}
 {% include transcript/item/filters.html %}
 <!-- cb: _includes/transcript/item/transcript-viz.html -->
 <div id="contents-container" class="pe-5 pb-5 mb-5 border-bottom pdf-content">
