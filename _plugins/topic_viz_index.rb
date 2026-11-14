@@ -25,6 +25,7 @@
 #   topic-viz-item-path: people          (folder of interview pages; auto-detected from page_gen)
 #
 
+require 'cgi'
 require 'json'
 require 'fileutils'
 
@@ -129,7 +130,9 @@ module TopicViz
             tag['count'] += 1
             by_tag[slug] << line
             (tag['passages'][objectid] ||= []) << [
-              line, row['timestamp'].to_s.strip, row['speaker'].to_s.strip.sub(/:\z/, ''), row['words'].to_s.strip
+              # transcripts may hold HTML entities (&#8212;); the page shows passages as plain text
+              line, row['timestamp'].to_s.strip, CGI.unescapeHTML(row['speaker'].to_s.strip.sub(/:\z/, '')),
+              CGI.unescapeHTML(row['words'].to_s.strip)
             ]
           end
           tagged << line unless slugs.empty?
