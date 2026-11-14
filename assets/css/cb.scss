@@ -34,5 +34,9 @@
 {% endif %}
 
 @use "ohd";
+
+/* topic visualization and the interview topic bar */
+@use "topic-viz";
+
 /* pull in custom styles to override everything else */
 @use "custom";
