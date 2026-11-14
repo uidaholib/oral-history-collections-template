@@ -469,13 +469,16 @@
 /* ---------- selected person ----------
    Selecting a name moves that row to the top (see orderRows in
    _includes/js/topic-viz-js.html), spans it across every column and gives it a
-   tall strip, with the name above. */
+   tall strip. Laid out as a grid: name and line count, then the small
+   "Minimize" button, on one line; the strip below across the full width. */
 
 .topic-viz .tv-row.is-selected {
     column-span: all;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.35rem;
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    column-gap: 0.75rem;
+    row-gap: 0.6rem;          /* keeps the button clear of the strip */
     height: auto;
     margin: 0.25rem 0 1.25rem;
     padding-bottom: 1rem;
@@ -483,7 +486,7 @@
 }
 
 .topic-viz .tv-row.is-selected .tv-name {
-    flex: 0 0 auto;
+    grid-column: 1;
     justify-content: flex-start;
     gap: 0.75rem;
     font-size: 1.15rem;
@@ -495,8 +498,22 @@
     font-weight: 400;
 }
 
+/* "Minimize" button: only on the selected row, just right of the line count */
+.tv-unselect {
+    display: none;
+}
+
+.topic-viz .tv-row.is-selected .tv-unselect {
+    display: inline-block;
+    grid-column: 2;
+    justify-self: start;
+    padding: 0.05rem 0.45rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+}
+
 .topic-viz .tv-row.is-selected .tv-strip {
-    flex: 0 0 auto;
+    grid-column: 1 / -1;
     height: 5rem;
 }
 
@@ -520,6 +537,13 @@
 
 .tv-transcript-topics {
     grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+}
+
+.tv-transcript-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
 }
 
 .tv-across {

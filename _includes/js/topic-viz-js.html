@@ -149,12 +149,22 @@
         // the selected row moves to the top and widens; keep it in view
         if (selecting) person.row.scrollIntoView({ behavior: 'smooth', block: 'center' });
       });
+      // only shown on the selected (expanded) row; the name toggles it too
+      var close = el('button', 'tv-unselect btn btn-sm btn-outline-secondary');
+      close.type = 'button';
+      close.textContent = 'Minimize';
+      close.setAttribute('aria-label', 'Minimize ' + person.name + ' and show everyone');
+      close.addEventListener('click', function () {
+        setOnly(null);
+        person.nameButton.focus({ preventScroll: true });
+      });
       var canvas = el('canvas', 'tv-strip');
       canvas.setAttribute('aria-hidden', 'true');
       canvas.addEventListener('pointermove', function (event) { hover(person, event); });
       canvas.addEventListener('pointerleave', hideTooltip);
       canvas.addEventListener('click', function (event) { activate(person, event); });
       row.appendChild(name);
+      row.appendChild(close);
       row.appendChild(canvas);
       person.row = row;
       person.nameButton = name;

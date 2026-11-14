@@ -17,7 +17,11 @@
   var topicList = document.getElementById('tv-transcript-topics');
   var tooltip = document.getElementById('tv-tooltip');
   var across = document.getElementById('tv-across');
+  var resetButton = document.getElementById('tv-transcript-reset');
   if (!canvas) return;
+
+  // shown while a topic or search is active; clears both, as the Reset Filters button does
+  if (resetButton) resetButton.addEventListener('click', function () { vizFilter('all'); });
 
   var SNAP_PX = 4;          // how close the pointer must be to a mark to pick it up
   var HIT_COLOR = '#d00000'; // search matches
@@ -197,6 +201,10 @@
       topics[slug].button.setAttribute('aria-pressed', state.topic === slug ? 'true' : 'false');
     });
     if (topicList) topicList.classList.toggle('has-selection', !!state.topic);
+    if (resetButton) {
+      resetButton.hidden = !state.topic && !state.hits;
+      resetButton.setAttribute('aria-label', state.hits ? 'Reset: clear the search' : 'Reset: show every topic');
+    }
     if (across) {
       var topic = state.topic && topics[state.topic];
       across.href = across.dataset.href + (topic ? '&filter=' + encodeURIComponent(state.topic) : '');

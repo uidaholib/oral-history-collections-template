@@ -12,9 +12,12 @@
 <div class="my-2 px-3 mt-2 tv-transcript" id="viz">
   <div class="d-flex flex-wrap align-items-baseline justify-content-between gap-2">
     <h3 class="mt-2 mb-0 meta">Topics:</h3>
-    {%- if tv-page %}
-    <a class="tv-across meta d-print-none" id="tv-across" data-href="{{ tv-page.url | relative_url }}?id={{ tv-person | url_encode }}" href="{{ tv-page.url | relative_url }}?id={{ tv-person | url_encode }}">See these topics across all interviews <span aria-hidden="true">→</span></a>
-    {%- endif %}
+    <div class="tv-transcript-actions meta d-print-none">
+      <button type="button" class="btn btn-sm btn-outline-secondary" id="tv-transcript-reset" hidden>Reset</button>
+      {%- if tv-page %}
+      <a class="tv-across" id="tv-across" data-href="{{ tv-page.url | relative_url }}?id={{ tv-person | url_encode }}" href="{{ tv-page.url | relative_url }}?id={{ tv-person | url_encode }}">See these topics across all interviews <span aria-hidden="true">→</span></a>
+      {%- endif %}
+    </div>
   </div>
 
   <p class="visually-hidden">The colored topic bar is hidden for screen reader users. Use the topic buttons below it, the "Filter by Topic" menu or the search box to find specific content in the transcript.</p>
