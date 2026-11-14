@@ -1,0 +1,10 @@
+{%- comment -%}
+  Topic colors for the interview pages. Sets `topic-palette` (20 colors); a tag in
+  _data/filters.csv takes the color at its position in that file, repeating after 20:
+    {% include transcript/topic-colors.html %}
+    {% assign color = topic-palette[forloop.index0 | modulo: 20] %}   (looping over site.data.filters)
+  The topic visualization colors its topics the same way in _plugins/topic_viz_index.rb
+  (PALETTE). Keep the two lists identical, in the same order.
+  Colors from https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/
+{%- endcomment -%}
+{%- assign topic-palette = '#e6194b,#3cb44b,#ffe119,#4363d8,#f58231,#911eb4,#46f0f0,#f032e6,#bcf60c,#fabebe,#008080,#e6beff,#9a6324,#fffac8,#800000,#aaffc3,#808000,#ffd8b1,#000075,#808080' | split: ',' -%}

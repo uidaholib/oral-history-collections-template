@@ -2,13 +2,13 @@
   Topic bar for an interview page: every line of the transcript, start to finish,
   colored by its topics, drawn on one canvas by _includes/transcript/js/topic-strip-js.html
   from the transcript lines already on the page. Selecting a topic leaves only its
-  lines colored; search matches are marked in red. Colors come from filter-style.html.
+  lines colored; search matches are marked in red. Colors: transcript/topic-colors.html.
   Styles: _sass/_topic-viz.scss.
 {%- endcomment -%}
 {%- assign tv-page = site.pages | where: 'layout', 'topic-visualization' | first -%}
 {%- unless tv-page -%}{%- assign tv-page = site.pages | where: 'layout', 'visualization' | first -%}{%- endunless -%}
 {%- assign tv-person = page.personid | default: page.objectid -%}
-{%- assign tv-palette = '#e6194b,#3cb44b,#ffe119,#4363d8,#f58231,#911eb4,#46f0f0,#f032e6,#bcf60c,#fabebe,#008080,#e6beff,#9a6324,#fffac8,#800000,#aaffc3,#808000,#ffd8b1,#000075,#808080' | split: ',' -%}
+{%- include transcript/topic-colors.html -%}
 <div class="my-2 px-3 mt-2 tv-transcript" id="viz">
   <div class="d-flex flex-wrap align-items-baseline justify-content-between gap-2">
     <h3 class="mt-2 mb-0 meta">Topics:</h3>
@@ -26,7 +26,7 @@
     {%- assign slug = n.tag | slugify -%}
     {%- if uniqueSubjects contains slug -%}
     {%- assign position = forloop.index0 | modulo: 20 -%}
-    {%- assign color = site.data.topic_viz.colors[slug] | default: tv-palette[position] %}
+    {%- assign color = topic-palette[position] %}
     <button type="button" class="tv-topic" data-slug="{{ slug }}" data-label="{{ n.tag | escape }}" data-color="{{ color }}" style="--tv-topic-color: {{ color }}" aria-pressed="false"{% if n.description %} title="{{ n.description | escape }}"{% endif %}>
       <span class="tv-topic-swatch"></span>
       <span class="tv-topic-label">{{ n.tag }}</span>

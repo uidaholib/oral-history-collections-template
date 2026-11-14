@@ -1,16 +1,13 @@
 {%- comment -%}
-  Topic colours for the interview pages. They come from site.data.topic_viz.colors
-  (_plugins/topic_viz_index.rb), so each topic is the same colour here as on the
-  topic visualization. If the plugin has not run, a filters.csv tag takes the colour
-  at its position in that file, which is what the plugin would give it.
-  Colour list from https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/
+  A color class for each topic in _data/filters.csv (.<tag-slug> { fill; border-color }).
+  Colors: _includes/transcript/topic-colors.html.
 {%- endcomment -%}
-{%- assign tv-palette = '#e6194b,#3cb44b,#ffe119,#4363d8,#f58231,#911eb4,#46f0f0,#f032e6,#bcf60c,#fabebe,#008080,#e6beff,#9a6324,#fffac8,#800000,#aaffc3,#808000,#ffd8b1,#000075,#808080' | split: ',' -%}
+{%- include transcript/topic-colors.html -%}
 <style>
     {% for n in site.data.filters %}
     {%- assign slug = n.tag | slugify -%}
     {%- assign position = forloop.index0 | modulo: 20 -%}
-    {%- assign color = site.data.topic_viz.colors[slug] | default: tv-palette[position] -%}
+    {%- assign color = topic-palette[position] -%}
   .{{ slug }} {
     fill: {{ color }};
     border-color: {{ color }};
