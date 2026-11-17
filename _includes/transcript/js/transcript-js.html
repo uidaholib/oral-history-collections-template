@@ -1,412 +1,402 @@
 <script>
-// Utility functions for transcript pages
-const getUrlParams = () => {
-  const url = new URL(window.location);
-  return url.searchParams;
-};
-
-const updateUrlParams = (params, key, value) => {
-  if (value) {
-    params.set(key, value);
-  } else {
-    params.delete(key);
-  }
-  const paramString = params.toString();
-  window.history.replaceState({}, '', 
-    paramString ? `${location.pathname}?${paramString}` : location.pathname
-  );
-  return params;
-};
-
-const getElement = (id, fallback = null) => {
-  const element = document.getElementById(id);
-  return element || fallback;
-};
-
-const announceToScreenReader = (message, elementId = 'search-status-announcer') => {
-  const announcer = document.getElementById(elementId);
-  if (announcer) {
-    announcer.textContent = message;
-  }
-};
-
-// Initialize state
-const params = getUrlParams();
-const filtersSearch = getElement('filters-search');
-const filterTab = getElement('filter-tab');
-const upperElement = getElement('upper-content');
-const step0 = getElement('step0');
-
-/**
- * Shows a topic on the topic bar (_includes/transcript/js/topic-strip-js.html),
- * or with "all" clears every filter and search.
+/*
+ * Interview page: topic filter, text search, stepping through the results, and links to a line.
+ * Markup: _includes/transcript/item/filters.html (the bar) and item/transcript.html (the lines).
+ *
+ *  - One state object; every control is redrawn from it by render(), so the topic menu,
+ *    the topic buttons, the topic bar (window.ohdStrip, js/topic-strip-js.html), the
+ *    stepper and the URL can't drift apart.
+ *  - Lines that don't match are dimmed by color only. Nothing is resized, so the
+ *    transcript never reflows and the reader keeps their place.
+ *  - Search reads the text of each line (not its HTML) and marks every match.
+ *  - URL: ?filter=<topic-slug>  ?q=<search>  ?line=<line id>  (or #<line id>)
+ *
+ * Kept for markup and customizations written against earlier versions:
+ *   filterLines(slug)  vizFilter(slug | 'all')  searchLines(text)  resetVals()  scrollToLine(lineId)
  */
-function vizFilter(filterClass) {
-  if (filterClass === "all") {
-    resetVals();
-    return;
+(function () {
+  'use strict';
+
+  var PAGE_ID = {{ page.objectid | jsonify }};
+  // slug -> the tag as written in _data/filters.csv
+  var TOPIC_LABELS = { {% for f in site.data.filters %}{{ f.tag | slugify | jsonify }}: {{ f.tag | strip | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %} };
+
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var lines = [];   // [{ el, words, tags: [slug] }] in transcript order
+  var byId = {};    // line element id -> index
+  var ui = {};      // elements of the bar, filled by init()
+  var state = {
+    topic: null,    // slug of the selected topic
+    q: '',          // search text
+    stops: [],      // what the stepper walks: [{ start, end }] line indexes (a passage, or one matching line)
+    matched: 0,     // lines matching the topic or search
+    at: -1,         // index in stops of the result last stepped to
+    current: -1     // line last jumped to
+  };
+
+  function byIdEl(id) { return document.getElementById(id); }
+
+  function announce(message) {
+    if (ui.announcer) ui.announcer.textContent = message;
   }
 
-  updateUrlParams(params, 'filter', filterClass);
+  function plural(n, word) { return n.toLocaleString() + ' ' + word + (n === 1 ? '' : 's'); }
 
-  // Update filters dropdown if it exists
-  if (getElement('filters')) {
-    getElement('filters').value = filterClass;
+  function topicLabel(slug) { return TOPIC_LABELS[slug] || slug; }
+
+  /* ---------- reading the page ---------- */
+
+  function readLines() {
+    var container = byIdEl('contents-container');
+    if (!container) return;
+    Array.prototype.forEach.call(container.querySelectorAll('.line'), function (el, i) {
+      lines.push({ el: el, words: el.querySelector('.words'), tags: (el.dataset.tags || '').split(/\s+/).filter(Boolean) });
+      byId[el.id] = i;
+    });
   }
 
-  if (window.ohdStrip) window.ohdStrip.setTopic(filterClass);
-}
+  /* ---------- search highlighting ---------- */
 
-/**
- * Search transcript lines for matching text
- */
-function searchLines(searchQuery) {
-  resetVals();
-  
-  const itemcontainer = getElement("contents-container");
-  if (!itemcontainer) return;
-  
-  const lines = itemcontainer.getElementsByClassName("line");
-  
-  // Update URL parameters with search query
-  updateUrlParams(params, 'q', searchQuery);
-  
-  const filter = searchQuery.toUpperCase();
-  let searchResults = '<option>Select and scroll to a matching line</option>';
-  let matchCount = 0;
-  const hits = [];
+  function escapeRegex(text) { return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 
-  // Process each line
-  for (let i = 0; i < lines.length; i++) {
-    const wordsElement = lines[i].getElementsByClassName("words")[0];
-    
-    if (wordsElement) {
-      if (wordsElement.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        // Add featured class to matching line
-        lines[i].classList.add("featured");
-        matchCount++;
-        
-        // Add line to dropdown options
-        const truncatedText = wordsElement.innerHTML.substring(0, 125);
-        searchResults += '<option class="text-truncate" style="max-width: 250px;" value="{{page.objectid}}' + i + '">Line ' + i + ' -- ' + truncatedText + '...</option>';
-        
-        // Highlight matching text
-        wordsElement.innerHTML = wordsElement.innerHTML.replace(
-          searchQuery, 
-          "<span class='text-danger'>" + searchQuery + "</span>"
-        );
-        
+  // the text of a line, without the speaker's name
+  function textNodes(words) {
+    var nodes = [];
+    var walker = document.createTreeWalker(words, NodeFilter.SHOW_TEXT, null);
+    var node;
+    while ((node = walker.nextNode())) {
+      if (!(node.parentElement && node.parentElement.closest('.speaker'))) nodes.push(node);
+    }
+    return nodes;
+  }
+
+  // wraps every match in the line in <mark>; false when there is none
+  function markMatches(words, pattern) {
+    var found = false;
+    textNodes(words).forEach(function (node) {
+      var text = node.nodeValue;
+      pattern.lastIndex = 0;
+      var match = pattern.exec(text);
+      if (!match) return;
+      found = true;
+      var pieces = document.createDocumentFragment();
+      var from = 0;
+      while (match) {
+        if (match.index > from) pieces.appendChild(document.createTextNode(text.slice(from, match.index)));
+        var mark = document.createElement('mark');
+        mark.className = 'ohd-hit';
+        mark.textContent = match[0];
+        pieces.appendChild(mark);
+        from = match.index + match[0].length;
+        match = pattern.exec(text);
+      }
+      if (from < text.length) pieces.appendChild(document.createTextNode(text.slice(from)));
+      node.parentNode.replaceChild(pieces, node);
+    });
+    return found;
+  }
+
+  function clearMarks() {
+    lines.forEach(function (line) {
+      if (!line.words) return;
+      var marks = line.words.querySelectorAll('mark.ohd-hit');
+      if (!marks.length) return;
+      Array.prototype.forEach.call(marks, function (mark) {
+        mark.parentNode.replaceChild(document.createTextNode(mark.textContent), mark);
+      });
+      line.words.normalize();
+    });
+  }
+
+  /* ---------- state -> page ---------- */
+
+  function active() { return !!(state.topic || state.q); }
+
+  function show(el, visible) { if (el) el.classList.toggle('d-none', !visible); }
+
+  function countText() {
+    var n = state.stops.length;
+    if (!n) return 'No matches';
+    var unit = state.topic ? 'passage' : 'line';
+    if (state.at < 0) return plural(n, unit);
+    return (state.at + 1).toLocaleString() + ' of ' + n.toLocaleString();
+  }
+
+  function summary() {
+    if (state.topic) {
+      return plural(state.stops.length, 'passage') + ' (' + plural(state.matched, 'line') + ') tagged ' + topicLabel(state.topic);
+    }
+    return plural(state.matched, 'line') + ' match' + (state.matched === 1 ? 'es' : '') + ' "' + state.q + '"';
+  }
+
+  function writeUrl() {
+    var url = new URL(window.location);
+    var set = function (key, value) { if (value) url.searchParams.set(key, value); else url.searchParams.delete(key); };
+    set('filter', state.topic);
+    set('q', state.q);
+    set('line', state.current >= 0 ? lines[state.current].el.id : null);
+    url.hash = '';
+    window.history.replaceState({}, '', url.pathname + url.search);
+  }
+
+  // the bar, the menu, the topic bar and the URL, from state
+  function render() {
+    var on = active();
+    show(ui.results, on);
+    if (ui.count) {
+      ui.count.textContent = on ? countText() : '';
+      ui.count.title = on ? summary() : '';
+    }
+    if (ui.prev) ui.prev.disabled = !state.stops.length;
+    if (ui.next) ui.next.disabled = !state.stops.length;
+    if (ui.menu) ui.menu.value = state.topic && ui.menu.querySelector('option[value="' + state.topic.replace(/"/g, '\\"') + '"]') ? state.topic : 'all';
+    if (ui.search && ui.search.value.trim() !== state.q) ui.search.value = state.q;
+    writeUrl();
+  }
+
+  // which lines are featured or dimmed, from state
+  function paint(matches) {
+    var on = active();
+    lines.forEach(function (line, i) {
+      line.el.classList.toggle('featured', on && matches[i] === true);
+      line.el.classList.toggle('dimmed', on && matches[i] !== true);
+    });
+  }
+
+  /* ---------- actions ---------- */
+
+  function setTopic(slug) {
+    if (!slug || slug === 'all') { clearAll(); return; }
+    clearMarks();
+    state.topic = slug;
+    state.q = '';
+    state.stops = [];
+    state.matched = 0;
+    state.at = -1;
+    var matches = [];
+    var run = null;
+    lines.forEach(function (line, i) {
+      if (line.tags.indexOf(slug) > -1) {
+        matches[i] = true;
+        state.matched++;
+        if (run) run.end = i; else { run = { start: i, end: i }; state.stops.push(run); }
+      } else {
+        run = null;
+      }
+    });
+    paint(matches);
+    if (window.ohdStrip) window.ohdStrip.setTopic(slug);
+    render();
+    announce(summary());
+  }
+
+  function setQuery(text) {
+    var q = (text || '').trim();
+    if (!q) { clearAll(); return; }
+    clearMarks();
+    state.topic = null;
+    state.q = q;
+    state.stops = [];
+    state.matched = 0;
+    state.at = -1;
+    var pattern = new RegExp(escapeRegex(q), 'gi');
+    var matches = [];
+    var hits = [];
+    lines.forEach(function (line, i) {
+      if (line.words && markMatches(line.words, pattern)) {
+        matches[i] = true;
         hits.push(i);
-      } else {
-        wordsElement.classList.add("small", "text-muted");
-      }
-    }
-  }
-  
-  // Reset filters dropdown if it exists
-  if (getElement("filters")) {
-    getElement("filters").selectedIndex = 0;
-  }
-
-  // Mark the matching lines on the topic bar
-  if (window.ohdStrip) window.ohdStrip.setHits(hits);
-
-  // Update UI with results
-  const statusMessage = matchCount + " lines match your query: " + searchQuery;
-  announceToScreenReader(statusMessage);
-  
-  if (getElement("numberof")) {
-    getElement("numberof").innerHTML = matchCount + " lines match your query --><i> " + searchQuery + "</i>";
-  }
-  
-  if (getElement("searchResults")) {
-    getElement("searchResults").innerHTML = searchResults;
-  }
-  
-  if (getElement("linecount")) {
-    getElement("linecount").classList.remove("d-none");
-  }
-  
-  if (getElement("filtersearch-dropdown")) {
-    getElement("filtersearch-dropdown").classList.remove("d-none");
-  }
-  
-  // Handle filter retraction animation timing
-  if (filtersSearch && filtersSearch.classList.contains("retracted")) {
-    setTimeout(function() { filtersSearch.classList.add("retracted"); }, 300);
-  }
-}
-
-/**
- * Filter transcript lines by a specific tag
- */
-function filterLines(filterClass) {
-  // "Filter by Topic" (value "all") or an empty choice clears the filter
-  if (!filterClass || filterClass === 'all') {
-    vizFilter('all');
-    return;
-  }
-
-  resetVals();
-
-  const itemcontainer = getElement("contents-container");
-  if (!itemcontainer) return;
-  
-  const lines = itemcontainer.getElementsByClassName("line");
-  
-  // Update visualization and URL
-  vizFilter(filterClass);
-  updateUrlParams(params, 'filter', filterClass);
-  
-  let searchResults = '<option>Select and scroll to a matching line</option>';
-  let startLine = '';
-  let startNumber = 0;
-  
-  // Process each line
-  for (let i = 0; i < lines.length; i++) {
-    const wordsElement = lines[i].getElementsByClassName("words")[0];
-    
-    if (wordsElement) {
-      if (lines[i].classList.contains(filterClass)) {
-        // Mark line as featured
-        lines[i].classList.add("featured");
-        
-        // Get previous and next line indices
-        const prevLine = i - 1;
-        const nextLine = i + 1;
-        
-        // Create sections for dropdown navigation
-        if (prevLine >= 0 && !lines[prevLine].classList.contains(filterClass)) {
-          searchResults += '<option class="text-truncate" style="max-width: 250px;" value="{{page.objectid}}' + i + '">Line ' + i;
-          startLine = wordsElement.innerHTML.substring(0, 125);
-          startNumber = i;
-        } else if (
-          nextLine < lines.length && lines[nextLine].classList.contains(filterClass) && 
-          prevLine >= 0 && lines[prevLine].classList.contains(filterClass)
-        ) {
-          // Middle of a sequence - don't add to dropdown
-        } else if (nextLine < lines.length && !lines[nextLine].classList.contains(filterClass)) {
-          // End of a sequence - complete the dropdown entry
-          const lineTotal = i - startNumber + 1;
-          searchResults += ' to Line ' + i + ' (' + lineTotal + ' lines total) -- ' + startLine + '...</option>';
-        }
-      } else {
-        wordsElement.classList.add("small", "text-muted");
-      }
-    }
-  }
-  
-  // Update UI
-  if (getElement("quicksearch")) {
-    getElement("quicksearch").value = "";
-  }
-  
-  if (getElement("searchResults")) {
-    getElement("searchResults").innerHTML = searchResults;
-  }
-  
-  if (getElement("linecount")) {
-    getElement("linecount").classList.remove("d-none");
-  }
-  
-  if (getElement("filtersearch-dropdown")) {
-    getElement("filtersearch-dropdown").classList.remove("d-none");
-  }
-  
-  countforFilter(filterClass);
-  
-  // Handle filter retraction animation timing
-  if (filtersSearch && filtersSearch.classList.contains("retracted")) {
-    setTimeout(function() { filtersSearch.classList.add("retracted"); }, 300);
-  }
-}
-
-/**
- * Count and display the number of items matching a filter
- */
-function countforFilter(filterClass) {
-  const matchCount = document.querySelectorAll('.' + filterClass).length;
-  const sectionCount = document.getElementsByClassName('text-truncate').length;
-  
-  let sectionText = sectionCount == 1 
-    ? sectionCount + " section "
-    : sectionCount + " sections ";
-  
-  if (getElement("numberof")) {
-    getElement("numberof").innerHTML = sectionText + "(" + matchCount + " lines) are tagged as related to " + filterClass;
-  }
-}
-
-/**
- * Scroll to a specific line in the transcript
- */
-function scrollToLine(lineId) {
-  // Add media scroll wrapper if enabled
-  if (upperElement && window.site && window.site.data && window.site.data.theme && window.site.data.theme.mediaScroll) {
-    upperElement.classList.add("media-scroll-wrapper");
-  }
-  
-  const targetElement = getElement(lineId);
-  if (targetElement) {
-    // Announce to screen readers
-    const lineNum = lineId.replace(/[^0-9]/g, '');
-    announceToScreenReader("Navigated to line " + lineNum);
-    
-    // Highlight and make focusable
-    targetElement.classList.add("border-featured");
-    if (window.ohdStrip) window.ohdStrip.setCurrent(targetElement);
-    targetElement.setAttribute('tabindex', '0');
-    
-    // Smooth scroll to element
-    targetElement.scrollIntoView({
-      behavior: 'smooth',
-      block: 'center'
-    });
-    
-    // Focus the element
-    targetElement.focus();
-  }
-  
-  // Retract filters after scrolling if they're not already retracted
-  if (filtersSearch && !filtersSearch.classList.contains("retracted")) {
-    setTimeout(function() { filtersSearch.classList.add("retracted"); }, 300);
-  }
-}
-
-/**
- * Reset all filters and search states
- */
-function resetVals() {
-  // Clear URL parameters
-  updateUrlParams(params, 'q', null);
-  updateUrlParams(params, 'filter', null);
-  updateUrlParams(params, 'line', null);
-  
-  // Reset UI elements if they exist
-  if (getElement("linecount")) {
-    getElement("linecount").classList.add("d-none");
-  }
-  
-  if (getElement("filtersearch-dropdown")) {
-    getElement("filtersearch-dropdown").classList.add("d-none");
-  }
-  
-  if (getElement("quicksearch")) {
-    getElement("quicksearch").value = "";
-  }
-  
-  if (getElement("filters")) {
-    getElement("filters").selectedIndex = 0;
-  }
-  
-  // Reset all word and line elements
-  const words = document.querySelectorAll("p.words");
-  const lines = document.querySelectorAll(".line");
-  
-  for (let i = 0; i < words.length; i++) {
-    words[i].classList.remove('text-muted', 'featured', 'border-featured', 'small');
-    if (words[i].querySelector(".text-danger")) {
-      words[i].querySelector(".text-danger").classList.remove('text-danger');
-    }
-  }
-  
-  for (let i = 0; i < lines.length; i++) {
-    lines[i].classList.remove('text-muted', 'featured', 'border-featured', 'small');
-  }
-  
-  // Reset the topic bar
-  if (window.ohdStrip) window.ohdStrip.clear();
-}
-
-/**
- * Initialize the page
- */
-function init() {
-  // Set up search input handler
-  const searchInput = getElement("quicksearch");
-  if (searchInput) {
-    searchInput.addEventListener('keyup', function(e) {
-      if (e.key === 'Enter' || e.keyCode === 13) {
-        const searchVal = searchInput.value;
-        searchLines(searchVal);
+        state.stops.push({ start: i, end: i });
       }
     });
+    state.matched = hits.length;
+    paint(matches);
+    if (window.ohdStrip) window.ohdStrip.setHits(hits);
+    render();
+    announce(summary());
   }
-  
-  // Initialize from URL parameters
-  const dataFilter = params.get('q');
-  const codeFilter = params.get('filter');
-  const lineFilter = params.get('line');
-  const hashFilter = decodeURIComponent(location.hash.substr(1));
-  
-  if (dataFilter) {
-    // Handle search query parameter
-    if (searchInput) searchInput.value = dataFilter;
-    if (getElement('goButton')) getElement('goButton').click();
-    updateUrlParams(params, 'filter', null);
-    if (searchInput) searchInput.scrollIntoView();
-  } else if (codeFilter) {
-    // Handle filter parameter
-    filterLines(codeFilter);
-    if (getElement('colorViz')) getElement('colorViz').scrollIntoView();
-    updateUrlParams(params, 'q', null);
-    if (getElement('filters')) getElement('filters').value = codeFilter;
-  } else if (hashFilter) {
-    // Handle hash in URL
-    if (getElement(hashFilter)) getElement(hashFilter).classList.add('featured');
-    updateUrlParams(params, 'q', null);
-    updateUrlParams(params, 'filter', null);
-  } else if (lineFilter) {
-    // Handle line parameter
-    updateUrlParams(params, 'q', null);
-    updateUrlParams(params, 'filter', null);
-    scrollToLine(lineFilter);
+
+  function clearAll() {
+    clearMarks();
+    state.topic = null;
+    state.q = '';
+    state.stops = [];
+    state.matched = 0;
+    state.at = -1;
+    setCurrent(-1);
+    paint([]);
+    if (ui.search) ui.search.value = '';
+    if (window.ohdStrip) window.ohdStrip.clear();
+    render();
+    announce('Filters and search cleared');
   }
-  
-  // Init tooltips
-  if (window.bootstrap && typeof bootstrap.Tooltip === 'function') {
-    var tooltipTriggerList = Array.from(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl);
+
+  // only one line at a time is the current one
+  function setCurrent(i) {
+    if (state.current >= 0 && lines[state.current]) {
+      lines[state.current].el.classList.remove('border-featured');
+      lines[state.current].el.removeAttribute('tabindex');
+    }
+    state.current = i;
+    if (i >= 0) {
+      lines[i].el.classList.add('border-featured');
+      lines[i].el.setAttribute('tabindex', '-1');
+    }
+    if (window.ohdStrip) window.ohdStrip.setCurrent(i >= 0 ? lines[i].el : null);
+  }
+
+  // an interview with an index shows the transcript in a tab; make sure it is the open one
+  function showTranscriptTab(then) {
+    var tab = byIdEl('transcript-tab');
+    if (!tab || tab.classList.contains('active') || !window.bootstrap || !bootstrap.Tab) { then(); return; }
+    tab.addEventListener('shown.bs.tab', then, { once: true });
+    bootstrap.Tab.getOrCreateInstance(tab).show();
+  }
+
+  /**
+   * Go to a line: by index, by element id ("armantrout12"), or by number as text ("12").
+   * options.smooth === false jumps without animation (used on page load).
+   */
+  function goToLine(target, options) {
+    options = options || {};
+    var i = -1;
+    if (typeof target === 'number') i = target;
+    else if (byId.hasOwnProperty(target)) i = byId[target];
+    else if (byId.hasOwnProperty(PAGE_ID + target)) i = byId[PAGE_ID + target];
+    if (i < 0 || !lines[i]) return false;
+
+    setCurrent(i);
+    // keep the stepper in step when the line is one of its results
+    if (!options.fromStepper) {
+      state.at = -1;
+      for (var k = 0; k < state.stops.length; k++) {
+        if (i >= state.stops[k].start && i <= state.stops[k].end) { state.at = k; break; }
+      }
+    }
+    render();
+
+    showTranscriptTab(function () {
+      lines[i].el.scrollIntoView({ behavior: options.smooth === false || reduceMotion ? 'auto' : 'smooth', block: 'center' });
+      if (options.focus !== false) lines[i].el.focus({ preventScroll: true });
     });
+    if (!options.quiet) announce('Line ' + (i + 1) + ' of ' + lines.length);
+    return true;
   }
-}
 
- //filters tab javascript + scroll-to-top retraction of filters
- document.addEventListener('DOMContentLoaded', function () {
-          // check height of upper element containing av + metadata and viz
-          var upperHeight =  upperElement.offsetHeight;
-          // make the first sections minimum height equal to this height so that when the AV section moves down the page, the page height stays the same. First checks to see if the heigh is less than 300px and makes min-height 350px in that instance, which happens on mobile when going down to specific line.
-              if (upperHeight < 300) {
-             {% if site.data.filters or page.object_location %} step0.style.minHeight = "350px";{% else %}
-             step0.style.minHeight = "150px";{% endif %}
-            } else {
-              step0.style.minHeight = upperHeight + "px";
-            }
+  // First use of the stepper starts from where the reader is, not from the top.
+  function nearestStop(direction) {
+    var edge = window.innerHeight * 0.3;
+    var k;
+    if (direction > 0) {
+      for (k = 0; k < state.stops.length; k++) {
+        if (lines[state.stops[k].start].el.getBoundingClientRect().top > edge) return k;
+      }
+      return 0;
+    }
+    for (k = state.stops.length - 1; k >= 0; k--) {
+      if (lines[state.stops[k].start].el.getBoundingClientRect().top < 0) return k;
+    }
+    return state.stops.length - 1;
+  }
 
-          {% unless site.data.theme.search-and-filters == false %}
-            // add event listener so that when tab is clicked, filters element retracts up the page
-            filterTab.addEventListener('click', function () {
-            filtersSearch.classList.toggle('retracted');
-              });
-          {% endunless %}
-        // listener for the scroll to top button clickc
-        document.getElementById('scroll-to-top').addEventListener('click', function () {
-          {% unless site.data.theme.search-and-filters == false %}
-            // if scroll-to-top button clicked and filters are retracted, un retract them
-            if (filtersSearch.classList.contains("retracted")) {
-                filtersSearch.classList.remove("retracted"); }
-          {% endunless %}
-          {% if site.data.theme.media-scroll == true %}
-              // if the AV section is classed as moving down the page, remove it after 200 ms upon the scroll-to-top button being pushed
-            if (upperElement.classList.contains("media-scroll-wrapper")) {
-                setTimeout(function () { upperElement.classList.remove("media-scroll-wrapper"); }, 200);
-                 }
-          {% endif %}
-          });// end scroll to top listener
-         // end content loaded listener function
-  
-  // Initialize the page
-  init();
-});
+  function step(direction) {
+    var n = state.stops.length;
+    if (!n) return;
+    state.at = state.at < 0 ? nearestStop(direction) : (state.at + direction + n) % n;
+    var stop = state.stops[state.at];
+    goToLine(stop.start, { fromStepper: true, quiet: true });
+    announce((state.topic ? 'Passage ' : 'Match ') + (state.at + 1) + ' of ' + n +
+      (stop.end > stop.start ? ', lines ' + (stop.start + 1) + ' to ' + (stop.end + 1) : ', line ' + (stop.start + 1)));
+  }
+
+  /* ---------- earlier function names ---------- */
+
+  window.filterLines = setTopic;
+  window.vizFilter = setTopic;
+  window.searchLines = setQuery;
+  window.resetVals = clearAll;
+  window.scrollToLine = function (lineId) { return goToLine(lineId); };
+
+  /* ---------- start ---------- */
+
+  function init() {
+    ui = {
+      menu: byIdEl('filters'),
+      search: byIdEl('quicksearch'),
+      go: byIdEl('goButton'),
+      results: byIdEl('filtersearch-dropdown'),
+      count: byIdEl('numberof'),
+      prev: byIdEl('find-prev'),
+      next: byIdEl('find-next'),
+      reset: byIdEl('find-reset'),
+      announcer: byIdEl('search-status-announcer')
+    };
+    readLines();
+
+    if (ui.menu) ui.menu.addEventListener('change', function () { setTopic(ui.menu.value); });
+    if (ui.go) ui.go.addEventListener('click', function () { setQuery(ui.search ? ui.search.value : ''); });
+    if (ui.search) {
+      ui.search.addEventListener('keydown', function (event) {
+        if (event.key !== 'Enter') return;
+        event.preventDefault();
+        // Enter again on the same search steps to the next match (Shift+Enter: previous)
+        if (state.q && ui.search.value.trim() === state.q) step(event.shiftKey ? -1 : 1);
+        else setQuery(ui.search.value);
+      });
+      // the field's own clear (x) button
+      ui.search.addEventListener('search', function () { if (!ui.search.value && state.q) clearAll(); });
+    }
+    if (ui.prev) ui.prev.addEventListener('click', function () { step(-1); });
+    if (ui.next) ui.next.addEventListener('click', function () { step(1); });
+    if (ui.reset) ui.reset.addEventListener('click', clearAll);
+
+    // state from the URL. A topic or search is applied where the page opens; only a
+    // link to a line scrolls.
+    var params = new URL(window.location).searchParams;
+    var hash = '';
+    try { hash = decodeURIComponent(location.hash.substr(1)); } catch (e) { hash = ''; }
+    var line = params.get('line') || (byId.hasOwnProperty(hash) ? hash : '');
+    if (params.get('q')) setQuery(params.get('q'));
+    else if (params.get('filter')) setTopic(params.get('filter'));
+    if (line) goToLine(line, { smooth: false, focus: false, quiet: true });
+
+    if (window.bootstrap && typeof bootstrap.Tooltip === 'function') {
+      Array.prototype.forEach.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'), function (el) {
+        new bootstrap.Tooltip(el);
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var filtersSearch = byIdEl('filters-search');
+    var filterTab = byIdEl('filter-tab');
+    var sentinel = byIdEl('filters-sentinel');
+
+    {% unless site.data.theme.search-and-filters == false or site.data.theme.search-and-filters-sticky == false %}
+    // The pull tab hides and shows the bar while it is stuck to the top of the window.
+    // Only the reader operates it; the page never hides the bar.
+    if (filterTab && filtersSearch) {
+      var setRetracted = function (retracted) {
+        filtersSearch.classList.toggle('retracted', retracted);
+        filterTab.setAttribute('aria-expanded', retracted ? 'false' : 'true');
+      };
+      filterTab.addEventListener('click', function () {
+        setRetracted(!filtersSearch.classList.contains('retracted'));
+      });
+      if (sentinel && window.IntersectionObserver) {
+        // The root reaches far below the window, so the marker above the bar counts as
+        // "in view" until it passes the top edge - also when the page jumps past it.
+        new IntersectionObserver(function (entries) {
+          var stuck = !entries[entries.length - 1].isIntersecting;
+          filterTab.classList.toggle('d-none', !stuck);
+          if (!stuck) setRetracted(false);
+        }, { rootMargin: '0px 0px 1000000px 0px' }).observe(sentinel);
+      }
+    }
+    {% endunless %}
+
+    init();
+  });
+})();
 </script>

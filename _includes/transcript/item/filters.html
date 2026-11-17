@@ -9,14 +9,18 @@
     </div>
 </div>
 {% else %}
-<div class="row my-3 {% unless site.data.theme.search-and-filters-sticky == false %}sticky-top {% endunless %}bg-white border-bottom border-left border-right d-print-none py-3 w-md-75"
+{%- comment -%} One bar: topic menu, search, and - once a topic or search is active - the
+    previous/next stepper with Reset. On wide screens that is a single row; below lg the
+    stepper takes a second row. Behaviour: _includes/transcript/js/transcript-js.html.
+    Styles: #filters-search in _sass/_ohd.scss. {%- endcomment -%}
+{%- if site.data.filters and uniqueSubjects.size > 0 -%}{%- assign has-topics = true -%}{%- else -%}{%- assign has-topics = false -%}{%- endif %}
+<div id="filters-sentinel" aria-hidden="true" style="height: 1px; margin-bottom: -1px;"></div>
+<div class="row my-3 {% unless site.data.theme.search-and-filters-sticky == false %}sticky-top {% endunless %}bg-white border-bottom border-left border-right d-print-none py-2 py-md-3 w-md-75 align-items-center"
     id="filters-search">
-    <div class="col {% unless site.data.filters and uniqueSubjects.size > 0 %}d-none{% endunless %}">
-        <!-- Enhanced label for screen readers -->
+    <div class="col-6 col-lg-3 {% unless has-topics %}d-none{% endunless %}">
         <label for="filters" class="visually-hidden">Filter transcript by topic</label>
-        <select id="filters" title="Filter by Topic" class="filters py-1 form-select border border-primary"
-            onchange="filterLines(this.value)">
-            <option value="all" class="reset" selected="selected reset">
+        <select id="filters" title="Filter by Topic" class="filters py-1 form-select border border-primary">
+            <option value="all" class="reset" selected>
                 Filter by Topic
             </option>
             {% assign filters = site.data.filters %} {% for filter in filters %}
@@ -28,51 +32,38 @@
             {%endif%} {% endfor %}
         </select>
     </div>
-    <div class="col">
-        <div id="transcriptsearch" class="bg-lightr">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Add a proper label for the search input -->
-                    <label for="quicksearch" class="visually-hidden">Search transcript text</label>
-                    <div class="input-group fs-5 mt-0 mt-md-0">
-                        <input type="text" class="form-control border border-primary py-1" placeholder="Search transcript..."
-                            aria-label="Search transcript" id="quicksearch" />
-                        <div class="input-group-append">
-                            <button class="rounded-right border border-primary btn btn-primary p-1" type="button"
-                                aria-label="Search transcript" id="goButton"
-                                onclick="var searchval = document.getElementById('quicksearch').value; searchLines(searchval);">
-                                Go
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <button class="reset btn btn-sm btn-primary input-group-text float-end float-md-none mt-2 mt-md-0"
-                        onclick="{% if site.data.filters %}vizFilter('all');{% else %}resetVals();{% endif %}" aria-label="Reset all filters and search">
-                        Reset Filters
-                    </button>
-                </div>
-            </div>
+    <div class="{% if has-topics %}col-6 col-lg-4{% else %}col-12 col-lg-5{% endif %}" id="transcriptsearch">
+        <label for="quicksearch" class="visually-hidden">Search transcript text</label>
+        <div class="input-group">
+            <input type="search" class="form-control border border-primary py-1" placeholder="Search transcript..."
+                aria-label="Search transcript" id="quicksearch" enterkeyhint="search" autocomplete="off" />
+            <script>/* shorter placeholder where the box is narrow (phones) */
+                if (window.matchMedia('(max-width: 767.98px)').matches) document.getElementById('quicksearch').placeholder = 'Search…';</script>
+            <button class="border border-primary btn btn-primary py-1 px-2" type="button"
+                aria-label="Search transcript" id="goButton">
+                Go
+            </button>
         </div>
     </div>
-    <div id="filtersearch-dropdown" class="col-12 d-none mt-3">
-        <p id="linecount" class="d-none small ms-3 h5">
-            <span id="numberof"></span>
-        </p>
-
-        <!-- Enhance the dropdown with proper labeling -->
-        <label for="searchResults" class="visually-hidden">Jump to matching line in transcript</label>
-        <select class="w-100 col-md-8 mb-2 form-select p-2 border border-primary" id="searchResults"
-            onchange="scrollToLine(this.value);"></select>
-
-        <!-- Add a status announcer for screen readers -->
-        <div role="status" aria-live="polite" class="visually-hidden" id="search-status-announcer"></div>
+    <div id="filtersearch-dropdown" class="col-12 {% if has-topics %}col-lg-5{% else %}col-lg-7{% endif %} mt-2 mt-lg-0 d-none">
+        <div class="d-flex align-items-center gap-2">
+            <div class="btn-group flex-shrink-0" role="group" aria-label="Step through the results">
+                <button type="button" class="btn btn-outline-primary py-1" id="find-prev" aria-label="Previous result" title="Previous result">&#8249;</button>
+                <button type="button" class="btn btn-outline-primary py-1" id="find-next" aria-label="Next result" title="Next result">&#8250;</button>
+            </div>
+            <span id="numberof" class="small flex-grow-1 text-truncate"></span>
+            <button class="reset btn btn-sm btn-primary flex-shrink-0" type="button" id="find-reset"
+                aria-label="Reset: clear the topic filter and search">
+                Reset
+            </button>
+        </div>
     </div>
-    <div id="filter-tab"
-        class="d-none filter-tab col-4 col-lg-2 text-center justify-content-end bg-primary text-white small px-1 py-1">
+    <div role="status" aria-live="polite" class="visually-hidden" id="search-status-announcer"></div>
+    <button type="button" id="filter-tab" aria-expanded="true" aria-controls="filters-search"
+        class="d-none filter-tab border-0 text-center bg-primary text-white small px-2 py-1">
         <span id="hide-filters-text">Hide Filters &#9650;</span>
         <span id="show-filters-text">Show Filters &#9660;</span>
-    </div>
+    </button>
 </div>
 {% endif %}
 {% endif %}

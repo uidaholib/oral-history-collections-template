@@ -1,0 +1,141 @@
+<script>
+/*
+ * Player bar for interview pages (markup: _includes/transcript/item/av.html).
+ *
+ * The player sits at the top of the page. While the reader is down in the transcript it
+ * can be called up as a bar along the bottom of the window:
+ *   - opens from the "Player" tab, or when a timestamp is selected while the player at
+ *     the top is out of view (media-dock-auto in _data/theme.yml);
+ *   - closes with its X or Escape - playback carries on;
+ *   - goes back to its place when the reader returns to the top of the page.
+ * Scrolling alone never opens it. The player element is pinned, not moved, so an
+ * embedded video keeps playing; #media-slot holds its place in the page.
+ *
+ * For mp3 and YouTube the tab shows when something is playing, and the topic bar marks
+ * the line being played (window.ohdStrip.setPlaying).
+ */
+(function () {
+  'use strict';
+
+  var dock = document.getElementById('media-dock');
+  var slot = document.getElementById('media-slot');
+  if (!dock || !slot || dock.dataset.dock !== 'true' || !window.IntersectionObserver) return;
+
+  var tab = document.getElementById('media-tab');
+  var closeButton = document.getElementById('media-dock-close');
+  var sizeButton = document.getElementById('media-dock-size');
+  var root = document.documentElement;
+  var auto = dock.dataset.auto !== 'false';
+  var av = dock.dataset.av;
+
+  var slotVisible = true;  // is the player's own place at the top on screen?
+  var wanted = false;      // has the reader asked for the bar (and not closed it)?
+  var docked = false;
+
+  // the bar spans the page's content column
+  function place() {
+    var rect = slot.getBoundingClientRect();
+    root.style.setProperty('--media-dock-left', rect.left + 'px');
+    root.style.setProperty('--media-dock-width', rect.width + 'px');
+  }
+
+  function measure() {
+    root.style.setProperty('--media-dock-height', (docked ? dock.offsetHeight : 0) + 'px');
+  }
+
+  function update() {
+    var shouldDock = wanted && !slotVisible;
+    if (shouldDock !== docked) {
+      if (shouldDock) slot.style.height = slot.offsetHeight + 'px';  // hold the player's place
+      place();
+      docked = shouldDock;
+      dock.classList.toggle('is-docked', docked);
+      document.body.classList.toggle('media-dock-open', docked);
+      if (!docked) slot.style.height = '';
+      measure();
+    }
+    if (tab) { tab.hidden = slotVisible || docked; }
+  }
+
+  function open(focus) {
+    wanted = true;
+    update();
+    if (focus && docked && closeButton) closeButton.focus();
+  }
+
+  function close() {
+    var hadFocus = dock.contains(document.activeElement);
+    wanted = false;
+    update();
+    if (hadFocus && tab && !tab.hidden) tab.focus();
+  }
+
+  new IntersectionObserver(function (entries) {
+    slotVisible = entries[entries.length - 1].isIntersecting;
+    update();
+  }).observe(slot);
+
+  if (tab) tab.addEventListener('click', function () { open(true); });
+  if (closeButton) closeButton.addEventListener('click', close);
+  dock.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && docked) close();
+  });
+
+  if (sizeButton) sizeButton.addEventListener('click', function () {
+    var collapsed = dock.classList.toggle('is-collapsed');
+    sizeButton.setAttribute('aria-pressed', collapsed ? 'true' : 'false');
+    sizeButton.textContent = collapsed ? 'Show video' : 'Hide video';
+    measure();
+  });
+
+  // a timestamp in the transcript or the index
+  if (auto) document.addEventListener('click', function (event) {
+    if (event.target.closest && event.target.closest('.timestamp-link') && !slotVisible) open(false);
+  });
+
+  place();
+  window.addEventListener('resize', function () { place(); if (docked) measure(); });
+  if (window.ResizeObserver) new ResizeObserver(function () { if (docked) measure(); }).observe(dock);
+
+  /* ---------- what is playing (mp3 and YouTube) ---------- */
+
+  var audio = document.getElementById('audio-player');
+  var clock = null;
+  if (av === 'mp3' && audio) {
+    clock = { playing: function () { return !audio.paused && !audio.ended; }, time: function () { return audio.currentTime; } };
+  } else if (av === 'youtube') {
+    clock = {
+      playing: function () { return !!(window.player && player.getPlayerState && player.getPlayerState() === 1); },
+      time: function () { return window.player && player.getCurrentTime ? player.getCurrentTime() : 0; }
+    };
+  }
+
+  if (clock) document.addEventListener('DOMContentLoaded', function () {
+    // lines that carry a timestamp, in order
+    var stamps = [];
+    Array.prototype.forEach.call(document.querySelectorAll('#contents-container .line'), function (line) {
+      var link = line.querySelector('.timestamp-link[data-timestamp]');
+      var seconds = link ? parseFloat(link.dataset.timestamp) : NaN;
+      if (!isNaN(seconds)) stamps.push({ seconds: seconds, el: line });
+    });
+
+    function lineAt(seconds) {
+      var lo = 0, hi = stamps.length - 1, found = null;
+      while (lo <= hi) {
+        var mid = (lo + hi) >> 1;
+        if (stamps[mid].seconds <= seconds) { found = stamps[mid].el; lo = mid + 1; } else { hi = mid - 1; }
+      }
+      return found;
+    }
+
+    setInterval(function () {
+      var playing = false;
+      try { playing = clock.playing(); } catch (e) { playing = false; }
+      if (tab) tab.classList.toggle('is-playing', playing);
+      if (playing && stamps.length && window.ohdStrip && window.ohdStrip.setPlaying) {
+        window.ohdStrip.setPlaying(lineAt(clock.time()));
+      }
+    }, 1000);
+  });
+})();
+</script>

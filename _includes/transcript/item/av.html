@@ -1,3 +1,33 @@
-<div class="interview-object mt-3 px-0">
-  {% include transcript/player/{{av}}.html %}
+{%- comment -%}
+  The interview's player. It lives in #media-slot at the top of the page. With
+  media-scroll: true in _data/theme.yml the reader can also call it up as a bar along the
+  bottom of the window while reading (a timestamp, or the "Player" tab): the same element
+  is pinned there (never moved in the page, so playback is not interrupted) and
+  #media-slot keeps its place. Behaviour: _includes/transcript/js/media-dock-js.html.
+  Styles: .media-dock in _sass/_ohd.scss.
+{%- endcomment -%}
+{%- assign dock-video = false -%}
+{%- if av == 'youtube' or av == 'vimeo' -%}{%- assign dock-video = true -%}{%- endif -%}
+{%- if av == 'internetarchive' -%}{%- unless page.format contains 'audio' -%}{%- assign dock-video = true -%}{%- endunless -%}{%- endif -%}
+<div id="media-slot" class="media-slot mt-3">
+  <div id="media-dock" class="media-dock {% if dock-video %}media-dock--video{% else %}media-dock--audio{% endif %}" data-av="{{ av }}"
+    {%- if site.data.theme.media-scroll == true %} data-dock="true"{% endif %}
+    {%- if site.data.theme.media-dock-auto == false %} data-auto="false"{% endif %}>
+    {%- if site.data.theme.media-scroll == true %}
+    <div class="media-dock-head d-print-none">
+      <span class="media-dock-title text-truncate">{{ page.interviewee | default: page.title }}</span>
+      {% if dock-video %}<button type="button" class="btn btn-sm btn-outline-secondary media-dock-size" id="media-dock-size" aria-pressed="false">Hide video</button>{% endif %}
+      <button type="button" class="btn-close media-dock-close" id="media-dock-close" aria-label="Close the player bar"></button>
+      {% if site.data.filters and uniqueSubjects.size > 0 %}<canvas id="dockViz" class="media-dock-strip tv-transcript-strip" aria-hidden="true"></canvas>{% endif %}
+    </div>
+    {%- endif %}
+    <div class="interview-object px-0">
+      {% include transcript/player/{{av}}.html %}
+    </div>
+  </div>
 </div>
+{%- if site.data.theme.media-scroll == true %}
+<button type="button" id="media-tab" class="media-tab btn btn-sm btn-dark d-print-none" aria-controls="media-dock" hidden>
+  <span class="media-tab-icon" aria-hidden="true"></span> Player
+</button>
+{%- endif %}
