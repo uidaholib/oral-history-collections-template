@@ -8,7 +8,8 @@
 # 
 transcript-fields: "description,date,location,interviewer,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
 # list the fields you'd like displayed, separated by comma
-media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
+media-scroll: true ## true/false or blank --> if true, readers can call the player up as a bar along the bottom of the window while they read a transcript (it opens from a "Player" tab, closes with its X, and never opens on scroll alone)
+media-dock-auto: true ## true/false --> with media-scroll on, selecting a timestamp opens that player bar when the player at the top of the page is out of view. false = only the "Player" tab opens it
 search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
 search-and-filters-sticky: true ## true/false --> determines if the search and filter options are sticky to the top of the page as a user scrolls down a transcript
 

@@ -1,5 +1,6 @@
 {%- comment -%}
-  A color class for each topic in _data/filters.csv (.<tag-slug> { fill; border-color }).
+  A color class for each topic in _data/filters.csv (.topic-<tag-slug> { fill; border-color }),
+  the class each tagged transcript line carries (_includes/transcript/item/transcript.html).
   Colors: _includes/transcript/topic-colors.html.
 {%- endcomment -%}
 {%- include transcript/topic-colors.html -%}
@@ -8,7 +9,7 @@
     {%- assign slug = n.tag | slugify -%}
     {%- assign position = forloop.index0 | modulo: 20 -%}
     {%- assign color = topic-palette[position] -%}
-  .{{ slug }} {
+  .topic-{{ slug }} {
     fill: {{ color }};
     border-color: {{ color }};
   }
