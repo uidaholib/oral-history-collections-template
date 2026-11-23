@@ -1,13 +1,20 @@
+{%- comment -%} Define trancheck variable needed by filters.html {%- endcomment -%}
+{% assign trancheck = items | map: "words" %}
 {% include transcript/item/filters.html %}
-<!-- cb: _includes/transcript/item/transcript-viz.html -->
-<div id="contents-container" class="pe-5 pb-5 mb-5 border-bottom pdf-content">
+<!-- cb: _includes/transcript/item/transcript.html -->
+<div id="contents-container" class="pe-md-5 pb-5 mb-5 border-bottom pdf-content">
   {% for item in items %}
   {% assign prev_index = forloop.index0 | times: 1 | minus: 1 %}
   {% assign prev_speaker = items[prev_index].speaker %}
   {% assign mod = forloop.index0 | plus: 1 | modulo: 5 %}
-  <div id="{{page.objectid}}{{ forloop.index0 }}" class="{%- assign tags = item.tags | split: ";" | compact | where_exp: 'item' , 'item != " "' %}{% for tag in tags %}{{tag | remove: ";" | strip | downcase }}  {% endfor %}row line py-1">
+  {%- comment -%} Topics go on the line as data-tags (read by the page's scripts) and as
+      topic-<slug> classes (colored in style/filter-style.html). They are prefixed so a tag
+      named like a Bootstrap class ("small", "row", "collapse") cannot restyle the line. {%- endcomment -%}
+  {%- capture line-tags -%}{% assign tags = item.tags | split: ";" %}{% for tag in tags %}{% assign slug = tag | slugify %}{% if slug != "" %}{{ slug }} {% endif %}{% endfor %}{%- endcapture -%}
+  {%- assign line-tags = line-tags | strip | split: " " | uniq -%}
+  <div id="{{page.objectid}}{{ forloop.index0 }}"{% if line-tags.size > 0 %} data-tags="{{ line-tags | join: ' ' }}"{% endif %} class="{% for slug in line-tags %}topic-{{ slug }} {% endfor %}row line py-1">
     <p class="words col-md-10 col-lg-8 col-print-12 pr-0">
-      {% unless item.speaker == prev_speaker %}{%if item.speaker %}<span class="fw-bold pe-3 pb-3">{{item.speaker |
+      {% unless item.speaker == prev_speaker %}{%if item.speaker %}<span class="speaker fw-bold pe-3 pb-3">{{item.speaker |
         remove: ":"}}: </span>{% endif %}{% endunless %}{{item.words}}
     </p>
     <div class="col-12 col-md-2 timestamp mb-3 small text-center">

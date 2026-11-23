@@ -16,22 +16,51 @@
     font-size: 12px;
 }
 
-.featured {
+/* transcript lines while a topic or search is active (js/transcript-js.html):
+   matches are tinted, the rest are dimmed by color only, so no line changes size */
+.featured .words {
     background-color: aquamarine !important;
     color: black !important;
 }
 
-.border-featured {
+.line.dimmed .words {
+    color: #6c757d;
+}
+
+/* the line last jumped to */
+.border-featured .words {
     border-left: 1px solid black !important;
     border-left-width: thick !important;
     background-color: aquamarine !important;
+}
+
+.line:focus {
+    outline: none;
+}
+
+.line:focus-visible .words {
+    outline: 2px solid var(--bs-primary, #0d6efd);
+    outline-offset: 2px;
+}
+
+/* a line reached by link or jump stops clear of the sticky search bar */
+#contents-container .line {
+    scroll-margin-top: 6rem;
+}
+
+/* search matches */
+mark.ohd-hit {
+    padding: 0 0.1em;
+    background-color: #ffe066;
+    color: #000;
+    border-radius: 2px;
 }
 
 .btn-outline-dark:hover {
     background-color: #212529 !important;
 }
 
-.legendTag, .transcriptTitle {
+.transcriptTitle {
     cursor: pointer;
 }
 .tableTimestamp {
@@ -39,25 +68,34 @@
     vertical-align:top;
 }
 
-// tab to show/hide  filters options for transcripts
+// pull tab that hides/shows the search and filter bar (only the reader operates it)
 
 .filter-tab {
     position: absolute;
-    bottom:-17px;
-    right: 0%;
-    transform: translateY(50%);    
+    top: 100%;
+    right: 0;
+    width: auto;
     border-radius: 0 0 5px 5px;
     cursor: pointer;
-    transition: all 0.5s ease;
   }
 
-  .filter-tab:hover {
-    background-color: #0056b3;
+  .filter-tab:hover,
+  .filter-tab:focus-visible {
+    background-color: #0056b3 !important;
+  }
+
+  #filters-search {
+    transition: transform 0.3s ease;
+    #show-filters-text{
+        display:none;
+    }
+    #hide-filters-text{
+        display:block;
+    }
   }
 
   #filters-search.retracted {
     transform: translateY(-100%);
-    transition: all 0.5s ease;
     #show-filters-text{
         display:block;
     }
@@ -66,13 +104,193 @@
     }
   }
 
-  #filters-search {
-    transition: transform 0.5s ease;
-    #show-filters-text{
-        display:none;
+  #filters-search #numberof {
+    min-width: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #filters-search {
+        transition: none;
     }
-    #hide-filters-text{
-        display:block;
+  }
+
+/* ---------- player bar ----------
+   The player (#media-dock) sits in #media-slot at the top of an interview. When the
+   reader calls for it while reading, it is pinned along the bottom of the window as
+   .is-docked. Markup: _includes/transcript/item/av.html. Behaviour:
+   _includes/transcript/js/media-dock-js.html. */
+
+.media-dock-head {
+    display: none;
+}
+
+.media-dock.is-docked {
+    position: fixed;
+    bottom: 0;
+    left: var(--media-dock-left, 0);
+    width: var(--media-dock-width, 100%);
+    z-index: 1030;
+    display: grid;
+    grid-template-columns: clamp(140px, 30%, 240px) minmax(0, 1fr);
+    gap: 0.5rem 0.75rem;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    background: #fff;
+    border: 1px solid var(--bs-border-color, #dee2e6);
+    border-bottom: 0;
+    border-radius: 0.5rem 0.5rem 0 0;
+    box-shadow: 0 -0.25rem 1rem rgba(0, 0, 0, 0.15);
+    animation: media-dock-in 0.2s ease-out;
+
+    .media-dock-head {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto auto;
+        gap: 0.4rem 0.5rem;
+        align-items: center;
+        grid-column: 2;
+        grid-row: 1;
+        min-width: 0;
+    }
+
+    .media-dock-title {
+        font-weight: 600;
+        font-size: 0.95rem;
+    }
+
+    .media-dock-close {
+        grid-column: 3;
+    }
+
+    .media-dock-strip {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    .interview-object {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 0 !important;
+    }
+
+    // embeds with a fixed height (Internet Archive, SoundCloud) fit the bar
+    .interview-object > iframe,
+    #soundcloud-player {
+        height: 110px;
+    }
+}
+
+// audio: the title row above, the controls across the bar beneath
+.media-dock--audio.is-docked {
+    grid-template-columns: minmax(0, 1fr);
+
+    .media-dock-head,
+    .interview-object {
+        grid-column: 1;
+    }
+
+    .interview-object {
+        grid-row: 2;
+    }
+
+    audio {
+        display: block;
+        height: 2.5rem;
+    }
+}
+
+// "Hide video": the bar keeps playing as a single row; the video is clipped, not removed
+.media-dock--video.is-docked.is-collapsed {
+    grid-template-columns: minmax(0, 1fr);
+
+    .media-dock-head {
+        grid-column: 1;
+    }
+
+    .interview-object {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip-path: inset(50%);
+    }
+}
+
+@keyframes media-dock-in {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+// the tab that calls the bar up, shown once the player at the top is out of view
+.media-tab {
+    position: fixed;
+    bottom: 0;
+    left: 0.75rem;
+    z-index: 1030;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 0.45rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 -0.15rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.media-tab-icon::before {
+    content: "\25B6";
+    font-size: 0.75em;
+    margin-right: 0.25rem;
+}
+
+.media-tab.is-playing .media-tab-icon::before {
+    content: "\25CF";
+    color: #ff6b6b;
+    animation: media-tab-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes media-tab-pulse {
+    50% {
+        opacity: 0.35;
+    }
+}
+
+// keep the end of the page, and the back-to-top button, clear of the open bar
+body.media-dock-open {
+    // body is a flex column (see _layouts/default.html), so add the room as a last item
+    &::after {
+        content: "";
+        flex: 0 0 var(--media-dock-height, 0px);
+    }
+
+    #scroll-to-top {
+        bottom: calc(var(--media-dock-height, 0px) + 12px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .media-dock.is-docked,
+    .media-tab.is-playing .media-tab-icon::before {
+        animation: none;
+    }
+}
+
+@media print {
+    .media-dock.is-docked {
+        position: static;
+        display: block;
+        width: auto;
+        box-shadow: none;
+        border: 0;
+    }
+}
+
+/* on phones the timestamp sits above the text it marks, not under it */
+@media (max-width: 767.98px) {
+    #contents-container .line > .timestamp {
+        order: -1;
+        text-align: left !important;
+        margin-bottom: 0.15rem !important;
     }
 }
 
@@ -157,4 +375,65 @@
         display: none !important;
     }
 
+}
+
+/* ---------- small screens ----------
+   The site title and the interview's button row are the two things that pushed
+   pages wider than a phone screen (sideways scrolling). Let both wrap instead. */
+
+@media (max-width: 991.98px) {
+    header .navbar > .container > h1 {
+        min-width: 0;
+        flex: 1 1 0;
+    }
+
+    header .navbar-brand {
+        white-space: normal;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #transcript-metadata .btn-group.meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    /* buttons stand alone once they wrap, so give each its own rounded corners */
+    #transcript-metadata .btn-group.meta > .btn,
+    #transcript-metadata .btn-group.meta > .btn-group > .btn {
+        margin-left: 0;
+        border-radius: var(--bs-btn-border-radius);
+    }
+}
+
+/* long words or URLs in a transcript line wrap rather than widen the page */
+#contents-container .words {
+    overflow-wrap: anywhere;
+}
+
+/* sticky transcript search bar on phones (markup: _includes/transcript/item/filters.html):
+   one row of menu + search, and a small show/hide tab that covers less of the text */
+@media (max-width: 767.98px) {
+    #filters-search .filters,
+    #filters-search #quicksearch {
+        min-width: 0;
+        text-overflow: ellipsis;
+    }
+
+    #filters-search #goButton {
+        padding-left: 0.6rem !important;
+        padding-right: 0.6rem !important;
+    }
+
+    #filters-search .filter-tab {
+        padding: 0.15rem 0.75rem !important;
+        font-size: 0.75rem;
+        line-height: 1.4;
+    }
+
+    #filters-search #numberof {
+        font-size: 0.85rem;
+    }
 }

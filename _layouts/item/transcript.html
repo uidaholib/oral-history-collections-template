@@ -2,7 +2,7 @@
 # generic fallback item page layout
 # displays image or icon depending on "image_thumb"
 layout: item/item-page-base
-custom-foot: transcript/js/transcript-js.html;transcript/js/scrollama-js.html;transcript/js/pagedjs-js.html
+custom-foot: transcript/js/transcript-js.html;transcript/js/media-dock-js.html;transcript/js/pagedjs-js.html
 gallery: true
 ---
 {%- comment -%} Determine if transcript filename is the objectid of the item or if it is determined by the metadata's object-transcript field {%- endcomment -%}
@@ -20,7 +20,7 @@ gallery: true
 {% include transcript/style/filter-style.html %}
 {%- assign min-count = 1 -%}
 {%- assign raw-subjects = items | map: "tags" | compact | join: ";" | split: ";" -%}
-{%- capture subjects -%}{% for s in raw-subjects %}{% if s != "" %}{{- s | strip | downcase -}};{% endif %}{%- endfor
+{%- capture subjects -%}{% for s in raw-subjects %}{% if s != "" %}{{- s | slugify -}};{% endif %}{%- endfor
 -%}{%-
 endcapture -%}
 {%- assign subjects = subjects | split: ";" -%}
@@ -51,12 +51,8 @@ endcapture -%}
 
 <div id="scrolly">
   <article>
-    <div class="step my-3 {% unless site.data.theme.media-scroll == false %}
-    pb-5{% endunless %}" id="step0" >
+    <div class="step my-3 pb-4" id="step0" >
       <div id="upper-content">
-        {% if site.data.theme.media-scroll == true %}
-        {% include transcript/style/media-scroll-wrapper.html %}
-        {% endif %}
         {% if av %}
         {% include transcript/item/av.html %}
         {% endif %}
