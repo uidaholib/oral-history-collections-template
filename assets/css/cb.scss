@@ -43,5 +43,11 @@ $theme-link-color: {{ site.data.theme.link-color | default: "#00AEC7" }};
 /* pull in OHD styles */
 @use "ohd"; 
 
+/* topic visualization and the interview topic bar */
+@use "topic-viz";
+
+/* subject index page and the "In this interview" list on interview pages */
+@use "subject-index";
+
 /* pull in custom styles to override everything else */
 @use "custom";

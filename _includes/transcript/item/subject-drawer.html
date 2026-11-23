@@ -1,0 +1,205 @@
+{%- comment -%}
+
+    "In this interview": the people, places and things this interview mentions, in a drawer
+    the reader calls up from the bar above the transcript (the button is in filters.html).
+    Nothing on the page changes until they do. Choosing a subject steps through its lines
+    here and links to its passages in the other interviews (the Subject Index page).
+
+    Shown when the collection has a subject index (_data/subject-index.csv) with something
+    in this interview, unless subject-drawer is false in _data/theme.yml.
+    Data: <subject-index-output>/interviews/<objectid>.json from _plugins/subject_index.rb.
+
+{%- endcomment -%}
+{%- assign sd_output = site.data.theme.subject-index-output | default: 'assets/data/subject-index' -%}
+<div class="offcanvas offcanvas-end subject-drawer d-print-none" tabindex="-1" id="subject-drawer"
+     data-bs-scroll="true" data-bs-backdrop="false" aria-labelledby="subject-drawer-title"
+     data-objectid="{{ page.objectid }}"
+     data-source="{{ '/' | append: sd_output | append: '/' | replace: '//', '/' | relative_url }}"
+     data-index="{% unless site.data.theme.subject-index == false %}{{ '/subject-index.html' | relative_url }}{% endunless %}">
+  <div class="offcanvas-header">
+    <h2 class="offcanvas-title h5" id="subject-drawer-title">In this interview</h2>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body" id="subject-drawer-body">
+    <p class="text-muted">Loading…</p>
+  </div>
+  <div class="visually-hidden" role="status" aria-live="polite" id="subject-drawer-status"></div>
+</div>
+<script>
+/* "In this interview" drawer: see the comment at the top of
+   _includes/transcript/item/subject-drawer.html */
+(function () {
+  'use strict';
+
+  var drawer = document.getElementById('subject-drawer');
+  var body = document.getElementById('subject-drawer-body');
+  var status = document.getElementById('subject-drawer-status');
+  if (!drawer || !body) return;
+
+  var PAGE = drawer.dataset.objectid, SOURCE = drawer.dataset.source, INDEX = drawer.dataset.index;
+  var subjects = null;   // [{ category, slug, key, label, definition, lines, count, interviews }]
+  var chosen = null, at = -1;
+  var keepMarks = false; // the drawer closed itself to show a line: leave its lines marked
+
+  function el(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined && text !== null) node.textContent = text;
+    return node;
+  }
+
+  function plural(n, word) { return n.toLocaleString() + ' ' + word + (n === 1 ? '' : 's'); }
+
+  function lineEl(n) { return document.getElementById(PAGE + n); }
+
+  function mark(lines) {
+    Array.prototype.forEach.call(document.querySelectorAll('#contents-container .subject-hit'), function (node) { node.classList.remove('subject-hit'); });
+    (lines || []).forEach(function (n) { var node = lineEl(n); if (node) node.classList.add('subject-hit'); });
+  }
+
+  function narrow() { return window.matchMedia('(max-width: 767.98px)').matches; }
+
+  function renderList(focusKey) {
+    chosen = null;
+    at = -1;
+    mark([]);
+    var frag = document.createDocumentFragment();
+    frag.appendChild(el('p', 'small text-muted', plural(subjects.length, 'subject') + ' from the collection’s subject index come up in this interview. Choose one to see where.'));
+    var nav = el('nav', 'si-list');
+    nav.setAttribute('aria-label', 'Subjects in this interview');
+    var category = null, list = null;
+    subjects.forEach(function (subject) {
+      if (subject.category !== category) {
+        category = subject.category;
+        var details = el('details', 'si-cat');
+        details.open = true;
+        var summary = el('summary');
+        summary.appendChild(el('span', null, category));
+        list = el('ul', 'list-unstyled');
+        details.appendChild(summary);
+        details.appendChild(list);
+        nav.appendChild(details);
+      }
+      var button = el('button', 'si-term');
+      button.type = 'button';
+      button.appendChild(el('span', null, subject.label));
+      button.appendChild(el('span', 'si-n', String(subject.lines.length)));
+      button.setAttribute('aria-label', subject.label + ', ' + plural(subject.lines.length, 'line'));
+      button.addEventListener('click', function () { choose(subject); });
+      if (focusKey === subject.slug + '/' + subject.key) button.dataset.focus = '1';
+      var item = el('li');
+      item.appendChild(button);
+      list.appendChild(item);
+    });
+    frag.appendChild(nav);
+    body.replaceChildren(frag);
+    var back = body.querySelector('[data-focus]');
+    if (back) back.focus();
+  }
+
+  function go(i) {
+    if (!chosen || i < 0 || i >= chosen.lines.length) return;
+    at = i;
+    Array.prototype.forEach.call(body.querySelectorAll('.sd-lines button'), function (button, n) {
+      if (n === at) button.setAttribute('aria-current', 'true'); else button.removeAttribute('aria-current');
+    });
+    var prev = body.querySelector('[data-step="-1"]'), next = body.querySelector('[data-step="1"]');
+    if (prev) prev.disabled = at <= 0;
+    if (next) next.disabled = at >= chosen.lines.length - 1;
+    status.textContent = chosen.label + ': line ' + (at + 1) + ' of ' + chosen.lines.length;
+    // on a phone the drawer covers the text, so it steps aside
+    if (narrow() && window.bootstrap) {
+      keepMarks = true;
+      bootstrap.Offcanvas.getOrCreateInstance(drawer).hide();
+    }
+    if (typeof window.scrollToLine === 'function') window.scrollToLine(PAGE + chosen.lines[at]);
+  }
+
+  function choose(subject) {
+    chosen = subject;
+    at = -1;
+    mark(subject.lines);
+    var frag = document.createDocumentFragment();
+    var back = el('button', 'btn btn-link p-0 mb-2', '‹ All subjects in this interview');
+    back.type = 'button';
+    back.addEventListener('click', function () { renderList(subject.slug + '/' + subject.key); });
+    var heading = el('h3', 'h4 mb-1', subject.label);
+    heading.tabIndex = -1;
+    frag.appendChild(back);
+    frag.appendChild(el('p', 'si-eyebrow mb-0 text-muted', subject.category));
+    frag.appendChild(heading);
+    if (subject.definition) frag.appendChild(el('p', 'mb-1', subject.definition));
+
+    var bar = el('div', 'd-flex align-items-center gap-2 mt-2');
+    var group = el('div', 'btn-group');
+    group.setAttribute('role', 'group');
+    group.setAttribute('aria-label', 'Step through the lines');
+    [[-1, '‹', 'Previous line'], [1, '›', 'Next line']].forEach(function (step) {
+      var button = el('button', 'btn btn-outline-primary py-1', step[1]);
+      button.type = 'button';
+      button.dataset.step = String(step[0]);
+      button.setAttribute('aria-label', step[2]);
+      button.title = step[2];
+      button.addEventListener('click', function () { go(at < 0 ? 0 : at + step[0]); });
+      group.appendChild(button);
+    });
+    bar.appendChild(group);
+    bar.appendChild(el('span', 'small', plural(subject.lines.length, 'line') + ' in this interview'));
+    frag.appendChild(bar);
+
+    var list = el('div', 'sd-lines');
+    subject.lines.forEach(function (n, i) {
+      var node = lineEl(n);
+      var words = node && node.querySelector('.words');
+      var time = node && node.querySelector('.timestamp');
+      var text = words ? words.textContent.replace(/\s+/g, ' ').trim() : '';
+      var stamp = time ? time.textContent.replace(/\s+/g, ' ').trim() : '';
+      var button = el('button');
+      button.type = 'button';
+      button.appendChild(el('b', null, stamp || 'Line ' + (n + 1)));
+      button.appendChild(document.createTextNode(text.length > 150 ? text.slice(0, 150) + '…' : text));
+      button.addEventListener('click', function () { go(i); });
+      list.appendChild(button);
+    });
+    frag.appendChild(list);
+
+    var elsewhere = subject.count - subject.lines.length;
+    if (INDEX && elsewhere > 0) {
+      var link = el('a', null, plural(elsewhere, 'passage') + ' in ' + plural(subject.interviews - 1, 'other interview') + ' ›');
+      link.href = INDEX + '?term=' + encodeURIComponent(subject.slug + '/' + subject.key);
+      var more = el('p', 'mt-3 mb-0');
+      more.appendChild(link);
+      frag.appendChild(more);
+    } else if (INDEX) {
+      frag.appendChild(el('p', 'small text-muted mt-3 mb-0', 'This is the only interview where it comes up.'));
+    }
+    body.replaceChildren(frag);
+    var prev = body.querySelector('[data-step="-1"]');
+    if (prev) prev.disabled = true;
+    heading.focus();
+  }
+
+  function load() {
+    fetch(SOURCE + 'interviews/' + encodeURIComponent(PAGE) + '.json').then(function (response) {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.json();
+    }).then(function (data) {
+      var F = {};
+      data.fields.forEach(function (name, i) { F[name] = i; });
+      subjects = data.subjects.map(function (row) {
+        return { category: row[F.category], slug: row[F.slug], key: row[F.key], label: row[F.label], definition: row[F.definition],
+          lines: row[F.lines], count: row[F.count], interviews: row[F.interviews] };
+      });
+      renderList();
+    }).catch(function () {
+      body.replaceChildren(el('p', 'alert alert-warning', 'The list could not be loaded. Check your connection and open this again.'));
+    });
+  }
+
+  drawer.addEventListener('show.bs.offcanvas', function () { if (!subjects) load(); else if (chosen) mark(chosen.lines); });
+  drawer.addEventListener('hidden.bs.offcanvas', function () {
+    if (!keepMarks) mark([]);
+    keepMarks = false;
+  });
+})();
+</script>

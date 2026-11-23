@@ -1,0 +1,395 @@
+<script>
+/*
+ * Subject Index page (markup: _includes/subject-index/page.html).
+ *
+ * Three ways to a subject:
+ *   - search: matches a subject's name, the names gathered under it, and its definition,
+ *     so "whiskey" finds "Liquor";
+ *   - browse: the categories, or everything A-Z;
+ *   - follow: "see also" in an open subject leads to the subjects that come up beside it.
+ *
+ * Opening a subject shows its passages in the panel, grouped by interview. Each passage
+ * links to its line in the interview. The open subject is in the address (?term=), so it
+ * can be linked to and the back button works.
+ *
+ * Data: #si-data lists the categories and subjects; a category's passages are fetched
+ * from <source>/<category-slug>.json when one of its subjects is first opened.
+ */
+(function () {
+  'use strict';
+
+  const root = document.getElementById('si-root');
+  const source = document.getElementById('si-data');
+  if (!root || !source) return;
+
+  let categories = [];
+  try { categories = JSON.parse(source.textContent) || []; } catch (error) { return; }
+
+  const SOURCE = root.dataset.source;
+  const ITEMS = root.dataset.items;
+  const SHOWN = 4;   // passages shown for an interview before "show all"
+  const ui = {
+    search: document.getElementById('si-search'),
+    list: document.getElementById('si-list'),
+    panel: document.getElementById('si-panel'),
+    count: document.getElementById('si-count'),
+    byCategory: document.getElementById('si-by-category'),
+    byName: document.getElementById('si-by-name')
+  };
+  const pageTitle = document.title;
+  const sorter = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true });
+
+  const terms = [];
+  const byId = new Map();
+  categories.forEach((category) => {
+    category.terms.forEach((term) => {
+      if (!term.count) return;
+      term.category = category;
+      term.id = category.slug + '/' + term.key;
+      term.sort = term.label.replace(/^[^\p{L}\p{N}]+/u, '');
+      terms.push(term);
+      byId.set(term.id, term);
+    });
+  });
+
+  let order = 'category';
+  let active = null;
+  let only = null;        // one of the open subject's included names, to narrow its passages
+  const files = {};       // category slug -> promise of its JSON
+
+  /* ---------- helpers ---------- */
+
+  function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined && text !== null) node.textContent = text;
+    return node;
+  }
+
+  function plural(n, word) { return n.toLocaleString() + ' ' + word + (n === 1 ? '' : 's'); }
+
+  function fold(text) { return String(text || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+
+  function termHref(term) { return '?term=' + encodeURIComponent(term.id); }
+
+  function termLink(term, note) {
+    const link = el('a', 'si-term');
+    link.href = termHref(term);
+    link.dataset.id = term.id;
+    const name = el('span', null, term.label);
+    if (note) name.append(el('small', null, note));
+    link.append(name, el('span', 'si-n', term.count.toLocaleString()));
+    link.setAttribute('aria-label', term.label + ', ' + plural(term.count, 'passage'));
+    if (active === term) link.setAttribute('aria-current', 'true');
+    return link;
+  }
+
+  function termList(list, notes) {
+    const ul = el('ul', 'list-unstyled');
+    list.forEach((term) => {
+      const item = el('li');
+      item.append(termLink(term, notes && notes.get(term)));
+      ul.append(item);
+    });
+    return ul;
+  }
+
+  /* ---------- the list ---------- */
+
+  function search(query) {
+    const q = fold(query.trim());
+    const found = [], notes = new Map();
+    terms.forEach((term) => {
+      const label = fold(term.label);
+      let rank = -1;
+      if (label === q) rank = 0;
+      else if (label.startsWith(q)) rank = 1;
+      else if (label.includes(q)) rank = 2;
+      else {
+        const hit = (term.includes || []).find((name) => fold(name).includes(q));
+        if (hit) { rank = 3; notes.set(term, 'includes ' + hit); }
+        else if (fold(term.definition).includes(q)) rank = 4;
+      }
+      if (rank > -1) found.push([rank, term]);
+    });
+    found.sort((a, b) => a[0] - b[0] || b[1].count - a[1].count || sorter.compare(a[1].sort, b[1].sort));
+    return { terms: found.map((entry) => entry[1]), notes };
+  }
+
+  function renderList() {
+    const query = ui.search.value.trim();
+    const frag = document.createDocumentFragment();
+    if (query) {
+      const result = search(query);
+      ui.count.textContent = plural(result.terms.length, 'subject') + ' found';
+      if (result.terms.length) frag.append(termList(result.terms, result.notes));
+      else frag.append(el('p', 'si-none', 'Nothing in the index matches "' + query + '". The search box on an interview page searches its full text.'));
+    } else if (order === 'name') {
+      ui.count.textContent = plural(terms.length, 'subject');
+      let letter = null, group = [];
+      const flush = () => {
+        if (!group.length) return;
+        frag.append(el('h3', 'si-letter', letter), termList(group));
+        group = [];
+      };
+      terms.slice().sort((a, b) => sorter.compare(a.sort, b.sort)).forEach((term) => {
+        const first = term.sort.charAt(0).toUpperCase();
+        const here = /\p{L}/u.test(first) ? first.normalize('NFD').charAt(0) : '#';
+        if (here !== letter) { flush(); letter = here; }
+        group.push(term);
+      });
+      flush();
+    } else {
+      ui.count.textContent = plural(terms.length, 'subject');
+      // a long index opens with its categories closed, except the open subject's
+      const closed = terms.length > 60;
+      categories.forEach((category) => {
+        const list = category.terms.filter((term) => term.count);
+        if (!list.length) return;
+        const details = el('details', 'si-cat');
+        details.dataset.slug = category.slug;
+        details.open = !closed || (active && active.category === category);
+        const summary = el('summary');
+        summary.append(el('span', null, category.tag), el('span', 'si-n', list.length.toLocaleString()));
+        details.append(summary, termList(list));
+        frag.append(details);
+      });
+    }
+    ui.list.replaceChildren(frag);
+  }
+
+  function setOrder(next) {
+    order = next;
+    ui.byCategory.classList.toggle('active', order === 'category');
+    ui.byName.classList.toggle('active', order === 'name');
+    ui.byCategory.setAttribute('aria-pressed', String(order === 'category'));
+    ui.byName.setAttribute('aria-pressed', String(order === 'name'));
+    if (ui.search.value) ui.search.value = '';
+    renderList();
+  }
+
+  function markActive() {
+    ui.list.querySelectorAll('.si-term').forEach((link) => {
+      if (active && link.dataset.id === active.id) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+  }
+
+  /* ---------- the panel ---------- */
+
+  function load(slug) {
+    if (!files[slug]) {
+      files[slug] = fetch(SOURCE + encodeURIComponent(slug) + '.json').then((response) => {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.json();
+      }).catch((error) => { delete files[slug]; throw error; });
+    }
+    return files[slug];
+  }
+
+  function itemHref(id, line) {
+    return ITEMS + encodeURIComponent(id) + '.html?line=' + encodeURIComponent(id + line);
+  }
+
+  function welcome() {
+    const frag = document.createDocumentFragment();
+    frag.append(el('p', 'si-hint', 'Choose a subject to read what speakers say about it.'));
+    const most = terms.slice().sort((a, b) => b.interviews - a.interviews || b.count - a.count).slice(0, 12);
+    if (most.length) {
+      frag.append(el('h3', 'h6 text-uppercase text-muted mt-4', 'In the most interviews'));
+      const row = el('p', 'si-links');
+      most.forEach((term) => {
+        const link = el('a', null, term.label);
+        link.href = termHref(term);
+        link.dataset.id = term.id;
+        row.append(link);
+      });
+      frag.append(row);
+    }
+    ui.panel.replaceChildren(frag);
+  }
+
+  function passageItem(o, F, term) {
+    const item = el('li', 'si-passage');
+    const quote = el('blockquote');
+    const text = el('p');
+    if (o[F.found]) text.append(o[F.before] || '', el('mark', null, o[F.match]), o[F.after] || '');
+    else text.append(o[F.before] || '');
+    quote.append(text);
+    const cite = el('p', 'si-cite');
+    const speaker = String(o[F.speaker] || '').replace(/:$/, '');
+    if (speaker) cite.append(el('span', null, speaker), ' · ');
+    const link = el('a', null, o[F.timestamp] ? 'Open at ' + o[F.timestamp] : 'Open in the interview');
+    link.href = itemHref(o[F.objectid], o[F.line]);
+    link.setAttribute('aria-label', (o[F.timestamp] ? 'Open the interview at ' + o[F.timestamp] : 'Open this line in the interview') + ' (' + term.label + ')');
+    cite.append(link);
+    item.append(quote, cite);
+    return item;
+  }
+
+  function renderPanel(term, file) {
+    const F = {};
+    file.fields.forEach((name, i) => { F[name] = i; });
+    const all = file.terms[term.key] || [];
+    const startsWith = (o, name) => o[F.found] && fold(o[F.match]).startsWith(fold(name));
+    const shown = only ? all.filter((o) => startsWith(o, only)) : all;
+
+    const frag = document.createDocumentFragment();
+    const back = el('a', 'si-back d-lg-none', '‹ All subjects');
+    back.href = '#si-list';
+    frag.append(back);
+
+    const eyebrow = el('button', 'si-eyebrow btn btn-link p-0', term.category.tag);
+    eyebrow.type = 'button';
+    eyebrow.title = 'Show this category in the list';
+    eyebrow.addEventListener('click', () => {
+      setOrder('category');
+      const section = ui.list.querySelector('details[data-slug="' + term.category.slug + '"]');
+      if (section) { section.open = true; section.scrollIntoView({ block: 'nearest' }); section.querySelector('summary').focus(); }
+    });
+    const heading = el('h3', 'si-title', term.label);
+    heading.id = 'si-title';
+    heading.tabIndex = -1;
+    frag.append(eyebrow, heading);
+    if (term.definition) frag.append(el('p', 'si-definition', term.definition));
+    frag.append(el('p', 'si-summary', plural(term.count, 'passage') + ' in ' + plural(term.interviews, 'interview')));
+
+    if (term.includes && term.includes.length) {
+      const row = el('p', 'si-includes');
+      row.append(el('span', 'si-key', 'Includes'));
+      term.includes.forEach((name) => {
+        const n = all.filter((o) => startsWith(o, name)).length;
+        if (!n) { row.append(el('span', 'si-chip is-empty', name)); return; }
+        const chip = el('button', 'si-chip', name);
+        chip.type = 'button';
+        chip.append(el('span', 'si-n', String(n)));
+        chip.setAttribute('aria-pressed', String(only === name));
+        chip.title = only === name ? 'Show every passage' : 'Show only the passages that say "' + name + '"';
+        chip.addEventListener('click', () => { only = only === name ? null : name; renderPanel(term, file); });
+        row.append(chip);
+      });
+      frag.append(row);
+    }
+
+    if (term.related && term.related.length) {
+      const row = el('p', 'si-links');
+      row.append(el('span', 'si-key', 'See also'));
+      term.related.forEach((other) => {
+        const target = byId.get(other.slug + '/' + other.key);
+        if (!target) return;
+        const link = el('a', null, target.label);
+        link.href = termHref(target);
+        link.dataset.id = target.id;
+        row.append(link);
+      });
+      if (row.children.length > 1) frag.append(row);
+    }
+
+    // by interview: the ones with the most to say first
+    const groups = new Map();
+    shown.forEach((o) => {
+      if (!groups.has(o[F.objectid])) groups.set(o[F.objectid], []);
+      groups.get(o[F.objectid]).push(o);
+    });
+    const titleOf = (id) => file.titles[id] || id;
+    if (only) frag.append(el('p', 'si-narrowed', 'Showing ' + plural(shown.length, 'passage') + ' that say "' + only + '".'));
+    Array.from(groups.entries()).sort((a, b) => b[1].length - a[1].length || sorter.compare(titleOf(a[0]), titleOf(b[0]))).forEach(([id, list]) => {
+      const section = el('section', 'si-interview');
+      const head = el('h4');
+      const link = el('a', null, titleOf(id));
+      link.href = ITEMS + encodeURIComponent(id) + '.html';
+      head.append(link, el('span', 'si-n', plural(list.length, 'passage')));
+      const ul = el('ul', 'list-unstyled');
+      list.slice(0, SHOWN).forEach((o) => ul.append(passageItem(o, F, term)));
+      section.append(head, ul);
+      if (list.length > SHOWN) {
+        const more = el('button', 'btn btn-sm btn-outline-primary', 'Show all ' + list.length + ' passages');
+        more.type = 'button';
+        more.addEventListener('click', () => {
+          const first = ul.children.length;
+          list.slice(SHOWN).forEach((o) => ul.append(passageItem(o, F, term)));
+          more.remove();
+          const next = ul.children[first] && ul.children[first].querySelector('a');
+          if (next) next.focus();
+        });
+        section.append(more);
+      }
+      frag.append(section);
+    });
+    ui.panel.replaceChildren(frag);
+  }
+
+  function open(id, options) {
+    options = options || {};
+    const term = byId.get(id);
+    if (!term) { close(options); return; }
+    active = term;
+    only = null;
+    markActive();
+    if (options.push) history.pushState({ term: id }, '', termHref(term));
+    document.title = term.label + ' · ' + pageTitle;
+    ui.panel.setAttribute('aria-busy', 'true');
+    load(term.category.slug).then((file) => {
+      if (active !== term) return;
+      renderPanel(term, file);
+      ui.panel.removeAttribute('aria-busy');
+      // on one column the panel is below the list: bring it up, also when arriving by a link
+      const stacked = window.matchMedia('(max-width: 991.98px)').matches;
+      if ((options.focus || options.arrive) && (stacked || ui.panel.getBoundingClientRect().top < 0)) ui.panel.scrollIntoView({ block: 'start' });
+      if (options.focus) {
+        const heading = document.getElementById('si-title');
+        if (heading) heading.focus({ preventScroll: true });
+      }
+    }).catch(() => {
+      if (active !== term) return;
+      ui.panel.removeAttribute('aria-busy');
+      ui.panel.replaceChildren(el('p', 'alert alert-warning', 'The passages for "' + term.label + '" could not be loaded. Check your connection and try again.'));
+    });
+  }
+
+  function close(options) {
+    active = null;
+    only = null;
+    markActive();
+    document.title = pageTitle;
+    if (options && options.push) history.pushState({}, '', location.pathname);
+    welcome();
+  }
+
+  /* ---------- events ---------- */
+
+  // any link to a subject, in the list or in the panel
+  root.addEventListener('click', (event) => {
+    const link = event.target.closest('a[data-id]');
+    if (!link || event.metaKey || event.ctrlKey || event.shiftKey || event.button) return;
+    event.preventDefault();
+    open(link.dataset.id, { push: true, focus: true });
+  });
+
+  let timer = null;
+  ui.search.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(renderList, 120);
+  });
+  ui.search.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter') return;
+    event.preventDefault();
+    clearTimeout(timer);
+    renderList();
+    const first = ui.list.querySelector('.si-term');
+    if (first) open(first.dataset.id, { push: true, focus: true });
+  });
+  ui.byCategory.addEventListener('click', () => setOrder('category'));
+  ui.byName.addEventListener('click', () => setOrder('name'));
+
+  function fromAddress() {
+    const id = new URLSearchParams(location.search).get('term');
+    if (id && byId.has(id)) open(id, { arrive: true });
+    else close();
+  }
+  window.addEventListener('popstate', () => { fromAddress(); renderList(); });
+
+  fromAddress();
+  renderList();
+})();
+</script>

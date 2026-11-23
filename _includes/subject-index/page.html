@@ -1,0 +1,57 @@
+{%- comment -%}
+
+    Subject Index (layout: subject-index).
+
+    The list on the left is written here by Liquid from site.data.subject_index, so it can be
+    read without JavaScript. _includes/subject-index/subject-index-js.html then takes it
+    over: search, the A-Z order, and the panel on the right, which shows a subject's
+    passages from the JSON files that _plugins/subject_index.rb writes.
+
+{%- endcomment -%}
+{%- assign si_output = site.data.theme.subject-index-output | default: 'assets/data/subject-index' -%}
+{%- if site.data.subject_index and site.data.subject_index.size > 0 -%}
+<div class="si" id="si-root"
+     data-source="{{ '/' | append: si_output | append: '/' | replace: '//', '/' | relative_url }}"
+     data-items="{{ site.data.subject_index_item_base | default: '/items/' | relative_url }}">
+
+  <div class="si-side d-print-none">
+    <div class="si-tools">
+      <label class="visually-hidden" for="si-search">Search the subject index</label>
+      <input type="search" class="form-control border border-primary" id="si-search" placeholder="Search people, places, things…" autocomplete="off" enterkeyhint="search">
+      <div class="d-flex align-items-center justify-content-between gap-2 mt-2">
+        <div class="btn-group btn-group-sm" role="group" aria-label="Order of the list">
+          <button type="button" class="btn btn-outline-primary active" id="si-by-category" aria-pressed="true">By category</button>
+          <button type="button" class="btn btn-outline-primary" id="si-by-name" aria-pressed="false">A–Z</button>
+        </div>
+        <span class="small text-muted" id="si-count" role="status"></span>
+      </div>
+    </div>
+    <nav class="si-list" id="si-list" aria-label="Subjects">
+      {%- for tag in site.data.subject_index -%}
+      {%- if tag.count > 0 %}
+      <details class="si-cat" open>
+        <summary><span>{{ tag.tag }}</span></summary>
+        <ul class="list-unstyled">
+          {%- for term in tag.terms -%}
+          {%- if term.count > 0 %}
+          <li><a class="si-term" href="?term={{ tag.slug | append: '/' | append: term.key | url_encode }}"><span>{{ term.label }}</span> <span class="si-n">{{ term.count }}</span></a></li>
+          {%- endif -%}
+          {%- endfor %}
+        </ul>
+      </details>
+      {%- endif -%}
+      {%- endfor %}
+    </nav>
+  </div>
+
+  <section class="si-panel" id="si-panel" aria-label="Passages" tabindex="-1">
+    <noscript><p class="alert alert-warning">Reading the passages for a subject needs JavaScript.</p></noscript>
+  </section>
+
+  <script type="application/json" id="si-data">{{ site.data.subject_index_json }}</script>
+</div>
+{%- else -%}
+<div class="alert alert-warning">
+  This collection has no subject index yet. Add <code>_data/subject-index.csv</code> (Transcript Prep in <code>tools/transcript-prep/</code> can build it) and rebuild the site.
+</div>
+{%- endif -%}

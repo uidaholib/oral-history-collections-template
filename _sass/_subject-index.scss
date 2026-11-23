@@ -1,0 +1,345 @@
+/* Subject Index page (layout: subject-index) and the "In this interview" list on
+   interview pages. Markup: _includes/subject-index/page.html and
+   _includes/transcript/item/subject-drawer.html. */
+
+.si {
+    display: grid;
+    grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+    margin-top: 1.5rem;
+}
+
+// the list: stays in view while the passages scroll
+.si-side {
+    position: sticky;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 2rem);
+}
+
+.si-list {
+    overflow-y: auto;
+    margin-top: 0.75rem;
+    padding-right: 0.25rem;
+    border-top: 1px solid var(--bs-border-color);
+
+    ul {
+        margin: 0 0 0.5rem;
+    }
+}
+
+.si-cat {
+    border-bottom: 1px solid var(--bs-border-color);
+
+    summary {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+        padding: 0.45rem 0.25rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    summary::marker {
+        content: "";
+    }
+
+    summary > span:first-child::before {
+        content: "\25B8";
+        display: inline-block;
+        width: 1rem;
+        color: var(--bs-secondary-color);
+    }
+
+    &[open] summary > span:first-child::before {
+        content: "\25BE";
+    }
+}
+
+.si-letter {
+    margin: 0.9rem 0 0.2rem 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--bs-secondary-color);
+}
+
+.si-n {
+    flex: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+    color: var(--bs-secondary-color);
+}
+
+.si-term {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 0.25rem 0.5rem 0.25rem 1.25rem;
+    border-radius: 0.3rem;
+    color: inherit;
+    text-decoration: none;
+
+    small {
+        display: block;
+        color: var(--bs-secondary-color);
+    }
+
+    &:hover,
+    &:focus-visible {
+        background: var(--bs-tertiary-bg);
+        color: inherit;
+    }
+
+    &[aria-current] {
+        background: var(--bs-primary);
+        color: #fff;
+
+        .si-n,
+        small {
+            color: inherit;
+        }
+    }
+}
+
+.si-none,
+.si-hint {
+    color: var(--bs-secondary-color);
+}
+
+.si-none {
+    padding: 0.75rem 0.25rem;
+}
+
+// the open subject
+.si-panel {
+    min-width: 0;
+    max-width: 44rem;
+    scroll-margin-top: 1rem;
+
+    &:focus {
+        outline: none;
+    }
+
+    &[aria-busy="true"] {
+        opacity: 0.5;
+    }
+}
+
+.si-back {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+
+.si-eyebrow {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.si-title {
+    margin: 0.1rem 0 0.25rem;
+    font-size: 1.9rem;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.si-definition {
+    margin-bottom: 0.25rem;
+    font-size: 1.05rem;
+}
+
+.si-summary {
+    color: var(--bs-secondary-color);
+}
+
+.si-key {
+    margin-right: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--bs-secondary-color);
+}
+
+.si-includes,
+.si-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.si-links a:not(:last-child)::after {
+    content: "\00B7";
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: var(--bs-secondary-color);
+}
+
+.si-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    padding: 0.05rem 0.6rem;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 999px;
+    background: var(--bs-body-bg);
+    color: inherit;
+    font-size: 0.9rem;
+
+    &.is-empty {
+        border-style: dashed;
+        color: var(--bs-secondary-color);
+    }
+
+    &[aria-pressed="true"] {
+        border-color: var(--bs-primary);
+        background: var(--bs-primary);
+        color: #fff;
+
+        .si-n {
+            color: inherit;
+        }
+    }
+}
+
+button.si-chip:hover {
+    border-color: var(--bs-primary);
+}
+
+.si-narrowed {
+    font-size: 0.9rem;
+    color: var(--bs-secondary-color);
+}
+
+.si-interview {
+    margin-top: 1.75rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--bs-border-color);
+
+    h4 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1rem;
+        margin-bottom: 0.75rem;
+        font-size: 1.15rem;
+    }
+}
+
+.si-passage {
+    margin-bottom: 1.1rem;
+
+    blockquote {
+        margin: 0;
+        padding-left: 0.9rem;
+        border-left: 3px solid var(--bs-border-color);
+    }
+
+    blockquote p {
+        margin: 0;
+        font-size: 1.05rem;
+        line-height: 1.55;
+    }
+
+    mark {
+        padding: 0 0.15em;
+        font-weight: 600;
+    }
+}
+
+.si-cite {
+    margin: 0.2rem 0 0 0.9rem;
+    padding-left: 3px;
+    font-size: 0.88rem;
+    color: var(--bs-secondary-color);
+}
+
+@media (max-width: 991.98px) {
+    .si {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1.5rem;
+    }
+
+    .si-side {
+        position: static;
+        max-height: none;
+    }
+
+    .si-list {
+        max-height: 60vh;
+    }
+}
+
+@media print {
+    .si {
+        display: block;
+    }
+}
+
+/* "In this interview": the subjects of one interview, in a drawer the reader calls up */
+.subject-drawer {
+    --bs-offcanvas-width: min(24rem, 92vw);
+
+    .offcanvas-body {
+        padding-top: 0;
+    }
+
+    .si-list {
+        margin-top: 0.75rem;
+    }
+
+    .si-term {
+        width: 100%;
+        border: 0;
+        background: none;
+        text-align: left;
+
+        &:hover,
+        &:focus-visible {
+            background: var(--bs-tertiary-bg);
+        }
+    }
+
+    .sd-lines {
+        margin: 0.75rem 0;
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 0.45rem 0.5rem;
+            border: 0;
+            border-bottom: 1px solid var(--bs-border-color);
+            background: none;
+            text-align: left;
+            font-size: 0.92rem;
+        }
+
+        button:hover,
+        button:focus-visible,
+        button[aria-current] {
+            background: var(--bs-tertiary-bg);
+        }
+
+        b {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--bs-secondary-color);
+        }
+    }
+}
+
+// the lines of the subject chosen in the drawer
+#contents-container .line.subject-hit .words {
+    box-shadow: -0.9rem 0 0 -0.6rem var(--bs-primary);
+}

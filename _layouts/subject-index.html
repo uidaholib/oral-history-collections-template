@@ -1,0 +1,13 @@
+---
+# Subject Index
+# The specific people, places and things that come up across the interviews, each gathered
+# under the heading a reader would look for, with every passage on it. Search, browse by
+# category or A-Z, open a subject to read its passages by interview, and follow "see also".
+# Data: _data/subject-index.csv, indexed at build time by _plugins/subject_index.rb.
+layout: default
+custom-foot: subject-index/subject-index-js.html
+---
+<div class="container my-4 subject-index">
+  {{ content }}
+  {% include subject-index/page.html %}
+</div>
