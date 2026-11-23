@@ -8,7 +8,8 @@
 # 
 transcript-fields: "description,date,location,interviewer,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
 # list the fields you'd like displayed, separated by comma
-media-scroll: true ## true/false or blank --> determines if the media and visualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
+media-scroll: true ## true/false or blank --> if true, readers can call the player up as a bar along the bottom of the window while they read a transcript (it opens from a "Player" tab, closes with its X, and never opens on scroll alone)
+media-dock-auto: true ## true/false --> with media-scroll on, selecting a timestamp opens that player bar when the player at the top of the page is out of view. false = only the "Player" tab opens it
 search-and-filters: true ## true/false --> determines if the search and filter options that appears above the text of an interview/transcript 
 search-and-filters-sticky: true ## true/false --> determines if the search and filter options are sticky to the top of the page as a user scrolls down a transcript
 
@@ -16,13 +17,35 @@ search-and-filters-sticky: true ## true/false --> determines if the search and f
 # Visualization page / Oral History as Data Options 
 # 
 as-data: true ## true/false --> determines if the "As Data" button and modal that pops up if you click it will appear at the top right of the visualization page
-transcript-contents: true ## true/false --> determines if the contents of the individual interviews will appear and be filtered at the bottom of the visualization page (below the color coded portion)
+transcript-contents: true ## true/false --> determines if the Passages section (passages for the selected topic, grouped by interview and printable) appears below the color-coded bars on the visualization page
 
-### For Large Collections -- !!!! Warning ###
+# The visualization is drawn from small JSON files written at build time by _plugins/topic_viz_index.rb (no rake task needed),
+# so it stays fast for any collection size. Choose how the bars are displayed:
+visualization-size: auto ## large / compact / auto --> large = one tall bar per interview with its name above (best for smaller collections); compact = thin strips in columns (best for large collections); auto = picks by number of interviews
+visualization-compact-threshold: 25 ## with auto, switch to compact when there are more interviews than this
+# compact rows adjust to the collection size automatically: tallest with 10 or fewer interviews, then 11-30, 31-100, and thinnest over 100
+topic-viz-tags: filters ## filters / all --> filters = only the tags listed in _data/filters.csv; all = every tag found in the transcripts
+topic-viz-output: assets/data/topic-viz ## where the visualization's index and per-topic JSON files are written
+topic-viz-row-label: name ## name / title --> name = one row per person (from person records, else the interviewee); title = one row per interview, labelled by its title
 
-# If you turn the below option `json-generation` to true, you'll need to run the rake command `generate_json` -- that command will generate the necessary json files for your collection. 
+##########
+# Subject Index / Oral History as Data Options
+#
+# A subject index lists the specific people, places and things that come up in the interviews, each with the names
+# gathered under it, and links to every passage. It is built from _data/subject-index.csv (tools/transcript-prep can
+# write it) by _plugins/subject_index.rb. Without that file these options do nothing.
+# (The tree and list pages are separate: see Subject Map below, which uses _data/subject-map.csv.)
+subject-index: true ## true/false --> false if you remove the Subject Index page (pages/subject-index.md); interview pages then stop linking to it
+subject-drawer: true ## true/false --> determines if interview pages offer "In this interview", a list of the subjects mentioned there that the reader calls up
+subject-index-data: subject-index ## name of the subject index CSV in _data (no extension)
+subject-index-output: assets/data/subject-index ## where the Subject Index's per-category and per-interview JSON files are written
+subject-index-context-words: 25 ## how many words are shown on either side of a subject in each passage on the Subject Index page
+subject-index-related: 6 ## how many "see also" subjects to list for each subject (0 for none)
 
-json-generation: false ## true/false --> defaults to false (see note below if you turn to true!). This determines if JSON files will be accessed for the visualization page. 
+### JSON downloads ###
+# If you turn the below option `json-generation` to true, you'll need to run the rake command `generate_json` -- that command will generate the json files for your collection.
+# This only affects the "Transcripts as JSON" download options; the visualization no longer uses it.
+json-generation: false ## true/false --> defaults to false. If true, the Data Access section offers per-transcript JSON downloads.
 
 
 
@@ -94,7 +117,7 @@ year-nav-increment: 5 # set increments to auto gen nav years
 
 ##########
 # Subject Map page / Oral History as Data Options
-# Expanding tag/term tree at /subject-map.html, built from _data/subject-map.csv.
+# Expanding tag/term tree at /subject-map.html and the A-Z list at /subject-list.html, built from _data/subject-map.csv.
 # Passages are indexed at build time by _plugins/subject_map_index.rb.
 #
 subject-map-data: subject-map          # name of the tag/term CSV in _data (no extension)
